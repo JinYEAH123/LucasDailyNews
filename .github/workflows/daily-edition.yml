@@ -1,0 +1,91 @@
+name: Daily edition
+
+# Publishes at 5:00 PM Vancouver time, covering the previous 24 hours.
+# GitHub cron is UTC and does not follow daylight saving, so both candidate
+# hours fire and the job itself checks the local clock. Whichever run lands on
+# 5 PM Vancouver does the work; the other exits in a few seconds.
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 17:00 Vancouver while PDT (UTC-7)
+    - cron: '0 1 * * *'   # 17:00 Vancouver while PST (UTC-8)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Edition date (YYYY-MM-DD). Blank = the current window.'
+        required: false
+      force:
+        description: 'Regenerate even if that edition already exists'
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the Vancouver clock
+        id: clock
+        run: |
+          hour=$(TZ=America/Vancouver date +%-H)
+          echo "Vancouver time is now $(TZ=America/Vancouver date)"
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "Manual run — proceeding."
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          elif [ "$hour" -ge 17 ] && [ "$hour" -le 18 ]; then
+            # The window tolerates GitHub's cron delay, which can run to an hour.
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Not the 5 PM run (hour=$hour) — skipping."
+            echo "go=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.clock.outputs.go == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.clock.outputs.go == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        if: steps.clock.outputs.go == 'true'
+        run: pip install --quiet anthropic
+
+      - name: Generate today's edition
+        if: steps.clock.outputs.go == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/generate_edition.py \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Render the site
+        if: steps.clock.outputs.go == 'true'
+        run: python3 scripts/render_site.py
+
+      - name: Commit and push
+        if: steps.clock.outputs.go == 'true'
+        run: |
+          git config user.name  "lucas-daily-news[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/editions docs
+          if git diff --cached --quiet; then
+            echo "Nothing changed — the edition was already published."
+            exit 0
+          fi
+          git commit -m "Edition for $(TZ=America/Vancouver date +%Y-%m-%d)"
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push failed, retry $attempt"
+            sleep $((2 ** attempt))
+          done
+          echo "Could not push after 4 attempts" >&2
+          exit 1

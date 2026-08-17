@@ -1,0 +1,500 @@
+/* Lucas Daily News — stylesheet
+ *
+ * Design notes
+ * ------------
+ * Ground      A cool grey-green, the colour of Vancouver rain-light on newsprint.
+ *             Deliberately not cream; the page is read at 5 PM, not at breakfast.
+ * Accent      There is no single accent. Each story sets --accent from its own
+ *             beat (politics / society / business / tech), so the colour of a card
+ *             tells you what kind of news it is before you read a word. Global
+ *             chrome stays graphite so the three beats are the only colour on the page.
+ * Type        Fraunces for headlines — a serif with enough character to feel like a
+ *             masthead and enough warmth for a 12-year-old. Public Sans for reading.
+ *             Noto Sans SC carries the Chinese so both languages are properly set.
+ *
+ * Themes: bare :root is the full light palette; the dark tokens are redefined twice
+ * so an OS preference and an explicit toggle both resolve correctly.
+ */
+
+:root {
+  --paper: #eff2ef;
+  --card: #ffffff;
+  --ink: #101619;
+  --ink-soft: #46545b;
+  --ink-faint: #7a878e;
+  --rule: #d7ded9;
+  --rule-soft: #e7ebe7;
+  --chrome: #26343b;
+  --chrome-on: #ffffff;
+  --shadow: 0 1px 2px rgba(16, 22, 25, .04), 0 10px 28px -14px rgba(16, 22, 25, .18);
+
+  --politics: #a4243b;
+  --politics-tint: #fbeef0;
+  --society: #1a6b4a;
+  --society-tint: #eaf4ef;
+  --business: #8a5a0f;
+  --business-tint: #f8f0e2;
+  --tech: #4b3ba8;
+  --tech-tint: #eeecfa;
+
+  --accent: var(--chrome);
+  --accent-tint: var(--rule-soft);
+
+  --display: "Fraunces", "Iowan Old Style", Georgia, "Songti SC", serif;
+  --body: "Public Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0e1316;
+    --card: #161d21;
+    --ink: #e8edee;
+    --ink-soft: #a5b2b8;
+    --ink-faint: #78868d;
+    --rule: #27333a;
+    --rule-soft: #1e272c;
+    --chrome: #cbd7dc;
+    --chrome-on: #0e1316;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .34), 0 10px 28px -14px rgba(0, 0, 0, .7);
+
+    --politics: #f0899c;
+    --politics-tint: #2a171c;
+    --society: #5cc79b;
+    --society-tint: #12251d;
+    --business: #dfae5c;
+    --business-tint: #262013;
+    --tech: #a89bf7;
+    --tech-tint: #1d1a2e;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #0e1316;
+  --card: #161d21;
+  --ink: #e8edee;
+  --ink-soft: #a5b2b8;
+  --ink-faint: #78868d;
+  --rule: #27333a;
+  --rule-soft: #1e272c;
+  --chrome: #cbd7dc;
+  --chrome-on: #0e1316;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .34), 0 10px 28px -14px rgba(0, 0, 0, .7);
+
+  --politics: #f0899c;
+  --politics-tint: #2a171c;
+  --society: #5cc79b;
+  --society-tint: #12251d;
+  --business: #dfae5c;
+  --business-tint: #262013;
+  --tech: #a89bf7;
+  --tech-tint: #1d1a2e;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.66;
+  -webkit-text-size-adjust: 100%;
+  font-synthesis-weight: none;
+}
+
+.wrap {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+a { color: var(--accent); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ---------- language switching ---------- */
+
+[data-lang="en"] .l-zh,
+[data-lang="zh"] .l-en { display: none; }
+
+/* Chinese has no word spaces, so `balance` produces ragged short first lines and
+   breaks mid-compound. Let CJK fill the measure normally instead. */
+[data-lang="zh"] .story h2,
+[data-lang="zh"] .masthead h1,
+[data-lang="zh"] .page-head {
+  text-wrap: wrap;
+  letter-spacing: 0;
+  line-break: strict;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead {
+  padding: 2.5rem 0 1.4rem;
+  margin-bottom: 2.25rem;
+  border-bottom: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  text-align: center;
+}
+
+.masthead h1 {
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 700;
+  font-size: clamp(2.1rem, 7.5vw, 3.1rem);
+  line-height: 1.05;
+  letter-spacing: -.02em;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.masthead h1 a { color: var(--ink); text-decoration: none; }
+
+.masthead .tagline {
+  margin: 0;
+  font-size: .74rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  color: var(--ink-faint);
+}
+
+.dateline {
+  margin: .5rem 0 0;
+  font-size: .88rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.dateline strong {
+  display: block;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* ---------- controls ---------- */
+
+.controls {
+  display: flex;
+  gap: .4rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: .9rem;
+}
+
+.controls button,
+.controls a.btn {
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 500;
+  padding: .32rem .78rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color .15s, color .15s, background-color .15s;
+}
+
+.controls button:hover,
+.controls a.btn:hover { border-color: var(--chrome); color: var(--ink); }
+
+.controls button[aria-pressed="true"] {
+  background: var(--chrome);
+  border-color: var(--chrome);
+  color: var(--chrome-on);
+}
+
+/* ---------- story ---------- */
+
+.story {
+  background: var(--card);
+  border: 1px solid var(--rule-soft);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  padding: 1.5rem 1.5rem 1.2rem;
+  margin-bottom: 1.75rem;
+}
+
+.story.politics { --accent: var(--politics); --accent-tint: var(--politics-tint); }
+.story.society  { --accent: var(--society);  --accent-tint: var(--society-tint); }
+.story.business { --accent: var(--business); --accent-tint: var(--business-tint); }
+.story.tech     { --accent: var(--tech);     --accent-tint: var(--tech-tint); }
+
+.story-top {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-bottom: .55rem;
+}
+
+/* The numeral is the ranking — first is the most consequential, not the first written. */
+.rank {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.chip {
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .11em;
+  text-transform: uppercase;
+  padding: .22rem .6rem;
+  border-radius: 4px;
+  color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.chip.region {
+  color: var(--ink-faint);
+  background: transparent;
+  border: 1px solid var(--rule);
+}
+
+.story h2 {
+  font-family: var(--display);
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 600;
+  font-size: clamp(1.42rem, 4.4vw, 1.8rem);
+  line-height: 1.2;
+  letter-spacing: -.014em;
+  margin: 0 0 .55rem;
+  text-wrap: balance;
+}
+
+.hook {
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  margin: 0 0 1rem;
+}
+
+.story-body p { margin: 0 0 .9rem; }
+.story-body p:last-child { margin-bottom: 0; }
+
+/* ---------- disclosure sections ---------- */
+
+details {
+  border-top: 1px solid var(--rule-soft);
+}
+
+details > summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: .86rem;
+  font-weight: 600;
+  color: var(--accent);
+  padding: .52rem 0;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+details > summary::-webkit-details-marker { display: none; }
+
+details > summary::before {
+  content: "";
+  width: .42rem;
+  height: .42rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
+  transition: transform .18s ease;
+  flex: none;
+}
+
+details[open] > summary::before { transform: rotate(45deg); }
+
+.details-body { padding: .1rem 0 1rem; }
+
+/* ---------- callouts & lists ---------- */
+
+.why {
+  background: var(--accent-tint);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 6px 6px 0;
+  padding: .75rem .95rem;
+  margin: 0 0 1.1rem;
+  font-size: .95rem;
+}
+
+.why .label {
+  display: block;
+  font-size: .67rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: .2rem;
+}
+
+.reads { list-style: none; margin: 0; padding: 0; }
+
+.reads li {
+  padding: .6rem 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+
+.reads li:last-child { border-bottom: none; padding-bottom: 0; }
+
+.reads .r-title {
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.reads .r-title:hover { color: var(--accent); }
+
+.reads .r-pub {
+  font-size: .68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  color: var(--ink-faint);
+  margin-left: .5rem;
+  white-space: nowrap;
+}
+
+.reads .r-sum {
+  margin: .28rem 0 0;
+  font-size: .9rem;
+  color: var(--ink-soft);
+}
+
+.words { list-style: none; margin: 0; padding: 0; }
+.words li { padding: .35rem 0; font-size: .92rem; color: var(--ink-soft); }
+.words b { color: var(--ink); font-weight: 700; }
+
+.questions { margin: 0; padding-left: 1.1rem; font-size: .93rem; color: var(--ink-soft); }
+.questions li { margin: .32rem 0; padding-left: .15rem; }
+.questions li::marker { color: var(--accent); }
+
+.source-line {
+  margin: 0;
+  padding-top: .75rem;
+  border-top: 1px solid var(--rule-soft);
+  font-size: .8rem;
+  color: var(--ink-faint);
+}
+
+.source-line a { color: var(--ink-soft); text-decoration-color: var(--accent); }
+
+.video-link {
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
+.video-link::before { content: "▶ "; color: var(--accent); font-size: .78em; }
+.video-link:hover { color: var(--accent); }
+
+/* ---------- archive ---------- */
+
+.page-head {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 600;
+  font-size: 1.5rem;
+  letter-spacing: -.01em;
+  margin: 0 0 .3rem;
+}
+
+.archive-list { list-style: none; margin: 1.5rem 0 0; padding: 0; }
+
+.archive-item { border-top: 1px solid var(--rule-soft); padding: .95rem 0; }
+
+.archive-item a.date {
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 600;
+  font-size: 1.12rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.archive-item a.date:hover { color: var(--chrome); text-decoration: underline; }
+
+.archive-item .heads {
+  margin: .35rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: .9rem;
+  color: var(--ink-soft);
+}
+
+.archive-item .heads li { margin: .2rem 0; padding-left: .95rem; position: relative; }
+
+.archive-item .heads li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .62em;
+  width: .3rem;
+  height: .3rem;
+  border-radius: 50%;
+  background: var(--ink-faint);
+}
+
+.archive-item .heads li.politics::before { background: var(--politics); }
+.archive-item .heads li.society::before  { background: var(--society); }
+.archive-item .heads li.business::before { background: var(--business); }
+.archive-item .heads li.tech::before     { background: var(--tech); }
+
+.year-head {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: .8rem;
+  letter-spacing: .16em;
+  color: var(--ink-faint);
+  margin: 1.75rem 0 .2rem;
+  padding: 0;
+}
+
+.year-head:first-child { margin-top: 0; }
+
+/* ---------- footer ---------- */
+
+.foot {
+  margin-top: 2.5rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  font-size: .78rem;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.6;
+}
+
+.foot a { color: var(--ink-faint); }
+
+.empty {
+  text-align: center;
+  color: var(--ink-faint);
+  padding: 3rem 1rem;
+}
