@@ -43,6 +43,14 @@ LABELS = {
     "why": {"en": "Why this matters", "zh": "为什么重要"},
     "words": {"en": "Words worth knowing", "zh": "值得记住的词"},
     "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
+    "talk_intro": {
+        "en": "There is no right answer to any of these. Say what you think first — "
+              "then open the hints. Both sides are argued as well as they can be, "
+              "so the hints won't decide for you. You still have to pick, and say why.",
+        "zh": "这几个问题都没有标准答案。先说说你自己怎么想，再点开提示。"
+              "提示里两边都尽力讲了各自的道理，所以它不会替你决定。选哪边、为什么选，还是你的事。",
+    },
+    "talk_hint": {"en": "Stuck? Two ways to argue it", "zh": "想不出来？两方各有说法"},
     "background": {"en": "Background reading", "zh": "背景阅读"},
     "further": {"en": "Go deeper", "zh": "延展阅读"},
     "watch": {"en": "Watch", "zh": "看视频"},
@@ -53,6 +61,10 @@ LABELS = {
     "archive_intro": {
         "en": "Newest first. Every edition covers the 24 hours ending at 5:00 PM Vancouver time.",
         "zh": "从新到旧排列。每一期覆盖截至温哥华时间下午5点的24小时。",
+    },
+    "archive_first": {
+        "en": "This is the first edition. From tomorrow, every past day collects here.",
+        "zh": "这是第一期。从明天起，每一天的往期都会收在这里。",
     },
     "empty": {
         "en": "No editions yet. The first one arrives at 5:00 PM Vancouver time.",
@@ -206,13 +218,53 @@ def render_words(words: list) -> str:
     )
 
 
-def render_talk(questions: object) -> str:
-    body = bilingual_list(questions, "questions")
-    if not body:
-        return ""
+def render_side(side: dict) -> str:
+    points = bilingual_list(side.get("points"), "side-points")
     return (
-        f"<details><summary>{label('talk')}</summary>"
-        f'<div class="details-body">{body}</div></details>'
+        f'<div class="side"><p class="side-label">{bilingual(side.get("label", ""))}</p>'
+        f"{points}</div>"
+    )
+
+
+def render_talk(questions: object) -> str:
+    """The independent-thinking exercise: open by default, hints folded underneath.
+
+    Lucas should try an answer before he sees anyone else's. The hints argue both
+    sides deliberately, so opening them gives him material, not a verdict.
+    """
+    # Older editions stored a plain {'en': [...], 'zh': [...]} list of questions.
+    if isinstance(questions, dict):
+        body = bilingual_list(questions, "questions")
+        if not body:
+            return ""
+        return (
+            f"<details open><summary>{label('talk')}</summary>"
+            f'<div class="details-body">{body}</div></details>'
+        )
+
+    if not questions:
+        return ""
+
+    items = []
+    for item in questions:
+        sides = item.get("sides") or []
+        hint = ""
+        if sides:
+            hint = (
+                f'<details class="hint"><summary>{label("talk_hint")}</summary>'
+                f'<div class="details-body sides">'
+                f'{"".join(render_side(s) for s in sides)}</div></details>'
+            )
+        items.append(
+            f'<li><p class="q">{bilingual(item.get("question", ""))}</p>{hint}</li>'
+        )
+
+    return (
+        f"<details open><summary>{label('talk')}</summary>"
+        f'<div class="details-body">'
+        f'<p class="talk-intro">{label("talk_intro")}</p>'
+        f'<ol class="debate">{"".join(items)}</ol>'
+        f"</div></details>"
     )
 
 
@@ -444,22 +496,23 @@ def render_single_page(editions: list) -> str:
         stories = sorted(latest.get("stories", []), key=lambda s: s.get("rank", 99))
         content = "\n".join(render_story(s) for s in stories)
 
-    past = ""
-    if len(editions) > 1:
-        blocks = []
-        for ed in editions[1:]:
-            body = "\n".join(
-                render_story(s)
-                for s in sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99))
-            )
-            blocks.append(
-                f"<details><summary>{bilingual(pretty_date(ed['date']))}</summary>"
-                f'<div class="details-body">{body}</div></details>'
-            )
-        past = (
-            f'<h2 class="page-head">{label("archive_title")}</h2>'
-            f'<p class="hook">{label("archive_intro")}</p>' + "".join(blocks)
+    # The archive always appears, so it is obvious where past days live even on
+    # the very first day.
+    blocks = []
+    for ed in editions[1:]:
+        body = "\n".join(
+            render_story(s)
+            for s in sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99))
         )
+        blocks.append(
+            f"<details><summary>{bilingual(pretty_date(ed['date']))}</summary>"
+            f'<div class="details-body">{body}</div></details>'
+        )
+    past = (
+        f'<h2 class="page-head">{label("archive_title")}</h2>'
+        f'<p class="talk-intro">{label("archive_intro")}</p>'
+        + ("".join(blocks) if blocks else f'<p class="empty">{label("archive_first")}</p>')
+    )
 
     return f"""<title>Lucas Daily News</title>
 <meta name="description" content="{e(DESCRIPTION)}">

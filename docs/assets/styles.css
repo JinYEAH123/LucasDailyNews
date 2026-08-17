@@ -393,6 +393,95 @@ details[open] > summary::before { transform: rotate(45deg); }
 .questions li { margin: .32rem 0; padding-left: .15rem; }
 .questions li::marker { color: var(--accent); }
 
+/* ---------- the thinking exercise ---------- */
+
+.talk-intro {
+  margin: 0 0 1rem;
+  font-size: .88rem;
+  color: var(--ink-faint);
+  line-height: 1.6;
+}
+
+.debate {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: debate;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.debate > li { counter-increment: debate; }
+
+.debate .q {
+  margin: 0;
+  font-weight: 600;
+  font-size: .99rem;
+  color: var(--ink);
+  display: flex;
+  gap: .55rem;
+}
+
+.debate .q::before {
+  content: counter(debate);
+  font-family: var(--display);
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 700;
+  font-size: .95rem;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  flex: none;
+}
+
+/* The hint is a quieter disclosure than the section headers above it. */
+.debate .hint { border-top: none; margin-left: 1.5rem; }
+
+.debate .hint > summary {
+  font-size: .8rem;
+  font-weight: 500;
+  color: var(--ink-faint);
+  padding: .3rem 0;
+}
+
+.debate .hint > summary:hover { color: var(--accent); }
+.debate .hint > summary::before { width: .34rem; height: .34rem; }
+
+.debate .hint .details-body { padding: .35rem 0 0; }
+
+/* Both sides get identical weight — the layout must not hint at a right answer. */
+.sides {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: .7rem;
+}
+
+.side {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: .7rem .85rem .75rem;
+  background: var(--paper);
+}
+
+.side-label {
+  margin: 0 0 .35rem;
+  font-size: .8rem;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.side-points {
+  margin: 0;
+  padding-left: 1rem;
+  font-size: .86rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.side-points li { margin: .3rem 0; }
+.side-points li::marker { color: var(--ink-faint); }
+
 .source-line {
   margin: 0;
   padding-top: .75rem;

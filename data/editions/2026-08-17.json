@@ -43,18 +43,122 @@
         "en": "Oil is not just for cars. It is in the plastic of your water bottle, the fuel of the plane that flies you to see family, and the cost of shipping food to Vancouver grocery stores. When one narrow channel gets risky, prices move everywhere — including here.",
         "zh": "石油不只是汽车用的。你水瓶的塑料、你去看亲戚坐的飞机的燃油、把食物运到温哥华超市的运费，背后都有石油。当一条窄窄的水道变得危险，全世界的价格都会动——包括我们这里。"
       },
-      "talk_about_it": {
-        "en": [
-          "If a deadline passes and nothing happens, was the deadline useful at all?",
-          "Oman is supposed to be a U.S. ally. What does it mean when a country threatens its own friend?",
-          "One narrow channel controls a fifth of the world's oil. Is that a design flaw in how the world works?"
-        ],
-        "zh": [
-          "如果一个期限过了却什么都没发生，那这个期限还有意义吗？",
-          "阿曼本来是美国的盟友。一个国家威胁自己的朋友，这说明了什么？",
-          "一条窄水道掌握着全世界五分之一的石油。这算不算世界运转方式上的一个设计缺陷？"
-        ]
-      },
+      "talk_about_it": [
+        {
+          "question": {
+            "en": "A deadline passed and nothing happened. Was the deadline worth setting at all?",
+            "zh": "期限过了，什么也没发生。那当初定这个期限，还值得吗？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — it did real work", "zh": "值得——它确实起了作用" },
+              "points": {
+                "en": [
+                  "For 60 days both sides were talking instead of only fighting. That is not nothing.",
+                  "A deadline creates a public record. Everyone can now see who moved and who did not.",
+                  "Hard problems rarely get solved on the first try. A failed attempt still narrows down what might work."
+                ],
+                "zh": [
+                  "这60天里，双方至少在谈，而不只是在打。这本身不是零。",
+                  "期限会留下一份公开记录。现在所有人都能看出，谁往前走了，谁没有。",
+                  "难题很少第一次就解决。一次失败的尝试，仍然缩小了「什么办法可能有用」的范围。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — it was for show", "zh": "不值得——那只是做样子" },
+              "points": {
+                "en": [
+                  "A deadline with no consequence is just a date. Nothing was actually at stake when it passed.",
+                  "It let both sides look busy for two months while the fighting continued anyway.",
+                  "Break a promise once and the next promise is worth less. That cost is real and lasts."
+                ],
+                "zh": [
+                  "没有后果的期限，只是一个日期。到期那天其实什么也没押上。",
+                  "它让双方「看起来很忙」了两个月，可仗照打。",
+                  "承诺一旦破过一次，下一次承诺就不值钱了。这个代价是真实的，而且会留下来。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "Oman is supposed to be a friend of the U.S. Is it ever smart to threaten your own friend?",
+            "zh": "阿曼本该是美国的朋友。威胁自己的朋友，有可能是聪明的做法吗？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Sometimes yes", "zh": "有时候是" },
+              "points": {
+                "en": [
+                  "Countries act on their interests, not their feelings. Friendship does not cancel that.",
+                  "A clear warning is cheaper than an actual attack — it tells the other side exactly where the line is.",
+                  "Vagueness causes accidents. Saying the hard thing out loud can prevent a misunderstanding that kills people."
+                ],
+                "zh": [
+                  "国家按利益行事，不是按感情。朋友关系并不会取消这一点。",
+                  "一句明确的警告，比真的动手便宜得多——它把「红线在哪」讲清楚了。",
+                  "含糊才容易出事。把难听的话说在明处，可能避免一场会死人的误判。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — it costs more than it gains", "zh": "不是——代价比收益大" },
+              "points": {
+                "en": [
+                  "A friend who feels threatened starts quietly looking for other partners.",
+                  "Other allies are watching. If this is how friends get treated, your promises to them are worth less too.",
+                  "It can push a country that wanted to stay neutral onto the other side — the opposite of what you wanted."
+                ],
+                "zh": [
+                  "一个感到被威胁的朋友，会开始悄悄找别的伙伴。",
+                  "其他盟友都在看。如果朋友是这样被对待的，那你对他们的承诺也跟着贬值。",
+                  "它可能把一个本想保持中立的国家推到对面去——那正好和你想要的相反。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "One narrow channel carries a fifth of the world's oil. Is that a flaw in how the world is set up?",
+            "zh": "一条窄水道承载着全世界五分之一的石油。这算不算世界运转方式上的一个缺陷？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — it's a single point of failure", "zh": "算——这是一个「单点失效」" },
+              "points": {
+                "en": [
+                  "Anything important that has only one route is fragile. Engineers build backups for exactly this reason.",
+                  "It hands one country enormous leverage over billions of people who never got a vote.",
+                  "Everyone has known about this risk for fifty years and it still has not been fixed."
+                ],
+                "zh": [
+                  "任何重要的东西，如果只有一条通路，就是脆弱的。工程师之所以做备份，正是为了这个。",
+                  "它把巨大的筹码交到一个国家手里，而受影响的几十亿人从来没投过票。",
+                  "这个风险大家已经知道了五十年，到今天还是没被解决。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — geography isn't a design", "zh": "不算——地理不是被设计出来的" },
+              "points": {
+                "en": [
+                  "Nobody drew that map. Oil happens to be there and the sea happens to be shaped that way.",
+                  "The world has adapted: pipelines that go around it, emergency reserves, suppliers on other continents.",
+                  "Because everyone depends on it, almost everyone — including Iran — has a reason to keep it open. Shared need is its own kind of safety."
+                ],
+                "zh": [
+                  "那张地图不是谁画的。石油碰巧在那里，海碰巧长成那个形状。",
+                  "世界已经在适应了：绕开它的输油管道、战略储备、其他大洲的供应国。",
+                  "正因为所有人都依赖它，几乎所有人——包括伊朗——都有理由让它保持畅通。共同的需要，本身就是一种安全。"
+                ]
+              }
+            }
+          ]
+        }
+      ],
       "word_bank": [
         {
           "term": { "en": "Memorandum of understanding", "zh": "谅解备忘录" },
@@ -188,18 +292,122 @@
         "en": "China builds a huge share of the world's phones, toys, bikes, and EVs. When its factories slow, prices and product choices change in stores from Richmond to Rome. And the part that is booming — AI chips and machines — is exactly the thing the U.S. and China are competing hardest over.",
         "zh": "全世界很大一部分手机、玩具、自行车和电动车都是中国造的。它的工厂一放缓，从列治文到罗马的商店里，价格和可选商品都会变。而正在暴涨的那部分——AI 芯片和设备——恰恰是中美竞争最激烈的领域。"
       },
-      "talk_about_it": {
-        "en": [
-          "If your report card had one subject up 19% and the rest slipping, would you call it a good report card?",
-          "Should a country try to make everything, or specialize in a few things it is best at?",
-          "How many things in this room were probably made in China? Count them."
-        ],
-        "zh": [
-          "如果你的成绩单上有一科涨了19%，其余都在下滑，你会说这是一份好成绩单吗？",
-          "一个国家应该什么都造，还是专攻自己最擅长的几样？",
-          "这个房间里有多少东西很可能是中国制造的？数一数。"
-        ]
-      },
+      "talk_about_it": [
+        {
+          "question": {
+            "en": "One subject up 19%, everything else slipping. Is that a good report card?",
+            "zh": "一科涨了19%，其余都在下滑。这算一份好成绩单吗？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — it depends which subject", "zh": "算——要看是哪一科" },
+              "points": {
+                "en": [
+                  "Not all subjects count equally. Being excellent at the one that decides your future beats being average at all of them.",
+                  "The parts that are growing are the parts that will still be growing in ten years.",
+                  "A number that is falling from a high level can still be a big number. 4.5% growth is growth."
+                ],
+                "zh": [
+                  "科目并不是等重的。在决定你未来的那一科上很强，胜过每科都平平。",
+                  "现在在涨的那部分，是十年后仍然会在涨的那部分。",
+                  "从高位往下掉的数字，仍然可能是个大数字。4.5% 的增长，终究还是增长。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — you can't live on one subject", "zh": "不算——一科养不活你" },
+              "points": {
+                "en": [
+                  "Chip factories employ far fewer people than shops and ordinary factories do. The slipping parts are where most people work.",
+                  "The weak numbers are happening now; the strong one is a bet on later.",
+                  "One spectacular number is exactly what you would point at if you wanted to distract from the rest."
+                ],
+                "zh": [
+                  "芯片厂雇的人，远远少于商店和普通工厂。正在下滑的那些部分，才是大多数人上班的地方。",
+                  "疲弱的数字是现在正在发生的；亮眼的那个，是押注在以后。",
+                  "如果有人想把注意力从其余部分引开，他要指的正好就是这样一个特别亮眼的数字。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "Should a country try to make everything itself, or specialize in what it does best?",
+            "zh": "一个国家应该什么都自己造，还是专攻自己最擅长的？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Specialize", "zh": "该专攻" },
+              "points": {
+                "en": [
+                  "Nobody can be best at everything. Doing a few things extremely well makes them cheaper and better for everyone.",
+                  "Trading means you get things you could never have made yourself.",
+                  "Countries that trade a lot with each other have more to lose from fighting — which makes fighting less likely."
+                ],
+                "zh": [
+                  "没有谁能样样第一。把少数几件事做到极好，会让这些东西对所有人都更便宜、更好。",
+                  "贸易意味着你能得到那些自己永远造不出来的东西。",
+                  "彼此贸易很多的国家，打起来损失更大——这让开战变得不那么容易发生。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "Make it yourself", "zh": "该自己造" },
+              "points": {
+                "en": [
+                  "If relations break down, the things you cannot make — chips, medicine, food — become the things you cannot get.",
+                  "Depending on someone is a form of giving them power over you.",
+                  "Factories are also jobs. A town that loses its factory does not get the lost work back just because prices fell."
+                ],
+                "zh": [
+                  "一旦关系破裂，你造不出来的东西——芯片、药品、粮食——就是你拿不到的东西。",
+                  "依赖某个人，等于把一部分对你的支配权交给他。",
+                  "工厂同时也是工作。一个失去工厂的小城，不会因为东西变便宜了就把工作找回来。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "If people have stopped spending, should the government just hand them money?",
+            "zh": "如果大家都不花钱了，政府是不是应该直接发钱？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — put it in people's hands", "zh": "应该——把钱交到人手里" },
+              "points": {
+                "en": [
+                  "Money given to people gets spent in shops, which keeps shops open and people employed.",
+                  "Ordinary people know what they actually need better than a government planner does.",
+                  "It reaches those with the least the fastest — they are the ones who spend it rather than store it."
+                ],
+                "zh": [
+                  "发到人手里的钱会花进商店，商店就能开下去，人就有工作。",
+                  "普通人比规划者更清楚自己真正需要什么。",
+                  "它最快抵达手头最紧的人——而这些人是会把钱花掉，而不是存起来的那批。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — build something instead", "zh": "不应该——不如拿去建东西" },
+              "points": {
+                "en": [
+                  "If people are worried about the future, handed money often gets saved, not spent — and then it did nothing.",
+                  "More money chasing the same goods can simply push prices up.",
+                  "The same money spent on factories, labs, and railways is still there in twenty years. A one-time payment is gone in a month."
+                ],
+                "zh": [
+                  "如果大家本来就对未来不安，发下去的钱往往被存起来，而不是花掉——那它就白发了。",
+                  "更多的钱去追同样多的商品，可能只是把价格推高。",
+                  "同样的钱投进工厂、实验室和铁路，二十年后还在。一次性发的钱，一个月就没了。"
+                ]
+              }
+            }
+          ]
+        }
+      ],
       "word_bank": [
         {
           "term": { "en": "Industrial production", "zh": "工业增加值 / 工业产出" },
@@ -314,18 +522,122 @@
         "en": "This is not just finance news — it is a bet about whether AI becomes as ordinary as electricity. The chips, power plants, and data centres being built right now will still be there when Lucas is choosing a career.",
         "zh": "这不只是财经新闻，而是一场豪赌：人工智能会不会变得像电一样普通。现在正在建的这些芯片厂、发电站和数据中心，等 Lucas 选择职业的时候还会在那里。"
       },
-      "talk_about_it": {
-        "en": [
-          "Would you invest your own allowance in a company that loses money but might be huge later?",
-          "Anthropic is profitable; OpenAI is not but is worth more. What does that tell you about what investors actually value?",
-          "AI needs enormous electricity. Where should that power come from?"
-        ],
-        "zh": [
-          "你愿意把自己的零花钱投给一家现在亏钱、但以后可能很大的公司吗？",
-          "Anthropic 已经盈利，OpenAI 还没有，但估值更高。这说明投资人真正看重的是什么？",
-          "人工智能需要巨量电力。这些电应该从哪里来？"
-        ]
-      },
+      "talk_about_it": [
+        {
+          "question": {
+            "en": "Would you put your own allowance into a company that loses money now but might be enormous later?",
+            "zh": "你愿意把自己的零花钱，投给一家现在亏钱、但以后可能很大的公司吗？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — you're buying the future", "zh": "愿意——你买的是未来" },
+              "points": {
+                "en": [
+                  "Amazon lost money for years and the people who held on did extremely well.",
+                  "By the time a company is obviously safe, the cheap price is gone.",
+                  "You can only lose what you put in, but the gain has no ceiling."
+                ],
+                "zh": [
+                  "亚马逊亏了很多年，当年拿住的人后来赚得非常好。",
+                  "等一家公司明显安全了，便宜的价格也就没了。",
+                  "你最多只会亏掉投进去的那部分，但赚的那一边没有上限。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — most of them don't make it", "zh": "不愿意——大多数走不到那一步" },
+              "points": {
+                "en": [
+                  "We remember Amazon because it worked. We forget the hundreds of companies that burned money and vanished.",
+                  "\"Might be huge later\" is a story. $14 billion of losses a year is a fact.",
+                  "When you have a small amount of money, losing all of it hurts far more than a big win would help."
+                ],
+                "zh": [
+                  "我们记得亚马逊，是因为它成了。那几百家烧光钱然后消失的公司，我们根本不记得。",
+                  "「以后可能很大」是一个故事。一年亏140亿美元是一个事实。",
+                  "当你本金很少的时候，全亏掉的痛，远大于一次大赚带来的好处。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "Anthropic makes a profit; OpenAI does not but is worth more. What are investors actually paying for?",
+            "zh": "Anthropic 已经盈利，OpenAI 还没有，估值却更高。投资人到底在为什么付钱？"
+          },
+          "sides": [
+            {
+              "label": { "en": "For size later — and that's rational", "zh": "为「以后的规模」——而且这是理性的" },
+              "points": {
+                "en": [
+                  "A share is a claim on all future earnings, not this year's. Today's loss is an investment in being bigger.",
+                  "In tech, the largest player often ends up taking most of the market. Second place is worth far less than half of first.",
+                  "Spending heavily now on chips and data centres is how you make sure you are the one who gets that position."
+                ],
+                "zh": [
+                  "一股股票代表的是未来所有收益的一份，不是今年的。今天的亏损，是为了以后更大而做的投入。",
+                  "在科技行业，最大的那家往往会拿走市场的大部分。第二名的价值，远不到第一名的一半。",
+                  "现在在芯片和数据中心上重金投入，正是为了确保自己是坐上那个位置的人。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "For a story — and crowds get carried away", "zh": "为「一个故事」——而人群会上头" },
+              "points": {
+                "en": [
+                  "Profit is something you can check. A projection is something someone chose to believe.",
+                  "This has happened before: railways, radio, dot-coms. Each time the technology was real and the prices were still too high.",
+                  "When everyone is buying because everyone else is buying, the price stops being about the company at all."
+                ],
+                "zh": [
+                  "利润是可以核对的东西。预测是有人选择相信的东西。",
+                  "这种事发生过：铁路、无线电、互联网泡沫。每一次技术都是真的，价格却仍然太高。",
+                  "当所有人买入的理由是「别人都在买」，价格就已经和这家公司无关了。"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "question": {
+            "en": "An AI data centre needs a town's worth of electricity. Should a town let one be built nearby?",
+            "zh": "一座 AI 数据中心要用掉相当于一个小镇的电。小镇应该同意把它建在附近吗？"
+          },
+          "sides": [
+            {
+              "label": { "en": "Yes — take the deal", "zh": "应该——接下这笔生意" },
+              "points": {
+                "en": [
+                  "It brings construction work, permanent jobs, and tax money that pays for schools and roads.",
+                  "It is getting built somewhere regardless. Better that the benefits land here.",
+                  "Turning it away does not reduce the world's electricity use by one watt."
+                ],
+                "zh": [
+                  "它带来施工的活儿、长期的岗位，以及能用来修学校和道路的税收。",
+                  "反正它总要建在某个地方。好处落在这里，总比落在别处强。",
+                  "把它拒之门外，并不会让全世界少用一瓦电。"
+                ]
+              }
+            },
+            {
+              "label": { "en": "No — the costs are shared, the gains aren't", "zh": "不应该——成本大家分摊，好处未必" },
+              "points": {
+                "en": [
+                  "Power and water are shared. If demand jumps, everyone's bill can rise, including people who wanted no part of it.",
+                  "Data centres need far fewer workers than a factory of the same size. The jobs promised are often fewer than the jobs described.",
+                  "Once it is built, the town has very little say over what happens next."
+                ],
+                "zh": [
+                  "电和水是共用的。需求一跳，所有人的账单都可能上涨，包括那些本来就不想参与的人。",
+                  "同样占地的数据中心，需要的工人远少于工厂。承诺的岗位，往往比描述的少。",
+                  "一旦建成，小镇对接下来会发生什么，几乎就没什么发言权了。"
+                ]
+              }
+            }
+          ]
+        }
+      ],
       "word_bank": [
         {
           "term": { "en": "IPO (initial public offering)", "zh": "IPO（首次公开募股）" },

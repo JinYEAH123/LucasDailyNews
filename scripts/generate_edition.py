@@ -99,7 +99,43 @@ EDITION_SCHEMA = {
                         "12-year-old: concrete comparisons, no jargon left unexplained."
                     ),
                     "why_it_matters": _pair("2-3 sentences connecting the story to Lucas's own life."),
-                    "talk_about_it": _pair_list("Exactly 3 open dinner-table questions with no obvious answer."),
+                    "talk_about_it": {
+                        "type": "array",
+                        "minItems": 3,
+                        "maxItems": 3,
+                        "description": "The independent-thinking exercise. See EDITORIAL_POLICY.",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "question": _pair(
+                                    "An open question a thoughtful adult could answer either way. "
+                                    "Never a fact lookup, never a question with a correct answer."
+                                ),
+                                "sides": {
+                                    "type": "array",
+                                    "minItems": 2,
+                                    "maxItems": 2,
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "label": _pair(
+                                                "Short name for this position, e.g. "
+                                                "'Yes — it did real work'."
+                                            ),
+                                            "points": _pair_list(
+                                                "The 3 strongest arguments for this position, "
+                                                "each one sentence."
+                                            ),
+                                        },
+                                        "required": ["label", "points"],
+                                        "additionalProperties": False,
+                                    },
+                                },
+                            },
+                            "required": ["question", "sides"],
+                            "additionalProperties": False,
+                        },
+                    },
                     "word_bank": {
                         "type": "array",
                         "minItems": 2,
@@ -197,6 +233,24 @@ WRITING — rewrite adult reporting so a bright 12-year-old wants to keep readin
   Never pretend a contested claim is settled.
 - Keep the Chinese natural — a fluent rewrite for a Chinese-reading parent, not
   a word-by-word translation of the English.
+
+THE THINKING EXERCISE — three dinner-table questions per story, each with the
+case for both sides. This is the part of the page that matters most, so treat it
+as the hardest thing you write, not as a footer:
+- A question qualifies only if a thoughtful, well-informed adult could genuinely
+  land on either side. If looking something up settles it, it is not a question —
+  it is a quiz, and it belongs nowhere on this page.
+- Argue both sides at full strength. Give each its best three arguments, not two
+  good ones and a weak one you plan to knock down. If one side comes out flimsy,
+  either you picked a bad question or you are not arguing it honestly — fix the
+  question rather than shading the answer.
+- Never signal which side you favour: not in the order, not in the labels, not
+  by giving one side more or better-written points. Lucas must not be able to
+  reverse-engineer your opinion from the layout.
+- Keep each point to one sentence a 12-year-old can hold in his head, and prefer
+  arguments he could test against something he has actually seen.
+- Where a side's strongest argument is uncomfortable, make it anyway. A sanitised
+  case is a dishonest one.
 
 LINKS — background reading (start here if you're new to this) and further
 reading (go deeper), each a title plus a short summary so he can decide before
