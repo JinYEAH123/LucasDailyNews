@@ -72,6 +72,7 @@ LABELS = {
     },
     "built": {"en": "Built", "zh": "生成于"},
     "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
+    "poster": {"en": "Share image", "zh": "转发长图"},
 }
 
 WEEKDAYS = {
@@ -366,6 +367,7 @@ def masthead(
     depth: int,
     is_archive: bool,
     show_nav: bool = True,
+    poster: str | None = None,
 ) -> str:
     prefix = "../" * depth
     home = f"{prefix}index.html"
@@ -387,6 +389,8 @@ def masthead(
             if is_archive
             else f'<a class="btn" href="{archive}">{label("archive")}</a>'
         )
+    if poster:
+        nav += f'<a class="btn" href="{poster}" target="_blank">{label("poster")}</a>'
 
     title_html = bilingual(SITE_TITLE)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
@@ -429,10 +433,18 @@ def footer(edition: dict | None) -> str:
     )
 
 
+def poster_link(date_str: str, depth: int) -> str | None:
+    """Relative link to the share image, when build_poster.py has made one."""
+    if not (OUT / "posters" / f"{date_str}-zh.png").exists():
+        return None
+    return f'{"../" * depth}posters/{date_str}-zh.png'
+
+
 def render_edition_page(edition: dict, depth: int) -> str:
     stories = sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99))
     body = (
-        masthead(edition.get("date"), (edition.get("window") or {}).get("label"), depth, False)
+        masthead(edition.get("date"), (edition.get("window") or {}).get("label"), depth, False,
+                 poster=poster_link(edition.get("date", ""), depth))
         + "\n".join(render_story(s) for s in stories)
         + footer(edition)
     )

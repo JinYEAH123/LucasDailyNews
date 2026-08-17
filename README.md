@@ -131,7 +131,34 @@ lucas@example.com:en, mum@example.com:zh, grandpa@example.com:zh
 邮件没法折叠，提示一旦印在问题旁边，Lucas 就会直接看答案，
 独立思考那一层就没了。这也是发信需要 `SITE_URL` 的原因。
 
-### 4. 试跑一次
+### 4. 朋友圈转发长图
+
+每天会额外生成一张竖版长图，适合直接发朋友圈：
+
+```
+docs/posters/YYYY-MM-DD-zh.png   中文（朋友圈用这张）
+docs/posters/YYYY-MM-DD-en.png   英文
+```
+
+网页顶部有「转发长图」按钮可以直接打开保存。
+
+图里只放**三条新闻的标题 + 概要 + 饭桌上的三个问题**，
+完整正文、生词、背景与延展阅读、正反两方的说法、视频都不放——
+底部二维码指向当天的网页固定链接，扫码即是全部内容。
+长图是邀请，不是文章本身。
+
+尺寸 1500px 宽，高宽比约 1:3，微信不会压得太狠，信息流里的预览也不会裁得只剩一角。
+
+> **二维码是自动校验过的。** 生成后脚本会把 PNG 重新解码一次，
+> 比对是否等于当天的目标网址，不一致就直接让任务失败。
+> 二维码坏掉在肉眼审阅时完全看不出来——图还是好看的——
+> 不校验的话可能连发好几周才被人发现。校验用的是整图解码，
+> 和微信「长按识别图中二维码」要做的事情一样。
+
+`SITE_URL` 没配置的话，二维码会指向默认地址，扫出来是死链——
+所以要发朋友圈之前，先把 GitHub Pages 和 `SITE_URL` 配好。
+
+### 5. 试跑一次
 
 **Actions → Daily edition → Run workflow**，可以手动填日期，也可以留空。
 手动触发不受 5 点限制，随时可以跑。勾选 `skip_email` 可以只生成不发信。
@@ -159,6 +186,24 @@ python3 scripts/render_site.py
 # 本地预览
 python3 -m http.server -d docs 8000   # 然后打开 http://localhost:8000
 ```
+
+长图相关（需要 `pip install segno playwright opencv-python-headless`
+并 `playwright install chromium`）：
+
+```bash
+# 生成中英两张长图
+python3 scripts/build_poster.py --both
+
+# 只生成中文的某一天
+python3 scripts/build_poster.py --date 2026-08-17 --lang zh
+
+# 顺便保留中间 HTML，方便改版式
+python3 scripts/build_poster.py --keep-html
+```
+
+改版式改 `scripts/build_poster.py` 里的 `build_html()`，改完重新跑即可。
+注意 `build_poster.py` 要在 `render_site.py` **之前**跑，网页上的「转发长图」按钮
+才会出现。
 
 邮件相关：
 
@@ -199,14 +244,16 @@ data/sent.json          已发送记录（只有日期和人数，无邮箱地�
 scripts/
   generate_edition.py   调 Claude API 生成一期
   render_site.py        JSON → 静态网页
+  build_poster.py       JSON → 朋友圈长图 PNG（含二维码与自动校验）
   send_newsletter.py    JSON → 邮件，经 SMTP 发出
   assets/               样式与脚本源文件（会被复制进 docs/assets）
 docs/                   生成产物，GitHub Pages 托管
+docs/posters/           每天的转发长图
 .github/workflows/
   daily-edition.yml     每天下午 5 点（温哥华）生成、渲染、发信
 ```
 
-每天 5 点那一次跑的顺序是：**生成 → 渲染 → 发信 → 提交推送**。
+每天 5 点那一次跑的顺序是：**生成 → 出长图 → 渲染网页 → 发信 → 提交推送**。
 发信排在提交之前，但即使发信失败，提交步骤照样执行——
 一次邮件故障只会损失一封信，不会连当天的内容一起丢掉。
 不过任务最后仍会标红，你能在 Actions 里看到。

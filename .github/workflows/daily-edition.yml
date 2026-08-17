@@ -59,7 +59,12 @@ jobs:
 
       - name: Install dependencies
         if: steps.clock.outputs.go == 'true'
-        run: pip install --quiet anthropic
+        run: |
+          pip install --quiet anthropic segno playwright opencv-python-headless
+          playwright install --with-deps chromium
+          # Chromium ships no CJK glyphs; without these the Chinese poster
+          # renders as tofu boxes and nobody notices until it is posted.
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
 
       - name: Generate today's edition
         if: steps.clock.outputs.go == 'true'
@@ -69,6 +74,15 @@ jobs:
           python3 scripts/generate_edition.py \
             ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
             ${{ inputs.force && '--force' || '' }}
+
+      # Before render_site, so the edition page can link to the finished image.
+      - name: Build the share images
+        if: steps.clock.outputs.go == 'true'
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          python3 scripts/build_poster.py --both \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
 
       - name: Render the site
         if: steps.clock.outputs.go == 'true'
