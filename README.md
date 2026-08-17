@@ -76,7 +76,7 @@ GitHub 的定时任务只认 UTC、不跟随夏令时，所以工作流在 `00:0
 保存后，网页地址是：
 
 ```
-https://jinyeah123.github.io/lucasdailynews/
+https://jinyeah123.github.io/LucasDailyNews/
 ```
 
 ### 2. 配置 API 密钥
