@@ -61,24 +61,12 @@ LABELS = {
         "en": "No editions yet. The first one arrives at the time you set.",
         "zh": "还没有内容。第一期会在你设定的时间发布。",
     },
-    "built": {"en": "Built", "zh": "生成于"},
     "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
     "poster": {"en": "Share image", "zh": "转发长图"},
-    "made_for": {"en": "Made for", "zh": "为"},
-    "made_for_suffix": {"en": "", "zh": " 而做"},
-    "check_source": {
-        "en": "Links open the original reporting — always check the source.",
-        "zh": "链接会打开原始报道——请随时核对来源。",
-    },
-    "setup": {"en": "Make your own", "zh": "做一份自己的"},
     "band_prompt": {"en": "Written for", "zh": "读给"},
-    "beats_note": {
-        "en": "Three stories a day, from politics, society, business, tech and science, "
-              "centred on the US and China plus anything too big to belong to one country.",
-        "zh": "每天三条，来自政治、社会、财经、科技、科学五个板块，"
-              "以美国和中国为重心，外加大到不属于任何单一国家的事件。",
-    },
 }
+
+CONTACT_EMAIL = "yejingxin@gmail.com"
 
 WEEKDAYS = {
     "en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
@@ -163,17 +151,6 @@ def pretty_date(date_str: str) -> dict:
     return {
         "en": f"{WEEKDAYS['en'][idx]}, {MONTHS_EN[d.month - 1]} {d.day}, {d.year}",
         "zh": f"{d.year}年{d.month}月{d.day}日 {WEEKDAYS['zh'][idx]}",
-    }
-
-
-def pretty_timestamp(iso: str) -> dict:
-    try:
-        d = datetime.fromisoformat(iso)
-    except ValueError:
-        return {"en": iso, "zh": iso}
-    return {
-        "en": f"{MONTHS_EN[d.month - 1]} {d.day}, {d.year} at {d.strftime('%-I:%M %p')}",
-        "zh": f"{d.year}年{d.month}月{d.day}日 {d.strftime('%H:%M')}",
     }
 
 
@@ -409,15 +386,9 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
     title_html = bilingual(appconfig.APP_NAME)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
 
-    for_line = ""
-    if CFG.child_name:
-        for_line = (f'<p class="for-line">{label("made_for")} '
-                    f'<strong>{e(CFG.child_name)}</strong>{label("made_for_suffix")}</p>')
-
     return f"""<header class="masthead">
   <h1>{heading}</h1>
   <p class="tagline">{bilingual(appconfig.SLOGAN)}</p>
-  {for_line}
   {dateline}
   <div class="controls">
     {lang_buttons()}
@@ -427,14 +398,9 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
 </header>"""
 
 
-def footer(edition: dict | None, depth: int = 0) -> str:
-    built = ""
-    if edition and edition.get("generated_at"):
-        built = (f'{bilingual(LABELS["built"])}: '
-                 f'{bilingual(pretty_timestamp(edition["generated_at"]))} · ')
-    setup = f'<a href="{"../" * depth}setup.html">{label("setup")}</a>'
-    return (f'<footer class="foot"><p class="beats-note">{label("beats_note")}</p>'
-            f'{built}{label("check_source")}<br>{setup}</footer>')
+def footer() -> str:
+    return (f'<footer class="foot"><p class="contact">'
+            f'<a href="mailto:{CONTACT_EMAIL}">{e(CONTACT_EMAIL)}</a></p></footer>')
 
 
 def render_edition_page(edition: dict, depth: int) -> str:
@@ -447,7 +413,7 @@ def render_edition_page(edition: dict, depth: int) -> str:
                      poster=poster)
             + band_bar()
             + "\n".join(render_story(s) for s in stories)
-            + footer(edition, depth))
+            + footer())
     return page(f"{appconfig.APP_NAME['en']} — {date_str}", body, depth)
 
 
@@ -479,7 +445,7 @@ def render_archive_page(editions: list) -> str:
 
     body = (masthead(None, None, 0, True)
             + f'<h2 class="page-head">{label("archive_title")}</h2>'
-            + f'<p class="hook">{label("archive_intro")}</p>' + items + footer(None))
+            + f'<p class="hook">{label("archive_intro")}</p>' + items + footer())
     return page(f"{appconfig.APP_NAME['en']} — Archive", body, 0)
 
 
@@ -520,7 +486,7 @@ def render_single_page(editions: list) -> str:
 {band_bar()}
 {content}
 {past}
-{footer(editions[0] if editions else None)}
+{footer()}
 </div>
 <script>
 document.documentElement.setAttribute('data-lang', '{LANGS[0]}');
@@ -575,7 +541,7 @@ def main() -> None:
         (OUT / "index.html").write_text(render_edition_page(editions[0], depth=0),
                                         encoding="utf-8")
     else:
-        body = masthead(None, None, 0, False) + f'<p class="empty">{label("empty")}</p>' + footer(None)
+        body = masthead(None, None, 0, False) + f'<p class="empty">{label("empty")}</p>' + footer()
         (OUT / "index.html").write_text(page(appconfig.APP_NAME["en"], body, 0), encoding="utf-8")
 
     (OUT / "archive.html").write_text(render_archive_page(editions), encoding="utf-8")

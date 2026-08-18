@@ -153,14 +153,6 @@ a { color: var(--accent); }
   color: var(--ink-faint);
 }
 
-.for-line {
-  margin: 0;
-  font-size: .82rem;
-  color: var(--ink-faint);
-}
-
-.for-line strong { color: var(--ink-soft); font-weight: 600; }
-
 .dateline {
   margin: .5rem 0 0;
   font-size: .88rem;
@@ -562,6 +554,8 @@ details[open] > summary::before { transform: rotate(45deg); }
 
 .foot a { color: var(--ink-faint); }
 
+.contact { margin: 0; }
+
 .empty {
   text-align: center;
   color: var(--ink-faint);
@@ -626,11 +620,4 @@ details[open] > summary::before { transform: rotate(45deg); }
 @media (max-width: 26rem) {
   .bandbar { flex-direction: column; gap: .5rem; }
   .seg button { padding: .38rem .7rem; }
-}
-
-.beats-note {
-  margin: 0 0 .9rem;
-  font-size: .78rem;
-  line-height: 1.6;
-  color: var(--ink-faint);
 }
