@@ -70,6 +70,11 @@ LABELS = {
         "zh": "链接会打开原始报道——请随时核对来源。",
     },
     "setup": {"en": "Make your own", "zh": "做一份自己的"},
+    "settings": {"en": "Settings", "zh": "设置"},
+    "no_match": {
+        "en": "Nothing today matches your filters. Open settings and widen them.",
+        "zh": "今天没有符合你筛选条件的新闻。打开设置放宽一些。",
+    },
 }
 
 WEEKDAYS = {
@@ -328,7 +333,7 @@ def render_story(story: dict) -> str:
             f"</details>"
         )
 
-    return f"""<article class="story {e(cat)}">
+    return f"""<article class="story {e(cat)}" data-beat="{e(cat)}" data-region="{e(region)}">
   <div class="story-top">
     <span class="rank">{e(story.get('rank', ''))}</span>
     <span class="chip">{cat_label(cat)}</span>
@@ -363,6 +368,11 @@ def description() -> str:
     return CFG.slogan(CFG.primary_language)
 
 
+def settings_dialog(depth: int) -> str:
+    import setup_page
+    return setup_page.render_modal(depth)
+
+
 def page(title: str, body: str, depth: int = 0) -> str:
     prefix = "../" * depth
     return f"""<!doctype html>
@@ -378,9 +388,11 @@ def page(title: str, body: str, depth: int = 0) -> str:
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
 <body>
+{gear_button()}
 <div class="wrap">
 {body}
 </div>
+{settings_dialog(depth)}
 <script src="{prefix}assets/app.js"></script>
 </body>
 </html>
@@ -441,6 +453,30 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
 </header>"""
 
 
+def gear_button() -> str:
+    """Fixed top-right. Opens the same dialog the first visit shows."""
+    return (
+        '<button type="button" class="gear" data-open-settings '
+        f'aria-label="{LABELS["settings"]["en"]}" title="{LABELS["settings"]["en"]}">'
+        '<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" '
+        'stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">'
+        '<circle cx="12" cy="12" r="3"/>'
+        '<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 '
+        '1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 '
+        '19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 '
+        '.33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 '
+        '0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 '
+        '0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 '
+        '2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 '
+        '1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>'
+    )
+
+
+def no_match_notice() -> str:
+    """Shown when a visitor's filters hide every story on the page."""
+    return f'<p class="empty no-match" hidden>{label("no_match")}</p>'
+
+
 def footer(edition: dict | None, depth: int = 0) -> str:
     built = ""
     if edition and edition.get("generated_at"):
@@ -462,6 +498,7 @@ def render_edition_page(edition: dict, depth: int) -> str:
         masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
                  poster=poster)
         + "\n".join(render_story(s) for s in stories)
+        + no_match_notice()
         + footer(edition, depth)
     )
     return page(f"{appconfig.APP_NAME['en']} — {date_str}", body, depth)

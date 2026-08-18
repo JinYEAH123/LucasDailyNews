@@ -520,3 +520,142 @@ def render(inline: bool = False) -> str:
 
 if __name__ == "__main__":
     print(render())
+
+
+# --------------------------------------------------------------------- modal
+
+MODAL_TEXT = {
+    "title": {"en": "Settings", "zh": "设置"},
+    "welcome": {
+        "en": "Welcome. Set this up once and it is remembered on this device.",
+        "zh": "欢迎。设置一次，之后这台设备就记住了。",
+    },
+    "reading_h": {"en": "Reading preferences", "zh": "阅读偏好"},
+    "reading_n": {
+        "en": "These change what you see right now, and are saved in this browser only.",
+        "zh": "这些会立刻改变你看到的内容，只保存在这个浏览器里。",
+    },
+    "lang": {"en": "Language", "zh": "语言"},
+    "theme": {"en": "Appearance", "zh": "外观"},
+    "theme_system": {"en": "Match device", "zh": "跟随系统"},
+    "theme_light": {"en": "Light", "zh": "浅色"},
+    "theme_dark": {"en": "Dark", "zh": "深色"},
+    "beats": {"en": "Show these beats", "zh": "显示这些板块"},
+    "regions": {"en": "Show these regions", "zh": "显示这些地区"},
+    "howmany": {"en": "Show at most", "zh": "最多显示"},
+    "stories": {"en": "stories", "zh": "条"},
+    "all": {"en": "All", "zh": "全选"},
+    "none": {"en": "None", "zh": "全不选"},
+    "publish_h": {"en": "Publishing settings", "zh": "发布设置"},
+    "publish_n": {
+        "en": "How the news is written — the child's age, how many stories are "
+              "produced, and what time each day's edition is built — is decided when "
+              "the edition is generated, not in your browser. Those live in the "
+              "repository's config.toml.",
+        "zh": "新闻怎么写——孩子的年龄、每天生成几条、每天几点出这一期——"
+              "是在生成那一刻决定的，不在你的浏览器里。这些设置在仓库的 config.toml 中。",
+    },
+    "publish_link": {"en": "Open the full setup form", "zh": "打开完整设置表单"},
+    "save": {"en": "Save", "zh": "保存设置"},
+    "saved": {"en": "Saved.", "zh": "已保存。"},
+    "reset": {"en": "Reset", "zh": "恢复默认"},
+    "close": {"en": "Close", "zh": "关闭"},
+}
+
+
+def _mb(key: str, langs: list) -> str:
+    entry = MODAL_TEXT[key]
+    return "".join(f'<span class="l-{l}">{entry.get(l, entry["en"])}</span>' for l in langs)
+
+
+def render_modal(depth: int = 0) -> str:
+    """The settings dialog shown on a first visit and behind the gear.
+
+    Deliberately split in two. Reading preferences act on the page immediately
+    and live in this browser; everything that decides how the news is written
+    happens when the edition is generated, so the dialog links out for those
+    rather than pretending a visitor can change them.
+    """
+    import render_site
+
+    cfg = render_site.CFG
+    langs = cfg.languages
+    prefix = "../" * depth
+
+    catalogue = {
+        "beats": {
+            k: {"label": v["label"], "color": v["light"][0]}
+            for k, v in appconfig.CATEGORIES.items()
+        },
+        "regions": {
+            k: {"label": v["label"]}
+            for k, v in appconfig.REGIONS.items() if k != "GLOBAL"
+        },
+        "languages": [
+            {"code": l, "label": appconfig.LANGUAGES[l]} for l in langs
+        ],
+        "maxStories": appconfig.MAX_COUNT,
+        "defaultLang": langs[0],
+    }
+
+    lang_row = ""
+    if len(langs) > 1:
+        lang_row = f"""
+    <div class="m-field">
+      <p class="m-label">{_mb('lang', langs)}</p>
+      <div class="seg" id="prefLang"></div>
+    </div>"""
+
+    return f"""
+<dialog class="settings" id="settings">
+  <form method="dialog" class="settings-close-form">
+    <button class="x" value="close" aria-label="{MODAL_TEXT['close']['en']}">&times;</button>
+  </form>
+  <h2 class="m-title">{_mb('title', langs)}</h2>
+  <p class="m-welcome" id="mWelcome" hidden>{_mb('welcome', langs)}</p>
+
+  <section class="m-section">
+    <h3>{_mb('reading_h', langs)}</h3>
+    <p class="m-note">{_mb('reading_n', langs)}</p>
+    {lang_row}
+    <div class="m-field">
+      <p class="m-label">{_mb('theme', langs)}</p>
+      <div class="seg" id="prefTheme"></div>
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('beats', langs)}
+        <span class="m-bulk"><button type="button" data-bulk="beats" data-on="1">{_mb('all', langs)}</button>
+        <button type="button" data-bulk="beats" data-on="0">{_mb('none', langs)}</button></span>
+      </p>
+      <div class="chips" id="prefBeats"></div>
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('regions', langs)}
+        <span class="m-bulk"><button type="button" data-bulk="regions" data-on="1">{_mb('all', langs)}</button>
+        <button type="button" data-bulk="regions" data-on="0">{_mb('none', langs)}</button></span>
+      </p>
+      <div class="chips" id="prefRegions"></div>
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('howmany', langs)}
+        <output class="pill" id="prefCountOut"></output> {_mb('stories', langs)}</p>
+      <input type="range" id="prefCount" min="1" max="{appconfig.MAX_COUNT}" value="{appconfig.MAX_COUNT}">
+    </div>
+  </section>
+
+  <section class="m-section m-publish">
+    <h3>{_mb('publish_h', langs)}</h3>
+    <p class="m-note">{_mb('publish_n', langs)}</p>
+    <a class="btn" href="{prefix}setup.html">{_mb('publish_link', langs)}</a>
+  </section>
+
+  <div class="m-actions">
+    <button type="button" class="primary" id="prefSave">{_mb('save', langs)}</button>
+    <button type="button" class="ghost" id="prefReset">{_mb('reset', langs)}</button>
+    <span class="m-status" id="prefStatus"></span>
+  </div>
+
+  <script type="application/json" id="prefs-catalogue">{json.dumps(catalogue, ensure_ascii=False)}</script>
+  <script type="application/json" id="prefs-strings">{json.dumps(
+      {k: v for k, v in MODAL_TEXT.items()}, ensure_ascii=False)}</script>
+</dialog>"""
