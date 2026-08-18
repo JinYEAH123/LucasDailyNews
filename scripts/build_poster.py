@@ -293,10 +293,14 @@ def render_png(html_text: str, out_path: Path, keep_html: bool) -> tuple:
             viewport={"width": WIDTH, "height": 1200}, device_scale_factor=SCALE
         )
         page.goto(html_path.as_uri())
-        # Wait for the webfonts so the image is not rendered mid-swap.
+        # Wait for the webfonts so the image is not rendered mid-swap. The
+        # Chinese font (Noto Sans SC) is much heavier than the Latin ones and
+        # can still be swapping in after networkidle fires on a slow link —
+        # that reflow, right as the screenshot fires, is what corrupted a QR
+        # capture once in CI. document.fonts.ready plus a longer settle covers it.
         page.wait_for_load_state("networkidle")
         page.evaluate("document.fonts && document.fonts.ready")
-        page.wait_for_timeout(300)
+        page.wait_for_timeout(600)
         height = page.evaluate("document.body.scrollHeight")
         page.screenshot(path=str(out_path), full_page=True)
         browser.close()
@@ -363,10 +367,21 @@ def main() -> None:
 
     for lang in (list(CFG.languages) if args.both else [args.lang]):
         out = out_dir / f"{edition['date']}-{lang}.png"
-        w, h = render_png(build_html(edition, lang, site_url, args.band), out, args.keep_html)
+        html_text = build_html(edition, lang, site_url, args.band)
+        w, h = render_png(html_text, out, args.keep_html)
+        try:
+            qr_state = verify_qr(out, target)
+        except SystemExit:
+            # A corrupted capture (e.g. a late webfont reflow at screenshot
+            # time) is a rendering race, not a content problem — one retry
+            # clears it without masking a real QR bug, since a second failure
+            # still raises.
+            print(f"QR check failed for {out.name}, retrying render once...",
+                  file=sys.stderr)
+            w, h = render_png(html_text, out, args.keep_html)
+            qr_state = verify_qr(out, target)
         size_kb = out.stat().st_size / 1024
         ratio = h / w
-        qr_state = verify_qr(out, target)
         # --out-dir may point outside the repository, so relative_to can fail.
         try:
             shown = out.relative_to(ROOT)
