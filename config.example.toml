@@ -1,0 +1,30 @@
+# Daily News for Kids — your settings.
+# Easier than editing this by hand: open docs/setup.html in a browser,
+# or run `python3 scripts/setup.py`.
+
+[child]
+# Shown as "made for ___" on the page. Leave empty to omit.
+name = ""
+# 5-18. Every edition is written at all three reading levels (6-11, 12-15, 16+),
+# so this only decides which one the page opens on. Anyone can switch on the page.
+age = 12
+
+[edition]
+# "en", "zh", or both. The first one is what the page opens in.
+languages = ["en"]
+
+[schedule]
+# Any IANA zone: America/Vancouver, America/New_York, Europe/London,
+# Asia/Shanghai, Asia/Tokyo, Australia/Sydney ...
+timezone = "America/Vancouver"
+# Hour of day, 0-23, in the zone above. Each edition covers the 24 hours ending
+# at this time. 17 = 5 PM, in time for dinner.
+hour = 17
+
+[site]
+# Your GitHub Pages address. The QR code on the share image points here.
+url = ""
+
+# Not settings, on purpose: three stories a day, from politics, society,
+# business, tech and science, centred on the US and China plus anything too big
+# to belong to one country. That is the editorial line, the same for everyone.

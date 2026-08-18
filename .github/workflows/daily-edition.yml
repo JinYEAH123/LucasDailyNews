@@ -1,0 +1,138 @@
+name: Daily edition
+
+# The publish time is a family setting (any zone, any hour), so there is no
+# fixed UTC moment to schedule. The job runs hourly and decides for itself
+# whether this is the hour — which also makes daylight saving a non-event.
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Edition date (YYYY-MM-DD). Blank = the current window.'
+        required: false
+      force:
+        description: 'Regenerate even if that edition already exists'
+        type: boolean
+        default: false
+      skip_email:
+        description: 'Build the edition but do not send the newsletter'
+        type: boolean
+        default: false
+
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is this edition due?
+        id: due
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import sys, pathlib, datetime
+          sys.path.insert(0, "scripts")
+          import appconfig
+
+          cfg = appconfig.load()
+          now = datetime.datetime.now(cfg.tz)
+          date_str, _, _ = appconfig.resolve_window(cfg)
+          already = pathlib.Path(f"data/editions/{date_str}.json").exists()
+
+          # Due once the cutoff has passed and today's edition is still missing.
+          # Stating it that way makes the job self-healing: if the run at the
+          # cutoff hour is delayed or dropped — GitHub's scheduler makes no
+          # promises — the next hourly run picks the day up instead of losing it.
+          due = now.hour >= cfg.hour and not already
+
+          print(f"go={'true' if due else 'false'}")
+          print(f"date={date_str}")
+          print(f"local={now:%Y-%m-%d %H:%M} {cfg.timezone}", file=sys.stderr)
+          print(f"cutoff={cfg.hour:02d}:00  already_published={already}  due={due}",
+                file=sys.stderr)
+          PY
+
+      - name: Install dependencies
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          pip install --quiet anthropic segno playwright opencv-python-headless
+          playwright install --with-deps chromium
+          # Chromium ships no CJK glyphs; without these a Chinese poster renders
+          # as tofu boxes and nobody notices until it is posted.
+          sudo apt-get install -y --no-install-recommends fonts-noto-cjk
+
+      - name: Generate the edition
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python3 scripts/generate_edition.py \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
+            ${{ inputs.force && '--force' || '' }}
+
+      # Before render_site, so the edition page can link the finished image.
+      - name: Build the share images
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          python3 scripts/build_poster.py --both \
+            ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+
+      - name: Render the site
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        run: python3 scripts/render_site.py
+
+      # Allowed to fail without losing the edition: the commit step below still
+      # runs, so a mail outage costs a delivery, never a day's work. The job is
+      # failed at the very end so the red run is still visible.
+      - name: Send the newsletter
+        id: send
+        if: >-
+          (steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch')
+          && !inputs.skip_email
+        continue-on-error: true
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM: ${{ secrets.SMTP_FROM }}
+          NEWSLETTER_RECIPIENTS: ${{ secrets.NEWSLETTER_RECIPIENTS }}
+        run: |
+          if [ -z "${SMTP_HOST}" ] || [ -z "${NEWSLETTER_RECIPIENTS}" ]; then
+            echo "Email is not configured yet — skipping. See the README to set it up."
+            exit 0
+          fi
+          python3 scripts/send_newsletter.py ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+
+      - name: Commit and push
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name  "daily-news-for-kids[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          if git diff --cached --quiet; then
+            echo "Nothing changed — the edition was already published."
+            exit 0
+          fi
+          git commit -m "Edition for ${{ steps.due.outputs.date }}"
+          for attempt in 1 2 3 4; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && \
+              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push failed, retry $attempt"
+            sleep $((2 ** attempt))
+          done
+          echo "Could not push after 4 attempts" >&2
+          exit 1
+
+      - name: Surface a failed send
+        if: steps.send.outcome == 'failure'
+        run: |
+          echo "The edition was built and pushed, but the newsletter did not go out." >&2
+          exit 1
