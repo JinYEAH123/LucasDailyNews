@@ -77,6 +77,25 @@ ending at that moment, so pick a time you are usually together.
 
 ---
 
+## Settings a visitor can change
+
+The site is static: each edition is written once, server-side, at your chosen
+hour. So there are two kinds of setting and only one of them is a visitor's.
+
+**Reading preferences** — language, appearance, which beats and regions to show,
+how many stories — act on the page immediately. A settings dialog opens on a
+browser's first visit and afterwards lives behind the gear in the top right.
+Choices are stored per device in `localStorage`; a static page cannot see a
+visitor's IP address, so a second device asks again.
+
+**Publishing settings** — the child's age, how the news is written, how many
+stories are produced, what time the edition is built — are decided when the
+edition is generated. Those live in `config.toml` and take effect from the next
+edition, not the one already on screen. The dialog says so and links to the full
+form rather than offering controls that would appear to work.
+
+---
+
 ## Setting it up
 
 ### 1. Take a copy
