@@ -400,7 +400,7 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
 
 def footer() -> str:
     return (f'<footer class="foot"><p class="contact">'
-            f'<a href="mailto:{CONTACT_EMAIL}">{e(CONTACT_EMAIL)}</a></p></footer>')
+            f'Contact me: <a href="mailto:{CONTACT_EMAIL}">{e(CONTACT_EMAIL)}</a></p></footer>')
 
 
 def render_edition_page(edition: dict, depth: int) -> str:
