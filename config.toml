@@ -1,40 +1,30 @@
-# Daily News for Kids — all your settings live here.
-# After changing anything, re-run:  python3 scripts/render_site.py
-# Or use the setup form:            python3 scripts/setup.py
+# Daily News for Kids — your settings.
+# Easier than editing this by hand: open docs/setup.html in a browser,
+# or run `python3 scripts/setup.py`.
 
 [child]
 # Shown as "made for ___" on the page. Leave empty to omit.
 name = "Lucas"
-# 5-18. This changes how the news is written: sentence length, how much gets
-# explained, and how hard the dinner questions are.
+# 5-18. Every edition is written at all three reading levels (6-11, 12-15, 16+),
+# so this only decides which one the page opens on. Anyone can switch on the page.
 age = 12
 
 [edition]
-# How many stories per day, 3-10. More than 10 stops being a digest.
-count = 3
-
-# Which beats to draw from. Pick as many as you like:
-#   politics  society  business  tech  science
-#   environment  sports  arts  health  education
-categories = ["politics", "society", "business", "tech"]
-
-# Where to focus. Pick as many as you like:
-#   US  CN  CA  EU  JPKR  ANZ  SEA  SASIA  LATAM  MEA
-# Or use ["GLOBAL"], which means all of them.
-regions = ["US", "CN"]
-
 # "en", "zh", or both. The first one is what the page opens in.
 languages = ["en", "zh"]
 
 [schedule]
-# Any IANA time zone: America/Vancouver, America/New_York, Europe/London,
+# Any IANA zone: America/Vancouver, America/New_York, Europe/London,
 # Asia/Shanghai, Asia/Tokyo, Australia/Sydney ...
 timezone = "America/Vancouver"
-# Hour of day, 0-23, in the zone above. Each edition covers the 24 hours
-# ending at this time. 17 = 5 PM, in time for dinner.
+# Hour of day, 0-23, in the zone above. Each edition covers the 24 hours ending
+# at this time. 17 = 5 PM, in time for dinner.
 hour = 17
 
 [site]
-# Your GitHub Pages address. The QR code on the share image points here, so
-# fill it in before sharing an image anywhere.
+# Your GitHub Pages address. The QR code on the share image points here.
 url = "https://jinyeah123.github.io/LucasDailyNews/"
+
+# Not settings, on purpose: three stories a day, from politics, society,
+# business, tech and science, centred on the US and China plus anything too big
+# to belong to one country. That is the editorial line, the same for everyone.

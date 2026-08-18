@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-lang="en">
+<html lang="en" data-lang="en" data-band="12-15">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,24 +15,14 @@
   --business: #8a5a0f; --business-tint: #f8f0e2;
   --tech: #4b3ba8; --tech-tint: #eeecfa;
   --science: #0f6a76; --science-tint: #e6f2f4;
-  --environment: #4a6b12; --environment-tint: #f0f4e4;
-  --sports: #b0511a; --sports-tint: #fceee5;
-  --arts: #9c2a7a; --arts-tint: #fbecf6;
-  --health: #1c5aa8; --health-tint: #e8f0fb;
-  --education: #6b4a1f; --education-tint: #f5efe6;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --politics: #f0899c; --politics-tint: #2a171c;
+  --politics: #f0899c; --politics-tint: #2a171c;
     --society: #5cc79b; --society-tint: #12251d;
     --business: #dfae5c; --business-tint: #262013;
     --tech: #a89bf7; --tech-tint: #1d1a2e;
     --science: #5ec4d2; --science-tint: #10262a;
-    --environment: #a8c766; --environment-tint: #1c2412;
-    --sports: #f5a173; --sports-tint: #2c1a11;
-    --arts: #ef8fd0; --arts-tint: #2a1526;
-    --health: #85b3f0; --health-tint: #131f2e;
-    --education: #d4b183; --education-tint: #241c12;
   }
 }
 :root[data-theme="dark"] {
@@ -41,11 +31,6 @@
   --business: #dfae5c; --business-tint: #262013;
   --tech: #a89bf7; --tech-tint: #1d1a2e;
   --science: #5ec4d2; --science-tint: #10262a;
-  --environment: #a8c766; --environment-tint: #1c2412;
-  --sports: #f5a173; --sports-tint: #2c1a11;
-  --arts: #ef8fd0; --arts-tint: #2a1526;
-  --health: #85b3f0; --health-tint: #131f2e;
-  --education: #d4b183; --education-tint: #241c12;
 }
 .story.politics { --accent: var(--politics); --accent-tint: var(--politics-tint); }
 .archive-item .heads li.politics::before { background: var(--politics); }
@@ -57,131 +42,26 @@
 .archive-item .heads li.tech::before { background: var(--tech); }
 .story.science { --accent: var(--science); --accent-tint: var(--science-tint); }
 .archive-item .heads li.science::before { background: var(--science); }
-.story.environment { --accent: var(--environment); --accent-tint: var(--environment-tint); }
-.archive-item .heads li.environment::before { background: var(--environment); }
-.story.sports { --accent: var(--sports); --accent-tint: var(--sports-tint); }
-.archive-item .heads li.sports::before { background: var(--sports); }
-.story.arts { --accent: var(--arts); --accent-tint: var(--arts-tint); }
-.archive-item .heads li.arts::before { background: var(--arts); }
-.story.health { --accent: var(--health); --accent-tint: var(--health-tint); }
-.archive-item .heads li.health::before { background: var(--health); }
-.story.education { --accent: var(--education); --accent-tint: var(--education-tint); }
-.archive-item .heads li.education::before { background: var(--education); }
+[data-band="6-11"] .band:not(.b-6-11) { display: none; }
+[data-band="12-15"] .band:not(.b-12-15) { display: none; }
+[data-band="16+"] .band:not(.b-16) { display: none; }
 </style>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
 <body>
-<button type="button" class="gear" data-open-settings aria-label="Settings" title="Settings"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
 <div class="wrap">
 <header class="masthead">
   <h1><a href="index.html"><span class="l-en">Daily News for Kids</span><span class="l-zh">少年每日新闻</span></a></h1>
   <p class="tagline"><span class="l-en">World news your child can actually read — and argue about.</span><span class="l-zh">孩子真正读得懂、还想争一争的每日世界新闻。</span></p>
-  <p class="for-line"><span class="l-en">Made for</span><span class="l-zh">为</span> <strong>Lucas</strong><span class="l-en"></span><span class="l-zh"> 而做</span> · 12</p>
+  <p class="for-line"><span class="l-en">Made for</span><span class="l-zh">为</span> <strong>Lucas</strong><span class="l-en"></span><span class="l-zh"> 而做</span></p>
   
   <div class="controls">
     <button type="button" data-lang-set="en" aria-pressed="true">English</button><button type="button" data-lang-set="zh" aria-pressed="false">中文</button>
     <button type="button" data-theme-toggle><span class="l-en">Light / Dark</span><span class="l-zh">浅色 / 深色</span></button>
     <a class="btn" href="index.html"><span class="l-en">Today</span><span class="l-zh">今日</span></a>
   </div>
-</header><h2 class="page-head"><span class="l-en">Every past edition</span><span class="l-zh">所有往期</span></h2><p class="hook"><span class="l-en">Newest first.</span><span class="l-zh">从新到旧排列。</span></p><ul class="archive-list"><li class="year-head">2026</li><li class="archive-item"><a class="date" href="editions/2026-08-17.html"><span class="l-en">Monday, August 17, 2026</span><span class="l-zh">2026年8月17日 星期一</span></a><ul class="heads"><li class="politics"><span class="l-en">A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War</span><span class="l-zh">60天期限到了：美国和伊朗还没谈拢</span></li><li class="business"><span class="l-en">China&#x27;s Economy Is Slowing — but the Robot-and-Chip Part Is Booming</span><span class="l-zh">中国经济在放缓，但「机器人和芯片」那部分在猛涨</span></li><li class="tech"><span class="l-en">A Company Losing $14 Billion a Year May Be Worth $1 Trillion</span><span class="l-zh">一家一年亏140亿美元的公司，可能值1万亿美元</span></li></ul></li></ul><footer class="foot"><span class="l-en">Links open the original reporting — always check the source.</span><span class="l-zh">链接会打开原始报道——请随时核对来源。</span><br><a href="setup.html"><span class="l-en">Make your own</span><span class="l-zh">做一份自己的</span></a></footer>
+</header><h2 class="page-head"><span class="l-en">Every past edition</span><span class="l-zh">所有往期</span></h2><p class="hook"><span class="l-en">Newest first.</span><span class="l-zh">从新到旧排列。</span></p><ul class="archive-list"><li class="year-head">2026</li><li class="archive-item"><a class="date" href="editions/2026-08-17.html"><span class="l-en">Monday, August 17, 2026</span><span class="l-zh">2026年8月17日 星期一</span></a><ul class="heads"><li class="politics"><span class="l-en">A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War</span><span class="l-zh">60天期限到了：美国和伊朗还没谈拢</span></li><li class="business"><span class="l-en">China&#x27;s Economy Is Slowing — but the Robot-and-Chip Part Is Booming</span><span class="l-zh">中国经济在放缓，但「机器人和芯片」那部分在猛涨</span></li><li class="tech"><span class="l-en">A Company Losing $14 Billion a Year May Be Worth $1 Trillion</span><span class="l-zh">一家一年亏140亿美元的公司，可能值1万亿美元</span></li></ul></li></ul><footer class="foot"><p class="beats-note"><span class="l-en">Three stories a day, from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country.</span><span class="l-zh">每天三条，来自政治、社会、财经、科技、科学五个板块，以美国和中国为重心，外加大到不属于任何单一国家的事件。</span></p><span class="l-en">Links open the original reporting — always check the source.</span><span class="l-zh">链接会打开原始报道——请随时核对来源。</span><br><a href="setup.html"><span class="l-en">Make your own</span><span class="l-zh">做一份自己的</span></a></footer>
 </div>
-
-<dialog class="settings" id="settings">
-  <form method="dialog" class="settings-close-form">
-    <button class="x" value="close" aria-label="Close">&times;</button>
-  </form>
-  <h2 class="m-title"><span class="l-en">Settings</span><span class="l-zh">设置</span></h2>
-  <p class="m-welcome" id="mWelcome" hidden><span class="l-en">Welcome. Set this up once — it is remembered on this device.</span><span class="l-zh">欢迎。设置一次，这台设备就记住了。</span></p>
-
-  <section class="m-section">
-    <h3><span class="l-en">Reading</span><span class="l-zh">阅读</span> <span class="badge now"><span class="l-en">Applies now</span><span class="l-zh">立刻生效</span></span></h3>
-    
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Language</span><span class="l-zh">阅读语言</span></p>
-      <div class="seg" id="prefLang"></div>
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Appearance</span><span class="l-zh">外观</span></p>
-      <div class="seg" id="prefTheme"></div>
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3><span class="l-en">What to cover</span><span class="l-zh">内容范围</span> <span class="badge both"><span class="l-en">Filters now · generates from tomorrow</span><span class="l-zh">今天筛选 · 明天起生成</span></span></h3>
-    <p class="m-note"><span class="l-en">These filter what you see right now. Once you paste the settings below into your repository, tomorrow's edition is generated from them too.</span><span class="l-zh">这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，从明天那期开始，新闻也会按它们生成。</span></p>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Beats</span><span class="l-zh">板块</span>
-        <span class="m-bulk"><button type="button" data-bulk="beats" data-on="1"><span class="l-en">All</span><span class="l-zh">全选</span></button>
-        <button type="button" data-bulk="beats" data-on="0"><span class="l-en">None</span><span class="l-zh">全不选</span></button></span>
-      </p>
-      <div class="chips" id="prefBeats"></div>
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Regions</span><span class="l-zh">地区</span>
-        <span class="m-bulk"><button type="button" data-bulk="regions" data-on="1"><span class="l-en">All</span><span class="l-zh">全选</span></button>
-        <button type="button" data-bulk="regions" data-on="0"><span class="l-en">None</span><span class="l-zh">全不选</span></button></span>
-      </p>
-      <div class="chips" id="prefRegions"></div>
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Stories a day</span><span class="l-zh">每天几条</span> <output class="pill" id="prefCountOut"></output></p>
-      <input type="range" id="prefCount" min="3" max="10">
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3><span class="l-en">How the news is written</span><span class="l-zh">新闻怎么写</span> <span class="badge later"><span class="l-en">From tomorrow</span><span class="l-zh">明天起生效</span></span></h3>
-    <p class="m-note"><span class="l-en">Today's edition was written before you opened this page, so these cannot change what is on screen. They take effect from the next edition.</span><span class="l-zh">今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。它们从下一期开始生效。</span></p>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Child's name</span><span class="l-zh">孩子的名字</span></p>
-      <input type="text" id="prefName" placeholder="optional">
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Age</span><span class="l-zh">年龄</span> <output class="pill" id="prefAgeOut"></output></p>
-      <input type="range" id="prefAge" min="5" max="18">
-      <p class="m-sub"><span class="l-en">Sets sentence length, how much gets explained, and how hard the dinner questions are — never how serious the news may be.</span><span class="l-zh">决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。</span></p>
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Write it in</span><span class="l-zh">生成语言</span></p>
-      <div class="chips" id="prefGenLangs"></div>
-    </div>
-    <div class="m-field m-two">
-      <div>
-        <p class="m-label"><span class="l-en">Time zone</span><span class="l-zh">时区</span></p>
-        <select id="prefTz"></select>
-      </div>
-      <div>
-        <p class="m-label"><span class="l-en">Published at</span><span class="l-zh">更新时刻</span></p>
-        <select id="prefHour"></select>
-      </div>
-    </div>
-    <div class="m-field">
-      <p class="m-label"><span class="l-en">Site address</span><span class="l-zh">网站地址</span></p>
-      <input type="text" id="prefUrl" placeholder="https://yourname.github.io/your-repo/">
-      <p class="m-sub"><span class="l-en">The QR code on the share image points here.</span><span class="l-zh">转发长图上的二维码指向这里。</span></p>
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3><span class="l-en">Your config.toml</span><span class="l-zh">你的 config.toml</span></h3>
-    <p class="m-note"><span class="l-en">Copy this, open config.toml in your repository, replace everything with it, and commit. The next edition follows it.</span><span class="l-zh">复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。</span></p>
-    <div class="outbar">
-      <button type="button" class="copy" id="prefCopy"><span class="l-en">Copy</span><span class="l-zh">复制</span></button>
-      <a class="btn" href="setup.html"><span class="l-en">Full page version</span><span class="l-zh">完整页面版</span></a>
-      <span class="m-status" id="prefCopyStatus"></span>
-    </div>
-    <pre class="out" id="prefToml"></pre>
-  </section>
-
-  <div class="m-actions">
-    <button type="button" class="primary" id="prefSave"><span class="l-en">Save</span><span class="l-zh">保存设置</span></button>
-    <button type="button" class="ghost" id="prefReset"><span class="l-en">Reset</span><span class="l-zh">恢复默认</span></button>
-    <span class="m-status" id="prefStatus"></span>
-  </div>
-
-  <script type="application/json" id="prefs-catalogue">{"beats": {"politics": {"label": {"en": "Politics", "zh": "政治"}, "color": "#a4243b"}, "society": {"label": {"en": "Society", "zh": "社会"}, "color": "#1a6b4a"}, "business": {"label": {"en": "Business", "zh": "财经"}, "color": "#8a5a0f"}, "tech": {"label": {"en": "Tech", "zh": "科技"}, "color": "#4b3ba8"}, "science": {"label": {"en": "Science", "zh": "科学"}, "color": "#0f6a76"}, "environment": {"label": {"en": "Environment", "zh": "环境"}, "color": "#4a6b12"}, "sports": {"label": {"en": "Sports", "zh": "体育"}, "color": "#b0511a"}, "arts": {"label": {"en": "Arts & Culture", "zh": "艺术与文化"}, "color": "#9c2a7a"}, "health": {"label": {"en": "Health", "zh": "健康"}, "color": "#1c5aa8"}, "education": {"label": {"en": "Education", "zh": "教育"}, "color": "#6b4a1f"}}, "regions": {"US": {"label": {"en": "United States", "zh": "美国"}}, "CN": {"label": {"en": "China", "zh": "中国"}}, "CA": {"label": {"en": "Canada", "zh": "加拿大"}}, "EU": {"label": {"en": "Europe", "zh": "欧洲"}}, "JPKR": {"label": {"en": "Japan & Korea", "zh": "日本与韩国"}}, "ANZ": {"label": {"en": "Australia & NZ", "zh": "澳洲与新西兰"}}, "SEA": {"label": {"en": "Southeast Asia", "zh": "东南亚"}}, "SASIA": {"label": {"en": "South Asia", "zh": "南亚"}}, "LATAM": {"label": {"en": "Latin America", "zh": "拉丁美洲"}}, "MEA": {"label": {"en": "Middle East & Africa", "zh": "中东与非洲"}}}, "viewLanguages": [{"code": "en", "label": "English"}, {"code": "zh", "label": "中文"}], "allLanguages": [{"code": "en", "label": "English"}, {"code": "zh", "label": "中文"}], "minCount": 3, "maxCount": 10, "minAge": 5, "maxAge": 18, "config": {"lang": "en", "name": "Lucas", "age": 12, "count": 3, "beats": ["politics", "society", "business", "tech"], "regions": ["US", "CN"], "langs": ["en", "zh"], "tz": "America/Vancouver", "hour": 17, "siteUrl": "https://jinyeah123.github.io/LucasDailyNews/"}}</script>
-  <script type="application/json" id="prefs-strings">{"title": {"en": "Settings", "zh": "设置"}, "welcome": {"en": "Welcome. Set this up once — it is remembered on this device.", "zh": "欢迎。设置一次，这台设备就记住了。"}, "now": {"en": "Applies now", "zh": "立刻生效"}, "tomorrow": {"en": "From tomorrow", "zh": "明天起生效"}, "both": {"en": "Filters now · generates from tomorrow", "zh": "今天筛选 · 明天起生成"}, "reading_h": {"en": "Reading", "zh": "阅读"}, "lang": {"en": "Language", "zh": "阅读语言"}, "theme": {"en": "Appearance", "zh": "外观"}, "theme_system": {"en": "Match device", "zh": "跟随系统"}, "theme_light": {"en": "Light", "zh": "浅色"}, "theme_dark": {"en": "Dark", "zh": "深色"}, "content_h": {"en": "What to cover", "zh": "内容范围"}, "content_n": {"en": "These filter what you see right now. Once you paste the settings below into your repository, tomorrow's edition is generated from them too.", "zh": "这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，从明天那期开始，新闻也会按它们生成。"}, "beats": {"en": "Beats", "zh": "板块"}, "regions": {"en": "Regions", "zh": "地区"}, "howmany": {"en": "Stories a day", "zh": "每天几条"}, "all": {"en": "All", "zh": "全选"}, "none": {"en": "None", "zh": "全不选"}, "publish_h": {"en": "How the news is written", "zh": "新闻怎么写"}, "publish_n": {"en": "Today's edition was written before you opened this page, so these cannot change what is on screen. They take effect from the next edition.", "zh": "今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。它们从下一期开始生效。"}, "name": {"en": "Child's name", "zh": "孩子的名字"}, "name_ph": {"en": "optional", "zh": "可留空"}, "age": {"en": "Age", "zh": "年龄"}, "age_n": {"en": "Sets sentence length, how much gets explained, and how hard the dinner questions are — never how serious the news may be.", "zh": "决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。"}, "genlangs": {"en": "Write it in", "zh": "生成语言"}, "tz": {"en": "Time zone", "zh": "时区"}, "hour": {"en": "Published at", "zh": "更新时刻"}, "url": {"en": "Site address", "zh": "网站地址"}, "url_n": {"en": "The QR code on the share image points here.", "zh": "转发长图上的二维码指向这里。"}, "out_h": {"en": "Your config.toml", "zh": "你的 config.toml"}, "out_n": {"en": "Copy this, open config.toml in your repository, replace everything with it, and commit. The next edition follows it.", "zh": "复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。"}, "copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "full_form": {"en": "Full page version", "zh": "完整页面版"}, "save": {"en": "Save", "zh": "保存设置"}, "saved": {"en": "Saved on this device.", "zh": "已保存在这台设备。"}, "reset": {"en": "Reset", "zh": "恢复默认"}, "close": {"en": "Close", "zh": "关闭"}}</script>
-</dialog>
 <script src="assets/app.js"></script>
 </body>
 </html>

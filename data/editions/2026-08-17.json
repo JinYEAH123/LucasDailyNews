@@ -15,173 +15,6 @@
       "rank": 1,
       "category": "politics",
       "region": "US",
-      "headline": {
-        "en": "A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War",
-        "zh": "60天期限到了：美国和伊朗还没谈拢"
-      },
-      "hook": {
-        "en": "Back in June, the U.S. and Iran gave themselves 60 days to end their fighting. Today the clock hit zero with no deal, and President Trump said he will not extend it — while warning the country of Oman not to \"get in the way\" near one of the most important stretches of water on Earth.",
-        "zh": "六月时，美国和伊朗给自己定了60天期限来结束冲突。今天时间到了，协议没谈成。特朗普总统说不再延长，并警告阿曼不要在霍尔木兹海峡「挡路」——那是地球上最重要的一条水道之一。"
-      },
-      "story": {
-        "en": [
-          "Imagine two people in an argument who agree to a rule: \"We have 60 days to work this out.\" That is roughly what the United States and Iran did in June, when they signed a memorandum of understanding — a written promise to try for a deal that would end their conflict.",
-          "Today, August 17, that 60-day clock ran out. There is no deal. President Trump said he is not interested in extending the deadline, which means the fighting is likely to continue.",
-          "Then things got tenser. Trump warned that the U.S. might strike Oman — a small country on the Arabian Peninsula that is normally a friend of the United States — if it \"gets in the way\" in the Strait of Hormuz.",
-          "Here is why that strait matters so much. Look at a map of the Persian Gulf: the only way out to the open ocean is a narrow gap of water between Iran and Oman. It is about 33 km wide at its tightest point — roughly the distance from downtown Vancouver to Abbotsford. Around a fifth of all the oil the world uses squeezes through that gap on giant tankers.",
-          "So when countries start threatening each other there, traders around the world get nervous, and the price of oil goes up. Today Brent crude — one of the main types of oil people buy and sell — climbed to about $89 a barrel. The Dow Jones and the S&P 500 (two big scoreboards for American company stocks) each dropped about half a percent."
-        ],
-        "zh": [
-          "想象两个人在吵架，然后约好一条规矩：「我们有60天时间把这事解决掉。」美国和伊朗在六月做的差不多就是这件事——他们签了一份谅解备忘录，也就是一份「我们会努力谈成协议、结束冲突」的书面承诺。",
-          "今天，8月17日，这60天到期了。协议没谈成。特朗普总统表示他不打算延长期限，这意味着战事很可能继续下去。",
-          "接着气氛更紧张了。特朗普警告说，如果阿曼在霍尔木兹海峡「挡路」，美国可能会动手。阿曼是阿拉伯半岛上的一个小国，平时算是美国的朋友。",
-          "为什么这条海峡这么关键？看一眼波斯湾的地图：从波斯湾出到大洋，唯一的通道就是伊朗和阿曼之间那条窄窄的水道。最窄处大约33公里宽——差不多是温哥华市中心到阿伯茨福德的距离。全世界用的石油里，大约五分之一要靠巨型油轮从这条缝里挤出去。",
-          "所以一旦有国家在那里互相放狠话，全球的交易员就会紧张，油价就会往上跳。今天布伦特原油——市场上主要交易的一种石油——涨到了每桶约89美元。道琼斯指数和标普500（衡量美国公司股价的两个大记分牌）各跌了约0.5%。"
-        ]
-      },
-      "why_it_matters": {
-        "en": "Oil is not just for cars. It is in the plastic of your water bottle, the fuel of the plane that flies you to see family, and the cost of shipping food to Vancouver grocery stores. When one narrow channel gets risky, prices move everywhere — including here.",
-        "zh": "石油不只是汽车用的。你水瓶的塑料、你去看亲戚坐的飞机的燃油、把食物运到温哥华超市的运费，背后都有石油。当一条窄窄的水道变得危险，全世界的价格都会动——包括我们这里。"
-      },
-      "talk_about_it": [
-        {
-          "question": {
-            "en": "A deadline passed and nothing happened. Was the deadline worth setting at all?",
-            "zh": "期限过了，什么也没发生。那当初定这个期限，还值得吗？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — it did real work", "zh": "值得——它确实起了作用" },
-              "points": {
-                "en": [
-                  "For 60 days both sides were talking instead of only fighting. That is not nothing.",
-                  "A deadline creates a public record. Everyone can now see who moved and who did not.",
-                  "Hard problems rarely get solved on the first try. A failed attempt still narrows down what might work."
-                ],
-                "zh": [
-                  "这60天里，双方至少在谈，而不只是在打。这本身不是零。",
-                  "期限会留下一份公开记录。现在所有人都能看出，谁往前走了，谁没有。",
-                  "难题很少第一次就解决。一次失败的尝试，仍然缩小了「什么办法可能有用」的范围。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — it was for show", "zh": "不值得——那只是做样子" },
-              "points": {
-                "en": [
-                  "A deadline with no consequence is just a date. Nothing was actually at stake when it passed.",
-                  "It let both sides look busy for two months while the fighting continued anyway.",
-                  "Break a promise once and the next promise is worth less. That cost is real and lasts."
-                ],
-                "zh": [
-                  "没有后果的期限，只是一个日期。到期那天其实什么也没押上。",
-                  "它让双方「看起来很忙」了两个月，可仗照打。",
-                  "承诺一旦破过一次，下一次承诺就不值钱了。这个代价是真实的，而且会留下来。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "Oman is supposed to be a friend of the U.S. Is it ever smart to threaten your own friend?",
-            "zh": "阿曼本该是美国的朋友。威胁自己的朋友，有可能是聪明的做法吗？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Sometimes yes", "zh": "有时候是" },
-              "points": {
-                "en": [
-                  "Countries act on their interests, not their feelings. Friendship does not cancel that.",
-                  "A clear warning is cheaper than an actual attack — it tells the other side exactly where the line is.",
-                  "Vagueness causes accidents. Saying the hard thing out loud can prevent a misunderstanding that kills people."
-                ],
-                "zh": [
-                  "国家按利益行事，不是按感情。朋友关系并不会取消这一点。",
-                  "一句明确的警告，比真的动手便宜得多——它把「红线在哪」讲清楚了。",
-                  "含糊才容易出事。把难听的话说在明处，可能避免一场会死人的误判。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — it costs more than it gains", "zh": "不是——代价比收益大" },
-              "points": {
-                "en": [
-                  "A friend who feels threatened starts quietly looking for other partners.",
-                  "Other allies are watching. If this is how friends get treated, your promises to them are worth less too.",
-                  "It can push a country that wanted to stay neutral onto the other side — the opposite of what you wanted."
-                ],
-                "zh": [
-                  "一个感到被威胁的朋友，会开始悄悄找别的伙伴。",
-                  "其他盟友都在看。如果朋友是这样被对待的，那你对他们的承诺也跟着贬值。",
-                  "它可能把一个本想保持中立的国家推到对面去——那正好和你想要的相反。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "One narrow channel carries a fifth of the world's oil. Is that a flaw in how the world is set up?",
-            "zh": "一条窄水道承载着全世界五分之一的石油。这算不算世界运转方式上的一个缺陷？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — it's a single point of failure", "zh": "算——这是一个「单点失效」" },
-              "points": {
-                "en": [
-                  "Anything important that has only one route is fragile. Engineers build backups for exactly this reason.",
-                  "It hands one country enormous leverage over billions of people who never got a vote.",
-                  "Everyone has known about this risk for fifty years and it still has not been fixed."
-                ],
-                "zh": [
-                  "任何重要的东西，如果只有一条通路，就是脆弱的。工程师之所以做备份，正是为了这个。",
-                  "它把巨大的筹码交到一个国家手里，而受影响的几十亿人从来没投过票。",
-                  "这个风险大家已经知道了五十年，到今天还是没被解决。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — geography isn't a design", "zh": "不算——地理不是被设计出来的" },
-              "points": {
-                "en": [
-                  "Nobody drew that map. Oil happens to be there and the sea happens to be shaped that way.",
-                  "The world has adapted: pipelines that go around it, emergency reserves, suppliers on other continents.",
-                  "Because everyone depends on it, almost everyone — including Iran — has a reason to keep it open. Shared need is its own kind of safety."
-                ],
-                "zh": [
-                  "那张地图不是谁画的。石油碰巧在那里，海碰巧长成那个形状。",
-                  "世界已经在适应了：绕开它的输油管道、战略储备、其他大洲的供应国。",
-                  "正因为所有人都依赖它，几乎所有人——包括伊朗——都有理由让它保持畅通。共同的需要，本身就是一种安全。"
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "word_bank": [
-        {
-          "term": { "en": "Memorandum of understanding", "zh": "谅解备忘录" },
-          "def": {
-            "en": "A written promise between two sides to try to reach a real agreement. It is a serious handshake, not yet a signed contract.",
-            "zh": "双方之间的一份书面承诺，表示会努力达成正式协议。它像一次郑重的握手，但还不是签好的合同。"
-          }
-        },
-        {
-          "term": { "en": "Chokepoint", "zh": "咽喉要道" },
-          "def": {
-            "en": "A narrow passage that lots of traffic must squeeze through — so whoever controls it has enormous power.",
-            "zh": "大量运输必须通过的狭窄通道。谁控制了它，谁就掌握了巨大的影响力。"
-          }
-        },
-        {
-          "term": { "en": "Barrel (of oil)", "zh": "桶（石油单位）" },
-          "def": {
-            "en": "The standard unit oil is priced in — about 159 litres, or roughly two bathtubs full.",
-            "zh": "石油定价的标准单位，约159升，大概是两浴缸的量。"
-          }
-        }
-      ],
       "source": {
         "title": "Live updates: US-Iran war news; Trump threatens Oman as 60-day agreement expires",
         "publisher": "CNN",
@@ -258,179 +91,592 @@
             "zh": "地图、油轮和数字：为什么对全球石油供应来说，没有比这里更重要的地方。"
           }
         }
-      ]
+      ],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Two Countries Promised to Stop Fighting in 60 Days. Today the Time Ran Out.",
+            "zh": "两个国家说好60天内停手。今天，时间到了。"
+          },
+          "hook": {
+            "en": "In June, the United States and Iran promised each other something: we will stop fighting within 60 days. Today was day 60. They did not stop. And the American president warned another country, Oman, to stay out of the way.",
+            "zh": "六月的时候，美国和伊朗互相答应了一件事：我们会在60天里停止打仗。今天就是第60天。他们没有停。美国总统还警告了另一个国家阿曼，让它别挡路。"
+          },
+          "story": {
+            "en": [
+              "Sometimes when two people are fighting, they say: let us stop by Friday. The United States and Iran did that in June. They picked a day 60 days later. Today was that day.",
+              "They did not stop. The American president said he will not give them more time. So the fighting will probably keep going.",
+              "Then he said something else. Next to Iran there is a very narrow strip of sea called the Strait of Hormuz. At its thinnest it is only about 33 kilometres across. Enormous ships full of oil squeeze through it every single day. Out of every five buckets of oil in the world, one goes through that one gap.",
+              "The president warned Oman, the country on the other side of that gap, not to get in the way. When countries say frightening things near the oil ships, the price of oil goes up all over the world. Today it went up."
+            ],
+            "zh": [
+              "有时候两个人吵架，会说：我们星期五之前停下来吧。美国和伊朗六月的时候就是这么做的。他们挑了60天以后的一天。今天就是那一天。",
+              "他们没有停。美国总统说，不再多给时间了。所以仗很可能还会继续打下去。",
+              "然后他又说了一件事。伊朗旁边有一条很窄很窄的海，叫霍尔木兹海峡。最窄的地方只有大约33公里宽。每天都有装满石油的巨轮，从那里挤过去。全世界每五桶石油，就有一桶要走这条缝。",
+              "总统警告了海峡另一边的国家阿曼，让它别挡路。当有国家在运油船旁边说吓人的话，全世界的油价就会往上涨。今天就涨了。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil is not only for cars. It is in the plastic of your water bottle, in the fuel of planes, and in what it costs to bring food to the shop near your home. When one narrow bit of sea becomes frightening, prices go up everywhere — including where you live.",
+            "zh": "石油不只是给汽车用的。你水瓶的塑料里有它，飞机的燃油里有它，把食物运到你家附近商店的花费里也有它。当一小段海变得可怕，全世界的价格都会涨——包括你住的地方。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Deadline",
+                "zh": "期限"
+              },
+              "def": {
+                "en": "A day you promise to finish something by.",
+                "zh": "你答应在这一天之前把事情做完。"
+              }
+            },
+            {
+              "term": {
+                "en": "Strait",
+                "zh": "海峡"
+              },
+              "def": {
+                "en": "A narrow strip of sea squeezed between two pieces of land.",
+                "zh": "夹在两块陆地之间、窄窄的一条海。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "You promise to finish something by Friday and you do not. Should there be a punishment?",
+                "zh": "你答应星期五之前做完一件事，结果没做完。应该受罚吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "应该"
+                  },
+                  "points": {
+                    "en": [
+                      "A promise nobody has to keep is not really a promise.",
+                      "If nothing ever happens, next time people will not try as hard.",
+                      "The person waiting for you gave something up too."
+                    ],
+                    "zh": [
+                      "没人非遵守不可的承诺，就不算真的承诺。",
+                      "如果什么后果都没有，下次大家就不会那么努力了。",
+                      "等你的那个人，也放弃了一些东西。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "Some jobs turn out much harder than they looked when you promised.",
+                      "Punishing someone can make them stop trying at all.",
+                      "What matters is whether they really tried, not the date on the calendar."
+                    ],
+                    "zh": [
+                      "有些事真做起来，比答应的时候难得多。",
+                      "惩罚可能会让人干脆不再努力了。",
+                      "重要的是他有没有真的努力，而不是日历上那个日子。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Oman is America's friend. Is it ever alright to say something frightening to a friend?",
+                "zh": "阿曼是美国的朋友。对朋友说吓人的话，有可能是对的吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Sometimes it is",
+                    "zh": "有时候是"
+                  },
+                  "points": {
+                    "en": [
+                      "Telling a friend the hard truth early is kinder than surprising them later.",
+                      "Saying it out loud can stop a mix-up that would hurt somebody.",
+                      "Friends can disagree, even strongly, and still be friends."
+                    ],
+                    "zh": [
+                      "早点把难听的实话告诉朋友，比以后突然给他一个意外要好。",
+                      "把话说明白，可能避免一场会伤到人的误会。",
+                      "朋友之间可以不同意，甚至激烈地不同意，还是朋友。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不是"
+                  },
+                  "points": {
+                    "en": [
+                      "A friend who is afraid of you stops trusting you.",
+                      "Your other friends are watching and wondering if they are next.",
+                      "You can say exactly the same thing kindly, and it still works."
+                    ],
+                    "zh": [
+                      "一个怕你的朋友，会不再信任你。",
+                      "你其他的朋友都在看，会想下一个是不是自己。",
+                      "同样的话可以好好说，一样有用。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "One small gap in the sea decides the price of oil for the whole world. Is that a good way for the world to work?",
+                "zh": "海上一条小小的缝，决定了全世界的油价。世界这样运转，好吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "No, it is too risky",
+                    "zh": "不好，太危险"
+                  },
+                  "points": {
+                    "en": [
+                      "If that one place breaks, everybody's things get more expensive.",
+                      "It gives one country enormous power over everyone else.",
+                      "Sensible plans always keep a second way of doing things."
+                    ],
+                    "zh": [
+                      "如果那一个地方出事，所有人的东西都会变贵。",
+                      "它让一个国家握有对所有人的巨大影响力。",
+                      "靠谱的计划，总会准备第二条路。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It is just where the sea is",
+                    "zh": "海本来就长这样"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody chose where the water is, or where the oil is.",
+                      "People have already built other roads and pipes around it.",
+                      "Because everyone needs it, almost everyone wants it kept open."
+                    ],
+                    "zh": [
+                      "水在哪里、石油在哪里，不是谁选的。",
+                      "人们已经在它周围修了别的路和管道。",
+                      "正因为所有人都需要它，几乎所有人都希望它保持畅通。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War",
+            "zh": "60天期限到了：美国和伊朗还没谈拢"
+          },
+          "hook": {
+            "en": "Back in June, the U.S. and Iran gave themselves 60 days to end their fighting. Today the clock hit zero with no deal, and President Trump said he will not extend it — while warning the country of Oman not to \"get in the way\" near one of the most important stretches of water on Earth.",
+            "zh": "六月时，美国和伊朗给自己定了60天期限来结束冲突。今天时间到了，协议没谈成。特朗普总统说不再延长，并警告阿曼不要在霍尔木兹海峡「挡路」——那是地球上最重要的一条水道之一。"
+          },
+          "story": {
+            "en": [
+              "Imagine two people in an argument who agree to a rule: \"We have 60 days to work this out.\" That is roughly what the United States and Iran did in June, when they signed a memorandum of understanding — a written promise to try for a deal that would end their conflict.",
+              "Today, August 17, that 60-day clock ran out. There is no deal. President Trump said he is not interested in extending the deadline, which means the fighting is likely to continue.",
+              "Then things got tenser. Trump warned that the U.S. might strike Oman — a small country on the Arabian Peninsula that is normally a friend of the United States — if it \"gets in the way\" in the Strait of Hormuz.",
+              "Here is why that strait matters so much. Look at a map of the Persian Gulf: the only way out to the open ocean is a narrow gap of water between Iran and Oman. It is about 33 km wide at its tightest point — roughly the distance from downtown Vancouver to Abbotsford. Around a fifth of all the oil the world uses squeezes through that gap on giant tankers.",
+              "So when countries start threatening each other there, traders around the world get nervous, and the price of oil goes up. Today Brent crude — one of the main types of oil people buy and sell — climbed to about $89 a barrel. The Dow Jones and the S&P 500 (two big scoreboards for American company stocks) each dropped about half a percent."
+            ],
+            "zh": [
+              "想象两个人在吵架，然后约好一条规矩：「我们有60天时间把这事解决掉。」美国和伊朗在六月做的差不多就是这件事——他们签了一份谅解备忘录，也就是一份「我们会努力谈成协议、结束冲突」的书面承诺。",
+              "今天，8月17日，这60天到期了。协议没谈成。特朗普总统表示他不打算延长期限，这意味着战事很可能继续下去。",
+              "接着气氛更紧张了。特朗普警告说，如果阿曼在霍尔木兹海峡「挡路」，美国可能会动手。阿曼是阿拉伯半岛上的一个小国，平时算是美国的朋友。",
+              "为什么这条海峡这么关键？看一眼波斯湾的地图：从波斯湾出到大洋，唯一的通道就是伊朗和阿曼之间那条窄窄的水道。最窄处大约33公里宽——差不多是温哥华市中心到阿伯茨福德的距离。全世界用的石油里，大约五分之一要靠巨型油轮从这条缝里挤出去。",
+              "所以一旦有国家在那里互相放狠话，全球的交易员就会紧张，油价就会往上跳。今天布伦特原油——市场上主要交易的一种石油——涨到了每桶约89美元。道琼斯指数和标普500（衡量美国公司股价的两个大记分牌）各跌了约0.5%。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil is not just for cars. It is in the plastic of your water bottle, the fuel of the plane that flies you to see family, and the cost of shipping food to Vancouver grocery stores. When one narrow channel gets risky, prices move everywhere — including here.",
+            "zh": "石油不只是汽车用的。你水瓶的塑料、你去看亲戚坐的飞机的燃油、把食物运到温哥华超市的运费，背后都有石油。当一条窄窄的水道变得危险，全世界的价格都会动——包括我们这里。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Memorandum of understanding",
+                "zh": "谅解备忘录"
+              },
+              "def": {
+                "en": "A written promise between two sides to try to reach a real agreement. It is a serious handshake, not yet a signed contract.",
+                "zh": "双方之间的一份书面承诺，表示会努力达成正式协议。它像一次郑重的握手，但还不是签好的合同。"
+              }
+            },
+            {
+              "term": {
+                "en": "Chokepoint",
+                "zh": "咽喉要道"
+              },
+              "def": {
+                "en": "A narrow passage that lots of traffic must squeeze through — so whoever controls it has enormous power.",
+                "zh": "大量运输必须通过的狭窄通道。谁控制了它，谁就掌握了巨大的影响力。"
+              }
+            },
+            {
+              "term": {
+                "en": "Barrel (of oil)",
+                "zh": "桶（石油单位）"
+              },
+              "def": {
+                "en": "The standard unit oil is priced in — about 159 litres, or roughly two bathtubs full.",
+                "zh": "石油定价的标准单位，约159升，大概是两浴缸的量。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "A deadline passed and nothing happened. Was the deadline worth setting at all?",
+                "zh": "期限过了，什么也没发生。那当初定这个期限，还值得吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — it did real work",
+                    "zh": "值得——它确实起了作用"
+                  },
+                  "points": {
+                    "en": [
+                      "For 60 days both sides were talking instead of only fighting. That is not nothing.",
+                      "A deadline creates a public record. Everyone can now see who moved and who did not.",
+                      "Hard problems rarely get solved on the first try. A failed attempt still narrows down what might work."
+                    ],
+                    "zh": [
+                      "这60天里，双方至少在谈，而不只是在打。这本身不是零。",
+                      "期限会留下一份公开记录。现在所有人都能看出，谁往前走了，谁没有。",
+                      "难题很少第一次就解决。一次失败的尝试，仍然缩小了「什么办法可能有用」的范围。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — it was for show",
+                    "zh": "不值得——那只是做样子"
+                  },
+                  "points": {
+                    "en": [
+                      "A deadline with no consequence is just a date. Nothing was actually at stake when it passed.",
+                      "It let both sides look busy for two months while the fighting continued anyway.",
+                      "Break a promise once and the next promise is worth less. That cost is real and lasts."
+                    ],
+                    "zh": [
+                      "没有后果的期限，只是一个日期。到期那天其实什么也没押上。",
+                      "它让双方「看起来很忙」了两个月，可仗照打。",
+                      "承诺一旦破过一次，下一次承诺就不值钱了。这个代价是真实的，而且会留下来。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Oman is supposed to be a friend of the U.S. Is it ever smart to threaten your own friend?",
+                "zh": "阿曼本该是美国的朋友。威胁自己的朋友，有可能是聪明的做法吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Sometimes yes",
+                    "zh": "有时候是"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries act on their interests, not their feelings. Friendship does not cancel that.",
+                      "A clear warning is cheaper than an actual attack — it tells the other side exactly where the line is.",
+                      "Vagueness causes accidents. Saying the hard thing out loud can prevent a misunderstanding that kills people."
+                    ],
+                    "zh": [
+                      "国家按利益行事，不是按感情。朋友关系并不会取消这一点。",
+                      "一句明确的警告，比真的动手便宜得多——它把「红线在哪」讲清楚了。",
+                      "含糊才容易出事。把难听的话说在明处，可能避免一场会死人的误判。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — it costs more than it gains",
+                    "zh": "不是——代价比收益大"
+                  },
+                  "points": {
+                    "en": [
+                      "A friend who feels threatened starts quietly looking for other partners.",
+                      "Other allies are watching. If this is how friends get treated, your promises to them are worth less too.",
+                      "It can push a country that wanted to stay neutral onto the other side — the opposite of what you wanted."
+                    ],
+                    "zh": [
+                      "一个感到被威胁的朋友，会开始悄悄找别的伙伴。",
+                      "其他盟友都在看。如果朋友是这样被对待的，那你对他们的承诺也跟着贬值。",
+                      "它可能把一个本想保持中立的国家推到对面去——那正好和你想要的相反。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "One narrow channel carries a fifth of the world's oil. Is that a flaw in how the world is set up?",
+                "zh": "一条窄水道承载着全世界五分之一的石油。这算不算世界运转方式上的一个缺陷？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — it's a single point of failure",
+                    "zh": "算——这是一个「单点失效」"
+                  },
+                  "points": {
+                    "en": [
+                      "Anything important that has only one route is fragile. Engineers build backups for exactly this reason.",
+                      "It hands one country enormous leverage over billions of people who never got a vote.",
+                      "Everyone has known about this risk for fifty years and it still has not been fixed."
+                    ],
+                    "zh": [
+                      "任何重要的东西，如果只有一条通路，就是脆弱的。工程师之所以做备份，正是为了这个。",
+                      "它把巨大的筹码交到一个国家手里，而受影响的几十亿人从来没投过票。",
+                      "这个风险大家已经知道了五十年，到今天还是没被解决。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — geography isn't a design",
+                    "zh": "不算——地理不是被设计出来的"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody drew that map. Oil happens to be there and the sea happens to be shaped that way.",
+                      "The world has adapted: pipelines that go around it, emergency reserves, suppliers on other continents.",
+                      "Because everyone depends on it, almost everyone — including Iran — has a reason to keep it open. Shared need is its own kind of safety."
+                    ],
+                    "zh": [
+                      "那张地图不是谁画的。石油碰巧在那里，海碰巧长成那个形状。",
+                      "世界已经在适应了：绕开它的输油管道、战略储备、其他大洲的供应国。",
+                      "正因为所有人都依赖它，几乎所有人——包括伊朗——都有理由让它保持畅通。共同的需要，本身就是一种安全。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "The 60-Day Clock Expired. Washington Chose Escalation Over Extension.",
+            "zh": "60天期限归零，华盛顿选择了升级而非延长"
+          },
+          "hook": {
+            "en": "June's memorandum of understanding gave Washington and Tehran 60 days to convert a ceasefire into a settlement. That window closed today with nothing signed. Trump declined to extend it and threatened Oman — a longstanding partner — over the Strait of Hormuz. Brent moved to roughly $89.",
+            "zh": "六月签署的谅解备忘录，给了华盛顿和德黑兰60天，把停火转化成和解。今天这扇窗关上了，什么也没签成。特朗普拒绝延长，并因霍尔木兹海峡威胁了长期伙伴阿曼。布伦特原油升至约89美元。"
+          },
+          "story": {
+            "en": [
+              "A memorandum of understanding is not a treaty. It commits the signatories to a process, not to an outcome — which is precisely why deadlines attached to one tend to lapse quietly. June's document gave both governments 60 days to turn a pause in the fighting into something durable.",
+              "That deadline expired today with no agreement. Trump said he has no interest in extending it, removing the one procedural device that had been keeping negotiators in the room at all.",
+              "The sharper development was aimed at Oman. Muscat has spent decades as the region's designated intermediary — the quiet channel through which Washington and Tehran have talked when direct contact was impossible. Threatening it is not merely aggressive; it degrades the infrastructure any future negotiation would need.",
+              "The Strait of Hormuz is the lever everyone is reaching for. At its narrowest it is about 33 kilometres across, with the shipping lanes narrower still, and roughly a fifth of global oil consumption transits it. Iran almost certainly cannot close it for long — it lacks the capacity, and a closure would strangle its own exports — but it can make insurance underwriters reprice the risk, and that alone moves markets.",
+              "It did today. Brent crude reached about $89 a barrel, while the Dow and the S&P 500 each fell around half a percent. That is a measured response rather than a panic, which tells you traders are pricing elevated risk rather than an imminent closure.",
+              "The strategic question is what leverage remains. Sanctions are largely exhausted, the ceasefire framework has lapsed, and the intermediary has been publicly threatened. What is left is either direct escalation or an eventual return to talks on worse terms than were available in June."
+            ],
+            "zh": [
+              "谅解备忘录不是条约。它约束签署方走一个流程，而不是达成一个结果——这恰恰是为什么挂在它上面的期限，往往会悄无声息地过期。六月那份文件给了两国政府60天，把战事的暂停变成某种可持续的东西。",
+              "今天这个期限过期了，没有任何协议。特朗普表示无意延长，也就撤掉了那个唯一还能把谈判者留在房间里的程序性装置。",
+              "更尖锐的动作指向阿曼。马斯喀特几十年来一直是该地区公认的中间人——当华盛顿和德黑兰无法直接接触时，双方就通过这条安静的渠道对话。威胁它不只是强硬，它损耗的是未来任何一次谈判都要用到的基础设施。",
+              "霍尔木兹海峡是所有人都在伸手去够的那根杠杆。最窄处约33公里，航道更窄，全球石油消费量的约五分之一从这里通过。伊朗几乎肯定无法长期封锁它——它没有这个能力，而且封锁会先勒死自己的出口——但它能让保险承保人重新为风险定价，仅此一项就足以撬动市场。",
+              "今天就撬动了。布伦特原油触及约每桶89美元，道琼斯指数和标普500各跌约0.5%。这是有分寸的反应，而不是恐慌，说明交易员定价的是风险抬升，而不是封锁在即。",
+              "真正的战略问题是：还剩下什么筹码。制裁手段已大体用尽，停火框架已失效，中间人被公开威胁。剩下的要么是直接升级，要么是最终回到谈判桌——而条件会比六月时更差。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Energy prices feed into nearly every number that will shape the next few years of your life: inflation, interest rates, what a flight costs, what a first job pays. A confrontation over one shipping lane is not foreign-policy trivia — it is an input to all of them.",
+            "zh": "能源价格几乎渗进了未来几年会塑造你生活的每一个数字：通胀、利率、一张机票多少钱、第一份工作给多少薪水。围绕一条航道的对峙不是外交花边，它是这些数字共同的输入项。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Memorandum of understanding",
+                "zh": "谅解备忘录"
+              },
+              "def": {
+                "en": "A signed commitment to a process rather than to an outcome. It carries political weight but rarely legal force.",
+                "zh": "对某个流程而非某个结果作出的书面承诺。它有政治分量，但很少具备法律约束力。"
+              }
+            },
+            {
+              "term": {
+                "en": "Chokepoint",
+                "zh": "咽喉要道"
+              },
+              "def": {
+                "en": "A passage narrow enough that disrupting it disrupts an entire system. Controlling one converts geography into leverage.",
+                "zh": "窄到一旦被扰乱就会波及整个系统的通道。控制它，等于把地理变成筹码。"
+              }
+            },
+            {
+              "term": {
+                "en": "Risk premium",
+                "zh": "风险溢价"
+              },
+              "def": {
+                "en": "The extra price buyers accept for something that might become unavailable. Oil often rises on the possibility of disruption rather than the fact of it.",
+                "zh": "买家为「可能拿不到」而额外支付的价格。油价常常涨在中断的可能性上，而不是中断本身。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was attaching a 60-day deadline to June's memorandum a mistake?",
+                "zh": "给六月那份备忘录挂上一个60天期限，是不是一个错误？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It was sound",
+                    "zh": "是合理的"
+                  },
+                  "points": {
+                    "en": [
+                      "Deadlines concentrate negotiating effort; open-ended talks drift indefinitely.",
+                      "It created a public record of who moved and who did not, which shapes the next round.",
+                      "Sixty days of talking is sixty days of not escalating, which has value on its own."
+                    ],
+                    "zh": [
+                      "期限会把谈判的精力集中起来；没有终点的谈判会无限期地漂着。",
+                      "它留下了一份公开记录：谁动了，谁没动。这会影响下一轮。",
+                      "谈了60天，就是60天没有升级。这本身就有价值。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It was a mistake",
+                    "zh": "是个错误"
+                  },
+                  "points": {
+                    "en": [
+                      "A deadline with no consequence teaches both sides that your commitments are decorative.",
+                      "It gave each side an incentive to run out the clock rather than concede anything.",
+                      "Failing in public makes the next framework harder to sell domestically on both sides."
+                    ],
+                    "zh": [
+                      "没有后果的期限，等于告诉双方：你的承诺只是装饰。",
+                      "它给了双方一个拖到终点、而不是作出让步的动机。",
+                      "公开失败会让下一个框架在两国国内都更难推销。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Oman has been the region's back channel for decades. Does threatening it cost more than it gains?",
+                "zh": "阿曼几十年来一直是该地区的后门渠道。威胁它，代价是否大于收益？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The threat is rational",
+                    "zh": "威胁是理性的"
+                  },
+                  "points": {
+                    "en": [
+                      "Deterrence requires red lines to be stated somewhere the other side can hear them.",
+                      "An intermediary assumed to be neutral can also be used to stall.",
+                      "A warning is far cheaper than the strike it is meant to make unnecessary."
+                    ],
+                    "zh": [
+                      "威慑要求红线被说在对方听得见的地方。",
+                      "一个被默认中立的中间人，同样可以被用来拖延。",
+                      "一句警告，远比它想要避免的那次打击便宜。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It costs more",
+                    "zh": "代价更大"
+                  },
+                  "points": {
+                    "en": [
+                      "Back channels take decades to build and one sentence to devalue.",
+                      "Allies calibrate their own hedging on how you treat partners under pressure.",
+                      "You may need Muscat precisely at the moment you have made it unwilling to help."
+                    ],
+                    "zh": [
+                      "后门渠道要几十年才能建起来，一句话就能贬值。",
+                      "盟友会根据「你在压力下如何对待伙伴」，来调整自己的两面下注。",
+                      "你可能恰恰在最需要马斯喀特的时候，让它不愿意再帮忙。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Roughly a fifth of the world's oil passes through one strait. Should states be building around that, or is the concentration efficient?",
+                "zh": "全世界约五分之一的石油要过同一条海峡。各国应该绕开这种集中，还是说集中本身就是有效率的？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Concentration is efficient",
+                    "zh": "集中是有效率的"
+                  },
+                  "points": {
+                    "en": [
+                      "Redundant routes are expensive and mostly idle; the market priced that trade-off deliberately.",
+                      "Mutual dependence gives nearly every party, Iran included, a reason to keep it open.",
+                      "Alternatives already exist — pipelines, strategic reserves, other producers — and get used when needed."
+                    ],
+                    "zh": [
+                      "冗余的通道昂贵且大部分时间闲置；市场是有意识地作出这个取舍的。",
+                      "相互依赖让几乎每一方——包括伊朗——都有理由让它保持畅通。",
+                      "替代方案本来就存在：输油管道、战略储备、其他产油国，需要时就会用上。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Build around it",
+                    "zh": "应该分散"
+                  },
+                  "points": {
+                    "en": [
+                      "Efficiency measured under normal conditions understates the cost of the tail event.",
+                      "Concentration hands leverage to whoever sits on the chokepoint, regardless of their intentions.",
+                      "The risk is borne globally while the savings accrue to particular firms — the incentives do not line up."
+                    ],
+                    "zh": [
+                      "在正常状况下衡量出来的效率，低估了极端事件的代价。",
+                      "集中会把筹码交到坐在咽喉上的那一方手里，无论他们意图如何。",
+                      "风险由全球承担，节省下来的钱却归特定企业——激励是错位的。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "rank": 2,
       "category": "business",
       "region": "CN",
-      "headline": {
-        "en": "China's Economy Is Slowing — but the Robot-and-Chip Part Is Booming",
-        "zh": "中国经济在放缓，但「机器人和芯片」那部分在猛涨"
-      },
-      "hook": {
-        "en": "China published its July numbers today. Factories and shops did worse than economists expected — but hidden inside the disappointing report was one number that jumped more than 19%: electronic equipment.",
-        "zh": "中国今天公布了7月数据。工厂和商店的表现都比经济学家预期的差——但在这份令人失望的报告里，藏着一个暴涨超过19%的数字：电子设备产量。"
-      },
-      "story": {
-        "en": [
-          "Every month, China releases a kind of report card for its economy. Today's covered July, and most of the grades slipped.",
-          "Industrial production — how much stuff the country's factories actually made — grew 4.5% compared to July last year. Growing is good, but that was slower than June, the first slowdown in three months, and less than experts had predicted. Retail sales, meaning how much people bought in shops and online, also came in under forecast.",
-          "Why does that worry people? Because for years China's growth engine was: build lots of things, sell lots of things. If both of those slow down at once, the whole engine sounds rough.",
-          "But here is the interesting twist. One line in the report shot up more than 19%: output of electronic equipment — chips, servers, the machines that AI runs on. Advanced manufacturing, high-tech investment, services, and tourists coming into the country are quietly becoming the new engine.",
-          "So the story is not simply \"China is slowing down.\" It is closer to: China is switching engines mid-flight, and the old engine is losing power faster than the new one is gaining it."
-        ],
-        "zh": [
-          "中国每个月都会公布一份经济「成绩单」。今天这份是7月的，大部分科目的分数都掉了。",
-          "工业增加值——也就是全国工厂到底生产了多少东西——同比增长4.5%。增长当然是好事，但这比6月慢，是三个月来第一次放缓，也低于专家的预测。社会消费品零售总额，也就是大家在商店和网上买了多少东西，同样低于预期。",
-          "为什么这让人担心？因为多年来中国的增长引擎一直是：大量地造，大量地卖。如果这两样同时变慢，整台引擎听起来就不太对劲了。",
-          "但有意思的转折在这里。报告里有一行数字猛涨超过19%：电子设备产量——芯片、服务器，这些是让人工智能跑起来的机器。高端制造、高技术投资、服务业，还有入境旅游，正在悄悄变成新的引擎。",
-          "所以这条新闻并不只是「中国在放缓」。更准确的说法是：中国正在飞行途中换引擎，而旧引擎失去动力的速度，比新引擎获得动力的速度更快。"
-        ]
-      },
-      "why_it_matters": {
-        "en": "China builds a huge share of the world's phones, toys, bikes, and EVs. When its factories slow, prices and product choices change in stores from Richmond to Rome. And the part that is booming — AI chips and machines — is exactly the thing the U.S. and China are competing hardest over.",
-        "zh": "全世界很大一部分手机、玩具、自行车和电动车都是中国造的。它的工厂一放缓，从列治文到罗马的商店里，价格和可选商品都会变。而正在暴涨的那部分——AI 芯片和设备——恰恰是中美竞争最激烈的领域。"
-      },
-      "talk_about_it": [
-        {
-          "question": {
-            "en": "One subject up 19%, everything else slipping. Is that a good report card?",
-            "zh": "一科涨了19%，其余都在下滑。这算一份好成绩单吗？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — it depends which subject", "zh": "算——要看是哪一科" },
-              "points": {
-                "en": [
-                  "Not all subjects count equally. Being excellent at the one that decides your future beats being average at all of them.",
-                  "The parts that are growing are the parts that will still be growing in ten years.",
-                  "A number that is falling from a high level can still be a big number. 4.5% growth is growth."
-                ],
-                "zh": [
-                  "科目并不是等重的。在决定你未来的那一科上很强，胜过每科都平平。",
-                  "现在在涨的那部分，是十年后仍然会在涨的那部分。",
-                  "从高位往下掉的数字，仍然可能是个大数字。4.5% 的增长，终究还是增长。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — you can't live on one subject", "zh": "不算——一科养不活你" },
-              "points": {
-                "en": [
-                  "Chip factories employ far fewer people than shops and ordinary factories do. The slipping parts are where most people work.",
-                  "The weak numbers are happening now; the strong one is a bet on later.",
-                  "One spectacular number is exactly what you would point at if you wanted to distract from the rest."
-                ],
-                "zh": [
-                  "芯片厂雇的人，远远少于商店和普通工厂。正在下滑的那些部分，才是大多数人上班的地方。",
-                  "疲弱的数字是现在正在发生的；亮眼的那个，是押注在以后。",
-                  "如果有人想把注意力从其余部分引开，他要指的正好就是这样一个特别亮眼的数字。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "Should a country try to make everything itself, or specialize in what it does best?",
-            "zh": "一个国家应该什么都自己造，还是专攻自己最擅长的？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Specialize", "zh": "该专攻" },
-              "points": {
-                "en": [
-                  "Nobody can be best at everything. Doing a few things extremely well makes them cheaper and better for everyone.",
-                  "Trading means you get things you could never have made yourself.",
-                  "Countries that trade a lot with each other have more to lose from fighting — which makes fighting less likely."
-                ],
-                "zh": [
-                  "没有谁能样样第一。把少数几件事做到极好，会让这些东西对所有人都更便宜、更好。",
-                  "贸易意味着你能得到那些自己永远造不出来的东西。",
-                  "彼此贸易很多的国家，打起来损失更大——这让开战变得不那么容易发生。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "Make it yourself", "zh": "该自己造" },
-              "points": {
-                "en": [
-                  "If relations break down, the things you cannot make — chips, medicine, food — become the things you cannot get.",
-                  "Depending on someone is a form of giving them power over you.",
-                  "Factories are also jobs. A town that loses its factory does not get the lost work back just because prices fell."
-                ],
-                "zh": [
-                  "一旦关系破裂，你造不出来的东西——芯片、药品、粮食——就是你拿不到的东西。",
-                  "依赖某个人，等于把一部分对你的支配权交给他。",
-                  "工厂同时也是工作。一个失去工厂的小城，不会因为东西变便宜了就把工作找回来。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "If people have stopped spending, should the government just hand them money?",
-            "zh": "如果大家都不花钱了，政府是不是应该直接发钱？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — put it in people's hands", "zh": "应该——把钱交到人手里" },
-              "points": {
-                "en": [
-                  "Money given to people gets spent in shops, which keeps shops open and people employed.",
-                  "Ordinary people know what they actually need better than a government planner does.",
-                  "It reaches those with the least the fastest — they are the ones who spend it rather than store it."
-                ],
-                "zh": [
-                  "发到人手里的钱会花进商店，商店就能开下去，人就有工作。",
-                  "普通人比规划者更清楚自己真正需要什么。",
-                  "它最快抵达手头最紧的人——而这些人是会把钱花掉，而不是存起来的那批。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — build something instead", "zh": "不应该——不如拿去建东西" },
-              "points": {
-                "en": [
-                  "If people are worried about the future, handed money often gets saved, not spent — and then it did nothing.",
-                  "More money chasing the same goods can simply push prices up.",
-                  "The same money spent on factories, labs, and railways is still there in twenty years. A one-time payment is gone in a month."
-                ],
-                "zh": [
-                  "如果大家本来就对未来不安，发下去的钱往往被存起来，而不是花掉——那它就白发了。",
-                  "更多的钱去追同样多的商品，可能只是把价格推高。",
-                  "同样的钱投进工厂、实验室和铁路，二十年后还在。一次性发的钱，一个月就没了。"
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "word_bank": [
-        {
-          "term": { "en": "Industrial production", "zh": "工业增加值 / 工业产出" },
-          "def": {
-            "en": "A measure of how much a country's factories, mines, and utilities actually produced. Think of it as the nation's output odometer.",
-            "zh": "衡量一个国家的工厂、矿山和公用事业实际生产了多少的指标。可以把它当成国家的产量里程表。"
-          }
-        },
-        {
-          "term": { "en": "Retail sales", "zh": "社会消费品零售总额" },
-          "def": {
-            "en": "The total amount people spent buying things. It shows whether ordinary shoppers feel confident or cautious.",
-            "zh": "人们买东西花掉的总金额。它反映出普通消费者是有信心，还是在观望。"
-          }
-        },
-        {
-          "term": { "en": "Missing forecasts", "zh": "不及预期" },
-          "def": {
-            "en": "When the real number comes in below what economists predicted. The gap between expectation and reality often moves markets more than the number itself.",
-            "zh": "实际数字低于经济学家的预测。预期与现实之间的落差，往往比数字本身更能撬动市场。"
-          }
-        }
-      ],
       "source": {
         "title": "China's Economy Slows as Industrial Output, Retail Sales Miss Forecasts",
         "publisher": "Bloomberg",
@@ -488,179 +734,592 @@
           "url": "https://www.scmp.com/economy/china-economy"
         }
       ],
-      "videos": []
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "China's Factories Made Less Than Expected — Except the Robot Parts",
+            "zh": "中国工厂造得比大家想的少——只有机器人零件例外"
+          },
+          "hook": {
+            "en": "Every month, China tells the world how much its factories made and how much people bought. This month both numbers were smaller than the experts guessed. But one number jumped up a lot: the parts that go inside computers and robots.",
+            "zh": "每个月，中国都会告诉全世界：它的工厂造了多少东西，大家买了多少东西。这个月这两个数字都比专家猜的小。但有一个数字跳得很高：电脑和机器人里面的零件。"
+          },
+          "story": {
+            "en": [
+              "China is where an enormous amount of the world's stuff gets made — phones, bikes, toys, electric cars. Every month it publishes a kind of report card.",
+              "This month most of the grades slipped a little. The factories made 4.5% more than in the same month last year. That is still more than before, but less more than people expected.",
+              "People also bought less in shops than expected. When making and buying both slow down at the same time, grown-ups start to worry.",
+              "But one line went up by more than 19%: the electronic parts that go inside computers, big servers and robots. So China is not simply slowing down. It is making fewer of the old things, and many more of the new ones."
+            ],
+            "zh": [
+              "全世界很多东西都是在中国造的——手机、自行车、玩具、电动车。每个月，它都会公布一份「成绩单」。",
+              "这个月大部分科目都掉了一点。工厂造的东西，比去年同一个月多了4.5%。还是比以前多，但比大家预期的少。",
+              "大家在商店里买的东西也比预期少。当「造」和「买」同时变慢，大人们就开始担心了。",
+              "但有一行涨了超过19%：电脑、大型服务器和机器人里面的电子零件。所以中国不是单纯地在变慢。它是在少造一些旧东西，多造很多新东西。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Look around your room. A lot of what you can see was probably made in China. When its factories change what they make, the toys, bikes and gadgets in your shops change too — and so do their prices.",
+            "zh": "看看你的房间。你能看到的东西里，很多很可能是中国造的。它的工厂改变造什么，你家附近商店里的玩具、自行车和小电器也会跟着变——价格也会。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Factory",
+                "zh": "工厂"
+              },
+              "def": {
+                "en": "A big building where machines and people make things in very large numbers.",
+                "zh": "一栋大房子，机器和人在里面大量地做东西。"
+              }
+            },
+            {
+              "term": {
+                "en": "Percent",
+                "zh": "百分比"
+              },
+              "def": {
+                "en": "A way of saying how much something changed. Up 5% means that for every 100 you had, you now have 105.",
+                "zh": "一种说「变了多少」的方法。涨5%的意思是：原来有100，现在有105。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Your report card has one subject much better and all the rest a bit worse. Is that a good report card?",
+                "zh": "你的成绩单上，有一科好了很多，其余的都差了一点。这是一份好成绩单吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "是"
+                  },
+                  "points": {
+                    "en": [
+                      "Being really good at one thing can matter more than being alright at everything.",
+                      "The subject that went up might be the one you end up using most.",
+                      "Getting a little worse is not the same as being bad."
+                    ],
+                    "zh": [
+                      "把一件事做得非常好，可能比每件事都还行更重要。",
+                      "涨上去的那一科，也许正是你以后用得最多的。",
+                      "变差了一点，和「不好」不是一回事。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不是"
+                  },
+                  "points": {
+                    "en": [
+                      "You still have to do all the subjects, not only your favourite one.",
+                      "One big number can hide a lot of small problems.",
+                      "If most things are slipping, something is going wrong."
+                    ],
+                    "zh": [
+                      "所有科目你都还是要学，不能只学最喜欢的那一科。",
+                      "一个很大的数字，可以盖住很多小问题。",
+                      "如果大部分都在往下掉，那就是有地方不对劲。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country make everything it needs, or only the things it is best at?",
+                "zh": "一个国家应该什么都自己做，还是只做自己最擅长的？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Only the best things",
+                    "zh": "只做最擅长的"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody can be best at everything.",
+                      "If you trade, you can get things you could never make yourself.",
+                      "Doing one thing a lot makes you very good and very fast at it."
+                    ],
+                    "zh": [
+                      "没有谁能什么都是第一。",
+                      "如果你和别人交换，就能得到自己永远做不出来的东西。",
+                      "一件事做得多了，你会做得又好又快。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Everything",
+                    "zh": "什么都要做"
+                  },
+                  "points": {
+                    "en": [
+                      "If your friend stops sharing one day, you still need the thing.",
+                      "Making things at home means jobs for the people who live there.",
+                      "Depending on someone means they get to say no."
+                    ],
+                    "zh": [
+                      "如果有一天朋友不跟你分享了，你还是需要那个东西。",
+                      "在自己家里造东西，住在那里的人才有工作。",
+                      "依赖别人，就等于别人有权说不。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If people stop buying things, should the government just give everyone some money?",
+                "zh": "如果大家都不买东西了，政府是不是应该直接给每个人发点钱？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "应该"
+                  },
+                  "points": {
+                    "en": [
+                      "People know best what they actually need.",
+                      "Money spent in shops keeps the shops open and people working.",
+                      "It reaches the people with the least, the fastest."
+                    ],
+                    "zh": [
+                      "什么是真正需要的，人们自己最清楚。",
+                      "花在商店里的钱，能让商店开下去、让人有工作。",
+                      "它最快到达手头最紧的那些人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "If people are worried, they might save it instead of spending it.",
+                      "If everyone suddenly has more money, prices can go up.",
+                      "The same money could build a school or a railway that lasts for years."
+                    ],
+                    "zh": [
+                      "如果大家心里不安，可能会把钱存起来，而不是花掉。",
+                      "如果所有人突然都多了钱，价格可能会往上涨。",
+                      "同样的钱，可以修一所学校或一条铁路，能用很多年。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "China's Economy Is Slowing — but the Robot-and-Chip Part Is Booming",
+            "zh": "中国经济在放缓，但「机器人和芯片」那部分在猛涨"
+          },
+          "hook": {
+            "en": "China published its July numbers today. Factories and shops did worse than economists expected — but hidden inside the disappointing report was one number that jumped more than 19%: electronic equipment.",
+            "zh": "中国今天公布了7月数据。工厂和商店的表现都比经济学家预期的差——但在这份令人失望的报告里，藏着一个暴涨超过19%的数字：电子设备产量。"
+          },
+          "story": {
+            "en": [
+              "Every month, China releases a kind of report card for its economy. Today's covered July, and most of the grades slipped.",
+              "Industrial production — how much stuff the country's factories actually made — grew 4.5% compared to July last year. Growing is good, but that was slower than June, the first slowdown in three months, and less than experts had predicted. Retail sales, meaning how much people bought in shops and online, also came in under forecast.",
+              "Why does that worry people? Because for years China's growth engine was: build lots of things, sell lots of things. If both of those slow down at once, the whole engine sounds rough.",
+              "But here is the interesting twist. One line in the report shot up more than 19%: output of electronic equipment — chips, servers, the machines that AI runs on. Advanced manufacturing, high-tech investment, services, and tourists coming into the country are quietly becoming the new engine.",
+              "So the story is not simply \"China is slowing down.\" It is closer to: China is switching engines mid-flight, and the old engine is losing power faster than the new one is gaining it."
+            ],
+            "zh": [
+              "中国每个月都会公布一份经济「成绩单」。今天这份是7月的，大部分科目的分数都掉了。",
+              "工业增加值——也就是全国工厂到底生产了多少东西——同比增长4.5%。增长当然是好事，但这比6月慢，是三个月来第一次放缓，也低于专家的预测。社会消费品零售总额，也就是大家在商店和网上买了多少东西，同样低于预期。",
+              "为什么这让人担心？因为多年来中国的增长引擎一直是：大量地造，大量地卖。如果这两样同时变慢，整台引擎听起来就不太对劲了。",
+              "但有意思的转折在这里。报告里有一行数字猛涨超过19%：电子设备产量——芯片、服务器，这些是让人工智能跑起来的机器。高端制造、高技术投资、服务业，还有入境旅游，正在悄悄变成新的引擎。",
+              "所以这条新闻并不只是「中国在放缓」。更准确的说法是：中国正在飞行途中换引擎，而旧引擎失去动力的速度，比新引擎获得动力的速度更快。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "China builds a huge share of the world's phones, toys, bikes, and EVs. When its factories slow, prices and product choices change in stores from Richmond to Rome. And the part that is booming — AI chips and machines — is exactly the thing the U.S. and China are competing hardest over.",
+            "zh": "全世界很大一部分手机、玩具、自行车和电动车都是中国造的。它的工厂一放缓，从列治文到罗马的商店里，价格和可选商品都会变。而正在暴涨的那部分——AI 芯片和设备——恰恰是中美竞争最激烈的领域。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Industrial production",
+                "zh": "工业增加值 / 工业产出"
+              },
+              "def": {
+                "en": "A measure of how much a country's factories, mines, and utilities actually produced. Think of it as the nation's output odometer.",
+                "zh": "衡量一个国家的工厂、矿山和公用事业实际生产了多少的指标。可以把它当成国家的产量里程表。"
+              }
+            },
+            {
+              "term": {
+                "en": "Retail sales",
+                "zh": "社会消费品零售总额"
+              },
+              "def": {
+                "en": "The total amount people spent buying things. It shows whether ordinary shoppers feel confident or cautious.",
+                "zh": "人们买东西花掉的总金额。它反映出普通消费者是有信心，还是在观望。"
+              }
+            },
+            {
+              "term": {
+                "en": "Missing forecasts",
+                "zh": "不及预期"
+              },
+              "def": {
+                "en": "When the real number comes in below what economists predicted. The gap between expectation and reality often moves markets more than the number itself.",
+                "zh": "实际数字低于经济学家的预测。预期与现实之间的落差，往往比数字本身更能撬动市场。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "One subject up 19%, everything else slipping. Is that a good report card?",
+                "zh": "一科涨了19%，其余都在下滑。这算一份好成绩单吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — it depends which subject",
+                    "zh": "算——要看是哪一科"
+                  },
+                  "points": {
+                    "en": [
+                      "Not all subjects count equally. Being excellent at the one that decides your future beats being average at all of them.",
+                      "The parts that are growing are the parts that will still be growing in ten years.",
+                      "A number that is falling from a high level can still be a big number. 4.5% growth is growth."
+                    ],
+                    "zh": [
+                      "科目并不是等重的。在决定你未来的那一科上很强，胜过每科都平平。",
+                      "现在在涨的那部分，是十年后仍然会在涨的那部分。",
+                      "从高位往下掉的数字，仍然可能是个大数字。4.5% 的增长，终究还是增长。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — you can't live on one subject",
+                    "zh": "不算——一科养不活你"
+                  },
+                  "points": {
+                    "en": [
+                      "Chip factories employ far fewer people than shops and ordinary factories do. The slipping parts are where most people work.",
+                      "The weak numbers are happening now; the strong one is a bet on later.",
+                      "One spectacular number is exactly what you would point at if you wanted to distract from the rest."
+                    ],
+                    "zh": [
+                      "芯片厂雇的人，远远少于商店和普通工厂。正在下滑的那些部分，才是大多数人上班的地方。",
+                      "疲弱的数字是现在正在发生的；亮眼的那个，是押注在以后。",
+                      "如果有人想把注意力从其余部分引开，他要指的正好就是这样一个特别亮眼的数字。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country try to make everything itself, or specialize in what it does best?",
+                "zh": "一个国家应该什么都自己造，还是专攻自己最擅长的？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Specialize",
+                    "zh": "该专攻"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody can be best at everything. Doing a few things extremely well makes them cheaper and better for everyone.",
+                      "Trading means you get things you could never have made yourself.",
+                      "Countries that trade a lot with each other have more to lose from fighting — which makes fighting less likely."
+                    ],
+                    "zh": [
+                      "没有谁能样样第一。把少数几件事做到极好，会让这些东西对所有人都更便宜、更好。",
+                      "贸易意味着你能得到那些自己永远造不出来的东西。",
+                      "彼此贸易很多的国家，打起来损失更大——这让开战变得不那么容易发生。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Make it yourself",
+                    "zh": "该自己造"
+                  },
+                  "points": {
+                    "en": [
+                      "If relations break down, the things you cannot make — chips, medicine, food — become the things you cannot get.",
+                      "Depending on someone is a form of giving them power over you.",
+                      "Factories are also jobs. A town that loses its factory does not get the lost work back just because prices fell."
+                    ],
+                    "zh": [
+                      "一旦关系破裂，你造不出来的东西——芯片、药品、粮食——就是你拿不到的东西。",
+                      "依赖某个人，等于把一部分对你的支配权交给他。",
+                      "工厂同时也是工作。一个失去工厂的小城，不会因为东西变便宜了就把工作找回来。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If people have stopped spending, should the government just hand them money?",
+                "zh": "如果大家都不花钱了，政府是不是应该直接发钱？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — put it in people's hands",
+                    "zh": "应该——把钱交到人手里"
+                  },
+                  "points": {
+                    "en": [
+                      "Money given to people gets spent in shops, which keeps shops open and people employed.",
+                      "Ordinary people know what they actually need better than a government planner does.",
+                      "It reaches those with the least the fastest — they are the ones who spend it rather than store it."
+                    ],
+                    "zh": [
+                      "发到人手里的钱会花进商店，商店就能开下去，人就有工作。",
+                      "普通人比规划者更清楚自己真正需要什么。",
+                      "它最快抵达手头最紧的人——而这些人是会把钱花掉，而不是存起来的那批。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — build something instead",
+                    "zh": "不应该——不如拿去建东西"
+                  },
+                  "points": {
+                    "en": [
+                      "If people are worried about the future, handed money often gets saved, not spent — and then it did nothing.",
+                      "More money chasing the same goods can simply push prices up.",
+                      "The same money spent on factories, labs, and railways is still there in twenty years. A one-time payment is gone in a month."
+                    ],
+                    "zh": [
+                      "如果大家本来就对未来不安，发下去的钱往往被存起来，而不是花掉——那它就白发了。",
+                      "更多的钱去追同样多的商品，可能只是把价格推高。",
+                      "同样的钱投进工厂、实验室和铁路，二十年后还在。一次性发的钱，一个月就没了。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "China's Output Slowed Across the Board. One Line Grew 19%.",
+            "zh": "中国经济全面放缓，只有一行数字涨了19%"
+          },
+          "hook": {
+            "en": "July industrial production grew 4.5% year-on-year — the first slowdown in three months, and below consensus. Retail sales missed too. Underneath the miss, output of electronic equipment rose more than 19%. The entire argument about China's economy is compressed into one data release.",
+            "zh": "7月工业增加值同比增长4.5%，是三个月来首次放缓，且低于市场共识。社会消费品零售总额同样不及预期。而在这份不及格的数据下面，电子设备产量增长超过19%。关于中国经济的全部争论，被压缩进了同一份数据里。"
+          },
+          "story": {
+            "en": [
+              "Industrial production measures what a country's factories, mines and utilities actually produced. July's figure grew 4.5% against the same month a year earlier: still growth, but slower than June, the first deceleration in three months, and short of what economists had modelled.",
+              "Retail sales, the demand-side counterpart, also came in under forecast. The two together matter more than either alone: for two decades the growth model has been build a great deal and sell a great deal. Both legs weakening at once is precisely what analysts watch for.",
+              "The counter-argument sits inside the same release. Output of electronic equipment — semiconductors, servers, the physical substrate of AI — rose more than 19%. Advanced manufacturing, high-technology fixed investment, services and inbound tourism are all expanding while the older drivers fade.",
+              "This is a deliberate transition rather than an accident. Beijing has directed credit toward productive capacity in strategic sectors rather than toward household consumption — a choice with real costs, because consumption is where most people's jobs actually are.",
+              "The honest reading is contested. One camp sees an economy successfully rotating out of property and low-margin export manufacturing into higher-value production. The other sees the new engine growing too slowly to absorb the labour the old engine is shedding, with weak consumption as the visible symptom.",
+              "Both camps are reading the same numbers. Which one is right will not be obvious for several years — worth remembering whenever a single monthly print gets reported as though it settled the question."
+            ],
+            "zh": [
+              "工业增加值衡量的是一个国家的工厂、矿山和公用事业实际生产了多少。7月同比增长4.5%：仍是增长，但比6月慢，是三个月来第一次减速，也低于经济学家的模型预测。",
+              "作为需求端对照的社会消费品零售总额，同样低于预测。两者合在一起，比其中任何一个单独看都更重要：二十年来的增长模式一直是「大量地造、大量地卖」。两条腿同时变弱，正是分析师盯着的信号。",
+              "反方论据就在同一份数据里。电子设备产量——半导体、服务器，人工智能赖以运行的物理基础——增长超过19%。高端制造、高技术固定资产投资、服务业和入境旅游都在扩张，而旧的动能在褪去。",
+              "这是一场有意为之的转型，而不是意外。北京把信贷导向了战略部门的生产能力，而不是居民消费——这个选择有真实代价，因为大多数人的工作恰恰在消费端。",
+              "诚实的解读是有争议的。一派看到的是：一个经济体正成功地从房地产和低毛利出口制造，转向更高附加值的生产。另一派看到的是：新引擎增长太慢，吸收不了旧引擎正在甩出的劳动力，而疲弱的消费就是那个看得见的症状。",
+              "两派读的是同一组数字。谁对，几年之内都不会有明显答案——每当某一个月的数据被当成已经盖棺定论来报道时，这一点值得记住。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "China manufactures a large share of what you buy, and it is the other half of the technology competition that will define the industries you might work in. How this transition goes shapes prices, supply chains, and where advanced manufacturing jobs exist a decade from now.",
+            "zh": "你买的东西里有很大一部分是中国制造的；它也是那场将定义你未来可能从事的行业的技术竞争的另一半。这场转型走成什么样，会决定价格、供应链，以及十年后高端制造的岗位在哪里。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Year-on-year",
+                "zh": "同比"
+              },
+              "def": {
+                "en": "Comparing a month against the same month a year earlier, which strips out seasonal effects.",
+                "zh": "把某个月和一年前的同一个月比较，以剔除季节性因素。"
+              }
+            },
+            {
+              "term": {
+                "en": "Consensus",
+                "zh": "市场共识"
+              },
+              "def": {
+                "en": "The average of what economists forecast. Markets react to the gap between consensus and reality more than to the number itself.",
+                "zh": "经济学家预测的平均值。市场对「共识与现实之间的差距」的反应，往往大于对数字本身的反应。"
+              }
+            },
+            {
+              "term": {
+                "en": "Fixed investment",
+                "zh": "固定资产投资"
+              },
+              "def": {
+                "en": "Spending on things that keep producing later — factories, machines, rail. It trades consumption today for capacity tomorrow.",
+                "zh": "花在「以后还能继续产出」的东西上的支出——工厂、机器、铁路。它用今天的消费，换明天的产能。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "One sector up 19% while the aggregate misses. Is that a successful transition or a stalling one?",
+                "zh": "一个部门涨19%，总量却不及预期。这是转型成功，还是转型卡住了？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Successful",
+                    "zh": "是成功的转型"
+                  },
+                  "points": {
+                    "en": [
+                      "Transitions always look like weakness in the aggregate while the composition changes underneath.",
+                      "The growing sector has pricing power and strategic value; the shrinking one competes on cost.",
+                      "4.5% growth off a base that size is still an enormous absolute increase."
+                    ],
+                    "zh": [
+                      "转型期的总量看起来永远像是疲软，因为结构正在下面发生变化。",
+                      "在涨的那个部门有定价权和战略价值；在缩的那个靠成本竞争。",
+                      "在这么大的基数上增长4.5%，绝对增量仍然巨大。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stalling",
+                    "zh": "是卡住的转型"
+                  },
+                  "points": {
+                    "en": [
+                      "Semiconductor fabs employ a fraction of the people the shrinking sectors employ.",
+                      "Weak retail sales suggest households do not believe the transition will reach them.",
+                      "A single fast-growing line is exactly what you would point at to avoid discussing the rest."
+                    ],
+                    "zh": [
+                      "晶圆厂雇的人，只是正在萎缩的那些行业的一个零头。",
+                      "疲弱的零售数据说明，居民并不相信这场转型会惠及自己。",
+                      "如果你想避开其余部分不谈，要指的正好就是这样一行高速增长的数字。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Beijing has chosen productive capacity over household consumption. Is that defensible?",
+                "zh": "北京选择了产能而不是居民消费。这个选择站得住吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Defensible",
+                    "zh": "站得住"
+                  },
+                  "points": {
+                    "en": [
+                      "Transfers to households are consumed once; capacity produces for decades.",
+                      "In a technology competition, industrial capability is the thing that compounds.",
+                      "Stimulus poured into a low-confidence economy tends to be saved rather than spent."
+                    ],
+                    "zh": [
+                      "发给居民的钱被消费一次就没了；产能可以产出几十年。",
+                      "在技术竞争中，工业能力才是会复利累积的那个东西。",
+                      "把刺激倒进一个信心不足的经济体，钱往往会被存起来而不是花掉。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not defensible",
+                    "zh": "站不住"
+                  },
+                  "points": {
+                    "en": [
+                      "Capacity without demand becomes overcapacity, which is deflationary and eventually written off.",
+                      "Persistently weak consumption is a signal about expectations that no amount of investment fixes.",
+                      "The cost falls on households now, for a payoff that is asserted rather than demonstrated."
+                    ],
+                    "zh": [
+                      "没有需求的产能会变成过剩产能，它是通缩的，最终要被减记掉。",
+                      "长期疲弱的消费，传递的是关于预期的信号——再多投资也修不好。",
+                      "代价现在就落在居民头上，而回报只是被断言，没有被证明。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country pursue self-sufficiency in critical goods, or accept interdependence?",
+                "zh": "一个国家应该在关键物资上追求自给自足，还是接受相互依赖？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Self-sufficiency",
+                    "zh": "自给自足"
+                  },
+                  "points": {
+                    "en": [
+                      "Interdependence is a peacetime luxury; supply chains get weaponised the moment relations sour.",
+                      "Chips, medicine and food have no substitute at the moment you cannot get them.",
+                      "The cost of redundancy is knowable in advance; the cost of dependence is not."
+                    ],
+                    "zh": [
+                      "相互依赖是和平时期的奢侈品；关系一旦转坏，供应链立刻会被武器化。",
+                      "芯片、药品和粮食，在你拿不到的那一刻是没有替代品的。",
+                      "冗余的成本可以事先算清楚；依赖的成本算不清楚。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Interdependence",
+                    "zh": "相互依赖"
+                  },
+                  "points": {
+                    "en": [
+                      "Autarky is enormously expensive and produces worse goods at higher prices.",
+                      "Mutual dependence raises the cost of conflict for both sides, which is itself a form of security.",
+                      "No country is actually self-sufficient; the only choice is which dependencies to accept."
+                    ],
+                    "zh": [
+                      "闭关自给极其昂贵，做出来的东西更差、价格更高。",
+                      "相互依赖抬高了双方开战的代价，这本身就是一种安全。",
+                      "没有哪个国家真的自给自足；唯一的选择是接受哪些依赖。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "rank": 3,
       "category": "tech",
       "region": "US",
-      "headline": {
-        "en": "A Company Losing $14 Billion a Year May Be Worth $1 Trillion",
-        "zh": "一家一年亏140亿美元的公司，可能值1万亿美元"
-      },
-      "hook": {
-        "en": "OpenAI, the company behind ChatGPT, is preparing to sell shares to the public — possibly as soon as September — at a value above $1 trillion. The strange part: it loses roughly $14 billion every year. Meanwhile its rival Anthropic just turned its first profit.",
-        "zh": "ChatGPT 背后的公司 OpenAI 正准备公开发行股票——最快可能在9月——估值超过1万亿美元。奇怪的地方在于：它每年亏损约140亿美元。与此同时，它的竞争对手 Anthropic 刚刚实现了首次盈利。"
-      },
-      "story": {
-        "en": [
-          "When a private company decides to let ordinary people buy pieces of it on the stock market, that is called an IPO — an initial public offering. Today's news is that OpenAI is getting ready for one, possibly in September, at a valuation north of $1 trillion.",
-          "A trillion is hard to picture. If you counted one dollar every second without sleeping, a trillion seconds would take you about 31,700 years.",
-          "Now the puzzle: OpenAI loses around $14 billion a year. Normally, losing money makes a company less valuable, not more. So why would anyone pay?",
-          "Because investors are not buying what OpenAI earns today — they are betting on what it might earn later. Building AI means buying enormous numbers of computer chips and paying gigantic electricity bills first, and hoping the customers show up after. Nvidia, the company that makes most of those chips, is reportedly preparing to back roughly $100 billion in OpenAI financing. Microsoft, meanwhile, is running into a very physical wall: there is only so much land and electricity available for new data centres.",
-          "And here is the detail worth remembering: Anthropic, OpenAI's competitor, just turned its first profit. Two companies, same industry, opposite strategies — one spending enormously to grow fast, one earning money now. In a few years we will find out which bet was smarter. That is a real experiment happening in public, and Lucas gets to watch it from the start."
-        ],
-        "zh": [
-          "当一家私人公司决定让普通人也能在股市上买它的股份，这叫 IPO——首次公开募股。今天的新闻是：OpenAI 正在为此做准备，可能就在9月，估值超过1万亿美元。",
-          "1万亿有多大很难想象。如果你不睡觉、每秒数一美元，数完1万亿秒大约需要31700年。",
-          "谜题来了：OpenAI 每年亏损约140亿美元。按常理，亏钱会让一家公司更不值钱，而不是更值钱。那为什么还有人愿意出这个价？",
-          "因为投资人买的不是 OpenAI 今天赚了多少，而是在赌它以后可能赚多少。做人工智能，要先买下天量的电脑芯片、付出巨额电费，然后指望客户随后到来。生产大部分芯片的英伟达，据报道正准备为 OpenAI 提供约1000亿美元的融资支持。而微软正撞上一堵非常实在的墙：可用于建新数据中心的土地和电力就那么多。",
-          "还有一个值得记住的细节：OpenAI 的竞争对手 Anthropic 刚刚实现了首次盈利。两家公司，同一个行业，完全相反的策略——一个疯狂烧钱换增长，一个现在就开始赚钱。过几年我们就会知道哪一注下得更聪明。这是一场公开进行的真实实验，而 Lucas 从一开始就在看。"
-        ]
-      },
-      "why_it_matters": {
-        "en": "This is not just finance news — it is a bet about whether AI becomes as ordinary as electricity. The chips, power plants, and data centres being built right now will still be there when Lucas is choosing a career.",
-        "zh": "这不只是财经新闻，而是一场豪赌：人工智能会不会变得像电一样普通。现在正在建的这些芯片厂、发电站和数据中心，等 Lucas 选择职业的时候还会在那里。"
-      },
-      "talk_about_it": [
-        {
-          "question": {
-            "en": "Would you put your own allowance into a company that loses money now but might be enormous later?",
-            "zh": "你愿意把自己的零花钱，投给一家现在亏钱、但以后可能很大的公司吗？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — you're buying the future", "zh": "愿意——你买的是未来" },
-              "points": {
-                "en": [
-                  "Amazon lost money for years and the people who held on did extremely well.",
-                  "By the time a company is obviously safe, the cheap price is gone.",
-                  "You can only lose what you put in, but the gain has no ceiling."
-                ],
-                "zh": [
-                  "亚马逊亏了很多年，当年拿住的人后来赚得非常好。",
-                  "等一家公司明显安全了，便宜的价格也就没了。",
-                  "你最多只会亏掉投进去的那部分，但赚的那一边没有上限。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — most of them don't make it", "zh": "不愿意——大多数走不到那一步" },
-              "points": {
-                "en": [
-                  "We remember Amazon because it worked. We forget the hundreds of companies that burned money and vanished.",
-                  "\"Might be huge later\" is a story. $14 billion of losses a year is a fact.",
-                  "When you have a small amount of money, losing all of it hurts far more than a big win would help."
-                ],
-                "zh": [
-                  "我们记得亚马逊，是因为它成了。那几百家烧光钱然后消失的公司，我们根本不记得。",
-                  "「以后可能很大」是一个故事。一年亏140亿美元是一个事实。",
-                  "当你本金很少的时候，全亏掉的痛，远大于一次大赚带来的好处。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "Anthropic makes a profit; OpenAI does not but is worth more. What are investors actually paying for?",
-            "zh": "Anthropic 已经盈利，OpenAI 还没有，估值却更高。投资人到底在为什么付钱？"
-          },
-          "sides": [
-            {
-              "label": { "en": "For size later — and that's rational", "zh": "为「以后的规模」——而且这是理性的" },
-              "points": {
-                "en": [
-                  "A share is a claim on all future earnings, not this year's. Today's loss is an investment in being bigger.",
-                  "In tech, the largest player often ends up taking most of the market. Second place is worth far less than half of first.",
-                  "Spending heavily now on chips and data centres is how you make sure you are the one who gets that position."
-                ],
-                "zh": [
-                  "一股股票代表的是未来所有收益的一份，不是今年的。今天的亏损，是为了以后更大而做的投入。",
-                  "在科技行业，最大的那家往往会拿走市场的大部分。第二名的价值，远不到第一名的一半。",
-                  "现在在芯片和数据中心上重金投入，正是为了确保自己是坐上那个位置的人。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "For a story — and crowds get carried away", "zh": "为「一个故事」——而人群会上头" },
-              "points": {
-                "en": [
-                  "Profit is something you can check. A projection is something someone chose to believe.",
-                  "This has happened before: railways, radio, dot-coms. Each time the technology was real and the prices were still too high.",
-                  "When everyone is buying because everyone else is buying, the price stops being about the company at all."
-                ],
-                "zh": [
-                  "利润是可以核对的东西。预测是有人选择相信的东西。",
-                  "这种事发生过：铁路、无线电、互联网泡沫。每一次技术都是真的，价格却仍然太高。",
-                  "当所有人买入的理由是「别人都在买」，价格就已经和这家公司无关了。"
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "question": {
-            "en": "An AI data centre needs a town's worth of electricity. Should a town let one be built nearby?",
-            "zh": "一座 AI 数据中心要用掉相当于一个小镇的电。小镇应该同意把它建在附近吗？"
-          },
-          "sides": [
-            {
-              "label": { "en": "Yes — take the deal", "zh": "应该——接下这笔生意" },
-              "points": {
-                "en": [
-                  "It brings construction work, permanent jobs, and tax money that pays for schools and roads.",
-                  "It is getting built somewhere regardless. Better that the benefits land here.",
-                  "Turning it away does not reduce the world's electricity use by one watt."
-                ],
-                "zh": [
-                  "它带来施工的活儿、长期的岗位，以及能用来修学校和道路的税收。",
-                  "反正它总要建在某个地方。好处落在这里，总比落在别处强。",
-                  "把它拒之门外，并不会让全世界少用一瓦电。"
-                ]
-              }
-            },
-            {
-              "label": { "en": "No — the costs are shared, the gains aren't", "zh": "不应该——成本大家分摊，好处未必" },
-              "points": {
-                "en": [
-                  "Power and water are shared. If demand jumps, everyone's bill can rise, including people who wanted no part of it.",
-                  "Data centres need far fewer workers than a factory of the same size. The jobs promised are often fewer than the jobs described.",
-                  "Once it is built, the town has very little say over what happens next."
-                ],
-                "zh": [
-                  "电和水是共用的。需求一跳，所有人的账单都可能上涨，包括那些本来就不想参与的人。",
-                  "同样占地的数据中心，需要的工人远少于工厂。承诺的岗位，往往比描述的少。",
-                  "一旦建成，小镇对接下来会发生什么，几乎就没什么发言权了。"
-                ]
-              }
-            }
-          ]
-        }
-      ],
-      "word_bank": [
-        {
-          "term": { "en": "IPO (initial public offering)", "zh": "IPO（首次公开募股）" },
-          "def": {
-            "en": "The first time a private company sells shares of itself to the general public on a stock exchange.",
-            "zh": "一家私人公司第一次在证券交易所向公众出售自己的股份。"
-          }
-        },
-        {
-          "term": { "en": "Valuation", "zh": "估值" },
-          "def": {
-            "en": "What people collectively think a company is worth — which can be very different from how much money it actually has.",
-            "zh": "大家共同认为一家公司值多少钱。这个数字可能和它实际拥有多少钱差得很远。"
-          }
-        },
-        {
-          "term": { "en": "Profit", "zh": "利润" },
-          "def": {
-            "en": "Money left over after all costs are paid. A company can be famous, huge, and still have none.",
-            "zh": "付完所有成本后剩下的钱。一家公司可以很有名、很庞大，却一点利润都没有。"
-          }
-        }
-      ],
       "source": {
         "title": "Top Tech News Today, August 17, 2026: Anthropic, GE, Microsoft, Nvidia, OpenAI, Stripe, Unitree & More",
         "publisher": "Tech Startups",
@@ -718,7 +1377,613 @@
           "url": "https://kraneshares.com/a-complete-guide-to-unitree-robotics-2026-ipo-why-it-matters-for-star-market-etf-kstr-humanoid-robotics-etf-koid/"
         }
       ],
-      "videos": []
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "A Company That Loses Money Might Be Worth More Than Any Other",
+            "zh": "一家一直在亏钱的公司，可能比谁都值钱"
+          },
+          "hook": {
+            "en": "OpenAI is the company that made ChatGPT. Soon, ordinary people will be able to buy small pieces of it. The strange part: it loses an enormous amount of money every year, and people still want to buy.",
+            "zh": "OpenAI 就是做出 ChatGPT 的那家公司。很快，普通人也能买它的一小块了。奇怪的地方是：它每年都亏掉非常多的钱，可大家还是想买。"
+          },
+          "story": {
+            "en": [
+              "When a company lets ordinary people buy little pieces of it, those pieces are called shares. OpenAI is getting ready to sell shares, maybe as soon as next month.",
+              "People think all the pieces together are worth about one trillion dollars. A trillion is very hard to picture. If you counted one dollar every second and never slept, it would take you more than thirty thousand years.",
+              "Here is the strange bit. Every year, OpenAI spends about 14 billion dollars more than it earns. Normally, losing money makes something worth less, not more.",
+              "But people are not paying for what it earns today. They are guessing about later. Building AI means buying huge numbers of computer chips and paying gigantic electricity bills first, and hoping the customers arrive afterwards. Another company, Anthropic, does the same kind of work and has just started earning more than it spends. Two companies, two different plans. In a few years we will find out which one was smarter."
+            ],
+            "zh": [
+              "当一家公司让普通人也能买它的一小块，这些小块就叫「股份」。OpenAI 正在准备卖股份，可能下个月就卖。",
+              "大家认为，所有小块加起来大约值1万亿美元。1万亿很难想象。如果你不睡觉、每秒数一美元，要数三万多年。",
+              "奇怪的地方在这里。OpenAI 每年花掉的钱，比赚到的多出大约140亿美元。按常理，亏钱会让东西变得更不值钱，而不是更值钱。",
+              "但大家买的不是它今天赚了多少，而是在猜以后。做人工智能，要先买下天量的电脑芯片、付出巨额电费，然后指望客户随后到来。还有一家公司叫 Anthropic，做的是同一类事，它刚刚开始赚的比花的多。两家公司，两种不同的打法。过几年我们就知道，谁更聪明。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "The computers and power stations being built right now for AI will still be there when you are choosing a job. What people are betting on today is whether AI becomes as ordinary as electricity.",
+            "zh": "现在为人工智能建的这些电脑和发电站，等你选工作的时候还在那里。大家今天赌的，是人工智能会不会变得像电一样普通。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Share",
+                "zh": "股份"
+              },
+              "def": {
+                "en": "One small piece of a company. If you own one, a tiny bit of that company belongs to you.",
+                "zh": "一家公司的一小块。你有一份，这家公司就有很小一部分是你的。"
+              }
+            },
+            {
+              "term": {
+                "en": "Profit",
+                "zh": "利润"
+              },
+              "def": {
+                "en": "The money left over after everything has been paid for. A company can be famous and huge and still have none.",
+                "zh": "所有花销都付完之后剩下的钱。一家公司可以很有名、很大，却一点都没有。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Would you spend your pocket money on something that might be worth a lot later, or on something you can enjoy today?",
+                "zh": "你会把零花钱花在「以后可能很值钱」的东西上，还是花在今天就能享受的东西上？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Later",
+                    "zh": "以后"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting can turn a small amount into a big one.",
+                      "The thing you want now, you will probably still want later.",
+                      "Learning to wait is useful for the rest of your life."
+                    ],
+                    "zh": [
+                      "等待可以把一小笔钱变成一大笔。",
+                      "你现在想要的东西，以后多半还是想要。",
+                      "学会等待，这一辈子都有用。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Today",
+                    "zh": "现在"
+                  },
+                  "points": {
+                    "en": [
+                      "You cannot be sure the later thing will actually happen.",
+                      "Being the age you are now only happens once.",
+                      "A small sure thing can beat a big maybe."
+                    ],
+                    "zh": [
+                      "以后那件事会不会发生，你并不确定。",
+                      "你现在这个年纪，只有这一次。",
+                      "一个小小的确定，可能好过一个大大的也许。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Two companies do the same job. One spends enormous amounts to grow fast; the other earns money now. Which would you rather run?",
+                "zh": "两家公司做同样的事。一家疯狂花钱换成长，另一家现在就赚钱。你更想经营哪一家？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Grow fast",
+                    "zh": "快速长大"
+                  },
+                  "points": {
+                    "en": [
+                      "If you become the biggest, everyone uses you and nobody catches up.",
+                      "You can always start earning later; you cannot always catch up later.",
+                      "Big new things usually cost a lot before they pay anything back."
+                    ],
+                    "zh": [
+                      "如果你变成最大的那家，所有人都用你，别人也追不上了。",
+                      "以后总能开始赚钱；但以后不一定还追得上。",
+                      "大的新东西，通常要先花很多钱，才谈得上回本。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Earn now",
+                    "zh": "现在就赚钱"
+                  },
+                  "points": {
+                    "en": [
+                      "If you never earn anything, one day the money runs out.",
+                      "Earning proves that people really want what you made.",
+                      "When you pay for yourself, you do not have to ask anyone's permission."
+                    ],
+                    "zh": [
+                      "如果一直不赚钱，总有一天钱会花完。",
+                      "能赚到钱，说明真的有人想要你做的东西。",
+                      "自己养得起自己，就不用看别人脸色。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "AI computers use as much electricity as a whole town. Should a town let one be built nearby?",
+                "zh": "人工智能的电脑要用掉相当于一整个小镇的电。小镇应该同意把它建在附近吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "应该"
+                  },
+                  "points": {
+                    "en": [
+                      "It brings jobs, and money for schools and roads.",
+                      "It is going to be built somewhere anyway.",
+                      "Saying no does not make the world use less electricity."
+                    ],
+                    "zh": [
+                      "它带来工作，还有能修学校和马路的钱。",
+                      "反正它总要建在某个地方。",
+                      "说不，并不会让全世界少用电。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone shares the electricity and the water, so everyone's bills can go up.",
+                      "It needs fewer workers than people expect.",
+                      "Once it is built, the town cannot change its mind."
+                    ],
+                    "zh": [
+                      "电和水是大家共用的，所以所有人的账单都可能变贵。",
+                      "它需要的工人，比大家以为的少。",
+                      "一旦建好了，小镇就没法反悔了。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A Company Losing $14 Billion a Year May Be Worth $1 Trillion",
+            "zh": "一家一年亏140亿美元的公司，可能值1万亿美元"
+          },
+          "hook": {
+            "en": "OpenAI, the company behind ChatGPT, is preparing to sell shares to the public — possibly as soon as September — at a value above $1 trillion. The strange part: it loses roughly $14 billion every year. Meanwhile its rival Anthropic just turned its first profit.",
+            "zh": "ChatGPT 背后的公司 OpenAI 正准备公开发行股票——最快可能在9月——估值超过1万亿美元。奇怪的地方在于：它每年亏损约140亿美元。与此同时，它的竞争对手 Anthropic 刚刚实现了首次盈利。"
+          },
+          "story": {
+            "en": [
+              "When a private company decides to let ordinary people buy pieces of it on the stock market, that is called an IPO — an initial public offering. Today's news is that OpenAI is getting ready for one, possibly in September, at a valuation north of $1 trillion.",
+              "A trillion is hard to picture. If you counted one dollar every second without sleeping, a trillion seconds would take you about 31,700 years.",
+              "Now the puzzle: OpenAI loses around $14 billion a year. Normally, losing money makes a company less valuable, not more. So why would anyone pay?",
+              "Because investors are not buying what OpenAI earns today — they are betting on what it might earn later. Building AI means buying enormous numbers of computer chips and paying gigantic electricity bills first, and hoping the customers show up after. Nvidia, the company that makes most of those chips, is reportedly preparing to back roughly $100 billion in OpenAI financing. Microsoft, meanwhile, is running into a very physical wall: there is only so much land and electricity available for new data centres.",
+              "And here is the detail worth remembering: Anthropic, OpenAI's competitor, just turned its first profit. Two companies, same industry, opposite strategies — one spending enormously to grow fast, one earning money now. In a few years we will find out which bet was smarter. That is a real experiment happening in public, and Lucas gets to watch it from the start."
+            ],
+            "zh": [
+              "当一家私人公司决定让普通人也能在股市上买它的股份，这叫 IPO——首次公开募股。今天的新闻是：OpenAI 正在为此做准备，可能就在9月，估值超过1万亿美元。",
+              "1万亿有多大很难想象。如果你不睡觉、每秒数一美元，数完1万亿秒大约需要31700年。",
+              "谜题来了：OpenAI 每年亏损约140亿美元。按常理，亏钱会让一家公司更不值钱，而不是更值钱。那为什么还有人愿意出这个价？",
+              "因为投资人买的不是 OpenAI 今天赚了多少，而是在赌它以后可能赚多少。做人工智能，要先买下天量的电脑芯片、付出巨额电费，然后指望客户随后到来。生产大部分芯片的英伟达，据报道正准备为 OpenAI 提供约1000亿美元的融资支持。而微软正撞上一堵非常实在的墙：可用于建新数据中心的土地和电力就那么多。",
+              "还有一个值得记住的细节：OpenAI 的竞争对手 Anthropic 刚刚实现了首次盈利。两家公司，同一个行业，完全相反的策略——一个疯狂烧钱换增长，一个现在就开始赚钱。过几年我们就会知道哪一注下得更聪明。这是一场公开进行的真实实验，而 Lucas 从一开始就在看。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is not just finance news — it is a bet about whether AI becomes as ordinary as electricity. The chips, power plants, and data centres being built right now will still be there when Lucas is choosing a career.",
+            "zh": "这不只是财经新闻，而是一场豪赌：人工智能会不会变得像电一样普通。现在正在建的这些芯片厂、发电站和数据中心，等 Lucas 选择职业的时候还会在那里。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IPO (initial public offering)",
+                "zh": "IPO（首次公开募股）"
+              },
+              "def": {
+                "en": "The first time a private company sells shares of itself to the general public on a stock exchange.",
+                "zh": "一家私人公司第一次在证券交易所向公众出售自己的股份。"
+              }
+            },
+            {
+              "term": {
+                "en": "Valuation",
+                "zh": "估值"
+              },
+              "def": {
+                "en": "What people collectively think a company is worth — which can be very different from how much money it actually has.",
+                "zh": "大家共同认为一家公司值多少钱。这个数字可能和它实际拥有多少钱差得很远。"
+              }
+            },
+            {
+              "term": {
+                "en": "Profit",
+                "zh": "利润"
+              },
+              "def": {
+                "en": "Money left over after all costs are paid. A company can be famous, huge, and still have none.",
+                "zh": "付完所有成本后剩下的钱。一家公司可以很有名、很庞大，却一点利润都没有。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Would you put your own allowance into a company that loses money now but might be enormous later?",
+                "zh": "你愿意把自己的零花钱，投给一家现在亏钱、但以后可能很大的公司吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — you're buying the future",
+                    "zh": "愿意——你买的是未来"
+                  },
+                  "points": {
+                    "en": [
+                      "Amazon lost money for years and the people who held on did extremely well.",
+                      "By the time a company is obviously safe, the cheap price is gone.",
+                      "You can only lose what you put in, but the gain has no ceiling."
+                    ],
+                    "zh": [
+                      "亚马逊亏了很多年，当年拿住的人后来赚得非常好。",
+                      "等一家公司明显安全了，便宜的价格也就没了。",
+                      "你最多只会亏掉投进去的那部分，但赚的那一边没有上限。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — most of them don't make it",
+                    "zh": "不愿意——大多数走不到那一步"
+                  },
+                  "points": {
+                    "en": [
+                      "We remember Amazon because it worked. We forget the hundreds of companies that burned money and vanished.",
+                      "\"Might be huge later\" is a story. $14 billion of losses a year is a fact.",
+                      "When you have a small amount of money, losing all of it hurts far more than a big win would help."
+                    ],
+                    "zh": [
+                      "我们记得亚马逊，是因为它成了。那几百家烧光钱然后消失的公司，我们根本不记得。",
+                      "「以后可能很大」是一个故事。一年亏140亿美元是一个事实。",
+                      "当你本金很少的时候，全亏掉的痛，远大于一次大赚带来的好处。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Anthropic makes a profit; OpenAI does not but is worth more. What are investors actually paying for?",
+                "zh": "Anthropic 已经盈利，OpenAI 还没有，估值却更高。投资人到底在为什么付钱？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "For size later — and that's rational",
+                    "zh": "为「以后的规模」——而且这是理性的"
+                  },
+                  "points": {
+                    "en": [
+                      "A share is a claim on all future earnings, not this year's. Today's loss is an investment in being bigger.",
+                      "In tech, the largest player often ends up taking most of the market. Second place is worth far less than half of first.",
+                      "Spending heavily now on chips and data centres is how you make sure you are the one who gets that position."
+                    ],
+                    "zh": [
+                      "一股股票代表的是未来所有收益的一份，不是今年的。今天的亏损，是为了以后更大而做的投入。",
+                      "在科技行业，最大的那家往往会拿走市场的大部分。第二名的价值，远不到第一名的一半。",
+                      "现在在芯片和数据中心上重金投入，正是为了确保自己是坐上那个位置的人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "For a story — and crowds get carried away",
+                    "zh": "为「一个故事」——而人群会上头"
+                  },
+                  "points": {
+                    "en": [
+                      "Profit is something you can check. A projection is something someone chose to believe.",
+                      "This has happened before: railways, radio, dot-coms. Each time the technology was real and the prices were still too high.",
+                      "When everyone is buying because everyone else is buying, the price stops being about the company at all."
+                    ],
+                    "zh": [
+                      "利润是可以核对的东西。预测是有人选择相信的东西。",
+                      "这种事发生过：铁路、无线电、互联网泡沫。每一次技术都是真的，价格却仍然太高。",
+                      "当所有人买入的理由是「别人都在买」，价格就已经和这家公司无关了。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "An AI data centre needs a town's worth of electricity. Should a town let one be built nearby?",
+                "zh": "一座 AI 数据中心要用掉相当于一个小镇的电。小镇应该同意把它建在附近吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — take the deal",
+                    "zh": "应该——接下这笔生意"
+                  },
+                  "points": {
+                    "en": [
+                      "It brings construction work, permanent jobs, and tax money that pays for schools and roads.",
+                      "It is getting built somewhere regardless. Better that the benefits land here.",
+                      "Turning it away does not reduce the world's electricity use by one watt."
+                    ],
+                    "zh": [
+                      "它带来施工的活儿、长期的岗位，以及能用来修学校和道路的税收。",
+                      "反正它总要建在某个地方。好处落在这里，总比落在别处强。",
+                      "把它拒之门外，并不会让全世界少用一瓦电。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — the costs are shared, the gains aren't",
+                    "zh": "不应该——成本大家分摊，好处未必"
+                  },
+                  "points": {
+                    "en": [
+                      "Power and water are shared. If demand jumps, everyone's bill can rise, including people who wanted no part of it.",
+                      "Data centres need far fewer workers than a factory of the same size. The jobs promised are often fewer than the jobs described.",
+                      "Once it is built, the town has very little say over what happens next."
+                    ],
+                    "zh": [
+                      "电和水是共用的。需求一跳，所有人的账单都可能上涨，包括那些本来就不想参与的人。",
+                      "同样占地的数据中心，需要的工人远少于工厂。承诺的岗位，往往比描述的少。",
+                      "一旦建成，小镇对接下来会发生什么，几乎就没什么发言权了。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "A $1 Trillion Listing on $14 Billion of Annual Losses",
+            "zh": "年亏140亿美元，估值1万亿美元的上市计划"
+          },
+          "hook": {
+            "en": "OpenAI is preparing a public listing at a valuation above $1 trillion, possibly as soon as September, while losing roughly $14 billion a year. Nvidia is reportedly backing around $100 billion of its financing. Anthropic, its closest competitor, has just turned its first profit. The two strategies are now testable against each other.",
+            "zh": "OpenAI 正筹备估值超过1万亿美元的公开上市，最快可能在9月，而它每年亏损约140亿美元。据报道，英伟达正为其约1000亿美元的融资提供支持。它最接近的竞争对手 Anthropic 刚刚实现首次盈利。两种策略现在可以互相检验了。"
+          },
+          "story": {
+            "en": [
+              "An initial public offering converts a private company into one whose shares anyone can buy and whose numbers anyone can read. The reported valuation is above $1 trillion.",
+              "A share is a claim on future earnings rather than present ones, so a loss-making company can be rationally valuable. The only question is whether expected future earnings justify the price, discounted for the probability they never arrive.",
+              "The capital structure is the interesting part. Nvidia — which sells the chips OpenAI must buy — is reportedly backing roughly $100 billion of its financing. A supplier financing its customer's purchases of the supplier's own product is a well-known pattern. It flattered a great many balance sheets during the telecoms buildout of the late 1990s, right up until it stopped.",
+              "The binding constraint is becoming physical. Microsoft is running into limits on land, grid connections and available power for new data centres. Compute is no longer purely a capital question; it is a permitting and electricity question.",
+              "Anthropic is the natural control experiment: comparable technology, opposite financial strategy, and now profitable. One firm is spending to reach scale before anyone else can; the other is proving its unit economics first.",
+              "Which is right depends on whether this market ends up winner-take-most. If it does, the spending was rational and the profitable competitor was too cautious. If it does not, the profitable one owns a real business and the other owns a great deal of depreciating hardware."
+            ],
+            "zh": [
+              "首次公开募股，是把一家私人公司变成任何人都能买它股票、任何人都能读它财报的公司。报道中的估值超过1万亿美元。",
+              "一股股票代表的是对未来收益、而非当下收益的索取权，所以一家亏损的公司在理性上也可以很值钱。唯一的问题是：预期中的未来收益，在扣除「它们可能永远不会到来」的概率之后，是否撑得起这个价格。",
+              "有意思的是资本结构。生产 OpenAI 必须购买的芯片的英伟达，据报道正为其约1000亿美元的融资提供支持。供应商出钱让客户来买自己的产品，是一种众所周知的模式。上世纪90年代末电信基建热潮中，它曾让大量资产负债表变得好看——直到它不再好看为止。",
+              "真正的约束正在变成物理性的。微软在新建数据中心时，正撞上土地、电网接入和可用电力的上限。算力已经不再纯粹是资本问题，它同时是审批和电力问题。",
+              "Anthropic 是天然的对照组：技术相当，财务策略相反，而且现在已经盈利。一家在砸钱抢在所有人之前做到规模，另一家先把单位经济模型跑通。",
+              "谁对，取决于这个市场最终是不是「赢家通吃」。如果是，那么砸钱是理性的，而那家盈利的竞争者过于保守。如果不是，那么盈利的那家拥有一门真实的生意，另一家拥有大量正在折旧的硬件。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is a live argument about how a general-purpose technology gets financed, and you will watch it resolve over roughly the period in which you choose a career. The chips, substations and data centres being committed to now are the fixed capital of an industry you might end up working in.",
+            "zh": "这是一场关于「通用技术该如何融资」的公开辩论，而它见分晓的时间，大致就是你选择职业的那几年。现在正在投入的芯片、变电站和数据中心，就是你未来可能置身其中的那个行业的固定资本。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Valuation",
+                "zh": "估值"
+              },
+              "def": {
+                "en": "The price the market puts today on all of a company's future earnings. It is a forecast wearing the clothes of a fact.",
+                "zh": "市场今天为一家公司未来全部收益开出的价格。它是一份穿着事实外衣的预测。"
+              }
+            },
+            {
+              "term": {
+                "en": "Vendor financing",
+                "zh": "供应商融资"
+              },
+              "def": {
+                "en": "A supplier lending its customer the money to buy the supplier's product. It accelerates revenue and concentrates risk in the same place.",
+                "zh": "供应商借钱给客户，让客户来买自己的产品。它加快了收入确认，也把风险集中在同一个地方。"
+              }
+            },
+            {
+              "term": {
+                "en": "Winner-take-most",
+                "zh": "赢家通吃"
+              },
+              "def": {
+                "en": "A market where the largest participant captures a disproportionate share, so arriving at scale early is worth more than being profitable early.",
+                "zh": "最大的参与者拿走不成比例份额的市场。在这种市场里，早点做到规模比早点盈利更值钱。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is a $1 trillion valuation on $14 billion of annual losses rational?",
+                "zh": "年亏140亿美元，估值1万亿美元，这理性吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Rational",
+                    "zh": "理性的"
+                  },
+                  "points": {
+                    "en": [
+                      "Equity prices discount future cash flows, and the addressable market here is plausibly enormous.",
+                      "The losses are capital expenditure in disguise — compute bought now produces revenue for years.",
+                      "In winner-take-most markets, the cost of arriving second exceeds the cost of overspending."
+                    ],
+                    "zh": [
+                      "股价折现的是未来现金流，而这里的潜在市场规模确实可能极其庞大。",
+                      "这些亏损是伪装成亏损的资本开支——现在买下的算力，会产出好几年的收入。",
+                      "在赢家通吃的市场里，来晚一步的代价，大于花过头的代价。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not rational",
+                    "zh": "不理性"
+                  },
+                  "points": {
+                    "en": [
+                      "Every bubble had a coherent story; coherence is not evidence.",
+                      "Vendor financing makes reported demand partly circular, which flatters the very numbers used to justify the price.",
+                      "A competitor is profitable on comparable technology, which weakens the claim that losses are structurally necessary."
+                    ],
+                    "zh": [
+                      "每一次泡沫都有一套自洽的说法；自洽不等于证据。",
+                      "供应商融资让报出来的需求带有循环性，而它美化的正是用来支撑这个价格的那些数字。",
+                      "一个竞争对手用相当的技术已经盈利，这削弱了「亏损是结构性必需」的说法。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Nvidia financing its own customer's purchases — legitimate market-making, or a warning sign?",
+                "zh": "英伟达出钱让客户买自己的产品——这是正当的做市，还是一个警讯？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Legitimate",
+                    "zh": "是正当的"
+                  },
+                  "points": {
+                    "en": [
+                      "Capital-intensive industries have always needed suppliers to help finance adoption.",
+                      "Nvidia has better information about real demand than any outside lender does.",
+                      "It accelerates infrastructure that financing friction would otherwise delay."
+                    ],
+                    "zh": [
+                      "资本密集型产业历来需要供应商帮忙为采用方融资。",
+                      "关于真实需求，英伟达掌握的信息比任何外部放贷方都好。",
+                      "它加快了本会因融资摩擦而拖延的基础设施建设。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "A warning sign",
+                    "zh": "是警讯"
+                  },
+                  "points": {
+                    "en": [
+                      "It lets one company book revenue on demand that it has itself created.",
+                      "Risk that looks diversified is actually concentrated on a single balance sheet.",
+                      "The same structure preceded the telecoms write-offs of 2001."
+                    ],
+                    "zh": [
+                      "它让一家公司在自己制造出来的需求上确认收入。",
+                      "看起来分散的风险，实际上集中在同一张资产负债表上。",
+                      "同样的结构，出现在2001年电信业大规模减记之前。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Data centres now compete with households for grid capacity. Who should get priority?",
+                "zh": "数据中心现在在和居民抢电网容量。谁该优先？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Households first",
+                    "zh": "居民优先"
+                  },
+                  "points": {
+                    "en": [
+                      "Electricity is a necessity for people and an input for firms; necessity outranks input.",
+                      "The cost of grid expansion is socialised while the benefit is largely private.",
+                      "Communities absorb the price increases without meaningful say in the siting decision."
+                    ],
+                    "zh": [
+                      "电对人是必需品，对企业是投入品；必需品优先于投入品。",
+                      "电网扩容的成本由全社会承担，收益却大体是私人的。",
+                      "承受涨价的是社区，而选址决定他们几乎说不上话。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let price decide",
+                    "zh": "让价格决定"
+                  },
+                  "points": {
+                    "en": [
+                      "Whoever values the capacity most should get it; that is what prices are for.",
+                      "Heavy industrial demand funds the grid investment that eventually benefits everyone.",
+                      "Rationing by rule rather than by price tends to produce shortages and lobbying."
+                    ],
+                    "zh": [
+                      "谁最看重这份容量，就该谁拿到；价格存在的意义正在于此。",
+                      "大宗工业需求为电网投资买单，而这些投资最终惠及所有人。",
+                      "用规则而不是价格来配给，往往会制造短缺和游说。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
-  ]
+  ],
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 17
+  }
 }

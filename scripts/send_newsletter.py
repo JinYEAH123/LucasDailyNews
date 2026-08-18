@@ -171,7 +171,8 @@ def reading_block(items: list, heading: str, accent: str, lang: str) -> str:
     return section_label(heading, accent) + "".join(rows)
 
 
-def story_html(story: dict, lang: str, story_url: str) -> str:
+def story_html(story: dict, lang: str, story_url: str, band: str) -> str:
+    v = (story.get("versions") or {}).get(band) or {}
     cat = story.get("category", "politics")
     accent, tint = BEAT.get(cat, BEAT["politics"])
     cat_name = e(appconfig.category_label(cat, lang))
@@ -179,23 +180,23 @@ def story_html(story: dict, lang: str, story_url: str) -> str:
 
     body = "".join(
         f'<p style="margin:0 0 12px;font:400 15px/1.65 {SANS};color:{C["ink"]}">{e(p)}</p>'
-        for p in pick_list(story.get("story"), lang)
+        for p in pick_list(v.get("story"), lang)
     )
 
     words = ""
-    if story.get("word_bank"):
+    if v.get("word_bank"):
         rows = "".join(
             f'<p style="margin:0 0 8px;font:400 14px/1.55 {SANS};color:{C["ink_soft"]}">'
             f'<b style="color:{C["ink"]}">{e(pick(w.get("term"), lang))}</b> — '
             f'{e(pick(w.get("def"), lang))}</p>'
-            for w in story["word_bank"]
+            for w in v["word_bank"]
         )
         words = section_label(t("words", lang), accent) + rows
 
     # Questions only. The two-sided hints live behind a fold on the website so
     # the child commits to a view before reading anyone else's arguments.
     talk = ""
-    questions = story.get("talk_about_it")
+    questions = v.get("talk_about_it")
     if isinstance(questions, list) and questions:
         rows = "".join(
             f'<tr><td valign="top" width="20" '
@@ -251,16 +252,16 @@ def story_html(story: dict, lang: str, story_url: str) -> str:
         letter-spacing:.1em;text-transform:uppercase">{region}</span>
     </p>
     <h2 style="margin:0 0 10px;font:600 22px/1.25 {SERIF};color:{C['ink']}">
-      {e(pick(story.get('headline'), lang))}</h2>
+      {e(pick(v.get('headline'), lang))}</h2>
     <p style="margin:0 0 14px;font:400 15px/1.6 {SANS};color:{C['ink_soft']}">
-      {e(pick(story.get('hook'), lang))}</p>
+      {e(pick(v.get('hook'), lang))}</p>
     <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
       style="background:{tint};border-left:3px solid {accent};border-radius:0 6px 6px 0;margin:0 0 16px">
       <tr><td style="padding:12px 14px">
         <p style="margin:0 0 3px;font:700 11px/1.4 {SANS};letter-spacing:.1em;
           text-transform:uppercase;color:{accent}">{t('why', lang)}</p>
         <p style="margin:0;font:400 14px/1.6 {SANS};color:{C['ink']}">
-          {e(pick(story.get('why_it_matters'), lang))}</p>
+          {e(pick(v.get('why_it_matters'), lang))}</p>
       </td></tr>
     </table>
     {body}
@@ -274,7 +275,7 @@ def story_html(story: dict, lang: str, story_url: str) -> str:
 </table>"""
 
 
-def build_html(edition: dict, lang: str, site_url: str) -> str:
+def build_html(edition: dict, lang: str, site_url: str, band: str) -> str:
     date_str = edition["date"]
     pretty = pick(site.pretty_date(date_str), lang)
     window = pick((edition.get("window") or {}).get("label"), lang)
@@ -285,9 +286,10 @@ def build_html(edition: dict, lang: str, site_url: str) -> str:
     archive_url = f"{base}/archive.html"
 
     # Shown in the inbox preview line, then hidden in the body.
-    preheader = e(pick(stories[0].get("hook"), lang))[:160] if stories else ""
+    preheader = (e(pick((stories[0].get("versions") or {}).get(band, {}).get("hook"), lang))[:160]
+                 if stories else "")
 
-    cards = "".join(story_html(s, lang, story_url) for s in stories)
+    cards = "".join(story_html(s, lang, story_url, band) for s in stories)
 
     return f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8">
@@ -326,7 +328,7 @@ def build_html(edition: dict, lang: str, site_url: str) -> str:
 
 # --------------------------------------------------------------------------- text
 
-def build_text(edition: dict, lang: str, site_url: str) -> str:
+def build_text(edition: dict, lang: str, site_url: str, band: str) -> str:
     date_str = edition["date"]
     base = site_url.rstrip("/")
     story_url = f"{base}/editions/{date_str}.html"
@@ -339,27 +341,28 @@ def build_text(edition: dict, lang: str, site_url: str) -> str:
     ]
 
     for story in sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99)):
+        v = (story.get("versions") or {}).get(band) or {}
         cat = appconfig.category_label(story.get("category", ""), lang)
         out += [
             "=" * 60,
-            f"{story.get('rank', '')}. [{cat}] {pick(story.get('headline'), lang)}",
+            f"{story.get('rank', '')}. [{cat}] {pick(v.get('headline'), lang)}",
             "",
-            pick(story.get("hook"), lang),
+            pick(v.get("hook"), lang),
             "",
-            f"{t('why', lang)}: {pick(story.get('why_it_matters'), lang)}",
+            f"{t('why', lang)}: {pick(v.get('why_it_matters'), lang)}",
             "",
         ]
-        out += [p + "\n" for p in pick_list(story.get("story"), lang)]
+        out += [p + "\n" for p in pick_list(v.get("story"), lang)]
 
-        if story.get("word_bank"):
+        if v.get("word_bank"):
             out.append(t("words", lang))
             out += [
                 f"  - {pick(w.get('term'), lang)}: {pick(w.get('def'), lang)}"
-                for w in story["word_bank"]
+                for w in v["word_bank"]
             ]
             out.append("")
 
-        questions = story.get("talk_about_it")
+        questions = v.get("talk_about_it")
         if isinstance(questions, list) and questions:
             out.append(t("talk", lang))
             out += [
@@ -378,8 +381,8 @@ def build_text(edition: dict, lang: str, site_url: str) -> str:
                 ]
                 out.append("")
 
-        for v in story.get("videos") or []:
-            out.append(f"{t('watch', lang)}: {v.get('title', '')} — {v.get('url', '')}")
+        for video in story.get("videos") or []:
+            out.append(f"{t('watch', lang)}: {video.get('title', '')} — {video.get('url', '')}")
 
         src = story.get("source") or {}
         if src.get("url"):
@@ -392,23 +395,41 @@ def build_text(edition: dict, lang: str, site_url: str) -> str:
 # --------------------------------------------------------------------------- recipients
 
 def parse_recipients(raw: str) -> list:
-    """Parse "addr" / "addr:lang" entries separated by commas or newlines."""
+    """Parse "addr", "addr:lang", "addr:band" or "addr:lang:band" entries.
+
+    Two children of different ages in one household is the case this exists for.
+    Parts after the address are matched against the known languages and bands
+    rather than being positional, so order does not matter and a stray colon in
+    an address cannot silently become a setting.
+    """
+    known_langs = set(appconfig.LANGUAGES)
+    known_bands = set(appconfig.AGE_BANDS)
     recipients = []
+
     for chunk in raw.replace("\n", ",").split(","):
         entry = chunk.strip()
         if not entry:
             continue
-        lang = CFG.primary_language
-        addr = entry
-        # Split on the last colon so an address is never damaged by one.
-        if ":" in entry:
-            head, _, tail = entry.rpartition(":")
-            if tail.strip().lower() in ("en", "zh") and head.strip():
-                addr, lang = head.strip(), tail.strip().lower()
+        parts = entry.split(":")
+        addr = parts[0].strip()
+        lang, band = CFG.primary_language, CFG.band
+        unknown = []
+        for part in parts[1:]:
+            token = part.strip()
+            if token.lower() in known_langs:
+                lang = token.lower()
+            elif token in known_bands:
+                band = token
+            elif token:
+                unknown.append(token)
         if "@" not in addr:
             print(f"  skipping '{entry}' — not an email address", file=sys.stderr)
             continue
-        recipients.append((addr, lang))
+        if unknown:
+            print(f"  note: ignoring {unknown} on {addr}; "
+                  f"expected one of {sorted(known_langs)} or {sorted(known_bands)}",
+                  file=sys.stderr)
+        recipients.append((addr, lang, band))
     return recipients
 
 
@@ -449,10 +470,10 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
 
     # Build one body per language, not per recipient.
     bodies = {}
-    for lang in {lang for _, lang in recipients}:
-        bodies[lang] = (
-            build_text(edition, lang, site_url),
-            build_html(edition, lang, site_url),
+    for key in {(lang, band) for _, lang, band in recipients}:
+        bodies[key] = (
+            build_text(edition, key[0], site_url, key[1]),
+            build_html(edition, key[0], site_url, key[1]),
         )
 
     if port == 465:
@@ -464,8 +485,8 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
     sent = 0
     with server:
         server.login(user, password)
-        for addr, lang in recipients:
-            text, html_body = bodies[lang]
+        for addr, lang, band in recipients:
+            text, html_body = bodies[(lang, band)]
             msg = EmailMessage()
             subject_date = pick(site.pretty_date(edition["date"]), lang)
             msg["Subject"] = f"{app_title(lang)} · {subject_date}"
@@ -477,7 +498,7 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
             msg.add_alternative(html_body, subtype="html")
             try:
                 server.send_message(msg)
-                print(f"  sent to {addr} ({lang})")
+                print(f"  sent to {addr} ({lang}, {band})")
                 sent += 1
             except smtplib.SMTPException as exc:
                 # One bad address must not stop the rest of the family's copies.
@@ -491,7 +512,9 @@ def main() -> None:
     ap.add_argument("--force", action="store_true", help="Send even if already sent.")
     ap.add_argument("--to", help="Send only to this address, ignoring the list.")
     ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language,
-                help="Language for --to.")
+                    help="Language for --to.")
+    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=CFG.band,
+                    help="Reading level for --to and --dry-run.")
     ap.add_argument("--dry-run", metavar="FILE", help="Write the HTML to FILE, send nothing.")
     args = ap.parse_args()
 
@@ -512,16 +535,16 @@ def main() -> None:
     if args.dry_run:
         out = Path(args.dry_run)
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(build_html(edition, args.lang, site_url), encoding="utf-8")
+        out.write_text(build_html(edition, args.lang, site_url, args.band), encoding="utf-8")
         size = out.stat().st_size
-        print(f"Wrote {out} ({size / 1024:.0f} KB, {args.lang})")
+        print(f"Wrote {out} ({size / 1024:.0f} KB, {args.lang}, {args.band})")
         # Gmail truncates around 102 KB and hides the rest behind "View entire message".
         if size > 92_000:
             print("  warning: close to Gmail's 102 KB clipping threshold", file=sys.stderr)
         return
 
     if args.to:
-        recipients = [(args.to, args.lang)]
+        recipients = [(args.to, args.lang, args.band)]
     else:
         raw = os.environ.get("NEWSLETTER_RECIPIENTS", "")
         if not raw.strip():

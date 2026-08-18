@@ -28,22 +28,19 @@
 
 ## 设置
 
-所有设置都在一个 `config.toml` 里。三种写法：
+几乎没有什么是可设置的。每天三条，取自政治、社会、财经、科技、科学，
+以美国和中国为重心，外加大到不属于任何单一国家的事件——
+这是编辑方针，对所有人都一样。板块、地区、条数都刻意不做成选项。
 
-- 浏览器打开 **`docs/setup.html`**，点选表单，它会帮你生成文件，内容不会发送到任何地方；
-- 运行 **`python3 scripts/setup.py`**，逐题回答；
-- 或者直接改 **`config.example.toml`**。
+真正可设置的只有这些，都在一个 `config.toml` 里：
 
 ```toml
 [child]
 name = "Lucas"      # 可留空，页面上显示「为 ___ 而做」
-age  = 12           # 5-18
+age  = 12           # 5-18，决定页面默认打开哪个阅读难度
 
 [edition]
-count      = 3                    # 每天几条，3-10
-categories = ["politics", "society", "business", "tech"]
-regions    = ["US", "CN"]
-languages  = ["en", "zh"]
+languages = ["en", "zh"]
 
 [schedule]
 timezone = "America/Vancouver"    # 任意 IANA 时区
@@ -53,42 +50,21 @@ hour     = 17                     # 0-23，当地时间
 url = "https://yourname.github.io/your-repo/"
 ```
 
-**板块** — `politics` 政治、`society` 社会、`business` 财经、`tech` 科技、
-`science` 科学、`environment` 环境、`sports` 体育、`arts` 艺术与文化、
-`health` 健康、`education` 教育。每个板块在页面上有自己的颜色，一眼就知道是哪类新闻。
+三种写法：浏览器打开 **`docs/setup.html`**、运行 **`python3 scripts/setup.py`**，
+或者直接改 **`config.example.toml`**。
 
-**地区** — `US` 美国、`CN` 中国、`CA` 加拿大、`EU` 欧洲、`JPKR` 日韩、
-`ANZ` 澳新、`SEA` 东南亚、`SASIA` 南亚、`LATAM` 拉美、`MEA` 中东与非洲；
-或者用 `GLOBAL`，等于全选。别处真正重大的事——重大战事、诺贝尔奖、大型灾害——
-不在这个名单里也照样会进来。
+## 三个阅读难度
 
-**年龄**决定句子长短、要解释到什么程度、生词收几个、饭桌问题有多难。
-它**不会**改变新闻本身可以有多严肃。7 岁的孩子会读到用他能想象的距离来解释霍尔木兹海峡，
+每一期都会写三遍——**6–11 岁、12–15 岁、16 岁以上**——三个版本同在一个页面里。
+切换只是改根元素上的一个属性，所以是瞬时的，离线也能用，不需要服务器。
+
+不同难度之间变化的是：句子长短、一个事实需要多少铺垫、生词收几个、
+饭桌问题有多难。**不变**的是讲哪几条新闻、以及它们可以有多严肃。
+7 岁的孩子会读到用他能想象的距离来解释霍尔木兹海峡，
 而不是被换成一条关于小狗的新闻。
 
-**条数**上限是 10，这是有意的。再多就不叫摘要了。
-
-**时间**支持任意时区、任意时刻。每一期覆盖截至那一刻的 24 小时，
-所以挑一个你们通常在一起的时间。
-
----
-
-## 访客能改什么
-
-这个网站是静态的：每一期在你设定的时刻由服务器生成一次，写死进网页。
-所以设置分两类，只有一类属于访客。
-
-**阅读偏好**——语言、深浅色、显示哪些板块和地区、显示几条——立刻生效。
-浏览器首次访问时会自动弹出设置窗口，之后收在右上角的齿轮里。
-选择按设备保存在 `localStorage` 里；静态页面看不到访客的 IP 地址，
-所以换一台设备会重新询问一次。
-
-**发布设置**——孩子的年龄、新闻怎么写、每天生成几条、几点出这一期——
-是在生成那一刻决定的。它们在 `config.toml` 里，从下一期开始生效，
-不会改变已经在屏幕上的这一期。弹窗里写明了这一点，并链接到完整表单，
-而不是提供一些看起来能用、其实无效的开关。
-
----
+`[child] age` 只决定页面默认打开哪一档。任何读者都可以用页面顶部的按钮切换，
+选择会记在那台设备上。
 
 ## 第一次配置
 
@@ -127,10 +103,11 @@ Gmail 需要先开启两步验证，然后到 <https://myaccount.google.com/appp
 | `SMTP_FROM` | 可选，默认等于 `SMTP_USER` |
 | `NEWSLETTER_RECIPIENTS` | 见下 |
 
-收件人用逗号分隔，可以逐人指定语言：
+收件人用逗号分隔，可以逐人指定语言和阅读难度——
+一个家里有两个不同年龄的孩子，靠的就是这个：
 
 ```
-lucas@example.com:en, mum@example.com:zh, grandpa@example.com:zh
+lucas@example.com:en:12-15, mia@example.com:en:6-11, mum@example.com:zh
 ```
 
 增减读者就改这一个 secret。地址放在 secret 而不是仓库文件里是有意的——
@@ -149,8 +126,8 @@ lucas@example.com:en, mum@example.com:zh, grandpa@example.com:zh
 config.toml
      │
      ▼
-generate_edition.py   两次 Claude 调用：先联网检索全球报道，
-     │                再按设定的年龄改写出前 N 条
+generate_edition.py   联网检索全球报道，把三条新闻和链接记录一次，
+     │                然后逐个阅读难度改写
      ▼
 data/editions/YYYY-MM-DD.json      ← 唯一的事实来源
      │
@@ -218,8 +195,9 @@ python3 scripts/build_poster.py --keep-html
 
 ### 成本
 
-每天两次 Claude 调用（一次调研，一次改写）。三条新闻大约一美元上下，
-`count` 和板块数量增加会相应上升。
+每天五次 Claude 调用：一次联网调研，一次记录选中的新闻和链接，
+三个阅读难度各一次。大约每天 2–3 美元，一个月 60–90 美元上下。
+其中大部分成本来自写三个版本——只写一个难度大约是三分之一。
 
 ---
 
@@ -231,10 +209,10 @@ config.example.toml       带注释的起点
 data/editions/            每天一个 JSON，唯一的事实来源
 data/sent.json            哪些天发过邮件（只有日期和人数，无邮箱地址）
 scripts/
-  appconfig.py            设置、板块与地区目录、各年龄的写作档案
+  appconfig.py            设置、板块与地区目录、三个年龄档
   setup.py                命令行设置向导
   setup_page.py           生成网页版设置表单
-  generate_edition.py     Claude API → 当期 JSON
+  generate_edition.py     Claude API → 当期 JSON（三个年龄版本）
   render_site.py          JSON → docs/
   build_poster.py         JSON → 带二维码的长图（二维码会自动校验）
   send_newsletter.py      JSON → 经 SMTP 发邮件
@@ -252,8 +230,9 @@ docs/                     生成产物，GitHub Pages 托管
 - **请核对来源。** 链接规则让编造 URL 变得很不可能，但不是不可能：
   模型仍可能引用一个真实存在、内容却被它记错的页面。
   每条新闻都保留原始链接，正是为了这个。
-- **加一个新板块**只需要在 `scripts/appconfig.py` 的 `CATEGORIES` 里加一条——
-  标签、两种主题下的颜色、一句说明。网页 CSS、设置表单、长图、邮件都会自动跟上。
+- **加一个板块或一个年龄档**，只需要在 `scripts/appconfig.py` 的
+  `CATEGORIES` 或 `AGE_BANDS` 里加一条。网页 CSS、年龄切换器、输出 schema、
+  长图和邮件都是从这两张表生成的。
 - **长图需要先填好 `[site] url`**，否则二维码指向空地址。
 - 二维码每次生成后都会从成品 PNG 里重新解码校验，不一致就让任务失败。
   二维码坏掉在肉眼审阅时完全看不出来，所以必须校验而不是靠看。

@@ -1,31 +1,15 @@
 {
   "app": "Daily News for Kids",
-  "updated": "2026-08-18T02:49:00+00:00",
-  "settings": {
-    "count": 3,
-    "age": 12,
-    "categories": [
-      "politics",
-      "society",
-      "business",
-      "tech"
-    ],
-    "regions": [
-      "US",
-      "CN"
-    ],
-    "timezone": "America/Vancouver",
-    "hour": 17
-  },
+  "updated": "2026-08-18T04:26:20+00:00",
+  "bands": [
+    "6-11",
+    "12-15",
+    "16+"
+  ],
   "editions": [
     {
       "date": "2026-08-17",
-      "url": "editions/2026-08-17.html",
-      "headlines": [
-        "A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War",
-        "China's Economy Is Slowing — but the Robot-and-Chip Part Is Booming",
-        "A Company Losing $14 Billion a Year May Be Worth $1 Trillion"
-      ]
+      "url": "editions/2026-08-17.html"
     }
   ]
 }

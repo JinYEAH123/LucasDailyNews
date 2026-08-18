@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """Render the Daily News for Kids site from data/editions/*.json into docs/.
 
-Standard library only. Run after every generation:
+Standard library only.
 
     python3 scripts/render_site.py
     python3 scripts/render_site.py --single out.html   # one self-contained page
 
-Beat colours, labels, languages and the family's name all come from
-config.toml via appconfig, so the whole look follows the settings.
+Every page carries all three age bands. Switching between them is a CSS class on
+the root element, so it is instant and needs no server — which is the whole
+reason the bands are generated up front rather than on demand.
 """
 
 from __future__ import annotations
@@ -15,6 +16,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import re
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
@@ -28,6 +30,7 @@ OUT = ROOT / "docs"
 
 CFG = appconfig.load()
 LANGS = CFG.languages
+BANDS = list(appconfig.AGE_BANDS)
 
 LABELS = {
     "read_more": {"en": "Read the whole story", "zh": "读完整篇"},
@@ -49,9 +52,7 @@ LABELS = {
     "archive": {"en": "Archive", "zh": "往期"},
     "today": {"en": "Today", "zh": "今日"},
     "archive_title": {"en": "Every past edition", "zh": "所有往期"},
-    "archive_intro": {
-        "en": "Newest first.", "zh": "从新到旧排列。",
-    },
+    "archive_intro": {"en": "Newest first.", "zh": "从新到旧排列。"},
     "archive_first": {
         "en": "This is the first edition. From tomorrow, every past day collects here.",
         "zh": "这是第一期。从明天起，每一天的往期都会收在这里。",
@@ -70,10 +71,12 @@ LABELS = {
         "zh": "链接会打开原始报道——请随时核对来源。",
     },
     "setup": {"en": "Make your own", "zh": "做一份自己的"},
-    "settings": {"en": "Settings", "zh": "设置"},
-    "no_match": {
-        "en": "Nothing today matches your filters. Open settings and widen them.",
-        "zh": "今天没有符合你筛选条件的新闻。打开设置放宽一些。",
+    "band_prompt": {"en": "Written for", "zh": "读给"},
+    "beats_note": {
+        "en": "Three stories a day, from politics, society, business, tech and science, "
+              "centred on the US and China plus anything too big to belong to one country.",
+        "zh": "每天三条，来自政治、社会、财经、科技、科学五个板块，"
+              "以美国和中国为重心，外加大到不属于任何单一国家的事件。",
     },
 }
 
@@ -92,8 +95,12 @@ def e(text: object) -> str:
     return html.escape(str(text if text is not None else ""), quote=True)
 
 
+def band_class(key: str) -> str:
+    """A CSS-safe class for a band key — '16+' cannot appear in a selector as-is."""
+    return "b-" + re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
+
+
 def bilingual(value: object, cls: str = "") -> str:
-    """Render a per-language dict as one span per configured language."""
     extra = f" {cls}" if cls else ""
     if not isinstance(value, dict):
         return f'<span class="{cls}">{e(value)}</span>' if cls else e(value)
@@ -112,8 +119,7 @@ def bilingual_paragraphs(value: object) -> str:
         paras = value.get(lang) or next((v for v in value.values() if v), [])
         if isinstance(paras, str):
             paras = [paras]
-        body = "".join(f"<p>{e(p)}</p>" for p in paras)
-        out.append(f'<div class="l-{lang}">{body}</div>')
+        out.append(f'<div class="l-{lang}">{"".join(f"<p>{e(p)}</p>" for p in paras)}</div>')
     return "".join(out)
 
 
@@ -145,7 +151,6 @@ def region_label(key: str) -> str:
 
 
 def safe_url(url: object) -> str:
-    """Only http(s) links pass; anything else renders inert."""
     text = str(url or "").strip()
     if text.lower().startswith(("http://", "https://")):
         return html.escape(text, quote=True)
@@ -172,35 +177,33 @@ def pretty_timestamp(iso: str) -> dict:
     }
 
 
-def beat_css() -> str:
-    """Every beat's accent in both themes, plus the per-card override.
+def generated_css() -> str:
+    """Beat accents and band switching, both derived from the catalogues.
 
-    Generated rather than hand-written so adding a beat to the catalogue is a
-    single-file change and can never drift from what the pages actually use.
+    Generated rather than hand-written so adding a beat or a band is a
+    single-file change that cannot drift from what the pages actually use.
     """
-    light = "".join(
-        f"  --{k}: {v['light'][0]}; --{k}-tint: {v['light'][1]};\n"
-        for k, v in appconfig.CATEGORIES.items()
-    )
-    dark = "".join(
-        f"    --{k}: {v['dark'][0]}; --{k}-tint: {v['dark'][1]};\n"
-        for k, v in appconfig.CATEGORIES.items()
-    )
-    dark_stamped = "".join(
-        f"  --{k}: {v['dark'][0]}; --{k}-tint: {v['dark'][1]};\n"
-        for k, v in appconfig.CATEGORIES.items()
-    )
+    light = "".join(f"  --{k}: {v['light'][0]}; --{k}-tint: {v['light'][1]};\n"
+                    for k, v in appconfig.CATEGORIES.items())
+    dark = "".join(f"  --{k}: {v['dark'][0]}; --{k}-tint: {v['dark'][1]};\n"
+                   for k, v in appconfig.CATEGORIES.items())
     cards = "".join(
         f".story.{k} {{ --accent: var(--{k}); --accent-tint: var(--{k}-tint); }}\n"
         f".archive-item .heads li.{k}::before {{ background: var(--{k}); }}\n"
         for k in appconfig.CATEGORIES
     )
+    # One rule per band: when the root is on band X, every other band is hidden.
+    hide = "".join(
+        f'[data-band="{b}"] .band:not(.{band_class(b)}) {{ display: none; }}\n'
+        for b in BANDS
+    )
     return (
         f":root {{\n{light}}}\n"
-        f"@media (prefers-color-scheme: dark) {{\n"
-        f'  :root:not([data-theme="light"]) {{\n{dark}  }}\n}}\n'
-        f':root[data-theme="dark"] {{\n{dark_stamped}}}\n'
-        f"{cards}"
+        f'@media (prefers-color-scheme: dark) {{\n  :root:not([data-theme="light"]) {{\n'
+        + "".join("  " + l + "\n" for l in dark.strip().splitlines())
+        + f"  }}\n}}\n"
+        f':root[data-theme="dark"] {{\n{dark}}}\n'
+        f"{cards}{hide}"
     )
 
 
@@ -219,14 +222,10 @@ def render_reads(items: list, key: str) -> str:
             f'<a class="r-title" href="{url}" target="_blank" rel="noopener noreferrer">{title}</a>'
             if url else f'<span class="r-title">{title}</span>'
         )
-        rows.append(
-            f"<li>{title_html}{pub_html}"
-            f'<p class="r-sum">{bilingual(item.get("summary", ""))}</p></li>'
-        )
-    return (
-        f"<details><summary>{label(key)}</summary>"
-        f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>'
-    )
+        rows.append(f"<li>{title_html}{pub_html}"
+                    f'<p class="r-sum">{bilingual(item.get("summary", ""))}</p></li>')
+    return (f"<details><summary>{label(key)}</summary>"
+            f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>')
 
 
 def render_videos(videos: list) -> str:
@@ -239,115 +238,94 @@ def render_videos(videos: list) -> str:
         rows.append(
             f'<li><a class="video-link" href="{url}" target="_blank" rel="noopener noreferrer">'
             f'{e(v.get("title", "Video"))}</a>{channel}'
-            f'<p class="r-sum">{bilingual(v.get("summary", ""))}</p></li>'
-        )
+            f'<p class="r-sum">{bilingual(v.get("summary", ""))}</p></li>')
     if not rows:
         return ""
-    return (
-        f"<details><summary>{label('watch')}</summary>"
-        f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>'
-    )
+    return (f"<details><summary>{label('watch')}</summary>"
+            f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>')
 
 
 def render_words(words: list) -> str:
     if not words:
         return ""
-    rows = "".join(
-        f"<li><b>{bilingual(w.get('term', ''))}</b> — {bilingual(w.get('def', ''))}</li>"
-        for w in words
-    )
-    return (
-        f"<details><summary>{label('words')}</summary>"
-        f'<div class="details-body"><ul class="words">{rows}</ul></div></details>'
-    )
+    rows = "".join(f"<li><b>{bilingual(w.get('term', ''))}</b> — {bilingual(w.get('def', ''))}</li>"
+                   for w in words)
+    return (f"<details><summary>{label('words')}</summary>"
+            f'<div class="details-body"><ul class="words">{rows}</ul></div></details>')
 
 
 def render_side(side: dict) -> str:
-    return (
-        f'<div class="side"><p class="side-label">{bilingual(side.get("label", ""))}</p>'
-        f'{bilingual_list(side.get("points"), "side-points")}</div>'
-    )
+    return (f'<div class="side"><p class="side-label">{bilingual(side.get("label", ""))}</p>'
+            f'{bilingual_list(side.get("points"), "side-points")}</div>')
 
 
 def render_talk(questions: object) -> str:
-    """Open by default; the two-sided hints stay folded underneath.
-
-    They should try an answer before they see anyone else's, so opening a hint
-    gives them material, never a verdict.
-    """
-    if isinstance(questions, dict):  # editions from before hints existed
-        body = bilingual_list(questions, "questions")
-        return (
-            f"<details open><summary>{label('talk')}</summary>"
-            f'<div class="details-body">{body}</div></details>' if body else ""
-        )
+    """Open by default; the two-sided hints stay folded underneath, so a child
+    tries an answer before meeting anyone else's."""
     if not questions:
         return ""
-
     items = []
     for item in questions:
         sides = item.get("sides") or []
         hint = ""
         if sides:
-            hint = (
-                f'<details class="hint"><summary>{label("talk_hint")}</summary>'
-                f'<div class="details-body sides">'
-                f'{"".join(render_side(s) for s in sides)}</div></details>'
-            )
+            hint = (f'<details class="hint"><summary>{label("talk_hint")}</summary>'
+                    f'<div class="details-body sides">'
+                    f'{"".join(render_side(s) for s in sides)}</div></details>')
         items.append(f'<li><p class="q">{bilingual(item.get("question", ""))}</p>{hint}</li>')
-
-    return (
-        f"<details open><summary>{label('talk')}</summary>"
-        f'<div class="details-body">'
-        f'<p class="talk-intro">{label("talk_intro")}</p>'
-        f'<ol class="debate">{"".join(items)}</ol>'
-        f"</div></details>"
-    )
+    return (f"<details open><summary>{label('talk')}</summary>"
+            f'<div class="details-body"><p class="talk-intro">{label("talk_intro")}</p>'
+            f'<ol class="debate">{"".join(items)}</ol></div></details>')
 
 
 def render_story(story: dict) -> str:
     cat = story.get("category", "")
     region = story.get("region", "GLOBAL")
+    versions = story.get("versions") or {}
 
-    why = ""
-    if story.get("why_it_matters"):
-        why = (f'<div class="why"><span class="label">{label("why")}</span>'
-               f'{bilingual(story["why_it_matters"])}</div>')
+    head_blocks, talk_blocks = [], []
+    for band in BANDS:
+        v = versions.get(band)
+        if not v:
+            continue
+        cls = band_class(band)
+        why = ""
+        if v.get("why_it_matters"):
+            why = (f'<div class="why"><span class="label">{label("why")}</span>'
+                   f'{bilingual(v["why_it_matters"])}</div>')
+        full = ""
+        if v.get("story"):
+            full = (f"<details><summary>{label('read_more')}</summary>"
+                    f'<div class="details-body story-body">'
+                    f'{bilingual_paragraphs(v["story"])}</div></details>')
+        head_blocks.append(
+            f'<div class="band {cls}">'
+            f'<h2>{bilingual(v.get("headline", ""))}</h2>'
+            f'<p class="hook">{bilingual(v.get("hook", ""))}</p>'
+            f'{why}{full}{render_words(v.get("word_bank") or [])}</div>')
+        talk_blocks.append(
+            f'<div class="band {cls}">{render_talk(v.get("talk_about_it"))}</div>')
 
     source = ""
     src = story.get("source") or {}
     src_url = safe_url(src.get("url"))
     if src_url:
-        source = (
-            f'<p class="source-line">{label("source")}: '
-            f'<a href="{src_url}" target="_blank" rel="noopener noreferrer">'
-            f'{e(src.get("title", src.get("publisher", "link")))}</a>'
-            f'{" — " + e(src["publisher"]) if src.get("publisher") else ""}</p>'
-        )
+        source = (f'<p class="source-line">{label("source")}: '
+                  f'<a href="{src_url}" target="_blank" rel="noopener noreferrer">'
+                  f'{e(src.get("title", src.get("publisher", "link")))}</a>'
+                  f'{" — " + e(src["publisher"]) if src.get("publisher") else ""}</p>')
 
-    full_story = ""
-    if story.get("story"):
-        full_story = (
-            f"<details><summary>{label('read_more')}</summary>"
-            f'<div class="details-body story-body">{bilingual_paragraphs(story["story"])}</div>'
-            f"</details>"
-        )
-
-    return f"""<article class="story {e(cat)}" data-beat="{e(cat)}" data-region="{e(region)}">
+    return f"""<article class="story {e(cat)}">
   <div class="story-top">
     <span class="rank">{e(story.get('rank', ''))}</span>
     <span class="chip">{cat_label(cat)}</span>
     <span class="chip region">{region_label(region)}</span>
   </div>
-  <h2>{bilingual(story.get('headline', ''))}</h2>
-  <p class="hook">{bilingual(story.get('hook', ''))}</p>
-  {why}
-  {full_story}
-  {render_words(story.get('word_bank') or [])}
+  {''.join(head_blocks)}
   {render_reads(story.get('background') or [], 'background')}
   {render_reads(story.get('further') or [], 'further')}
   {render_videos(story.get('videos') or [])}
-  {render_talk(story.get('talk_about_it'))}
+  {''.join(talk_blocks)}
   {source}
 </article>"""
 
@@ -364,43 +342,45 @@ FONTS = (
 )
 
 
-def description() -> str:
-    return CFG.slogan(CFG.primary_language)
-
-
-def settings_dialog(depth: int) -> str:
-    import setup_page
-    return setup_page.render_modal(depth)
-
-
 def page(title: str, body: str, depth: int = 0) -> str:
     prefix = "../" * depth
     return f"""<!doctype html>
-<html lang="{LANGS[0]}" data-lang="{LANGS[0]}">
+<html lang="{LANGS[0]}" data-lang="{LANGS[0]}" data-band="{CFG.band}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<meta name="description" content="{e(description())}">
+<meta name="description" content="{e(CFG.slogan(LANGS[0]))}">
 {FONTS}
 <link rel="stylesheet" href="{prefix}assets/styles.css">
-<style>{beat_css()}</style>
+<style>{generated_css()}</style>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
 <body>
-{gear_button()}
 <div class="wrap">
 {body}
 </div>
-{settings_dialog(depth)}
 <script src="{prefix}assets/app.js"></script>
 </body>
 </html>
 """
 
 
+def band_bar() -> str:
+    """The one control that changes the writing. It is on the page, not behind a
+    menu, because choosing the right reading level is the first thing a parent
+    needs to do and the only thing most of them will ever change."""
+    buttons = "".join(
+        f'<button type="button" data-band-set="{e(b)}" '
+        f'aria-pressed="{"true" if b == CFG.band else "false"}">'
+        f'{bilingual(appconfig.AGE_BANDS[b]["label"])}</button>'
+        for b in BANDS
+    )
+    return (f'<div class="bandbar"><span class="bandbar-label">{label("band_prompt")}</span>'
+            f'<div class="seg">{buttons}</div></div>')
+
+
 def lang_buttons() -> str:
-    """Only offered when more than one language is configured."""
     if len(LANGS) < 2:
         return ""
     return "".join(
@@ -412,15 +392,12 @@ def lang_buttons() -> str:
 
 def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=None) -> str:
     prefix = "../" * depth
-    home = f"{prefix}index.html"
-    archive = f"{prefix}archive.html"
+    home, archive = f"{prefix}index.html", f"{prefix}archive.html"
 
     dateline = ""
     if date_str:
-        dateline = (
-            f'<p class="dateline"><strong>{bilingual(pretty_date(date_str))}</strong>'
-            + (f"{bilingual(window_label)}" if window_label else "") + "</p>"
-        )
+        dateline = (f'<p class="dateline"><strong>{bilingual(pretty_date(date_str))}</strong>'
+                    + (f"{bilingual(window_label)}" if window_label else "") + "</p>")
 
     nav = ""
     if show_nav:
@@ -434,11 +411,8 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
 
     for_line = ""
     if CFG.child_name:
-        for_line = (
-            f'<p class="for-line">{label("made_for")} '
-            f'<strong>{e(CFG.child_name)}</strong>{label("made_for_suffix")}'
-            f' · {CFG.age}</p>'
-        )
+        for_line = (f'<p class="for-line">{label("made_for")} '
+                    f'<strong>{e(CFG.child_name)}</strong>{label("made_for_suffix")}</p>')
 
     return f"""<header class="masthead">
   <h1>{heading}</h1>
@@ -453,39 +427,14 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
 </header>"""
 
 
-def gear_button() -> str:
-    """Fixed top-right. Opens the same dialog the first visit shows."""
-    return (
-        '<button type="button" class="gear" data-open-settings '
-        f'aria-label="{LABELS["settings"]["en"]}" title="{LABELS["settings"]["en"]}">'
-        '<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" fill="none" '
-        'stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">'
-        '<circle cx="12" cy="12" r="3"/>'
-        '<path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 '
-        '1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 '
-        '19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 '
-        '.33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 '
-        '0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 '
-        '0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 '
-        '2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 '
-        '1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>'
-    )
-
-
-def no_match_notice() -> str:
-    """Shown when a visitor's filters hide every story on the page."""
-    return f'<p class="empty no-match" hidden>{label("no_match")}</p>'
-
-
 def footer(edition: dict | None, depth: int = 0) -> str:
     built = ""
     if edition and edition.get("generated_at"):
         built = (f'{bilingual(LABELS["built"])}: '
                  f'{bilingual(pretty_timestamp(edition["generated_at"]))} · ')
     setup = f'<a href="{"../" * depth}setup.html">{label("setup")}</a>'
-    return (
-        f'<footer class="foot">{built}{label("check_source")}<br>{setup}</footer>'
-    )
+    return (f'<footer class="foot"><p class="beats-note">{label("beats_note")}</p>'
+            f'{built}{label("check_source")}<br>{setup}</footer>')
 
 
 def render_edition_page(edition: dict, depth: int) -> str:
@@ -494,14 +443,19 @@ def render_edition_page(edition: dict, depth: int) -> str:
     poster = None
     if (OUT / "posters" / f"{date_str}-{LANGS[0]}.png").exists():
         poster = f'{"../" * depth}posters/{date_str}-{LANGS[0]}.png'
-    body = (
-        masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
-                 poster=poster)
-        + "\n".join(render_story(s) for s in stories)
-        + no_match_notice()
-        + footer(edition, depth)
-    )
+    body = (masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
+                     poster=poster)
+            + band_bar()
+            + "\n".join(render_story(s) for s in stories)
+            + footer(edition, depth))
     return page(f"{appconfig.APP_NAME['en']} — {date_str}", body, depth)
+
+
+def headline_of(story: dict) -> dict:
+    """An archive line needs one headline; use the default band's."""
+    versions = story.get("versions") or {}
+    v = versions.get(CFG.band) or next(iter(versions.values()), {})
+    return v.get("headline", {})
 
 
 def render_archive_page(editions: list) -> str:
@@ -515,15 +469,12 @@ def render_archive_page(editions: list) -> str:
                 rows.append(f'<li class="year-head">{e(year)}</li>')
                 current_year = year
             heads = "".join(
-                f'<li class="{e(s.get("category", ""))}">{bilingual(s.get("headline", ""))}</li>'
-                for s in sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99))
-            )
-            rows.append(
-                f'<li class="archive-item">'
-                f'<a class="date" href="editions/{e(ed["date"])}.html">'
-                f'{bilingual(pretty_date(ed["date"]))}</a>'
-                f'<ul class="heads">{heads}</ul></li>'
-            )
+                f'<li class="{e(s.get("category", ""))}">{bilingual(headline_of(s))}</li>'
+                for s in sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99)))
+            rows.append(f'<li class="archive-item">'
+                        f'<a class="date" href="editions/{e(ed["date"])}.html">'
+                        f'{bilingual(pretty_date(ed["date"]))}</a>'
+                        f'<ul class="heads">{heads}</ul></li>')
         items = f'<ul class="archive-list">{"".join(rows)}</ul>'
 
     body = (masthead(None, None, 0, True)
@@ -533,7 +484,6 @@ def render_archive_page(editions: list) -> str:
 
 
 def render_single_page(editions: list) -> str:
-    """One self-contained page: today, then every past edition collapsed."""
     css = (ASSETS_SRC / "styles.css").read_text(encoding="utf-8")
     js = (ASSETS_SRC / "app.js").read_text(encoding="utf-8")
 
@@ -544,51 +494,37 @@ def render_single_page(editions: list) -> str:
         latest = editions[0]
         head = masthead(latest.get("date"), (latest.get("window") or {}).get("label"),
                         0, False, show_nav=False)
-        content = "\n".join(
-            render_story(s)
-            for s in sorted(latest.get("stories", []), key=lambda s: s.get("rank", 99))
-        )
+        content = "\n".join(render_story(s) for s in
+                            sorted(latest.get("stories", []), key=lambda s: s.get("rank", 99)))
 
     blocks = []
     for ed in editions[1:]:
-        body = "\n".join(
-            render_story(s)
-            for s in sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99))
-        )
-        blocks.append(
-            f"<details><summary>{bilingual(pretty_date(ed['date']))}</summary>"
-            f'<div class="details-body">{body}</div></details>'
-        )
-    past = (
-        f'<h2 class="page-head">{label("archive_title")}</h2>'
-        f'<p class="talk-intro">{label("archive_intro")}</p>'
-        + ("".join(blocks) if blocks else f'<p class="empty">{label("archive_first")}</p>')
-    )
+        body = "\n".join(render_story(s) for s in
+                         sorted(ed.get("stories", []), key=lambda s: s.get("rank", 99)))
+        blocks.append(f"<details><summary>{bilingual(pretty_date(ed['date']))}</summary>"
+                      f'<div class="details-body">{body}</div></details>')
+    past = (f'<h2 class="page-head">{label("archive_title")}</h2>'
+            f'<p class="talk-intro">{label("archive_intro")}</p>'
+            + ("".join(blocks) if blocks else f'<p class="empty">{label("archive_first")}</p>'))
 
-    import setup_page
-    # The standalone build has no setup.html to link to, so the dialog's
-    # publishing section points at the repository instead.
-    dialog = setup_page.render_modal(0).replace(
-        'href="setup.html"',
-        'href="https://github.com/JinYEAH123/LucasDailyNews" target="_blank" rel="noopener"')
-
+    # The wrapper supplies <html>, so the band/lang defaults are set by script.
     return f"""<title>{e(appconfig.APP_NAME['en'])}</title>
-<meta name="description" content="{e(description())}">
+<meta name="description" content="{e(CFG.slogan(LANGS[0]))}">
 {FONTS}
 <style>
 {css}
-{beat_css()}
+{generated_css()}
 </style>
-{gear_button()}
 <div class="wrap">
 {head}
+{band_bar()}
 {content}
-{no_match_notice()}
 {past}
 {footer(editions[0] if editions else None)}
 </div>
-{dialog}
 <script>
+document.documentElement.setAttribute('data-lang', '{LANGS[0]}');
+document.documentElement.setAttribute('data-band', '{CFG.band}');
 {js}
 </script>
 """
@@ -619,15 +555,14 @@ def main() -> None:
     editions = load_editions()
 
     if args.single:
-        single_path = Path(args.single)
-        single_path.parent.mkdir(parents=True, exist_ok=True)
-        single_path.write_text(render_single_page(editions), encoding="utf-8")
-        print(f"Wrote self-contained page to {single_path}")
+        p = Path(args.single)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(render_single_page(editions), encoding="utf-8")
+        print(f"Wrote self-contained page to {p}")
 
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "editions").mkdir(parents=True, exist_ok=True)
     (OUT / "assets").mkdir(parents=True, exist_ok=True)
-
     for name in ("styles.css", "app.js"):
         shutil.copyfile(ASSETS_SRC / name, OUT / "assets" / name)
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
@@ -648,25 +583,15 @@ def main() -> None:
     import setup_page
     (OUT / "setup.html").write_text(setup_page.render(), encoding="utf-8")
 
-    (OUT / "index.json").write_text(
-        json.dumps({
-            "app": appconfig.APP_NAME["en"],
-            "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "settings": {"count": CFG.count, "age": CFG.age,
-                         "categories": CFG.categories, "regions": CFG.regions,
-                         "timezone": CFG.timezone, "hour": CFG.hour},
-            "editions": [
-                {"date": ed["date"], "url": f"editions/{ed['date']}.html",
-                 "headlines": [(s.get("headline") or {}).get(LANGS[0], "")
-                               for s in sorted(ed.get("stories", []),
-                                               key=lambda s: s.get("rank", 99))]}
-                for ed in editions
-            ],
-        }, ensure_ascii=False, indent=2), encoding="utf-8")
+    (OUT / "index.json").write_text(json.dumps({
+        "app": appconfig.APP_NAME["en"],
+        "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "bands": BANDS,
+        "editions": [{"date": ed["date"], "url": f"editions/{ed['date']}.html"}
+                     for ed in editions],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"Rendered {len(editions)} edition(s) into {OUT}")
-    if editions:
-        print(f"Latest: {editions[0]['date']}")
 
 
 if __name__ == "__main__":

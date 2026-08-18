@@ -67,13 +67,14 @@ def t(key: str, lang: str) -> str:
     return T[key][lang]
 
 
-def scan_sub(lang: str) -> str:
+def scan_sub(lang: str, band: str) -> str:
+    """The QR leads to the page, where all three reading levels are available."""
     if lang == "zh":
-        return (f"为{CFG.age}岁读者改写的完整正文、值得记住的词、背景阅读与延展阅读、"
-                "视频，以及上面每个问题正反两方的说法。")
-    return (f"The full rewrite for a {CFG.age}-year-old, words worth knowing, "
-            "background and further reading, videos — and the case for both sides "
-            "of every question above.")
+        return ("完整正文、值得记住的词、背景阅读与延展阅读、视频，"
+                "以及上面每个问题正反两方的说法。网页上还能切换其他年龄段。")
+    return ("The full rewrite, words worth knowing, background and further "
+            "reading, videos, and the case for both sides of every question "
+            "above — plus the other reading levels.")
 
 
 def app_title(lang: str) -> str:
@@ -84,13 +85,13 @@ def app_slogan(lang: str) -> str:
     return appconfig.SLOGAN.get(lang, appconfig.SLOGAN["en"])
 
 
-def footer_line(lang: str) -> str:
-    """Says when the next one lands and in which languages, from the settings."""
+def footer_line(lang: str, band: str) -> str:
+    """When the next one lands, and which reading level this image is."""
     zone = CFG.timezone.split("/")[-1].replace("_", " ")
-    langs = " / ".join(appconfig.LANGUAGES[l] for l in CFG.languages)
+    label = appconfig.band_label(band, lang)
     if lang == "zh":
-        return f"每天 {zone} 时间 {CFG.hour}:00 更新 · {langs}"
-    return f"Updated daily at {CFG.hour}:00 {zone} time · {langs}"
+        return f"每天 {zone} 时间 {CFG.hour}:00 更新 · 本图为{label}版"
+    return f"Updated daily at {CFG.hour}:00 {zone} time · {label} edition"
 
 
 def pick(value: object, lang: str) -> str:
@@ -122,13 +123,14 @@ def qr_svg(url: str) -> str:
 
 # --------------------------------------------------------------------------- html
 
-def story_block(story: dict, lang: str) -> str:
+def story_block(story: dict, lang: str, band: str) -> str:
+    v = (story.get("versions") or {}).get(band) or {}
     cat = story.get("category", "politics")
     accent, tint = BEAT.get(cat, BEAT["politics"])
     cat_name = e(appconfig.category_label(cat, lang))
     region = e(appconfig.region_label(story.get("region", "GLOBAL"), lang))
 
-    questions = story.get("talk_about_it")
+    questions = v.get("talk_about_it")
     talk = ""
     if isinstance(questions, list) and questions:
         rows = "".join(
@@ -148,13 +150,13 @@ def story_block(story: dict, lang: str) -> str:
     <span class="chip" style="color:{accent};background:{tint}">{cat_name}</span>
     <span class="chip region">{region}</span>
   </div>
-  <h2>{e(pick(story.get('headline'), lang))}</h2>
-  <p class="hook">{e(pick(story.get('hook'), lang))}</p>
+  <h2>{e(pick(v.get('headline'), lang))}</h2>
+  <p class="hook">{e(pick(v.get('hook'), lang))}</p>
   {talk}
 </article>"""
 
 
-def build_html(edition: dict, lang: str, site_url: str) -> str:
+def build_html(edition: dict, lang: str, site_url: str, band: str) -> str:
     date_str = edition["date"]
     pretty = e(pick(site.pretty_date(date_str), lang))
     window = e(pick((edition.get("window") or {}).get("label"), lang))
@@ -248,13 +250,13 @@ family=Noto+Sans+SC:wght@400;500;700&display=swap">
     <p class="date">{pretty}</p>
     <p class="window">{window}</p>
   </header>
-  {''.join(story_block(s, lang) for s in stories)}
+  {''.join(story_block(s, lang, band) for s in stories)}
   <div class="qr">
     <h3>{e(t('scan', lang))}</h3>
     <div class="panel">{qr_svg(target)}</div>
-    <p>{e(scan_sub(lang))}</p>
+    <p>{e(scan_sub(lang, band))}</p>
   </div>
-  <p class="foot">{e(footer_line(lang))}</p>
+  <p class="foot">{e(footer_line(lang, band))}</p>
 </div></body></html>"""
 
 
@@ -325,6 +327,8 @@ def main() -> None:
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
     ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language)
     ap.add_argument("--both", action="store_true", help="Render both languages.")
+    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=CFG.band,
+                    help="Which reading level the image uses.")
     ap.add_argument("--out-dir", default=str(POSTER_DIR))
     ap.add_argument("--keep-html", action="store_true", help="Keep the intermediate HTML.")
     args = ap.parse_args()
@@ -349,11 +353,16 @@ def main() -> None:
 
     for lang in (list(CFG.languages) if args.both else [args.lang]):
         out = out_dir / f"{edition['date']}-{lang}.png"
-        w, h = render_png(build_html(edition, lang, site_url), out, args.keep_html)
+        w, h = render_png(build_html(edition, lang, site_url, args.band), out, args.keep_html)
         size_kb = out.stat().st_size / 1024
         ratio = h / w
         qr_state = verify_qr(out, target)
-        print(f"{out.relative_to(ROOT)} — {w}×{h}px, {size_kb:.0f} KB, "
+        # --out-dir may point outside the repository, so relative_to can fail.
+        try:
+            shown = out.relative_to(ROOT)
+        except ValueError:
+            shown = out
+        print(f"{shown} — {w}×{h}px, {size_kb:.0f} KB, "
               f"ratio 1:{ratio:.1f}, QR {qr_state}")
         # WeChat crops very tall images hard in the feed thumbnail.
         if ratio > 6:

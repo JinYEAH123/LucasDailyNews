@@ -31,23 +31,20 @@ all open on a click.
 
 ## Settings
 
-Everything lives in one `config.toml`. Three ways to write it:
+Almost nothing is a setting. Three stories a day, drawn from politics, society,
+business, tech and science, centred on the US and China plus anything too big to
+belong to one country — that is the editorial line, and it is the same for
+everyone. Beats, regions and story count are deliberately not configurable.
 
-- open **`docs/setup.html`** in a browser and click through the form — it builds
-  the file for you and nothing is sent anywhere;
-- run **`python3 scripts/setup.py`** and answer the questions;
-- or edit **`config.example.toml`** by hand.
+What is configurable lives in one `config.toml`:
 
 ```toml
 [child]
 name = "Lucas"      # optional, shown as "made for ___"
-age  = 12           # 5-18
+age  = 12           # 5-18 — picks which reading level the page opens on
 
 [edition]
-count      = 3                    # 3-10 stories a day
-categories = ["politics", "society", "business", "tech"]
-regions    = ["US", "CN"]
-languages  = ["en", "zh"]
+languages = ["en", "zh"]
 
 [schedule]
 timezone = "America/Vancouver"    # any IANA zone
@@ -57,44 +54,23 @@ hour     = 17                     # 0-23, local
 url = "https://yourname.github.io/your-repo/"
 ```
 
-**Beats** — `politics` `society` `business` `tech` `science` `environment`
-`sports` `arts` `health` `education`. Each gets its own colour on the page, so a
-glance says what kind of news a card is.
+Three ways to write it: open **`docs/setup.html`** in a browser, run
+**`python3 scripts/setup.py`**, or edit **`config.example.toml`** by hand.
 
-**Regions** — `US` `CN` `CA` `EU` `JPKR` `ANZ` `SEA` `SASIA` `LATAM` `MEA`, or
-`GLOBAL` for all of them. News that is genuinely huge elsewhere — a major war
-development, a Nobel Prize, a large disaster — gets in regardless of this list.
+## Reading levels
 
-**Age** changes sentence length, how much gets explained, how many words go in
-the word bank, and how hard the questions are. It does **not** change how
-serious the news is allowed to be. A 7-year-old gets the Strait of Hormuz
-explained with a distance they can picture, not a story about puppies instead.
+Every edition is written three times — for **ages 6–11, 12–15 and 16+** — and all
+three ship in the same page. Switching between them is one attribute on the root
+element, so it is instant, works offline, and needs no server.
 
-**Count** stops at 10 on purpose. Past that it is no longer a digest.
+What changes between bands is sentence length, how much scaffolding a fact needs,
+how many words go in the word bank, and how hard the dinner questions are. What
+does **not** change is which stories are told or how serious they are allowed to
+be. A seven-year-old gets the Strait of Hormuz explained with a distance they can
+picture — not a story about puppies instead.
 
-**Schedule** takes any zone and any hour. Each edition covers the 24 hours
-ending at that moment, so pick a time you are usually together.
-
----
-
-## Settings a visitor can change
-
-The site is static: each edition is written once, server-side, at your chosen
-hour. So there are two kinds of setting and only one of them is a visitor's.
-
-**Reading preferences** — language, appearance, which beats and regions to show,
-how many stories — act on the page immediately. A settings dialog opens on a
-browser's first visit and afterwards lives behind the gear in the top right.
-Choices are stored per device in `localStorage`; a static page cannot see a
-visitor's IP address, so a second device asks again.
-
-**Publishing settings** — the child's age, how the news is written, how many
-stories are produced, what time the edition is built — are decided when the
-edition is generated. Those live in `config.toml` and take effect from the next
-edition, not the one already on screen. The dialog says so and links to the full
-form rather than offering controls that would appear to work.
-
----
+`[child] age` only decides which band the page opens on. Any reader can switch
+with the control at the top, and the choice is remembered on that device.
 
 ## Setting it up
 
@@ -135,10 +111,11 @@ turned on first, then <https://myaccount.google.com/apppasswords>.
 | `SMTP_FROM` | optional; defaults to `SMTP_USER` |
 | `NEWSLETTER_RECIPIENTS` | see below |
 
-Recipients are comma-separated, optionally with a language each:
+Recipients are comma-separated, optionally with a language and a reading level
+each — which is how one household sends different levels to different children:
 
 ```
-lucas@example.com:en, mum@example.com:zh, grandpa@example.com:zh
+lucas@example.com:en:12-15, mia@example.com:en:6-11, mum@example.com:zh
 ```
 
 Adding or removing a reader means editing that one secret. Addresses live in a
@@ -158,8 +135,8 @@ you do not have to wait until your chosen hour.
 config.toml
      │
      ▼
-generate_edition.py   two Claude passes: search the world's press, then
-     │                rewrite the top N for a child of the configured age
+generate_edition.py   research the world's press, record the three stories
+     │                and their links once, then write each reading level
      ▼
 data/editions/YYYY-MM-DD.json      ← the single source of truth
      │
@@ -234,8 +211,10 @@ re-run `render_site.py`. No API call needed.
 
 ### Cost
 
-Two Claude calls a day — one research, one rewrite. Roughly a dollar or so per
-edition at three stories, more as `count` and the number of beats grow.
+Five Claude calls a day: one research pass, one that records the chosen stories
+and their links, and one per reading level. Roughly $2–3 a day, so on the order
+of $60–90 a month. Writing three bands is most of that — a single-band build
+would be about a third.
 
 ---
 
@@ -247,10 +226,10 @@ config.example.toml       a commented starting point
 data/editions/            one JSON file per day, the source of truth
 data/sent.json            which days were emailed (dates and counts, no addresses)
 scripts/
-  appconfig.py            settings, beat and region catalogues, reading profiles
+  appconfig.py            settings, beat and region catalogues, age bands
   setup.py                interactive setup
   setup_page.py           builds the browser setup form
-  generate_edition.py     Claude API → edition JSON
+  generate_edition.py     Claude API → edition JSON (all three bands)
   render_site.py          JSON → docs/
   build_poster.py         JSON → share image with a verified QR code
   send_newsletter.py      JSON → email over SMTP
@@ -268,9 +247,9 @@ docs/                     generated; GitHub Pages serves this
 - **Check the sources.** The link rules make invented URLs unlikely, not
   impossible: a model can still cite a real page whose contents it has
   misremembered. Every story keeps its original link for exactly this reason.
-- **Adding a beat** means one entry in `CATEGORIES` in `scripts/appconfig.py` —
-  label, colours for both themes, and a one-line hint. Page CSS, the setup form,
-  the poster, and the email all pick it up.
+- **Adding a beat or a reading level** means one entry in `CATEGORIES` or
+  `AGE_BANDS` in `scripts/appconfig.py`. The page CSS, the band switcher, the
+  output schema, the poster and the email are all generated from those tables.
 - **The share image needs `[site] url` set**, or its QR code points nowhere.
 - The QR code is decoded back out of the finished PNG on every build and the
   build fails on a mismatch. A broken QR is invisible on review, so it is

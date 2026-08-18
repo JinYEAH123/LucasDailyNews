@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-lang="en">
+<html lang="en" data-lang="en" data-band="12-15">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,24 +16,14 @@
   --business: #8a5a0f; --business-tint: #f8f0e2;
   --tech: #4b3ba8; --tech-tint: #eeecfa;
   --science: #0f6a76; --science-tint: #e6f2f4;
-  --environment: #4a6b12; --environment-tint: #f0f4e4;
-  --sports: #b0511a; --sports-tint: #fceee5;
-  --arts: #9c2a7a; --arts-tint: #fbecf6;
-  --health: #1c5aa8; --health-tint: #e8f0fb;
-  --education: #6b4a1f; --education-tint: #f5efe6;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --politics: #f0899c; --politics-tint: #2a171c;
+  --politics: #f0899c; --politics-tint: #2a171c;
     --society: #5cc79b; --society-tint: #12251d;
     --business: #dfae5c; --business-tint: #262013;
     --tech: #a89bf7; --tech-tint: #1d1a2e;
     --science: #5ec4d2; --science-tint: #10262a;
-    --environment: #a8c766; --environment-tint: #1c2412;
-    --sports: #f5a173; --sports-tint: #2c1a11;
-    --arts: #ef8fd0; --arts-tint: #2a1526;
-    --health: #85b3f0; --health-tint: #131f2e;
-    --education: #d4b183; --education-tint: #241c12;
   }
 }
 :root[data-theme="dark"] {
@@ -42,11 +32,6 @@
   --business: #dfae5c; --business-tint: #262013;
   --tech: #a89bf7; --tech-tint: #1d1a2e;
   --science: #5ec4d2; --science-tint: #10262a;
-  --environment: #a8c766; --environment-tint: #1c2412;
-  --sports: #f5a173; --sports-tint: #2c1a11;
-  --arts: #ef8fd0; --arts-tint: #2a1526;
-  --health: #85b3f0; --health-tint: #131f2e;
-  --education: #d4b183; --education-tint: #241c12;
 }
 .story.politics { --accent: var(--politics); --accent-tint: var(--politics-tint); }
 .archive-item .heads li.politics::before { background: var(--politics); }
@@ -58,50 +43,36 @@
 .archive-item .heads li.tech::before { background: var(--tech); }
 .story.science { --accent: var(--science); --accent-tint: var(--science-tint); }
 .archive-item .heads li.science::before { background: var(--science); }
-.story.environment { --accent: var(--environment); --accent-tint: var(--environment-tint); }
-.archive-item .heads li.environment::before { background: var(--environment); }
-.story.sports { --accent: var(--sports); --accent-tint: var(--sports-tint); }
-.archive-item .heads li.sports::before { background: var(--sports); }
-.story.arts { --accent: var(--arts); --accent-tint: var(--arts-tint); }
-.archive-item .heads li.arts::before { background: var(--arts); }
-.story.health { --accent: var(--health); --accent-tint: var(--health-tint); }
-.archive-item .heads li.health::before { background: var(--health); }
-.story.education { --accent: var(--education); --accent-tint: var(--education-tint); }
-.archive-item .heads li.education::before { background: var(--education); }
+[data-band="6-11"] .band:not(.b-6-11) { display: none; }
+[data-band="12-15"] .band:not(.b-12-15) { display: none; }
+[data-band="16+"] .band:not(.b-16) { display: none; }
 
 .setup-section { margin: 2rem 0 0; }
 .setup-section > h2 {
   font-family: var(--display); font-weight: 600; font-size: 1.15rem;
   margin: 0 0 .2rem; letter-spacing: -.01em;
 }
-.setup-section > .note { margin: 0 0 .8rem; font-size: .87rem; color: var(--ink-faint); }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: .5rem; }
-.opt {
-  display: flex; gap: .6rem; align-items: flex-start; cursor: pointer;
-  border: 1px solid var(--rule); border-radius: 10px; padding: .65rem .75rem;
-  background: var(--card); transition: border-color .15s, background-color .15s;
-}
-.opt:hover { border-color: var(--ink-faint); }
-.opt input { margin: .25rem 0 0; accent-color: var(--dot, var(--chrome)); flex: none; }
-.opt:has(input:checked) { border-color: var(--dot, var(--chrome)); background: var(--tint, var(--card)); }
-.opt .name { font-weight: 600; font-size: .92rem; display: flex; align-items: center; gap: .45rem; }
-.opt .dot { width: .55rem; height: .55rem; border-radius: 50%; background: var(--dot); flex: none; }
-.opt .hint { display: block; font-size: .8rem; color: var(--ink-faint); margin-top: .15rem; }
-.row { display: flex; gap: .8rem; flex-wrap: wrap; align-items: flex-end; }
+.setup-section > .note { margin: 0 0 .9rem; font-size: .87rem; line-height: 1.6; color: var(--ink-faint); }
+.row { display: flex; gap: .9rem; flex-wrap: wrap; align-items: flex-end; }
 .field { display: flex; flex-direction: column; gap: .3rem; }
 .field label { font-size: .8rem; font-weight: 600; color: var(--ink-soft); }
 .field input, .field select {
   font: inherit; font-size: .95rem; padding: .45rem .6rem; border-radius: 8px;
   border: 1px solid var(--rule); background: var(--card); color: var(--ink);
 }
-.field input[type=text] { min-width: 15rem; }
-output.pill {
-  display: inline-block; font-weight: 700; color: var(--chrome);
-  font-variant-numeric: tabular-nums;
+.field input[type=text] { min-width: 16rem; }
+.field input[type=range] { min-width: 13rem; accent-color: var(--chrome); }
+output.pill { font-weight: 700; color: var(--chrome); font-variant-numeric: tabular-nums; }
+.opt {
+  display: inline-flex; gap: .5rem; align-items: center; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 10px; padding: .55rem .8rem;
+  background: var(--card); font-size: .92rem; font-weight: 600;
 }
+.opt:has(input:checked) { border-color: var(--chrome); }
+.opt input { accent-color: var(--chrome); }
 pre.out {
   background: var(--card); border: 1px solid var(--rule); border-radius: 12px;
-  padding: 1rem 1.1rem; overflow-x: auto; font-size: .84rem; line-height: 1.6;
+  padding: 1rem 1.1rem; overflow-x: auto; font-size: .82rem; line-height: 1.6;
   white-space: pre; margin: 0;
 }
 .outbar { display: flex; gap: .6rem; align-items: center; margin: 0 0 .6rem; flex-wrap: wrap; }
@@ -111,7 +82,11 @@ button.copy {
   color: var(--chrome-on); cursor: pointer;
 }
 .warn { color: var(--politics); font-size: .85rem; font-weight: 600; }
-.preview-note { font-size: .87rem; color: var(--ink-soft); margin: .5rem 0 0; }
+.preview-note { font-size: .87rem; color: var(--ink-soft); margin: .6rem 0 0; }
+.fixed-box {
+  border: 1px dashed var(--rule); border-radius: 12px; padding: .9rem 1.05rem;
+  font-size: .87rem; line-height: 1.65; color: var(--ink-soft);
+}
 </style>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
@@ -120,18 +95,18 @@ button.copy {
 <header class="masthead">
   <h1><span class="l-en">Daily News for Kids</span><span class="l-zh">少年每日新闻</span></h1>
   <p class="tagline"><span class="l-en">World news your child can actually read — and argue about.</span><span class="l-zh">孩子真正读得懂、还想争一争的每日世界新闻。</span></p>
-  <p class="for-line"><span class="l-en">Fill this in, copy the result into config.toml, and it becomes your child's paper.</span><span class="l-zh">填好这张表，把结果复制到 config.toml，它就变成你孩子的那份报纸。</span></p>
+  <p class="for-line"><span class="l-en">Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.</span><span class="l-zh">填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。</span></p>
   <div class="controls">
     <button type="button" data-lang-set="en" aria-pressed="true">English</button><button type="button" data-lang-set="zh" aria-pressed="false">中文</button>
     <button type="button" data-theme-toggle><span class="l-en">Light / Dark</span><span class="l-zh">浅色 / 深色</span></button>
-<a class="btn" href="index.html"><span class="l-en">Today</span><span class="l-zh">今日</span></a>
+    <a class="btn" href="index.html"><span class="l-en">Today</span><span class="l-zh">今日</span></a>
   </div>
 </header>
 
 <form id="f">
   <section class="setup-section">
     <h2><span class="l-en">Who is reading</span><span class="l-zh">谁在读</span></h2>
-    <p class="note"><span class="l-en">Age changes how the news is written — sentence length, how much gets explained, and how hard the dinner questions are. It never changes how serious the news is allowed to be.</span><span class="l-zh">年龄会改变新闻的写法——句子长短、要解释到什么程度、饭桌问题的难度。它不会改变新闻本身可以有多严肃。</span></p>
+    <p class="note"><span class="l-en">Every edition is written at all three reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.</span><span class="l-zh">每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。任何人都可以在页面上自己切换。</span></p>
     <div class="row">
       <div class="field">
         <label for="name"><span class="l-en">Child's name (optional)</span><span class="l-zh">孩子的名字（可留空）</span></label>
@@ -141,23 +116,14 @@ button.copy {
         <label for="age"><span class="l-en">Age</span><span class="l-zh">年龄</span> <output class="pill" id="ageOut">12</output></label>
         <input type="range" id="age" min="5" max="18" value="12">
       </div>
-      <div class="field">
-        <label for="count"><span class="l-en">Stories per day</span><span class="l-zh">每天几条</span> <output class="pill" id="countOut">3</output></label>
-        <input type="range" id="count" min="3" max="10" value="3">
-      </div>
     </div>
+    <p class="preview-note" id="bandPreview"></p>
   </section>
 
   <section class="setup-section">
-    <h2><span class="l-en">What to cover</span><span class="l-zh">覆盖哪些板块</span></h2>
-    <p class="note"><span class="l-en">Pick as many as you like. Each beat gets its own colour on the page, so a glance tells you what kind of news it is.</span><span class="l-zh">想选几个都可以。每个板块在页面上有自己的颜色，一眼就知道是哪类新闻。</span></p>
-    <div class="grid" id="cats"></div>
-  </section>
-
-  <section class="setup-section">
-    <h2><span class="l-en">Where in the world</span><span class="l-zh">关注哪些地区</span></h2>
-    <p class="note"><span class="l-en">Anything genuinely huge elsewhere still gets in — a major war development, a Nobel Prize, a large disaster. Ticking Global selects everything.</span><span class="l-zh">别处真正重大的事仍然会进来——重大战事、诺贝尔奖、大型灾害。勾选「全球」等于全选。</span></p>
-    <div class="grid" id="regions"></div>
+    <h2><span class="l-en">Languages</span><span class="l-zh">语言</span></h2>
+    <p class="note"><span class="l-en">Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.</span><span class="l-zh">两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。</span></p>
+    <div class="row" id="langs"></div>
   </section>
 
   <section class="setup-section">
@@ -177,12 +143,6 @@ button.copy {
   </section>
 
   <section class="setup-section">
-    <h2><span class="l-en">Languages</span><span class="l-zh">语言</span></h2>
-    <p class="note"><span class="l-en">Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.</span><span class="l-zh">两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。</span></p>
-    <div class="grid" id="langs"></div>
-  </section>
-
-  <section class="setup-section">
     <h2><span class="l-en">Where it will live</span><span class="l-zh">发布在哪里</span></h2>
     <p class="note"><span class="l-en">Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.</span><span class="l-zh">你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。</span></p>
     <div class="field">
@@ -194,7 +154,7 @@ button.copy {
 
 <section class="setup-section">
   <h2><span class="l-en">Your config.toml</span><span class="l-zh">你的 config.toml</span></h2>
-  <p class="note"><span class="l-en">Copy this into config.toml in the root of your repository, then run the workflow once to see the first edition.</span><span class="l-zh">把它复制进仓库根目录的 config.toml，然后手动跑一次工作流，就能看到第一期。</span></p>
+  <p class="note"><span class="l-en">Copy this into config.toml in the root of your repository and commit. The next edition follows it.</span><span class="l-zh">把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。</span></p>
   <div class="outbar">
     <button class="copy" type="button" id="copy"><span class="l-en">Copy</span><span class="l-zh">复制</span></button>
     <span id="status" class="preview-note"></span>
@@ -203,85 +163,43 @@ button.copy {
   <pre class="out" id="out"></pre>
 </section>
 
+<section class="setup-section">
+  <h2><span class="l-en">What is not a setting</span><span class="l-zh">哪些不是设置项</span></h2>
+  <p class="fixed-box"><span class="l-en">Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.</span><span class="l-zh">每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。</span></p>
+</section>
+
 <footer class="foot"><span class="l-en">Nothing here is sent anywhere — the page builds the text in your browser.</span><span class="l-zh">这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。</span></footer>
 </div>
 
 <script src="assets/app.js"></script>
 <script>
 (function () {
-  var CATS = {"politics": {"label": {"en": "Politics", "zh": "政治"}, "hint": {"en": "Governments, elections, laws, war and peace.", "zh": "政府、选举、法律、战争与和平。"}, "color": "#a4243b", "tint": "#fbeef0", "on": true}, "society": {"label": {"en": "Society", "zh": "社会"}, "hint": {"en": "How people live: cities, families, migration, justice.", "zh": "人怎么生活：城市、家庭、移民、公平。"}, "color": "#1a6b4a", "tint": "#eaf4ef", "on": true}, "business": {"label": {"en": "Business", "zh": "财经"}, "hint": {"en": "Money, jobs, companies, prices, trade.", "zh": "钱、工作、公司、物价、贸易。"}, "color": "#8a5a0f", "tint": "#f8f0e2", "on": true}, "tech": {"label": {"en": "Tech", "zh": "科技"}, "hint": {"en": "Computers, AI, phones, robots, the internet.", "zh": "电脑、人工智能、手机、机器人、互联网。"}, "color": "#4b3ba8", "tint": "#eeecfa", "on": true}, "science": {"label": {"en": "Science", "zh": "科学"}, "hint": {"en": "Discoveries, space, medicine, how things work.", "zh": "新发现、太空、医学、事物的原理。"}, "color": "#0f6a76", "tint": "#e6f2f4", "on": false}, "environment": {"label": {"en": "Environment", "zh": "环境"}, "hint": {"en": "Climate, animals, oceans, energy, weather.", "zh": "气候、动物、海洋、能源、天气。"}, "color": "#4a6b12", "tint": "#f0f4e4", "on": false}, "sports": {"label": {"en": "Sports", "zh": "体育"}, "hint": {"en": "Games, records, teams, the Olympics.", "zh": "比赛、纪录、球队、奥运会。"}, "color": "#b0511a", "tint": "#fceee5", "on": false}, "arts": {"label": {"en": "Arts & Culture", "zh": "艺术与文化"}, "hint": {"en": "Music, film, books, museums, design.", "zh": "音乐、电影、书、博物馆、设计。"}, "color": "#9c2a7a", "tint": "#fbecf6", "on": false}, "health": {"label": {"en": "Health", "zh": "健康"}, "hint": {"en": "Bodies, illness, food, sleep, sport science.", "zh": "身体、疾病、饮食、睡眠、运动科学。"}, "color": "#1c5aa8", "tint": "#e8f0fb", "on": false}, "education": {"label": {"en": "Education", "zh": "教育"}, "hint": {"en": "Schools, exams, universities, learning.", "zh": "学校、考试、大学、学习。"}, "color": "#6b4a1f", "tint": "#f5efe6", "on": false}};
-  var REGIONS = {"US": {"label": {"en": "United States", "zh": "美国"}, "on": true}, "CN": {"label": {"en": "China", "zh": "中国"}, "on": true}, "CA": {"label": {"en": "Canada", "zh": "加拿大"}, "on": false}, "EU": {"label": {"en": "Europe", "zh": "欧洲"}, "on": false}, "JPKR": {"label": {"en": "Japan & Korea", "zh": "日本与韩国"}, "on": false}, "ANZ": {"label": {"en": "Australia & NZ", "zh": "澳洲与新西兰"}, "on": false}, "SEA": {"label": {"en": "Southeast Asia", "zh": "东南亚"}, "on": false}, "SASIA": {"label": {"en": "South Asia", "zh": "南亚"}, "on": false}, "LATAM": {"label": {"en": "Latin America", "zh": "拉丁美洲"}, "on": false}, "MEA": {"label": {"en": "Middle East & Africa", "zh": "中东与非洲"}, "on": false}, "GLOBAL": {"label": {"en": "Global", "zh": "全球"}, "on": false}};
-  var LANGS = {"en": {"label": {"en": "English", "zh": "English"}, "on": true}, "zh": {"label": {"en": "中文", "zh": "中文"}, "on": true}};
-  var TEXT = {"intro": {"en": "Fill this in, copy the result into config.toml, and it becomes your child's paper.", "zh": "填好这张表，把结果复制到 config.toml，它就变成你孩子的那份报纸。"}, "h_child": {"en": "Who is reading", "zh": "谁在读"}, "n_child": {"en": "Age changes how the news is written — sentence length, how much gets explained, and how hard the dinner questions are. It never changes how serious the news is allowed to be.", "zh": "年龄会改变新闻的写法——句子长短、要解释到什么程度、饭桌问题的难度。它不会改变新闻本身可以有多严肃。"}, "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"}, "l_age": {"en": "Age", "zh": "年龄"}, "l_count": {"en": "Stories per day", "zh": "每天几条"}, "h_cats": {"en": "What to cover", "zh": "覆盖哪些板块"}, "n_cats": {"en": "Pick as many as you like. Each beat gets its own colour on the page, so a glance tells you what kind of news it is.", "zh": "想选几个都可以。每个板块在页面上有自己的颜色，一眼就知道是哪类新闻。"}, "h_regions": {"en": "Where in the world", "zh": "关注哪些地区"}, "n_regions": {"en": "Anything genuinely huge elsewhere still gets in — a major war development, a Nobel Prize, a large disaster. Ticking Global selects everything.", "zh": "别处真正重大的事仍然会进来——重大战事、诺贝尔奖、大型灾害。勾选「全球」等于全选。"}, "h_when": {"en": "When it arrives", "zh": "什么时候更新"}, "n_when": {"en": "Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.", "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，所以挑一个你们通常在一起的时间。"}, "l_tz": {"en": "Time zone", "zh": "时区"}, "l_hour": {"en": "Time of day", "zh": "更新时刻"}, "h_langs": {"en": "Languages", "zh": "语言"}, "n_langs": {"en": "Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.", "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。"}, "h_site": {"en": "Where it will live", "zh": "发布在哪里"}, "n_site": {"en": "Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.", "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。"}, "l_url": {"en": "Site address", "zh": "网站地址"}, "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"}, "n_out": {"en": "Copy this into config.toml in the root of your repository, then run the workflow once to see the first edition.", "zh": "把它复制进仓库根目录的 config.toml，然后手动跑一次工作流，就能看到第一期。"}, "b_copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "needCat": {"en": "Pick at least one beat.", "zh": "至少选一个板块。"}, "needRegion": {"en": "Pick at least one region.", "zh": "至少选一个地区。"}, "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"}, "whenPreview": {"en": "Each edition covers the 24 hours ending at {hour} in {tz}.", "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。"}, "foot": {"en": "Nothing here is sent anywhere — the page builds the text in your browser.", "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。"}, "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"}, "today": {"en": "Today", "zh": "今日"}};
+  var LANGS = [{"code": "en", "label": "English", "on": true}, {"code": "zh", "label": "中文", "on": true}];
+  var BANDS = [{"key": "6-11", "min": 5, "max": 11, "label": {"en": "Ages 6–11", "zh": "6–11 岁"}}, {"key": "12-15", "min": 12, "max": 15, "label": {"en": "Ages 12–15", "zh": "12–15 岁"}}, {"key": "16+", "min": 16, "max": 18, "label": {"en": "Ages 16+", "zh": "16 岁以上"}}];
+  var TEXT = {"intro": {"en": "Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.", "zh": "填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。"}, "h_child": {"en": "Who is reading", "zh": "谁在读"}, "n_child": {"en": "Every edition is written at all three reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.", "zh": "每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。任何人都可以在页面上自己切换。"}, "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"}, "l_age": {"en": "Age", "zh": "年龄"}, "band_is": {"en": "Opens on", "zh": "默认打开"}, "h_langs": {"en": "Languages", "zh": "语言"}, "n_langs": {"en": "Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.", "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。"}, "h_when": {"en": "When it arrives", "zh": "什么时候更新"}, "n_when": {"en": "Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.", "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，所以挑一个你们通常在一起的时间。"}, "l_tz": {"en": "Time zone", "zh": "时区"}, "l_hour": {"en": "Time of day", "zh": "更新时刻"}, "h_site": {"en": "Where it will live", "zh": "发布在哪里"}, "n_site": {"en": "Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.", "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。"}, "l_url": {"en": "Site address", "zh": "网站地址"}, "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"}, "n_out": {"en": "Copy this into config.toml in the root of your repository and commit. The next edition follows it.", "zh": "把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。"}, "b_copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"}, "whenPreview": {"en": "Each edition covers the 24 hours ending at {hour} in {tz}.", "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。"}, "fixed_h": {"en": "What is not a setting", "zh": "哪些不是设置项"}, "fixed_n": {"en": "Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.", "zh": "每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。"}, "foot": {"en": "Nothing here is sent anywhere — the page builds the text in your browser.", "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。"}, "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"}, "today": {"en": "Today", "zh": "今日"}};
   var lang = document.documentElement.getAttribute('data-lang') || 'en';
+  function tr(key) { var e = TEXT[key] || {}; return e[lang] || e.en || ''; }
 
-  function label(obj) { return obj[lang] || obj.en; }
-
-  function makeOption(container, kind, key, entry, checked) {
-    var id = kind + '-' + key;
+  var langBox = document.getElementById('langs');
+  var boxes = {};
+  LANGS.forEach(function (l) {
     var wrap = document.createElement('label');
     wrap.className = 'opt';
-    if (entry.color) { wrap.style.setProperty('--dot', entry.color); wrap.style.setProperty('--tint', entry.tint); }
-    var box = document.createElement('input');
-    box.type = 'checkbox'; box.id = id; box.value = key; box.checked = checked;
-    var text = document.createElement('span');
-    var name = document.createElement('span');
-    name.className = 'name';
-    if (entry.color) {
-      var dot = document.createElement('span');
-      dot.className = 'dot';
-      name.appendChild(dot);
-    }
-    name.appendChild(document.createTextNode(label(entry.label)));
-    text.appendChild(name);
-    if (entry.hint) {
-      var hint = document.createElement('span');
-      hint.className = 'hint';
-      hint.textContent = label(entry.hint);
-      text.appendChild(hint);
-    }
-    wrap.appendChild(box); wrap.appendChild(text);
-    container.appendChild(wrap);
-    return box;
-  }
-
-  var catBoxes = {}, regionBoxes = {}, langBoxes = {};
-  Object.keys(CATS).forEach(function (k) {
-    catBoxes[k] = makeOption(document.getElementById('cats'), 'c', k, CATS[k], CATS[k].on);
-  });
-  Object.keys(REGIONS).forEach(function (k) {
-    regionBoxes[k] = makeOption(document.getElementById('regions'), 'r', k, REGIONS[k], REGIONS[k].on);
-  });
-  Object.keys(LANGS).forEach(function (k) {
-    langBoxes[k] = makeOption(document.getElementById('langs'), 'l', k, LANGS[k], LANGS[k].on);
+    var input = document.createElement('input');
+    input.type = 'checkbox'; input.id = 'l-' + l.code; input.checked = l.on;
+    wrap.appendChild(input);
+    wrap.appendChild(document.createTextNode(l.label));
+    langBox.appendChild(wrap);
+    boxes[l.code] = input;
   });
 
-  // Ticking "Global" means everywhere, so it drives the rest of the boxes.
-  var globalBox = regionBoxes.GLOBAL;
-  if (globalBox) {
-    globalBox.addEventListener('change', function () {
-      Object.keys(regionBoxes).forEach(function (k) {
-        if (k !== 'GLOBAL') regionBoxes[k].checked = globalBox.checked;
-      });
-      render();
-    });
-    Object.keys(regionBoxes).forEach(function (k) {
-      if (k === 'GLOBAL') return;
-      regionBoxes[k].addEventListener('change', function () {
-        if (!regionBoxes[k].checked) globalBox.checked = false;
-        render();
-      });
-    });
-  }
-
-  // Time zones straight from the browser, defaulting to where the parent is.
   var tzSelect = document.getElementById('tz');
   var zones = [];
   try { zones = Intl.supportedValuesOf('timeZone'); } catch (e) { zones = []; }
   var here = "America/Vancouver";
   try { here = Intl.DateTimeFormat().resolvedOptions().timeZone || here; } catch (e) {}
-  if (!zones.length) zones = [here, 'America/Vancouver', 'America/New_York', 'America/Los_Angeles',
-    'Europe/London', 'Europe/Paris', 'Asia/Shanghai', 'Asia/Tokyo', 'Australia/Sydney'];
+  if (!zones.length) zones = [here, 'America/Vancouver', 'America/New_York',
+    'Europe/London', 'Asia/Shanghai', 'Asia/Tokyo', 'Australia/Sydney'];
   if (zones.indexOf(here) === -1) zones.unshift(here);
   zones.forEach(function (z) {
     var o = document.createElement('option');
@@ -299,43 +217,35 @@ button.copy {
     hourSelect.appendChild(o);
   }
 
-  function checkedKeys(boxes, skip) {
-    return Object.keys(boxes).filter(function (k) {
-      return boxes[k].checked && k !== skip;
-    });
-  }
-
-  function toml(list) {
-    return '[' + list.map(function (s) { return '"' + s + '"'; }).join(', ') + ']';
+  function bandFor(age) {
+    for (var i = 0; i < BANDS.length; i++) {
+      if (age >= BANDS[i].min && age <= BANDS[i].max) return BANDS[i];
+    }
+    return BANDS[BANDS.length - 1];
   }
 
   function render() {
     var name = document.getElementById('name').value.trim();
-    var age = document.getElementById('age').value;
-    var count = document.getElementById('count').value;
+    var age = Number(document.getElementById('age').value);
     document.getElementById('ageOut').textContent = age;
-    document.getElementById('countOut').textContent = count;
 
-    var cats = checkedKeys(catBoxes);
-    var regions = globalBox && globalBox.checked ? ['GLOBAL'] : checkedKeys(regionBoxes, 'GLOBAL');
-    var langs = checkedKeys(langBoxes);
-    var tz = tzSelect.value;
-    var hour = hourSelect.value;
-    var url = document.getElementById('url').value.trim();
+    var band = bandFor(age);
+    document.getElementById('bandPreview').textContent =
+      tr('band_is') + ': ' + (band.label[lang] || band.label.en);
+    // The band is derived from the age, never stored separately — one number,
+    // one source of truth, and no way for the two to disagree.
+    document.documentElement.setAttribute('data-band', band.key);
 
-    var problems = [];
-    if (!cats.length) problems.push(TEXT.needCat[lang] || TEXT.needCat.en);
-    if (!regions.length) problems.push(TEXT.needRegion[lang] || TEXT.needRegion.en);
-    if (!langs.length) problems.push(TEXT.needLang[lang] || TEXT.needLang.en);
-    document.getElementById('warn').textContent = problems.join(' · ');
+    var langs = LANGS.map(function (l) { return l.code; })
+                     .filter(function (c) { return boxes[c].checked; });
+    document.getElementById('warn').textContent = langs.length ? '' : tr('needLang');
 
-    var start = (Number(hour) + 24 - 24) % 24;
-    var pv = (TEXT.whenPreview[lang] || TEXT.whenPreview.en)
+    var tz = tzSelect.value, hour = hourSelect.value;
+    document.getElementById('whenPreview').textContent = tr('whenPreview')
       .replace('{hour}', (hour < 10 ? '0' + hour : hour) + ':00')
       .replace('{tz}', tz);
-    document.getElementById('whenPreview').textContent = pv;
 
-    var lines = [
+    document.getElementById('out').textContent = [
       '# Daily News for Kids — generated by the setup form.',
       '# Save this as config.toml in the root of your repository.',
       '',
@@ -344,20 +254,16 @@ button.copy {
       'age = ' + age,
       '',
       '[edition]',
-      'count = ' + count,
-      'categories = ' + toml(cats),
-      'regions = ' + toml(regions),
-      'languages = ' + toml(langs),
+      'languages = [' + langs.map(function (c) { return '"' + c + '"'; }).join(', ') + ']',
       '',
       '[schedule]',
       'timezone = "' + tz + '"',
       'hour = ' + hour,
       '',
       '[site]',
-      'url = "' + url.replace(/"/g, '') + '"',
+      'url = "' + document.getElementById('url').value.trim().replace(/"/g, '') + '"',
       ''
-    ];
-    document.getElementById('out').textContent = lines.join('\n');
+    ].join('\n');
   }
 
   document.getElementById('f').addEventListener('input', render);
@@ -373,12 +279,11 @@ button.copy {
     var text = document.getElementById('out').textContent;
     var done = function () {
       var s = document.getElementById('status');
-      s.textContent = TEXT.copied[lang] || TEXT.copied.en;
-      setTimeout(function () { s.textContent = ''; }, 2500);
+      s.textContent = tr('copied');
+      setTimeout(function () { s.textContent = ''; }, 2400);
     };
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text).then(done, done);
-    } else {
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done);
+    else {
       var ta = document.createElement('textarea');
       ta.value = text; document.body.appendChild(ta); ta.select();
       try { document.execCommand('copy'); } catch (e) {}

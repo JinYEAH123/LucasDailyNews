@@ -1,19 +1,20 @@
 #!/usr/bin/env python3
 """Generate one edition of Daily News for Kids into data/editions/<date>.json.
 
-Everything editorial — how many stories, which beats, which parts of the world,
-how the writing is pitched — comes from config.toml, so the same code serves a
-7-year-old who wants sports and space and a 16-year-old who wants markets.
+Three stories a day, from five beats, centred on the US and China. None of that
+is configurable — it is the editorial line. What is generated three times is the
+writing: every story is rewritten for ages 6-11, 12-15 and 16+.
 
-Two passes against the Claude API:
+The run is deliberately split into small passes:
 
-  1. Research  — Claude uses the server-side web_search tool to read what the
-                 world's outlets published inside the edition window.
-  2. Rewrite   — the brief becomes strict JSON matching a schema built from the
-                 family's settings, rewritten for a child of the configured age.
-
-Splitting the passes keeps the searching turn free to run long (and to be
-resumed after `pause_turn`) while the JSON turn stays deterministic.
+  1. Research   — the web_search tool reads what the world published in the
+                  window and produces a brief.
+  2. Skeleton   — the three chosen stories, with their beats, regions and links.
+                  Emitted once, so the URLs cannot drift between age bands and
+                  the model is never asked to reproduce an address from memory.
+  3. Per band   — the reader-facing writing for one band at a time. Three small
+                  calls beat one enormous one: each is far from the token
+                  ceiling, and a failure costs one band rather than the day.
 
 Usage:
     python3 scripts/generate_edition.py                 # current window
@@ -29,7 +30,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime, timedelta, time as dtime
+from datetime import datetime
 from pathlib import Path
 
 import anthropic
@@ -40,125 +41,60 @@ ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 
 MODEL = "claude-opus-5"
+N = appconfig.STORIES_PER_DAY
 
 
-# --------------------------------------------------------------------------- schema
+# --------------------------------------------------------------------------- schemas
 
-def build_schema(cfg: appconfig.Config) -> dict:
-    """Build the output schema from the family's settings.
+def _pair(langs: list, desc: str) -> dict:
+    return {
+        "type": "object", "description": desc,
+        "properties": {l: {"type": "string"} for l in langs},
+        "required": list(langs), "additionalProperties": False,
+    }
 
-    Only the configured languages are required, so a single-language family is
-    not billed for a translation nobody reads.
-    """
+
+def _pair_list(langs: list, desc: str) -> dict:
+    return {
+        "type": "object", "description": desc,
+        "properties": {l: {"type": "array", "items": {"type": "string"}} for l in langs},
+        "required": list(langs), "additionalProperties": False,
+    }
+
+
+def skeleton_schema(cfg) -> dict:
+    """Pass 2: the facts and links, emitted once for all three bands."""
     langs = cfg.languages
-
-    def pair(desc: str) -> dict:
-        return {
-            "type": "object",
-            "description": desc,
-            "properties": {l: {"type": "string"} for l in langs},
-            "required": list(langs),
-            "additionalProperties": False,
-        }
-
-    def pair_list(desc: str) -> dict:
-        return {
-            "type": "object",
-            "description": desc,
-            "properties": {
-                l: {"type": "array", "items": {"type": "string"}} for l in langs
-            },
-            "required": list(langs),
-            "additionalProperties": False,
-        }
-
     reading_item = {
         "type": "object",
         "properties": {
-            "title": pair("Headline of the linked article."),
-            "summary": pair("Two sentences on what this adds and why they might click."),
+            "title": _pair(langs, "Headline of the linked article."),
+            "summary": _pair(langs, "Two sentences on what this adds and why to click."),
             "publisher": {"type": "string"},
             "url": {"type": "string", "description": "Real URL from search results."},
         },
         "required": ["title", "summary", "publisher", "url"],
         "additionalProperties": False,
     }
-
-    profile = cfg.profile
-
     return {
         "type": "object",
         "properties": {
             "stories": {
-                "type": "array",
-                "minItems": cfg.count,
-                "maxItems": cfg.count,
+                "type": "array", "minItems": N, "maxItems": N,
                 "items": {
                     "type": "object",
                     "properties": {
                         "rank": {"type": "integer", "description": "1 is most important."},
-                        "category": {"type": "string", "enum": list(cfg.categories)},
-                        "region": {
-                            "type": "string",
-                            "enum": list(cfg.regions) + ["GLOBAL"],
-                        },
-                        "headline": pair("A headline that makes them want to click."),
-                        "hook": pair("2-4 sentences: what happened, plainly. The teaser."),
-                        "story": pair_list(
-                            f"{profile['paragraphs']} rewriting the adult reporting. "
-                            f"{profile['sentences']}"
-                        ),
-                        "why_it_matters": pair(
-                            "2-3 sentences connecting the story to this child's own life."
-                        ),
-                        "talk_about_it": {
-                            "type": "array",
-                            "minItems": 3,
-                            "maxItems": 3,
-                            "description": "The thinking exercise. See EDITORIAL_POLICY.",
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "question": pair(
-                                        "An open question answerable either way. "
-                                        "Never a fact lookup."
-                                    ),
-                                    "sides": {
-                                        "type": "array",
-                                        "minItems": 2,
-                                        "maxItems": 2,
-                                        "items": {
-                                            "type": "object",
-                                            "properties": {
-                                                "label": pair("Short name for this position."),
-                                                "points": pair_list(
-                                                    "The 3 strongest arguments for it, "
-                                                    "one sentence each."
-                                                ),
-                                            },
-                                            "required": ["label", "points"],
-                                            "additionalProperties": False,
-                                        },
-                                    },
-                                },
-                                "required": ["question", "sides"],
-                                "additionalProperties": False,
-                            },
-                        },
-                        "word_bank": {
-                            "type": "array",
-                            "minItems": max(1, profile["words"] - 1),
-                            "maxItems": profile["words"] + 1,
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "term": pair("The term as it appears in the news."),
-                                    "def": pair("One clear sentence at this reading level."),
-                                },
-                                "required": ["term", "def"],
-                                "additionalProperties": False,
-                            },
-                        },
+                        "slug": {"type": "string",
+                                 "description": "A few words identifying this story, "
+                                                "used to match the writing to it."},
+                        "category": {"type": "string", "enum": list(appconfig.CATEGORIES)},
+                        "region": {"type": "string", "enum": list(appconfig.REGIONS)},
+                        "facts": {"type": "string",
+                                  "description": "The story in 4-6 plain sentences for an "
+                                                 "adult: what happened, the numbers, the "
+                                                 "names, and what is disputed. This is the "
+                                                 "source material each band is written from."},
                         "source": {
                             "type": "object",
                             "properties": {
@@ -169,16 +105,10 @@ def build_schema(cfg: appconfig.Config) -> dict:
                             "required": ["title", "publisher", "url"],
                             "additionalProperties": False,
                         },
-                        "background": {
-                            "type": "array", "minItems": 1, "maxItems": 3,
-                            "items": reading_item,
-                            "description": "Explainers for someone new to the backstory.",
-                        },
-                        "further": {
-                            "type": "array", "minItems": 1, "maxItems": 3,
-                            "items": reading_item,
-                            "description": "Where to go once the basics are clear.",
-                        },
+                        "background": {"type": "array", "minItems": 1, "maxItems": 3,
+                                       "items": reading_item},
+                        "further": {"type": "array", "minItems": 1, "maxItems": 3,
+                                    "items": reading_item},
                         "videos": {
                             "type": "array", "maxItems": 2,
                             "items": {
@@ -187,7 +117,7 @@ def build_schema(cfg: appconfig.Config) -> dict:
                                     "title": {"type": "string"},
                                     "channel": {"type": "string"},
                                     "url": {"type": "string"},
-                                    "summary": pair("One sentence on what it shows."),
+                                    "summary": _pair(langs, "One sentence on what it shows."),
                                 },
                                 "required": ["title", "channel", "url", "summary"],
                                 "additionalProperties": False,
@@ -195,11 +125,80 @@ def build_schema(cfg: appconfig.Config) -> dict:
                             "description": "Leave empty rather than guessing a URL.",
                         },
                     },
-                    "required": [
-                        "rank", "category", "region", "headline", "hook", "story",
-                        "why_it_matters", "talk_about_it", "word_bank", "source",
-                        "background", "further", "videos",
-                    ],
+                    "required": ["rank", "slug", "category", "region", "facts",
+                                 "source", "background", "further", "videos"],
+                    "additionalProperties": False,
+                },
+            }
+        },
+        "required": ["stories"],
+        "additionalProperties": False,
+    }
+
+
+def band_schema(cfg, band_key: str) -> dict:
+    """Pass 3: the reader-facing writing for one age band."""
+    langs = cfg.languages
+    band = appconfig.AGE_BANDS[band_key]
+    return {
+        "type": "object",
+        "properties": {
+            "stories": {
+                "type": "array", "minItems": N, "maxItems": N,
+                "description": "In the same order as the skeleton.",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "slug": {"type": "string", "description": "Matching the skeleton."},
+                        "headline": _pair(langs, "A headline that makes them want to read."),
+                        "hook": _pair(langs, "2-4 sentences: what happened, plainly."),
+                        "story": _pair_list(
+                            langs, f"{band['paragraphs']}. {band['sentences']}"),
+                        "why_it_matters": _pair(
+                            langs, "2-3 sentences connecting it to this reader's own life."),
+                        "word_bank": {
+                            "type": "array",
+                            "minItems": max(1, band["words"] - 1),
+                            "maxItems": band["words"] + 1,
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "term": _pair(langs, "The term as the news uses it."),
+                                    "def": _pair(langs, "One clear sentence at this level."),
+                                },
+                                "required": ["term", "def"],
+                                "additionalProperties": False,
+                            },
+                        },
+                        "talk_about_it": {
+                            "type": "array", "minItems": 3, "maxItems": 3,
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "question": _pair(
+                                        langs, "An open question answerable either way."),
+                                    "sides": {
+                                        "type": "array", "minItems": 2, "maxItems": 2,
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "label": _pair(langs, "Short name for this position."),
+                                                "points": _pair_list(
+                                                    langs, "Its 3 strongest arguments, "
+                                                           "one sentence each."),
+                                            },
+                                            "required": ["label", "points"],
+                                            "additionalProperties": False,
+                                        },
+                                    },
+                                },
+                                "required": ["question", "sides"],
+                                "additionalProperties": False,
+                            },
+                        },
+                    },
+                    "required": ["slug", "headline", "hook", "story", "why_it_matters",
+                                 "word_bank", "talk_about_it"],
                     "additionalProperties": False,
                 },
             }
@@ -211,132 +210,109 @@ def build_schema(cfg: appconfig.Config) -> dict:
 
 # --------------------------------------------------------------------------- prompts
 
-def editorial_policy(cfg: appconfig.Config) -> str:
-    p = cfg.profile
-    beats = ", ".join(
-        f"{k} ({cfg.label('category', k, 'en')})" for k in cfg.categories
-    )
-    places = ", ".join(cfg.label("region", r, "en") for r in cfg.regions)
-    who = f"a {cfg.age}-year-old" + (f" named {cfg.child_name}" if cfg.child_name else "")
+def base_policy(cfg) -> str:
+    beats = ", ".join(f"{appconfig.category_label(k, 'en')}" for k in appconfig.CATEGORIES)
     langs = " and ".join(appconfig.LANGUAGES[l] for l in cfg.languages)
-    spread = min(len(cfg.categories), cfg.count)
-
     return f"""\
-You edit a daily news page read by {who} and their parents, usually together.
-It is written in {langs}.
+You edit a daily news page for children, read with their parents. It is written
+in {langs}.
 
-SELECTION — pick exactly {cfg.count} stories from the window, ranked by importance:
-- Draw them only from these beats: {beats}.
-- Focus on these parts of the world: {places}. Cover somewhere else only when
-  the event is big enough to lead world coverage anywhere — a major war
-  development, a Nobel Prize, a large disaster, a papal election.
-- Spread the {cfg.count} across at least {spread} different beats when the
-  importance ranking allows it. Never fill a slot with a weak story just to
-  reach a beat; a genuinely important story outranks variety.
+SELECTION — exactly {N} stories from the window, ranked by importance:
+- Beats: {beats}. Nothing else.
+- Centre of gravity: the United States and China. Anywhere else only when the
+  event is big enough to lead world coverage anywhere — a major war development,
+  a Nobel Prize, a large disaster, a papal election. Tag those GLOBAL.
+- Prefer {N} different beats when the importance ranking allows it, but never
+  fill a slot with a weak story to reach a beat.
 - Importance means consequence, not drama: how many people it affects, how long
-  the effects last, whether it changes something structural. Celebrity gossip is
-  not a top story. Crime and gore are not top stories.
-- Do not pick several stories that are really the same story.
-
-WRITING — for a reader of {cfg.age}:
-- {p['voice']}
-- {p['sentences']}
-- Lead with the concrete thing that happened, never with abstraction.
-- Explain every piece of jargon the first time. Use comparisons they can
-  picture, and prefer ones from their own life over abstract scale.
-- Respect them. Do not moralise, do not talk down, do not add fake excitement.
-  Real stakes are more interesting than exclamation marks.
-- Where adults disagree about what a fact means, say so and give both readings.
-  Never present a contested claim as settled.
-- Keep every language natural in its own right — a fluent rewrite, never a
-  word-by-word translation of the English.
-
-THE THINKING EXERCISE — three dinner-table questions per story, each with the
-case for both sides. This is the part of the page that matters most, so treat it
-as the hardest thing you write:
-- A question qualifies only if a thoughtful, well-informed adult could genuinely
-  land on either side. If looking something up settles it, it is a quiz question
-  and belongs nowhere on this page.
-- {p['questions']}
-- Argue both sides at full strength. Give each its best three arguments, not two
-  good ones and a weak one you plan to knock down. If one side comes out flimsy,
-  either the question is bad or you are not arguing it honestly — fix the
-  question rather than shading the answer.
-- Never signal which side you favour: not in the order, not in the labels, not
-  by giving one side more or better-written points.
-- Where a side's strongest argument is uncomfortable, make it anyway. A
-  sanitised case is a dishonest one.
-
-LINKS — background reading (start here if you're new to this) and further
-reading (go deeper), each a title plus a short summary so they can decide before
-clicking. Prefer outlets with different viewpoints. Add a YouTube video only if
-the search results actually surfaced a real one.
+  the effects last, whether something structural changed. Celebrity gossip is not
+  a top story. Crime and gore are not top stories.
+- Never pick several stories that are really the same story.
 
 Every URL you output must be one you saw in a search result during research.
 Never construct, guess, or repair a URL. An empty list beats an invented link.\
 """
 
 
-def research_prompt(cfg: appconfig.Config, start: datetime, end: datetime, date_str: str) -> str:
-    beats = ", ".join(cfg.label("category", k, "en") for k in cfg.categories)
-    places = ", ".join(cfg.label("region", r, "en") for r in cfg.regions)
-    shortlist = cfg.count * 2 + 2
+def writing_policy(cfg, band_key: str) -> str:
+    band = appconfig.AGE_BANDS[band_key]
+    return base_policy(cfg) + f"""
 
+WRITING — this pass is for readers aged {band_key}:
+- {band['voice']}
+- {band['sentences']}
+- Lead with the concrete thing that happened, never with abstraction.
+- Explain every piece of jargon the first time. Use comparisons the reader can
+  picture, drawn from their own life rather than from abstract scale.
+- Respect them. Do not moralise, do not talk down, do not add fake excitement.
+  Real stakes are more interesting than exclamation marks.
+- Where adults disagree about what a fact means, say so and give both readings.
+- Keep every language natural in its own right — a fluent rewrite, never a
+  word-by-word translation.
+- The same three stories are being written for two other age bands. Do not
+  soften which story is being told; change only how it is explained.
+
+THE THINKING EXERCISE — three dinner-table questions per story, each with the
+case for both sides. Treat it as the hardest thing you write:
+- A question qualifies only if a thoughtful, well-informed adult could genuinely
+  land on either side. If looking something up settles it, it is a quiz question.
+- {band['questions']}
+- Argue both sides at full strength — each gets its best three arguments, never
+  two good ones and a weak one set up to be knocked down.
+- Never signal which side you favour: not in the order, not in the labels, not
+  by giving one side more or better-written points.
+- Where a side's strongest argument is uncomfortable, make it anyway."""
+
+
+def research_prompt(cfg, start, end, date_str: str) -> str:
+    beats = ", ".join(appconfig.category_label(k, "en") for k in appconfig.CATEGORIES)
     return f"""\
 Today is {date_str}. Research the news for the edition covering:
 
   {start:%A %B %d, %Y at %-I:%M %p} to {end:%A %B %d, %Y at %-I:%M %p} ({cfg.timezone})
 
-Search widely across major outlets — wire services, national papers, and
-specialist press — for what was actually published in that window.
-Cover these beats: {beats}.
-Centre of gravity: {places}.
+Search widely across major outlets — wire services, national papers, specialist
+press — for what was actually published in that window. Beats: {beats}. Centre of
+gravity: the United States and China.
 
-Then write a research brief containing:
+Write a research brief containing:
 
-1. A ranked shortlist of about {shortlist} candidate stories. For each: what
-   happened, the specific numbers and names, why it might matter, its beat, and
-   its region.
-2. Your pick of the top {cfg.count}, a sentence explaining each choice, and a
-   sentence on what you left out and why.
-3. For each pick: the main source URL, 2-3 candidate background/further reading
-   URLs from different outlets, and any real YouTube explainer you found.
+1. A ranked shortlist of about {N * 2 + 2} candidates. For each: what happened,
+   the specific numbers and names, why it matters, its beat, its region.
+2. Your top {N}, a sentence on each choice, and a sentence on what you left out.
+3. For each pick: the main source URL, 2-3 background/further reading URLs from
+   different outlets, and any real YouTube explainer you found.
 
 Paste URLs exactly as they appeared in search results. Note anything disputed or
-still unconfirmed — that matters more than completeness."""
+unconfirmed — that matters more than completeness."""
 
 
-def rewrite_prompt(cfg: appconfig.Config, brief: str, start: datetime, end: datetime) -> str:
+def skeleton_prompt(brief: str) -> str:
     return f"""\
-Here is today's research brief for the window {start:%b %d %-I:%M %p} –
-{end:%b %d %-I:%M %p} ({cfg.timezone}).
-
 <brief>
 {brief}
 </brief>
 
-Turn the top {cfg.count} into the edition JSON. Rank 1 is the most important.
+Emit the {N} chosen stories as JSON: rank, a short slug, beat, region, the links,
+and a plain adult-level `facts` paragraph for each. The facts field is the source
+material three separate age-band rewrites will each work from, so it must contain
+every number, name and disputed point they might need.
+
 Use only URLs that appear in the brief."""
 
 
-# --------------------------------------------------------------------------- window
+def band_prompt(skeleton: dict, band_key: str) -> str:
+    listing = "\n\n".join(
+        f"{s['rank']}. slug: {s['slug']}  [{s['category']} · {s['region']}]\n{s['facts']}"
+        for s in skeleton["stories"]
+    )
+    return f"""\
+Write these {N} stories for readers aged {band_key}. Keep the same order and
+reuse each slug exactly.
 
-def resolve_window(cfg: appconfig.Config, date_str: str | None,
-                   now: datetime | None = None) -> tuple:
-    """Return (edition_date, window_start, window_end) in the family's zone.
+{listing}
 
-    The edition dated D covers D-1 at the cutoff hour through D at the cutoff
-    hour. Before the cutoff, the newest complete edition is still yesterday's.
-    """
-    tz = cfg.tz
-    if date_str:
-        day = datetime.strptime(date_str, "%Y-%m-%d").date()
-    else:
-        now = now or datetime.now(tz)
-        day = now.date() if now.hour >= cfg.hour else (now - timedelta(days=1)).date()
-
-    end = datetime.combine(day, dtime(cfg.hour, 0), tzinfo=tz)
-    return day.isoformat(), end - timedelta(days=1), end
+Do not add links — those are already recorded. Write only the reader-facing text."""
 
 
 # --------------------------------------------------------------------------- api
@@ -345,93 +321,95 @@ def _text_of(message) -> str:
     return "\n".join(b.text for b in message.content if b.type == "text").strip()
 
 
+def _guard(message, what: str):
+    if message.stop_reason == "refusal":
+        detail = getattr(message.stop_details, "explanation", "") or ""
+        raise SystemExit(f"{what} was declined: {detail}")
+    return message
+
+
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
-    """Pass 1 — search the web and return the brief. Resumes across pause_turn."""
     messages = [{"role": "user", "content": prompt}]
-    tools = [{"type": "web_search_20260209", "name": "web_search",
-              "max_uses": min(40, 10 + cfg.count * 4)}]
+    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
 
     for attempt in range(max_restarts + 1):
         with client.messages.stream(
-            model=MODEL,
-            max_tokens=32000,
-            system=editorial_policy(cfg),
-            thinking={"type": "adaptive"},
-            output_config={"effort": "high"},
-            tools=tools,
-            messages=messages,
+            model=MODEL, max_tokens=32000, system=base_policy(cfg),
+            thinking={"type": "adaptive"}, output_config={"effort": "high"},
+            tools=tools, messages=messages,
         ) as stream:
-            message = stream.get_final_message()
-
-        if message.stop_reason == "refusal":
-            detail = getattr(message.stop_details, "explanation", "") or ""
-            raise SystemExit(f"Research turn was declined: {detail}")
+            message = _guard(stream.get_final_message(), "Research")
 
         if message.stop_reason != "pause_turn":
             brief = _text_of(message)
             if not brief:
-                raise SystemExit("Research turn produced no text.")
+                raise SystemExit("Research produced no text.")
             return brief
 
         messages.append({"role": "assistant", "content": message.content})
         print(f"  research paused, resuming ({attempt + 1}/{max_restarts})", file=sys.stderr)
 
-    raise SystemExit("Research turn never finished — still paused after max restarts.")
+    raise SystemExit("Research never finished — still paused after max restarts.")
 
 
-def rewrite(client, cfg, prompt: str) -> dict:
-    """Pass 2 — turn the brief into schema-valid JSON. No tools, so no pause_turn."""
+def structured(client, cfg, system: str, prompt: str, schema: dict, what: str) -> dict:
     with client.messages.stream(
-        model=MODEL,
-        max_tokens=64000,
-        system=editorial_policy(cfg),
+        model=MODEL, max_tokens=32000, system=system,
         thinking={"type": "adaptive"},
-        output_config={
-            "effort": "high",
-            "format": {"type": "json_schema", "schema": build_schema(cfg)},
-        },
+        output_config={"effort": "high",
+                       "format": {"type": "json_schema", "schema": schema}},
         messages=[{"role": "user", "content": prompt}],
     ) as stream:
-        message = stream.get_final_message()
-
-    if message.stop_reason == "refusal":
-        detail = getattr(message.stop_details, "explanation", "") or ""
-        raise SystemExit(f"Rewrite turn was declined: {detail}")
-
+        message = _guard(stream.get_final_message(), what)
     return json.loads(_text_of(message))
 
 
-# --------------------------------------------------------------------------- main
+# --------------------------------------------------------------------------- assembly
 
-def window_label(cfg: appconfig.Config, start: datetime, end: datetime) -> dict:
-    labels = {}
-    if "en" in cfg.languages:
-        labels["en"] = (f"News from {start:%A} {start:%-I:%M %p} to "
-                        f"{end:%A} {end:%-I:%M %p}, {cfg.timezone.split('/')[-1].replace('_', ' ')} time")
-    if "zh" in cfg.languages:
-        labels["zh"] = f"当地时间 {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
-    return labels
+PER_BAND = ["headline", "hook", "story", "why_it_matters", "word_bank", "talk_about_it"]
 
 
-def build_edition(cfg, payload: dict, date_str: str, start: datetime, end: datetime) -> dict:
-    stories = sorted(payload["stories"], key=lambda s: s.get("rank", 99))
+def build_edition(cfg, skeleton: dict, bands: dict, date_str: str, start, end) -> dict:
+    stories = sorted(skeleton["stories"], key=lambda s: s.get("rank", 99))
+
     for i, story in enumerate(stories, 1):
         story["rank"] = i
+        story["versions"] = {}
+        for band_key, payload in bands.items():
+            by_slug = {s["slug"]: s for s in payload["stories"]}
+            written = by_slug.get(story["slug"])
+            if written is None:
+                # Matching by slug failed; fall back to position so a band is
+                # never silently dropped from the page.
+                ordered = payload["stories"]
+                written = ordered[i - 1] if i - 1 < len(ordered) else None
+                print(f"  note: band {band_key} slug mismatch for "
+                      f"{story['slug']!r}, matched by position", file=sys.stderr)
+            if written:
+                story["versions"][band_key] = {k: written[k] for k in PER_BAND}
+        story["versions"] = {k: story["versions"][k]
+                             for k in appconfig.AGE_BANDS if k in story["versions"]}
+        story.pop("slug", None)
+        story.pop("facts", None)
+
+    label = {}
+    if "en" in cfg.languages:
+        zone = cfg.timezone.split("/")[-1].replace("_", " ")
+        label["en"] = (f"News from {start:%A} {start:%-I:%M %p} to "
+                       f"{end:%A} {end:%-I:%M %p}, {zone} time")
+    if "zh" in cfg.languages:
+        label["zh"] = f"当地时间 {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
+
     return {
         "date": date_str,
-        "window": {
-            "start": start.isoformat(),
-            "end": end.isoformat(),
-            "label": window_label(cfg, start, end),
-        },
+        "window": {"start": start.isoformat(), "end": end.isoformat(), "label": label},
         "generated_at": datetime.now(cfg.tz).isoformat(timespec="seconds"),
-        "generator": f"{MODEL} (web search + rewrite)",
-        # Recorded so an old edition still renders after the settings change.
+        "generator": f"{MODEL} (research + skeleton + {len(bands)} bands)",
         "settings": {
-            "age": cfg.age,
-            "count": cfg.count,
-            "categories": cfg.categories,
-            "regions": cfg.regions,
+            "stories_per_day": N,
+            "categories": list(appconfig.CATEGORIES),
+            "regions": list(appconfig.REGIONS),
+            "bands": list(appconfig.AGE_BANDS),
             "languages": cfg.languages,
             "timezone": cfg.timezone,
             "hour": cfg.hour,
@@ -448,7 +426,7 @@ def main() -> None:
     args = ap.parse_args()
 
     cfg = appconfig.load()
-    date_str, start, end = resolve_window(cfg, args.date)
+    date_str, start, end = appconfig.resolve_window(cfg, args.date)
     out_path = EDITIONS_DIR / f"{date_str}.json"
 
     if out_path.exists() and not args.force and not args.dry_run:
@@ -456,19 +434,28 @@ def main() -> None:
         return
 
     print(f"Edition {date_str}: {start:%b %d %-I:%M %p} → {end:%b %d %-I:%M %p} ({cfg.timezone})")
-    print(f"  {cfg.count} stories · age {cfg.age} · {'/'.join(cfg.categories)} "
-          f"· {'/'.join(cfg.regions)}")
+    print(f"  {N} stories · bands {'/'.join(appconfig.AGE_BANDS)} · {'/'.join(cfg.languages)}")
 
     client = anthropic.Anthropic()
 
-    print("Pass 1/2 — researching…")
+    print("Pass 1 — researching…")
     brief = research(client, cfg, research_prompt(cfg, start, end, date_str))
     print(f"  brief: {len(brief)} characters")
 
-    print("Pass 2/2 — rewriting…")
-    payload = rewrite(client, cfg, rewrite_prompt(cfg, brief, start, end))
+    print("Pass 2 — choosing and recording the links…")
+    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
+                          skeleton_schema(cfg), "Skeleton")
+    for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
+        print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 
-    edition = build_edition(cfg, payload, date_str, start, end)
+    bands = {}
+    for i, band_key in enumerate(appconfig.AGE_BANDS, 1):
+        print(f"Pass 3.{i} — writing for {band_key}…")
+        bands[band_key] = structured(
+            client, cfg, writing_policy(cfg, band_key), band_prompt(skeleton, band_key),
+            band_schema(cfg, band_key), f"Band {band_key}")
+
+    edition = build_edition(cfg, skeleton, bands, date_str, start, end)
     text = json.dumps(edition, ensure_ascii=False, indent=2) + "\n"
 
     if args.dry_run:
@@ -480,7 +467,8 @@ def main() -> None:
     print(f"Wrote {out_path.relative_to(ROOT)}")
     lang = cfg.primary_language
     for story in edition["stories"]:
-        print(f"  {story['rank']}. [{story['category']}] {story['headline'][lang]}")
+        head = story["versions"].get(cfg.band, {}).get("headline", {}).get(lang, "")
+        print(f"  {story['rank']}. [{story['category']}] {head}")
 
 
 if __name__ == "__main__":

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
-"""Build docs/setup.html — the form a parent fills in to configure their own copy.
+"""Build docs/setup.html — the form a repository owner fills in to configure
+their own copy.
 
-It is a static page: pick the options, and it writes the config.toml text for
-you to paste into the repository. No backend, nothing submitted anywhere.
+Deliberately short. Beats, regions and story count are the product's editorial
+line, not settings, so the only things here are who is reading, in what
+language, and when the edition lands.
 """
 
 from __future__ import annotations
@@ -12,50 +14,111 @@ import json
 
 import appconfig
 
+TEXT = {
+    "intro": {
+        "en": "Fill this in, copy the result into config.toml, and it becomes your "
+              "child's paper from the next edition on.",
+        "zh": "填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。",
+    },
+    "h_child": {"en": "Who is reading", "zh": "谁在读"},
+    "n_child": {
+        "en": "Every edition is written at all three reading levels, so this only "
+              "picks which one the page opens on. Anyone can switch on the page itself.",
+        "zh": "每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。"
+              "任何人都可以在页面上自己切换。",
+    },
+    "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"},
+    "l_age": {"en": "Age", "zh": "年龄"},
+    "band_is": {"en": "Opens on", "zh": "默认打开"},
+    "h_langs": {"en": "Languages", "zh": "语言"},
+    "n_langs": {
+        "en": "Pick both and the page gets a toggle — handy when the child reads one "
+              "language at school and the family reads another at home.",
+        "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。",
+    },
+    "h_when": {"en": "When it arrives", "zh": "什么时候更新"},
+    "n_when": {
+        "en": "Your own time zone is filled in already. Each edition covers the 24 "
+              "hours ending at this time, so pick a moment you are usually together.",
+        "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，"
+              "所以挑一个你们通常在一起的时间。",
+    },
+    "l_tz": {"en": "Time zone", "zh": "时区"},
+    "l_hour": {"en": "Time of day", "zh": "更新时刻"},
+    "h_site": {"en": "Where it will live", "zh": "发布在哪里"},
+    "n_site": {
+        "en": "Your GitHub Pages address. The QR code on the share image points here, "
+              "so fill it in before sharing an image anywhere.",
+        "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。",
+    },
+    "l_url": {"en": "Site address", "zh": "网站地址"},
+    "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"},
+    "n_out": {
+        "en": "Copy this into config.toml in the root of your repository and commit. "
+              "The next edition follows it.",
+        "zh": "把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。",
+    },
+    "b_copy": {"en": "Copy", "zh": "复制"},
+    "copied": {"en": "Copied.", "zh": "已复制。"},
+    "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"},
+    "whenPreview": {
+        "en": "Each edition covers the 24 hours ending at {hour} in {tz}.",
+        "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。",
+    },
+    "fixed_h": {"en": "What is not a setting", "zh": "哪些不是设置项"},
+    "fixed_n": {
+        "en": "Three stories a day, drawn from politics, society, business, tech and "
+              "science, centred on the US and China plus anything too big to belong to "
+              "one country. That is the editorial line rather than a preference, so it "
+              "is the same for everyone.",
+        "zh": "每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，"
+              "外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。",
+    },
+    "foot": {
+        "en": "Nothing here is sent anywhere — the page builds the text in your browser.",
+        "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。",
+    },
+    "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
+    "today": {"en": "Today", "zh": "今日"},
+}
+
 TEMPLATE = """<!doctype html>
-<html lang="__LANG__" data-lang="__LANG__">
+<html lang="__LANG__" data-lang="__LANG__" data-band="__BAND__">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Set up Daily News for Kids</title>
-<meta name="description" content="__SLOGAN__">
+<meta name="description" content="__SLOGAN_PLAIN__">
 __FONTS__
 <link rel="stylesheet" href="assets/styles.css">
 <style>
-__BEATCSS__
+__GENCSS__
 .setup-section { margin: 2rem 0 0; }
 .setup-section > h2 {
   font-family: var(--display); font-weight: 600; font-size: 1.15rem;
   margin: 0 0 .2rem; letter-spacing: -.01em;
 }
-.setup-section > .note { margin: 0 0 .8rem; font-size: .87rem; color: var(--ink-faint); }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: .5rem; }
-.opt {
-  display: flex; gap: .6rem; align-items: flex-start; cursor: pointer;
-  border: 1px solid var(--rule); border-radius: 10px; padding: .65rem .75rem;
-  background: var(--card); transition: border-color .15s, background-color .15s;
-}
-.opt:hover { border-color: var(--ink-faint); }
-.opt input { margin: .25rem 0 0; accent-color: var(--dot, var(--chrome)); flex: none; }
-.opt:has(input:checked) { border-color: var(--dot, var(--chrome)); background: var(--tint, var(--card)); }
-.opt .name { font-weight: 600; font-size: .92rem; display: flex; align-items: center; gap: .45rem; }
-.opt .dot { width: .55rem; height: .55rem; border-radius: 50%; background: var(--dot); flex: none; }
-.opt .hint { display: block; font-size: .8rem; color: var(--ink-faint); margin-top: .15rem; }
-.row { display: flex; gap: .8rem; flex-wrap: wrap; align-items: flex-end; }
+.setup-section > .note { margin: 0 0 .9rem; font-size: .87rem; line-height: 1.6; color: var(--ink-faint); }
+.row { display: flex; gap: .9rem; flex-wrap: wrap; align-items: flex-end; }
 .field { display: flex; flex-direction: column; gap: .3rem; }
 .field label { font-size: .8rem; font-weight: 600; color: var(--ink-soft); }
 .field input, .field select {
   font: inherit; font-size: .95rem; padding: .45rem .6rem; border-radius: 8px;
   border: 1px solid var(--rule); background: var(--card); color: var(--ink);
 }
-.field input[type=text] { min-width: 15rem; }
-output.pill {
-  display: inline-block; font-weight: 700; color: var(--chrome);
-  font-variant-numeric: tabular-nums;
+.field input[type=text] { min-width: 16rem; }
+.field input[type=range] { min-width: 13rem; accent-color: var(--chrome); }
+output.pill { font-weight: 700; color: var(--chrome); font-variant-numeric: tabular-nums; }
+.opt {
+  display: inline-flex; gap: .5rem; align-items: center; cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 10px; padding: .55rem .8rem;
+  background: var(--card); font-size: .92rem; font-weight: 600;
 }
+.opt:has(input:checked) { border-color: var(--chrome); }
+.opt input { accent-color: var(--chrome); }
 pre.out {
   background: var(--card); border: 1px solid var(--rule); border-radius: 12px;
-  padding: 1rem 1.1rem; overflow-x: auto; font-size: .84rem; line-height: 1.6;
+  padding: 1rem 1.1rem; overflow-x: auto; font-size: .82rem; line-height: 1.6;
   white-space: pre; margin: 0;
 }
 .outbar { display: flex; gap: .6rem; align-items: center; margin: 0 0 .6rem; flex-wrap: wrap; }
@@ -65,7 +128,11 @@ button.copy {
   color: var(--chrome-on); cursor: pointer;
 }
 .warn { color: var(--politics); font-size: .85rem; font-weight: 600; }
-.preview-note { font-size: .87rem; color: var(--ink-soft); margin: .5rem 0 0; }
+.preview-note { font-size: .87rem; color: var(--ink-soft); margin: .6rem 0 0; }
+.fixed-box {
+  border: 1px dashed var(--rule); border-radius: 12px; padding: .9rem 1.05rem;
+  font-size: .87rem; line-height: 1.65; color: var(--ink-soft);
+}
 </style>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
@@ -78,7 +145,7 @@ button.copy {
   <div class="controls">
     __LANGBTNS__
     <button type="button" data-theme-toggle>__THEME__</button>
-__TODAYBTN__
+    <a class="btn" href="index.html">__TODAY__</a>
   </div>
 </header>
 
@@ -93,25 +160,16 @@ __TODAYBTN__
       </div>
       <div class="field">
         <label for="age">__L_AGE__ <output class="pill" id="ageOut">__AGE__</output></label>
-        <input type="range" id="age" min="5" max="18" value="__AGE__">
-      </div>
-      <div class="field">
-        <label for="count">__L_COUNT__ <output class="pill" id="countOut">__COUNT__</output></label>
-        <input type="range" id="count" min="3" max="10" value="__COUNT__">
+        <input type="range" id="age" min="__MINAGE__" max="__MAXAGE__" value="__AGE__">
       </div>
     </div>
+    <p class="preview-note" id="bandPreview"></p>
   </section>
 
   <section class="setup-section">
-    <h2>__H_CATS__</h2>
-    <p class="note">__N_CATS__</p>
-    <div class="grid" id="cats"></div>
-  </section>
-
-  <section class="setup-section">
-    <h2>__H_REGIONS__</h2>
-    <p class="note">__N_REGIONS__</p>
-    <div class="grid" id="regions"></div>
+    <h2>__H_LANGS__</h2>
+    <p class="note">__N_LANGS__</p>
+    <div class="row" id="langs"></div>
   </section>
 
   <section class="setup-section">
@@ -128,12 +186,6 @@ __TODAYBTN__
       </div>
     </div>
     <p class="preview-note" id="whenPreview"></p>
-  </section>
-
-  <section class="setup-section">
-    <h2>__H_LANGS__</h2>
-    <p class="note">__N_LANGS__</p>
-    <div class="grid" id="langs"></div>
   </section>
 
   <section class="setup-section">
@@ -157,85 +209,43 @@ __TODAYBTN__
   <pre class="out" id="out"></pre>
 </section>
 
+<section class="setup-section">
+  <h2>__FIXED_H__</h2>
+  <p class="fixed-box">__FIXED_N__</p>
+</section>
+
 <footer class="foot">__FOOT__</footer>
 </div>
 
 <script src="assets/app.js"></script>
 <script>
 (function () {
-  var CATS = __CATS_JSON__;
-  var REGIONS = __REGIONS_JSON__;
   var LANGS = __LANGS_JSON__;
+  var BANDS = __BANDS_JSON__;
   var TEXT = __TEXT_JSON__;
   var lang = document.documentElement.getAttribute('data-lang') || 'en';
+  function tr(key) { var e = TEXT[key] || {}; return e[lang] || e.en || ''; }
 
-  function label(obj) { return obj[lang] || obj.en; }
-
-  function makeOption(container, kind, key, entry, checked) {
-    var id = kind + '-' + key;
+  var langBox = document.getElementById('langs');
+  var boxes = {};
+  LANGS.forEach(function (l) {
     var wrap = document.createElement('label');
     wrap.className = 'opt';
-    if (entry.color) { wrap.style.setProperty('--dot', entry.color); wrap.style.setProperty('--tint', entry.tint); }
-    var box = document.createElement('input');
-    box.type = 'checkbox'; box.id = id; box.value = key; box.checked = checked;
-    var text = document.createElement('span');
-    var name = document.createElement('span');
-    name.className = 'name';
-    if (entry.color) {
-      var dot = document.createElement('span');
-      dot.className = 'dot';
-      name.appendChild(dot);
-    }
-    name.appendChild(document.createTextNode(label(entry.label)));
-    text.appendChild(name);
-    if (entry.hint) {
-      var hint = document.createElement('span');
-      hint.className = 'hint';
-      hint.textContent = label(entry.hint);
-      text.appendChild(hint);
-    }
-    wrap.appendChild(box); wrap.appendChild(text);
-    container.appendChild(wrap);
-    return box;
-  }
-
-  var catBoxes = {}, regionBoxes = {}, langBoxes = {};
-  Object.keys(CATS).forEach(function (k) {
-    catBoxes[k] = makeOption(document.getElementById('cats'), 'c', k, CATS[k], CATS[k].on);
-  });
-  Object.keys(REGIONS).forEach(function (k) {
-    regionBoxes[k] = makeOption(document.getElementById('regions'), 'r', k, REGIONS[k], REGIONS[k].on);
-  });
-  Object.keys(LANGS).forEach(function (k) {
-    langBoxes[k] = makeOption(document.getElementById('langs'), 'l', k, LANGS[k], LANGS[k].on);
+    var input = document.createElement('input');
+    input.type = 'checkbox'; input.id = 'l-' + l.code; input.checked = l.on;
+    wrap.appendChild(input);
+    wrap.appendChild(document.createTextNode(l.label));
+    langBox.appendChild(wrap);
+    boxes[l.code] = input;
   });
 
-  // Ticking "Global" means everywhere, so it drives the rest of the boxes.
-  var globalBox = regionBoxes.GLOBAL;
-  if (globalBox) {
-    globalBox.addEventListener('change', function () {
-      Object.keys(regionBoxes).forEach(function (k) {
-        if (k !== 'GLOBAL') regionBoxes[k].checked = globalBox.checked;
-      });
-      render();
-    });
-    Object.keys(regionBoxes).forEach(function (k) {
-      if (k === 'GLOBAL') return;
-      regionBoxes[k].addEventListener('change', function () {
-        if (!regionBoxes[k].checked) globalBox.checked = false;
-        render();
-      });
-    });
-  }
-
-  // Time zones straight from the browser, defaulting to where the parent is.
   var tzSelect = document.getElementById('tz');
   var zones = [];
   try { zones = Intl.supportedValuesOf('timeZone'); } catch (e) { zones = []; }
   var here = __TZ_JSON__;
   try { here = Intl.DateTimeFormat().resolvedOptions().timeZone || here; } catch (e) {}
-  if (!zones.length) zones = [here, 'America/Vancouver', 'America/New_York', 'America/Los_Angeles',
-    'Europe/London', 'Europe/Paris', 'Asia/Shanghai', 'Asia/Tokyo', 'Australia/Sydney'];
+  if (!zones.length) zones = [here, 'America/Vancouver', 'America/New_York',
+    'Europe/London', 'Asia/Shanghai', 'Asia/Tokyo', 'Australia/Sydney'];
   if (zones.indexOf(here) === -1) zones.unshift(here);
   zones.forEach(function (z) {
     var o = document.createElement('option');
@@ -253,43 +263,35 @@ __TODAYBTN__
     hourSelect.appendChild(o);
   }
 
-  function checkedKeys(boxes, skip) {
-    return Object.keys(boxes).filter(function (k) {
-      return boxes[k].checked && k !== skip;
-    });
-  }
-
-  function toml(list) {
-    return '[' + list.map(function (s) { return '"' + s + '"'; }).join(', ') + ']';
+  function bandFor(age) {
+    for (var i = 0; i < BANDS.length; i++) {
+      if (age >= BANDS[i].min && age <= BANDS[i].max) return BANDS[i];
+    }
+    return BANDS[BANDS.length - 1];
   }
 
   function render() {
     var name = document.getElementById('name').value.trim();
-    var age = document.getElementById('age').value;
-    var count = document.getElementById('count').value;
+    var age = Number(document.getElementById('age').value);
     document.getElementById('ageOut').textContent = age;
-    document.getElementById('countOut').textContent = count;
 
-    var cats = checkedKeys(catBoxes);
-    var regions = globalBox && globalBox.checked ? ['GLOBAL'] : checkedKeys(regionBoxes, 'GLOBAL');
-    var langs = checkedKeys(langBoxes);
-    var tz = tzSelect.value;
-    var hour = hourSelect.value;
-    var url = document.getElementById('url').value.trim();
+    var band = bandFor(age);
+    document.getElementById('bandPreview').textContent =
+      tr('band_is') + ': ' + (band.label[lang] || band.label.en);
+    // The band is derived from the age, never stored separately — one number,
+    // one source of truth, and no way for the two to disagree.
+    document.documentElement.setAttribute('data-band', band.key);
 
-    var problems = [];
-    if (!cats.length) problems.push(TEXT.needCat[lang] || TEXT.needCat.en);
-    if (!regions.length) problems.push(TEXT.needRegion[lang] || TEXT.needRegion.en);
-    if (!langs.length) problems.push(TEXT.needLang[lang] || TEXT.needLang.en);
-    document.getElementById('warn').textContent = problems.join(' · ');
+    var langs = LANGS.map(function (l) { return l.code; })
+                     .filter(function (c) { return boxes[c].checked; });
+    document.getElementById('warn').textContent = langs.length ? '' : tr('needLang');
 
-    var start = (Number(hour) + 24 - 24) % 24;
-    var pv = (TEXT.whenPreview[lang] || TEXT.whenPreview.en)
+    var tz = tzSelect.value, hour = hourSelect.value;
+    document.getElementById('whenPreview').textContent = tr('whenPreview')
       .replace('{hour}', (hour < 10 ? '0' + hour : hour) + ':00')
       .replace('{tz}', tz);
-    document.getElementById('whenPreview').textContent = pv;
 
-    var lines = [
+    document.getElementById('out').textContent = [
       '# Daily News for Kids — generated by the setup form.',
       '# Save this as config.toml in the root of your repository.',
       '',
@@ -298,20 +300,16 @@ __TODAYBTN__
       'age = ' + age,
       '',
       '[edition]',
-      'count = ' + count,
-      'categories = ' + toml(cats),
-      'regions = ' + toml(regions),
-      'languages = ' + toml(langs),
+      'languages = [' + langs.map(function (c) { return '"' + c + '"'; }).join(', ') + ']',
       '',
       '[schedule]',
       'timezone = "' + tz + '"',
       'hour = ' + hour,
       '',
       '[site]',
-      'url = "' + url.replace(/"/g, '') + '"',
+      'url = "' + document.getElementById('url').value.trim().replace(/"/g, '') + '"',
       ''
-    ];
-    document.getElementById('out').textContent = lines.join('\\n');
+    ].join('\\n');
   }
 
   document.getElementById('f').addEventListener('input', render);
@@ -327,12 +325,11 @@ __TODAYBTN__
     var text = document.getElementById('out').textContent;
     var done = function () {
       var s = document.getElementById('status');
-      s.textContent = TEXT.copied[lang] || TEXT.copied.en;
-      setTimeout(function () { s.textContent = ''; }, 2500);
+      s.textContent = tr('copied');
+      setTimeout(function () { s.textContent = ''; }, 2400);
     };
-    if (navigator.clipboard) {
-      navigator.clipboard.writeText(text).then(done, done);
-    } else {
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done);
+    else {
       var ta = document.createElement('textarea');
       ta.value = text; document.body.appendChild(ta); ta.select();
       try { document.execCommand('copy'); } catch (e) {}
@@ -347,127 +344,33 @@ __TODAYBTN__
 </html>
 """
 
-TEXT = {
-    "intro": {
-        "en": "Fill this in, copy the result into config.toml, and it becomes your child's paper.",
-        "zh": "填好这张表，把结果复制到 config.toml，它就变成你孩子的那份报纸。",
-    },
-    "h_child": {"en": "Who is reading", "zh": "谁在读"},
-    "n_child": {
-        "en": "Age changes how the news is written — sentence length, how much gets "
-              "explained, and how hard the dinner questions are. It never changes how "
-              "serious the news is allowed to be.",
-        "zh": "年龄会改变新闻的写法——句子长短、要解释到什么程度、饭桌问题的难度。"
-              "它不会改变新闻本身可以有多严肃。",
-    },
-    "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"},
-    "l_age": {"en": "Age", "zh": "年龄"},
-    "l_count": {"en": "Stories per day", "zh": "每天几条"},
-    "h_cats": {"en": "What to cover", "zh": "覆盖哪些板块"},
-    "n_cats": {
-        "en": "Pick as many as you like. Each beat gets its own colour on the page, "
-              "so a glance tells you what kind of news it is.",
-        "zh": "想选几个都可以。每个板块在页面上有自己的颜色，一眼就知道是哪类新闻。",
-    },
-    "h_regions": {"en": "Where in the world", "zh": "关注哪些地区"},
-    "n_regions": {
-        "en": "Anything genuinely huge elsewhere still gets in — a major war "
-              "development, a Nobel Prize, a large disaster. Ticking Global selects "
-              "everything.",
-        "zh": "别处真正重大的事仍然会进来——重大战事、诺贝尔奖、大型灾害。"
-              "勾选「全球」等于全选。",
-    },
-    "h_when": {"en": "When it arrives", "zh": "什么时候更新"},
-    "n_when": {
-        "en": "Your own time zone is filled in already. Each edition covers the 24 "
-              "hours ending at this time, so pick a moment you are usually together.",
-        "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，"
-              "所以挑一个你们通常在一起的时间。",
-    },
-    "l_tz": {"en": "Time zone", "zh": "时区"},
-    "l_hour": {"en": "Time of day", "zh": "更新时刻"},
-    "h_langs": {"en": "Languages", "zh": "语言"},
-    "n_langs": {
-        "en": "Pick both and the page gets a toggle — handy when the child reads one "
-              "language at school and the family reads another at home.",
-        "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。",
-    },
-    "h_site": {"en": "Where it will live", "zh": "发布在哪里"},
-    "n_site": {
-        "en": "Your GitHub Pages address. The QR code on the share image points here, "
-              "so fill it in before sharing an image anywhere.",
-        "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。",
-    },
-    "l_url": {"en": "Site address", "zh": "网站地址"},
-    "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"},
-    "n_out": {
-        "en": "Copy this into config.toml in the root of your repository, then run the "
-              "workflow once to see the first edition.",
-        "zh": "把它复制进仓库根目录的 config.toml，然后手动跑一次工作流，就能看到第一期。",
-    },
-    "b_copy": {"en": "Copy", "zh": "复制"},
-    "copied": {"en": "Copied.", "zh": "已复制。"},
-    "needCat": {"en": "Pick at least one beat.", "zh": "至少选一个板块。"},
-    "needRegion": {"en": "Pick at least one region.", "zh": "至少选一个地区。"},
-    "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"},
-    "whenPreview": {
-        "en": "Each edition covers the 24 hours ending at {hour} in {tz}.",
-        "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。",
-    },
-    "foot": {
-        "en": "Nothing here is sent anywhere — the page builds the text in your browser.",
-        "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。",
-    },
-    "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
-    "today": {"en": "Today", "zh": "今日"},
-}
-
 
 def _bi(key: str, langs: list) -> str:
-    """Bilingual spans matching the site's language toggle."""
     entry = TEXT[key]
-    return "".join(
-        f'<span class="l-{l}">{entry.get(l, entry["en"])}</span>' for l in langs
-    )
+    return "".join(f'<span class="l-{l}">{entry.get(l, entry["en"])}</span>' for l in langs)
 
 
 def render(inline: bool = False) -> str:
-    """Build the setup form.
-
-    inline=True returns a self-contained fragment — stylesheet and toggles
-    embedded, no links to the rest of the site — so the form can be published
-    or emailed on its own to someone who does not have the repository yet.
-    """
+    """inline=True returns a self-contained fragment for publishing on its own."""
     import render_site
 
     cfg = render_site.CFG
     langs = cfg.languages
 
-    cats = {
-        k: {
-            "label": v["label"],
-            "hint": v["hint"],
-            "color": v["light"][0],
-            "tint": v["light"][1],
-            "on": k in cfg.categories,
-        }
-        for k, v in appconfig.CATEGORIES.items()
-    }
-    regions = {
-        k: {"label": v["label"], "on": (k in cfg.regions) or
-            (k == "GLOBAL" and set(cfg.regions) == set(appconfig.COUNTRY_REGIONS))}
-        for k, v in appconfig.REGIONS.items()
-    }
-    languages = {
-        k: {"label": {"en": v, "zh": v}, "on": k in cfg.languages}
-        for k, v in appconfig.LANGUAGES.items()
-    }
+    bands = [
+        {"key": k, "min": v["range"][0], "max": v["range"][1], "label": v["label"]}
+        for k, v in appconfig.AGE_BANDS.items()
+    ]
+    languages = [{"code": k, "label": v, "on": k in langs}
+                 for k, v in appconfig.LANGUAGES.items()]
 
     out = TEMPLATE
     replacements = {
         "__LANG__": langs[0],
+        "__BAND__": cfg.band,
         "__FONTS__": render_site.FONTS,
-        "__BEATCSS__": render_site.beat_css(),
+        "__GENCSS__": render_site.generated_css(),
+        "__SLOGAN_PLAIN__": appconfig.SLOGAN.get(langs[0], appconfig.SLOGAN["en"]),
         "__TITLE__": "".join(
             f'<span class="l-{l}">{appconfig.APP_NAME.get(l, appconfig.APP_NAME["en"])}</span>'
             for l in langs),
@@ -475,278 +378,40 @@ def render(inline: bool = False) -> str:
             f'<span class="l-{l}">{appconfig.SLOGAN.get(l, appconfig.SLOGAN["en"])}</span>'
             for l in langs),
         "__LANGBTNS__": render_site.lang_buttons(),
-        "__CATS_JSON__": json.dumps(cats, ensure_ascii=False),
-        "__REGIONS_JSON__": json.dumps(regions, ensure_ascii=False),
         "__LANGS_JSON__": json.dumps(languages, ensure_ascii=False),
+        "__BANDS_JSON__": json.dumps(bands, ensure_ascii=False),
         "__TEXT_JSON__": json.dumps(TEXT, ensure_ascii=False),
+        "__TZ_JSON__": json.dumps(cfg.timezone),
         "__NAME__": html.escape(cfg.child_name, quote=True),
         "__AGE__": str(cfg.age),
-        "__COUNT__": str(cfg.count),
-        "__URL__": html.escape(cfg.site_url, quote=True),
+        "__MINAGE__": str(appconfig.MIN_AGE),
+        "__MAXAGE__": str(appconfig.MAX_AGE),
         "__HOUR__": str(cfg.hour),
-        "__TZ_JSON__": json.dumps(cfg.timezone),
-        "__TODAYBTN__": "" if inline else
-                        f'<a class="btn" href="index.html">{_bi("today", langs)}</a>',
+        "__URL__": html.escape(cfg.site_url, quote=True),
     }
-    for key in ("intro", "h_child", "n_child", "l_name", "l_age", "l_count",
-                "h_cats", "n_cats", "h_regions", "n_regions", "h_when", "n_when",
-                "l_tz", "l_hour", "h_langs", "n_langs", "h_site", "n_site",
-                "l_url", "h_out", "n_out", "b_copy", "foot", "theme", "today"):
+    for key in ("intro", "h_child", "n_child", "l_name", "l_age", "h_langs", "n_langs",
+                "h_when", "n_when", "l_tz", "l_hour", "h_site", "n_site", "l_url",
+                "h_out", "n_out", "b_copy", "fixed_h", "fixed_n", "foot", "theme", "today"):
         replacements["__" + key.upper() + "__"] = _bi(key, langs)
 
-    # The meta description cannot hold markup.
-    out = out.replace('content="__SLOGAN__"',
-                      f'content="{appconfig.SLOGAN.get(langs[0], appconfig.SLOGAN["en"])}"')
     for token, value in replacements.items():
         out = out.replace(token, value)
 
     if not inline:
         return out
 
-    # Inline the shared assets, then hand back only what the Artifact wrapper
-    # does not already provide (it supplies <html>, <head> and <body>).
     assets = render_site.ASSETS_SRC
-    out = out.replace(
-        '<link rel="stylesheet" href="assets/styles.css">',
-        "<style>" + (assets / "styles.css").read_text(encoding="utf-8") + "</style>")
-    out = out.replace(
-        '<script src="assets/app.js"></script>',
-        "<script>" + (assets / "app.js").read_text(encoding="utf-8") + "</script>")
-
+    out = out.replace('<link rel="stylesheet" href="assets/styles.css">',
+                      "<style>" + (assets / "styles.css").read_text(encoding="utf-8") + "</style>")
+    out = out.replace('<script src="assets/app.js"></script>',
+                      "<script>" + (assets / "app.js").read_text(encoding="utf-8") + "</script>")
+    out = out.replace('<a class="btn" href="index.html">' + _bi("today", langs) + '</a>', "")
     head = out[out.index("<title>"):out.index("</head>")]
     body = out[out.index("<body>") + len("<body>"):out.index("</body>")]
-    return head + body
+    return (f'<script>document.documentElement.setAttribute("data-lang","{langs[0]}");'
+            f'document.documentElement.setAttribute("data-band","{cfg.band}");</script>'
+            + head + body)
 
 
 if __name__ == "__main__":
     print(render())
-
-
-# --------------------------------------------------------------------- modal
-
-MODAL_TEXT = {
-    "title": {"en": "Settings", "zh": "设置"},
-    "welcome": {
-        "en": "Welcome. Set this up once — it is remembered on this device.",
-        "zh": "欢迎。设置一次，这台设备就记住了。",
-    },
-    "now": {"en": "Applies now", "zh": "立刻生效"},
-    "tomorrow": {"en": "From tomorrow", "zh": "明天起生效"},
-    "both": {"en": "Filters now · generates from tomorrow", "zh": "今天筛选 · 明天起生成"},
-
-    "reading_h": {"en": "Reading", "zh": "阅读"},
-    "lang": {"en": "Language", "zh": "阅读语言"},
-    "theme": {"en": "Appearance", "zh": "外观"},
-    "theme_system": {"en": "Match device", "zh": "跟随系统"},
-    "theme_light": {"en": "Light", "zh": "浅色"},
-    "theme_dark": {"en": "Dark", "zh": "深色"},
-
-    "content_h": {"en": "What to cover", "zh": "内容范围"},
-    "content_n": {
-        "en": "These filter what you see right now. Once you paste the settings "
-              "below into your repository, tomorrow's edition is generated from "
-              "them too.",
-        "zh": "这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，"
-              "从明天那期开始，新闻也会按它们生成。",
-    },
-    "beats": {"en": "Beats", "zh": "板块"},
-    "regions": {"en": "Regions", "zh": "地区"},
-    "howmany": {"en": "Stories a day", "zh": "每天几条"},
-    "all": {"en": "All", "zh": "全选"},
-    "none": {"en": "None", "zh": "全不选"},
-
-    "publish_h": {"en": "How the news is written", "zh": "新闻怎么写"},
-    "publish_n": {
-        "en": "Today's edition was written before you opened this page, so these "
-              "cannot change what is on screen. They take effect from the next "
-              "edition.",
-        "zh": "今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。"
-              "它们从下一期开始生效。",
-    },
-    "name": {"en": "Child's name", "zh": "孩子的名字"},
-    "name_ph": {"en": "optional", "zh": "可留空"},
-    "age": {"en": "Age", "zh": "年龄"},
-    "age_n": {
-        "en": "Sets sentence length, how much gets explained, and how hard the "
-              "dinner questions are — never how serious the news may be.",
-        "zh": "决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。",
-    },
-    "genlangs": {"en": "Write it in", "zh": "生成语言"},
-    "tz": {"en": "Time zone", "zh": "时区"},
-    "hour": {"en": "Published at", "zh": "更新时刻"},
-    "url": {"en": "Site address", "zh": "网站地址"},
-    "url_n": {
-        "en": "The QR code on the share image points here.",
-        "zh": "转发长图上的二维码指向这里。",
-    },
-
-    "out_h": {"en": "Your config.toml", "zh": "你的 config.toml"},
-    "out_n": {
-        "en": "Copy this, open config.toml in your repository, replace everything "
-              "with it, and commit. The next edition follows it.",
-        "zh": "复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。",
-    },
-    "copy": {"en": "Copy", "zh": "复制"},
-    "copied": {"en": "Copied.", "zh": "已复制。"},
-    "full_form": {"en": "Full page version", "zh": "完整页面版"},
-
-    "save": {"en": "Save", "zh": "保存设置"},
-    "saved": {"en": "Saved on this device.", "zh": "已保存在这台设备。"},
-    "reset": {"en": "Reset", "zh": "恢复默认"},
-    "close": {"en": "Close", "zh": "关闭"},
-}
-
-
-def _mb(key: str, langs: list) -> str:
-    entry = MODAL_TEXT[key]
-    return "".join(f'<span class="l-{l}">{entry.get(l, entry["en"])}</span>' for l in langs)
-
-
-def _badge(key: str, langs: list, kind: str) -> str:
-    return f'<span class="badge {kind}">{_mb(key, langs)}</span>'
-
-
-def render_modal(depth: int = 0) -> str:
-    """The settings dialog: first visit, and behind the gear afterwards.
-
-    Everything a family can change is here, including the settings that decide
-    how the news is written. Those cannot alter the edition already on screen —
-    it was generated hours ago — so each group is badged with when it takes
-    effect, and the dialog ends with the config.toml to paste back.
-    """
-    import render_site
-
-    cfg = render_site.CFG
-    langs = cfg.languages
-    prefix = "../" * depth
-
-    catalogue = {
-        "beats": {
-            k: {"label": v["label"], "color": v["light"][0]}
-            for k, v in appconfig.CATEGORIES.items()
-        },
-        "regions": {
-            k: {"label": v["label"]}
-            for k, v in appconfig.REGIONS.items() if k != "GLOBAL"
-        },
-        "viewLanguages": [{"code": l, "label": appconfig.LANGUAGES[l]} for l in langs],
-        "allLanguages": [{"code": k, "label": v} for k, v in appconfig.LANGUAGES.items()],
-        "minCount": appconfig.MIN_COUNT,
-        "maxCount": appconfig.MAX_COUNT,
-        "minAge": appconfig.MIN_AGE,
-        "maxAge": appconfig.MAX_AGE,
-        "config": {
-            "lang": langs[0],
-            "name": cfg.child_name,
-            "age": cfg.age,
-            "count": cfg.count,
-            "beats": cfg.categories,
-            "regions": cfg.regions,
-            "langs": langs,
-            "tz": cfg.timezone,
-            "hour": cfg.hour,
-            "siteUrl": cfg.site_url,
-        },
-    }
-
-    lang_row = ""
-    if len(langs) > 1:
-        lang_row = f"""
-    <div class="m-field">
-      <p class="m-label">{_mb('lang', langs)}</p>
-      <div class="seg" id="prefLang"></div>
-    </div>"""
-
-    return f"""
-<dialog class="settings" id="settings">
-  <form method="dialog" class="settings-close-form">
-    <button class="x" value="close" aria-label="{MODAL_TEXT['close']['en']}">&times;</button>
-  </form>
-  <h2 class="m-title">{_mb('title', langs)}</h2>
-  <p class="m-welcome" id="mWelcome" hidden>{_mb('welcome', langs)}</p>
-
-  <section class="m-section">
-    <h3>{_mb('reading_h', langs)} {_badge('now', langs, 'now')}</h3>
-    {lang_row}
-    <div class="m-field">
-      <p class="m-label">{_mb('theme', langs)}</p>
-      <div class="seg" id="prefTheme"></div>
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3>{_mb('content_h', langs)} {_badge('both', langs, 'both')}</h3>
-    <p class="m-note">{_mb('content_n', langs)}</p>
-    <div class="m-field">
-      <p class="m-label">{_mb('beats', langs)}
-        <span class="m-bulk"><button type="button" data-bulk="beats" data-on="1">{_mb('all', langs)}</button>
-        <button type="button" data-bulk="beats" data-on="0">{_mb('none', langs)}</button></span>
-      </p>
-      <div class="chips" id="prefBeats"></div>
-    </div>
-    <div class="m-field">
-      <p class="m-label">{_mb('regions', langs)}
-        <span class="m-bulk"><button type="button" data-bulk="regions" data-on="1">{_mb('all', langs)}</button>
-        <button type="button" data-bulk="regions" data-on="0">{_mb('none', langs)}</button></span>
-      </p>
-      <div class="chips" id="prefRegions"></div>
-    </div>
-    <div class="m-field">
-      <p class="m-label">{_mb('howmany', langs)} <output class="pill" id="prefCountOut"></output></p>
-      <input type="range" id="prefCount" min="{appconfig.MIN_COUNT}" max="{appconfig.MAX_COUNT}">
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3>{_mb('publish_h', langs)} {_badge('tomorrow', langs, 'later')}</h3>
-    <p class="m-note">{_mb('publish_n', langs)}</p>
-    <div class="m-field">
-      <p class="m-label">{_mb('name', langs)}</p>
-      <input type="text" id="prefName" placeholder="{MODAL_TEXT['name_ph'][langs[0]]}">
-    </div>
-    <div class="m-field">
-      <p class="m-label">{_mb('age', langs)} <output class="pill" id="prefAgeOut"></output></p>
-      <input type="range" id="prefAge" min="{appconfig.MIN_AGE}" max="{appconfig.MAX_AGE}">
-      <p class="m-sub">{_mb('age_n', langs)}</p>
-    </div>
-    <div class="m-field">
-      <p class="m-label">{_mb('genlangs', langs)}</p>
-      <div class="chips" id="prefGenLangs"></div>
-    </div>
-    <div class="m-field m-two">
-      <div>
-        <p class="m-label">{_mb('tz', langs)}</p>
-        <select id="prefTz"></select>
-      </div>
-      <div>
-        <p class="m-label">{_mb('hour', langs)}</p>
-        <select id="prefHour"></select>
-      </div>
-    </div>
-    <div class="m-field">
-      <p class="m-label">{_mb('url', langs)}</p>
-      <input type="text" id="prefUrl" placeholder="https://yourname.github.io/your-repo/">
-      <p class="m-sub">{_mb('url_n', langs)}</p>
-    </div>
-  </section>
-
-  <section class="m-section">
-    <h3>{_mb('out_h', langs)}</h3>
-    <p class="m-note">{_mb('out_n', langs)}</p>
-    <div class="outbar">
-      <button type="button" class="copy" id="prefCopy">{_mb('copy', langs)}</button>
-      <a class="btn" href="{prefix}setup.html">{_mb('full_form', langs)}</a>
-      <span class="m-status" id="prefCopyStatus"></span>
-    </div>
-    <pre class="out" id="prefToml"></pre>
-  </section>
-
-  <div class="m-actions">
-    <button type="button" class="primary" id="prefSave">{_mb('save', langs)}</button>
-    <button type="button" class="ghost" id="prefReset">{_mb('reset', langs)}</button>
-    <span class="m-status" id="prefStatus"></span>
-  </div>
-
-  <script type="application/json" id="prefs-catalogue">{json.dumps(catalogue, ensure_ascii=False)}</script>
-  <script type="application/json" id="prefs-strings">{json.dumps(MODAL_TEXT, ensure_ascii=False)}</script>
-</dialog>"""
