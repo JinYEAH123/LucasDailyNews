@@ -78,7 +78,7 @@ button.copy {
   <div class="controls">
     __LANGBTNS__
     <button type="button" data-theme-toggle>__THEME__</button>
-    <a class="btn" href="index.html">__TODAY__</a>
+__TODAYBTN__
   </div>
 </header>
 
@@ -431,7 +431,13 @@ def _bi(key: str, langs: list) -> str:
     )
 
 
-def render() -> str:
+def render(inline: bool = False) -> str:
+    """Build the setup form.
+
+    inline=True returns a self-contained fragment — stylesheet and toggles
+    embedded, no links to the rest of the site — so the form can be published
+    or emailed on its own to someone who does not have the repository yet.
+    """
     import render_site
 
     cfg = render_site.CFG
@@ -479,6 +485,8 @@ def render() -> str:
         "__URL__": html.escape(cfg.site_url, quote=True),
         "__HOUR__": str(cfg.hour),
         "__TZ_JSON__": json.dumps(cfg.timezone),
+        "__TODAYBTN__": "" if inline else
+                        f'<a class="btn" href="index.html">{_bi("today", langs)}</a>',
     }
     for key in ("intro", "h_child", "n_child", "l_name", "l_age", "l_count",
                 "h_cats", "n_cats", "h_regions", "n_regions", "h_when", "n_when",
@@ -491,7 +499,23 @@ def render() -> str:
                       f'content="{appconfig.SLOGAN.get(langs[0], appconfig.SLOGAN["en"])}"')
     for token, value in replacements.items():
         out = out.replace(token, value)
-    return out
+
+    if not inline:
+        return out
+
+    # Inline the shared assets, then hand back only what the Artifact wrapper
+    # does not already provide (it supplies <html>, <head> and <body>).
+    assets = render_site.ASSETS_SRC
+    out = out.replace(
+        '<link rel="stylesheet" href="assets/styles.css">',
+        "<style>" + (assets / "styles.css").read_text(encoding="utf-8") + "</style>")
+    out = out.replace(
+        '<script src="assets/app.js"></script>',
+        "<script>" + (assets / "app.js").read_text(encoding="utf-8") + "</script>")
+
+    head = out[out.index("<title>"):out.index("</head>")]
+    body = out[out.index("<body>") + len("<body>"):out.index("</body>")]
+    return head + body
 
 
 if __name__ == "__main__":
