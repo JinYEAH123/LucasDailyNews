@@ -1,6 +1,6 @@
 # Daily News for Kids
 
-**World news worth arguing about.**
+**Know big worlds. Train young minds.**
 
 [中文说明](README.zh.md)
 

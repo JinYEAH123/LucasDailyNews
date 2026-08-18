@@ -1,6 +1,6 @@
 # 少年每日新闻 · Daily News for Kids
 
-**世界新闻，值得争一争。**
+**看见大世界，启发小脑瓜。**
 
 [English](README.md)
 

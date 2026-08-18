@@ -22,8 +22,8 @@ CONFIG_PATH = ROOT / "config.toml"
 
 APP_NAME = {"en": "Daily News for Kids", "zh": "少年每日新闻"}
 SLOGAN = {
-    "en": "World news worth arguing about.",
-    "zh": "世界新闻，值得争一争。",
+    "en": "Know big worlds. Train young minds.",
+    "zh": "看见大世界，启发小脑瓜。",
 }
 
 LANGUAGES = {"en": "English", "zh": "中文"}
