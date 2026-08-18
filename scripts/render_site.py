@@ -565,6 +565,13 @@ def render_single_page(editions: list) -> str:
         + ("".join(blocks) if blocks else f'<p class="empty">{label("archive_first")}</p>')
     )
 
+    import setup_page
+    # The standalone build has no setup.html to link to, so the dialog's
+    # publishing section points at the repository instead.
+    dialog = setup_page.render_modal(0).replace(
+        'href="setup.html"',
+        'href="https://github.com/JinYEAH123/LucasDailyNews" target="_blank" rel="noopener"')
+
     return f"""<title>{e(appconfig.APP_NAME['en'])}</title>
 <meta name="description" content="{e(description())}">
 {FONTS}
@@ -572,12 +579,15 @@ def render_single_page(editions: list) -> str:
 {css}
 {beat_css()}
 </style>
+{gear_button()}
 <div class="wrap">
 {head}
 {content}
+{no_match_notice()}
 {past}
 {footer(editions[0] if editions else None)}
 </div>
+{dialog}
 <script>
 {js}
 </script>
