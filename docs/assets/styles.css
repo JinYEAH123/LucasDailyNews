@@ -787,3 +787,83 @@ dialog.settings .pill {
   dialog.settings { padding: 1.3rem 1.1rem 1.1rem; }
   .m-actions { margin: 1.2rem -1.1rem -1.1rem; padding: .8rem 1.1rem .9rem; }
 }
+
+/* ---------- dialog: grouping and effect badges ---------- */
+
+.m-section h3 { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+
+.badge {
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  padding: .16rem .5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.badge.now { color: var(--society, #1a6b4a); background: var(--society-tint, #eaf4ef); }
+.badge.both { color: var(--business, #8a5a0f); background: var(--business-tint, #f8f0e2); }
+.badge.later { color: var(--ink-faint); background: var(--rule-soft); }
+
+.m-sub { margin: .35rem 0 0; font-size: .78rem; line-height: 1.5; color: var(--ink-faint); }
+
+.m-two { display: grid; grid-template-columns: 1fr 1fr; gap: .7rem; }
+
+@media (max-width: 26rem) { .m-two { grid-template-columns: 1fr; } }
+
+dialog.settings input[type=text],
+dialog.settings select {
+  font: inherit;
+  font-size: .9rem;
+  width: 100%;
+  padding: .4rem .55rem;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--card);
+  color: var(--ink);
+}
+
+dialog.settings .outbar {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 .55rem;
+}
+
+dialog.settings button.copy {
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 600;
+  padding: .3rem .8rem;
+  border-radius: 999px;
+  border: 1px solid var(--chrome);
+  background: var(--chrome);
+  color: var(--chrome-on);
+  cursor: pointer;
+}
+
+dialog.settings .btn {
+  font-size: .8rem;
+  padding: .28rem .75rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  color: var(--ink-faint);
+  text-decoration: none;
+}
+
+dialog.settings .btn:hover { color: var(--ink); border-color: var(--chrome); }
+
+dialog.settings pre.out {
+  margin: 0;
+  padding: .8rem .9rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--ink-soft);
+  font-size: .76rem;
+  line-height: 1.6;
+  overflow-x: auto;
+  white-space: pre;
+}

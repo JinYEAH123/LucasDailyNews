@@ -9,7 +9,7 @@
   'use strict';
 
   var root = document.documentElement;
-  var KEY = 'dnfk.prefs.v1';
+  var KEY = 'dnfk.prefs.v2';
 
   function readJSON(id, fallback) {
     var el = document.getElementById(id);
@@ -32,12 +32,19 @@
   }
 
   function defaults() {
+    var c = (CAT && CAT.config) || {};
     return {
-      lang: CAT ? CAT.defaultLang : 'en',
+      lang: c.lang || 'en',
       theme: 'system',
-      beats: CAT ? Object.keys(CAT.beats) : [],
-      regions: CAT ? Object.keys(CAT.regions).concat(['GLOBAL']) : [],
-      count: CAT ? CAT.maxStories : 10
+      beats: (c.beats || []).slice(),
+      regions: (c.regions || []).filter(function (r) { return r !== 'GLOBAL'; }),
+      count: c.count || 3,
+      name: c.name || '',
+      age: c.age || 12,
+      langs: (c.langs || ['en']).slice(),
+      tz: c.tz || 'UTC',
+      hour: typeof c.hour === 'number' ? c.hour : 17,
+      siteUrl: c.siteUrl || ''
     };
   }
 
@@ -68,7 +75,7 @@
       // A story with a beat or region the catalogue does not know — an archived
       // edition from before a rename — stays visible rather than vanishing.
       var beatOk = !CAT || !(beat in CAT.beats) || prefs.beats.indexOf(beat) !== -1;
-      var regionOk = !CAT || (region !== 'GLOBAL' && !(region in CAT.regions))
+      var regionOk = !CAT || region === 'GLOBAL' || !(region in CAT.regions)
         || prefs.regions.indexOf(region) !== -1;
       var visible = beatOk && regionOk && shown < prefs.count;
       if (visible) shown++;
@@ -147,7 +154,7 @@
     draft = JSON.parse(JSON.stringify(prefs));
 
     segment(document.getElementById('prefLang'),
-      CAT.languages.map(function (l) { return { value: l.code, label: l.label }; }),
+      CAT.viewLanguages.map(function (l) { return { value: l.code, label: l.label }; }),
       draft.lang, function (v) { draft.lang = v; applyLanguage(v); rebuildLabels(); });
 
     segment(document.getElementById('prefTheme'), [
@@ -158,27 +165,130 @@
 
     chips(document.getElementById('prefBeats'), CAT.beats, draft.beats, function (key, on) {
       toggleIn(draft.beats, key, on);
+      writeToml();
     });
-    var regionEntries = {};
-    Object.keys(CAT.regions).forEach(function (k) { regionEntries[k] = CAT.regions[k]; });
-    regionEntries.GLOBAL = { label: { en: 'Global', zh: '全球' } };
-    chips(document.getElementById('prefRegions'), regionEntries, draft.regions, function (key, on) {
+    chips(document.getElementById('prefRegions'), CAT.regions, draft.regions, function (key, on) {
       toggleIn(draft.regions, key, on);
+      writeToml();
     });
 
-    var range = document.getElementById('prefCount');
-    var out = document.getElementById('prefCountOut');
-    if (range) {
-      range.value = draft.count;
-      if (out) out.textContent = draft.count;
-      range.oninput = function () {
-        draft.count = Number(range.value);
-        if (out) out.textContent = draft.count;
-      };
-    }
+    slider('prefCount', 'prefCountOut', 'count');
+    slider('prefAge', 'prefAgeOut', 'age');
+
+    field('prefName', 'name');
+    field('prefUrl', 'siteUrl');
+
+    // Which languages the edition is written in — separate from which one you
+    // are reading right now, and it only takes effect from the next edition.
+    var genLangs = {};
+    CAT.allLanguages.forEach(function (l) {
+      genLangs[l.code] = { label: { en: l.label, zh: l.label } };
+    });
+    chips(document.getElementById('prefGenLangs'), genLangs, draft.langs, function (key, on) {
+      toggleIn(draft.langs, key, on);
+      writeToml();
+    });
+
+    buildZones();
+    buildHours();
 
     var welcome = document.getElementById('mWelcome');
     if (welcome) welcome.hidden = !firstVisit;
+
+    writeToml();
+  }
+
+  function slider(inputId, outId, key) {
+    var range = document.getElementById(inputId);
+    var out = document.getElementById(outId);
+    if (!range) return;
+    range.value = draft[key];
+    if (out) out.textContent = draft[key];
+    range.oninput = function () {
+      draft[key] = Number(range.value);
+      if (out) out.textContent = draft[key];
+      writeToml();
+    };
+  }
+
+  function field(id, key) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.value = draft[key] || '';
+    el.oninput = function () { draft[key] = el.value; writeToml(); };
+  }
+
+  function buildZones() {
+    var sel = document.getElementById('prefTz');
+    if (!sel) return;
+    var zones = [];
+    try { zones = Intl.supportedValuesOf('timeZone'); } catch (e) { zones = []; }
+    if (!zones.length) {
+      zones = ['UTC', 'America/Vancouver', 'America/New_York', 'Europe/London',
+               'Asia/Shanghai', 'Asia/Tokyo', 'Australia/Sydney'];
+    }
+    if (zones.indexOf(draft.tz) === -1) zones.unshift(draft.tz);
+    sel.innerHTML = '';
+    zones.forEach(function (z) {
+      var o = document.createElement('option');
+      o.value = z; o.textContent = z;
+      if (z === draft.tz) o.selected = true;
+      sel.appendChild(o);
+    });
+    sel.onchange = function () { draft.tz = sel.value; writeToml(); };
+  }
+
+  function buildHours() {
+    var sel = document.getElementById('prefHour');
+    if (!sel) return;
+    sel.innerHTML = '';
+    for (var h = 0; h < 24; h++) {
+      var o = document.createElement('option');
+      o.value = h;
+      var ampm = h === 0 ? '12 AM' : h < 12 ? h + ' AM' : h === 12 ? '12 PM' : (h - 12) + ' PM';
+      o.textContent = (h < 10 ? '0' + h : h) + ':00  ·  ' + ampm;
+      if (h === draft.hour) o.selected = true;
+      sel.appendChild(o);
+    }
+    sel.onchange = function () { draft.hour = Number(sel.value); writeToml(); };
+  }
+
+  function tomlList(items) {
+    return '[' + items.map(function (s) { return '"' + s + '"'; }).join(', ') + ']';
+  }
+
+  function writeToml() {
+    var pre = document.getElementById('prefToml');
+    if (!pre || !draft) return;
+    var beats = draft.beats.length ? draft.beats : Object.keys(CAT.beats);
+    // "GLOBAL" in config.toml is shorthand for every region, so emit it only
+    // when the whole list is ticked — never as one region among others.
+    var countries = draft.regions.filter(function (r) { return r !== 'GLOBAL'; });
+    var regions = (!countries.length || countries.length === Object.keys(CAT.regions).length)
+      ? ['GLOBAL'] : countries;
+    var langs = draft.langs.length ? draft.langs : [draft.lang];
+    pre.textContent = [
+      '# Daily News for Kids — generated by the settings dialog.',
+      '# Replace config.toml in your repository with this, and commit.',
+      '',
+      '[child]',
+      'name = "' + String(draft.name || '').replace(/"/g, '') + '"',
+      'age = ' + draft.age,
+      '',
+      '[edition]',
+      'count = ' + draft.count,
+      'categories = ' + tomlList(beats),
+      'regions = ' + tomlList(regions),
+      'languages = ' + tomlList(langs),
+      '',
+      '[schedule]',
+      'timezone = "' + draft.tz + '"',
+      'hour = ' + draft.hour,
+      '',
+      '[site]',
+      'url = "' + String(draft.siteUrl || '').replace(/"/g, '') + '"',
+      ''
+    ].join('\n');
   }
 
   function rebuildLabels() {
@@ -221,13 +331,15 @@
         c.setAttribute('aria-pressed', String(on));
         if (on) list.push(c.dataset.key);
       });
+      writeToml();
       return;
     }
 
     if (ev.target.closest('#prefSave')) {
       // An empty filter would show an empty paper; treat it as "everything".
       if (!draft.beats.length) draft.beats = Object.keys(CAT.beats);
-      if (!draft.regions.length) draft.regions = Object.keys(CAT.regions).concat(['GLOBAL']);
+      if (!draft.regions.length) draft.regions = Object.keys(CAT.regions);
+      if (!draft.langs.length) draft.langs = [draft.lang];
       prefs = draft;
       store(prefs);
       firstVisit = false;
@@ -238,6 +350,24 @@
         setTimeout(function () { status.textContent = ''; }, 1800);
       }
       setTimeout(closeDialog, 350);
+      return;
+    }
+
+    if (ev.target.closest('#prefCopy')) {
+      var toml = document.getElementById('prefToml').textContent;
+      var note = document.getElementById('prefCopyStatus');
+      var done = function () {
+        if (!note) return;
+        note.textContent = text('copied');
+        setTimeout(function () { note.textContent = ''; }, 2200);
+      };
+      if (navigator.clipboard) navigator.clipboard.writeText(toml).then(done, done);
+      else {
+        var ta = document.createElement('textarea');
+        ta.value = toml; document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(ta); done();
+      }
       return;
     }
 

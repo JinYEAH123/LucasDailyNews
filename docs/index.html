@@ -141,45 +141,86 @@
     <button class="x" value="close" aria-label="Close">&times;</button>
   </form>
   <h2 class="m-title"><span class="l-en">Settings</span><span class="l-zh">设置</span></h2>
-  <p class="m-welcome" id="mWelcome" hidden><span class="l-en">Welcome. Set this up once and it is remembered on this device.</span><span class="l-zh">欢迎。设置一次，之后这台设备就记住了。</span></p>
+  <p class="m-welcome" id="mWelcome" hidden><span class="l-en">Welcome. Set this up once — it is remembered on this device.</span><span class="l-zh">欢迎。设置一次，这台设备就记住了。</span></p>
 
   <section class="m-section">
-    <h3><span class="l-en">Reading preferences</span><span class="l-zh">阅读偏好</span></h3>
-    <p class="m-note"><span class="l-en">These change what you see right now, and are saved in this browser only.</span><span class="l-zh">这些会立刻改变你看到的内容，只保存在这个浏览器里。</span></p>
+    <h3><span class="l-en">Reading</span><span class="l-zh">阅读</span> <span class="badge now"><span class="l-en">Applies now</span><span class="l-zh">立刻生效</span></span></h3>
     
     <div class="m-field">
-      <p class="m-label"><span class="l-en">Language</span><span class="l-zh">语言</span></p>
+      <p class="m-label"><span class="l-en">Language</span><span class="l-zh">阅读语言</span></p>
       <div class="seg" id="prefLang"></div>
     </div>
     <div class="m-field">
       <p class="m-label"><span class="l-en">Appearance</span><span class="l-zh">外观</span></p>
       <div class="seg" id="prefTheme"></div>
     </div>
+  </section>
+
+  <section class="m-section">
+    <h3><span class="l-en">What to cover</span><span class="l-zh">内容范围</span> <span class="badge both"><span class="l-en">Filters now · generates from tomorrow</span><span class="l-zh">今天筛选 · 明天起生成</span></span></h3>
+    <p class="m-note"><span class="l-en">These filter what you see right now. Once you paste the settings below into your repository, tomorrow's edition is generated from them too.</span><span class="l-zh">这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，从明天那期开始，新闻也会按它们生成。</span></p>
     <div class="m-field">
-      <p class="m-label"><span class="l-en">Show these beats</span><span class="l-zh">显示这些板块</span>
+      <p class="m-label"><span class="l-en">Beats</span><span class="l-zh">板块</span>
         <span class="m-bulk"><button type="button" data-bulk="beats" data-on="1"><span class="l-en">All</span><span class="l-zh">全选</span></button>
         <button type="button" data-bulk="beats" data-on="0"><span class="l-en">None</span><span class="l-zh">全不选</span></button></span>
       </p>
       <div class="chips" id="prefBeats"></div>
     </div>
     <div class="m-field">
-      <p class="m-label"><span class="l-en">Show these regions</span><span class="l-zh">显示这些地区</span>
+      <p class="m-label"><span class="l-en">Regions</span><span class="l-zh">地区</span>
         <span class="m-bulk"><button type="button" data-bulk="regions" data-on="1"><span class="l-en">All</span><span class="l-zh">全选</span></button>
         <button type="button" data-bulk="regions" data-on="0"><span class="l-en">None</span><span class="l-zh">全不选</span></button></span>
       </p>
       <div class="chips" id="prefRegions"></div>
     </div>
     <div class="m-field">
-      <p class="m-label"><span class="l-en">Show at most</span><span class="l-zh">最多显示</span>
-        <output class="pill" id="prefCountOut"></output> <span class="l-en">stories</span><span class="l-zh">条</span></p>
-      <input type="range" id="prefCount" min="1" max="10" value="10">
+      <p class="m-label"><span class="l-en">Stories a day</span><span class="l-zh">每天几条</span> <output class="pill" id="prefCountOut"></output></p>
+      <input type="range" id="prefCount" min="3" max="10">
     </div>
   </section>
 
-  <section class="m-section m-publish">
-    <h3><span class="l-en">Publishing settings</span><span class="l-zh">发布设置</span></h3>
-    <p class="m-note"><span class="l-en">How the news is written — the child's age, how many stories are produced, and what time each day's edition is built — is decided when the edition is generated, not in your browser. Those live in the repository's config.toml.</span><span class="l-zh">新闻怎么写——孩子的年龄、每天生成几条、每天几点出这一期——是在生成那一刻决定的，不在你的浏览器里。这些设置在仓库的 config.toml 中。</span></p>
-    <a class="btn" href="setup.html"><span class="l-en">Open the full setup form</span><span class="l-zh">打开完整设置表单</span></a>
+  <section class="m-section">
+    <h3><span class="l-en">How the news is written</span><span class="l-zh">新闻怎么写</span> <span class="badge later"><span class="l-en">From tomorrow</span><span class="l-zh">明天起生效</span></span></h3>
+    <p class="m-note"><span class="l-en">Today's edition was written before you opened this page, so these cannot change what is on screen. They take effect from the next edition.</span><span class="l-zh">今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。它们从下一期开始生效。</span></p>
+    <div class="m-field">
+      <p class="m-label"><span class="l-en">Child's name</span><span class="l-zh">孩子的名字</span></p>
+      <input type="text" id="prefName" placeholder="optional">
+    </div>
+    <div class="m-field">
+      <p class="m-label"><span class="l-en">Age</span><span class="l-zh">年龄</span> <output class="pill" id="prefAgeOut"></output></p>
+      <input type="range" id="prefAge" min="5" max="18">
+      <p class="m-sub"><span class="l-en">Sets sentence length, how much gets explained, and how hard the dinner questions are — never how serious the news may be.</span><span class="l-zh">决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。</span></p>
+    </div>
+    <div class="m-field">
+      <p class="m-label"><span class="l-en">Write it in</span><span class="l-zh">生成语言</span></p>
+      <div class="chips" id="prefGenLangs"></div>
+    </div>
+    <div class="m-field m-two">
+      <div>
+        <p class="m-label"><span class="l-en">Time zone</span><span class="l-zh">时区</span></p>
+        <select id="prefTz"></select>
+      </div>
+      <div>
+        <p class="m-label"><span class="l-en">Published at</span><span class="l-zh">更新时刻</span></p>
+        <select id="prefHour"></select>
+      </div>
+    </div>
+    <div class="m-field">
+      <p class="m-label"><span class="l-en">Site address</span><span class="l-zh">网站地址</span></p>
+      <input type="text" id="prefUrl" placeholder="https://yourname.github.io/your-repo/">
+      <p class="m-sub"><span class="l-en">The QR code on the share image points here.</span><span class="l-zh">转发长图上的二维码指向这里。</span></p>
+    </div>
+  </section>
+
+  <section class="m-section">
+    <h3><span class="l-en">Your config.toml</span><span class="l-zh">你的 config.toml</span></h3>
+    <p class="m-note"><span class="l-en">Copy this, open config.toml in your repository, replace everything with it, and commit. The next edition follows it.</span><span class="l-zh">复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。</span></p>
+    <div class="outbar">
+      <button type="button" class="copy" id="prefCopy"><span class="l-en">Copy</span><span class="l-zh">复制</span></button>
+      <a class="btn" href="setup.html"><span class="l-en">Full page version</span><span class="l-zh">完整页面版</span></a>
+      <span class="m-status" id="prefCopyStatus"></span>
+    </div>
+    <pre class="out" id="prefToml"></pre>
   </section>
 
   <div class="m-actions">
@@ -188,8 +229,8 @@
     <span class="m-status" id="prefStatus"></span>
   </div>
 
-  <script type="application/json" id="prefs-catalogue">{"beats": {"politics": {"label": {"en": "Politics", "zh": "政治"}, "color": "#a4243b"}, "society": {"label": {"en": "Society", "zh": "社会"}, "color": "#1a6b4a"}, "business": {"label": {"en": "Business", "zh": "财经"}, "color": "#8a5a0f"}, "tech": {"label": {"en": "Tech", "zh": "科技"}, "color": "#4b3ba8"}, "science": {"label": {"en": "Science", "zh": "科学"}, "color": "#0f6a76"}, "environment": {"label": {"en": "Environment", "zh": "环境"}, "color": "#4a6b12"}, "sports": {"label": {"en": "Sports", "zh": "体育"}, "color": "#b0511a"}, "arts": {"label": {"en": "Arts & Culture", "zh": "艺术与文化"}, "color": "#9c2a7a"}, "health": {"label": {"en": "Health", "zh": "健康"}, "color": "#1c5aa8"}, "education": {"label": {"en": "Education", "zh": "教育"}, "color": "#6b4a1f"}}, "regions": {"US": {"label": {"en": "United States", "zh": "美国"}}, "CN": {"label": {"en": "China", "zh": "中国"}}, "CA": {"label": {"en": "Canada", "zh": "加拿大"}}, "EU": {"label": {"en": "Europe", "zh": "欧洲"}}, "JPKR": {"label": {"en": "Japan & Korea", "zh": "日本与韩国"}}, "ANZ": {"label": {"en": "Australia & NZ", "zh": "澳洲与新西兰"}}, "SEA": {"label": {"en": "Southeast Asia", "zh": "东南亚"}}, "SASIA": {"label": {"en": "South Asia", "zh": "南亚"}}, "LATAM": {"label": {"en": "Latin America", "zh": "拉丁美洲"}}, "MEA": {"label": {"en": "Middle East & Africa", "zh": "中东与非洲"}}}, "languages": [{"code": "en", "label": "English"}, {"code": "zh", "label": "中文"}], "maxStories": 10, "defaultLang": "en"}</script>
-  <script type="application/json" id="prefs-strings">{"title": {"en": "Settings", "zh": "设置"}, "welcome": {"en": "Welcome. Set this up once and it is remembered on this device.", "zh": "欢迎。设置一次，之后这台设备就记住了。"}, "reading_h": {"en": "Reading preferences", "zh": "阅读偏好"}, "reading_n": {"en": "These change what you see right now, and are saved in this browser only.", "zh": "这些会立刻改变你看到的内容，只保存在这个浏览器里。"}, "lang": {"en": "Language", "zh": "语言"}, "theme": {"en": "Appearance", "zh": "外观"}, "theme_system": {"en": "Match device", "zh": "跟随系统"}, "theme_light": {"en": "Light", "zh": "浅色"}, "theme_dark": {"en": "Dark", "zh": "深色"}, "beats": {"en": "Show these beats", "zh": "显示这些板块"}, "regions": {"en": "Show these regions", "zh": "显示这些地区"}, "howmany": {"en": "Show at most", "zh": "最多显示"}, "stories": {"en": "stories", "zh": "条"}, "all": {"en": "All", "zh": "全选"}, "none": {"en": "None", "zh": "全不选"}, "publish_h": {"en": "Publishing settings", "zh": "发布设置"}, "publish_n": {"en": "How the news is written — the child's age, how many stories are produced, and what time each day's edition is built — is decided when the edition is generated, not in your browser. Those live in the repository's config.toml.", "zh": "新闻怎么写——孩子的年龄、每天生成几条、每天几点出这一期——是在生成那一刻决定的，不在你的浏览器里。这些设置在仓库的 config.toml 中。"}, "publish_link": {"en": "Open the full setup form", "zh": "打开完整设置表单"}, "save": {"en": "Save", "zh": "保存设置"}, "saved": {"en": "Saved.", "zh": "已保存。"}, "reset": {"en": "Reset", "zh": "恢复默认"}, "close": {"en": "Close", "zh": "关闭"}}</script>
+  <script type="application/json" id="prefs-catalogue">{"beats": {"politics": {"label": {"en": "Politics", "zh": "政治"}, "color": "#a4243b"}, "society": {"label": {"en": "Society", "zh": "社会"}, "color": "#1a6b4a"}, "business": {"label": {"en": "Business", "zh": "财经"}, "color": "#8a5a0f"}, "tech": {"label": {"en": "Tech", "zh": "科技"}, "color": "#4b3ba8"}, "science": {"label": {"en": "Science", "zh": "科学"}, "color": "#0f6a76"}, "environment": {"label": {"en": "Environment", "zh": "环境"}, "color": "#4a6b12"}, "sports": {"label": {"en": "Sports", "zh": "体育"}, "color": "#b0511a"}, "arts": {"label": {"en": "Arts & Culture", "zh": "艺术与文化"}, "color": "#9c2a7a"}, "health": {"label": {"en": "Health", "zh": "健康"}, "color": "#1c5aa8"}, "education": {"label": {"en": "Education", "zh": "教育"}, "color": "#6b4a1f"}}, "regions": {"US": {"label": {"en": "United States", "zh": "美国"}}, "CN": {"label": {"en": "China", "zh": "中国"}}, "CA": {"label": {"en": "Canada", "zh": "加拿大"}}, "EU": {"label": {"en": "Europe", "zh": "欧洲"}}, "JPKR": {"label": {"en": "Japan & Korea", "zh": "日本与韩国"}}, "ANZ": {"label": {"en": "Australia & NZ", "zh": "澳洲与新西兰"}}, "SEA": {"label": {"en": "Southeast Asia", "zh": "东南亚"}}, "SASIA": {"label": {"en": "South Asia", "zh": "南亚"}}, "LATAM": {"label": {"en": "Latin America", "zh": "拉丁美洲"}}, "MEA": {"label": {"en": "Middle East & Africa", "zh": "中东与非洲"}}}, "viewLanguages": [{"code": "en", "label": "English"}, {"code": "zh", "label": "中文"}], "allLanguages": [{"code": "en", "label": "English"}, {"code": "zh", "label": "中文"}], "minCount": 3, "maxCount": 10, "minAge": 5, "maxAge": 18, "config": {"lang": "en", "name": "Lucas", "age": 12, "count": 3, "beats": ["politics", "society", "business", "tech"], "regions": ["US", "CN"], "langs": ["en", "zh"], "tz": "America/Vancouver", "hour": 17, "siteUrl": "https://jinyeah123.github.io/LucasDailyNews/"}}</script>
+  <script type="application/json" id="prefs-strings">{"title": {"en": "Settings", "zh": "设置"}, "welcome": {"en": "Welcome. Set this up once — it is remembered on this device.", "zh": "欢迎。设置一次，这台设备就记住了。"}, "now": {"en": "Applies now", "zh": "立刻生效"}, "tomorrow": {"en": "From tomorrow", "zh": "明天起生效"}, "both": {"en": "Filters now · generates from tomorrow", "zh": "今天筛选 · 明天起生成"}, "reading_h": {"en": "Reading", "zh": "阅读"}, "lang": {"en": "Language", "zh": "阅读语言"}, "theme": {"en": "Appearance", "zh": "外观"}, "theme_system": {"en": "Match device", "zh": "跟随系统"}, "theme_light": {"en": "Light", "zh": "浅色"}, "theme_dark": {"en": "Dark", "zh": "深色"}, "content_h": {"en": "What to cover", "zh": "内容范围"}, "content_n": {"en": "These filter what you see right now. Once you paste the settings below into your repository, tomorrow's edition is generated from them too.", "zh": "这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，从明天那期开始，新闻也会按它们生成。"}, "beats": {"en": "Beats", "zh": "板块"}, "regions": {"en": "Regions", "zh": "地区"}, "howmany": {"en": "Stories a day", "zh": "每天几条"}, "all": {"en": "All", "zh": "全选"}, "none": {"en": "None", "zh": "全不选"}, "publish_h": {"en": "How the news is written", "zh": "新闻怎么写"}, "publish_n": {"en": "Today's edition was written before you opened this page, so these cannot change what is on screen. They take effect from the next edition.", "zh": "今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。它们从下一期开始生效。"}, "name": {"en": "Child's name", "zh": "孩子的名字"}, "name_ph": {"en": "optional", "zh": "可留空"}, "age": {"en": "Age", "zh": "年龄"}, "age_n": {"en": "Sets sentence length, how much gets explained, and how hard the dinner questions are — never how serious the news may be.", "zh": "决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。"}, "genlangs": {"en": "Write it in", "zh": "生成语言"}, "tz": {"en": "Time zone", "zh": "时区"}, "hour": {"en": "Published at", "zh": "更新时刻"}, "url": {"en": "Site address", "zh": "网站地址"}, "url_n": {"en": "The QR code on the share image points here.", "zh": "转发长图上的二维码指向这里。"}, "out_h": {"en": "Your config.toml", "zh": "你的 config.toml"}, "out_n": {"en": "Copy this, open config.toml in your repository, replace everything with it, and commit. The next edition follows it.", "zh": "复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。"}, "copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "full_form": {"en": "Full page version", "zh": "完整页面版"}, "save": {"en": "Save", "zh": "保存设置"}, "saved": {"en": "Saved on this device.", "zh": "已保存在这台设备。"}, "reset": {"en": "Reset", "zh": "恢复默认"}, "close": {"en": "Close", "zh": "关闭"}}</script>
 </dialog>
 <script src="assets/app.js"></script>
 </body>

@@ -527,37 +527,71 @@ if __name__ == "__main__":
 MODAL_TEXT = {
     "title": {"en": "Settings", "zh": "设置"},
     "welcome": {
-        "en": "Welcome. Set this up once and it is remembered on this device.",
-        "zh": "欢迎。设置一次，之后这台设备就记住了。",
+        "en": "Welcome. Set this up once — it is remembered on this device.",
+        "zh": "欢迎。设置一次，这台设备就记住了。",
     },
-    "reading_h": {"en": "Reading preferences", "zh": "阅读偏好"},
-    "reading_n": {
-        "en": "These change what you see right now, and are saved in this browser only.",
-        "zh": "这些会立刻改变你看到的内容，只保存在这个浏览器里。",
-    },
-    "lang": {"en": "Language", "zh": "语言"},
+    "now": {"en": "Applies now", "zh": "立刻生效"},
+    "tomorrow": {"en": "From tomorrow", "zh": "明天起生效"},
+    "both": {"en": "Filters now · generates from tomorrow", "zh": "今天筛选 · 明天起生成"},
+
+    "reading_h": {"en": "Reading", "zh": "阅读"},
+    "lang": {"en": "Language", "zh": "阅读语言"},
     "theme": {"en": "Appearance", "zh": "外观"},
     "theme_system": {"en": "Match device", "zh": "跟随系统"},
     "theme_light": {"en": "Light", "zh": "浅色"},
     "theme_dark": {"en": "Dark", "zh": "深色"},
-    "beats": {"en": "Show these beats", "zh": "显示这些板块"},
-    "regions": {"en": "Show these regions", "zh": "显示这些地区"},
-    "howmany": {"en": "Show at most", "zh": "最多显示"},
-    "stories": {"en": "stories", "zh": "条"},
+
+    "content_h": {"en": "What to cover", "zh": "内容范围"},
+    "content_n": {
+        "en": "These filter what you see right now. Once you paste the settings "
+              "below into your repository, tomorrow's edition is generated from "
+              "them too.",
+        "zh": "这几项会立刻筛选你现在看到的内容。把下面的配置粘贴回仓库之后，"
+              "从明天那期开始，新闻也会按它们生成。",
+    },
+    "beats": {"en": "Beats", "zh": "板块"},
+    "regions": {"en": "Regions", "zh": "地区"},
+    "howmany": {"en": "Stories a day", "zh": "每天几条"},
     "all": {"en": "All", "zh": "全选"},
     "none": {"en": "None", "zh": "全不选"},
-    "publish_h": {"en": "Publishing settings", "zh": "发布设置"},
+
+    "publish_h": {"en": "How the news is written", "zh": "新闻怎么写"},
     "publish_n": {
-        "en": "How the news is written — the child's age, how many stories are "
-              "produced, and what time each day's edition is built — is decided when "
-              "the edition is generated, not in your browser. Those live in the "
-              "repository's config.toml.",
-        "zh": "新闻怎么写——孩子的年龄、每天生成几条、每天几点出这一期——"
-              "是在生成那一刻决定的，不在你的浏览器里。这些设置在仓库的 config.toml 中。",
+        "en": "Today's edition was written before you opened this page, so these "
+              "cannot change what is on screen. They take effect from the next "
+              "edition.",
+        "zh": "今天这一期在你打开这个页面之前就已经写好了，所以这些设置改不了屏幕上的内容。"
+              "它们从下一期开始生效。",
     },
-    "publish_link": {"en": "Open the full setup form", "zh": "打开完整设置表单"},
+    "name": {"en": "Child's name", "zh": "孩子的名字"},
+    "name_ph": {"en": "optional", "zh": "可留空"},
+    "age": {"en": "Age", "zh": "年龄"},
+    "age_n": {
+        "en": "Sets sentence length, how much gets explained, and how hard the "
+              "dinner questions are — never how serious the news may be.",
+        "zh": "决定句子长短、要解释到什么程度、饭桌问题有多难——不会改变新闻本身可以有多严肃。",
+    },
+    "genlangs": {"en": "Write it in", "zh": "生成语言"},
+    "tz": {"en": "Time zone", "zh": "时区"},
+    "hour": {"en": "Published at", "zh": "更新时刻"},
+    "url": {"en": "Site address", "zh": "网站地址"},
+    "url_n": {
+        "en": "The QR code on the share image points here.",
+        "zh": "转发长图上的二维码指向这里。",
+    },
+
+    "out_h": {"en": "Your config.toml", "zh": "你的 config.toml"},
+    "out_n": {
+        "en": "Copy this, open config.toml in your repository, replace everything "
+              "with it, and commit. The next edition follows it.",
+        "zh": "复制它，打开仓库里的 config.toml，把内容整个替换掉并提交。下一期就会按它来。",
+    },
+    "copy": {"en": "Copy", "zh": "复制"},
+    "copied": {"en": "Copied.", "zh": "已复制。"},
+    "full_form": {"en": "Full page version", "zh": "完整页面版"},
+
     "save": {"en": "Save", "zh": "保存设置"},
-    "saved": {"en": "Saved.", "zh": "已保存。"},
+    "saved": {"en": "Saved on this device.", "zh": "已保存在这台设备。"},
     "reset": {"en": "Reset", "zh": "恢复默认"},
     "close": {"en": "Close", "zh": "关闭"},
 }
@@ -568,13 +602,17 @@ def _mb(key: str, langs: list) -> str:
     return "".join(f'<span class="l-{l}">{entry.get(l, entry["en"])}</span>' for l in langs)
 
 
-def render_modal(depth: int = 0) -> str:
-    """The settings dialog shown on a first visit and behind the gear.
+def _badge(key: str, langs: list, kind: str) -> str:
+    return f'<span class="badge {kind}">{_mb(key, langs)}</span>'
 
-    Deliberately split in two. Reading preferences act on the page immediately
-    and live in this browser; everything that decides how the news is written
-    happens when the edition is generated, so the dialog links out for those
-    rather than pretending a visitor can change them.
+
+def render_modal(depth: int = 0) -> str:
+    """The settings dialog: first visit, and behind the gear afterwards.
+
+    Everything a family can change is here, including the settings that decide
+    how the news is written. Those cannot alter the edition already on screen —
+    it was generated hours ago — so each group is badged with when it takes
+    effect, and the dialog ends with the config.toml to paste back.
     """
     import render_site
 
@@ -591,11 +629,24 @@ def render_modal(depth: int = 0) -> str:
             k: {"label": v["label"]}
             for k, v in appconfig.REGIONS.items() if k != "GLOBAL"
         },
-        "languages": [
-            {"code": l, "label": appconfig.LANGUAGES[l]} for l in langs
-        ],
-        "maxStories": appconfig.MAX_COUNT,
-        "defaultLang": langs[0],
+        "viewLanguages": [{"code": l, "label": appconfig.LANGUAGES[l]} for l in langs],
+        "allLanguages": [{"code": k, "label": v} for k, v in appconfig.LANGUAGES.items()],
+        "minCount": appconfig.MIN_COUNT,
+        "maxCount": appconfig.MAX_COUNT,
+        "minAge": appconfig.MIN_AGE,
+        "maxAge": appconfig.MAX_AGE,
+        "config": {
+            "lang": langs[0],
+            "name": cfg.child_name,
+            "age": cfg.age,
+            "count": cfg.count,
+            "beats": cfg.categories,
+            "regions": cfg.regions,
+            "langs": langs,
+            "tz": cfg.timezone,
+            "hour": cfg.hour,
+            "siteUrl": cfg.site_url,
+        },
     }
 
     lang_row = ""
@@ -615,13 +666,17 @@ def render_modal(depth: int = 0) -> str:
   <p class="m-welcome" id="mWelcome" hidden>{_mb('welcome', langs)}</p>
 
   <section class="m-section">
-    <h3>{_mb('reading_h', langs)}</h3>
-    <p class="m-note">{_mb('reading_n', langs)}</p>
+    <h3>{_mb('reading_h', langs)} {_badge('now', langs, 'now')}</h3>
     {lang_row}
     <div class="m-field">
       <p class="m-label">{_mb('theme', langs)}</p>
       <div class="seg" id="prefTheme"></div>
     </div>
+  </section>
+
+  <section class="m-section">
+    <h3>{_mb('content_h', langs)} {_badge('both', langs, 'both')}</h3>
+    <p class="m-note">{_mb('content_n', langs)}</p>
     <div class="m-field">
       <p class="m-label">{_mb('beats', langs)}
         <span class="m-bulk"><button type="button" data-bulk="beats" data-on="1">{_mb('all', langs)}</button>
@@ -637,16 +692,53 @@ def render_modal(depth: int = 0) -> str:
       <div class="chips" id="prefRegions"></div>
     </div>
     <div class="m-field">
-      <p class="m-label">{_mb('howmany', langs)}
-        <output class="pill" id="prefCountOut"></output> {_mb('stories', langs)}</p>
-      <input type="range" id="prefCount" min="1" max="{appconfig.MAX_COUNT}" value="{appconfig.MAX_COUNT}">
+      <p class="m-label">{_mb('howmany', langs)} <output class="pill" id="prefCountOut"></output></p>
+      <input type="range" id="prefCount" min="{appconfig.MIN_COUNT}" max="{appconfig.MAX_COUNT}">
     </div>
   </section>
 
-  <section class="m-section m-publish">
-    <h3>{_mb('publish_h', langs)}</h3>
+  <section class="m-section">
+    <h3>{_mb('publish_h', langs)} {_badge('tomorrow', langs, 'later')}</h3>
     <p class="m-note">{_mb('publish_n', langs)}</p>
-    <a class="btn" href="{prefix}setup.html">{_mb('publish_link', langs)}</a>
+    <div class="m-field">
+      <p class="m-label">{_mb('name', langs)}</p>
+      <input type="text" id="prefName" placeholder="{MODAL_TEXT['name_ph'][langs[0]]}">
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('age', langs)} <output class="pill" id="prefAgeOut"></output></p>
+      <input type="range" id="prefAge" min="{appconfig.MIN_AGE}" max="{appconfig.MAX_AGE}">
+      <p class="m-sub">{_mb('age_n', langs)}</p>
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('genlangs', langs)}</p>
+      <div class="chips" id="prefGenLangs"></div>
+    </div>
+    <div class="m-field m-two">
+      <div>
+        <p class="m-label">{_mb('tz', langs)}</p>
+        <select id="prefTz"></select>
+      </div>
+      <div>
+        <p class="m-label">{_mb('hour', langs)}</p>
+        <select id="prefHour"></select>
+      </div>
+    </div>
+    <div class="m-field">
+      <p class="m-label">{_mb('url', langs)}</p>
+      <input type="text" id="prefUrl" placeholder="https://yourname.github.io/your-repo/">
+      <p class="m-sub">{_mb('url_n', langs)}</p>
+    </div>
+  </section>
+
+  <section class="m-section">
+    <h3>{_mb('out_h', langs)}</h3>
+    <p class="m-note">{_mb('out_n', langs)}</p>
+    <div class="outbar">
+      <button type="button" class="copy" id="prefCopy">{_mb('copy', langs)}</button>
+      <a class="btn" href="{prefix}setup.html">{_mb('full_form', langs)}</a>
+      <span class="m-status" id="prefCopyStatus"></span>
+    </div>
+    <pre class="out" id="prefToml"></pre>
   </section>
 
   <div class="m-actions">
@@ -656,6 +748,5 @@ def render_modal(depth: int = 0) -> str:
   </div>
 
   <script type="application/json" id="prefs-catalogue">{json.dumps(catalogue, ensure_ascii=False)}</script>
-  <script type="application/json" id="prefs-strings">{json.dumps(
-      {k: v for k, v in MODAL_TEXT.items()}, ensure_ascii=False)}</script>
+  <script type="application/json" id="prefs-strings">{json.dumps(MODAL_TEXT, ensure_ascii=False)}</script>
 </dialog>"""
