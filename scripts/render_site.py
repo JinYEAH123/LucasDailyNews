@@ -367,7 +367,7 @@ def lang_buttons() -> str:
     )
 
 
-def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=None) -> str:
+def masthead(date_str, window_label, depth, is_archive, show_nav=True, posters=None) -> str:
     prefix = "../" * depth
     home, archive = f"{prefix}index.html", f"{prefix}archive.html"
 
@@ -380,8 +380,14 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
     if show_nav:
         nav = (f'<a class="btn" href="{home}">{label("today")}</a>' if is_archive
                else f'<a class="btn" href="{archive}">{label("archive")}</a>')
-    if poster:
-        nav += f'<a class="btn" href="{poster}" target="_blank">{label("poster")}</a>'
+    # One link per language rather than one bilingual link: the poster is a
+    # different image in each language, so the href has to switch with the page,
+    # not just the button's wording.
+    for lang in LANGS:
+        href = (posters or {}).get(lang)
+        if href:
+            nav += (f'<a class="btn l-{lang}" href="{href}" target="_blank">'
+                    f'{e(LABELS["poster"][lang])}</a>')
 
     title_html = bilingual(appconfig.APP_NAME)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
@@ -406,11 +412,13 @@ def footer() -> str:
 def render_edition_page(edition: dict, depth: int) -> str:
     stories = sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99))
     date_str = edition.get("date", "")
-    poster = None
-    if (OUT / "posters" / f"{date_str}-{LANGS[0]}.png").exists():
-        poster = f'{"../" * depth}posters/{date_str}-{LANGS[0]}.png'
+    posters = {
+        lang: f'{"../" * depth}posters/{date_str}-{lang}.png'
+        for lang in LANGS
+        if (OUT / "posters" / f"{date_str}-{lang}.png").exists()
+    }
     body = (masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
-                     poster=poster)
+                     posters=posters)
             + band_bar()
             + "\n".join(render_story(s) for s in stories)
             + footer())
