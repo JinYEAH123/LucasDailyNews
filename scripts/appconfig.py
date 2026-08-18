@@ -22,8 +22,8 @@ CONFIG_PATH = ROOT / "config.toml"
 
 APP_NAME = {"en": "Daily News for Kids", "zh": "少年每日新闻"}
 SLOGAN = {
-    "en": "World news your child can actually read — and argue about.",
-    "zh": "孩子真正读得懂、还想争一争的每日世界新闻。",
+    "en": "World news worth arguing about.",
+    "zh": "世界新闻，值得争一争。",
 }
 
 LANGUAGES = {"en": "English", "zh": "中文"}
@@ -136,6 +136,25 @@ AGE_BANDS: dict[str, dict] = {
 DEFAULT_BAND = "12-15"
 
 MIN_AGE, MAX_AGE = 5, 18
+
+
+def tz_abbrev(cfg: "Config", when=None) -> str:
+    """The zone's abbreviation at a moment — PDT, PST, GMT, BST, CST, JST.
+
+    Taken from the moment rather than the zone, because half of them change
+    twice a year and a label that says PDT in December is simply wrong.
+    """
+    from datetime import datetime
+
+    moment = when or datetime.now(cfg.tz)
+    if moment.tzinfo is None:
+        moment = moment.replace(tzinfo=cfg.tz)
+    else:
+        # A fixed UTC offset (e.g. parsed from "...-07:00") carries no zone
+        # name, so strftime("%Z") would just echo the offset back. Re-anchor
+        # to the configured zone, which knows PDT from PST.
+        moment = moment.astimezone(cfg.tz)
+    return moment.strftime("%Z") or cfg.timezone.split("/")[-1].replace("_", " ")
 
 
 def band_for_age(age: int) -> str:

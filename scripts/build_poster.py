@@ -28,6 +28,8 @@ import os
 import sys
 from pathlib import Path
 
+from datetime import datetime
+
 import segno
 
 import appconfig
@@ -85,13 +87,13 @@ def app_slogan(lang: str) -> str:
     return appconfig.SLOGAN.get(lang, appconfig.SLOGAN["en"])
 
 
-def footer_line(lang: str, band: str) -> str:
+def footer_line(lang: str, band: str, when=None) -> str:
     """When the next one lands, and which reading level this image is."""
-    zone = CFG.timezone.split("/")[-1].replace("_", " ")
+    zone = appconfig.tz_abbrev(CFG, when)
     label = appconfig.band_label(band, lang)
     if lang == "zh":
-        return f"每天 {zone} 时间 {CFG.hour}:00 更新 · 本图为{label}版"
-    return f"Updated daily at {CFG.hour}:00 {zone} time · {label} edition"
+        return f"每天 {CFG.hour}:00 {zone} 更新 · 本图为{label}版"
+    return f"Updated daily at {CFG.hour}:00 {zone} · {label} edition"
 
 
 def pick(value: object, lang: str) -> str:
@@ -162,6 +164,14 @@ def build_html(edition: dict, lang: str, site_url: str, band: str) -> str:
     window = e(pick((edition.get("window") or {}).get("label"), lang))
     stories = sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99))
     target = f"{site_url.rstrip('/')}/editions/{date_str}.html"
+
+    # Use the edition's own moment so a rebuilt archive poster still says PST
+    # for a day in December rather than whatever is true today.
+    window_end = None
+    try:
+        window_end = datetime.fromisoformat((edition.get("window") or {})["end"])
+    except (KeyError, TypeError, ValueError):
+        pass
 
     serif = "'Fraunces','Iowan Old Style',Georgia,serif"
     sans = ("'Public Sans',-apple-system,'Segoe UI',Roboto,'Noto Sans SC',"
@@ -256,7 +266,7 @@ family=Noto+Sans+SC:wght@400;500;700&display=swap">
     <div class="panel">{qr_svg(target)}</div>
     <p>{e(scan_sub(lang, band))}</p>
   </div>
-  <p class="foot">{e(footer_line(lang, band))}</p>
+  <p class="foot">{e(footer_line(lang, band, window_end))}</p>
 </div></body></html>"""
 
 

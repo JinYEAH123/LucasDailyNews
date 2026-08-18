@@ -1,6 +1,6 @@
 # 少年每日新闻 · Daily News for Kids
 
-**孩子真正读得懂、还想争一争的每日世界新闻。**
+**世界新闻，值得争一争。**
 
 [English](README.md)
 

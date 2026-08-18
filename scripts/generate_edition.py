@@ -393,12 +393,12 @@ def build_edition(cfg, skeleton: dict, bands: dict, date_str: str, start, end) -
         story.pop("facts", None)
 
     label = {}
+    zone = appconfig.tz_abbrev(cfg, end)
     if "en" in cfg.languages:
-        zone = cfg.timezone.split("/")[-1].replace("_", " ")
         label["en"] = (f"News from {start:%A} {start:%-I:%M %p} to "
-                       f"{end:%A} {end:%-I:%M %p}, {zone} time")
+                       f"{end:%A} {end:%-I:%M %p} {zone}")
     if "zh" in cfg.languages:
-        label["zh"] = f"当地时间 {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
+        label["zh"] = f"{zone} {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
 
     return {
         "date": date_str,

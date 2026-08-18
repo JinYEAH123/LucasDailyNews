@@ -1,6 +1,6 @@
 # Daily News for Kids
 
-**World news your child can actually read — and argue about.**
+**World news worth arguing about.**
 
 [中文说明](README.zh.md)
 
