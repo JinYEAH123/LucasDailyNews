@@ -1,13 +1,11 @@
 name: Daily edition
 
-# Publishes at 5:00 PM Vancouver time, covering the previous 24 hours.
-# GitHub cron is UTC and does not follow daylight saving, so both candidate
-# hours fire and the job itself checks the local clock. Whichever run lands on
-# 5 PM Vancouver does the work; the other exits in a few seconds.
+# The publish time is a family setting (any zone, any hour), so there is no
+# fixed UTC moment to schedule. The job runs hourly and decides for itself
+# whether this is the hour — which also makes daylight saving a non-event.
 on:
   schedule:
-    - cron: '0 0 * * *'   # 17:00 Vancouver while PDT (UTC-7)
-    - cron: '0 1 * * *'   # 17:00 Vancouver while PST (UTC-8)
+    - cron: '0 * * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -33,41 +31,45 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Check the Vancouver clock
-        id: clock
-        run: |
-          hour=$(TZ=America/Vancouver date +%-H)
-          echo "Vancouver time is now $(TZ=America/Vancouver date)"
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "Manual run — proceeding."
-            echo "go=true" >> "$GITHUB_OUTPUT"
-          elif [ "$hour" -ge 17 ] && [ "$hour" -le 18 ]; then
-            # The window tolerates GitHub's cron delay, which can run to an hour.
-            echo "go=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Not the 5 PM run (hour=$hour) — skipping."
-            echo "go=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.clock.outputs.go == 'true'
 
-      - uses: actions/setup-python@v5
-        if: steps.clock.outputs.go == 'true'
-        with:
-          python-version: '3.12'
+      - name: Is this edition due?
+        id: due
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import sys, pathlib, datetime
+          sys.path.insert(0, "scripts")
+          import appconfig
+
+          cfg = appconfig.load()
+          now = datetime.datetime.now(cfg.tz)
+          date_str, _, _ = appconfig.resolve_window(cfg)
+          already = pathlib.Path(f"data/editions/{date_str}.json").exists()
+
+          # Due once the cutoff has passed and today's edition is still missing.
+          # Stating it that way makes the job self-healing: if the run at the
+          # cutoff hour is delayed or dropped — GitHub's scheduler makes no
+          # promises — the next hourly run picks the day up instead of losing it.
+          due = now.hour >= cfg.hour and not already
+
+          print(f"go={'true' if due else 'false'}")
+          print(f"date={date_str}")
+          print(f"local={now:%Y-%m-%d %H:%M} {cfg.timezone}", file=sys.stderr)
+          print(f"cutoff={cfg.hour:02d}:00  already_published={already}  due={due}",
+                file=sys.stderr)
+          PY
 
       - name: Install dependencies
-        if: steps.clock.outputs.go == 'true'
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           pip install --quiet anthropic segno playwright opencv-python-headless
           playwright install --with-deps chromium
-          # Chromium ships no CJK glyphs; without these the Chinese poster
-          # renders as tofu boxes and nobody notices until it is posted.
+          # Chromium ships no CJK glyphs; without these a Chinese poster renders
+          # as tofu boxes and nobody notices until it is posted.
           sudo apt-get install -y --no-install-recommends fonts-noto-cjk
 
-      - name: Generate today's edition
-        if: steps.clock.outputs.go == 'true'
+      - name: Generate the edition
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -75,17 +77,15 @@ jobs:
             ${{ inputs.date && format('--date {0}', inputs.date) || '' }} \
             ${{ inputs.force && '--force' || '' }}
 
-      # Before render_site, so the edition page can link to the finished image.
+      # Before render_site, so the edition page can link the finished image.
       - name: Build the share images
-        if: steps.clock.outputs.go == 'true'
-        env:
-          SITE_URL: ${{ vars.SITE_URL }}
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           python3 scripts/build_poster.py --both \
             ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
 
       - name: Render the site
-        if: steps.clock.outputs.go == 'true'
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         run: python3 scripts/render_site.py
 
       # Allowed to fail without losing the edition: the commit step below still
@@ -93,7 +93,9 @@ jobs:
       # failed at the very end so the red run is still visible.
       - name: Send the newsletter
         id: send
-        if: steps.clock.outputs.go == 'true' && !inputs.skip_email
+        if: >-
+          (steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch')
+          && !inputs.skip_email
         continue-on-error: true
         env:
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
@@ -102,7 +104,6 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           SMTP_FROM: ${{ secrets.SMTP_FROM }}
           NEWSLETTER_RECIPIENTS: ${{ secrets.NEWSLETTER_RECIPIENTS }}
-          SITE_URL: ${{ vars.SITE_URL }}
         run: |
           if [ -z "${SMTP_HOST}" ] || [ -z "${NEWSLETTER_RECIPIENTS}" ]; then
             echo "Email is not configured yet — skipping. See the README to set it up."
@@ -111,16 +112,16 @@ jobs:
           python3 scripts/send_newsletter.py ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
 
       - name: Commit and push
-        if: steps.clock.outputs.go == 'true'
+        if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          git config user.name  "lucas-daily-news[bot]"
+          git config user.name  "daily-news-for-kids[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs
           if git diff --cached --quiet; then
             echo "Nothing changed — the edition was already published."
             exit 0
           fi
-          git commit -m "Edition for $(TZ=America/Vancouver date +%Y-%m-%d)"
+          git commit -m "Edition for ${{ steps.due.outputs.date }}"
           for attempt in 1 2 3 4; do
             git pull --rebase origin "${GITHUB_REF_NAME}" && \
               git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0

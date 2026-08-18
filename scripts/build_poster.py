@@ -30,13 +30,14 @@ from pathlib import Path
 
 import segno
 
+import appconfig
 import render_site as site
 
 ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 POSTER_DIR = ROOT / "docs" / "posters"
 
-DEFAULT_SITE_URL = "https://jinyeah123.github.io/LucasDailyNews/"
+CFG = appconfig.load()
 
 # Poster geometry. 750 CSS px at 2x gives a 1500 px wide PNG — sharp on a phone
 # and well inside what WeChat will show without re-compressing to mush.
@@ -54,34 +55,42 @@ C = {
     "chrome": "#26343b",
 }
 
-BEAT = {
-    "politics": ("#a4243b", "#fbeef0"),
-    "society": ("#1a6b4a", "#eaf4ef"),
-    "business": ("#8a5a0f", "#f8f0e2"),
-    "tech": ("#4b3ba8", "#eeecfa"),
-}
+BEAT = appconfig.beat_colors("light")
 
 T = {
-    "title": {"en": "Lucas Daily News", "zh": "Lucas 每日新闻"},
-    "tagline": {"en": "Three stories that mattered today", "zh": "今天值得知道的三条新闻"},
     "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
     "scan": {"en": "Scan to read the whole thing", "zh": "扫码读完整版"},
-    "scan_sub": {
-        "en": "The full rewrite for a 12-year-old, words worth knowing, background "
-              "and further reading, videos — and the case for both sides of every "
-              "question above.",
-        "zh": "为12岁读者改写的完整正文、值得记住的词、背景阅读与延展阅读、视频，"
-              "以及上面每个问题正反两方的说法。",
-    },
-    "footer": {
-        "en": "Updated every day at 5:00 PM Vancouver time · English and Chinese",
-        "zh": "每天温哥华时间下午 5 点更新 · 中英双语",
-    },
 }
 
 
 def t(key: str, lang: str) -> str:
     return T[key][lang]
+
+
+def scan_sub(lang: str) -> str:
+    if lang == "zh":
+        return (f"为{CFG.age}岁读者改写的完整正文、值得记住的词、背景阅读与延展阅读、"
+                "视频，以及上面每个问题正反两方的说法。")
+    return (f"The full rewrite for a {CFG.age}-year-old, words worth knowing, "
+            "background and further reading, videos — and the case for both sides "
+            "of every question above.")
+
+
+def app_title(lang: str) -> str:
+    return appconfig.APP_NAME.get(lang, appconfig.APP_NAME["en"])
+
+
+def app_slogan(lang: str) -> str:
+    return appconfig.SLOGAN.get(lang, appconfig.SLOGAN["en"])
+
+
+def footer_line(lang: str) -> str:
+    """Says when the next one lands and in which languages, from the settings."""
+    zone = CFG.timezone.split("/")[-1].replace("_", " ")
+    langs = " / ".join(appconfig.LANGUAGES[l] for l in CFG.languages)
+    if lang == "zh":
+        return f"每天 {zone} 时间 {CFG.hour}:00 更新 · {langs}"
+    return f"Updated daily at {CFG.hour}:00 {zone} time · {langs}"
 
 
 def pick(value: object, lang: str) -> str:
@@ -116,8 +125,8 @@ def qr_svg(url: str) -> str:
 def story_block(story: dict, lang: str) -> str:
     cat = story.get("category", "politics")
     accent, tint = BEAT.get(cat, BEAT["politics"])
-    cat_name = e(pick(site.CATEGORIES.get(cat, {}), lang))
-    region = e(pick(site.REGIONS.get(story.get("region", "GLOBAL"), {}), lang))
+    cat_name = e(appconfig.category_label(cat, lang))
+    region = e(appconfig.region_label(story.get("region", "GLOBAL"), lang))
 
     questions = story.get("talk_about_it")
     talk = ""
@@ -234,8 +243,8 @@ family=Noto+Sans+SC:wght@400;500;700&display=swap">
 </style></head>
 <body><div class="sheet">
   <header class="masthead">
-    <h1>{e(t('title', lang))}</h1>
-    <p class="tagline">{e(t('tagline', lang))}</p>
+    <h1>{e(app_title(lang))}</h1>
+    <p class="tagline">{e(app_slogan(lang))}</p>
     <p class="date">{pretty}</p>
     <p class="window">{window}</p>
   </header>
@@ -243,9 +252,9 @@ family=Noto+Sans+SC:wght@400;500;700&display=swap">
   <div class="qr">
     <h3>{e(t('scan', lang))}</h3>
     <div class="panel">{qr_svg(target)}</div>
-    <p>{e(t('scan_sub', lang))}</p>
+    <p>{e(scan_sub(lang))}</p>
   </div>
-  <p class="foot">{e(t('footer', lang))}</p>
+  <p class="foot">{e(footer_line(lang))}</p>
 </div></body></html>"""
 
 
@@ -314,7 +323,7 @@ def verify_qr(png_path: Path, expected: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Render an edition as a WeChat long image.")
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
-    ap.add_argument("--lang", choices=["en", "zh"], default="zh")
+    ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language)
     ap.add_argument("--both", action="store_true", help="Render both languages.")
     ap.add_argument("--out-dir", default=str(POSTER_DIR))
     ap.add_argument("--keep-html", action="store_true", help="Keep the intermediate HTML.")
@@ -331,14 +340,14 @@ def main() -> None:
         path = available[-1]
 
     edition = json.loads(path.read_text(encoding="utf-8"))
-    site_url = os.environ.get("SITE_URL", DEFAULT_SITE_URL)
+    site_url = os.environ.get("SITE_URL") or CFG.site_url
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     target = f"{site_url.rstrip('/')}/editions/{edition['date']}.html"
 
-    for lang in (["zh", "en"] if args.both else [args.lang]):
+    for lang in (list(CFG.languages) if args.both else [args.lang]):
         out = out_dir / f"{edition['date']}-{lang}.png"
         w, h = render_png(build_html(edition, lang, site_url), out, args.keep_html)
         size_kb = out.stat().st_size / 1024

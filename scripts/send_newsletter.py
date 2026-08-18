@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Email one edition of Lucas Daily News to the subscriber list.
+"""Email one edition of Daily News for Kids to the subscriber list.
 
 Reads data/editions/<date>.json and sends a multipart (plain text + HTML) email
 over SMTP. The HTML is built separately from the website's: mail clients do not
@@ -7,7 +7,7 @@ support <details>, CSS variables, flexbox, or web fonts, so this renderer uses
 tables and inline styles only.
 
 The dinner questions are included, but the two-sided hints deliberately are not
-— they stay on the website behind a fold so Lucas answers before he reads
+— they stay on the website behind a fold so the child answers before reading
 anyone else's arguments. Each story links to its page for them.
 
 Configuration, all through the environment so no address is ever committed:
@@ -18,9 +18,10 @@ Configuration, all through the environment so no address is ever committed:
     SMTP_PASSWORD          an app password, never the account password
     SMTP_FROM              From address (defaults to SMTP_USER; Gmail rewrites
                            anything that is not the authenticated account)
-    SMTP_FROM_NAME         display name (default "Lucas Daily News")
+    SMTP_FROM_NAME         display name (default "Daily News for Kids")
     NEWSLETTER_RECIPIENTS  comma- or newline-separated. "addr" or "addr:lang",
-                           where lang is en or zh. Default en.
+                           where lang is en or zh. Defaults to the first
+                           language in config.toml.
                            e.g. "lucas@x.com:en, mum@x.com:zh"
     SITE_URL               where the site is published, used for the links out
 
@@ -44,16 +45,15 @@ from datetime import datetime
 from email.message import EmailMessage
 from email.utils import formataddr, formatdate, make_msgid
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
+import appconfig
 import render_site as site
 
 ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 SENT_LOG = ROOT / "data" / "sent.json"
 
-VANCOUVER = ZoneInfo("America/Vancouver")
-DEFAULT_SITE_URL = "https://jinyeah123.github.io/LucasDailyNews/"
+CFG = appconfig.load()
 
 # Light palette only. Mail clients apply their own dark-mode transforms and
 # there is no reliable way to opt out, so these are chosen to survive inversion.
@@ -68,20 +68,13 @@ C = {
     "chrome": "#26343b",
 }
 
-BEAT = {
-    "politics": ("#a4243b", "#fbeef0"),
-    "society": ("#1a6b4a", "#eaf4ef"),
-    "business": ("#8a5a0f", "#f8f0e2"),
-    "tech": ("#4b3ba8", "#eeecfa"),
-}
+BEAT = appconfig.beat_colors("light")
 
 SERIF = "Georgia,'Iowan Old Style','Times New Roman',serif"
 SANS = ("-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',"
         "Arial,'PingFang SC','Microsoft YaHei',sans-serif")
 
 T = {
-    "subject_prefix": {"en": "Lucas Daily News", "zh": "Lucas 每日新闻"},
-    "tagline": {"en": "Three stories that mattered today", "zh": "今天值得知道的三条新闻"},
     "why": {"en": "Why this matters", "zh": "为什么重要"},
     "words": {"en": "Words worth knowing", "zh": "值得记住的词"},
     "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
@@ -96,17 +89,27 @@ T = {
     "source": {"en": "Main source", "zh": "主要来源"},
     "read_online": {"en": "Read this online", "zh": "在网页上读"},
     "archive": {"en": "Past editions", "zh": "往期"},
-    "footer": {
-        "en": "Sent from Lucas's own news repository. To add or remove a reader, "
-              "edit the NEWSLETTER_RECIPIENTS secret in the repository settings.",
-        "zh": "本邮件由 Lucas 自己的新闻仓库发出。要增减收件人，"
-              "请修改仓库设置里的 NEWSLETTER_RECIPIENTS。",
-    },
 }
 
 
 def t(key: str, lang: str) -> str:
     return T[key][lang]
+
+
+def footer_line(lang: str) -> str:
+    if lang == "zh":
+        return ("本邮件由你自己的新闻仓库发出。要增减收件人，"
+                "请修改仓库设置里的 NEWSLETTER_RECIPIENTS。")
+    return ("Sent from your own news repository. To add or remove a reader, edit "
+            "the NEWSLETTER_RECIPIENTS secret in the repository settings.")
+
+
+def app_title(lang: str) -> str:
+    return appconfig.APP_NAME.get(lang, appconfig.APP_NAME["en"])
+
+
+def app_slogan(lang: str) -> str:
+    return appconfig.SLOGAN.get(lang, appconfig.SLOGAN["en"])
 
 
 def pick(value: object, lang: str) -> str:
@@ -171,8 +174,8 @@ def reading_block(items: list, heading: str, accent: str, lang: str) -> str:
 def story_html(story: dict, lang: str, story_url: str) -> str:
     cat = story.get("category", "politics")
     accent, tint = BEAT.get(cat, BEAT["politics"])
-    cat_name = e(pick(site.CATEGORIES.get(cat, {}), lang))
-    region = e(pick(site.REGIONS.get(story.get("region", "GLOBAL"), {}), lang))
+    cat_name = e(appconfig.category_label(cat, lang))
+    region = e(appconfig.region_label(story.get("region", "GLOBAL"), lang))
 
     body = "".join(
         f'<p style="margin:0 0 12px;font:400 15px/1.65 {SANS};color:{C["ink"]}">{e(p)}</p>'
@@ -190,7 +193,7 @@ def story_html(story: dict, lang: str, story_url: str) -> str:
         words = section_label(t("words", lang), accent) + rows
 
     # Questions only. The two-sided hints live behind a fold on the website so
-    # that Lucas commits to a view before he reads anyone else's arguments.
+    # the child commits to a view before reading anyone else's arguments.
     talk = ""
     questions = story.get("talk_about_it")
     if isinstance(questions, list) and questions:
@@ -289,7 +292,7 @@ def build_html(edition: dict, lang: str, site_url: str) -> str:
     return f"""<!doctype html>
 <html lang="{lang}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{e(t('subject_prefix', lang))} — {e(pretty)}</title></head>
+<title>{e(app_title(lang))} — {e(pretty)}</title></head>
 <body style="margin:0;padding:0;background:{C['paper']}">
 <div style="display:none;font-size:1px;color:{C['paper']};max-height:0;overflow:hidden">{preheader}</div>
 <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%"
@@ -299,9 +302,9 @@ def build_html(edition: dict, lang: str, site_url: str) -> str:
       style="width:100%;max-width:600px">
       <tr><td align="center" style="padding:0 0 22px;border-bottom:1px solid {C['rule']}">
         <h1 style="margin:0 0 4px;font:700 30px/1.1 {SERIF};color:{C['ink']}">
-          {e(t('subject_prefix', lang))}</h1>
+          {e(app_title(lang))}</h1>
         <p style="margin:0 0 10px;font:600 11px/1.4 {SANS};letter-spacing:.16em;
-          text-transform:uppercase;color:{C['ink_faint']}">{e(t('tagline', lang))}</p>
+          text-transform:uppercase;color:{C['ink_faint']}">{e(app_slogan(lang))}</p>
         <p style="margin:0;font:700 14px/1.5 {SANS};color:{C['ink']}">{e(pretty)}</p>
         <p style="margin:0;font:400 13px/1.5 {SANS};color:{C['ink_soft']}">{e(window)}</p>
       </td></tr>
@@ -313,7 +316,7 @@ def build_html(edition: dict, lang: str, site_url: str) -> str:
           {link(archive_url, e(t('archive', lang)), C['chrome'])}
         </p>
         <p style="margin:0;font:400 12px/1.6 {SANS};color:{C['ink_faint']}">
-          {e(t('footer', lang))}</p>
+          {e(footer_line(lang))}</p>
       </td></tr>
     </table>
   </td></tr>
@@ -329,14 +332,14 @@ def build_text(edition: dict, lang: str, site_url: str) -> str:
     story_url = f"{base}/editions/{date_str}.html"
 
     out = [
-        t("subject_prefix", lang),
+        app_title(lang),
         pick(site.pretty_date(date_str), lang),
         pick((edition.get("window") or {}).get("label"), lang),
         "",
     ]
 
     for story in sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99)):
-        cat = pick(site.CATEGORIES.get(story.get("category", ""), {}), lang)
+        cat = appconfig.category_label(story.get("category", ""), lang)
         out += [
             "=" * 60,
             f"{story.get('rank', '')}. [{cat}] {pick(story.get('headline'), lang)}",
@@ -382,7 +385,7 @@ def build_text(edition: dict, lang: str, site_url: str) -> str:
         if src.get("url"):
             out += [f"{t('source', lang)}: {src.get('title', '')} — {src['url']}", ""]
 
-    out += ["=" * 60, f"{t('read_online', lang)}: {story_url}", t("footer", lang)]
+    out += ["=" * 60, f"{t('read_online', lang)}: {story_url}", footer_line(lang)]
     return "\n".join(out)
 
 
@@ -395,7 +398,7 @@ def parse_recipients(raw: str) -> list:
         entry = chunk.strip()
         if not entry:
             continue
-        lang = "en"
+        lang = CFG.primary_language
         addr = entry
         # Split on the last colon so an address is never damaged by one.
         if ":" in entry:
@@ -421,7 +424,7 @@ def load_sent_log() -> dict:
 def record_sent(date_str: str, count: int) -> None:
     log = load_sent_log()
     log[date_str] = {
-        "sent_at": datetime.now(VANCOUVER).isoformat(timespec="seconds"),
+        "sent_at": datetime.now(CFG.tz).isoformat(timespec="seconds"),
         "recipients": count,
     }
     SENT_LOG.parent.mkdir(parents=True, exist_ok=True)
@@ -442,7 +445,7 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
 
     port = int(os.environ.get("SMTP_PORT", "587"))
     sender = os.environ.get("SMTP_FROM", user)
-    from_name = os.environ.get("SMTP_FROM_NAME", "Lucas Daily News")
+    from_name = os.environ.get("SMTP_FROM_NAME", appconfig.APP_NAME["en"])
 
     # Build one body per language, not per recipient.
     bodies = {}
@@ -465,7 +468,7 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
             text, html_body = bodies[lang]
             msg = EmailMessage()
             subject_date = pick(site.pretty_date(edition["date"]), lang)
-            msg["Subject"] = f"{t('subject_prefix', lang)} · {subject_date}"
+            msg["Subject"] = f"{app_title(lang)} · {subject_date}"
             msg["From"] = formataddr((from_name, sender))
             msg["To"] = addr
             msg["Date"] = formatdate(localtime=True)
@@ -483,11 +486,12 @@ def send(edition: dict, recipients: list, site_url: str) -> int:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Email one edition of Lucas Daily News.")
+    ap = argparse.ArgumentParser(description="Email one edition of Daily News for Kids.")
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
     ap.add_argument("--force", action="store_true", help="Send even if already sent.")
     ap.add_argument("--to", help="Send only to this address, ignoring the list.")
-    ap.add_argument("--lang", choices=["en", "zh"], default="en", help="Language for --to.")
+    ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language,
+                help="Language for --to.")
     ap.add_argument("--dry-run", metavar="FILE", help="Write the HTML to FILE, send nothing.")
     args = ap.parse_args()
 
@@ -503,7 +507,7 @@ def main() -> None:
 
     edition = json.loads(path.read_text(encoding="utf-8"))
     date_str = edition["date"]
-    site_url = os.environ.get("SITE_URL", DEFAULT_SITE_URL)
+    site_url = os.environ.get("SITE_URL") or CFG.site_url
 
     if args.dry_run:
         out = Path(args.dry_run)

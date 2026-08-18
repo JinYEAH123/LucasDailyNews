@@ -3,27 +3,86 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lucas Daily News — Archive</title>
-<meta name="description" content="Three stories that mattered today, written for a 12-year-old reader in Vancouver.">
+<title>Daily News for Kids — Archive</title>
+<meta name="description" content="World news your child can actually read — and argue about.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Public+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;700&display=swap">
 <link rel="stylesheet" href="assets/styles.css">
+<style>:root {
+  --politics: #a4243b; --politics-tint: #fbeef0;
+  --society: #1a6b4a; --society-tint: #eaf4ef;
+  --business: #8a5a0f; --business-tint: #f8f0e2;
+  --tech: #4b3ba8; --tech-tint: #eeecfa;
+  --science: #0f6a76; --science-tint: #e6f2f4;
+  --environment: #4a6b12; --environment-tint: #f0f4e4;
+  --sports: #b0511a; --sports-tint: #fceee5;
+  --arts: #9c2a7a; --arts-tint: #fbecf6;
+  --health: #1c5aa8; --health-tint: #e8f0fb;
+  --education: #6b4a1f; --education-tint: #f5efe6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --politics: #f0899c; --politics-tint: #2a171c;
+    --society: #5cc79b; --society-tint: #12251d;
+    --business: #dfae5c; --business-tint: #262013;
+    --tech: #a89bf7; --tech-tint: #1d1a2e;
+    --science: #5ec4d2; --science-tint: #10262a;
+    --environment: #a8c766; --environment-tint: #1c2412;
+    --sports: #f5a173; --sports-tint: #2c1a11;
+    --arts: #ef8fd0; --arts-tint: #2a1526;
+    --health: #85b3f0; --health-tint: #131f2e;
+    --education: #d4b183; --education-tint: #241c12;
+  }
+}
+:root[data-theme="dark"] {
+  --politics: #f0899c; --politics-tint: #2a171c;
+  --society: #5cc79b; --society-tint: #12251d;
+  --business: #dfae5c; --business-tint: #262013;
+  --tech: #a89bf7; --tech-tint: #1d1a2e;
+  --science: #5ec4d2; --science-tint: #10262a;
+  --environment: #a8c766; --environment-tint: #1c2412;
+  --sports: #f5a173; --sports-tint: #2c1a11;
+  --arts: #ef8fd0; --arts-tint: #2a1526;
+  --health: #85b3f0; --health-tint: #131f2e;
+  --education: #d4b183; --education-tint: #241c12;
+}
+.story.politics { --accent: var(--politics); --accent-tint: var(--politics-tint); }
+.archive-item .heads li.politics::before { background: var(--politics); }
+.story.society { --accent: var(--society); --accent-tint: var(--society-tint); }
+.archive-item .heads li.society::before { background: var(--society); }
+.story.business { --accent: var(--business); --accent-tint: var(--business-tint); }
+.archive-item .heads li.business::before { background: var(--business); }
+.story.tech { --accent: var(--tech); --accent-tint: var(--tech-tint); }
+.archive-item .heads li.tech::before { background: var(--tech); }
+.story.science { --accent: var(--science); --accent-tint: var(--science-tint); }
+.archive-item .heads li.science::before { background: var(--science); }
+.story.environment { --accent: var(--environment); --accent-tint: var(--environment-tint); }
+.archive-item .heads li.environment::before { background: var(--environment); }
+.story.sports { --accent: var(--sports); --accent-tint: var(--sports-tint); }
+.archive-item .heads li.sports::before { background: var(--sports); }
+.story.arts { --accent: var(--arts); --accent-tint: var(--arts-tint); }
+.archive-item .heads li.arts::before { background: var(--arts); }
+.story.health { --accent: var(--health); --accent-tint: var(--health-tint); }
+.archive-item .heads li.health::before { background: var(--health); }
+.story.education { --accent: var(--education); --accent-tint: var(--education-tint); }
+.archive-item .heads li.education::before { background: var(--education); }
+</style>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>📰</text></svg>">
 </head>
 <body>
 <div class="wrap">
 <header class="masthead">
-  <h1><a href="index.html"><span class="l-en">Lucas Daily News</span><span class="l-zh">Lucas 每日新闻</span></a></h1>
-  <p class="tagline"><span class="l-en">Three stories that mattered today</span><span class="l-zh">今天值得知道的三条新闻</span></p>
+  <h1><a href="index.html"><span class="l-en">Daily News for Kids</span><span class="l-zh">少年每日新闻</span></a></h1>
+  <p class="tagline"><span class="l-en">World news your child can actually read — and argue about.</span><span class="l-zh">孩子真正读得懂、还想争一争的每日世界新闻。</span></p>
+  <p class="for-line"><span class="l-en">Made for</span><span class="l-zh">为</span> <strong>Lucas</strong><span class="l-en"></span><span class="l-zh"> 而做</span> · 12</p>
   
   <div class="controls">
-    <button type="button" data-lang-set="en" aria-pressed="true">English</button>
-    <button type="button" data-lang-set="zh" aria-pressed="false">中文</button>
+    <button type="button" data-lang-set="en" aria-pressed="true">English</button><button type="button" data-lang-set="zh" aria-pressed="false">中文</button>
     <button type="button" data-theme-toggle><span class="l-en">Light / Dark</span><span class="l-zh">浅色 / 深色</span></button>
     <a class="btn" href="index.html"><span class="l-en">Today</span><span class="l-zh">今日</span></a>
   </div>
-</header><h2 class="page-head"><span class="l-en">Every past edition</span><span class="l-zh">所有往期</span></h2><p class="hook"><span class="l-en">Newest first. Every edition covers the 24 hours ending at 5:00 PM Vancouver time.</span><span class="l-zh">从新到旧排列。每一期覆盖截至温哥华时间下午5点的24小时。</span></p><ul class="archive-list"><li class="year-head">2026</li><li class="archive-item"><a class="date" href="editions/2026-08-17.html"><span class="l-en">Monday, August 17, 2026</span><span class="l-zh">2026年8月17日 星期一</span></a><ul class="heads"><li class="politics"><span class="l-en">A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War</span><span class="l-zh">60天期限到了：美国和伊朗还没谈拢</span></li><li class="business"><span class="l-en">China&#x27;s Economy Is Slowing — but the Robot-and-Chip Part Is Booming</span><span class="l-zh">中国经济在放缓，但「机器人和芯片」那部分在猛涨</span></li><li class="tech"><span class="l-en">A Company Losing $14 Billion a Year May Be Worth $1 Trillion</span><span class="l-zh">一家一年亏140亿美元的公司，可能值1万亿美元</span></li></ul></li></ul><footer class="foot"><span class="l-en">Made for Lucas. Links open the original reporting — always check the source.</span><span class="l-zh">为 Lucas 而做。链接会打开原始报道——请随时核对来源。</span></footer>
+</header><h2 class="page-head"><span class="l-en">Every past edition</span><span class="l-zh">所有往期</span></h2><p class="hook"><span class="l-en">Newest first.</span><span class="l-zh">从新到旧排列。</span></p><ul class="archive-list"><li class="year-head">2026</li><li class="archive-item"><a class="date" href="editions/2026-08-17.html"><span class="l-en">Monday, August 17, 2026</span><span class="l-zh">2026年8月17日 星期一</span></a><ul class="heads"><li class="politics"><span class="l-en">A 60-Day Deadline Ran Out — and the U.S. and Iran Are Still at War</span><span class="l-zh">60天期限到了：美国和伊朗还没谈拢</span></li><li class="business"><span class="l-en">China&#x27;s Economy Is Slowing — but the Robot-and-Chip Part Is Booming</span><span class="l-zh">中国经济在放缓，但「机器人和芯片」那部分在猛涨</span></li><li class="tech"><span class="l-en">A Company Losing $14 Billion a Year May Be Worth $1 Trillion</span><span class="l-zh">一家一年亏140亿美元的公司，可能值1万亿美元</span></li></ul></li></ul><footer class="foot"><span class="l-en">Links open the original reporting — always check the source.</span><span class="l-zh">链接会打开原始报道——请随时核对来源。</span><br><a href="setup.html"><span class="l-en">Make your own</span><span class="l-zh">做一份自己的</span></a></footer>
 </div>
 <script src="assets/app.js"></script>
 </body>

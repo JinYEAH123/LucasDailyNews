@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-"""Generate one edition of Lucas Daily News and write it to data/editions/<date>.json.
+"""Generate one edition of Daily News for Kids into data/editions/<date>.json.
+
+Everything editorial — how many stories, which beats, which parts of the world,
+how the writing is pitched — comes from config.toml, so the same code serves a
+7-year-old who wants sports and space and a 16-year-old who wants markets.
 
 Two passes against the Claude API:
 
-  1. Research  — Claude uses the server-side web_search tool to read what global
-                 outlets published inside the edition window, then writes a brief.
-  2. Rewrite   — the brief is turned into strict JSON matching EDITION_SCHEMA,
-                 rewritten for a 12-year-old reader, in English and Chinese.
+  1. Research  — Claude uses the server-side web_search tool to read what the
+                 world's outlets published inside the edition window.
+  2. Rewrite   — the brief becomes strict JSON matching a schema built from the
+                 family's settings, rewritten for a child of the configured age.
 
 Splitting the passes keeps the searching turn free to run long (and to be
 resumed after `pause_turn`) while the JSON turn stays deterministic.
 
 Usage:
-    python3 scripts/generate_edition.py                 # edition for the current window
+    python3 scripts/generate_edition.py                 # current window
     python3 scripts/generate_edition.py --date 2026-08-16
-    python3 scripts/generate_edition.py --force         # overwrite an existing file
+    python3 scripts/generate_edition.py --force         # overwrite
     python3 scripts/generate_edition.py --dry-run       # print, don't write
 
 Requires ANTHROPIC_API_KEY (or an `ant auth login` profile) and `pip install anthropic`.
@@ -27,233 +31,244 @@ import json
 import sys
 from datetime import datetime, timedelta, time as dtime
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 import anthropic
+
+import appconfig
 
 ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 
-VANCOUVER = ZoneInfo("America/Vancouver")
-CUTOFF_HOUR = 17  # 5:00 PM, dinner time
-
 MODEL = "claude-opus-5"
+
 
 # --------------------------------------------------------------------------- schema
 
-def _pair(desc: str) -> dict:
-    return {
+def build_schema(cfg: appconfig.Config) -> dict:
+    """Build the output schema from the family's settings.
+
+    Only the configured languages are required, so a single-language family is
+    not billed for a translation nobody reads.
+    """
+    langs = cfg.languages
+
+    def pair(desc: str) -> dict:
+        return {
+            "type": "object",
+            "description": desc,
+            "properties": {l: {"type": "string"} for l in langs},
+            "required": list(langs),
+            "additionalProperties": False,
+        }
+
+    def pair_list(desc: str) -> dict:
+        return {
+            "type": "object",
+            "description": desc,
+            "properties": {
+                l: {"type": "array", "items": {"type": "string"}} for l in langs
+            },
+            "required": list(langs),
+            "additionalProperties": False,
+        }
+
+    reading_item = {
         "type": "object",
-        "description": desc,
         "properties": {
-            "en": {"type": "string"},
-            "zh": {"type": "string"},
+            "title": pair("Headline of the linked article."),
+            "summary": pair("Two sentences on what this adds and why they might click."),
+            "publisher": {"type": "string"},
+            "url": {"type": "string", "description": "Real URL from search results."},
         },
-        "required": ["en", "zh"],
+        "required": ["title", "summary", "publisher", "url"],
         "additionalProperties": False,
     }
 
+    profile = cfg.profile
 
-def _pair_list(desc: str) -> dict:
     return {
         "type": "object",
-        "description": desc,
         "properties": {
-            "en": {"type": "array", "items": {"type": "string"}},
-            "zh": {"type": "array", "items": {"type": "string"}},
-        },
-        "required": ["en", "zh"],
-        "additionalProperties": False,
-    }
-
-
-READING_ITEM = {
-    "type": "object",
-    "properties": {
-        "title": _pair("Headline of the linked article."),
-        "summary": _pair("Two sentences on what this article adds and why Lucas might click it."),
-        "publisher": {"type": "string"},
-        "url": {"type": "string", "description": "Real URL seen in search results. Never invented."},
-    },
-    "required": ["title", "summary", "publisher", "url"],
-    "additionalProperties": False,
-}
-
-EDITION_SCHEMA = {
-    "type": "object",
-    "properties": {
-        "stories": {
-            "type": "array",
-            "minItems": 3,
-            "maxItems": 3,
-            "items": {
-                "type": "object",
-                "properties": {
-                    "rank": {"type": "integer", "description": "1 is the most important."},
-                    "category": {"type": "string", "enum": ["politics", "society", "business", "tech"]},
-                    "region": {"type": "string", "enum": ["US", "CN", "GLOBAL"]},
-                    "headline": _pair("Punchy headline a 12-year-old wants to click. Not a label."),
-                    "hook": _pair("2-4 sentences: what happened, in plain language. The teaser."),
-                    "story": _pair_list(
-                        "4-6 short paragraphs rewriting the adult reporting for a curious "
-                        "12-year-old: concrete comparisons, no jargon left unexplained."
-                    ),
-                    "why_it_matters": _pair("2-3 sentences connecting the story to Lucas's own life."),
-                    "talk_about_it": {
-                        "type": "array",
-                        "minItems": 3,
-                        "maxItems": 3,
-                        "description": "The independent-thinking exercise. See EDITORIAL_POLICY.",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "question": _pair(
-                                    "An open question a thoughtful adult could answer either way. "
-                                    "Never a fact lookup, never a question with a correct answer."
-                                ),
-                                "sides": {
-                                    "type": "array",
-                                    "minItems": 2,
-                                    "maxItems": 2,
-                                    "items": {
-                                        "type": "object",
-                                        "properties": {
-                                            "label": _pair(
-                                                "Short name for this position, e.g. "
-                                                "'Yes — it did real work'."
-                                            ),
-                                            "points": _pair_list(
-                                                "The 3 strongest arguments for this position, "
-                                                "each one sentence."
-                                            ),
+            "stories": {
+                "type": "array",
+                "minItems": cfg.count,
+                "maxItems": cfg.count,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "rank": {"type": "integer", "description": "1 is most important."},
+                        "category": {"type": "string", "enum": list(cfg.categories)},
+                        "region": {
+                            "type": "string",
+                            "enum": list(cfg.regions) + ["GLOBAL"],
+                        },
+                        "headline": pair("A headline that makes them want to click."),
+                        "hook": pair("2-4 sentences: what happened, plainly. The teaser."),
+                        "story": pair_list(
+                            f"{profile['paragraphs']} rewriting the adult reporting. "
+                            f"{profile['sentences']}"
+                        ),
+                        "why_it_matters": pair(
+                            "2-3 sentences connecting the story to this child's own life."
+                        ),
+                        "talk_about_it": {
+                            "type": "array",
+                            "minItems": 3,
+                            "maxItems": 3,
+                            "description": "The thinking exercise. See EDITORIAL_POLICY.",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "question": pair(
+                                        "An open question answerable either way. "
+                                        "Never a fact lookup."
+                                    ),
+                                    "sides": {
+                                        "type": "array",
+                                        "minItems": 2,
+                                        "maxItems": 2,
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "label": pair("Short name for this position."),
+                                                "points": pair_list(
+                                                    "The 3 strongest arguments for it, "
+                                                    "one sentence each."
+                                                ),
+                                            },
+                                            "required": ["label", "points"],
+                                            "additionalProperties": False,
                                         },
-                                        "required": ["label", "points"],
-                                        "additionalProperties": False,
                                     },
                                 },
+                                "required": ["question", "sides"],
+                                "additionalProperties": False,
                             },
-                            "required": ["question", "sides"],
-                            "additionalProperties": False,
                         },
-                    },
-                    "word_bank": {
-                        "type": "array",
-                        "minItems": 2,
-                        "maxItems": 4,
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "term": _pair("The term as it appears in the news."),
-                                "def": _pair("One clear sentence a 12-year-old understands."),
+                        "word_bank": {
+                            "type": "array",
+                            "minItems": max(1, profile["words"] - 1),
+                            "maxItems": profile["words"] + 1,
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "term": pair("The term as it appears in the news."),
+                                    "def": pair("One clear sentence at this reading level."),
+                                },
+                                "required": ["term", "def"],
+                                "additionalProperties": False,
                             },
-                            "required": ["term", "def"],
-                            "additionalProperties": False,
                         },
-                    },
-                    "source": {
-                        "type": "object",
-                        "properties": {
-                            "title": {"type": "string"},
-                            "publisher": {"type": "string"},
-                            "url": {"type": "string"},
-                        },
-                        "required": ["title", "publisher", "url"],
-                        "additionalProperties": False,
-                    },
-                    "background": {
-                        "type": "array",
-                        "minItems": 1,
-                        "maxItems": 3,
-                        "items": READING_ITEM,
-                        "description": "Explainers for a reader who does not know the backstory yet.",
-                    },
-                    "further": {
-                        "type": "array",
-                        "minItems": 1,
-                        "maxItems": 3,
-                        "items": READING_ITEM,
-                        "description": "Where to go next once the basics are clear.",
-                    },
-                    "videos": {
-                        "type": "array",
-                        "maxItems": 2,
-                        "items": {
+                        "source": {
                             "type": "object",
                             "properties": {
                                 "title": {"type": "string"},
-                                "channel": {"type": "string"},
-                                "url": {"type": "string", "description": "Real YouTube URL from search results."},
-                                "summary": _pair("One sentence on what the video shows."),
+                                "publisher": {"type": "string"},
+                                "url": {"type": "string"},
                             },
-                            "required": ["title", "channel", "url", "summary"],
+                            "required": ["title", "publisher", "url"],
                             "additionalProperties": False,
                         },
-                        "description": "Leave empty rather than guessing a video URL.",
+                        "background": {
+                            "type": "array", "minItems": 1, "maxItems": 3,
+                            "items": reading_item,
+                            "description": "Explainers for someone new to the backstory.",
+                        },
+                        "further": {
+                            "type": "array", "minItems": 1, "maxItems": 3,
+                            "items": reading_item,
+                            "description": "Where to go once the basics are clear.",
+                        },
+                        "videos": {
+                            "type": "array", "maxItems": 2,
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "title": {"type": "string"},
+                                    "channel": {"type": "string"},
+                                    "url": {"type": "string"},
+                                    "summary": pair("One sentence on what it shows."),
+                                },
+                                "required": ["title", "channel", "url", "summary"],
+                                "additionalProperties": False,
+                            },
+                            "description": "Leave empty rather than guessing a URL.",
+                        },
                     },
+                    "required": [
+                        "rank", "category", "region", "headline", "hook", "story",
+                        "why_it_matters", "talk_about_it", "word_bank", "source",
+                        "background", "further", "videos",
+                    ],
+                    "additionalProperties": False,
                 },
-                "required": [
-                    "rank", "category", "region", "headline", "hook", "story",
-                    "why_it_matters", "talk_about_it", "word_bank", "source",
-                    "background", "further", "videos",
-                ],
-                "additionalProperties": False,
-            },
-        }
-    },
-    "required": ["stories"],
-    "additionalProperties": False,
-}
+            }
+        },
+        "required": ["stories"],
+        "additionalProperties": False,
+    }
+
 
 # --------------------------------------------------------------------------- prompts
 
-EDITORIAL_POLICY = """\
-You edit a daily news page for Lucas, a 12-year-old boy in Grade 7 who lives in
-Vancouver and reads it with his parents over dinner. His parents read Chinese.
+def editorial_policy(cfg: appconfig.Config) -> str:
+    p = cfg.profile
+    beats = ", ".join(
+        f"{k} ({cfg.label('category', k, 'en')})" for k in cfg.categories
+    )
+    places = ", ".join(cfg.label("region", r, "en") for r in cfg.regions)
+    who = f"a {cfg.age}-year-old" + (f" named {cfg.child_name}" if cfg.child_name else "")
+    langs = " and ".join(appconfig.LANGUAGES[l] for l in cfg.languages)
+    spread = min(len(cfg.categories), cfg.count)
 
-SELECTION — pick exactly 3 stories from the window, ranked by importance:
-- Draw them from four beats: politics, society, business/finance, and technology.
-  Three stories cannot cover four beats; pick the three that genuinely mattered
-  most, and prefer a spread of beats over three stories from one beat.
-- Focus on China and the United States. Cover another country or another beat
-  only when the event is big enough to lead world coverage anywhere — a major
-  war development, a Nobel Prize, a large disaster, a papal election.
+    return f"""\
+You edit a daily news page read by {who} and their parents, usually together.
+It is written in {langs}.
+
+SELECTION — pick exactly {cfg.count} stories from the window, ranked by importance:
+- Draw them only from these beats: {beats}.
+- Focus on these parts of the world: {places}. Cover somewhere else only when
+  the event is big enough to lead world coverage anywhere — a major war
+  development, a Nobel Prize, a large disaster, a papal election.
+- Spread the {cfg.count} across at least {spread} different beats when the
+  importance ranking allows it. Never fill a slot with a weak story just to
+  reach a beat; a genuinely important story outranks variety.
 - Importance means consequence, not drama: how many people it affects, how long
-  the effects last, whether it changes something structural. A celebrity story
-  is not a top-3 story. Crime and gore are not top-3 stories.
-- Do not pick three stories that are really the same story.
+  the effects last, whether it changes something structural. Celebrity gossip is
+  not a top story. Crime and gore are not top stories.
+- Do not pick several stories that are really the same story.
 
-WRITING — rewrite adult reporting so a bright 12-year-old wants to keep reading:
+WRITING — for a reader of {cfg.age}:
+- {p['voice']}
+- {p['sentences']}
 - Lead with the concrete thing that happened, never with abstraction.
-- Explain every piece of jargon the first time. Use comparisons he can picture,
-  and prefer local ones (distances near Vancouver, prices in a store, a school
-  analogy) over abstract scale.
-- Respect him. Do not moralize, do not talk down, do not add fake excitement.
+- Explain every piece of jargon the first time. Use comparisons they can
+  picture, and prefer ones from their own life over abstract scale.
+- Respect them. Do not moralise, do not talk down, do not add fake excitement.
   Real stakes are more interesting than exclamation marks.
 - Where adults disagree about what a fact means, say so and give both readings.
-  Never pretend a contested claim is settled.
-- Keep the Chinese natural — a fluent rewrite for a Chinese-reading parent, not
-  a word-by-word translation of the English.
+  Never present a contested claim as settled.
+- Keep every language natural in its own right — a fluent rewrite, never a
+  word-by-word translation of the English.
 
 THE THINKING EXERCISE — three dinner-table questions per story, each with the
 case for both sides. This is the part of the page that matters most, so treat it
-as the hardest thing you write, not as a footer:
+as the hardest thing you write:
 - A question qualifies only if a thoughtful, well-informed adult could genuinely
-  land on either side. If looking something up settles it, it is not a question —
-  it is a quiz, and it belongs nowhere on this page.
+  land on either side. If looking something up settles it, it is a quiz question
+  and belongs nowhere on this page.
+- {p['questions']}
 - Argue both sides at full strength. Give each its best three arguments, not two
   good ones and a weak one you plan to knock down. If one side comes out flimsy,
-  either you picked a bad question or you are not arguing it honestly — fix the
+  either the question is bad or you are not arguing it honestly — fix the
   question rather than shading the answer.
 - Never signal which side you favour: not in the order, not in the labels, not
-  by giving one side more or better-written points. Lucas must not be able to
-  reverse-engineer your opinion from the layout.
-- Keep each point to one sentence a 12-year-old can hold in his head, and prefer
-  arguments he could test against something he has actually seen.
-- Where a side's strongest argument is uncomfortable, make it anyway. A sanitised
-  case is a dishonest one.
+  by giving one side more or better-written points.
+- Where a side's strongest argument is uncomfortable, make it anyway. A
+  sanitised case is a dishonest one.
 
 LINKS — background reading (start here if you're new to this) and further
-reading (go deeper), each a title plus a short summary so he can decide before
+reading (go deeper), each a title plus a short summary so they can decide before
 clicking. Prefer outlets with different viewpoints. Add a YouTube video only if
 the search results actually surfaced a real one.
 
@@ -262,59 +277,65 @@ Never construct, guess, or repair a URL. An empty list beats an invented link.\
 """
 
 
-def research_prompt(window_start: datetime, window_end: datetime, date_str: str) -> str:
+def research_prompt(cfg: appconfig.Config, start: datetime, end: datetime, date_str: str) -> str:
+    beats = ", ".join(cfg.label("category", k, "en") for k in cfg.categories)
+    places = ", ".join(cfg.label("region", r, "en") for r in cfg.regions)
+    shortlist = cfg.count * 2 + 2
+
     return f"""\
 Today is {date_str}. Research the news for the edition covering:
 
-  {window_start:%A %B %d, %Y at %-I:%M %p} to {window_end:%A %B %d, %Y at %-I:%M %p} (Vancouver time)
+  {start:%A %B %d, %Y at %-I:%M %p} to {end:%A %B %d, %Y at %-I:%M %p} ({cfg.timezone})
 
-Search widely across major global outlets — American, Chinese, and international
-wire services and papers — for what was actually published in that window.
-Cover politics, society, business/finance, and technology, with China and the
-United States as the centre of gravity.
+Search widely across major outlets — wire services, national papers, and
+specialist press — for what was actually published in that window.
+Cover these beats: {beats}.
+Centre of gravity: {places}.
 
 Then write a research brief containing:
 
-1. A ranked shortlist of 6-8 candidate stories. For each: what happened, the
-   specific numbers and names involved, why it might matter, its beat, and its
-   country.
-2. Your pick of the top 3 with a sentence explaining each choice, and a sentence
-   on what you left out and why.
-3. For each of the top 3: the main source URL, 2-3 candidate background/further
-   reading URLs from different outlets, and any real YouTube explainer you found.
+1. A ranked shortlist of about {shortlist} candidate stories. For each: what
+   happened, the specific numbers and names, why it might matter, its beat, and
+   its region.
+2. Your pick of the top {cfg.count}, a sentence explaining each choice, and a
+   sentence on what you left out and why.
+3. For each pick: the main source URL, 2-3 candidate background/further reading
+   URLs from different outlets, and any real YouTube explainer you found.
 
-Paste URLs exactly as they appeared in search results. Note anything that is
-disputed or still unconfirmed — that matters more than completeness."""
+Paste URLs exactly as they appeared in search results. Note anything disputed or
+still unconfirmed — that matters more than completeness."""
 
 
-def rewrite_prompt(brief: str, window_start: datetime, window_end: datetime) -> str:
+def rewrite_prompt(cfg: appconfig.Config, brief: str, start: datetime, end: datetime) -> str:
     return f"""\
-Here is today's research brief for the window {window_start:%b %d %-I:%M %p} –
-{window_end:%b %d %-I:%M %p} Vancouver time.
+Here is today's research brief for the window {start:%b %d %-I:%M %p} –
+{end:%b %d %-I:%M %p} ({cfg.timezone}).
 
 <brief>
 {brief}
 </brief>
 
-Turn the top 3 into the edition JSON. Rank 1 is the most important story.
+Turn the top {cfg.count} into the edition JSON. Rank 1 is the most important.
 Use only URLs that appear in the brief."""
 
 
 # --------------------------------------------------------------------------- window
 
-def resolve_window(date_str: str | None, now: datetime | None = None) -> tuple[str, datetime, datetime]:
-    """Return (edition_date, window_start, window_end) in Vancouver time.
+def resolve_window(cfg: appconfig.Config, date_str: str | None,
+                   now: datetime | None = None) -> tuple:
+    """Return (edition_date, window_start, window_end) in the family's zone.
 
-    The edition dated D covers D-1 5:00 PM through D 5:00 PM. Before 5:00 PM
-    local, the newest *complete* edition is still yesterday's.
+    The edition dated D covers D-1 at the cutoff hour through D at the cutoff
+    hour. Before the cutoff, the newest complete edition is still yesterday's.
     """
+    tz = cfg.tz
     if date_str:
         day = datetime.strptime(date_str, "%Y-%m-%d").date()
     else:
-        now = now or datetime.now(VANCOUVER)
-        day = now.date() if now.hour >= CUTOFF_HOUR else (now - timedelta(days=1)).date()
+        now = now or datetime.now(tz)
+        day = now.date() if now.hour >= cfg.hour else (now - timedelta(days=1)).date()
 
-    end = datetime.combine(day, dtime(CUTOFF_HOUR, 0), tzinfo=VANCOUVER)
+    end = datetime.combine(day, dtime(cfg.hour, 0), tzinfo=tz)
     return day.isoformat(), end - timedelta(days=1), end
 
 
@@ -324,16 +345,17 @@ def _text_of(message) -> str:
     return "\n".join(b.text for b in message.content if b.type == "text").strip()
 
 
-def research(client: anthropic.Anthropic, prompt: str, max_restarts: int = 4) -> str:
+def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     """Pass 1 — search the web and return the brief. Resumes across pause_turn."""
     messages = [{"role": "user", "content": prompt}]
-    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
+    tools = [{"type": "web_search_20260209", "name": "web_search",
+              "max_uses": min(40, 10 + cfg.count * 4)}]
 
     for attempt in range(max_restarts + 1):
         with client.messages.stream(
             model=MODEL,
             max_tokens=32000,
-            system=EDITORIAL_POLICY,
+            system=editorial_policy(cfg),
             thinking={"type": "adaptive"},
             output_config={"effort": "high"},
             tools=tools,
@@ -351,23 +373,22 @@ def research(client: anthropic.Anthropic, prompt: str, max_restarts: int = 4) ->
                 raise SystemExit("Research turn produced no text.")
             return brief
 
-        # Server tool hit its per-turn ceiling — hand the paused turn back to continue.
         messages.append({"role": "assistant", "content": message.content})
         print(f"  research paused, resuming ({attempt + 1}/{max_restarts})", file=sys.stderr)
 
     raise SystemExit("Research turn never finished — still paused after max restarts.")
 
 
-def rewrite(client: anthropic.Anthropic, prompt: str) -> dict:
+def rewrite(client, cfg, prompt: str) -> dict:
     """Pass 2 — turn the brief into schema-valid JSON. No tools, so no pause_turn."""
     with client.messages.stream(
         model=MODEL,
-        max_tokens=32000,
-        system=EDITORIAL_POLICY,
+        max_tokens=64000,
+        system=editorial_policy(cfg),
         thinking={"type": "adaptive"},
         output_config={
             "effort": "high",
-            "format": {"type": "json_schema", "schema": EDITION_SCHEMA},
+            "format": {"type": "json_schema", "schema": build_schema(cfg)},
         },
         messages=[{"role": "user", "content": prompt}],
     ) as stream:
@@ -382,7 +403,17 @@ def rewrite(client: anthropic.Anthropic, prompt: str) -> dict:
 
 # --------------------------------------------------------------------------- main
 
-def build_edition(payload: dict, date_str: str, start: datetime, end: datetime) -> dict:
+def window_label(cfg: appconfig.Config, start: datetime, end: datetime) -> dict:
+    labels = {}
+    if "en" in cfg.languages:
+        labels["en"] = (f"News from {start:%A} {start:%-I:%M %p} to "
+                        f"{end:%A} {end:%-I:%M %p}, {cfg.timezone.split('/')[-1].replace('_', ' ')} time")
+    if "zh" in cfg.languages:
+        labels["zh"] = f"当地时间 {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
+    return labels
+
+
+def build_edition(cfg, payload: dict, date_str: str, start: datetime, end: datetime) -> dict:
     stories = sorted(payload["stories"], key=lambda s: s.get("rank", 99))
     for i, story in enumerate(stories, 1):
         story["rank"] = i
@@ -391,43 +422,53 @@ def build_edition(payload: dict, date_str: str, start: datetime, end: datetime) 
         "window": {
             "start": start.isoformat(),
             "end": end.isoformat(),
-            "label": {
-                "en": f"News from {start:%A} {start:%-I:%M %p} to {end:%A} {end:%-I:%M %p}, Vancouver time",
-                "zh": f"温哥华时间 {start:%-m月%-d日} 下午5点 至 {end:%-m月%-d日} 下午5点",
-            },
+            "label": window_label(cfg, start, end),
         },
-        "generated_at": datetime.now(VANCOUVER).isoformat(timespec="seconds"),
+        "generated_at": datetime.now(cfg.tz).isoformat(timespec="seconds"),
         "generator": f"{MODEL} (web search + rewrite)",
+        # Recorded so an old edition still renders after the settings change.
+        "settings": {
+            "age": cfg.age,
+            "count": cfg.count,
+            "categories": cfg.categories,
+            "regions": cfg.regions,
+            "languages": cfg.languages,
+            "timezone": cfg.timezone,
+            "hour": cfg.hour,
+        },
         "stories": stories,
     }
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Generate one Lucas Daily News edition.")
+    ap = argparse.ArgumentParser(description="Generate one edition.")
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the current window.")
     ap.add_argument("--force", action="store_true", help="Overwrite an existing edition file.")
-    ap.add_argument("--dry-run", action="store_true", help="Print the JSON instead of writing it.")
+    ap.add_argument("--dry-run", action="store_true", help="Print the JSON instead of writing.")
     args = ap.parse_args()
 
-    date_str, start, end = resolve_window(args.date)
+    cfg = appconfig.load()
+    date_str, start, end = resolve_window(cfg, args.date)
     out_path = EDITIONS_DIR / f"{date_str}.json"
 
     if out_path.exists() and not args.force and not args.dry_run:
         print(f"{out_path.relative_to(ROOT)} already exists. Use --force to regenerate.")
         return
 
-    print(f"Edition {date_str}: {start:%b %d %-I:%M %p} → {end:%b %d %-I:%M %p} Vancouver")
+    print(f"Edition {date_str}: {start:%b %d %-I:%M %p} → {end:%b %d %-I:%M %p} ({cfg.timezone})")
+    print(f"  {cfg.count} stories · age {cfg.age} · {'/'.join(cfg.categories)} "
+          f"· {'/'.join(cfg.regions)}")
 
     client = anthropic.Anthropic()
 
     print("Pass 1/2 — researching…")
-    brief = research(client, research_prompt(start, end, date_str))
+    brief = research(client, cfg, research_prompt(cfg, start, end, date_str))
     print(f"  brief: {len(brief)} characters")
 
-    print("Pass 2/2 — rewriting for Lucas…")
-    payload = rewrite(client, rewrite_prompt(brief, start, end))
+    print("Pass 2/2 — rewriting…")
+    payload = rewrite(client, cfg, rewrite_prompt(cfg, brief, start, end))
 
-    edition = build_edition(payload, date_str, start, end)
+    edition = build_edition(cfg, payload, date_str, start, end)
     text = json.dumps(edition, ensure_ascii=False, indent=2) + "\n"
 
     if args.dry_run:
@@ -437,8 +478,9 @@ def main() -> None:
     EDITIONS_DIR.mkdir(parents=True, exist_ok=True)
     out_path.write_text(text, encoding="utf-8")
     print(f"Wrote {out_path.relative_to(ROOT)}")
+    lang = cfg.primary_language
     for story in edition["stories"]:
-        print(f"  {story['rank']}. [{story['category']}] {story['headline']['en']}")
+        print(f"  {story['rank']}. [{story['category']}] {story['headline'][lang]}")
 
 
 if __name__ == "__main__":

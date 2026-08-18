@@ -1,19 +1,21 @@
-/* Lucas Daily News — stylesheet
+/* Daily News for Kids — stylesheet
  *
  * Design notes
  * ------------
- * Ground      A cool grey-green, the colour of Vancouver rain-light on newsprint.
- *             Deliberately not cream; the page is read at 5 PM, not at breakfast.
+ * Ground      A cool grey-green, the colour of rain-light on newsprint.
+ *             Deliberately not cream; this is read at the end of a day.
  * Accent      There is no single accent. Each story sets --accent from its own
- *             beat (politics / society / business / tech), so the colour of a card
- *             tells you what kind of news it is before you read a word. Global
- *             chrome stays graphite so the three beats are the only colour on the page.
- * Type        Fraunces for headlines — a serif with enough character to feel like a
- *             masthead and enough warmth for a 12-year-old. Public Sans for reading.
- *             Noto Sans SC carries the Chinese so both languages are properly set.
+ *             beat, so the colour of a card tells you what kind of news it is
+ *             before a word is read. The beat tokens are generated from the
+ *             catalogue in appconfig.py, so a family that adds Sports and Arts
+ *             gets two more colours without touching this file. Global chrome
+ *             stays graphite so the beats are the only colour on the page.
+ * Type        Fraunces for headlines — enough character to feel like a masthead,
+ *             enough warmth for a child. Public Sans for reading. Noto Sans SC
+ *             carries the Chinese so both languages are properly set.
  *
- * Themes: bare :root is the full light palette; the dark tokens are redefined twice
- * so an OS preference and an explicit toggle both resolve correctly.
+ * Themes: bare :root is the full light palette; the dark tokens are redefined
+ * twice so an OS preference and an explicit toggle both resolve correctly.
  */
 
 :root {
@@ -28,15 +30,9 @@
   --chrome-on: #ffffff;
   --shadow: 0 1px 2px rgba(16, 22, 25, .04), 0 10px 28px -14px rgba(16, 22, 25, .18);
 
-  --politics: #a4243b;
-  --politics-tint: #fbeef0;
-  --society: #1a6b4a;
-  --society-tint: #eaf4ef;
-  --business: #8a5a0f;
-  --business-tint: #f8f0e2;
-  --tech: #4b3ba8;
-  --tech-tint: #eeecfa;
 
+  /* Per-beat accents (--politics, --sports, ...) are generated from the
+     catalogue in appconfig.py and injected by render_site.py. */
   --accent: var(--chrome);
   --accent-tint: var(--rule-soft);
 
@@ -58,14 +54,6 @@
     --chrome-on: #0e1316;
     --shadow: 0 1px 2px rgba(0, 0, 0, .34), 0 10px 28px -14px rgba(0, 0, 0, .7);
 
-    --politics: #f0899c;
-    --politics-tint: #2a171c;
-    --society: #5cc79b;
-    --society-tint: #12251d;
-    --business: #dfae5c;
-    --business-tint: #262013;
-    --tech: #a89bf7;
-    --tech-tint: #1d1a2e;
   }
 }
 
@@ -81,14 +69,6 @@
   --chrome-on: #0e1316;
   --shadow: 0 1px 2px rgba(0, 0, 0, .34), 0 10px 28px -14px rgba(0, 0, 0, .7);
 
-  --politics: #f0899c;
-  --politics-tint: #2a171c;
-  --society: #5cc79b;
-  --society-tint: #12251d;
-  --business: #dfae5c;
-  --business-tint: #262013;
-  --tech: #a89bf7;
-  --tech-tint: #1d1a2e;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -173,6 +153,14 @@ a { color: var(--accent); }
   color: var(--ink-faint);
 }
 
+.for-line {
+  margin: 0;
+  font-size: .82rem;
+  color: var(--ink-faint);
+}
+
+.for-line strong { color: var(--ink-soft); font-weight: 600; }
+
 .dateline {
   margin: .5rem 0 0;
   font-size: .88rem;
@@ -231,10 +219,6 @@ a { color: var(--accent); }
   margin-bottom: 1.75rem;
 }
 
-.story.politics { --accent: var(--politics); --accent-tint: var(--politics-tint); }
-.story.society  { --accent: var(--society);  --accent-tint: var(--society-tint); }
-.story.business { --accent: var(--business); --accent-tint: var(--business-tint); }
-.story.tech     { --accent: var(--tech);     --accent-tint: var(--tech-tint); }
 
 .story-top {
   display: flex;
@@ -551,10 +535,6 @@ details[open] > summary::before { transform: rotate(45deg); }
   background: var(--ink-faint);
 }
 
-.archive-item .heads li.politics::before { background: var(--politics); }
-.archive-item .heads li.society::before  { background: var(--society); }
-.archive-item .heads li.business::before { background: var(--business); }
-.archive-item .heads li.tech::before     { background: var(--tech); }
 
 .year-head {
   font-family: var(--display);
