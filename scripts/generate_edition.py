@@ -80,7 +80,10 @@ def skeleton_schema(cfg) -> dict:
         "type": "object",
         "properties": {
             "stories": {
-                "type": "array", "minItems": N, "maxItems": N,
+                # minItems > 1 is rejected by the structured-output API, so the
+                # exact count of N lives in the prompt (skeleton_prompt says
+                # "Emit the N chosen stories") and maxItems as a ceiling.
+                "type": "array", "minItems": 1, "maxItems": N,
                 "items": {
                     "type": "object",
                     "properties": {
@@ -144,7 +147,10 @@ def band_schema(cfg, band_key: str) -> dict:
         "type": "object",
         "properties": {
             "stories": {
-                "type": "array", "minItems": N, "maxItems": N,
+                # See skeleton_schema's stories field: minItems > 1 is rejected
+                # by the API, so the exact count relies on the prompt (band_prompt
+                # says "Write these N stories") plus this ceiling.
+                "type": "array", "minItems": 1, "maxItems": N,
                 "description": "In the same order as the skeleton.",
                 "items": {
                     "type": "object",
@@ -157,8 +163,11 @@ def band_schema(cfg, band_key: str) -> dict:
                         "why_it_matters": _pair(
                             langs, "2-3 sentences connecting it to this reader's own life."),
                         "word_bank": {
+                            # minItems > 1 is rejected by the structured-output
+                            # API, so the target count relies on band_prompt's
+                            # explicit "about {words} words" instruction instead.
                             "type": "array",
-                            "minItems": max(1, band["words"] - 1),
+                            "minItems": 1,
                             "maxItems": band["words"] + 1,
                             "items": {
                                 "type": "object",
@@ -171,14 +180,19 @@ def band_schema(cfg, band_key: str) -> dict:
                             },
                         },
                         "talk_about_it": {
-                            "type": "array", "minItems": 3, "maxItems": 3,
+                            # minItems > 1 is rejected by the structured-output
+                            # API; the exact count relies on writing_policy's
+                            # "three dinner-table questions" instruction instead.
+                            "type": "array", "minItems": 1, "maxItems": 3,
                             "items": {
                                 "type": "object",
                                 "properties": {
                                     "question": _pair(
                                         langs, "An open question answerable either way."),
                                     "sides": {
-                                        "type": "array", "minItems": 2, "maxItems": 2,
+                                        # Same API constraint; exactly two sides
+                                        # is stated explicitly in writing_policy.
+                                        "type": "array", "minItems": 1, "maxItems": 2,
                                         "items": {
                                             "type": "object",
                                             "properties": {
@@ -252,8 +266,8 @@ WRITING — this pass is for readers aged {band_key}:
 - The same three stories are being written for two other age bands. Do not
   soften which story is being told; change only how it is explained.
 
-THE THINKING EXERCISE — three dinner-table questions per story, each with the
-case for both sides. Treat it as the hardest thing you write:
+THE THINKING EXERCISE — exactly three dinner-table questions per story, each
+with exactly two sides. Treat it as the hardest thing you write:
 - A question qualifies only if a thoughtful, well-informed adult could genuinely
   land on either side. If looking something up settles it, it is a quiz question.
 - {band['questions']}
@@ -302,13 +316,14 @@ Use only URLs that appear in the brief."""
 
 
 def band_prompt(skeleton: dict, band_key: str) -> str:
+    band = appconfig.AGE_BANDS[band_key]
     listing = "\n\n".join(
         f"{s['rank']}. slug: {s['slug']}  [{s['category']} · {s['region']}]\n{s['facts']}"
         for s in skeleton["stories"]
     )
     return f"""\
 Write these {N} stories for readers aged {band_key}. Keep the same order and
-reuse each slug exactly.
+reuse each slug exactly. About {band['words']} words per story in the word bank.
 
 {listing}
 
