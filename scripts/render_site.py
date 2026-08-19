@@ -380,14 +380,17 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, posters=N
     if show_nav:
         nav = (f'<a class="btn" href="{home}">{label("today")}</a>' if is_archive
                else f'<a class="btn" href="{archive}">{label("archive")}</a>')
-    # One link per language rather than one bilingual link: the poster is a
-    # different image in each language, so the href has to switch with the page,
-    # not just the button's wording.
+    # One link per language and per band, not one link whose wording and href
+    # each try to track the page some other way: the poster is a different
+    # image for each combination, so it needs the same two switches — l-<lang>
+    # (language) and .band + the band class (reading level, reusing the rule
+    # generated_css() already emits for the story bands) — that the rest of
+    # the page's controls use, or it silently shows a stale image on either axis.
     for lang in LANGS:
-        href = (posters or {}).get(lang)
-        if href:
-            nav += (f'<a class="btn l-{lang}" href="{href}" target="_blank">'
-                    f'{e(LABELS["poster"][lang])}</a>')
+        for band in (posters or {}).get(lang, {}):
+            href = posters[lang][band]
+            nav += (f'<a class="btn l-{lang} band {band_class(band)}" '
+                    f'href="{href}" target="_blank">{e(LABELS["poster"][lang])}</a>')
 
     title_html = bilingual(appconfig.APP_NAME)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
@@ -413,9 +416,12 @@ def render_edition_page(edition: dict, depth: int) -> str:
     stories = sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99))
     date_str = edition.get("date", "")
     posters = {
-        lang: f'{"../" * depth}posters/{date_str}-{lang}.png'
+        lang: {
+            band: f'{"../" * depth}posters/{date_str}-{lang}-{band_class(band)}.png'
+            for band in BANDS
+            if (OUT / "posters" / f"{date_str}-{lang}-{band_class(band)}.png").exists()
+        }
         for lang in LANGS
-        if (OUT / "posters" / f"{date_str}-{lang}.png").exists()
     }
     body = (masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
                      posters=posters)

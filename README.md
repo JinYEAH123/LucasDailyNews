@@ -140,7 +140,7 @@ generate_edition.py   research the world's press, record the three stories
      ▼
 data/editions/YYYY-MM-DD.json      ← the single source of truth
      │
-     ├── build_poster.py    → docs/posters/YYYY-MM-DD-<lang>.png
+     ├── build_poster.py    → docs/posters/YYYY-MM-DD-<lang>-<band>.png
      ├── render_site.py     → docs/  (page, permalink, archive, setup form)
      └── send_newsletter.py → email over SMTP
 ```

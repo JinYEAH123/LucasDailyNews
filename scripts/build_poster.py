@@ -7,13 +7,15 @@ rewrite, the word bank, background and further reading, the two-sided hints,
 the videos — sits behind the QR code at the bottom. A Moments image is an
 invitation, not the article.
 
-Output goes to docs/posters/<date>-<lang>.png so it ships with the site and can
-be linked from the edition page.
+Output goes to docs/posters/<date>-<lang>-<band>.png — one per reading level, so
+the page's band switcher always has a matching poster to link to — and ships
+with the site.
 
 Usage:
-    python3 scripts/build_poster.py                     # newest edition, Chinese
+    python3 scripts/build_poster.py                     # newest edition, Chinese, all bands
     python3 scripts/build_poster.py --lang en
     python3 scripts/build_poster.py --date 2026-08-17 --both
+    python3 scripts/build_poster.py --band 12-15         # just one reading level
     python3 scripts/build_poster.py --keep-html         # also write the HTML
 
 Requires: pip install segno playwright && playwright install chromium
@@ -367,8 +369,10 @@ def main() -> None:
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
     ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language)
     ap.add_argument("--both", action="store_true", help="Render both languages.")
-    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=CFG.band,
-                    help="Which reading level the image uses.")
+    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=None,
+                    help="Which reading level the image uses. Default: all of "
+                         "them, since the page's band switcher needs one poster "
+                         "per band to link to.")
     ap.add_argument("--out-dir", default=str(POSTER_DIR))
     ap.add_argument("--keep-html", action="store_true", help="Keep the intermediate HTML.")
     args = ap.parse_args()
@@ -391,24 +395,28 @@ def main() -> None:
 
     target = f"{site_url.rstrip('/')}/editions/{edition['date']}.html"
 
-    for lang in (list(CFG.languages) if args.both else [args.lang]):
-        out = out_dir / f"{edition['date']}-{lang}.png"
-        w, h = render_png(build_html(edition, lang, site_url, args.band),
-                          out, args.keep_html)
-        size_kb = out.stat().st_size / 1024
-        ratio = h / w
-        qr_state = verify_qr(out, target)
-        # --out-dir may point outside the repository, so relative_to can fail.
-        try:
-            shown = out.relative_to(ROOT)
-        except ValueError:
-            shown = out
-        print(f"{shown} — {w}×{h}px, {size_kb:.0f} KB, "
-              f"ratio 1:{ratio:.1f}, QR {qr_state}")
-        # WeChat crops very tall images hard in the feed thumbnail.
-        if ratio > 6:
-            print("  warning: taller than 1:6, the feed preview will crop a lot",
-                  file=sys.stderr)
+    langs = list(CFG.languages) if args.both else [args.lang]
+    bands = [args.band] if args.band else list(appconfig.AGE_BANDS)
+
+    for lang in langs:
+        for band in bands:
+            out = out_dir / f"{edition['date']}-{lang}-{site.band_class(band)}.png"
+            w, h = render_png(build_html(edition, lang, site_url, band),
+                              out, args.keep_html)
+            size_kb = out.stat().st_size / 1024
+            ratio = h / w
+            qr_state = verify_qr(out, target)
+            # --out-dir may point outside the repository, so relative_to can fail.
+            try:
+                shown = out.relative_to(ROOT)
+            except ValueError:
+                shown = out
+            print(f"{shown} — {w}×{h}px, {size_kb:.0f} KB, "
+                  f"ratio 1:{ratio:.1f}, QR {qr_state}")
+            # WeChat crops very tall images hard in the feed thumbnail.
+            if ratio > 6:
+                print("  warning: taller than 1:6, the feed preview will crop a lot",
+                      file=sys.stderr)
 
 
 if __name__ == "__main__":
