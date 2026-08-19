@@ -1,0 +1,1815 @@
+{
+  "date": "2026-08-18",
+  "window": {
+    "start": "2026-08-17T17:00:00-07:00",
+    "end": "2026-08-18T17:00:00-07:00",
+    "label": {
+      "en": "News from Monday 5:00 PM to Tuesday 5:00 PM PDT",
+      "zh": "PDT 8月17日 17:00 至 8月18日 17:00"
+    }
+  },
+  "generated_at": "2026-08-18T20:10:40-07:00",
+  "generator": "claude-opus-5 (research + skeleton + 3 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 17
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Opening arguments begin in Meta child safety and social media addiction trial",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/18/nx-s1-5935458/meta-child-safety-social-media-addiction-trial-opening"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Opening arguments begin in Oakland in Meta's federal trial over Facebook and Instagram child safety",
+            "zh": "梅塔脸书和Instagram儿童安全联邦审判在奥克兰开始开庭陈述"
+          },
+          "summary": {
+            "en": "Local Bay Area coverage with detail from inside the Oakland courthouse. Useful for understanding who is in the room and how the trial is structured.",
+            "zh": "湾区本地媒体从奥克兰法院内部发回的报道。有助于了解庭审现场的人物与流程安排。"
+          },
+          "publisher": "ABC7 News",
+          "url": "https://abc7news.com/post/opening-arguments-begin-oakland-metas-federal-trial-facebook-instagram-child-safety/19697124/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Opening arguments set to begin in Meta's federal trial over child safety",
+            "zh": "梅塔儿童安全联邦审判即将展开开庭陈述"
+          },
+          "summary": {
+            "en": "A second outlet running the same wire report, listing the four states and what they are asking the court to order. Good for checking the basic facts against another source.",
+            "zh": "另一家媒体刊登的同一通讯社报道，列出了四个起诉州以及他们要求法院下达的命令。适合用来交叉核对基本事实。"
+          },
+          "publisher": "ABC7 Los Angeles",
+          "url": "https://abc7.com/post/opening-arguments-set-begin-metas-federal-trial-child-safety/19696950/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Four States Take Meta to Court Over Kids and Apps",
+            "zh": "四个州把Meta告上法庭，为了孩子和手机应用"
+          },
+          "hook": {
+            "en": "On Tuesday, a big court case started in Oakland, California. Four American states are suing Meta, the company that owns Facebook and Instagram. The states say Meta built its apps on purpose to keep children glued to their screens. Meta says that is not true.",
+            "zh": "星期二，加州奥克兰的一场重要审判开庭了。美国有四个州起诉Meta——这家公司拥有Facebook和Instagram。这些州说，Meta故意把应用设计成让孩子放不下手机的样子。Meta说，这不是事实。"
+          },
+          "story": {
+            "en": [
+              "The four states are California, Colorado, Kentucky and New Jersey. Each state has a top lawyer whose job is to protect people there. Those lawyers brought the case together.",
+              "They point at things you may have seen on a phone. The feed that never ends. The little buzz of a notification. The count of likes under a photo. The states say those features were made to pull kids back again and again.",
+              "The states also say Meta collected information about children under 13 without asking their parents. In the United States, there is a law about that. The states say Meta broke it.",
+              "Meta denies everything. It says its apps have safety tools for teenagers. A judge named Yvonne Gonzalez Rogers is in charge of the trial. It may run six to eight weeks. Nothing has been proven yet."
+            ],
+            "zh": [
+              "这四个州是加利福尼亚、科罗拉多、肯塔基和新泽西。每个州都有一位首席律师，工作就是保护本州的人。这几位律师联合起诉。",
+              "他们指出的东西，你在手机上可能都见过。永远划不到底的信息流。提示消息的一声轻响。照片下面点赞的数字。这些州说，这些功能就是为了让孩子一次又一次回来。",
+              "这些州还说，Meta收集了13岁以下孩子的信息，却没有问过他们的父母。美国有一条专门管这件事的法律。这些州说Meta违反了它。",
+              "Meta否认所有指控。它说自己的应用为青少年准备了安全工具。审判由一位叫伊冯娜·冈萨雷斯·罗杰斯的法官主持，可能持续六到八周。现在还没有任何结论。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If the states win, the apps in your family's phones could be built differently — fewer buzzes, maybe no endless feed. It could also change how much a company is allowed to know about you before you turn 13. And it asks a question your family probably already argues about: who decides when screen time is enough?",
+            "zh": "如果这些州胜诉，你家手机里的应用可能会变样——提示更少，也许没有无穷无尽的信息流。公司在你满13岁之前能掌握多少你的信息，也可能改变。这场官司还问了一个你家可能已经在争论的问题：谁来决定屏幕时间够了？"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "attorney general",
+                "zh": "州总检察长"
+              },
+              "def": {
+                "en": "The main lawyer for a state, who can take a company to court on behalf of everyone living there.",
+                "zh": "一个州的首席律师，可以代表全州居民把公司告上法庭。"
+              }
+            },
+            {
+              "term": {
+                "en": "allegation",
+                "zh": "指控"
+              },
+              "def": {
+                "en": "Something one side says happened but has not proven yet in court.",
+                "zh": "一方说发生过、但还没有在法庭上被证实的事情。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If an app is hard to stop using, is that the company's fault or the user's choice?",
+                "zh": "如果一个应用让人停不下来，这是公司的错，还是使用者自己的选择？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The company's fault",
+                    "zh": "公司的错"
+                  },
+                  "points": {
+                    "en": [
+                      "Grown-ups were paid to study what keeps people watching, and children were up against all that work.",
+                      "A child cannot see the design tricks, so it is not a fair contest.",
+                      "The endless feed and the buzzing alerts did not appear by accident — someone chose to put them there."
+                    ],
+                    "zh": [
+                      "有专业的大人拿着工资研究怎么让人一直看下去，孩子是在跟这些研究成果较劲。",
+                      "孩子看不出设计里的小心思，这场比拼本来就不公平。",
+                      "划不完的信息流和不停响的提示不是意外出现的——是有人决定放进去的。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The user's choice",
+                    "zh": "使用者的选择"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody is forced to open the app, and the phone has an off button.",
+                      "Lots of things are fun and hard to put down, like a good book or a game of tag, and we do not sue over those.",
+                      "Learning to stop on your own is a skill, and taking that choice away does not teach it."
+                    ],
+                    "zh": [
+                      "没有人被迫打开应用，手机上有关机键。",
+                      "很多东西都好玩得让人放不下，比如一本好书或者一场追人游戏，我们不会为这些去打官司。",
+                      "自己学会停下来是一种能力，替人把选择拿走，并不能教会这种能力。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a company be allowed to collect information about a child under 13 if a parent has not said yes?",
+                "zh": "如果家长没有同意，公司可以收集13岁以下孩子的信息吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "No, ask the parent first",
+                    "zh": "不行，要先问家长"
+                  },
+                  "points": {
+                    "en": [
+                      "A young child cannot really understand what giving away information means.",
+                      "Information about you can last for years and follow you into being a grown-up.",
+                      "Parents are responsible for their child, so they should get the say."
+                    ],
+                    "zh": [
+                      "小孩子其实弄不懂交出自己的信息意味着什么。",
+                      "关于你的信息可能保留很多年，一直跟到你长大。",
+                      "孩子由父母负责，所以决定权应该在父母手里。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Some collecting is fine",
+                    "zh": "收集一些是可以的"
+                  },
+                  "points": {
+                    "en": [
+                      "Apps need some information to work at all, like knowing which language you read.",
+                      "Asking a parent every single time would make apps slow and annoying, and some kids would just lie about their age.",
+                      "Knowing a user is young can help an app protect them, instead of treating them like an adult."
+                    ],
+                    "zh": [
+                      "应用要正常运行，本来就需要一些信息，比如你读哪种语言。",
+                      "每一次都要问家长会让应用又慢又烦，有些孩子干脆会谎报年龄。",
+                      "知道用户年纪小，反而能让应用保护他，而不是把他当成大人对待。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If the states win, who should decide what the apps look like next — the judge or the company?",
+                "zh": "如果这些州赢了，接下来该由谁决定应用长什么样——法官还是公司？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The judge should order changes",
+                    "zh": "应该由法官下命令"
+                  },
+                  "points": {
+                    "en": [
+                      "A company that made money from the problem may not be eager to fix it properly.",
+                      "Clear rules from a court apply to everyone, so no company gains by being the least careful.",
+                      "Meta has promised safety tools before, and the states say the harm continued anyway."
+                    ],
+                    "zh": [
+                      "从问题里赚过钱的公司，未必真心愿意彻底改。",
+                      "法院给出的明确规则对所有公司都适用，谁都不能靠最不小心来占便宜。",
+                      "Meta以前也承诺过安全工具，可这些州说伤害还是在继续。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The company should decide",
+                    "zh": "应该由公司决定"
+                  },
+                  "points": {
+                    "en": [
+                      "The engineers who built the apps know best how to change them without breaking them.",
+                      "A judge is trained in law, not in designing software for millions of people.",
+                      "Rules written in a courtroom can freeze in place while technology keeps moving."
+                    ],
+                    "zh": [
+                      "造出这些应用的工程师最清楚怎么改而不把它弄坏。",
+                      "法官受的训练是法律，不是为几百万人设计软件。",
+                      "法庭里写下的规则可能一动不动，而技术还在不停往前走。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Four States Take Meta to Court Over How Its Apps Hook Kids",
+            "zh": "四州起诉Meta：它的App是否故意「钩住」孩子？"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, a trial began in a federal courthouse in Oakland, California. Four states — California, Colorado, Kentucky and New Jersey — are accusing Meta, the company behind Facebook and Instagram, of deliberately building features that keep children glued to their phones, and of hiding what it knew about the harm. Meta denies everything. The trial could run six to eight weeks.",
+            "zh": "2026年8月18日星期二，加州奥克兰的联邦法院开庭审理一宗大案。加利福尼亚、科罗拉多、肯塔基和新泽西四个州指控Facebook和Instagram的母公司Meta故意设计各种功能，把孩子黏在手机上，还隐瞒了它自己知道的危害。Meta否认全部指控。这场审判预计要持续六到八周。"
+          },
+          "story": {
+            "en": [
+              "The features the states are pointing at are ones you have used today. Infinite scroll — the feed that never reaches a bottom, so there is no natural moment to stop. Notifications that arrive just when your attention drifts. Likes, which turn other people's approval into a number you can watch go up. The states' argument is not that these things are strange or new. It is that Meta studied how they affected young users, understood that they were unusually powerful on developing brains, and kept them anyway because engagement is what makes the company money. NPR reported the states summing it up this way: profits won.",
+              "The case has a second half that is more technical but easier to prove or disprove. It involves a federal law called COPPA, the Children's Online Privacy Protection Act, which says a company cannot collect personal data from a child under 13 without a parent's permission. Instagram's rules say you must be 13 to have an account. The states allege that Meta knew perfectly well that plenty of younger kids were on the apps anyway, and collected their data regardless. Meta says its apps include safety tools built for teenagers and that it has never designed products to harm anyone.",
+              "It matters who is bringing this. An attorney general is a state's top lawyer — an elected official whose job includes suing companies on behalf of the public. Individual families have sued social media companies before, usually one at a time, and those cases are slow and hard to win. Four states arriving together, with subpoena power that lets them demand internal company documents, is a different scale of pressure. Presiding is Judge Yvonne Gonzalez Rogers, who has handled other big technology trials, including Epic Games' fight with Apple.",
+              "Here is the part worth keeping in mind through every headline you read for the next two months: at this stage, everything the states have said is an allegation, not an established fact. Opening arguments are each side's best story about the evidence, told before the evidence has been tested. Internal emails can look damning stripped of context and ordinary in it. Meta will get its turn, and its lawyers will argue that correlation between phone use and teenage unhappiness is not the same as Instagram causing it — a point on which genuine researchers genuinely disagree.",
+              "What the states want is two things. Money damages, which for a company Meta's size may sting less than it sounds. And court-ordered changes to how the apps are actually built — which, if granted, would be the bigger deal by far, because it would mean a judge, not a product team in Menlo Park, deciding what an app for teenagers is allowed to do. That is why this trial is being watched well beyond the four states involved."
+            ],
+            "zh": [
+              "被起诉的那些功能，你今天大概刚用过。无限下滑——feed永远滑不到底，所以你永远等不到一个「自然该停」的时刻。恰好在你注意力开始游走时弹出的通知。点赞，把别人的认可变成一个能看着往上涨的数字。四个州的论点不是说这些东西新奇或古怪，而是说：Meta研究过它们对年轻用户的影响，明白它们对还在发育的大脑格外有效，却仍然保留了下来，因为「停留时间」正是公司赚钱的方式。NPR报道说，州方把整件事总结成一句话：利润赢了。",
+              "这宗案子还有另一半，技术性更强，但对错更容易查清。它涉及一部联邦法律，简称COPPA（《儿童在线隐私保护法》），规定企业未经家长同意，不得收集13岁以下儿童的个人数据。Instagram的规则写着必须满13岁才能注册。州方指控Meta其实清楚知道大量更小的孩子照样在用，却依旧收集了他们的数据。Meta回应说，旗下应用有专为青少年设计的安全工具，也从未设计过伤害任何人的产品。",
+              "谁来打这场官司，很关键。「州检察长」是一个州的首席律师，由选民选出，职责之一就是代表公众起诉企业。以前也有家庭起诉社交媒体公司，通常是一家一家单打独斗，官司拖得久、赢得难。四个州联手，加上可以强制调取公司内部文件的传唤权，压力完全是另一个量级。本案由伊冯娜·冈萨雷斯·罗杰斯法官主审，她此前审过其他重大科技案件，包括Epic Games与苹果之争。",
+              "接下来两个月里，每读到一条相关新闻，都值得记住这一点：现阶段州方说的一切都是「指控」，还不是已确立的事实。开庭陈词是双方在证据尚未受检验之前，各自讲出的最好版本的故事。一封内部邮件抽掉上下文可能看起来罪证凿凿，放回上下文里又可能平平无奇。Meta会有它的回应时间，它的律师会主张：手机使用与青少年心理不佳同时出现，并不等于Instagram造成了后者——而这一点，真正的研究者之间也确实存在分歧。",
+              "州方想要两样东西。一是金钱赔偿，对Meta这个体量的公司来说，痛感也许没听起来那么大。二是由法院下令改变App的实际设计——这一项若真判下来，影响远大得多，因为那意味着一位法官、而不是门洛帕克的产品团队，来决定给青少年用的App可以做什么。这也是为什么关注这场审判的人，远远超出这四个州。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If the states win the design part of this case, the apps on your phone could be legally required to work differently — fewer notifications, feeds that end, maybe real age checks at signup. And whichever way it goes, the internal documents read aloud in that courtroom will tell all of us more than any company blog post about what these apps were actually built to do.",
+            "zh": "如果州方在「设计」这部分胜诉，你手机上的App可能会被法律要求改变运作方式——通知更少、feed会有尽头、注册时甚至要真的验证年龄。而无论结果如何，法庭上被当庭朗读的那些内部文件，会比任何一篇公司博客都更能告诉我们：这些App到底是为了什么而被造出来的。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "attorney general",
+                "zh": "州检察长"
+              },
+              "def": {
+                "en": "A state's chief lawyer, usually elected, who can sue companies on behalf of everyone living in that state.",
+                "zh": "一个州的首席律师，通常由选举产生，可以代表全州居民起诉企业。"
+              }
+            },
+            {
+              "term": {
+                "en": "COPPA",
+                "zh": "COPPA（儿童在线隐私保护法）"
+              },
+              "def": {
+                "en": "A US law that bars companies from collecting personal information about children under 13 without a parent's consent.",
+                "zh": "美国的一部法律，禁止企业在未获家长同意的情况下收集13岁以下儿童的个人信息。"
+              }
+            },
+            {
+              "term": {
+                "en": "damages",
+                "zh": "损害赔偿"
+              },
+              "def": {
+                "en": "Money a court orders a losing side to pay for harm it caused — separate from any order to change its behaviour.",
+                "zh": "法院判败诉一方为其造成的损害支付的钱款，与要求它改变行为的命令是两回事。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is designing an app to be as engaging as possible a harmful act, or just good design?",
+                "zh": "把App设计得尽可能吸引人，这本身是一种伤害，还是仅仅是好设计？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It crosses a line",
+                    "zh": "这越过了界线"
+                  },
+                  "points": {
+                    "en": [
+                      "Features tested and tuned specifically because they override a teenager's intention to stop are working against the user, not for them.",
+                      "A company that studies its own users' vulnerabilities and then builds around them is closer to a casino than to a tool-maker.",
+                      "Books, sports and friendships are engaging too, but nobody had to run experiments on children to make them so."
+                    ],
+                    "zh": [
+                      "一些功能之所以被反复测试和调校，恰恰是因为它们能压倒青少年「该停了」的意愿——这是在与用户作对，而不是为用户服务。",
+                      "一家研究自家用户弱点、再围绕这些弱点做产品的公司，更像赌场，而不像工具制造者。",
+                      "书、运动、友情也很吸引人，但没人需要拿孩子做实验才让它们变得吸引人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's what every product does",
+                    "zh": "任何产品都这么做"
+                  },
+                  "points": {
+                    "en": [
+                      "Every game, show, shop and sport is built to hold attention; singling out one company's version of that is arbitrary.",
+                      "People genuinely enjoy these apps and choose to open them — treating that enjoyment as evidence of injury denies teenagers any say in their own lives.",
+                      "If courts can punish 'too engaging', the standard is impossible to draw and designers will guess at it forever."
+                    ],
+                    "zh": [
+                      "每一款游戏、剧集、商店、体育赛事都是为了抓住注意力而设计的，单挑出一家公司来惩罚，标准很随意。",
+                      "人们真心喜欢这些App，也是自己主动打开的——把这种享受当成受伤的证据，等于否认青少年对自己生活有发言权。",
+                      "如果法院可以惩罚「太吸引人」，这条线根本无法划清，设计者只能永远靠猜。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Who should decide how apps for teenagers are built — a judge in a courtroom, or elected lawmakers writing rules?",
+                "zh": "给青少年用的App该怎么设计，应该由法庭上的法官决定，还是由民选议员立法规定？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Courts, now",
+                    "zh": "就该由法院，现在就管"
+                  },
+                  "points": {
+                    "en": [
+                      "Lawmakers have argued about this for over a decade and passed very little, while children kept using the products.",
+                      "A trial forces a company to hand over internal evidence under oath, which no committee hearing has managed to do as thoroughly.",
+                      "Judges routinely order companies to fix dangerous products; software should not be a special exemption."
+                    ],
+                    "zh": [
+                      "议员们为此争论了十多年却几乎没通过什么法律，而孩子们一直在用这些产品。",
+                      "审判能强制公司在宣誓之下交出内部证据，这是任何听证会都没能做得这么彻底的。",
+                      "法院本来就经常命令企业整改危险产品，软件不该享有豁免。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Legislatures",
+                    "zh": "该由立法机构"
+                  },
+                  "points": {
+                    "en": [
+                      "One judge hearing one case sees a narrow slice of evidence, then sets rules that hit every user of every app.",
+                      "Laws are debated in public, can be amended when they backfire, and apply to all companies at once rather than only the one that got sued.",
+                      "Court orders written for 2026 technology can freeze product design in place long after the technology has moved on."
+                    ],
+                    "zh": [
+                      "一位法官审一宗案子，看到的只是很窄的一片证据，却要定出影响所有App、所有用户的规则。",
+                      "法律是公开辩论出来的，出问题可以修改，而且一次适用于所有公司，而不只是被告的那一家。",
+                      "为2026年的技术写下的法院命令，可能在技术早已改变之后，还把产品设计死死冻在原地。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should platforms be required to verify users' real ages, even if that means everyone has to prove who they are?",
+                "zh": "是否该强制平台核实用户的真实年龄，即使这意味着每个人都得证明自己是谁？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Verify",
+                    "zh": "该核实"
+                  },
+                  "points": {
+                    "en": [
+                      "An age rule nobody checks is not a rule, and companies benefit from knowing under-13s are there while claiming they aren't.",
+                      "Parents cannot supervise what they cannot see, and consent laws like COPPA are meaningless without a way to know a child's age.",
+                      "Cinemas, driving and alcohol all involve age checks that society accepted as normal long ago."
+                    ],
+                    "zh": [
+                      "没人查的年龄规则等于没有规则，而公司一边受益于低龄用户的存在，一边声称他们不在。",
+                      "家长无法监管自己看不到的东西；如果无法确认孩子的年龄，COPPA这类同意条款就形同虚设。",
+                      "电影院、开车、买酒都要查年龄，社会早就把这当作正常的事。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Don't verify",
+                    "zh": "不该核实"
+                  },
+                  "points": {
+                    "en": [
+                      "Real age checks mean handing ID documents or face scans to companies, creating exactly the databases most likely to leak or be abused.",
+                      "Anonymity protects the users who need the internet most — teenagers in unsafe homes, activists, people asking questions they can't ask aloud.",
+                      "Determined kids route around every checkpoint, so the cost falls mainly on honest users while the leak risk stays."
+                    ],
+                    "zh": [
+                      "真正的年龄核实意味着把身份证件或人脸交给公司，恰好制造出最容易泄露和被滥用的那类数据库。",
+                      "匿名保护的是最需要互联网的人——处境不安全的青少年、行动者、以及那些无法开口提问的人。",
+                      "真想绕过检查的孩子总有办法，成本主要落在诚实用户身上，而数据泄露的风险依然存在。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Meta Goes on Trial Over How Its Apps Are Built for Kids",
+            "zh": "Meta站上被告席：这些App是怎么设计给孩子用的？"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, opening arguments began in a federal courtroom in Oakland, California, in a lawsuit filed by the attorneys general of California, Colorado, Kentucky and New Jersey against Meta, the owner of Facebook and Instagram. The states allege that Meta deliberately engineered features like infinite scroll, notifications and 'likes' to keep young users coming back, hid what it knew about the harm, and collected data from children under 13 without parental permission. Meta denies all of it and points to the safety tools it has built for teenagers. Nothing has been proven; the trial is expected to run roughly six to eight weeks.",
+            "zh": "2026年8月18日星期二，加州奥克兰的一家联邦法院开始了开庭陈述。加州、科罗拉多州、肯塔基州和新泽西州的总检察长联合起诉Meta——Facebook和Instagram的母公司。各州指控Meta故意设计无限下拉、推送通知、点赞等功能，让未成年人欲罢不能，同时隐瞒了它掌握的危害证据，还在未经家长同意的情况下收集13岁以下儿童的数据。Meta否认全部指控，强调自己为青少年提供了安全工具。目前一切都还只是指控，庭审预计持续六到八周。"
+          },
+          "story": {
+            "en": [
+              "The case is not really about what teenagers post. It is about how the apps are built. The states argue that specific engineering choices — a feed with no bottom, notifications timed to pull you back, a public counter of how many people approved of your photo — were selected and refined because they increased the time young people spent inside the product, and that Meta understood this was a problem for some of those users and shipped the features anyway. In the states' framing, reported by NPR, profits won. That is a claim about intent, and intent is the hardest thing to prove in a courtroom.",
+              "There are two separate legal theories running in parallel, and they carry different burdens. One is a consumer-protection argument: that Meta made public statements about safety that did not match what its own researchers and internal documents allegedly showed, which is a form of deception. The other is narrower and more mechanical — an alleged violation of COPPA, the federal Children's Online Privacy Protection Act, which forbids collecting personal data from children under 13 without a parent's consent. Instagram's stated minimum age is 13, but the states say Meta knew younger children were on the platform in large numbers and profited from their data regardless.",
+              "Judge Yvonne Gonzalez Rogers is presiding in the Northern District of California. She is not new to this kind of defendant; she handled the Epic Games case against Apple, another fight over whether a platform's design choices were business strategy or something the law should override. Here the states are asking for two things: money damages, and injunctive relief — a court order changing how the products are actually engineered. The second is by far the bigger deal. Damages are a cost a company that size can absorb. A judge telling Meta what its feed may and may not do would reset the rules for an industry.",
+              "Meta's defence, in outline, is that the underlying science is contested and the harms are not its doing. Researchers genuinely disagree about how much social media causes teenage anxiety and depression as opposed to correlating with it; the same years brought smartphones, the pandemic, and a great deal else. Meta also argues it has spent years building teen accounts with default privacy settings, time limits and parental controls, and that a company cannot be liable for every bad outcome that happens to occur on a service used by billions of people.",
+              "Two things will decide a lot of this: internal documents and jury instinct. Discovery — the pre-trial process in which each side must hand over its records — has already produced years of Meta's own research, emails and slide decks, and the states will read the most damaging lines aloud. Meta will argue those lines are fragments of an honest internal debate rather than a confession. Juries tend to respond to documents in which employees appear to say one thing privately and another publicly, which is why 'what did the company know, and when' matters more here than any single statistic about screen time.",
+              "This trial is also one node in something much larger. Dozens of other states and hundreds of school districts have sued Meta and other platforms on similar grounds, and legislatures in the US, the EU and Australia have been writing age-verification and design rules of their own. A verdict in Oakland will not settle whether Instagram is bad for you. It will settle something narrower and more consequential: whether the way an app is designed can be treated by the law as a defective product, in the same way a badly designed car part can be."
+            ],
+            "zh": [
+              "这场官司争的其实不是青少年发了什么，而是App是怎么造出来的。各州主张，某些具体的工程选择——永远刷不到底的信息流、掐着点把你拉回来的推送、公开显示有多少人给你照片点赞的计数器——之所以被选中并不断优化，正是因为它们能延长未成年人待在产品里的时间；各州还称，Meta明白这对部分用户有害，却照样上线。据NPR报道，各州把整个案子概括成一句话：利润赢了。这是一项关于",
+              "这里有两条并行的法律路径，举证难度不同。一条是消费者保护路径：Meta对外宣称产品安全，但据称与自家研究人员和内部文件显示的情况并不一致，这构成误导。另一条更窄也更机械——涉嫌违反联邦《儿童在线隐私保护法》（COPPA）。该法规定，未经家长同意，不得收集13岁以下儿童的个人数据。Instagram明面上要求年满13岁，但各州称Meta清楚大量更小的孩子就在平台上，并且照样从他们的数据中获利。",
+              "主审法官是加州北区联邦法院的Yvonne Gonzalez Rogers。她并非第一次面对这类被告——Epic Games诉苹果一案也由她审理，那同样是在争论：平台的设计选择究竟是正常商业策略，还是法律该出手干预的东西。各州这次要两样东西：金钱赔偿，以及禁令救济，也就是由法院下令改变产品的构造方式。后者分量重得多。以Meta的体量，赔款是能吸收的成本；但如果法官开始规定信息流可以做什么、不可以做什么，整个行业的规则就变了。",
+              "Meta的抗辩大致是：背后的科学结论仍有争议，而且危害不能算在它头上。研究者对社交媒体究竟在多大程度上",
+              " ",
+              "这场审判还只是更大图景中的一个节点。数十个州和数百个学区已就类似理由起诉Meta及其他平台；美国、欧盟和澳大利亚的立法机构也在各自制定年龄验证与设计规范。奥克兰的判决不会告诉我们Instagram到底好不好。它会回答一个更窄、也更要紧的问题：一款App的设计方式，能否在法律上被当作有缺陷的产品来对待——就像一个设计不良的汽车零件那样。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "You are the user this trial is arguing about, and the outcome may change the apps on your phone without anyone asking your opinion — a feed that stops, notifications that go quiet at night, or an ID check before you can log in. It also asks a question worth having your own answer to: how much of the time you spend scrolling is a choice you made, and how much was engineered for you.",
+            "zh": "这场官司争论的对象就是你。判决结果可能在没人征求你意见的情况下改变你手机里的App：信息流会有底了、夜里不再推送、登录前先要验证身份。它还提出了一个你值得自己想清楚的问题——你刷手机的那些时间，有多少是你自己的选择，又有多少是被人设计出来的。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "attorney general",
+                "zh": "总检察长"
+              },
+              "def": {
+                "en": "A US state's top lawyer, who can sue companies on behalf of the state's residents rather than on behalf of one injured person.",
+                "zh": "美国各州的首席法律官，可以代表全州居民（而不是某一个受害者个人）起诉企业。"
+              }
+            },
+            {
+              "term": {
+                "en": "COPPA",
+                "zh": "COPPA（《儿童在线隐私保护法》）"
+              },
+              "def": {
+                "en": "A US federal law that bars online services from collecting personal information from children under 13 without a parent's consent.",
+                "zh": "美国的一部联邦法律，禁止网络服务在未经家长同意的情况下收集13岁以下儿童的个人信息。"
+              }
+            },
+            {
+              "term": {
+                "en": "injunctive relief",
+                "zh": "禁令救济"
+              },
+              "def": {
+                "en": "A court order requiring a company to change what it does, as opposed to simply paying money for past harm.",
+                "zh": "法院下令要求企业改变其做法，而不只是为过去的损害赔钱。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a court be able to order Meta to redesign how its feed and notifications work?",
+                "zh": "法院是否应该有权命令Meta重新设计信息流和推送通知？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — design is a product",
+                    "zh": "应该——设计就是产品"
+                  },
+                  "points": {
+                    "en": [
+                      "We already accept that courts can order a carmaker to fix a dangerous part; a feed engineered to be hard to stop using is a design choice made by identifiable people for identifiable reasons.",
+                      "Fines alone are priced in as a cost of doing business by a company of this size, so an order that changes the product is the only remedy with real force.",
+                      "Users cannot bargain with the design — you either accept the app as built or leave it — so the only place the choice can be contested is in court or in a legislature."
+                    ],
+                    "zh": [
+                      "我们早就接受法院可以命令车企召回危险零件；一个刻意让人难以停下的信息流，同样是可辨认的人出于可辨认的理由做出的设计选择。",
+                      "对这种体量的公司来说，罚款只会被计入经营成本，只有真正改变产品的命令才有约束力。",
+                      "用户没法和设计讨价还价——要么接受它造成的样子，要么走人——所以这个选择只能在法庭或立法机关里被挑战。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — that is not a court's job",
+                    "zh": "不应该——这不是法院该做的事"
+                  },
+                  "points": {
+                    "en": [
+                      "A judge deciding what a feed may do is writing technology policy for hundreds of millions of people after hearing from two litigants, without the hearings, expertise or accountability a legislature has.",
+                      "The scientific link between specific features and specific harms is genuinely disputed, and locking a contested finding into a permanent court order is hard to reverse when the evidence moves.",
+                      "The same reasoning could be turned on anything absorbing — games, streaming, group chats — leaving companies designing around lawsuits rather than around users."
+                    ],
+                    "zh": [
+                      "法官在听取双方当事人后就决定信息流能做什么，等于在为数亿人制定科技政策，却不具备立法机关的听证程序、专业资源与问责机制。",
+                      "具体功能与具体危害之间的科学关联仍有真实争议，把一个尚存争议的结论写进长期禁令，日后证据变化时很难纠正。",
+                      "同样的逻辑可以套用到任何吸引人的东西上——游戏、流媒体、群聊——最后企业不是围着用户做设计，而是围着诉讼做设计。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a platform sets a minimum age of 13, how far must it go to enforce it?",
+                "zh": "如果平台规定最低年龄为13岁，它必须做到什么程度来执行这条规定？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Verify properly",
+                    "zh": "必须真正验证"
+                  },
+                  "points": {
+                    "en": [
+                      "A rule that anyone can defeat by typing a false birth year is not a rule, and a company that knows this and profits from the traffic is choosing not to look.",
+                      "Under-13 users are exactly the group least able to judge what they are sharing, which is why the law singles them out for protection.",
+                      "The technology to estimate age without storing an ID document already exists and is improving; the obstacle has been cost and friction, not feasibility."
+                    ],
+                    "zh": [
+                      "一条随便填个假出生年份就能绕过的规则根本不算规则；明知如此还从这些流量中获利，等于是选择性地视而不见。",
+                      "13岁以下的用户恰恰最难判断自己在分享什么，这正是法律专门保护他们的原因。",
+                      "不必保存身份证件也能估算年龄的技术已经存在并在改进；障碍在于成本和体验摩擦，而不是做不做得到。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Verification costs too much",
+                    "zh": "验证的代价太大"
+                  },
+                  "points": {
+                    "en": [
+                      "Checking every user's age means every adult must identify themselves too, converting anonymous services into ones that know exactly who you are — a permanent privacy loss for everyone.",
+                      "Face-scanning and ID checks fail unevenly, and the people wrongly locked out tend to be those without documents or with unusual-looking faces.",
+                      "Teenagers in unsafe homes, and young people looking for help they cannot ask for out loud, rely on being able to reach the internet without a parent standing between them and it."
+                    ],
+                    "zh": [
+                      "要核验每个用户的年龄，就意味着每个成年人也得亮明身份，匿名服务从此变成认得出你是谁的服务——这是所有人永久性的隐私损失。",
+                      "人脸识别和证件核验的误判并不均匀，被错误挡在门外的往往是没有证件或长相不典型的人。",
+                      "家庭环境不安全的青少年，以及那些没法开口求助的年轻人，依赖的正是不必经过家长就能上网这一点。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is the time you spend scrolling mostly your responsibility or mostly the designers'?",
+                "zh": "你花在刷手机上的时间，主要是你自己的责任，还是设计者的责任？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Mostly the design",
+                    "zh": "主要是设计的责任"
+                  },
+                  "points": {
+                    "en": [
+                      "The features in question were built and A/B tested by teams whose measured goal was engagement, against users who had no idea an experiment was running on them.",
+                      "Blaming individual willpower is convenient for whoever holds the design controls, and it has been the standard defence of every industry selling something habit-forming.",
+                      "Removing a stopping cue — the end of a page, the end of a video — is not neutral: it takes away the moment at which a person would naturally have decided whether to continue."
+                    ],
+                    "zh": [
+                      "这些功能是由以",
+                      " ",
+                      "把责任推给个人意志力，对掌握设计权的一方最省事；这也是每一个售卖成瘾性产品的行业惯用的辩词。",
+                      "拿掉停止信号——页面的底部、视频的结尾——并不是中立的：它抹去了一个人本来会自然地决定是否继续的那一刻。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Mostly the user",
+                    "zh": "主要是用户的责任"
+                  },
+                  "points": {
+                    "en": [
+                      "People use these apps because they get something real from them — friends, music, jokes, news — and describing that as manipulation dismisses their actual reasons.",
+                      "Treating teenagers as incapable of governing their own attention is a claim about them that they mostly reject, and it justifies restrictions they did not ask for.",
+                      "The tools to stop already exist — timers, notification settings, deleting the app — and a society that outsources self-control to regulators tends to get less of it."
+                    ],
+                    "zh": [
+                      "人们用这些App是因为确实从中得到了东西——朋友、音乐、段子、消息——把这一切说成被操纵，是在否定他们真实的动机。",
+                      "认定青少年管不住自己的注意力，本身就是一个关于他们的判断，而多数青少年并不认同；它还为他们从未要求过的限制提供了理由。",
+                      "停下来的工具本来就有——计时器、通知设置、删掉App——一个把自制力外包给监管者的社会，往往会更缺乏自制力。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "CN",
+      "source": {
+        "title": "China's economy slows further in July as retail sales and investment weaken",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/17/china-economy-sales-investment-july-.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "China's industrial output slows in July; retail sales miss forecasts",
+            "zh": "中国7月工业产出放缓，零售销售不及预期"
+          },
+          "summary": {
+            "en": "Reuters' write-up with the economist poll numbers the results fell short of. The clearest place to see expectation versus outcome side by side.",
+            "zh": "路透社的报道列出了经济学家的预测数字以及实际结果的差距。是并列比较预期与现实的最清晰来源。"
+          },
+          "publisher": "Reuters via Investing.com",
+          "url": "https://www.investing.com/news/economy-news/chinas-industrial-output-slows-in-july-retail-sales-miss-forecasts-4862243"
+        },
+        {
+          "title": {
+            "en": "China's economy extends slowdown by weakening across the board",
+            "zh": "中国经济全面走弱，放缓势头延续"
+          },
+          "summary": {
+            "en": "Bloomberg's argument that the AI and tech boom is not spreading to factories, shops and jobs. Adds the big-picture interpretation behind the raw numbers.",
+            "zh": "彭博社认为人工智能与科技繁荣并未惠及工厂、商店和就业。为这组数字提供了宏观解读。"
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-17/china-s-economy-extends-slowdown-by-weakening-across-the-board"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "China economy: retail sales and factory activity slow in July",
+            "zh": "中国经济：7月零售与工厂活动双双放缓"
+          },
+          "summary": {
+            "en": "A concise summary aimed at readers outside China, with context on what weak Chinese demand means for other countries. Helpful for the global knock-on effects.",
+            "zh": "面向中国以外读者的简明综述，说明中国需求疲软对其他国家意味着什么。有助于理解全球连锁反应。"
+          },
+          "publisher": "China-Global South Project",
+          "url": "https://chinaglobalsouth.com/2026/08/17/china-economy-retail-sales-factory-activity-slow-july/"
+        },
+        {
+          "title": {
+            "en": "Daily market outlook, August 18, 2026",
+            "zh": "每日市场展望：2026年8月18日"
+          },
+          "summary": {
+            "en": "Tuesday's market read-through, including whether Beijing can still hit its 4.5–5.0% growth target. Shows how traders reacted a day after the data.",
+            "zh": "周二市场解读，包括北京能否守住4.5%–5.0%的增长目标。展示数据公布次日交易员的反应。"
+          },
+          "publisher": "Tickmill",
+          "url": "https://www.tickmill.com/blog/daily-market-outlook-august-18-2026"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "China's Factories Slow Down, and Shoppers Stay Home",
+            "zh": "中国工厂放慢脚步，商店里的人也变少了"
+          },
+          "hook": {
+            "en": "China keeps a big scoreboard of how much its factories make and how much people buy. In July 2026 the numbers went the wrong way. Factories grew more slowly than in June, shops sold only a tiny bit more than last year, and more people were out of work. Only one part of the economy is racing ahead: computers, robots and artificial intelligence.",
+            "zh": "中国政府每个月都会公布一张「经济成绩单」，看看工厂生产了多少、大家买了多少东西。2026年7月的数字不太好看。工厂增长比6月慢，商店的销售额只比去年多一点点，失业的人也变多了。只有一个部分跑得飞快：电脑、机器人和人工智能。"
+          },
+          "story": {
+            "en": [
+              "Imagine a toy factory that made 100 cars last July. This July it made about 104 or 105. That is still more — but in June the same factory was making about 105 or 106. So the growth got smaller. Across the whole country, factory output grew 4.5%, down from 5.3%.",
+              "Shops did worse. Sales were up only about 0.6% from a year before. Out of every 1,000 yuan spent last year, that is just six extra yuan. When people worry about their jobs, they hold on to their money instead of spending it.",
+              "And more people are looking for work. In China's cities, 52 out of every 1,000 workers had no job, up from 50. Businesses also spent less on new buildings and machines, which usually means bosses are not feeling brave about the future.",
+              "China is very good at one thing right now: making chips, robots and AI. Money is pouring into that. But that boom is not spreading to the shoe shop, the noodle shop or the building site. The government hoped the whole economy would grow between 4.5% and 5.0% this year. Many experts now think that will be hard."
+            ],
+            "zh": [
+              "想像一间玩具工厂，去年7月做了100辆小汽车。今年7月做了大约104或105辆。还是变多了——可是6月的时候，同样的工厂能做105或106辆。所以增长变慢了。全国来看，工厂产量增长4.5%，比6月的5.3%低。",
+              "商店的情况更差。销售额只比一年前多了约0.6%。也就是说，去年花1000元，今年只多花了6元。当大家担心工作会不会丢掉，就会把钱攥在手里，不敢花。",
+              "找不到工作的人也变多了。在中国的城市里，每1000个劳动者中有52个没有工作，之前是50个。企业买新厂房、新机器的钱也减少了，这通常说明老板们对将来没什么信心。",
+              "眼下中国有一件事做得非常好：造芯片、机器人和人工智能。大量的钱涌进这些行业。但这股热潮没有传到鞋店、面馆和建筑工地。政府原本希望今年整体经济增长4.5%到5.0%。现在很多专家觉得，这个目标不容易达到。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "China makes a huge share of the world's toys, phones, clothes and cars, so when its shops and factories slow down, factories and jobs in other countries feel it too. Inside China, a slow economy shows up in real life: a parent's overtime pay disappears, or a shop on the corner closes. It is also a puzzle grown-ups are arguing about — whether a country can be rich in robots but still tired everywhere else.",
+            "zh": "世界上很大一部分玩具、手机、衣服和汽车都是中国做的，所以当中国的工厂和商店放慢，其他国家的工厂和工作也会受影响。在中国国内，经济变慢会变成很具体的事：爸爸妈妈的加班费没有了，街角的小店关门了。这也是大人们正在争论的一道难题：一个国家能不能一边在机器人上很富有，一边其他地方却很疲惫。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Retail sales",
+                "zh": "社会消费品零售总额（零售销售）"
+              },
+              "def": {
+                "en": "The total amount of money people spend in shops, restaurants and online — a way to see whether families feel comfortable spending.",
+                "zh": "人们在商店、餐厅和网上一共花了多少钱——用来看看家庭愿不愿意花钱。"
+              }
+            },
+            {
+              "term": {
+                "en": "Unemployment rate",
+                "zh": "失业率"
+              },
+              "def": {
+                "en": "Out of every 100 people who want a job, how many do not have one.",
+                "zh": "在每100个想工作的人当中，有多少人没有工作。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government promise a growth number for the whole year, like 4.5% to 5.0%?",
+                "zh": "政府应该为全年定一个增长数字目标吗？比如4.5%到5.0%？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, aim at a target",
+                    "zh": "该定，有目标才有方向"
+                  },
+                  "points": {
+                    "en": [
+                      "A clear number tells everyone what the plan is, the way a team knows it needs five goals to win.",
+                      "Businesses and families can make decisions when they know what the government is trying to do.",
+                      "If leaders miss the target, people can see it and ask them why — a promise makes them answerable."
+                    ],
+                    "zh": [
+                      "一个清楚的数字能让所有人知道计划是什么，就像球队知道要赢就得进五个球。",
+                      "企业和家庭知道政府想做什么，才好做自己的决定。",
+                      "如果没达到目标，大家看得见，可以追问原因——有承诺才好问责。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't promise a number",
+                    "zh": "不该定，别许下数字承诺"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody can control the weather, wars or what other countries buy, so promising a number can be a promise you cannot keep.",
+                      "When people must hit a number, they may be tempted to make the number look good instead of making life better.",
+                      "Chasing the target can push money into things nobody needs, like empty buildings, just to keep the score up."
+                    ],
+                    "zh": [
+                      "天气、战争、别国买不买东西，谁都控制不了，承诺数字可能是做不到的承诺。",
+                      "当必须达到某个数字时，人们可能更想把数字做得好看，而不是把生活变好。",
+                      "为了追目标，钱可能被投到没人需要的地方，比如空荡荡的楼房，只为把分数撑住。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a country's robot and AI companies are booming but its shops are quiet, is that country doing well?",
+                "zh": "如果一个国家的机器人和人工智能公司很火，但商店冷冷清清，这个国家算过得好吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it is doing well",
+                    "zh": "算好"
+                  },
+                  "points": {
+                    "en": [
+                      "Being first at new technology can pay for schools, trains and hospitals for many years.",
+                      "Shops can pick up later, but if you fall behind in chips and AI it is very hard to catch up.",
+                      "Building hard new things is a sign of skill and courage, not of a country in trouble."
+                    ],
+                    "zh": [
+                      "在新技术上领先，能在很多年里养出学校、铁路和医院。",
+                      "商店以后还能回暖，但在芯片和人工智能上落后了，就很难追回来。",
+                      "能造出这些难做的新东西，说明有本事、有胆量，不是国家出了问题。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it is not doing well",
+                    "zh": "算不好"
+                  },
+                  "points": {
+                    "en": [
+                      "An economy is meant to serve people, and right now people are afraid to spend even a little extra.",
+                      "Robots and AI need fewer workers, so the boom may not give jobs to the 52 in 1,000 who have none.",
+                      "If most families feel poorer each year, it does not help them that a few companies are winning."
+                    ],
+                    "zh": [
+                      "经济本来是为人服务的，可现在大家连多花一点钱都不敢。",
+                      "机器人和人工智能需要的工人少，这股热潮未必能给那1000人中52个没工作的人饭碗。",
+                      "如果大多数家庭一年比一年觉得更紧，少数公司赢了对他们没什么用。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "The numbers came out at 3 p.m. instead of the usual 10 a.m. Does it matter when bad news is released?",
+                "zh": "这次数据是下午3点公布的，平时是上午10点。坏消息什么时候公布，重要吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It matters — keep the same time",
+                    "zh": "重要——就该按老时间"
+                  },
+                  "points": {
+                    "en": [
+                      "Changing the hour on a bad day makes people wonder if someone was hoping fewer would notice.",
+                      "Millions of people plan their day around that hour, so surprises look like games.",
+                      "Trust is built by being boringly predictable, especially when the news is not good."
+                    ],
+                    "zh": [
+                      "坏消息那天偏偏换了时间，会让人怀疑是不是想让少些人注意到。",
+                      "有千千万万人按那个时间安排工作，突然改动看起来像在耍花样。",
+                      "信任靠的是无聊的可预测，尤其在消息不好的时候。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It doesn't matter — look at the numbers",
+                    "zh": "不重要——看数字本身"
+                  },
+                  "points": {
+                    "en": [
+                      "The figures were published in full, and anyone can read them either way.",
+                      "Delays happen for dull reasons: a check to redo, a meeting that ran long, a printer that broke.",
+                      "Guessing about the clock distracts from the real question, which is why shops are so quiet."
+                    ],
+                    "zh": [
+                      "数字是完整公布的，谁都能看，早晚都一样能看。",
+                      "晚一点常常有很平淡的原因：重新核对一遍、会议开长了、打印机坏了。",
+                      "猜时间会让人分心，真正的问题是：商店为什么这么冷清。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "China's Robots Are Busy. Its Shops Are Not.",
+            "zh": "中国的机器人很忙，商店却很冷清"
+          },
+          "hook": {
+            "en": "China's government statistics office reported that factory output grew 4.5% in July compared with a year earlier — slower than June, and slower than economists had guessed. Shop sales barely moved at all, rising about 0.6%. Unemployment in cities ticked up. On Tuesday, economists and investors spent the day arguing about what it means that China's artificial-intelligence boom does not seem to be pulling the rest of the economy along with it.",
+            "zh": "中国国家统计局公布，7月工业产值同比增长4.5%，比6月放慢，也低于经济学家的预期。社会消费品零售额几乎没动，只涨了约0.6%。城镇失业率上升。周二一整天，经济学家和投资者都在争论一件事：中国的人工智能热潮，似乎没有把经济的其他部分一起拉起来。"
+          },
+          "story": {
+            "en": [
+              "Imagine a school where the robotics club is winning national prizes while attendance in every other class quietly slips. That is roughly the picture in the numbers China published this week. Factories making chips, electric cars, batteries and AI servers are humming. Almost everything else — shopping, house building, hiring — is losing speed.",
+              "The details: industrial output, meaning the total value of things factories produce, grew 4.5% year-on-year in July, down from 5.3% in June. Retail sales, which add up what ordinary people spend in shops and online, grew about 0.6% — close to standing still. Urban unemployment rose from 5.0% to 5.2%. Fixed-asset investment, the money spent building things meant to last such as factories, railways and flats, fell further. And the manufacturing PMI, a monthly survey of factory managers, stayed under 50, the line where more managers say business is shrinking than growing.",
+              "Bloomberg summed it up bluntly: the tech and AI boom is not lifting the rest of the economy, which is weakening across the board. This matters because of arithmetic. China's leaders set a growth target of 4.5% to 5.0% for the year. The first quarter came in at 4.7%. If the months that follow keep sagging, that target becomes hard to hit — and in China, a growth target is not a wish. It shapes how much local governments borrow, build and spend.",
+              "Economists disagree about why the two halves have come apart. One reading is that this is a deliberate, painful swap: China is moving away from an economy built on constructing flats — where a property slump has left many families feeling poorer — and towards advanced manufacturing. Rebuilding an engine while the car is moving is meant to feel bumpy. The other reading is simpler and gloomier: AI factories are extremely capital-hungry but employ relatively few people, so they cannot replace the millions of jobs and the confidence that construction and consumer spending once provided. If families fear for their jobs, they save instead of spending, which cuts sales, which cuts hiring again.",
+              "There was one small oddity that traders noticed. The statistics bureau released the figures at 3 p.m. Beijing time rather than the usual 10 a.m. Nobody outside the bureau knows why. Some analysts read it as a sign that awkward numbers were handled carefully; others say a schedule change is just a schedule change, and reading tea leaves in a timestamp is how smart people talk themselves into nonsense.",
+              "Worth holding one more thing in mind. These are official government statistics, and plenty of economists outside China treat them with some caution, checking them against other evidence such as electricity use, shipping traffic and company earnings. That scepticism runs in a particular direction here, though: the private surveys and corporate results mostly point the same way as the official data, or worse. On this occasion, the numbers may be telling an unflattering story about the economy that produced them."
+            ],
+            "zh": [
+              "想象一所学校：机器人社团在全国比赛拿奖，而其他每一门课的出勤率都在悄悄下滑。中国本周公布的数据，大致就是这样一幅图景。生产芯片、电动车、电池和AI服务器的工厂开足马力，而几乎其他所有环节——消费、盖房、招工——都在放慢。",
+              "具体数字是这样的：7月工业产值（工厂生产出来的东西的总价值）同比增长4.5%，低于6月的5.3%。社会消费品零售额（把普通人在商店和网上花的钱加起来）只增长约0.6%，接近原地不动。城镇失业率从5.0%升到5.2%。固定资产投资，也就是花在工厂、铁路、住宅这类耐用东西上的钱，继续下滑。制造业PMI——每月对工厂经理做的问卷调查——仍低于50，也就是说，认为生意在缩水的经理多于认为在变好的。",
+              "彭博社的总结很直白：科技与AI的热潮没有带动经济的其他部分，后者正在全面走弱。这之所以重要，是因为算术。中国把今年的增长目标定在4.5%到5.0%，第一季度是4.7%。如果后面的月份持续疲软，这个目标就很难达到。而在中国，增长目标不是一个愿望，它会影响地方政府借多少钱、盖多少东西、花多少钱。",
+              "经济学家对“为什么两半会脱节”看法不一。一种解读是：这是有意为之的、必然痛苦的换挡——中国正在从靠盖房子撑起来的经济（房地产下行让许多家庭觉得自己变穷了）转向高端制造。边开车边换发动机，本来就会颠。另一种解读更简单也更悲观：AI工厂极度吃钱，用的人却相对不多，因此无法替代建筑业和消费当年提供的成百万个岗位和那份安全感。家庭一担心工作，就存钱而不花钱；销售下滑，招工又减少。",
+              "还有一个被交易员注意到的小细节：统计局这次是在北京时间下午3点发布数据，而不是惯例的上午10点。局外人不知道原因。有分析师把它读作“难看的数字被谨慎处理了”；也有人说，改时间就只是改时间，从一个时间戳里读命运，正是聪明人说服自己相信胡话的方式。",
+              "还有一点值得记住：这些是官方统计数据，中国以外不少经济学家会带点谨慎地看它们，习惯用发电量、货运量、企业财报等别的证据来对照。不过这次的怀疑指向一个特别的方向：民间调查和上市公司业绩，多数指向和官方数据同一个方向，甚至更差。也就是说，这一回，官方数字讲的可能正是一个对自己不太好看的故事。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "China buys and sells things with almost every country on earth, so when Chinese families stop spending, factories from Germany to Vietnam feel it in their order books. It is also a live test of a question that will shape your working life: whether an economy built around AI and advanced machines can create enough ordinary jobs for ordinary people.",
+            "zh": "中国几乎和地球上每个国家做买卖，所以当中国家庭不花钱时，从德国到越南的工厂都会在订单上感觉到。这同时也是一场现实中的测试，考的是一个会影响你未来工作的问题：一个围绕AI和高端机器建起来的经济，能不能为普通人创造出足够多的普通工作。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Year-on-year",
+                "zh": "同比"
+              },
+              "def": {
+                "en": "Comparing one month with the same month a year earlier, which cancels out normal seasonal ups and downs like holidays.",
+                "zh": "把某个月和去年同一个月相比，这样就能抵掉节假日之类正常的季节性起伏。"
+              }
+            },
+            {
+              "term": {
+                "en": "Manufacturing PMI",
+                "zh": "制造业PMI（采购经理指数）"
+              },
+              "def": {
+                "en": "A monthly survey of factory managers turned into a single number, where above 50 means most say business is expanding and below 50 means most say it is shrinking.",
+                "zh": "把每月对工厂采购经理的问卷调查变成一个数字：高于50表示多数人说生意在扩张，低于50表示多数人说生意在收缩。"
+              }
+            },
+            {
+              "term": {
+                "en": "Fixed-asset investment",
+                "zh": "固定资产投资"
+              },
+              "def": {
+                "en": "Money spent building things intended to last for years — factories, roads, railways, apartment blocks — rather than on goods that get used up.",
+                "zh": "花在能用很多年的东西上的钱，比如工厂、公路、铁路、住宅楼，而不是花在会被消耗掉的商品上。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If China has one more trillion yuan to spend, should it go into advanced technology like AI and chips, or straight to households as cash and better welfare?",
+                "zh": "如果中国还有一万亿元可以花，应该投给AI、芯片这类高端技术，还是直接以现金和更好的社会保障发给家庭？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Build the technology",
+                    "zh": "投技术"
+                  },
+                  "points": {
+                    "en": [
+                      "Frontier industries decide who is rich in thirty years, and a country that skips this round of AI and chipmaking may never get another chance to catch up.",
+                      "Cash handed to worried families often gets saved rather than spent, so the boost fades while a fabrication plant keeps producing value for decades.",
+                      "Technology leadership is also security: a country that cannot make its own advanced chips can be cut off from them by rivals during a dispute."
+                    ],
+                    "zh": [
+                      "前沿产业决定三十年后谁富有，一个国家如果错过AI和芯片这一轮，也许再也等不到追赶的机会。",
+                      "发给不安的家庭的现金常常被存起来而不是花掉，刺激效果很快消失，而一座晶圆厂能持续几十年创造价值。",
+                      "技术领先也是安全：造不出自己的高端芯片的国家，在冲突中可能被对手直接断供。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Give it to households",
+                    "zh": "给家庭"
+                  },
+                  "points": {
+                    "en": [
+                      "Factories can only sell what someone buys, and building more capacity into weak demand produces gluts, price wars and companies that lose money.",
+                      "Confidence is the missing ingredient: with better health cover, pensions and unemployment support, families would feel safe enough to spend their existing savings too.",
+                      "AI and chip plants employ relatively few workers per yuan invested, so they cannot absorb the people leaving construction and retail."
+                    ],
+                    "zh": [
+                      "工厂只能卖出有人买的东西，需求疲软时继续扩产能，只会造成过剩、价格战和亏钱的公司。",
+                      "缺的那味材料是信心：有更好的医疗、养老和失业保障，家庭才敢把已有的存款也花出去。",
+                      "按每一元投资算，AI和芯片厂用的工人相对很少，无法吸纳从建筑业和零售业出来的人。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a government announce a specific growth target for the year in advance?",
+                "zh": "政府应该在年初就公布一个具体的增长目标吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, targets create accountability",
+                    "zh": "应该，目标带来问责"
+                  },
+                  "points": {
+                    "en": [
+                      "A public number lets citizens judge their leaders against a promise instead of against vague talk about progress.",
+                      "Businesses and local officials need a shared expectation to plan hiring and investment around, the way a class works better when the exam date is known.",
+                      "A target forces a government to act when the economy sags, rather than quietly tolerating years of drift."
+                    ],
+                    "zh": [
+                      "一个公开的数字，让公民可以拿承诺来衡量领导人，而不是听一堆含糊的“进步”说法。",
+                      "企业和地方官员需要一个共同的预期来安排招工和投资，就像知道考试日期的班级更容易安排复习。",
+                      "有目标，政府在经济下滑时就必须行动，而不是默默容忍多年的漂流。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, targets distort behaviour",
+                    "zh": "不应该，目标会扭曲行为"
+                  },
+                  "points": {
+                    "en": [
+                      "When a number becomes the goal, people hit the number: officials build bridges nobody crosses and borrow money that later has to be repaid.",
+                      "Targets create pressure on the same officials who report the statistics, which is a bad way to keep data honest.",
+                      "Economies are hit by shocks nobody predicted, and a target set in January can lock a government into defending an out-of-date promise."
+                    ],
+                    "zh": [
+                      "当数字变成目标，人们就会去凑数字：官员会修没人走的桥，借下将来必须还的钱。",
+                      "目标会给同一批上报统计数据的官员施加压力，而这对保持数据诚实很不利。",
+                      "经济会遇到没人预测到的冲击，一月定下的目标可能让政府被迫死守一个已经过时的承诺。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "The statistics office published the numbers at 3 p.m. instead of the usual 10 a.m. Is that detail worth paying attention to?",
+                "zh": "统计局这次在下午3点、而不是惯常的上午10点发布数据。这个细节值得留意吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Worth noticing",
+                    "zh": "值得留意"
+                  },
+                  "points": {
+                    "en": [
+                      "Institutions are creatures of habit, so a break from routine is genuine information about something happening inside them.",
+                      "Investors are paid to notice small changes early, and waiting for confirmation means the useful moment has already passed.",
+                      "In systems where officials cannot speak freely, the way information is handled is sometimes the only signal available about how it is viewed at the top."
+                    ],
+                    "zh": [
+                      "机构是习惯的动物，打破惯例本身就是关于其内部正在发生某事的真实信息。",
+                      "投资者的工作就是尽早注意到细微变化，等到确认时，有用的那一刻已经过去了。",
+                      "在官员不能自由发言的体制里，信息被如何处理，有时是唯一能透露高层态度的信号。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not worth much",
+                    "zh": "意义不大"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody outside the bureau knows the reason, so any story built on it is guesswork dressed up as analysis.",
+                      "The habit of reading meaning into tiny details is exactly how confident people end up believing things that are not true.",
+                      "The substance was already public and unflattering, so a later release time changed nothing anyone could actually trade or plan on."
+                    ],
+                    "zh": [
+                      "局外人不知道原因，任何建立在这上面的说法都是包装成分析的猜测。",
+                      "从微小细节里读出含义的习惯，正是让自信的人相信不真实的事情的原因。",
+                      "实质内容已经公开，而且并不好看，晚几小时发布并没有改变任何人真正能据以交易或规划的东西。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "China's AI Boom Isn't Carrying the Rest of the Economy",
+            "zh": "中国的AI热潮,没能带动其余的经济"
+          },
+          "hook": {
+            "en": "China's statistics bureau reported that factory output grew 4.5% in July compared with a year earlier — slower than June's 5.3% and below what economists had forecast. Retail sales barely moved, up around 0.6%, and urban unemployment rose to 5.2%. On Tuesday, analysts and markets digested the same conclusion: the country's spectacular boom in technology and artificial intelligence is running alongside an economy that is cooling almost everywhere else.",
+            "zh": "中国国家统计局公布,7月工业增加值同比增长4.5%,低于6月的5.3%,也低于经济学家的预期。社会消费品零售总额几乎没动,只涨了约0.6%,城镇调查失业率从5.0%升到5.2%。周二,分析师和市场消化出同一个结论:这个国家在科技与人工智能领域的火热,和其余部分正在普遍降温的经济,几乎是两条平行线。"
+          },
+          "story": {
+            "en": [
+              "The numbers themselves came out on Monday afternoon Beijing time, and they were unusually consistent with one another. Industrial output — how much the country's factories actually produced — grew 4.5% year-on-year, against the 4.8% a Reuters poll of economists had expected. Fixed-asset investment, which covers spending on things like factories, machinery, roads and apartment blocks, fell further. The manufacturing purchasing managers' index stayed below 50, the dividing line between an expanding and a shrinking sector. When output, investment, consumption and employment all move the wrong way in the same month, economists stop calling it noise.",
+              "Bloomberg's framing captured what made this release different from a routine soft patch: the weakness is 'across the board,' and it is happening while China builds one of the most aggressive artificial-intelligence and advanced-manufacturing capacities in the world. Enormous sums are flowing into chips, data centres, electric vehicles and batteries. But those industries employ relatively few people for the capital they absorb, and a data centre does not shop, eat out or renovate a home. The result is what analysts increasingly describe as a two-track economy: a technological frontier moving fast, and a household economy that has not recovered its confidence since the property market turned.",
+              "Retail sales are the clearest symptom. Growth of 0.6% means Chinese households, in aggregate, spent almost exactly what they spent a year ago. Behind that is a simple mechanism: for most Chinese families, the apartment is the savings account. Property prices have fallen for years, so people feel poorer even if their salary has not changed, and they respond by saving rather than spending. Weak spending means weak revenue for shops and services, which means cautious hiring, which pushes unemployment up — and rising unemployment makes households save more still. Breaking that loop is the central policy problem, and it is not one that faster chip production solves.",
+              "The official growth target for the year is 4.5–5.0%. The first quarter came in at 4.7%, comfortably inside the range, but a summer this weak makes the upper half of the band look out of reach and the lower edge look like work. Targets in China are not merely forecasts; provincial officials are evaluated against them, which is exactly why economists watch the gap between the target and the data so closely. The obvious response is stimulus aimed at consumers — trade-in subsidies, childcare support, stronger pensions and health insurance so families feel safe spending. Beijing has resisted large direct handouts, partly on ideological grounds and partly out of concern about debt.",
+              "One small detail drew disproportionate attention. The bureau published the figures at 3 p.m. Beijing time rather than the usual 10 a.m. Nothing in the release explained the change, and it may be entirely administrative. But statistical agencies everywhere guard predictable release schedules precisely because predictability is what makes the numbers credible; markets notice when a routine breaks. Some outside economists already treat Chinese official statistics with caution, cross-checking them against electricity use, freight volumes, satellite imagery and corporate earnings. Others point out that those alternative measures have their own flaws, and that the July figures were bad — which is not what a government massaging its books would publish.",
+              "How much this matters beyond China's borders is a genuine argument. A slower China buys less Australian iron ore, fewer German machine tools and less Brazilian soy, and it exports deflation — cheap goods that hold prices down in other countries, welcome for shoppers and painful for competing manufacturers. Some analysts read the data as a temporary trough before stimulus arrives in the autumn. Others read it as the visible shape of a longer transition: an economy deliberately shifting from property and construction toward technology, paying the cost of that shift now, in jobs and confidence, in the hope of the payoff later."
+            ],
+            "zh": [
+              "数据本身是北京时间周一下午发布的,各项指标罕见地彼此吻合。工业增加值——也就是全国工厂实际产出了多少——同比增长4.5%,低于路透调查中经济学家预期的4.8%。固定资产投资进一步下滑,它涵盖的是修工厂、买机器、建公路和盖楼这类支出。制造业采购经理指数仍在50以下,而50是扩张与收缩的分界线。当产出、投资、消费和就业在同一个月里同时朝错误的方向走,经济学家就不会再把它当成偶然波动。",
+              "彭博的概括点出了这次数据的特别之处:疲弱是",
+              "全面的",
+              "而且它发生在中国大力建设全球最激进的人工智能与先进制造产能之际。巨额资金正涌向芯片、数据中心、电动车和电池。但这些行业相对于吸纳的资本,创造的就业并不多——数据中心不会去逛街、下馆子、装修房子。于是就出现了分析师越来越常说的"
+            ]
+          },
+          "why_it_matters": {
+            "en": "China is the world's second-largest economy and the biggest buyer of raw materials, so what its households do — or do not — spend shows up in commodity prices, factory orders and job markets far from Beijing. It is also a live test of a question every economy now faces: whether a boom concentrated in artificial intelligence and advanced manufacturing can lift ordinary employment and wages, or whether it grows alongside them without pulling them up.",
+            "zh": "中国是全球第二大经济体、最大的原材料买家,中国家庭花不花钱,会体现在遥远国家的大宗商品价格、工厂订单和就业市场上。它同时也是一个现实实验:一场集中在人工智能和先进制造业上的繁荣,究竟能不能带动普通人的就业与工资,还是只会与之并行、却拉不动它们。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Year-on-year",
+                "zh": "同比"
+              },
+              "def": {
+                "en": "Comparing a month to the same month a year earlier, which strips out predictable seasonal swings like holidays and harvests.",
+                "zh": "把某个月和去年同一个月相比,这样可以剔除节假日、季节性等本来就会重复出现的波动。"
+              }
+            },
+            {
+              "term": {
+                "en": "Purchasing managers' index (PMI)",
+                "zh": "采购经理指数(PMI)"
+              },
+              "def": {
+                "en": "A monthly survey of the people who buy supplies for factories; above 50 means more of them report business expanding than shrinking, below 50 means the reverse.",
+                "zh": "每月对工厂采购负责人做的调查:高于50表示报告业务扩张的人多于报告收缩的人,低于50则相反。"
+              }
+            },
+            {
+              "term": {
+                "en": "Fixed-asset investment",
+                "zh": "固定资产投资"
+              },
+              "def": {
+                "en": "Money spent on long-lived physical things — factories, machines, railways, buildings — rather than on goods people consume right away.",
+                "zh": "用于建造或购置长期使用的实物的支出,比如厂房、机器、铁路、楼房,而不是马上被消费掉的商品。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should Beijing respond by putting money directly into households' hands, rather than into industry and infrastructure?",
+                "zh": "面对经济疲软,北京应该把钱直接发到家庭手里,而不是继续投向产业和基建吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pay households directly",
+                    "zh": "直接补贴家庭"
+                  },
+                  "points": {
+                    "en": [
+                      "The shortfall is in demand, not capacity — China can already make more than its people are buying, so building more factories deepens the problem rather than fixing it.",
+                      "Money given to households with weak savings is spent quickly and locally, turning into revenue for shops and services, which are the sectors that actually hire large numbers of workers.",
+                      "Stronger pensions and health insurance would cut the precautionary saving that keeps consumption flat, and unlike a bridge, that effect persists after the spending stops."
+                    ],
+                    "zh": [
+                      "缺口在需求端而不是产能端——中国已经能生产超过国民购买量的东西,再建工厂只会加深问题,而不是解决它。",
+                      "发到储蓄不多的家庭手里的钱会很快在本地花掉,变成商铺和服务业的收入,而这些正是吸纳大量就业的行业。",
+                      "更充实的养老金和医保能降低出于不安全感的预防性储蓄,而且与修一座桥不同,这种效果在支出结束后依然存在。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep investing in industry",
+                    "zh": "继续投向产业"
+                  },
+                  "points": {
+                    "en": [
+                      "Cash transfers are consumed once; a chip fabrication plant or a grid upgrade raises what the country can produce for decades.",
+                      "China's long-term challenge is a shrinking workforce and technology restrictions from abroad, and neither is solved by boosting shopping this quarter.",
+                      "Handouts funded by borrowing add to a debt load that is already heavy at the local-government level, and they are politically very hard to withdraw once families expect them."
+                    ],
+                    "zh": [
+                      "发现金只能被消费一次;一座芯片厂或一次电网升级,能在几十年里提高国家的生产能力。",
+                      "中国的长期挑战是劳动人口减少和来自外部的技术限制,这两件事都不会因为这一季度多买点东西而解决。",
+                      "靠举债发钱会加重本已沉重的地方政府债务,而且一旦家庭形成预期,政治上极难再取消。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a government announce a specific numerical growth target for the year at all?",
+                "zh": "政府到底该不该公布一个具体的年度增长目标数字?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Targets are worth keeping",
+                    "zh": "目标值得保留"
+                  },
+                  "points": {
+                    "en": [
+                      "A public number is a commitment citizens, firms and investors can hold officials to, which is rare accountability in a system with few other checks.",
+                      "Businesses plan hiring and investment years ahead, and a stated target tells them how hard the state intends to lean against a downturn.",
+                      "Without a target, a government can quietly redefine success after the fact and call any outcome the one it wanted."
+                    ],
+                    "zh": [
+                      "一个公开的数字,是民众、企业和投资者可以拿来问责官员的承诺,在缺少其他制衡的体制中,这种问责很稀缺。",
+                      "企业的招聘和投资往往按年规划,一个明确的目标能告诉它们,政府打算用多大力气对抗下行。",
+                      "没有目标,政府就可以事后悄悄改写成功的定义,把任何结果都说成自己想要的结果。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Targets do more harm than good",
+                    "zh": "目标弊大于利"
+                  },
+                  "points": {
+                    "en": [
+                      "When officials are judged on one number, they can hit it with empty construction and borrowed money that produce growth on paper and losses in reality.",
+                      "A target set months in advance cannot know what the year will bring, so defending it can force stimulus that the economy no longer needs — or block help it does.",
+                      "The pressure to meet a published figure is precisely the pressure that makes statistics less trustworthy, which costs the government more credibility than a missed target would."
+                    ],
+                    "zh": [
+                      "当官员被单一数字考核时,他们可以用无效建设和借来的钱把数字凑够,账面上是增长,实际上是亏损。",
+                      "提前几个月定下的目标无法预知这一年会发生什么,硬要守住它,可能逼出经济已不需要的刺激,或挡住真正需要的救助。",
+                      "为达成公布数字而产生的压力,恰恰是让统计数据变得不可信的压力,这比没完成目标更损伤政府公信力。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for foreign economists to treat China's official statistics with extra suspicion?",
+                "zh": "外国经济学家对中国官方统计数据格外存疑,这样做公平吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The caution is justified",
+                    "zh": "这种谨慎是合理的"
+                  },
+                  "points": {
+                    "en": [
+                      "Chinese provincial figures have been revised downward substantially in the past after audits, and officials are rewarded for hitting growth numbers they also help report.",
+                      "A statistics bureau that answers to the government it is measuring faces a structural conflict of interest, whatever the integrity of individual statisticians.",
+                      "Small departures from routine — like moving a scheduled release from 10 a.m. to 3 p.m. without explanation — are cheap to avoid and are exactly what erodes confidence in a data series."
+                    ],
+                    "zh": [
+                      "中国部分省份的数据在审计后曾被大幅下修,而官员既因达成增长数字而受奖励,又参与数据的上报。",
+                      "一个向被它衡量的政府负责的统计机构,存在结构性的利益冲突,不论具体统计人员多么正直。",
+                      "像把预定的10点发布挪到下午3点却不作说明这样的小小反常,本来极易避免,而恰恰是这类事情侵蚀人们对一组数据的信心。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The suspicion is overdone",
+                    "zh": "这种怀疑被夸大了"
+                  },
+                  "points": {
+                    "en": [
+                      "The July release was bad news across four separate indicators, which is not the behaviour of an agency inventing numbers to flatter itself.",
+                      "The alternative gauges outsiders prefer — electricity use, freight, satellite images of night lights — are noisy proxies with their own biases, and they have been wrong about China before.",
+                      "Every government's data involves judgement calls and later revisions, including America's payroll numbers, so applying a harsher standard to one country can become a political habit dressed up as rigour."
+                    ],
+                    "zh": [
+                      "7月的发布在四个不同指标上都是坏消息,这不像一个为粉饰自己而编造数字的机构会做的事。",
+                      "外界偏爱的替代指标——用电量、货运量、夜间灯光卫星图——都是嘈杂的代理变量,自身也有偏差,过去也曾对中国判断失误。",
+                      "任何国家的数据都涉及判断和事后修正,包括美国的就业数据,对某一个国家采用更严苛的标准,可能只是把政治习惯包装成了严谨。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Disney sues FCC over challenge to ABC broadcast licenses, claiming retaliation over Jimmy Kimmel",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/08/18/abc-fcc-kimmel-disney-lawsuit/8ee25808-9b09-11f1-9cc4-2dc9b46e2d5c_story.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Disney sues FCC over challenge to broadcast licenses, claims retaliation over Jimmy Kimmel",
+            "zh": "迪士尼因广播执照审查起诉FCC，称是对吉米·坎摩尔事件的报复"
+          },
+          "summary": {
+            "en": "The AP account, with Chairman Brendan Carr's public defence and the April origins of the review. Best single source for the regulator's side of the argument.",
+            "zh": "美联社报道，包含主席布伦丹·卡尔的公开辩护以及4月启动审查的经过。了解监管方立场的最佳单一来源。"
+          },
+          "publisher": "AP via U.S. News",
+          "url": "https://www.usnews.com/news/politics/articles/2026-08-18/disney-sues-fcc-over-challenge-to-broadcast-licenses-claims-retaliation-over-jimmy-kimmel"
+        },
+        {
+          "title": {
+            "en": "Disney and ABC sue Trump's FCC over alleged retaliation for a Jimmy Kimmel joke",
+            "zh": "迪士尼与ABC起诉特朗普政府下的FCC，指其因坎摩尔玩笑进行报复"
+          },
+          "summary": {
+            "en": "Quotes directly from Disney's complaint, including the 'retaliatory campaign' language. Useful for seeing exactly what the company alleges in its own words.",
+            "zh": "直接引用迪士尼诉状原文，包括“报复性行动”等表述。可以看清公司自己是如何措辞指控的。"
+          },
+          "publisher": "The New Republic",
+          "url": "https://newrepublic.com/post/214454/disney-abc-sue-trump-fcc-retaliation-jimmy-kimmel-joke"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Disney/ABC sues FCC alleging First Amendment retaliation over broadcast licenses",
+            "zh": "迪士尼/ABC起诉FCC，称广播执照审查违反第一修正案"
+          },
+          "summary": {
+            "en": "Explains how the eight owned stations and the early-renewal process actually work. Good if you want the nuts and bolts of broadcast licensing.",
+            "zh": "解释八家自有电视台以及提前换照程序的具体运作方式。适合了解广播执照制度的技术细节。"
+          },
+          "publisher": "ABC 33/40",
+          "url": "https://abc3340.com/news/nation-world/disney-abc-sues-fcc-federal-communications-commission-first-amendment-alleging-retaliation-after-president-trump-called-for-jimmy-kimmels-firing-correspondents-dinner-joke-broadcast-licenses-chairman-brendan-carr"
+        },
+        {
+          "title": {
+            "en": "August 18, 2026 — PBS News Hour full episode",
+            "zh": "2026年8月18日 PBS新闻一小时完整节目"
+          },
+          "summary": {
+            "en": "The evening broadcast led with the Disney lawsuit and also covered the day's primaries. A way to see how national television handled the story on the day.",
+            "zh": "当晚新闻节目以迪士尼诉讼开篇，并报道了当日的初选。可以看到全国电视台当天如何处理这条新闻。"
+          },
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/show/august-18-2026-pbs-news-hour-full-episode"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Disney Takes the Government to Court Over Its TV Stations",
+            "zh": "迪士尼为旗下电视台把政府告上法庭"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, the Disney company sued a part of the United States government called the FCC. The FCC gives out the permission slips that TV stations need in order to broadcast. Disney says the FCC is squeezing its eight ABC television stations as punishment for things ABC put on the air. The FCC's chairman says he is just checking that TV stations serve the public well.",
+            "zh": "2026年8月18日，星期二，迪士尼公司起诉了美国政府的一个部门——联邦通信委员会（FCC）。电视台要播节目，必须先从FCC拿到“许可证”。迪士尼说，FCC盯上它旗下八家ABC电视台，是在报复ABC播出的内容。FCC主席则说，他只是在检查电视台有没有为公众服务。"
+          },
+          "story": {
+            "en": [
+              "Disney is the company that makes Mickey Mouse films. It also owns a big American TV network called ABC. ABC has eight television stations that Disney owns directly.",
+              "Television signals travel through the air. In the United States, the air belongs to everybody. So a station needs a licence — a written permission slip — from a government office called the FCC. Licences normally get renewed every eight years, like a library card you take back to the desk.",
+              "In April, the FCC told those eight stations to come in early for their check-up. It said it wanted to look at how ABC hires people. Around the same time, a late-night comedian on ABC named Jimmy Kimmel made a joke about President Trump. The President said many times that Kimmel should lose his job.",
+              "Disney told the court that the early check-up is really a punishment for what ABC broadcasts. Punishing a broadcaster for its words, Disney says, breaks the First Amendment — the rule that stops the American government from silencing people. The FCC's chairman, Brendan Carr, says stations must \"operate in the public interest,\" and that checking on them is his job. The FCC had not answered Disney's lawsuit yet. A judge will have to decide."
+            ],
+            "zh": [
+              "迪士尼是拍米老鼠电影的公司。它还拥有美国一家很大的电视网，叫ABC。其中有八家电视台是迪士尼直接拥有的。",
+              "电视信号是从空中传过来的。在美国，空中的电波属于全体国民。所以电视台必须向政府部门FCC申请一张“许可证”，就像一张写明可以使用的纸。许可证通常每八年更新一次，有点像借书证到期要回柜台办。",
+              "今年四月，FCC要求这八家电视台提前来“体检”。理由是要查看ABC怎么招聘员工。差不多同一时间，ABC深夜节目的喜剧演员吉米·坎摩尔开了一个关于特朗普总统的玩笑。总统多次公开说，应该让坎摩尔丢掉工作。",
+              "迪士尼在起诉书里说，这次提前审查其实是对ABC播出内容的惩罚。迪士尼认为，因为言论而惩罚电视台，违反了美国宪法第一修正案——那条不许政府封住别人嘴的规则。FCC主席布伦丹·卡尔说，电视台必须“为公众利益服务”，检查它们本来就是他的工作。FCC还没有对这起诉讼作出正式回应。最后要由法官来判断。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "The shows you watch, and the news your parents watch, are chosen by people who have to decide what is safe to say. If a comedian's joke can put a whole station's permission slip at risk, those people may start leaving things out before anyone even asks them to. That is why this argument reaches far past one comedian and one company.",
+            "zh": "你看的节目、爸爸妈妈看的新闻，都是由一些人挑选出来的，而他们必须判断什么话说得出口。如果一个喜剧演员的玩笑就可能危及整家电视台的许可证，那些人也许还没被要求，就先把一些内容悄悄去掉了。所以这场争论影响的远不只是一个喜剧演员和一家公司。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "broadcast licence",
+                "zh": "广播许可证"
+              },
+              "def": {
+                "en": "A written permission from the government that lets a TV or radio station send its signal through the air.",
+                "zh": "政府发给电视台或广播电台的书面许可，允许它通过空中的电波播送节目。"
+              }
+            },
+            {
+              "term": {
+                "en": "First Amendment",
+                "zh": "第一修正案"
+              },
+              "def": {
+                "en": "A rule in America's oldest law book that stops the government from punishing people for what they say.",
+                "zh": "美国最根本的法律中的一条规定，禁止政府因为人们说了什么而加以惩罚。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government be allowed to check on a TV station right after that station says something the government's leader dislikes?",
+                "zh": "如果电视台说了政府领导人不喜欢的话，政府可以紧接着去检查这家电视台吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, checks cannot pause",
+                    "zh": "可以，检查不能停"
+                  },
+                  "points": {
+                    "en": [
+                      "Rules that stop working whenever someone is annoyed are not really rules at all.",
+                      "A station might be breaking a real rule, and waiting to avoid looking unfair lets that continue.",
+                      "If saying something bold protected you from all inspections, every station would just say something bold first."
+                    ],
+                    "zh": [
+                      "一有人生气就暂停执行的规则，其实等于没有规则。",
+                      "电视台可能真的违规了，为了避免“看起来不公平”而拖延，只会让问题继续。",
+                      "如果说一句大胆的话就能免于所有检查，那每家电视台都会先抢着说一句大胆的话。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the timing is the message",
+                    "zh": "不可以，时机本身就是信号"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone can see the order of events, so the check looks like a punishment even if it isn't one.",
+                      "The people who choose what goes on air will get quieter, and nobody will ever be able to prove why.",
+                      "A government that holds the permission slips has enormous power, so it should be extra careful about when it uses them."
+                    ],
+                    "zh": [
+                      "事情的先后顺序谁都看得见，即使不是惩罚，看上去也像惩罚。",
+                      "负责决定播什么的人会变得小心翼翼，而且永远无法证明原因。",
+                      "手里握着许可证的政府权力极大，正因如此，用这份权力的时机要格外谨慎。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should comedians be free to joke about the most powerful person in the country?",
+                "zh": "喜剧演员可以随便拿国家里最有权力的人开玩笑吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Jokes must stay free",
+                    "zh": "玩笑必须自由"
+                  },
+                  "points": {
+                    "en": [
+                      "Laughing at powerful people is one of the few tools ordinary people have.",
+                      "If only safe jokes are allowed, the ones about the powerful disappear first.",
+                      "A leader who cannot be teased starts to seem like someone nobody is allowed to question."
+                    ],
+                    "zh": [
+                      "嘲笑有权力的人，是普通人手里少有的工具之一。",
+                      "如果只允许说安全的玩笑，最先消失的就是关于权势者的玩笑。",
+                      "一个不能被开玩笑的领导人，慢慢会变成谁都不许质疑的人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Some jokes go too far",
+                    "zh": "有些玩笑过了头"
+                  },
+                  "points": {
+                    "en": [
+                      "A joke reaching millions of people can be cruel in a way a joke in a classroom never is.",
+                      "Leaders are people too, and mockery on television can spread false ideas about them.",
+                      "The company that pays the comedian is allowed to decide what it wants its name attached to."
+                    ],
+                    "zh": [
+                      "传到几百万人耳朵里的玩笑，可能比教室里的玩笑残忍得多。",
+                      "领导人也是人，电视上的嘲讽可能让人们对他产生错误印象。",
+                      "付钱给喜剧演员的公司，有权决定自己愿意为什么内容署名。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that TV stations need government permission at all, when anyone can post a video online for free?",
+                "zh": "任何人都能免费上网发视频，电视台却必须拿政府许可，这公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fair — the airwaves are shared",
+                    "zh": "公平——电波是大家共有的"
+                  },
+                  "points": {
+                    "en": [
+                      "There is only so much room in the air, so someone has to hand out the space or the signals would crash into each other.",
+                      "Because the space belongs to everyone, it is reasonable to ask stations to give something back to the public.",
+                      "Broadcast TV arrives in millions of homes at once, so a mistake there spreads faster than a video nobody watches."
+                    ],
+                    "zh": [
+                      "空中的频道数量有限，必须有人分配，否则信号会互相干扰。",
+                      "既然电波属于全体国民，要求电视台回报公众是合理的。",
+                      "广播电视一次就进入几百万个家庭，出错的传播速度远快于一个没人看的视频。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Unfair — the old rule outlived its reason",
+                    "zh": "不公平——老规则的理由已经过时"
+                  },
+                  "points": {
+                    "en": [
+                      "Most people now watch on phones and streaming, where nobody needs a licence at all.",
+                      "Two people saying the same thing get treated differently only because of the machine carrying it.",
+                      "A permission slip that can be reviewed early gives the government a lever over the news, which online video never handed it."
+                    ],
+                    "zh": [
+                      "现在大多数人在手机和流媒体上看节目，那里根本不需要许可证。",
+                      "同样一句话，只因为传送它的设备不同，待遇就完全不同。",
+                      "可以被提前审查的许可证，给了政府一根撬动新闻的杠杆，而网络视频从没给过它这根杠杆。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Disney Takes the Government to Court Over Its TV Licences",
+            "zh": "迪士尼为电视执照把政府告上法庭"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, Disney sued the Federal Communications Commission — the US agency that hands out permission slips to use the public airwaves. Disney says the FCC is punishing its ABC television stations because the government does not like what ABC puts on air. The agency's chairman says he is only checking that broadcasters serve the public. A court will now decide who is right.",
+            "zh": "2026年8月18日星期二，迪士尼起诉了美国联邦通信委员会（FCC）——这个机构负责发放使用公共电波的许可。迪士尼说，FCC之所以针对旗下的ABC电视台，是因为政府不喜欢ABC播的内容。FCC主席则说，他只是在检查广播机构是否在为公众服务。现在由法院来判断谁有理。"
+          },
+          "story": {
+            "en": [
+              "Here is the odd thing about broadcast television in the United States: the airwaves that carry an over-the-air TV signal into someone's antenna are legally public property, like a park. A company cannot simply own them. It borrows them, under a licence from the FCC, and the licence must be renewed every eight years. That licence is the thing this fight is about.",
+              "In April, the FCC opened an early review of the licences for the eight television stations Disney owns directly through ABC — meaning it told Disney to apply for renewal ahead of schedule. The agency pointed to ABC's diversity, equity and inclusion practices, usually shortened to DEI: the internal rules companies use for hiring and promotion. All of this unfolded during a loud public argument over a joke by the late-night host Jimmy Kimmel, whose show airs on ABC. The joke offended President Trump, who has said more than once that Kimmel should be fired.",
+              "Disney's lawsuit says those two things are connected. In its complaint — the written document that opens a lawsuit and lays out the accusations — Disney argues the administration 'has waged a retaliatory campaign against ABC' because of what the network broadcasts, and that this breaks the First Amendment, the part of the US Constitution that forbids the government from punishing speech it dislikes.",
+              "FCC Chairman Brendan Carr has defended the review, saying broadcasters must 'operate in the public interest.' That phrase is not invented; it sits in the law that created broadcast licensing in the first place. The theory has always been that if a company gets to use a public resource for free, the public may ask something in return. The hard part is that nobody has ever agreed precisely on what the public interest requires — and a regulator deciding that a station has fallen short is, unavoidably, a government official making a judgement about programming.",
+              "Two cautions worth holding onto. First, everything above about retaliation is Disney's allegation, written by Disney's lawyers to win a case. As of the filing, the FCC had not responded in court and, according to the Associated Press, had not replied to requests for comment. Second, the timing of two events does not by itself prove one caused the other — that is exactly the kind of thing a judge will be asked to weigh.",
+              "The question underneath is bigger than one network or one comedian. If a licence can be reopened when an agency dislikes a broadcaster's choices, every broadcaster has a quiet reason to be careful — not because anyone ordered them to, but because the cost of annoying the wrong official has gone up. Lawyers call that a chilling effect. Whether that is a real danger here, or whether Disney is dressing up ordinary regulation as persecution, is what the court has to sort out."
+            ],
+            "zh": [
+              "美国的无线电视有一件很特别的事：把电视信号送进天线的那些电波，在法律上属于公共财产，就像一座公园。公司不能直接拥有它们，只能凭FCC发的执照「借用」，而执照每八年要更新一次。这场官司争的就是这张执照。",
+              "今年4月，FCC对迪士尼通过ABC直接持有的八家电视台启动了「提前审查」，也就是要求迪士尼提早申请续照。FCC提到的理由是ABC的「多元、平等与包容」做法（常简称DEI），指的是公司在招聘和升迁上的内部规则。而这一切发生的背景，是一场关于深夜脱口秀主持人吉米·坎摩尔（Jimmy Kimmel）一个玩笑的公开争吵——他的节目在ABC播出。那个玩笑让特朗普总统不满，总统还多次表示应该开除他。",
+              "迪士尼的诉状把这两件事联系在一起。诉状就是启动诉讼、列出指控的那份法律文件。迪士尼在其中说，政府「对ABC发动了一场报复性行动」，原因就是不喜欢ABC播的内容，这违反了美国宪法《第一修正案》——该条款禁止政府因言论内容而惩罚说话的人。",
+              "FCC主席布伦丹·卡尔（Brendan Carr）为这次审查辩护，说广播机构必须「为公共利益服务」。这句话不是他编的，它本来就写在设立广播执照制度的法律里。背后的道理是：既然公司免费使用公共资源，公众也可以要求一些回报。难点在于，从来没有人把「公共利益」到底要求什么讲清楚过——而一名监管者判定某家电视台没做到，说到底就是政府官员在对节目内容作评价。",
+              "有两点要记住。第一，上面所有关于「报复」的说法都是迪士尼的指控，由迪士尼的律师为打赢官司而写。在起诉时，FCC还没有在法庭上作出回应；据美联社报道，它也没有回复采访请求。第二，两件事时间接近，本身并不能证明一件导致了另一件——而这恰恰是法官要衡量的东西。",
+              "更大的问题不只关乎一家电视网或一位喜剧演员。如果监管机构不喜欢某家广播机构的选择，就能重新翻开它的执照，那么所有广播机构都有了一个悄悄小心行事的理由——不是因为谁下了命令，而是因为惹到某位官员的代价变高了。律师把这叫做「寒蝉效应」。这里到底存在真实的危险，还是迪士尼把普通的监管说成了迫害，这要由法院来分辨。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Almost everything you watch, scroll or read reaches you through a company that some government can make life difficult for. Where the line sits between regulating a broadcaster and punishing it decides how freely the shows, news and jokes you see get made. And the rule a court sets here will not only protect speech you like — it will protect speech you find annoying, which is usually the real test.",
+            "zh": "你看的、刷的、读的几乎所有内容，都要经过某家公司，而政府往往有办法让这家公司不好过。「监管一家电视台」和「惩罚一家电视台」之间的界线画在哪里，决定了你看到的节目、新闻和玩笑能有多自由地被做出来。法院在这里定下的规则，不只保护你喜欢的言论，也会保护你觉得讨厌的言论——而后者通常才是真正的考验。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "broadcast licence",
+                "zh": "广播执照"
+              },
+              "def": {
+                "en": "Government permission for a TV or radio station to use public airwaves, renewed every eight years and revocable in principle.",
+                "zh": "政府批准电视台或电台使用公共电波的许可，每八年更新一次，原则上也可以被吊销。"
+              }
+            },
+            {
+              "term": {
+                "en": "First Amendment",
+                "zh": "第一修正案"
+              },
+              "def": {
+                "en": "The part of the US Constitution that stops the government from punishing people or companies for what they say.",
+                "zh": "美国宪法中的一条，禁止政府因为人们或公司说了什么而加以惩罚。"
+              }
+            },
+            {
+              "term": {
+                "en": "chilling effect",
+                "zh": "寒蝉效应"
+              },
+              "def": {
+                "en": "When people avoid saying something not because it is banned, but because they fear trouble if they do.",
+                "zh": "人们不说某些话，并不是因为被禁止，而是因为害怕说了会有麻烦。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a regulator ever be allowed to consider what a station airs when deciding whether to renew its licence?",
+                "zh": "在决定是否续发执照时，监管机构究竟该不该考虑电视台播了什么内容？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Content must stay off-limits",
+                    "zh": "内容不该被审"
+                  },
+                  "points": {
+                    "en": [
+                      "Once officials can weigh programming, the licence becomes a lever that whoever holds power can pull against critics.",
+                      "Stations will start guessing what the current government wants and quietly avoid it, and nobody outside will ever see the shows that were never made.",
+                      "The First Amendment exists precisely because governments are worst at judging speech aimed at themselves."
+                    ],
+                    "zh": [
+                      "一旦官员可以评判节目内容，执照就变成了掌权者对付批评者的一根杠杆。",
+                      "电视台会开始猜测现任政府想要什么并悄悄避开，而外人永远看不到那些从未被做出来的节目。",
+                      "《第一修正案》之所以存在，正是因为政府最不擅长评判针对自己的言论。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Programming is part of the deal",
+                    "zh": "节目本就是条件之一"
+                  },
+                  "points": {
+                    "en": [
+                      "The airwaves are a free public resource, and the law that grants them has demanded service 'in the public interest' from the start.",
+                      "A regulator who may never look at what is broadcast cannot enforce any obligation at all — the requirement becomes decoration.",
+                      "Refusing to examine content would also protect a station that broadcast deliberate lies or shut whole communities out of coverage."
+                    ],
+                    "zh": [
+                      "电波是免费使用的公共资源，而授予它的法律从一开始就要求「为公共利益服务」。",
+                      "一个永远不能看播出内容的监管者，根本无法执行任何义务，这项要求就成了装饰。",
+                      "完全不看内容，同样会保护那些故意播假消息、或把整个群体排除在报道之外的电视台。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Disney is one of the largest media companies on earth. Does its size make this lawsuit more important or less?",
+                "zh": "迪士尼是全球最大的媒体公司之一。它的规模让这场官司更重要，还是更不重要？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Size makes it matter more",
+                    "zh": "规模让它更重要"
+                  },
+                  "points": {
+                    "en": [
+                      "If a company with this much money and this many lawyers feels pressured, a small local station has no chance of resisting at all.",
+                      "The ruling will set a precedent — a decision courts follow in later cases — that applies to everyone, whatever their size.",
+                      "Only a giant can afford to fight for years, so cases like this are the rare chance to get the law tested in public."
+                    ],
+                    "zh": [
+                      "如果连这么有钱、律师这么多的公司都感到压力，那么一家小型地方电视台根本没有抵抗的余地。",
+                      "这次判决会形成先例——即法院在以后案件中会遵循的判断——对所有人都适用，不分大小。",
+                      "只有巨头才耗得起多年官司，所以这类案子是让法律被公开检验的少数机会。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Size cuts the other way",
+                    "zh": "规模反而降低了它的重量"
+                  },
+                  "points": {
+                    "en": [
+                      "A company that owns stations, studios, streaming and theme parks has plenty of ways to reach audiences even if these eight licences are lost.",
+                      "Powerful companies routinely use First Amendment arguments to fend off regulation they simply find expensive, which muddies genuine free-speech cases.",
+                      "The people whose speech is most fragile are the ones who cannot hire lawyers, and their cases rarely reach a courtroom at all."
+                    ],
+                    "zh": [
+                      "一家同时拥有电视台、影视工作室、流媒体和主题公园的公司，即使失去这八张执照，也还有很多触及观众的途径。",
+                      "强势企业经常用《第一修正案》来抵挡自己只是嫌贵的监管，这会模糊真正的言论自由案件。",
+                      "言论最脆弱的其实是请不起律师的人，而他们的案子往往根本进不了法庭。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Suppose a regulator's stated reason for acting is legitimate, but the timing suggests a political motive. Should courts try to judge the real motive, or only the stated reason?",
+                "zh": "假设监管机构给出的理由本身站得住脚，但时间点让人怀疑是政治动机。法院该去判断真实动机，还是只看写出来的理由？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Look for the real motive",
+                    "zh": "应当追查真实动机"
+                  },
+                  "points": {
+                    "en": [
+                      "Any official smart enough to retaliate is smart enough to write down a respectable reason, so stated reasons alone are easy to fake.",
+                      "Courts already examine intent in other areas of law, such as discrimination cases, using evidence like emails and public statements.",
+                      "If motive can never be questioned, the constitutional protection against retaliation exists on paper and nowhere else."
+                    ],
+                    "zh": [
+                      "聪明到会搞报复的官员，也聪明到会写下一个体面的理由，所以只看写出来的理由太容易伪装。",
+                      "法院在其他法律领域（比如歧视案件）本来就会审查意图，依据是邮件、公开表态等证据。",
+                      "如果动机永远不能被质疑，那么宪法对报复的保护就只存在于纸面上。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stick to the stated reason",
+                    "zh": "应当只看写出来的理由"
+                  },
+                  "points": {
+                    "en": [
+                      "Judges guessing at hidden motives from timing and tone will sometimes guess wrong, and a mistaken verdict is hard to undo.",
+                      "If officials know their private motives may be dissected, they may stop enforcing valid rules against politically noisy companies at all.",
+                      "Rules that turn on provable conduct rather than inferred intent are ones a regulator and a company can both understand in advance."
+                    ],
+                    "zh": [
+                      "法官凭时间点和语气去猜隐藏动机，有时会猜错，而错判很难挽回。",
+                      "如果官员知道自己的私下动机可能被剖析，他们可能干脆不再对政治上嗓门大的公司执行正当规则。",
+                      "以可证明的行为而非推测的意图为标准，监管者和企业事先都能明白规则是什么。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Disney Sues the FCC, and the Question Is Who Controls the Airwaves",
+            "zh": "迪士尼起诉美国联邦通信委员会：谁说了算，电视执照还是言论自由？"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, Disney sued the Federal Communications Commission, the US agency that hands out broadcast licences. The FCC has ordered Disney's eight ABC-owned television stations to apply early for renewal of those licences, and Disney's complaint says the review is punishment for what ABC puts on air. The FCC's chairman says he is only checking that broadcasters serve the public. A court will now decide whether a regulator may aim its licensing power at a network because of its content.",
+            "zh": "2026年8月18日星期二，迪士尼起诉了美国联邦通信委员会（FCC）——这个机构负责发放电视广播执照。FCC要求迪士尼旗下八家ABC自营电视台提前申请执照续期，迪士尼在诉状中称，这场审查是对ABC播出内容的报复。FCC主席则表示，他只是在核查广播机构是否服务于公众利益。现在，法院必须裁定：监管机构能否因为不喜欢某个电视网的内容，而动用手中的发照权。"
+          },
+          "story": {
+            "en": [
+              "Every television station that transmits over the air in the United States does so on a frequency it does not own. The public owns the spectrum; the FCC lends slices of it out under licences that run for eight years and must then be renewed. Renewal is normally close to automatic — a filing, a review, a rubber stamp. In April, the FCC broke that rhythm and ordered the eight stations Disney owns outright, including flagships in New York, Los Angeles and Chicago, to come in early. The stated reason was ABC's diversity, equity and inclusion practices, meaning its hiring and promotion policies aimed at broadening who works there.",
+              "The context is what makes the filing explosive. The order landed during a running fight between the administration and ABC's late-night host Jimmy Kimmel, whose joke about President Trump drew the President's anger and repeated public demands that Kimmel be fired. Disney's lawsuit ties those threads together, alleging that the administration \"has waged a retaliatory campaign against ABC\" because of what the network broadcasts. Every word of that is Disney's allegation in a legal complaint, not a finding of fact. The FCC has not yet filed a response and, according to the Associated Press, did not answer requests for comment.",
+              "FCC Chairman Brendan Carr has defended the review in public on narrower ground: broadcasters, he says, must \"operate in the public interest.\" That phrase is not rhetoric. It is the actual legal standard written into the Communications Act, and it is deliberately vague — it has been used over the decades to require children's programming, local news, emergency alerts and equal time for political candidates. A regulator who can define the public interest has a great deal of discretion. The same statute also forbids the FCC from censoring broadcast content, which is the tension Disney intends to exploit.",
+              "The constitutional theory in the complaint is retaliation. The First Amendment does not only stop the government from banning speech outright; courts have long held it also stops officials from punishing someone for speech through some other lever — denying a permit, cancelling a contract, launching an investigation that would not otherwise have happened. The hard part is proof. Governments rarely announce a retaliatory motive, so litigation turns on timing, on departures from normal practice, and on what officials said out loud. Here, Disney will point to the President's own statements. The FCC will likely answer that a DEI inquiry stands on its own feet, and that a company does not become immune to oversight by employing a comedian who insults the President.",
+              "There is a deeper argument underneath, and it is the reason this case may outlive the current dispute. Broadcast television has always been regulated more heavily than newspapers, cable or streaming, on the theory that airwave frequencies are scarce and pervasive. A newspaper can print what it likes; a broadcaster needs a licence. That distinction was built in an era when a household had three channels. It survives today largely by inertia, and it is precisely what gives a regulator leverage over ABC that it would not have over Netflix or The New York Times. Disney's own streaming service, notably, is untouched by any of this.",
+              "The practical stakes are unevenly distributed. Disney is enormous and can litigate for years. Smaller station groups watching this play out cannot, and the quiet effect of an unresolved licence question is that owners become careful — pulling a segment, declining a story, deciding a particular host is more trouble than he is worth. Lawyers call this a chilling effect, and it works whether or not anyone ever loses a licence. That, more than the eight stations themselves, is what both sides understand the case to be about."
+            ],
+            "zh": [
+              "在美国，每一家通过无线电波播出的电视台，用的都是自己并不拥有的频率。频谱属于公众，FCC把一小段一小段借出去，发放为期八年的执照，到期须续期。通常续期近乎自动：递交材料、走个流程、盖章通过。但今年4月，FCC打破了这个节奏，要求迪士尼完全自有的八家电视台——包括纽约、洛杉矶和芝加哥的旗舰台——提前申请。官方理由是ABC的多元、公平与包容（DEI）政策，也就是它在招聘和晋升上扩大人员构成的做法。",
+              "真正让这起诉讼具有爆炸性的是背景。这道命令出现在政府与ABC深夜脱口秀主持人吉米·坎摩尔的持续冲突之中：坎摩尔一个拿特朗普总统开涮的段子激怒了总统，总统多次公开要求把他解雇。迪士尼的诉状把这些线索串在一起，指控政府"
+            ]
+          },
+          "why_it_matters": {
+            "en": "placeholder",
+            "zh": "placeholder"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "placeholder",
+                "zh": "placeholder"
+              },
+              "def": {
+                "en": "placeholder",
+                "zh": "placeholder"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "placeholder",
+                "zh": "placeholder"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "placeholder",
+                    "zh": "placeholder"
+                  },
+                  "points": {
+                    "en": [
+                      "placeholder"
+                    ],
+                    "zh": [
+                      "placeholder"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
