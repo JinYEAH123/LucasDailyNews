@@ -80,10 +80,7 @@ def skeleton_schema(cfg) -> dict:
         "type": "object",
         "properties": {
             "stories": {
-                # minItems > 1 is rejected by the structured-output API, so the
-                # exact count of N lives in the prompt (skeleton_prompt says
-                # "Emit the N chosen stories") and maxItems as a ceiling.
-                "type": "array", "minItems": 1, "maxItems": N,
+                "type": "array", "minItems": N, "maxItems": N,
                 "items": {
                     "type": "object",
                     "properties": {
@@ -147,10 +144,7 @@ def band_schema(cfg, band_key: str) -> dict:
         "type": "object",
         "properties": {
             "stories": {
-                # See skeleton_schema's stories field: minItems > 1 is rejected
-                # by the API, so the exact count relies on the prompt (band_prompt
-                # says "Write these N stories") plus this ceiling.
-                "type": "array", "minItems": 1, "maxItems": N,
+                "type": "array", "minItems": N, "maxItems": N,
                 "description": "In the same order as the skeleton.",
                 "items": {
                     "type": "object",
@@ -163,11 +157,8 @@ def band_schema(cfg, band_key: str) -> dict:
                         "why_it_matters": _pair(
                             langs, "2-3 sentences connecting it to this reader's own life."),
                         "word_bank": {
-                            # minItems > 1 is rejected by the structured-output
-                            # API, so the target count relies on band_prompt's
-                            # explicit "about {words} words" instruction instead.
                             "type": "array",
-                            "minItems": 1,
+                            "minItems": max(1, band["words"] - 1),
                             "maxItems": band["words"] + 1,
                             "items": {
                                 "type": "object",
@@ -180,19 +171,14 @@ def band_schema(cfg, band_key: str) -> dict:
                             },
                         },
                         "talk_about_it": {
-                            # minItems > 1 is rejected by the structured-output
-                            # API; the exact count relies on writing_policy's
-                            # "three dinner-table questions" instruction instead.
-                            "type": "array", "minItems": 1, "maxItems": 3,
+                            "type": "array", "minItems": 3, "maxItems": 3,
                             "items": {
                                 "type": "object",
                                 "properties": {
                                     "question": _pair(
                                         langs, "An open question answerable either way."),
                                     "sides": {
-                                        # Same API constraint; exactly two sides
-                                        # is stated explicitly in writing_policy.
-                                        "type": "array", "minItems": 1, "maxItems": 2,
+                                        "type": "array", "minItems": 2, "maxItems": 2,
                                         "items": {
                                             "type": "object",
                                             "properties": {
@@ -220,6 +206,63 @@ def band_schema(cfg, band_key: str) -> dict:
         "required": ["stories"],
         "additionalProperties": False,
     }
+
+
+# ------------------------------------------------------------------ api dialect
+
+# Structured outputs accept a subset of JSON Schema, not all of it. The schemas
+# above are written with the bounds an edition actually wants, because that is
+# what they are for — saying what the output should look like. This translates
+# one into what the endpoint will take on the way out, so the two can never
+# drift apart in an edit, and the counts the API cannot enforce are stated in
+# the prompts instead.
+#
+# Per platform.claude.com/docs/en/build-with-claude/structured-outputs:
+# maxItems is rejected outright, and minItems accepts only 0 or 1. Numeric
+# bounds, string bounds, `pattern` and `oneOf` are rejected too — they are not
+# used here, and the guard below makes sure that stays true.
+_API_SUPPORTED = {
+    "type", "properties", "items", "required", "additionalProperties",
+    "description", "enum", "const", "anyOf", "allOf", "$ref", "$defs",
+    "definitions", "default", "format", "title", "minItems",
+}
+_API_DROPS = {"maxItems"}
+
+_SUBSCHEMA_MAPS = ("properties", "$defs", "definitions")
+
+
+def api_schema(node):
+    """An authored schema, reduced to what the structured-output API accepts.
+
+    Anything neither supported nor known-droppable raises here rather than
+    coming back as a 400 — which matters because the research pass runs first
+    and has already cost real money by the time a request would be rejected.
+    """
+    if isinstance(node, list):
+        return [api_schema(v) for v in node]
+    if not isinstance(node, dict):
+        return node
+
+    out = {}
+    for key, value in node.items():
+        if key in _SUBSCHEMA_MAPS:
+            # These keys hold *names*, not keywords — a property could legally
+            # be called "maxItems" — so recurse into the values only.
+            out[key] = {name: api_schema(sub) for name, sub in value.items()}
+        elif key in _API_DROPS:
+            continue
+        elif key == "minItems":
+            out[key] = 1 if value else 0
+        elif key in _API_SUPPORTED:
+            out[key] = api_schema(value)
+        else:
+            raise SystemExit(
+                f"Schema keyword {key!r} is not accepted by structured outputs. "
+                f"Drop it, or add it to _API_SUPPORTED/_API_DROPS if the docs "
+                f"say otherwise: "
+                f"platform.claude.com/docs/en/build-with-claude/structured-outputs"
+            )
+    return out
 
 
 # --------------------------------------------------------------------------- prompts
@@ -372,7 +415,8 @@ def structured(client, cfg, system: str, prompt: str, schema: dict, what: str) -
         model=MODEL, max_tokens=32000, system=system,
         thinking={"type": "adaptive"},
         output_config={"effort": "high",
-                       "format": {"type": "json_schema", "schema": schema}},
+                       "format": {"type": "json_schema",
+                                  "schema": api_schema(schema)}},
         messages=[{"role": "user", "content": prompt}],
     ) as stream:
         message = _guard(stream.get_final_message(), what)
@@ -450,6 +494,13 @@ def main() -> None:
 
     print(f"Edition {date_str}: {start:%b %d %-I:%M %p} → {end:%b %d %-I:%M %p} ({cfg.timezone})")
     print(f"  {N} stories · bands {'/'.join(appconfig.AGE_BANDS)} · {'/'.join(cfg.languages)}")
+
+    # Translate every schema up front. Pass 2 is the first that sends one, by
+    # which point the research pass has already been paid for — so an
+    # unsendable schema should stop the run here, not three minutes in.
+    api_schema(skeleton_schema(cfg))
+    for band_key in appconfig.AGE_BANDS:
+        api_schema(band_schema(cfg, band_key))
 
     client = anthropic.Anthropic()
 
