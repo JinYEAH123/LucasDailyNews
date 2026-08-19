@@ -12,9 +12,11 @@ The run is deliberately split into small passes:
   2. Skeleton   — the three chosen stories, with their beats, regions and links.
                   Emitted once, so the URLs cannot drift between age bands and
                   the model is never asked to reproduce an address from memory.
-  3. Per band   — the reader-facing writing for one band at a time. Three small
-                  calls beat one enormous one: each is far from the token
-                  ceiling, and a failure costs one band rather than the day.
+  3. Per story  — the reader-facing writing, one story and one reading level at
+                  a time. Nine small calls beat three large ones: asking for
+                  three stories in two languages at once was enough to make the
+                  model fill in the structure and leave the prose empty, and a
+                  bad answer now costs one story rather than the day.
 
 Usage:
     python3 scripts/generate_edition.py                 # current window
@@ -42,6 +44,9 @@ EDITIONS_DIR = ROOT / "data" / "editions"
 
 MODEL = "claude-opus-5"
 N = appconfig.STORIES_PER_DAY
+
+# The fields one band's writing pass produces for one story.
+PER_BAND = ["headline", "hook", "story", "why_it_matters", "word_bank", "talk_about_it"]
 
 
 # --------------------------------------------------------------------------- schemas
@@ -137,73 +142,67 @@ def skeleton_schema(cfg) -> dict:
 
 
 def band_schema(cfg, band_key: str) -> dict:
-    """Pass 3: the reader-facing writing for one age band."""
+    """Pass 3: the reader-facing writing for **one story** at one reading level.
+
+    One story per request rather than all three. Asking for three at once means
+    three stories, in two languages, each with several paragraphs, a word bank
+    and three two-sided questions, held together in a single answer — and when
+    that is too much the model does not fail, it completes the structure and
+    leaves the prose empty. Splitting it makes each answer small enough to write
+    properly, and makes a bad one cost one story instead of the day.
+    """
     langs = cfg.languages
     band = appconfig.AGE_BANDS[band_key]
     return {
         "type": "object",
         "properties": {
-            "stories": {
-                "type": "array", "minItems": N, "maxItems": N,
-                "description": "In the same order as the skeleton.",
+            "headline": _pair(langs, "A headline that makes them want to read."),
+            "hook": _pair(langs, "2-4 sentences: what happened, plainly."),
+            "story": _pair_list(langs, f"{band['paragraphs']}. {band['sentences']}"),
+            "why_it_matters": _pair(
+                langs, "2-3 sentences connecting it to this reader's own life."),
+            "word_bank": {
+                "type": "array",
+                "minItems": max(1, band["words"] - 1),
+                "maxItems": band["words"] + 1,
                 "items": {
                     "type": "object",
                     "properties": {
-                        "slug": {"type": "string", "description": "Matching the skeleton."},
-                        "headline": _pair(langs, "A headline that makes them want to read."),
-                        "hook": _pair(langs, "2-4 sentences: what happened, plainly."),
-                        "story": _pair_list(
-                            langs, f"{band['paragraphs']}. {band['sentences']}"),
-                        "why_it_matters": _pair(
-                            langs, "2-3 sentences connecting it to this reader's own life."),
-                        "word_bank": {
-                            "type": "array",
-                            "minItems": max(1, band["words"] - 1),
-                            "maxItems": band["words"] + 1,
+                        "term": _pair(langs, "The term as the news uses it."),
+                        "def": _pair(langs, "One clear sentence at this level."),
+                    },
+                    "required": ["term", "def"],
+                    "additionalProperties": False,
+                },
+            },
+            "talk_about_it": {
+                "type": "array", "minItems": 3, "maxItems": 3,
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "question": _pair(
+                            langs, "An open question answerable either way."),
+                        "sides": {
+                            "type": "array", "minItems": 2, "maxItems": 2,
                             "items": {
                                 "type": "object",
                                 "properties": {
-                                    "term": _pair(langs, "The term as the news uses it."),
-                                    "def": _pair(langs, "One clear sentence at this level."),
+                                    "label": _pair(langs, "Short name for this position."),
+                                    "points": _pair_list(
+                                        langs, "Its 3 strongest arguments, "
+                                               "one sentence each."),
                                 },
-                                "required": ["term", "def"],
-                                "additionalProperties": False,
-                            },
-                        },
-                        "talk_about_it": {
-                            "type": "array", "minItems": 3, "maxItems": 3,
-                            "items": {
-                                "type": "object",
-                                "properties": {
-                                    "question": _pair(
-                                        langs, "An open question answerable either way."),
-                                    "sides": {
-                                        "type": "array", "minItems": 2, "maxItems": 2,
-                                        "items": {
-                                            "type": "object",
-                                            "properties": {
-                                                "label": _pair(langs, "Short name for this position."),
-                                                "points": _pair_list(
-                                                    langs, "Its 3 strongest arguments, "
-                                                           "one sentence each."),
-                                            },
-                                            "required": ["label", "points"],
-                                            "additionalProperties": False,
-                                        },
-                                    },
-                                },
-                                "required": ["question", "sides"],
+                                "required": ["label", "points"],
                                 "additionalProperties": False,
                             },
                         },
                     },
-                    "required": ["slug", "headline", "hook", "story", "why_it_matters",
-                                 "word_bank", "talk_about_it"],
+                    "required": ["question", "sides"],
                     "additionalProperties": False,
                 },
-            }
+            },
         },
-        "required": ["stories"],
+        "required": PER_BAND,
         "additionalProperties": False,
     }
 
@@ -358,17 +357,14 @@ every number, name and disputed point they might need.
 Use only URLs that appear in the brief."""
 
 
-def band_prompt(skeleton: dict, band_key: str) -> str:
+def band_prompt(story: dict, band_key: str) -> str:
     band = appconfig.AGE_BANDS[band_key]
-    listing = "\n\n".join(
-        f"{s['rank']}. slug: {s['slug']}  [{s['category']} · {s['region']}]\n{s['facts']}"
-        for s in skeleton["stories"]
-    )
     return f"""\
-Write these {N} stories for readers aged {band_key}. Keep the same order and
-reuse each slug exactly. About {band['words']} words per story in the word bank.
+Write this one story for readers aged {band_key}. About {band['words']} terms in
+the word bank, and exactly three questions with two sides each.
 
-{listing}
+[{story['category']} · {story['region']}]
+{story['facts']}
 
 Do not add links — those are already recorded. Write only the reader-facing text."""
 
@@ -397,29 +393,48 @@ def _guard(message, what: str):
     return message
 
 
-def _require_complete(payload: dict, what: str, text_fields: tuple) -> dict:
-    """Refuse a payload that parsed but has nothing in it.
+def _hollow_field(obj: dict, fields) -> str | None:
+    """The name of the first field that came back blank, if any.
 
-    Second line of defence behind the stop_reason check above: the exact story
-    count used to be guaranteed by the schema, and cannot be any more, so a
-    short or hollow response has to be caught here or it silently drops bands
-    off the page.
+    A response can satisfy the schema and still say nothing: every required key
+    is present, the strings are empty and the arrays hold one empty item, which
+    is the least the schema can demand now that minItems above 1 is rejected.
+    Nothing downstream would notice, so it is checked here.
     """
-    stories = payload.get("stories") or []
-    if len(stories) != N:
-        raise SystemExit(f"{what} returned {len(stories)} stories, expected {N}.")
+    for field in fields:
+        value = obj.get(field)
+        if isinstance(value, dict):           # a language map
+            candidates = list(value.values())
+        elif isinstance(value, list):         # word bank, questions
+            candidates = value
+        else:                                 # a plain string
+            candidates = [value]
+        if not candidates or any(not str(v or "").strip() for v in candidates
+                                 if not isinstance(v, (dict, list))):
+            return field
+    return None
 
-    for story in stories:
-        for field in text_fields:
-            value = story.get(field)
-            # Some fields are plain strings (facts), others a language map.
-            values = list(value.values()) if isinstance(value, dict) else [value]
-            if not values or any(not str(v or "").strip() for v in values):
-                raise SystemExit(
-                    f"{what} returned an empty {field!r} — the response was "
-                    f"cut short or came back hollow."
-                )
-    return payload
+
+def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
+    """One story, written for one band, retried while it comes back blank.
+
+    A hollow answer is worth one more try rather than the whole day: the earlier
+    runs showed the same request succeeding for two bands and emptying out for
+    the third, so it is variance in a single call, not a request that can never
+    work.
+    """
+    what = f"Band {band_key} · {story['slug']}"
+    for attempt in range(1, attempts + 1):
+        payload = structured(client, cfg, writing_policy(cfg, band_key),
+                             band_prompt(story, band_key),
+                             band_schema(cfg, band_key), what)
+        empty = _hollow_field(payload, PER_BAND)
+        if empty is None:
+            return payload
+        print(f"  {what}: {empty!r} came back empty, retrying "
+              f"({attempt}/{attempts})", file=sys.stderr)
+
+    raise SystemExit(f"{what} came back hollow {attempts} times running.")
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
@@ -461,29 +476,19 @@ def structured(client, cfg, system: str, prompt: str, schema: dict, what: str) -
 
 # --------------------------------------------------------------------------- assembly
 
-PER_BAND = ["headline", "hook", "story", "why_it_matters", "word_bank", "talk_about_it"]
 
-
-def build_edition(cfg, skeleton: dict, bands: dict, date_str: str, start, end) -> dict:
+def build_edition(cfg, skeleton: dict, writing: dict, date_str: str, start, end) -> dict:
     stories = sorted(skeleton["stories"], key=lambda s: s.get("rank", 99))
 
     for i, story in enumerate(stories, 1):
         story["rank"] = i
-        story["versions"] = {}
-        for band_key, payload in bands.items():
-            by_slug = {s["slug"]: s for s in payload["stories"]}
-            written = by_slug.get(story["slug"])
-            if written is None:
-                # Matching by slug failed; fall back to position so a band is
-                # never silently dropped from the page.
-                ordered = payload["stories"]
-                written = ordered[i - 1] if i - 1 < len(ordered) else None
-                print(f"  note: band {band_key} slug mismatch for "
-                      f"{story['slug']!r}, matched by position", file=sys.stderr)
-            if written:
-                story["versions"][band_key] = {k: written[k] for k in PER_BAND}
-        story["versions"] = {k: story["versions"][k]
-                             for k in appconfig.AGE_BANDS if k in story["versions"]}
+        # Each piece of writing was requested for one story and one band, so
+        # there is nothing left to match up — no slug lookup that can miss, and
+        # no positional fallback that can quietly attach a band to the wrong
+        # story.
+        by_band = writing[story["slug"]]
+        story["versions"] = {band: {k: by_band[band][k] for k in PER_BAND}
+                             for band in appconfig.AGE_BANDS if band in by_band}
         story.pop("slug", None)
         story.pop("facts", None)
 
@@ -499,7 +504,8 @@ def build_edition(cfg, skeleton: dict, bands: dict, date_str: str, start, end) -
         "date": date_str,
         "window": {"start": start.isoformat(), "end": end.isoformat(), "label": label},
         "generated_at": datetime.now(cfg.tz).isoformat(timespec="seconds"),
-        "generator": f"{MODEL} (research + skeleton + {len(bands)} bands)",
+        "generator": (f"{MODEL} (research + skeleton + "
+                      f"{len(appconfig.AGE_BANDS)} bands x {N} stories)"),
         "settings": {
             "stories_per_day": N,
             "categories": list(appconfig.CATEGORIES),
@@ -545,23 +551,27 @@ def main() -> None:
     print(f"  brief: {len(brief)} characters")
 
     print("Pass 2 — choosing and recording the links…")
-    skeleton = _require_complete(
-        structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                   skeleton_schema(cfg), "Skeleton"),
-        "Skeleton", ("facts",))
+    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
+                          skeleton_schema(cfg), "Skeleton")
+    chosen = skeleton.get("stories") or []
+    if len(chosen) != N:
+        raise SystemExit(f"Skeleton returned {len(chosen)} stories, expected {N}.")
+    for story in chosen:
+        empty = _hollow_field(story, ("slug", "facts"))
+        if empty:
+            raise SystemExit(f"Skeleton returned an empty {empty!r}.")
     for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
         print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 
-    bands = {}
+    ordered = sorted(skeleton["stories"], key=lambda s: s.get("rank", 99))
+    writing = {}
     for i, band_key in enumerate(appconfig.AGE_BANDS, 1):
-        print(f"Pass 3.{i} — writing for {band_key}…")
-        bands[band_key] = _require_complete(
-            structured(client, cfg, writing_policy(cfg, band_key),
-                       band_prompt(skeleton, band_key),
-                       band_schema(cfg, band_key), f"Band {band_key}"),
-            f"Band {band_key}", ("headline", "hook", "why_it_matters"))
+        for j, story in enumerate(ordered, 1):
+            print(f"Pass 3.{i}.{j} — writing {story['slug']} for {band_key}…")
+            writing.setdefault(story["slug"], {})[band_key] = written(
+                client, cfg, story, band_key)
 
-    edition = build_edition(cfg, skeleton, bands, date_str, start, end)
+    edition = build_edition(cfg, skeleton, writing, date_str, start, end)
     text = json.dumps(edition, ensure_ascii=False, indent=2) + "\n"
 
     if args.dry_run:
