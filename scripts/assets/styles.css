@@ -621,3 +621,131 @@ details[open] > summary::before { transform: rotate(45deg); }
   .bandbar { flex-direction: column; gap: .5rem; }
   .seg button { padding: .38rem .7rem; }
 }
+
+
+/* ---------- print ---------- */
+
+/* A worksheet for the dinner table, so the reading can happen off a screen.
+   What prints is exactly what the reader had chosen — one reading level, one
+   language — because the band and language rules above are display:none and
+   apply to paper as much as to glass.
+
+   On the page: the brief, the whole story, and the questions. Left off: the
+   word bank, why-it-matters, the reading links and videos (all of which need a
+   screen anyway), and the two-sided hints — those are meant to be met after
+   the child has had a go, and paper cannot keep them folded.
+
+   Set for reading rather than for a page count. Nothing here is chosen to make
+   the edition fit: 11pt is book-text size, the measure is held near 60
+   characters, and however many sheets that takes is how many it takes. The
+   earlier two-column setting existed only to save paper, and it cost a
+   40-character line — narrow enough to break the rhythm of a sentence.
+
+   One layout for both A4 and Letter. No page size is declared, so the paper in
+   the printer wins; the column is centred and the same width on either, and
+   only the number of sheets differs. */
+@media print {
+  @page { margin: 18mm; }
+
+  html { font-size: 11pt; }
+
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 1em;
+    line-height: 1.58;
+  }
+
+  /* ~61 characters at this size — the middle of the range prose reads most
+     easily in — and inside the printable width of the narrower paper (A4,
+     174mm at these margins), so the column is identical on both. Measured
+     against 122mm, which reads just as well but sets the shortest band a page
+     longer and leaves more of the sheet empty than it needs to. */
+  .wrap {
+    max-width: 132mm;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* Screen furniture, and everything that is a link rather than a read. */
+  .controls, .bandbar, .foot, .story-top, .why, .talk-intro,
+  .words-block, .reads-block, .hint, .page-head,
+  .masthead .tagline { display: none !important; }
+
+  .masthead {
+    display: block;
+    text-align: left;
+    margin: 0 0 9mm;
+    padding: 0 0 3mm;
+    border-bottom: .5pt solid #000;
+  }
+  .masthead h1 { font-size: 1.7em; letter-spacing: -.015em; margin: 0; }
+  .masthead h1 a { color: #000; text-decoration: none; }
+  .dateline { margin: 1.5mm 0 0; font-size: .82em; color: #333; line-height: 1.45; }
+  .dateline strong { display: inline; }
+  .dateline strong::after { content: " · "; font-weight: 400; color: #888; }
+
+  .stories { column-count: 1; }
+
+  .story {
+    background: none; box-shadow: none; border: 0; border-radius: 0;
+    padding: 0;
+    margin: 0 0 10mm;
+  }
+  .story + .story { border-top: .5pt solid #bbb; padding-top: 8mm; }
+
+  .story h2 {
+    font-size: 1.42em;
+    line-height: 1.22;
+    margin: 0 0 3mm;
+    break-after: avoid;
+  }
+
+  /* The brief reads as a standing lead: a size up from the body, so the eye
+     knows it is the summary before it knows the words. */
+  .story .hook {
+    font-size: 1.08em;
+    line-height: 1.5;
+    margin: 0 0 4mm;
+    color: #1a1a1a;
+  }
+
+  /* Paper cannot fold, so the summaries that open these on screen are noise —
+     except the questions', which is the one heading that tells a child this
+     part is theirs to answer rather than to read. */
+  details { border: 0; }
+  details > summary { display: none !important; }
+  .details-body { margin: 0; padding: 0; background: none; border: 0; }
+  .story-body p { margin: 0 0 3mm; orphans: 3; widows: 3; }
+  .story-body p:last-child { margin-bottom: 0; }
+
+  .talk-block {
+    margin-top: 5mm;
+    padding: 3.5mm 0 0;
+    border-top: .5pt dotted #999;
+    break-inside: avoid;
+  }
+  .talk-block > summary {
+    display: block !important;
+    font-size: .76em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #000;
+    padding: 0;
+    margin: 0 0 3mm;
+  }
+  .talk-block > summary::before { display: none; }
+
+  .debate { margin: 0; padding-left: 7mm; }
+  .debate li { margin: 0 0 3mm; }
+  .debate li:last-child { margin-bottom: 0; }
+  .debate .q { margin: 0; font-weight: 600; line-height: 1.45; }
+
+  .source-line {
+    font-size: .76em; color: #666; margin: 4mm 0 0; line-height: 1.4;
+  }
+  .source-line a { color: #666; text-decoration: none; }
+
+  a { color: #000; }
+}

@@ -36,13 +36,14 @@ from datetime import datetime
 from pathlib import Path
 
 import anthropic
+import jsonschema
 
 import appconfig
 
 ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 
-MODEL = "claude-opus-5"
+MODEL = "claude-sonnet-5"
 N = appconfig.STORIES_PER_DAY
 
 # The fields one band's writing pass produces for one story.
@@ -146,7 +147,7 @@ def band_schema(cfg, band_key: str) -> dict:
 
     One story per request rather than all three. Asking for three at once means
     three stories, in two languages, each with several paragraphs, a word bank
-    and three two-sided questions, held together in a single answer — and when
+    and its two-sided questions, held together in a single answer — and when
     that is too much the model does not fail, it completes the structure and
     leaves the prose empty. Splitting it makes each answer small enough to write
     properly, and makes a bad one cost one story instead of the day.
@@ -176,7 +177,7 @@ def band_schema(cfg, band_key: str) -> dict:
                 },
             },
             "talk_about_it": {
-                "type": "array", "minItems": 3, "maxItems": 3,
+                "type": "array", "minItems": 2, "maxItems": 2,
                 "items": {
                     "type": "object",
                     "properties": {
@@ -308,7 +309,7 @@ WRITING — this pass is for readers aged {band_key}:
 - The same three stories are being written for two other age bands. Do not
   soften which story is being told; change only how it is explained.
 
-THE THINKING EXERCISE — exactly three dinner-table questions per story, each
+THE THINKING EXERCISE — exactly two dinner-table questions per story, each
 with exactly two sides. Treat it as the hardest thing you write:
 - A question qualifies only if a thoughtful, well-informed adult could genuinely
   land on either side. If looking something up settles it, it is a quiz question.
@@ -361,7 +362,7 @@ def band_prompt(story: dict, band_key: str) -> str:
     band = appconfig.AGE_BANDS[band_key]
     return f"""\
 Write this one story for readers aged {band_key}. About {band['words']} terms in
-the word bank, and exactly three questions with two sides each.
+the word bank, and exactly two questions with two sides each.
 
 [{story['category']} · {story['region']}]
 {story['facts']}
@@ -375,7 +376,54 @@ def _text_of(message) -> str:
     return "\n".join(b.text for b in message.content if b.type == "text").strip()
 
 
+# Claude Sonnet 5, USD per token. Output covers thinking as well as the answer,
+# which is the part worth watching: it is invisible in the finished edition and
+# can be the larger half of the bill.
+PRICE_IN, PRICE_OUT = 3 / 1e6, 15 / 1e6
+
+_spend: list = []
+
+
+def _account(message, what: str) -> None:
+    usage = getattr(message, "usage", None)
+    if usage is None:
+        return
+    took_in = getattr(usage, "input_tokens", 0) or 0
+    took_out = getattr(usage, "output_tokens", 0) or 0
+    _spend.append((what, took_in, took_out))
+    print(f"    {took_in:,} in / {took_out:,} out  "
+          f"(${took_in * PRICE_IN + took_out * PRICE_OUT:.3f})", file=sys.stderr)
+
+
+def _spend_summary() -> str:
+    """Where the day's money actually went, grouped by pass.
+
+    Printed so the next question about cost is answered with numbers rather
+    than an estimate — particularly which pass dominates, since that is the
+    only one worth optimising.
+    """
+    if not _spend:
+        return ""
+    groups: dict = {}
+    for what, took_in, took_out in _spend:
+        key = what.split(" · ")[0]           # fold the nine per-story calls
+        got = groups.setdefault(key, [0, 0, 0])
+        got[0] += took_in
+        got[1] += took_out
+        got[2] += 1
+
+    lines, total = ["", "Tokens and cost:"], 0.0
+    for key, (took_in, took_out, calls) in groups.items():
+        cost = took_in * PRICE_IN + took_out * PRICE_OUT
+        total += cost
+        times = f" x{calls}" if calls > 1 else ""
+        lines.append(f"  {key + times:<24} {took_in:>8,} in  {took_out:>8,} out  ${cost:.2f}")
+    lines.append(f"  {'total':<24} {'':>8} {'':>12}  ${total:.2f}")
+    return "\n".join(lines)
+
+
 def _guard(message, what: str):
+    _account(message, what)
     if message.stop_reason == "refusal":
         detail = getattr(message.stop_details, "explanation", "") or ""
         raise SystemExit(f"{what} was declined: {detail}")
@@ -393,24 +441,68 @@ def _guard(message, what: str):
     return message
 
 
+def _shortfall(payload: dict, schema: dict, fields) -> str | None:
+    """What is wrong with this answer, in a sentence — or None if nothing is.
+
+    Two ways an answer can disappoint, and both have been seen in a real run:
+
+    Short. The authored schema asks for two questions, two sides each, three
+    arguments a side. api_schema has to strip those bounds on the way out, so
+    nothing at the far end enforces them, and one call in nine came back with a
+    single question carrying a single side — the least the stripped schema
+    allows. Validating the reply against the schema as written puts the bounds
+    back where they can still be checked, without stating any count twice.
+
+    Hollow. Every field present and empty. jsonschema cannot see that, because
+    an empty string is a perfectly good string, so it is checked separately.
+    """
+    try:
+        jsonschema.Draft202012Validator(schema).validate(payload)
+    except jsonschema.ValidationError as exc:
+        where = "/".join(str(p) for p in exc.absolute_path) or "the answer"
+        return f"{where}: {exc.message}"
+
+    empty = _hollow_field(payload, fields)
+    return f"{empty!r} came back empty" if empty else None
+
+
+# Seen in a real answer: rather than leaving a field empty, the model wrote the
+# word "placeholder" into the word bank and every part of the question. Counting
+# would catch that particular reply, which was also short — but two questions
+# all reading "placeholder" would count as three, so treat the word itself as
+# nothing said.
+FILLER = {"placeholder", "tbd", "n/a", "todo", "..."}
+
+
 def _hollow_field(obj: dict, fields) -> str | None:
-    """The name of the first field that came back blank, if any.
+    """The name of the first field that came back saying nothing, if any.
 
     A response can satisfy the schema and still say nothing: every required key
     is present, the strings are empty and the arrays hold one empty item, which
     is the least the schema can demand now that minItems above 1 is rejected.
     Nothing downstream would notice, so it is checked here.
     """
+    def leaves(value):
+        """Every string under a field, however deeply it is nested.
+
+        The text that matters sits two or three levels down — a word bank entry
+        holds a term and a definition, each of which holds one string per
+        language — so a check that only looked at the top level would see a
+        populated list and pass a word bank reading "placeholder".
+        """
+        if isinstance(value, dict):
+            for item in value.values():
+                yield from leaves(item)
+        elif isinstance(value, list):
+            for item in value:
+                yield from leaves(item)
+        else:
+            yield value
+
     for field in fields:
-        value = obj.get(field)
-        if isinstance(value, dict):           # a language map
-            candidates = list(value.values())
-        elif isinstance(value, list):         # word bank, questions
-            candidates = value
-        else:                                 # a plain string
-            candidates = [value]
-        if not candidates or any(not str(v or "").strip() for v in candidates
-                                 if not isinstance(v, (dict, list))):
+        found = list(leaves(obj.get(field)))
+        if not found or any(not str(v or "").strip() or str(v).strip().lower() in FILLER
+                            for v in found):
             return field
     return None
 
@@ -424,17 +516,17 @@ def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
     work.
     """
     what = f"Band {band_key} · {story['slug']}"
+    schema = band_schema(cfg, band_key)
     for attempt in range(1, attempts + 1):
         payload = structured(client, cfg, writing_policy(cfg, band_key),
-                             band_prompt(story, band_key),
-                             band_schema(cfg, band_key), what)
-        empty = _hollow_field(payload, PER_BAND)
-        if empty is None:
+                             band_prompt(story, band_key), schema, what)
+        problem = _shortfall(payload, schema, PER_BAND)
+        if problem is None:
             return payload
-        print(f"  {what}: {empty!r} came back empty, retrying "
-              f"({attempt}/{attempts})", file=sys.stderr)
+        print(f"  {what}: {problem}, retrying ({attempt}/{attempts})",
+              file=sys.stderr)
 
-    raise SystemExit(f"{what} came back hollow {attempts} times running.")
+    raise SystemExit(f"{what} fell short {attempts} times running: {problem}")
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
@@ -551,15 +643,18 @@ def main() -> None:
     print(f"  brief: {len(brief)} characters")
 
     print("Pass 2 — choosing and recording the links…")
+    skel_schema = skeleton_schema(cfg)
     skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skeleton_schema(cfg), "Skeleton")
-    chosen = skeleton.get("stories") or []
-    if len(chosen) != N:
-        raise SystemExit(f"Skeleton returned {len(chosen)} stories, expected {N}.")
-    for story in chosen:
-        empty = _hollow_field(story, ("slug", "facts"))
-        if empty:
-            raise SystemExit(f"Skeleton returned an empty {empty!r}.")
+                          skel_schema, "Skeleton")
+    problem = _shortfall(skeleton, skel_schema, ())
+    if problem is None:
+        for story in skeleton["stories"]:
+            problem = _hollow_field(story, ("slug", "facts"))
+            problem = f"story {story.get('rank')}: empty {problem!r}" if problem else None
+            if problem:
+                break
+    if problem:
+        raise SystemExit(f"Skeleton fell short — {problem}")
     for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
         print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 
@@ -576,6 +671,7 @@ def main() -> None:
 
     if args.dry_run:
         print(text)
+        print(_spend_summary(), file=sys.stderr)
         return
 
     EDITIONS_DIR.mkdir(parents=True, exist_ok=True)
@@ -585,6 +681,7 @@ def main() -> None:
     for story in edition["stories"]:
         head = story["versions"].get(cfg.band, {}).get("headline", {}).get(lang, "")
         print(f"  {story['rank']}. [{story['category']}] {head}")
+    print(_spend_summary())
 
 
 if __name__ == "__main__":

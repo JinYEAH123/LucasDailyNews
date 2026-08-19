@@ -62,7 +62,7 @@ jobs:
       - name: Install dependencies
         if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          pip install --quiet anthropic segno playwright opencv-python-headless
+          pip install --quiet anthropic jsonschema segno playwright opencv-python-headless
           playwright install --with-deps chromium
           # Chromium ships no CJK glyphs; without these a Chinese poster renders
           # as tofu boxes and nobody notices until it is posted.

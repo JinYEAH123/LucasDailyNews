@@ -63,6 +63,7 @@ LABELS = {
     },
     "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
     "poster": {"en": "Share image", "zh": "转发长图"},
+    "print": {"en": "Print", "zh": "打印"},
     "band_prompt": {"en": "Written for", "zh": "读给"},
 }
 
@@ -201,7 +202,7 @@ def render_reads(items: list, key: str) -> str:
         )
         rows.append(f"<li>{title_html}{pub_html}"
                     f'<p class="r-sum">{bilingual(item.get("summary", ""))}</p></li>')
-    return (f"<details><summary>{label(key)}</summary>"
+    return (f'<details class="reads-block"><summary>{label(key)}</summary>'
             f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>')
 
 
@@ -218,7 +219,7 @@ def render_videos(videos: list) -> str:
             f'<p class="r-sum">{bilingual(v.get("summary", ""))}</p></li>')
     if not rows:
         return ""
-    return (f"<details><summary>{label('watch')}</summary>"
+    return (f"<details class=\"reads-block\"><summary>{label('watch')}</summary>"
             f'<div class="details-body"><ul class="reads">{"".join(rows)}</ul></div></details>')
 
 
@@ -227,7 +228,7 @@ def render_words(words: list) -> str:
         return ""
     rows = "".join(f"<li><b>{bilingual(w.get('term', ''))}</b> — {bilingual(w.get('def', ''))}</li>"
                    for w in words)
-    return (f"<details><summary>{label('words')}</summary>"
+    return (f"<details class=\"words-block\"><summary>{label('words')}</summary>"
             f'<div class="details-body"><ul class="words">{rows}</ul></div></details>')
 
 
@@ -250,7 +251,7 @@ def render_talk(questions: object) -> str:
                     f'<div class="details-body sides">'
                     f'{"".join(render_side(s) for s in sides)}</div></details>')
         items.append(f'<li><p class="q">{bilingual(item.get("question", ""))}</p>{hint}</li>')
-    return (f"<details open><summary>{label('talk')}</summary>"
+    return (f"<details class=\"talk-block\" open><summary>{label('talk')}</summary>"
             f'<div class="details-body"><p class="talk-intro">{label("talk_intro")}</p>'
             f'<ol class="debate">{"".join(items)}</ol></div></details>')
 
@@ -272,7 +273,7 @@ def render_story(story: dict) -> str:
                    f'{bilingual(v["why_it_matters"])}</div>')
         full = ""
         if v.get("story"):
-            full = (f"<details><summary>{label('read_more')}</summary>"
+            full = (f"<details class=\"full-block\"><summary>{label('read_more')}</summary>"
                     f'<div class="details-body story-body">'
                     f'{bilingual_paragraphs(v["story"])}</div></details>')
         head_blocks.append(
@@ -394,6 +395,7 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, posters=N
 
     title_html = bilingual(appconfig.APP_NAME)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
+    print_button = f'<button type="button" data-print>{label("print")}</button>'
 
     return f"""<header class="masthead">
   <h1>{heading}</h1>
@@ -402,6 +404,7 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, posters=N
   <div class="controls">
     {lang_buttons()}
     <button type="button" data-theme-toggle>{label("theme")}</button>
+    {print_button if date_str else ""}
     {nav}
   </div>
 </header>"""
@@ -426,7 +429,9 @@ def render_edition_page(edition: dict, depth: int) -> str:
     body = (masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
                      posters=posters)
             + band_bar()
+            + '<div class="stories">'
             + "\n".join(render_story(s) for s in stories)
+            + "</div>"
             + footer())
     return page(f"{appconfig.APP_NAME['en']} — {date_str}", body, depth)
 
@@ -474,8 +479,11 @@ def render_single_page(editions: list) -> str:
         latest = editions[0]
         head = masthead(latest.get("date"), (latest.get("window") or {}).get("label"),
                         0, False, show_nav=False)
-        content = "\n".join(render_story(s) for s in
-                            sorted(latest.get("stories", []), key=lambda s: s.get("rank", 99)))
+        content = ('<div class="stories">'
+                   + "\n".join(render_story(s) for s in
+                               sorted(latest.get("stories", []),
+                                      key=lambda s: s.get("rank", 99)))
+                   + "</div>")
 
     blocks = []
     for ed in editions[1:]:
