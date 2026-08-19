@@ -169,7 +169,7 @@ data/editions/YYYY-MM-DD.json      ← 唯一的事实来源
 ## 本地运行
 
 ```bash
-pip install anthropic segno playwright opencv-python-headless
+pip install anthropic jsonschema segno playwright opencv-python-headless
 playwright install chromium
 
 python3 scripts/setup.py                    # 写 config.toml

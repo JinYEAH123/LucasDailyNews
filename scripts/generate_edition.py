@@ -36,6 +36,7 @@ from datetime import datetime
 from pathlib import Path
 
 import anthropic
+import jsonschema
 
 import appconfig
 
@@ -440,24 +441,68 @@ def _guard(message, what: str):
     return message
 
 
+def _shortfall(payload: dict, schema: dict, fields) -> str | None:
+    """What is wrong with this answer, in a sentence — or None if nothing is.
+
+    Two ways an answer can disappoint, and both have been seen in a real run:
+
+    Short. The authored schema asks for three questions, two sides each, three
+    arguments a side. api_schema has to strip those bounds on the way out, so
+    nothing at the far end enforces them, and one call in nine came back with a
+    single question carrying a single side — the least the stripped schema
+    allows. Validating the reply against the schema as written puts the bounds
+    back where they can still be checked, without stating any count twice.
+
+    Hollow. Every field present and empty. jsonschema cannot see that, because
+    an empty string is a perfectly good string, so it is checked separately.
+    """
+    try:
+        jsonschema.Draft202012Validator(schema).validate(payload)
+    except jsonschema.ValidationError as exc:
+        where = "/".join(str(p) for p in exc.absolute_path) or "the answer"
+        return f"{where}: {exc.message}"
+
+    empty = _hollow_field(payload, fields)
+    return f"{empty!r} came back empty" if empty else None
+
+
+# Seen in a real answer: rather than leaving a field empty, the model wrote the
+# word "placeholder" into the word bank and every part of the question. Counting
+# would catch that particular reply, which was also short — but three questions
+# all reading "placeholder" would count as three, so treat the word itself as
+# nothing said.
+FILLER = {"placeholder", "tbd", "n/a", "todo", "..."}
+
+
 def _hollow_field(obj: dict, fields) -> str | None:
-    """The name of the first field that came back blank, if any.
+    """The name of the first field that came back saying nothing, if any.
 
     A response can satisfy the schema and still say nothing: every required key
     is present, the strings are empty and the arrays hold one empty item, which
     is the least the schema can demand now that minItems above 1 is rejected.
     Nothing downstream would notice, so it is checked here.
     """
+    def leaves(value):
+        """Every string under a field, however deeply it is nested.
+
+        The text that matters sits two or three levels down — a word bank entry
+        holds a term and a definition, each of which holds one string per
+        language — so a check that only looked at the top level would see a
+        populated list and pass a word bank reading "placeholder".
+        """
+        if isinstance(value, dict):
+            for item in value.values():
+                yield from leaves(item)
+        elif isinstance(value, list):
+            for item in value:
+                yield from leaves(item)
+        else:
+            yield value
+
     for field in fields:
-        value = obj.get(field)
-        if isinstance(value, dict):           # a language map
-            candidates = list(value.values())
-        elif isinstance(value, list):         # word bank, questions
-            candidates = value
-        else:                                 # a plain string
-            candidates = [value]
-        if not candidates or any(not str(v or "").strip() for v in candidates
-                                 if not isinstance(v, (dict, list))):
+        found = list(leaves(obj.get(field)))
+        if not found or any(not str(v or "").strip() or str(v).strip().lower() in FILLER
+                            for v in found):
             return field
     return None
 
@@ -471,17 +516,17 @@ def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
     work.
     """
     what = f"Band {band_key} · {story['slug']}"
+    schema = band_schema(cfg, band_key)
     for attempt in range(1, attempts + 1):
         payload = structured(client, cfg, writing_policy(cfg, band_key),
-                             band_prompt(story, band_key),
-                             band_schema(cfg, band_key), what)
-        empty = _hollow_field(payload, PER_BAND)
-        if empty is None:
+                             band_prompt(story, band_key), schema, what)
+        problem = _shortfall(payload, schema, PER_BAND)
+        if problem is None:
             return payload
-        print(f"  {what}: {empty!r} came back empty, retrying "
-              f"({attempt}/{attempts})", file=sys.stderr)
+        print(f"  {what}: {problem}, retrying ({attempt}/{attempts})",
+              file=sys.stderr)
 
-    raise SystemExit(f"{what} came back hollow {attempts} times running.")
+    raise SystemExit(f"{what} fell short {attempts} times running: {problem}")
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
@@ -598,15 +643,18 @@ def main() -> None:
     print(f"  brief: {len(brief)} characters")
 
     print("Pass 2 — choosing and recording the links…")
+    skel_schema = skeleton_schema(cfg)
     skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skeleton_schema(cfg), "Skeleton")
-    chosen = skeleton.get("stories") or []
-    if len(chosen) != N:
-        raise SystemExit(f"Skeleton returned {len(chosen)} stories, expected {N}.")
-    for story in chosen:
-        empty = _hollow_field(story, ("slug", "facts"))
-        if empty:
-            raise SystemExit(f"Skeleton returned an empty {empty!r}.")
+                          skel_schema, "Skeleton")
+    problem = _shortfall(skeleton, skel_schema, ())
+    if problem is None:
+        for story in skeleton["stories"]:
+            problem = _hollow_field(story, ("slug", "facts"))
+            problem = f"story {story.get('rank')}: empty {problem!r}" if problem else None
+            if problem:
+                break
+    if problem:
+        raise SystemExit(f"Skeleton fell short — {problem}")
     for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
         print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 

@@ -185,7 +185,7 @@ question before anyone else's answer.
 ## Running it locally
 
 ```bash
-pip install anthropic segno playwright opencv-python-headless
+pip install anthropic jsonschema segno playwright opencv-python-headless
 playwright install chromium
 
 python3 scripts/setup.py                    # write config.toml
