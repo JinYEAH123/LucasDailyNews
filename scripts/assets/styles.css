@@ -635,37 +635,37 @@ details[open] > summary::before { transform: rotate(45deg); }
    screen anyway), and the two-sided hints — those are meant to be met after
    the child has had a go, and paper cannot keep them folded.
 
-   One type size for every reading level, fixed rather than fitted: 9.5pt is
-   ordinary book-text size, and it stays put whether the day is wordy or thin.
-   Two sheets are allowed — print both sides of one — so a short edition simply
-   ends early rather than being stretched to fill the paper, and a long one
-   does not have to be shrunk to avoid a second sheet. 9.5pt was chosen as the
-   largest that keeps even the longest case (16+, English, on US Letter, the
-   shorter paper) inside two sides. No @page size is declared: the printer's
-   own paper wins. */
+   Set for reading rather than for a page count. Nothing here is chosen to make
+   the edition fit: 11pt is book-text size, the measure is held near 60
+   characters, and however many sheets that takes is how many it takes. The
+   earlier two-column setting existed only to save paper, and it cost a
+   40-character line — narrow enough to break the rhythm of a sentence.
+
+   One layout for both A4 and Letter. No page size is declared, so the paper in
+   the printer wins; the column is centred and the same width on either, and
+   only the number of sheets differs. */
 @media print {
-  /* One layout for both A4 and Letter — no size is declared, so the paper in
-     the printer wins. The two differ by 6mm of width and 18mm of height, and
-     the taller sheet more than pays for its narrower columns, so both land
-     inside two sides without a second design.
+  @page { margin: 18mm; }
 
-     16mm/14mm is set against Letter, the tighter of the two: 18mm pushes it to
-     a third side. It is comfortably more than Chrome's 10mm default, which is
-     the room the browser already assumes for the URL, date and page number it
-     draws when "Headers and footers" is ticked in the print dialog, and it
-     clears the unprintable border of a domestic printer as well. */
-  @page { margin: 16mm 14mm; }
-
-  html { font-size: 9.5pt; }
+  html { font-size: 11pt; }
 
   body {
     background: #fff !important;
     color: #000 !important;
     font-size: 1em;
-    line-height: 1.5;
+    line-height: 1.58;
   }
 
-  .wrap { max-width: none; padding: 0; margin: 0; }
+  /* ~61 characters at this size — the middle of the range prose reads most
+     easily in — and inside the printable width of the narrower paper (A4,
+     174mm at these margins), so the column is identical on both. Measured
+     against 122mm, which reads just as well but sets the shortest band a page
+     longer and leaves more of the sheet empty than it needs to. */
+  .wrap {
+    max-width: 132mm;
+    margin: 0 auto;
+    padding: 0;
+  }
 
   /* Screen furniture, and everything that is a link rather than a read. */
   .controls, .bandbar, .foot, .story-top, .why, .talk-intro,
@@ -675,46 +675,39 @@ details[open] > summary::before { transform: rotate(45deg); }
   .masthead {
     display: block;
     text-align: left;
-    margin: 0 0 6mm;
-    padding: 0 0 2.5mm;
+    margin: 0 0 9mm;
+    padding: 0 0 3mm;
     border-bottom: .5pt solid #000;
   }
-  .masthead h1 { font-size: 1.6em; letter-spacing: -.015em; margin: 0; }
+  .masthead h1 { font-size: 1.7em; letter-spacing: -.015em; margin: 0; }
   .masthead h1 a { color: #000; text-decoration: none; }
-  .dateline { margin: 1mm 0 0; font-size: .82em; color: #333; line-height: 1.4; }
+  .dateline { margin: 1.5mm 0 0; font-size: .82em; color: #333; line-height: 1.45; }
   .dateline strong { display: inline; }
-  .dateline strong::after { content: " · "; font-weight: 400; color: #777; }
+  .dateline strong::after { content: " · "; font-weight: 400; color: #888; }
 
-  /* Two columns at this size give a ~60-character measure, which is the
-     comfortable range; one column across a whole sheet would run to nearly
-     twice that. */
-  .stories { column-count: 2; column-gap: 9mm; }
+  .stories { column-count: 1; }
 
-  /* Stories flow across columns rather than each being pinned whole: pinning
-     leaves large gaps wherever a story does not quite reach the foot of a
-     column. The rules below keep the breaks from landing anywhere awkward. */
   .story {
-    background: none; box-shadow: none; border: 0;
-    border-top: .5pt solid #999;
-    border-radius: 0;
-    padding: 2.5mm 0 0;
-    margin: 0 0 5mm;
+    background: none; box-shadow: none; border: 0; border-radius: 0;
+    padding: 0;
+    margin: 0 0 10mm;
   }
-  .story:first-child { border-top: 0; padding-top: 0; }
+  .story + .story { border-top: .5pt solid #bbb; padding-top: 8mm; }
 
   .story h2 {
-    font-size: 1.28em;
-    line-height: 1.25;
-    margin: 0 0 1.5mm;
+    font-size: 1.42em;
+    line-height: 1.22;
+    margin: 0 0 3mm;
     break-after: avoid;
   }
 
+  /* The brief reads as a standing lead: a size up from the body, so the eye
+     knows it is the summary before it knows the words. */
   .story .hook {
-    font-size: 1em;
+    font-size: 1.08em;
     line-height: 1.5;
-    margin: 0 0 2mm;
-    color: #000;
-    font-weight: 500;
+    margin: 0 0 4mm;
+    color: #1a1a1a;
   }
 
   /* Paper cannot fold, so the summaries that open these on screen are noise —
@@ -723,36 +716,36 @@ details[open] > summary::before { transform: rotate(45deg); }
   details { border: 0; }
   details > summary { display: none !important; }
   .details-body { margin: 0; padding: 0; background: none; border: 0; }
-  .story-body p { margin: 0 0 2mm; line-height: 1.5; orphans: 2; widows: 2; }
+  .story-body p { margin: 0 0 3mm; orphans: 3; widows: 3; }
   .story-body p:last-child { margin-bottom: 0; }
 
   .talk-block {
-    margin-top: 3mm;
-    padding: 2mm 0 0;
+    margin-top: 5mm;
+    padding: 3.5mm 0 0;
     border-top: .5pt dotted #999;
     break-inside: avoid;
   }
   .talk-block > summary {
     display: block !important;
-    font-size: .78em;
+    font-size: .76em;
     font-weight: 700;
-    letter-spacing: .08em;
+    letter-spacing: .1em;
     text-transform: uppercase;
     color: #000;
     padding: 0;
-    margin: 0 0 1.5mm;
+    margin: 0 0 3mm;
   }
   .talk-block > summary::before { display: none; }
 
-  .debate { margin: 0; padding-left: 5mm; }
-  .debate li { margin: 0 0 1.8mm; }
+  .debate { margin: 0; padding-left: 7mm; }
+  .debate li { margin: 0 0 3mm; }
   .debate li:last-child { margin-bottom: 0; }
-  .debate .q { margin: 0; font-weight: 600; line-height: 1.42; }
+  .debate .q { margin: 0; font-weight: 600; line-height: 1.45; }
 
   .source-line {
-    font-size: .76em; color: #555; margin: 2mm 0 0; line-height: 1.35;
+    font-size: .76em; color: #666; margin: 4mm 0 0; line-height: 1.4;
   }
-  .source-line a { color: #555; text-decoration: none; }
+  .source-line a { color: #666; text-decoration: none; }
 
   a { color: #000; }
 }
