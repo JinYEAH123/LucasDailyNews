@@ -6,7 +6,7 @@
 
 Every day at an hour you choose, this picks the most important stories from the
 world's press, rewrites them for a child of the age you set, and publishes them
-as a web page, an email, and a shareable image. Every story ends with three
+as a web page, an email, and a shareable image. Every story ends with two
 dinner-table questions — and the case for **both sides** of each one, folded
 away so your child answers first.
 
@@ -211,10 +211,10 @@ re-run `render_site.py`. No API call needed.
 
 ### Cost
 
-Five Claude calls a day: one research pass, one that records the chosen stories
-and their links, and one per reading level. Roughly $2–3 a day, so on the order
-of $60–90 a month. Writing three bands is most of that — a single-band build
-would be about a third.
+Eleven Claude Sonnet calls a day: one research pass, one that records the chosen
+stories and their links, then one per story per reading level. The run prints a
+per-pass breakdown of tokens and cost when it finishes, so the real figure for
+your own settings is the one to go by.
 
 ---
 

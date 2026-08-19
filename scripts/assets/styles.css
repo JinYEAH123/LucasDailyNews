@@ -621,3 +621,102 @@ details[open] > summary::before { transform: rotate(45deg); }
   .bandbar { flex-direction: column; gap: .5rem; }
   .seg button { padding: .38rem .7rem; }
 }
+
+
+/* ---------- print ---------- */
+
+/* A worksheet for the dinner table, so the reading can happen off a screen.
+   What prints is exactly what the reader had chosen — one reading level, one
+   language — because the band and language rules above are display:none and
+   apply to paper as much as to glass.
+
+   On the page: the brief, the whole story, and the questions. Left off: the
+   word bank, why-it-matters, the reading links and videos (all of which need a
+   screen anyway), and the two-sided hints — those are meant to be met after
+   the child has had a go, and paper cannot keep them folded.
+
+   No @page size is declared on purpose: the printer's own paper wins, and the
+   layout is sized for US Letter, the shorter of the two, so A4 has room spare. */
+@media print {
+  @page { margin: 9mm; }
+
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  /* Type size is set per reading level rather than once, because the amount of
+     text differs so much between them. The youngest band has the least to say
+     and the youngest eyes, so it gets the largest type; 16+ has nearly half as
+     much again and readers who can take it smaller. Each was measured, a step
+     under the largest size that still lands a whole edition on one sheet of US
+     Letter — the shorter of the two papers, and English, the longer of the two
+     languages. The step down is headroom: a wordier day than the one these
+     were measured against will still fit rather than spilling onto a second
+     sheet. */
+  html[data-band="6-11"]  { font-size: 9.0pt; }
+  html[data-band="12-15"] { font-size: 7.9pt; }
+  html[data-band="16+"]   { font-size: 7.5pt; }
+  body { font-size: 1em; }
+
+  .wrap { max-width: none; padding: 0; margin: 0; }
+
+  /* Screen furniture, and everything that is a link rather than a read. */
+  .controls, .bandbar, .foot, .story-top, .why, .talk-intro,
+  .words-block, .reads-block, .hint, .page-head,
+  .masthead .tagline { display: none !important; }
+
+  .masthead { text-align: left; padding: 0 0 1.5mm; border-bottom: .4pt solid #000;
+              display: block; margin: 0; }
+  .masthead h1 { font-size: 1.45em; letter-spacing: -.01em; margin: 0; }
+  .masthead h1 a { color: #000; text-decoration: none; }
+  .dateline { margin: .4mm 0 0; font-size: .8em; color: #333; line-height: 1.25; }
+  /* Inline to save a line, so the two halves need a separator of their own —
+     block layout was supplying the break on screen. */
+  .dateline strong { display: inline; }
+  .dateline strong::after { content: " · "; font-weight: 400; color: #666; }
+
+  /* Two columns: a single column across a whole sheet runs to ~110 characters
+     a line, which is both hard to read and too tall to fit. */
+  .stories { column-count: 2; column-gap: 6mm; margin-top: 2.5mm; }
+
+  /* Deliberately not break-inside: avoid — a story that will not split has to
+     start a new column, and three unsplittable stories in two columns spill
+     onto a second sheet. Letting the prose flow fills both columns instead;
+     only the headline is pinned to the text it introduces. */
+  .story {
+    background: none; box-shadow: none; border: 0;
+    border-left: 1.4pt solid #000;
+    padding: 0 0 0 2.5mm;
+    margin: 0 0 2.5mm;
+  }
+
+  .story h2 { font-size: 1.16em; line-height: 1.18; margin: 0 0 .8mm;
+               break-after: avoid; }
+  .story .hook { font-size: 1em; line-height: 1.26; margin: 0 0 .8mm; color: #000; }
+
+  /* The folded blocks are opened by script before printing; their headings are
+     noise on paper, where nothing is foldable. */
+  details > summary { display: none !important; }
+  .details-body { margin: 0; padding: 0; background: none; border: 0; }
+  .story-body p { margin: 0 0 .8mm; line-height: 1.26; }
+
+  .talk-block { margin-top: 1.2mm; border-top: .4pt dotted #666; padding-top: 1mm; }
+
+  /* The one heading worth keeping: on paper it is the only thing telling a
+     child that this part is for them to answer rather than to read. */
+  .talk-block > summary {
+    display: block !important;
+    font-size: .82em; font-weight: 700; color: #000;
+    padding: 0; margin: 0 0 .6mm;
+  }
+  .talk-block > summary::before { display: none; }
+  .debate { margin: 0; padding-left: 4mm; }
+  .debate li { margin: 0 0 .7mm; }
+  .debate .q { margin: 0; font-weight: 600; line-height: 1.26; }
+
+  .source-line { font-size: .82em; color: #444; margin: .6mm 0 0; line-height: 1.25; }
+  .source-line a { color: #444; text-decoration: none; }
+
+  a { color: #000; }
+}

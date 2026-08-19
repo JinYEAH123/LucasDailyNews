@@ -43,7 +43,7 @@ import appconfig
 ROOT = Path(__file__).resolve().parent.parent
 EDITIONS_DIR = ROOT / "data" / "editions"
 
-MODEL = "claude-opus-5"
+MODEL = "claude-sonnet-5"
 N = appconfig.STORIES_PER_DAY
 
 # The fields one band's writing pass produces for one story.
@@ -147,7 +147,7 @@ def band_schema(cfg, band_key: str) -> dict:
 
     One story per request rather than all three. Asking for three at once means
     three stories, in two languages, each with several paragraphs, a word bank
-    and three two-sided questions, held together in a single answer — and when
+    and its two-sided questions, held together in a single answer — and when
     that is too much the model does not fail, it completes the structure and
     leaves the prose empty. Splitting it makes each answer small enough to write
     properly, and makes a bad one cost one story instead of the day.
@@ -177,7 +177,7 @@ def band_schema(cfg, band_key: str) -> dict:
                 },
             },
             "talk_about_it": {
-                "type": "array", "minItems": 3, "maxItems": 3,
+                "type": "array", "minItems": 2, "maxItems": 2,
                 "items": {
                     "type": "object",
                     "properties": {
@@ -309,7 +309,7 @@ WRITING — this pass is for readers aged {band_key}:
 - The same three stories are being written for two other age bands. Do not
   soften which story is being told; change only how it is explained.
 
-THE THINKING EXERCISE — exactly three dinner-table questions per story, each
+THE THINKING EXERCISE — exactly two dinner-table questions per story, each
 with exactly two sides. Treat it as the hardest thing you write:
 - A question qualifies only if a thoughtful, well-informed adult could genuinely
   land on either side. If looking something up settles it, it is a quiz question.
@@ -362,7 +362,7 @@ def band_prompt(story: dict, band_key: str) -> str:
     band = appconfig.AGE_BANDS[band_key]
     return f"""\
 Write this one story for readers aged {band_key}. About {band['words']} terms in
-the word bank, and exactly three questions with two sides each.
+the word bank, and exactly two questions with two sides each.
 
 [{story['category']} · {story['region']}]
 {story['facts']}
@@ -376,10 +376,10 @@ def _text_of(message) -> str:
     return "\n".join(b.text for b in message.content if b.type == "text").strip()
 
 
-# Claude Opus 5, USD per token. Output covers thinking as well as the answer,
+# Claude Sonnet 5, USD per token. Output covers thinking as well as the answer,
 # which is the part worth watching: it is invisible in the finished edition and
 # can be the larger half of the bill.
-PRICE_IN, PRICE_OUT = 5 / 1e6, 25 / 1e6
+PRICE_IN, PRICE_OUT = 3 / 1e6, 15 / 1e6
 
 _spend: list = []
 
@@ -446,7 +446,7 @@ def _shortfall(payload: dict, schema: dict, fields) -> str | None:
 
     Two ways an answer can disappoint, and both have been seen in a real run:
 
-    Short. The authored schema asks for three questions, two sides each, three
+    Short. The authored schema asks for two questions, two sides each, three
     arguments a side. api_schema has to strip those bounds on the way out, so
     nothing at the far end enforces them, and one call in nine came back with a
     single question carrying a single side — the least the stripped schema
@@ -468,7 +468,7 @@ def _shortfall(payload: dict, schema: dict, fields) -> str | None:
 
 # Seen in a real answer: rather than leaving a field empty, the model wrote the
 # word "placeholder" into the word bank and every part of the question. Counting
-# would catch that particular reply, which was also short — but three questions
+# would catch that particular reply, which was also short — but two questions
 # all reading "placeholder" would count as three, so treat the word itself as
 # nothing said.
 FILLER = {"placeholder", "tbd", "n/a", "todo", "..."}

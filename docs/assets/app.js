@@ -52,6 +52,28 @@
   applyLang(prefs.lang || root.getAttribute('data-lang'));
   if (prefs.theme) applyTheme(prefs.theme);
 
+  // Paper cannot fold, so everything the print stylesheet keeps has to be open
+  // before the browser paints the page — and back as it was afterwards, so
+  // printing does not quietly rearrange what the reader was looking at. The
+  // hints are the exception: they stay shut, because a child is meant to answer
+  // before meeting anyone else's argument, and on paper they could not be
+  // hidden again.
+  var reopened = [];
+
+  window.addEventListener('beforeprint', function () {
+    reopened = [];
+    document.querySelectorAll('details').forEach(function (d) {
+      if (d.classList.contains('hint') || d.open) return;
+      d.open = true;
+      reopened.push(d);
+    });
+  });
+
+  window.addEventListener('afterprint', function () {
+    reopened.forEach(function (d) { d.open = false; });
+    reopened = [];
+  });
+
   document.addEventListener('click', function (ev) {
     var band = ev.target.closest('[data-band-set]');
     if (band) {
@@ -66,6 +88,13 @@
       prefs.lang = lang.getAttribute('data-lang-set');
       save(prefs);
       applyLang(prefs.lang);
+      return;
+    }
+
+    if (ev.target.closest('[data-print]')) {
+      // The print stylesheet keeps only the band and language on screen, so
+      // what comes out of the printer is what the reader was looking at.
+      window.print();
       return;
     }
 
