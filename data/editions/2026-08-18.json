@@ -1,0 +1,936 @@
+{
+  "date": "2026-08-18",
+  "window": {
+    "start": "2026-08-17T17:00:00-07:00",
+    "end": "2026-08-18T17:00:00-07:00",
+    "label": {
+      "en": "News from Monday 5:00 PM to Tuesday 5:00 PM PDT",
+      "zh": "PDT 8月17日 17:00 至 8月18日 17:00"
+    }
+  },
+  "generated_at": "2026-08-18T17:57:16-07:00",
+  "generator": "claude-opus-5 (research + skeleton + 3 bands)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 17
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Iran war: live updates as US–Iran deadline expires",
+        "publisher": "CNN",
+        "url": "https://edition.cnn.com/2026/08/17/world/live-news/iran-war-trump"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "A 60-day deadline for an Iran peace deal is expiring. Here's where things stand",
+            "zh": "伊朗和平协议的60天期限即将到期，目前进展如何"
+          },
+          "summary": {
+            "en": "An AP explainer laying out what the June memorandum promised and what has and has not happened since. Useful for parents who want the timeline in one place.",
+            "zh": "美联社梳理六月备忘录承诺了什么、之后发生了什么。适合家长一次看清时间线。"
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/60-day-deadline-iran-peace-deal-expiring-s-things-stand-rcna592875"
+        },
+        {
+          "title": {
+            "en": "US–Iran war deal expired; Strait of Hormuz live updates",
+            "zh": "美伊协议到期、霍尔木兹海峡最新进展"
+          },
+          "summary": {
+            "en": "A rolling live file focused on the closed shipping lane and its effect on oil. Good for understanding why a narrow strait matters to the whole world.",
+            "zh": "实时报道聚焦被封锁的航道及其对石油的影响。有助于理解一条狭窄海峡为何牵动全球。"
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran war live: Tehran, US MOU set to expire",
+            "zh": "伊朗战况直播：德黑兰与美国的谅解备忘录即将到期"
+          },
+          "summary": {
+            "en": "A non-US perspective on the same day, including regional diplomacy around Hamas envoy al-Khayya and Jared Kushner. Helpful for comparing how the deadline is framed outside the United States.",
+            "zh": "同一天的非美国视角，包括哈马斯代表与库什纳的地区外交活动。可比较美国以外如何看待这一期限。"
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/17/iran-war-live-tehran-us-mou-set-to-expire-hamass-al-khayya-meets-kushner"
+        },
+        {
+          "title": {
+            "en": "Early Edition: August 18, 2026",
+            "zh": "每日早报：2026年8月18日"
+          },
+          "summary": {
+            "en": "A national-security law digest gathering the day's Iran reporting with links to primary documents. Best for older readers who want to check the sourcing themselves.",
+            "zh": "国家安全法律类每日汇总，附原始文件链接。适合想自己核查来源的大读者。"
+          },
+          "publisher": "Just Security",
+          "url": "https://www.justsecurity.org/154447/early-edition-august-18-2026/"
+        },
+        {
+          "title": {
+            "en": "Ceasefire deadline and the memorandum of understanding",
+            "zh": "停火期限与谅解备忘录"
+          },
+          "summary": {
+            "en": "Covers Trump's threat toward Oman and Oman's role as a longtime go-between with Iran. Adds the detail that makes the Oman angle understandable.",
+            "zh": "报道特朗普针对阿曼的威胁，以及阿曼长期作为美伊中间人的角色。补充了理解这一环节所需的细节。"
+          },
+          "publisher": "MS NOW",
+          "url": "https://www.ms.now/news/us-iran-war-ceasefire-deadline-memorandum-understanding-oman"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "A 60-Day Clock Ran Out, and the Oil Road Is Still Shut",
+            "zh": "六十天的时限到了，海上的「石油小路」仍然关着"
+          },
+          "hook": {
+            "en": "In June, the United States and Iran signed a paper in France. It gave them 60 days to work out a real peace deal. On Monday 18 August 2026 the 60 days ran out. There is no deal, and a narrow stretch of sea that carries much of the world's oil is still closed.",
+            "zh": "今年六月，美国和伊朗在法国签了一份文件，约定用六十天谈出真正的和平协议。2026年8月17日（星期一），六十天到期了。协议没有谈成，而那条运送全世界大量石油的狭窄海道，依然关着。"
+          },
+          "story": {
+            "en": [
+              "Iran is a large country in the Middle East. Beside it lies a sea passage called the Strait of Hormuz. At its narrowest, it is about as wide as a long bike ride — around 33 kilometres. Huge ships full of oil squeeze through it every day.",
+              "Oil becomes petrol for cars, fuel for planes, and heat for houses. When the ships stop, oil gets harder to buy. Prices go up in shops and at petrol pumps far away from Iran.",
+              "The American president, Donald Trump, spoke on television. He said he is not in a hurry. He told Iran's leaders to give up. He said he has a secret line of contact to a powerful part of Iran's army. Nobody outside has checked that this is true. He also used rough words to threaten Oman, a neighbouring country, if it gets in America's way.",
+              "Iran's government answered calmly. One spokesman said the deadline was not such a big deal. Iran's foreign minister said no decision had been made about talking again. So both sides are waiting, and the ships are still not sailing."
+            ],
+            "zh": [
+              "伊朗是中东的一个大国。它旁边有一条海上通道，叫霍尔木兹海峡。最窄的地方只有大约三十三公里宽，差不多是骑一趟长途自行车的距离。每天都有装满石油的巨型油轮从这里挤过去。",
+              "石油会变成汽车的汽油、飞机的燃料、家里的暖气。油轮一停，石油就更难买到。就算离伊朗很远的地方，商店和加油站的价格也会往上涨。",
+              "美国总统特朗普在电视上说话。他说他不着急。他叫伊朗的领导人认输。他还说自己和伊朗军队中一个很有权力的部分有一条秘密联络渠道。外界无法证实这件事是真的。他又用很粗的话威胁邻国阿曼，说如果阿曼妨碍美国就要动手。",
+              "伊朗政府的回应很平静。一位发言人说，这个期限没那么重要。伊朗外长说，还没决定要不要重新谈。于是双方都在等，油轮也还停着。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil moves almost everything you use — the bus you ride, the truck that brings food to your shop, the plane your family might take. When one narrow sea road closes, costs rise in countries that are nowhere near it. Grown-ups arguing on television can end up changing the price of your family's weekly shopping.",
+            "zh": "石油几乎推动着你用到的一切：你坐的公车、把食物送到商店的卡车、你家可能搭的飞机。一条狭窄海道关闭，远在千里之外的国家物价也会上涨。电视上大人的争吵，最后可能变成你家每周购物账单上的数字。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait",
+                "zh": "海峡"
+              },
+              "def": {
+                "en": "A narrow bit of sea between two pieces of land, like a doorway that ships must pass through.",
+                "zh": "两块陆地之间狭窄的海面，像一道船必须通过的门。"
+              }
+            },
+            {
+              "term": {
+                "en": "Deadline",
+                "zh": "期限"
+              },
+              "def": {
+                "en": "A day by which something is supposed to be finished.",
+                "zh": "约定要在这一天之前把事情做完。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If two sides agree on a deadline and then miss it, should they set a new one or stop trying?",
+                "zh": "如果双方定了期限却没做到，是该再定一个新期限，还是干脆别谈了？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Set a new deadline",
+                    "zh": "再定一个新期限"
+                  },
+                  "points": {
+                    "en": [
+                      "Hard problems often take longer than anyone guessed at the start.",
+                      "While people are still talking, they are not fighting.",
+                      "Walking away leaves the sea closed, and ordinary families pay for that."
+                    ],
+                    "zh": [
+                      "困难的问题常常比一开始想的花更多时间。",
+                      "只要还在谈，就还没打起来。",
+                      "一走了之，海峡仍然关着，买单的是普通人家。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stop and change course",
+                    "zh": "停下来，换个办法"
+                  },
+                  "points": {
+                    "en": [
+                      "A deadline nobody keeps teaches both sides that promises cost nothing.",
+                      "Endless talks can be used to buy time while preparing for something worse.",
+                      "Admitting the talks failed lets other countries step in and try a different way."
+                    ],
+                    "zh": [
+                      "没人遵守的期限，会让双方觉得承诺不值钱。",
+                      "无止境地谈，可能只是为更糟的事拖延时间。",
+                      "承认谈判失败，别的国家才能介入，换个方式试试。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a good idea for a leader to say tough, rude things about another country in public?",
+                "zh": "领导人公开说狠话、说粗话，是好办法吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It can work",
+                    "zh": "有时候有用"
+                  },
+                  "points": {
+                    "en": [
+                      "Sometimes the other side only moves when it believes you are serious.",
+                      "Speaking in public tells your own citizens exactly where you stand.",
+                      "Polite words for years did not open the Strait either."
+                    ],
+                    "zh": [
+                      "有时候对方只有相信你是认真的，才会让步。",
+                      "公开表态，能让自己国家的人清楚知道立场。",
+                      "客气了很多年，海峡也一样没打开。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It makes things worse",
+                    "zh": "只会让事情更糟"
+                  },
+                  "points": {
+                    "en": [
+                      "Threats make it embarrassing for the other side to agree, even when they want to.",
+                      "Countries not involved in the quarrel may get frightened and pick the other side.",
+                      "Rough words in public are hard to take back, and they close doors quietly opened in private."
+                    ],
+                    "zh": [
+                      "威胁会让对方即使想同意也拉不下脸。",
+                      "本来无关的国家可能被吓到，转而站到另一边。",
+                      "公开的狠话收不回来，会关上私下好不容易打开的门。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "A leader says he has a secret contact, but nobody can check it. Should people believe him?",
+                "zh": "领导人说自己有一条秘密渠道，但没人能查证。该相信吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Give him the benefit of the doubt",
+                    "zh": "先相信"
+                  },
+                  "points": {
+                    "en": [
+                      "Real secret talks stay secret, or they stop working.",
+                      "A leader sees information that ordinary people never will.",
+                      "Doubting everything a leader says makes any deal harder to build."
+                    ],
+                    "zh": [
+                      "真正的秘密谈判必须保密，公开了就谈不成。",
+                      "领导人能看到普通人永远看不到的情报。",
+                      "什么都不信，任何协议都更难达成。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for proof",
+                    "zh": "等证据"
+                  },
+                  "points": {
+                    "en": [
+                      "A claim that cannot be checked is not yet a fact, no matter who says it.",
+                      "Leaders sometimes sound stronger than they are, to gain an advantage.",
+                      "If people believe unchecked claims, it becomes easy to mislead a whole country."
+                    ],
+                    "zh": [
+                      "无法查证的说法就还不是事实，不管是谁说的。",
+                      "领导人有时会把自己说得比实际更强势，以取得优势。",
+                      "如果大家都信未经查证的话，整个国家就很容易被误导。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A 60-Day Clock Ran Out, and the World's Busiest Oil Route Is Still Shut",
+            "zh": "六十天期限走到尽头，全球最繁忙的石油通道仍然关闭"
+          },
+          "hook": {
+            "en": "On Monday 17 August 2026, a 60-day deadline for a permanent peace deal between the United States and Iran expired with no agreement. The Strait of Hormuz, the narrow sea passage that carries a large share of the world's oil, is still closed. President Trump said on Fox News that he is 'not in a hurry.' Iran's foreign ministry said the date did not mean much.",
+            "zh": "2026年8月17日星期一，美国与伊朗达成永久和平协议的60天期限到期，双方没有签成任何协议。承载全球大量石油运输的狭窄水道——霍尔木兹海峡——依然关闭。特朗普总统在福克斯新闻上说自己"
+          },
+          "story": {
+            "en": [
+              ""
+            ],
+            "zh": [
+              ""
+            ]
+          },
+          "why_it_matters": {
+            "en": "",
+            "zh": ""
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "",
+                "zh": ""
+              },
+              "def": {
+                "en": "",
+                "zh": ""
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "",
+                "zh": ""
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "",
+                    "zh": ""
+                  },
+                  "points": {
+                    "en": [
+                      ""
+                    ],
+                    "zh": [
+                      ""
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "A 60-Day Clock Ran Out. The World's Most Important Oil Route Is Still Shut.",
+            "zh": "六十天期限已过：全球最重要的石油航道仍然关闭"
+          },
+          "hook": {
+            "en": "On Monday 17 August 2026, the 60-day window created by a memorandum of understanding President Trump signed in France in June expired with no permanent peace agreement between the United States and Iran. The Strait of Hormuz, the narrow sea passage that carries a large share of the world's oil, remains closed. Trump told Fox News he is 'not in a hurry' and demanded Iran raise a white flag; Iran's foreign ministry said the date was not especially important.",
+            "zh": ""
+          },
+          "story": {
+            "en": [
+              "The deadline was not a law or a treaty. It came from a memorandum of understanding — a signed statement of intent, closer to a handshake written down than to a binding contract — that President Trump put his name to in June at Versailles, outside Paris. It gave the two governments sixty days to turn a pause in fighting into a permanent settlement. On Monday, the sixty days ended. There is no settlement.",
+              "The most visible consequence sits in a stretch of water about the width of a long car journey at its narrowest point. The Strait of Hormuz is the only sea exit from the Persian Gulf, and in normal times roughly a fifth of the world's oil moves through it on tankers. It is still closed. When a route like that shuts, the effects do not stay at sea: shipping insurance becomes expensive or unavailable, cargoes are re-routed around longer paths, and the extra cost eventually reaches ordinary households through fuel, transport and the price of anything that travels.",
+              "Trump's message this week was that time is on his side. Speaking to Fox News, he said he has a direct backchannel — a private line of communication that bypasses official diplomacy — to Iran's Islamic Revolutionary Guard Corps, the branch of Iran's armed forces that answers to the country's supreme leader rather than to its elected government. He said he is 'not in a hurry,' told Tehran to wave the 'white flag,' and threatened, in language too crude to reproduce here, to bomb Oman if it interferes with American efforts in the Strait. Oman is a small Gulf state that has for decades hosted quiet talks between Washington and Tehran.",
+              "Two cautions belong with that paragraph. The existence of the backchannel is Trump's own claim; no one else has confirmed it. And CNN reported that it asked the White House to comment on the threat against Oman and had received no answer. A public threat against a country that is not a party to the conflict is unusual enough that its meaning is genuinely unclear — pressure tactic, negotiating theatre, or statement of intent.",
+              "Iran's public reaction was deliberately flat. Foreign ministry spokesman Esmaeil Baghaei played down the significance of the deadline, and Foreign Minister Abbas Araghchi said no decision had been made about resuming talks. That is a familiar posture: refusing to treat someone else's clock as your own is itself a form of leverage. Separately, NBC reported a European government document alleging that Russia is shipping drone components, ammunition and TNT to Iran across the Caspian Sea. That report rests on a single source and has not been independently confirmed; it should be held as a claim, not a fact.",
+              "What informed people argue about now is not what happened but what it means. One reading is that a deadline allowed to lapse without consequence teaches the other side that American deadlines are soft. The other is that walking away from an artificial date, rather than launching something you cannot control in order to honour it, is the more disciplined choice. Both readings are available from exactly the same set of facts, which is why the next few weeks will be read very differently depending on where you start."
+            ],
+            "zh": [
+              "这个期限并不是法律，也不是条约。它来自一份谅解备忘录——一份签了字的意向声明，更接近于写在纸上的握手，而不是有约束力的合同。今年六月，特朗普总统在巴黎郊外的凡尔赛签下了它，给两国政府六十天时间，把停火变成永久性的解决方案。周一，六十天到期了。解决方案没有出现。",
+              "最显眼的后果集中在一片海域上。霍尔木兹海峡是波斯湾唯一的出海口，最窄处的宽度不过相当于一段不长的车程。正常年份，全球约五分之一的石油要靠油轮从这里运出。海峡至今仍处于关闭状态。这样一条航道一旦封闭，影响不会停留在海上：航运保险变得昂贵甚至买不到，货物必须绕远路，多出来的成本最终会通过燃油、运输，以及一切需要被运送的商品，落到普通家庭的账单上。",
+              "特朗普本周传递的信息是：时间站在他这一边。他对福克斯新闻说，自己与伊朗伊斯兰革命卫队有一条直接的秘密渠道——一条绕开正式外交程序的私下沟通线路。革命卫队是伊朗武装力量的一支，直接对最高领袖负责，而不是对民选政府负责。他说自己",
+              " 不着急"
+            ]
+          },
+          "why_it_matters": {
+            "en": "",
+            "zh": ""
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "",
+                "zh": ""
+              },
+              "def": {
+                "en": "",
+                "zh": ""
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "",
+                "zh": ""
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "",
+                    "zh": ""
+                  },
+                  "points": {
+                    "en": [
+                      ""
+                    ],
+                    "zh": [
+                      ""
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "Pentagon orders audit of 30 universities' partnerships with foreign institutions",
+        "publisher": "ABC News (AP)",
+        "url": "https://abcnews.com/US/wireStory/pentagon-orders-audit-30-universities-partnerships-foreign-institutions-135741532"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Pentagon orders university audit",
+            "zh": "五角大楼下令审查大学合作"
+          },
+          "summary": {
+            "en": "A military-affairs paper's version of the story, with context on how defence research money reaches campuses. Clear on what the 31 August deadline actually requires.",
+            "zh": "军事媒体的报道，说明国防研究经费如何流向校园。清楚解释8月31日截止日的具体要求。"
+          },
+          "publisher": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/us/2026-08-18/pentagon-university-audit-22588637.html"
+        },
+        {
+          "title": {
+            "en": "Pentagon orders 30 US universities to carry out research security audits by end of month",
+            "zh": "五角大楼要求30所美国大学月底前完成研究安全审查"
+          },
+          "summary": {
+            "en": "The most detailed account of the Section 1286 List and how 'entities of concern' are designated. Trade-press reporting for readers who want the mechanics.",
+            "zh": "对第1286条清单及'受关注实体'认定方式解释最详细。适合想了解具体机制的读者。"
+          },
+          "publisher": "Export Compliance Daily",
+          "url": "https://exportcompliancedaily.com/article/2026/08/18/pentagon-orders-30-us-universities-to-carry-out-research-security-audits-by-end-of-month-2608170032?BC=bc_6a839eb5cc67d"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Pentagon orders security review of 30 universities into ties to foreign entities of concern",
+            "zh": "五角大楼下令审查30所大学与受关注外国实体的联系"
+          },
+          "summary": {
+            "en": "An international outlet's write-up, useful for seeing how the order reads from outside the US. Includes university-sector reaction.",
+            "zh": "国际媒体的报道，可看出美国以外如何理解这项命令。包含大学界的反应。"
+          },
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/us/2026/08/18/pentagon-orders-security-review-of-30-universities-into-ties-to-foreign-entities-of-concern/"
+        },
+        {
+          "title": {
+            "en": "House Select Committee on the CCP press releases",
+            "zh": "美国众议院中共问题特别委员会新闻稿"
+          },
+          "summary": {
+            "en": "Chairman John Moolenaar's same-day statement backing the audits, in his own words. Shows the political argument being made for the policy.",
+            "zh": "主席穆勒纳尔当天支持审查的声明原文。呈现该政策背后的政治论据。"
+          },
+          "publisher": "US House of Representatives",
+          "url": "https://chinaselectcommittee.house.gov/media/press-releases"
+        },
+        {
+          "title": {
+            "en": "Pentagon orders audit of 30 universities' partnerships with foreign institutions",
+            "zh": "五角大楼下令审查30所大学与外国机构的合作"
+          },
+          "summary": {
+            "en": "An AP syndication mirror, handy if the original page is unavailable. Same wire text, different site.",
+            "zh": "美联社转载版本，原网页打不开时可用。同一通讯社稿件，不同网站。"
+          },
+          "publisher": "Local 10",
+          "url": "https://www.local10.com/news/national/2026/08/18/pentagon-orders-audit-of-30-universities-partnerships-with-foreign-institutions/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "The Pentagon Asks 30 Universities: Who Are You Working With?",
+            "zh": "五角大楼问三十所大学：你们在和谁合作？"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, America's defence department sent letters to 30 universities. Each letter said the same thing: look carefully at every partnership you have with foreign groups, and report back by 31 August. Universities that refuse could lose government money for their laboratories.",
+            "zh": "2026年8月18日（星期二），美国国防部给三十所大学寄了信。每封信都说同一件事：仔细检查你们和外国机构的所有合作，8月31日前交报告。不配合的大学，实验室可能会失去政府的经费。"
+          },
+          "story": {
+            "en": [
+              "Universities are places where people study and where scientists do experiments. Much of that work is paid for by the government, using money collected from taxes.",
+              "Scientists like to work together across countries. A lab in America might share results with a lab in China. Two people far apart can solve a problem faster than one person alone.",
+              "The defence department worries that some of this sharing helps other governments, especially in ways that could matter for weapons. It keeps a list of foreign groups it does not trust. Now it wants each university to check its own partners against that list — and it gave them under two weeks.",
+              "Not everyone agrees this is the right move. A woman named Sarah Spreitzer, who speaks for American universities, said the deadline is very short and the rules are not clear. A member of Congress, John Moolenaar, said the checks are needed to keep America safe. The Pentagon did not say which 30 universities got letters."
+            ],
+            "zh": [
+              "大学是人们读书、科学家做实验的地方。这些研究很多是政府出钱，钱来自大家缴的税。",
+              "科学家喜欢跨国合作。美国的实验室可能会和中国的实验室分享结果。两个人隔得再远，一起想办法也比一个人快。",
+              "国防部担心，有些分享会帮到别国政府，特别是可能和武器有关的部分。它有一份不信任的外国机构名单。现在它要求每所大学拿自己的合作对象去对照那份名单——而且只给了不到两周。",
+              "并不是所有人都赞成。代表美国大学发言的斯普赖策女士说，期限太短，规则也不清楚。国会议员穆勒纳尔则说，这些检查是保护美国安全所必需的。五角大楼没有公布是哪三十所大学收到了信。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "America and China run the two biggest science systems on Earth, and for years their scientists have worked side by side. If that stops, some discoveries — new medicines, better batteries, cleaner energy — may come more slowly for everybody. Students who dream of studying abroad may also find fewer doors open.",
+            "zh": "美国和中国拥有全世界最大的两个科研体系，多年来两边的科学家一直并肩工作。如果合作中断，有些成果——新药、更好的电池、更干净的能源——对所有人来说都会来得更慢。想出国读书的学生，也可能发现门变少了。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Audit",
+                "zh": "审查"
+              },
+              "def": {
+                "en": "A careful check of what someone has been doing, usually with written proof.",
+                "zh": "仔细检查某人做过的事，通常要拿出书面证明。"
+              }
+            },
+            {
+              "term": {
+                "en": "Research funding",
+                "zh": "科研经费"
+              },
+              "def": {
+                "en": "Money given to scientists so they can pay for equipment, helpers and time to experiment.",
+                "zh": "给科学家的钱，用来买设备、请助手、花时间做实验。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should scientists in different countries share their discoveries freely?",
+                "zh": "不同国家的科学家，应该自由分享研究成果吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share freely",
+                    "zh": "应该自由分享"
+                  },
+                  "points": {
+                    "en": [
+                      "Diseases, storms and pollution do not stop at borders, so the answers should not either.",
+                      "Science moves faster when many minds check the same idea.",
+                      "Keeping knowledge locked up can mean people suffer while a cure waits in a drawer."
+                    ],
+                    "zh": [
+                      "疾病、风暴和污染不会在国界前停下，解决办法也不该停。",
+                      "很多人一起检验同一个想法，科学才走得快。",
+                      "把知识锁起来，可能让解药躺在抽屉里，而外面有人在受苦。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Share carefully",
+                    "zh": "应该谨慎分享"
+                  },
+                  "points": {
+                    "en": [
+                      "Some research can be turned into weapons that hurt people.",
+                      "Money from one country's taxpayers was meant to help that country first.",
+                      "A partner who takes everything and gives nothing back is not really a partner."
+                    ],
+                    "zh": [
+                      "有些研究可以被改造成伤人的武器。",
+                      "一个国家纳税人的钱，本来是为了先帮到自己国家。",
+                      "只拿不给的合作对象，其实算不上伙伴。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is two weeks a fair amount of time to answer a very big question?",
+                "zh": "回答一个这么大的问题，只给两周公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, move fast",
+                    "zh": "公平，就该快"
+                  },
+                  "points": {
+                    "en": [
+                      "A university should already know who its partners are, without needing months.",
+                      "Long deadlines let people who want to hide something tidy it away.",
+                      "If a risk is real, waiting makes it bigger, not smaller."
+                    ],
+                    "zh": [
+                      "一所大学本来就该清楚自己的合作对象，不需要几个月。",
+                      "期限太长，想隐瞒的人正好有时间收拾干净。",
+                      "如果风险是真的，等待只会让它变大。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that is too fast",
+                    "zh": "不公平，太赶了"
+                  },
+                  "points": {
+                    "en": [
+                      "A big university has thousands of projects, and checking each one takes real time.",
+                      "Rushed reports contain mistakes, and a mistake could unfairly damage someone's career.",
+                      "When the rules are not clear, people need time to ask what is actually being asked."
+                    ],
+                    "zh": [
+                      "大型大学有数千个项目，一个个查真的需要时间。",
+                      "赶出来的报告会出错，而一个错误可能毁掉某个人的前途。",
+                      "规则不清楚时，人们需要时间弄明白到底要交什么。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the government be allowed to take away a university's money if it disagrees with what the university does?",
+                "zh": "如果政府不满意大学的做法，应该可以收回给大学的钱吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "应该可以"
+                  },
+                  "points": {
+                    "en": [
+                      "The money belongs to the public, and the public can set conditions on it.",
+                      "Without a real consequence, a rule is just a polite suggestion.",
+                      "Governments answer to voters for how safely public money is spent."
+                    ],
+                    "zh": [
+                      "这些钱属于公众，公众可以为它设定条件。",
+                      "没有实际后果的规定，只是一句客气的建议。",
+                      "政府要向选民交代，公款花得安不安全。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "If money can be pulled at any moment, universities will study only what pleases whoever is in power.",
+                      "The threat lands hardest on students and young researchers who made no decisions at all.",
+                      "Good science sometimes needs to question the government, and it cannot do that while afraid."
+                    ],
+                    "zh": [
+                      "如果经费随时会被抽走，大学就只会研究讨好当权者的题目。",
+                      "受伤最重的是学生和年轻研究者，而决定根本不是他们做的。",
+                      "好的科学有时需要质疑政府，害怕的时候就做不到。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "ABC and Disney sue the FCC, alleging First Amendment retaliation",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/business/business-news/abc-disney-sues-fcc-trump-administration-first-amendment-rcna593088"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Disney sues FCC over 'retaliatory campaign' tied to licenses",
+            "zh": "迪士尼起诉FCC，指其围绕执照展开'报复行动'"
+          },
+          "summary": {
+            "en": "Business-press coverage of the filing and what a broadcast licence is worth to a network. Explains why the early-renewal order was unusual.",
+            "zh": "财经媒体报道诉讼内容，以及广播执照对电视网的价值。解释提前换照要求为何不寻常。"
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-18/disney-sues-fcc-over-retaliatory-campaign-tied-to-licenses"
+        },
+        {
+          "title": {
+            "en": "Disney, ABC sue FCC over probe that triggered license renewals",
+            "zh": "迪士尼与ABC就引发换照的调查起诉FCC"
+          },
+          "summary": {
+            "en": "A broadcast trade site tracing the sequence from FCC inquiry to early renewals. The clearest step-by-step of how the dispute started.",
+            "zh": "广播行业媒体梳理从FCC调查到提前换照的全过程。对争议起因的分步说明最清楚。"
+          },
+          "publisher": "The Desk",
+          "url": "https://thedesk.net/2026/08/disney-abc-sue-fcc-over-probe-that-triggered-license-renewals/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Disney and ABC sue the FCC, pushing back against the administration",
+            "zh": "迪士尼与ABC起诉FCC，反击政府施压"
+          },
+          "summary": {
+            "en": "Quotes directly from the complaint, which matters because the motive claims are Disney's own. Good for readers who want the exact wording.",
+            "zh": "直接引用诉状原文，因为动机指控出自迪士尼自己。适合想看确切措辞的读者。"
+          },
+          "publisher": "Deseret News",
+          "url": "https://www.deseret.com/entertainment/2026/08/18/disney-abc-sue-the-fcc-push-against-administration/"
+        },
+        {
+          "title": {
+            "en": "Disney sues FCC over challenge to broadcast licenses, claims retaliation over Jimmy Kimmel",
+            "zh": "迪士尼因广播执照之争起诉FCC，称因吉米·坎摩尔节目遭报复"
+          },
+          "summary": {
+            "en": "An AP-based local report that follows the late-night programming thread in the complaint. Helps explain what speech is actually at issue.",
+            "zh": "基于美联社的地方报道，追踪诉状中涉及深夜节目的部分。有助于理解争议涉及的言论内容。"
+          },
+          "publisher": "Upper Michigan's Source",
+          "url": "https://www.uppermichiganssource.com/2026/08/18/disney-sues-fcc-over-challenge-broadcast-licenses-claims-retaliation-over-jimmy-kimmel/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Disney Takes the Government to Court Over a TV Licence",
+            "zh": "迪士尼为一张电视执照把政府告上法庭"
+          },
+          "hook": {
+            "en": "On Tuesday 18 August 2026, Disney and its television network ABC sued a US government agency in a court in Washington DC. Disney says the agency is punishing ABC for the programmes it broadcasts. The agency has not answered in court yet.",
+            "zh": "2026年8月18日（星期二），迪士尼和旗下的ABC电视网在华盛顿的联邦法院起诉了一个美国政府机构。迪士尼说，这个机构因为ABC播出的节目而惩罚它。该机构还没有在法庭上作出回应。"
+          },
+          "story": {
+            "en": [
+              "To broadcast television over the airwaves in America, a company needs a licence. A licence is official permission. It is a bit like a library card: the library lends you books, and it can take the card back if you break the rules.",
+              "The agency that hands out these licences is called the FCC. Licences must be renewed every few years. In April, the FCC told Disney to renew the licences for its eight television stations earlier than usual.",
+              "Disney says that is very strange. In its court papers, it says the FCC has not demanded an early renewal from anyone in more than 50 years. Disney also says government pressure grew until people were openly calling for ABC's licences to be taken away because of what its shows said.",
+              "Disney points to two ABC programmes: a daytime talk show called The View and a late-night comedy show hosted by Jimmy Kimmel. Both often make fun of politicians. Disney says punishing a broadcaster for its opinions breaks the First Amendment, a very old American rule protecting free speech. Everything about the government's reasons is Disney's claim so far. A judge will decide."
+            ],
+            "zh": [
+              "在美国，用无线电波播电视，公司必须有执照。执照就是官方许可，有点像图书证：图书馆借书给你，但你违反规定，它可以把证收回。",
+              "发放这类执照的机构叫FCC（联邦通信委员会）。执照每隔几年要更新一次。今年四月，FCC要求迪士尼旗下八家电视台提前提交更新申请。",
+              "迪士尼说这很反常。它在诉状里说，五十多年来FCC没有要求过任何人提前更新。迪士尼还说，政府的压力越来越大，最后有人公开要求因为ABC节目的内容而吊销它的执照。",
+              "迪士尼提到ABC的两档节目：白天的谈话节目《The View》，以及吉米·坎摩尔主持的深夜喜剧节目。两档节目常常拿政治人物开玩笑。迪士尼认为，因为观点而惩罚一家电视台，违反了美国保护言论自由的古老规则「第一修正案」。目前关于政府动机的说法，都只是迪士尼的指控。最后由法官来判断。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Almost everything you watch or read comes from a company that some government could squeeze. If a broadcaster can lose its licence for jokes about politicians, other broadcasters will think twice before telling you awkward news. This case asks who gets to decide what you are allowed to hear.",
+            "zh": "你看的、读的几乎一切，都来自某个可能被政府施压的公司。如果一家电视台会因为拿政治人物开玩笑而丢掉执照，其他电视台在报道让人难堪的新闻前就会犹豫。这个案子要问的是：谁有权决定你能听到什么。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Broadcast licence",
+                "zh": "广播执照"
+              },
+              "def": {
+                "en": "Official permission from the government to send television or radio through the air.",
+                "zh": "政府给的正式许可，允许用无线电波播出电视或广播。"
+              }
+            },
+            {
+              "term": {
+                "en": "Free speech",
+                "zh": "言论自由"
+              },
+              "def": {
+                "en": "The right to say what you think without the government punishing you for it.",
+                "zh": "你可以说出自己的想法，政府不能因此惩罚你的权利。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government be able to take away a TV station's licence because of what it shows?",
+                "zh": "政府该不该因为一家电视台播了什么，就收回它的执照？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, in some cases",
+                    "zh": "某些情况下可以"
+                  },
+                  "points": {
+                    "en": [
+                      "The airwaves belong to everyone, so the public can set conditions for using them.",
+                      "A station that spreads harmful falsehoods can do real damage to real people.",
+                      "Rules with no consequences are ignored, and a licence is the only real consequence available."
+                    ],
+                    "zh": [
+                      "电波属于所有人，公众可以为使用它设定条件。",
+                      "散播有害假消息的电视台，会对真实的人造成真实伤害。",
+                      "没有后果的规定不会有人理会，而执照是唯一真正的后果。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, never for content",
+                    "zh": "绝不能因为内容"
+                  },
+                  "points": {
+                    "en": [
+                      "Whoever is in power would decide which opinions are allowed, and that changes with every election.",
+                      "Fear of losing a licence makes journalists soften stories before anyone even complains.",
+                      "People can switch channels themselves; they do not need an official to choose for them."
+                    ],
+                    "zh": [
+                      "谁掌权谁就决定哪些观点被允许，而这会随每次选举而变。",
+                      "害怕丢执照，记者在还没人投诉时就会先把报道说软。",
+                      "观众自己会换台，不需要官员替他们挑。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for comedy shows to make fun of leaders?",
+                "zh": "喜剧节目拿领导人开玩笑，公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fair",
+                    "zh": "公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders have enormous power, and jokes are one of the few things that can puncture it.",
+                      "People who cannot bear being laughed at may not be safe to trust with power.",
+                      "A joke often makes a complicated problem easy for ordinary people to grasp."
+                    ],
+                    "zh": [
+                      "领导人权力很大，而玩笑是少数能戳破权威的东西之一。",
+                      "连被笑都受不了的人，掌权可能并不安全。",
+                      "一个笑话常常能让普通人一下子看懂复杂的问题。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not always fair",
+                    "zh": "不总是公平"
+                  },
+                  "points": {
+                    "en": [
+                      "A joke can leave a false impression that a careful correction never catches up with.",
+                      "Mockery repeated night after night can look less like comedy and more like a campaign.",
+                      "Leaders are people, and their families hear the jokes too."
+                    ],
+                    "zh": [
+                      "一个笑话留下的错误印象，事后再认真澄清也追不回来。",
+                      "夜复一夜的嘲讽，看起来会更像一场运动，而不是喜剧。",
+                      "领导人也是人，他们的家人也会听到这些玩笑。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a company accuses the government of something, should we believe it before a judge decides?",
+                "zh": "当一家公司指控政府时，在法官判决之前，我们该相信它吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take it seriously now",
+                    "zh": "现在就该当真"
+                  },
+                  "points": {
+                    "en": [
+                      "Suing your own government is risky and expensive, so few do it without cause.",
+                      "Waiting years for a verdict means the damage happens while everyone stays quiet.",
+                      "The public can see some facts already, like the unusual early deadline."
+                    ],
+                    "zh": [
+                      "起诉自己国家的政府既冒险又昂贵，没理由的人很少这么做。",
+                      "等判决要等好几年，那期间伤害照样发生，而大家却都沉默。",
+                      "有些事实公众已经能看到，比如那个反常的提前期限。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for the ruling",
+                    "zh": "等判决出来"
+                  },
+                  "points": {
+                    "en": [
+                      "A complaint tells only one side's story, chosen to sound convincing.",
+                      "The agency has not spoken yet, and its reasons may be ordinary ones.",
+                      "Big companies also use lawsuits as pressure, hoping to win before any judge rules."
+                    ],
+                    "zh": [
+                      "诉状只讲一方的故事，而且是挑最有说服力的部分讲。",
+                      "该机构还没发言，它的理由可能很平常。",
+                      "大公司也会把诉讼当施压手段，希望在法官开口前就赢。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
