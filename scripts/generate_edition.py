@@ -375,7 +375,54 @@ def _text_of(message) -> str:
     return "\n".join(b.text for b in message.content if b.type == "text").strip()
 
 
+# Claude Opus 5, USD per token. Output covers thinking as well as the answer,
+# which is the part worth watching: it is invisible in the finished edition and
+# can be the larger half of the bill.
+PRICE_IN, PRICE_OUT = 5 / 1e6, 25 / 1e6
+
+_spend: list = []
+
+
+def _account(message, what: str) -> None:
+    usage = getattr(message, "usage", None)
+    if usage is None:
+        return
+    took_in = getattr(usage, "input_tokens", 0) or 0
+    took_out = getattr(usage, "output_tokens", 0) or 0
+    _spend.append((what, took_in, took_out))
+    print(f"    {took_in:,} in / {took_out:,} out  "
+          f"(${took_in * PRICE_IN + took_out * PRICE_OUT:.3f})", file=sys.stderr)
+
+
+def _spend_summary() -> str:
+    """Where the day's money actually went, grouped by pass.
+
+    Printed so the next question about cost is answered with numbers rather
+    than an estimate — particularly which pass dominates, since that is the
+    only one worth optimising.
+    """
+    if not _spend:
+        return ""
+    groups: dict = {}
+    for what, took_in, took_out in _spend:
+        key = what.split(" · ")[0]           # fold the nine per-story calls
+        got = groups.setdefault(key, [0, 0, 0])
+        got[0] += took_in
+        got[1] += took_out
+        got[2] += 1
+
+    lines, total = ["", "Tokens and cost:"], 0.0
+    for key, (took_in, took_out, calls) in groups.items():
+        cost = took_in * PRICE_IN + took_out * PRICE_OUT
+        total += cost
+        times = f" x{calls}" if calls > 1 else ""
+        lines.append(f"  {key + times:<24} {took_in:>8,} in  {took_out:>8,} out  ${cost:.2f}")
+    lines.append(f"  {'total':<24} {'':>8} {'':>12}  ${total:.2f}")
+    return "\n".join(lines)
+
+
 def _guard(message, what: str):
+    _account(message, what)
     if message.stop_reason == "refusal":
         detail = getattr(message.stop_details, "explanation", "") or ""
         raise SystemExit(f"{what} was declined: {detail}")
@@ -576,6 +623,7 @@ def main() -> None:
 
     if args.dry_run:
         print(text)
+        print(_spend_summary(), file=sys.stderr)
         return
 
     EDITIONS_DIR.mkdir(parents=True, exist_ok=True)
@@ -585,6 +633,7 @@ def main() -> None:
     for story in edition["stories"]:
         head = story["versions"].get(cfg.band, {}).get("headline", {}).get(lang, "")
         print(f"  {story['rank']}. [{story['category']}] {head}")
+    print(_spend_summary())
 
 
 if __name__ == "__main__":
