@@ -644,7 +644,17 @@ details[open] > summary::before { transform: rotate(45deg); }
    shorter paper) inside two sides. No @page size is declared: the printer's
    own paper wins. */
 @media print {
-  @page { margin: 14mm 13mm; }
+  /* One layout for both A4 and Letter — no size is declared, so the paper in
+     the printer wins. The two differ by 6mm of width and 18mm of height, and
+     the taller sheet more than pays for its narrower columns, so both land
+     inside two sides without a second design.
+
+     16mm/14mm is set against Letter, the tighter of the two: 18mm pushes it to
+     a third side. It is comfortably more than Chrome's 10mm default, which is
+     the room the browser already assumes for the URL, date and page number it
+     draws when "Headers and footers" is ticked in the print dialog, and it
+     clears the unprintable border of a domestic printer as well. */
+  @page { margin: 16mm 14mm; }
 
   html { font-size: 9.5pt; }
 
