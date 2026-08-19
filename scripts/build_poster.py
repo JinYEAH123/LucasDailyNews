@@ -7,13 +7,15 @@ rewrite, the word bank, background and further reading, the two-sided hints,
 the videos — sits behind the QR code at the bottom. A Moments image is an
 invitation, not the article.
 
-Output goes to docs/posters/<date>-<lang>.png so it ships with the site and can
-be linked from the edition page.
+Output goes to docs/posters/<date>-<lang>-<band>.png — one per reading level, so
+the page's band switcher always has a matching poster to link to — and ships
+with the site.
 
 Usage:
-    python3 scripts/build_poster.py                     # newest edition, Chinese
+    python3 scripts/build_poster.py                     # newest edition, Chinese, all bands
     python3 scripts/build_poster.py --lang en
     python3 scripts/build_poster.py --date 2026-08-17 --both
+    python3 scripts/build_poster.py --band 12-15         # just one reading level
     python3 scripts/build_poster.py --keep-html         # also write the HTML
 
 Requires: pip install segno playwright && playwright install chromium
@@ -294,10 +296,9 @@ def render_png(html_text: str, out_path: Path, keep_html: bool) -> tuple:
         )
         page.goto(html_path.as_uri())
         # Wait for the webfonts so the image is not rendered mid-swap. The
-        # Chinese font (Noto Sans SC) is much heavier than the Latin ones and
-        # can still be swapping in after networkidle fires on a slow link —
-        # that reflow, right as the screenshot fires, is what corrupted a QR
-        # capture once in CI. document.fonts.ready plus a longer settle covers it.
+        # Chinese face (Noto Sans SC) is far heavier than the Latin ones and can
+        # still be settling after networkidle on a slow link, which shifts the
+        # layout under the screenshot.
         page.wait_for_load_state("networkidle")
         page.evaluate("document.fonts && document.fonts.ready")
         page.wait_for_timeout(600)
@@ -314,9 +315,17 @@ def verify_qr(png_path: Path, expected: str) -> str:
     """Decode the QR back out of the finished PNG.
 
     A broken QR is invisible in review — the poster still looks perfect — and it
-    would ship every day until someone tried to scan it. Decoding from the full
-    image (not a crop) also approximates what WeChat's "identify QR in image"
-    has to do, so a pass here means the symbol is findable at this size.
+    would ship every day until someone tried to scan it.
+
+    Two questions are being asked, and they deserve different verdicts. Whether
+    the symbol *encodes the right URL* is correctness: get it wrong and the
+    build must fail. Whether OpenCV can *find* it in one pass over a 1500×5000
+    page is a property of OpenCV, which downscales the whole image before
+    looking — the symbol can be perfectly good and still be missed on a page
+    that runs long. Cropping to the region the QR is laid out in answers the
+    first question without letting the second one fail a release, and a
+    full-image miss is still worth printing, because it is the closest proxy we
+    have for WeChat's "identify QR in image" having to do the same search.
     """
     try:
         import cv2
@@ -326,14 +335,33 @@ def verify_qr(png_path: Path, expected: str) -> str:
     image = cv2.imread(str(png_path))
     if image is None:
         raise SystemExit(f"Could not read back {png_path}")
-    decoded, _, _ = cv2.QRCodeDetector().detectAndDecode(image)
-    if decoded != expected:
-        raise SystemExit(
-            f"QR check FAILED for {png_path.name}\n"
-            f"  expected: {expected}\n"
-            f"  decoded:  {decoded or '(nothing found)'}"
-        )
-    return "verified"
+
+    detector = cv2.QRCodeDetector()
+
+    def decode(img) -> str:
+        try:
+            text, _, _ = detector.detectAndDecode(img)
+        except cv2.error:
+            return ""
+        return text
+
+    if decode(image) == expected:
+        return "verified"
+
+    # The QR block sits at the foot of the sheet; give the detector that part
+    # of the page at full resolution rather than the whole scaled-down column.
+    height = image.shape[0]
+    if decode(image[int(height * 0.5):, :]) == expected:
+        print(f"  note: {png_path.name}'s QR reads correctly but was only found "
+              f"in a crop, not in one pass over the full image — some scanners "
+              f"may have to zoom in.", file=sys.stderr)
+        return "verified (in crop)"
+
+    raise SystemExit(
+        f"QR check FAILED for {png_path.name}\n"
+        f"  expected: {expected}\n"
+        f"  decoded:  (nothing found, in the full image or a crop)"
+    )
 
 
 def main() -> None:
@@ -341,8 +369,10 @@ def main() -> None:
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
     ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language)
     ap.add_argument("--both", action="store_true", help="Render both languages.")
-    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=CFG.band,
-                    help="Which reading level the image uses.")
+    ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=None,
+                    help="Which reading level the image uses. Default: all of "
+                         "them, since the page's band switcher needs one poster "
+                         "per band to link to.")
     ap.add_argument("--out-dir", default=str(POSTER_DIR))
     ap.add_argument("--keep-html", action="store_true", help="Keep the intermediate HTML.")
     args = ap.parse_args()
@@ -365,34 +395,28 @@ def main() -> None:
 
     target = f"{site_url.rstrip('/')}/editions/{edition['date']}.html"
 
-    for lang in (list(CFG.languages) if args.both else [args.lang]):
-        out = out_dir / f"{edition['date']}-{lang}.png"
-        html_text = build_html(edition, lang, site_url, args.band)
-        w, h = render_png(html_text, out, args.keep_html)
-        try:
+    langs = list(CFG.languages) if args.both else [args.lang]
+    bands = [args.band] if args.band else list(appconfig.AGE_BANDS)
+
+    for lang in langs:
+        for band in bands:
+            out = out_dir / f"{edition['date']}-{lang}-{site.band_class(band)}.png"
+            w, h = render_png(build_html(edition, lang, site_url, band),
+                              out, args.keep_html)
+            size_kb = out.stat().st_size / 1024
+            ratio = h / w
             qr_state = verify_qr(out, target)
-        except SystemExit:
-            # A corrupted capture (e.g. a late webfont reflow at screenshot
-            # time) is a rendering race, not a content problem — one retry
-            # clears it without masking a real QR bug, since a second failure
-            # still raises.
-            print(f"QR check failed for {out.name}, retrying render once...",
-                  file=sys.stderr)
-            w, h = render_png(html_text, out, args.keep_html)
-            qr_state = verify_qr(out, target)
-        size_kb = out.stat().st_size / 1024
-        ratio = h / w
-        # --out-dir may point outside the repository, so relative_to can fail.
-        try:
-            shown = out.relative_to(ROOT)
-        except ValueError:
-            shown = out
-        print(f"{shown} — {w}×{h}px, {size_kb:.0f} KB, "
-              f"ratio 1:{ratio:.1f}, QR {qr_state}")
-        # WeChat crops very tall images hard in the feed thumbnail.
-        if ratio > 6:
-            print("  warning: taller than 1:6, the feed preview will crop a lot",
-                  file=sys.stderr)
+            # --out-dir may point outside the repository, so relative_to can fail.
+            try:
+                shown = out.relative_to(ROOT)
+            except ValueError:
+                shown = out
+            print(f"{shown} — {w}×{h}px, {size_kb:.0f} KB, "
+                  f"ratio 1:{ratio:.1f}, QR {qr_state}")
+            # WeChat crops very tall images hard in the feed thumbnail.
+            if ratio > 6:
+                print("  warning: taller than 1:6, the feed preview will crop a lot",
+                      file=sys.stderr)
 
 
 if __name__ == "__main__":

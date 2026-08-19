@@ -367,7 +367,7 @@ def lang_buttons() -> str:
     )
 
 
-def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=None) -> str:
+def masthead(date_str, window_label, depth, is_archive, show_nav=True, posters=None) -> str:
     prefix = "../" * depth
     home, archive = f"{prefix}index.html", f"{prefix}archive.html"
 
@@ -380,8 +380,17 @@ def masthead(date_str, window_label, depth, is_archive, show_nav=True, poster=No
     if show_nav:
         nav = (f'<a class="btn" href="{home}">{label("today")}</a>' if is_archive
                else f'<a class="btn" href="{archive}">{label("archive")}</a>')
-    if poster:
-        nav += f'<a class="btn" href="{poster}" target="_blank">{label("poster")}</a>'
+    # One link per language and per band, not one link whose wording and href
+    # each try to track the page some other way: the poster is a different
+    # image for each combination, so it needs the same two switches — l-<lang>
+    # (language) and .band + the band class (reading level, reusing the rule
+    # generated_css() already emits for the story bands) — that the rest of
+    # the page's controls use, or it silently shows a stale image on either axis.
+    for lang in LANGS:
+        for band in (posters or {}).get(lang, {}):
+            href = posters[lang][band]
+            nav += (f'<a class="btn l-{lang} band {band_class(band)}" '
+                    f'href="{href}" target="_blank">{e(LABELS["poster"][lang])}</a>')
 
     title_html = bilingual(appconfig.APP_NAME)
     heading = f'<a href="{home}">{title_html}</a>' if show_nav else title_html
@@ -406,11 +415,16 @@ def footer() -> str:
 def render_edition_page(edition: dict, depth: int) -> str:
     stories = sorted(edition.get("stories", []), key=lambda s: s.get("rank", 99))
     date_str = edition.get("date", "")
-    poster = None
-    if (OUT / "posters" / f"{date_str}-{LANGS[0]}.png").exists():
-        poster = f'{"../" * depth}posters/{date_str}-{LANGS[0]}.png'
+    posters = {
+        lang: {
+            band: f'{"../" * depth}posters/{date_str}-{lang}-{band_class(band)}.png'
+            for band in BANDS
+            if (OUT / "posters" / f"{date_str}-{lang}-{band_class(band)}.png").exists()
+        }
+        for lang in LANGS
+    }
     body = (masthead(date_str, (edition.get("window") or {}).get("label"), depth, False,
-                     poster=poster)
+                     posters=posters)
             + band_bar()
             + "\n".join(render_story(s) for s in stories)
             + footer())

@@ -131,7 +131,7 @@ generate_edition.py   联网检索全球报道，把三条新闻和链接记录�
      ▼
 data/editions/YYYY-MM-DD.json      ← 唯一的事实来源
      │
-     ├── build_poster.py    → docs/posters/YYYY-MM-DD-<语言>.png
+     ├── build_poster.py    → docs/posters/YYYY-MM-DD-<语言>-<年龄段>.png
      ├── render_site.py     → docs/（当日页、固定链接、往期、设置表单）
      └── send_newsletter.py → 经 SMTP 发邮件
 ```
