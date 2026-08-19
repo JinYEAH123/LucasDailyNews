@@ -383,7 +383,43 @@ def _guard(message, what: str):
     if message.stop_reason == "refusal":
         detail = getattr(message.stop_details, "explanation", "") or ""
         raise SystemExit(f"{what} was declined: {detail}")
+    if message.stop_reason == "max_tokens":
+        # Worth failing loudly on, because structured output makes running out
+        # of room look like success: generation stops, the API closes the JSON
+        # to satisfy the schema, and what lands is a parseable object whose
+        # fields are empty strings and whose arrays hold one empty item. The
+        # schema cannot object — minItems above 1 is not accepted — so nothing
+        # downstream would notice a page of blank stories.
+        raise SystemExit(
+            f"{what} hit the token ceiling and was cut off mid-answer. "
+            f"Raise max_tokens rather than keeping the truncated result."
+        )
     return message
+
+
+def _require_complete(payload: dict, what: str, text_fields: tuple) -> dict:
+    """Refuse a payload that parsed but has nothing in it.
+
+    Second line of defence behind the stop_reason check above: the exact story
+    count used to be guaranteed by the schema, and cannot be any more, so a
+    short or hollow response has to be caught here or it silently drops bands
+    off the page.
+    """
+    stories = payload.get("stories") or []
+    if len(stories) != N:
+        raise SystemExit(f"{what} returned {len(stories)} stories, expected {N}.")
+
+    for story in stories:
+        for field in text_fields:
+            value = story.get(field)
+            # Some fields are plain strings (facts), others a language map.
+            values = list(value.values()) if isinstance(value, dict) else [value]
+            if not values or any(not str(v or "").strip() for v in values):
+                raise SystemExit(
+                    f"{what} returned an empty {field!r} — the response was "
+                    f"cut short or came back hollow."
+                )
+    return payload
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
@@ -392,7 +428,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
 
     for attempt in range(max_restarts + 1):
         with client.messages.stream(
-            model=MODEL, max_tokens=32000, system=base_policy(cfg),
+            model=MODEL, max_tokens=64000, system=base_policy(cfg),
             thinking={"type": "adaptive"}, output_config={"effort": "high"},
             tools=tools, messages=messages,
         ) as stream:
@@ -412,7 +448,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
 
 def structured(client, cfg, system: str, prompt: str, schema: dict, what: str) -> dict:
     with client.messages.stream(
-        model=MODEL, max_tokens=32000, system=system,
+        model=MODEL, max_tokens=64000, system=system,
         thinking={"type": "adaptive"},
         output_config={"effort": "high",
                        "format": {"type": "json_schema",
@@ -509,17 +545,21 @@ def main() -> None:
     print(f"  brief: {len(brief)} characters")
 
     print("Pass 2 — choosing and recording the links…")
-    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skeleton_schema(cfg), "Skeleton")
+    skeleton = _require_complete(
+        structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
+                   skeleton_schema(cfg), "Skeleton"),
+        "Skeleton", ("facts",))
     for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
         print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 
     bands = {}
     for i, band_key in enumerate(appconfig.AGE_BANDS, 1):
         print(f"Pass 3.{i} — writing for {band_key}…")
-        bands[band_key] = structured(
-            client, cfg, writing_policy(cfg, band_key), band_prompt(skeleton, band_key),
-            band_schema(cfg, band_key), f"Band {band_key}")
+        bands[band_key] = _require_complete(
+            structured(client, cfg, writing_policy(cfg, band_key),
+                       band_prompt(skeleton, band_key),
+                       band_schema(cfg, band_key), f"Band {band_key}"),
+            f"Band {band_key}", ("headline", "hook", "why_it_matters"))
 
     edition = build_edition(cfg, skeleton, bands, date_str, start, end)
     text = json.dumps(edition, ensure_ascii=False, indent=2) + "\n"
