@@ -130,6 +130,12 @@ SOURCES: dict[str, list] = {
 
 ALLOWED_DOMAINS: list = [d for group in SOURCES.values() for d in group]
 
+# How many searches one day's research may make. A ceiling, not a target: the
+# model stops when it has enough. Running out is not an error the API raises —
+# further searches simply come back refused — so generate_edition.py says so
+# when it happens, and prints the queries either way.
+SEARCHES_PER_RUN = 12
+
 # ----------------------------------------------------------------- age bands
 # Three bands, written separately. What changes is sentence length, how much
 # scaffolding a fact needs, and how hard the questions are — never how serious

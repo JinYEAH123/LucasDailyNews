@@ -573,14 +573,31 @@ def _log_searches(message) -> None:
     anything the first nineteen had not — which is the only honest basis for
     deciding where the ceiling belongs.
     """
-    queries = [
-        (block.input or {}).get("query")
-        for block in getattr(message, "content", [])
-        if getattr(block, "type", "") == "server_tool_use"
-        and getattr(block, "name", "") == "web_search"
-    ]
+    queries, errors = [], []
+    for block in getattr(message, "content", []):
+        kind = getattr(block, "type", "")
+        if kind == "server_tool_use" and getattr(block, "name", "") == "web_search":
+            queries.append((block.input or {}).get("query"))
+        elif kind == "web_search_tool_result":
+            # A failed search is not an exception: the API returns 200 and puts
+            # the reason in the result, where content is a single error object
+            # rather than the usual list. Running out of searches arrives this
+            # way too, so without this the brief just quietly gets thinner.
+            content = getattr(block, "content", None)
+            code = getattr(content, "error_code", None)
+            if code:
+                errors.append(code)
+
     for i, query in enumerate(q for q in queries if q):
         print(f"    search {i + 1}: {query}", file=sys.stderr)
+
+    if "max_uses_exceeded" in errors:
+        print(f"  note: research wanted more than its {appconfig.SEARCHES_PER_RUN} "
+              f"searches and was refused — the brief may be thinner than usual. "
+              f"Raise SEARCHES_PER_RUN in appconfig.py if this keeps happening.",
+              file=sys.stderr)
+    for code in sorted(set(errors) - {"max_uses_exceeded"}):
+        print(f"  note: a search failed ({code}).", file=sys.stderr)
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
@@ -591,7 +608,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     tools = [{
         "type": "web_search_20260209",
         "name": "web_search",
-        "max_uses": 20,
+        "max_uses": appconfig.SEARCHES_PER_RUN,
         "allowed_domains": appconfig.ALLOWED_DOMAINS,
     }]
 
