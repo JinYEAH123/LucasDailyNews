@@ -1,0 +1,1529 @@
+{
+  "date": "2026-08-19",
+  "window": {
+    "start": "2026-08-18T17:00:00-07:00",
+    "end": "2026-08-19T17:00:00-07:00",
+    "label": {
+      "en": "News from Tuesday 5:00 PM to Wednesday 5:00 PM PDT",
+      "zh": "PDT 8月18日 17:00 至 8月19日 17:00"
+    }
+  },
+  "generated_at": "2026-08-19T19:21:39-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 3 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 17
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Iran war live: Trump denies Iran talks, Tehran claims US 'begging'",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/liveblog/2026/8/19/iran-war-live-trump-denies-iran-talks-tehran-claims-us-begging"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "U.S.-Iran War: Live Updates on Strait of Hormuz Standoff",
+            "zh": "美伊战争：霍尔木兹海峡对峙实时更新"
+          },
+          "summary": {
+            "en": "CBS News tracks the fast-moving standoff over the Strait of Hormuz, including the expired US-Iran memorandum and regional military moves.",
+            "zh": "哥伦比亚广播公司新闻网追踪霍尔木兹海峡对峙的最新进展，包括到期的美伊谅解备忘录及地区军事动态。"
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-strait-of-hormuz/"
+        },
+        {
+          "title": {
+            "en": "Trump Says No Talks Underway With Iran as Ceasefire Extension Expires",
+            "zh": "停火延期到期，特朗普称与伊朗没有正在进行的谈判"
+          },
+          "summary": {
+            "en": "CNBC covers the market and diplomatic fallout as the temporary US-Iran arrangement collapses without renewal.",
+            "zh": "美国消费者新闻与商业频道报道了美伊临时协议未能延续所带来的市场与外交影响。"
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/18/us-iran-war-trump-hormuz-trump-ceasefire-expires-extension-.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "2026 Iran War: Explainer",
+            "zh": "2026年伊朗战争：背景解析"
+          },
+          "summary": {
+            "en": "Britannica lays out the origins and timeline of the six-month conflict for readers wanting the bigger picture.",
+            "zh": "大英百科全书梳理了这场长达六个月冲突的起源与时间线，帮助读者了解全局背景。"
+          },
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/event/2026-Iran-war"
+        },
+        {
+          "title": {
+            "en": "2026 Iran War",
+            "zh": "2026年伊朗战争"
+          },
+          "summary": {
+            "en": "A continuously updated reference page summarizing key events, parties, and disputed casualty and blockade figures.",
+            "zh": "一个持续更新的参考页面，总结了关键事件、参战方以及存在争议的伤亡与封锁数据。"
+          },
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_war"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "A Narrow Sea Sparks a Big Fight",
+            "zh": "一条狭窄海峡引发大冲突"
+          },
+          "hook": {
+            "en": "For six months, the United States, Israel, and Iran have been fighting. A short peace agreement between the US and Iran just ended, and no new deal was made. Now countries are arguing over a thin strip of ocean that carries much of the world's oil.",
+            "zh": "六个月来，美国、以色列和伊朗一直处于战争之中。美国和伊朗之间的一份短期协议刚刚到期，双方并未达成新协议。现在，各国正在为一条运送全球大量石油的狭窄海峡争吵不休。"
+          },
+          "story": {
+            "en": [
+              "Six months ago, the United States, Israel, and Iran started fighting each other in a war. Two days ago, a short 60-day peace agreement between the US and Iran ended, and nobody signed a new one to replace it.",
+              "President Trump said no talks are happening with Iran right now. He posted a picture online that labeled a narrow strip of water called the Strait of Hormuz as 'New US Territory.' He also warned he might bomb Oman, a country next to the strait, if it stops ships from moving through.",
+              "The United Arab Emirates, a country that trades a lot with Iran, said it used special defense systems to stop two missiles that Iran had fired. One of those missiles landed in the ocean near the UAE's coast. Right after that, the UAE said it would stop all trading with Iran.",
+              "The Strait of Hormuz matters because so much oil travels through it. Imagine slicing all the oil the whole world uses in one day into five equal pieces — one whole piece moves through this narrow water path every day. Some reports say around 85 ships have been stopped and 3 taken as part of a blockade, which is like a line of boats blocking others from passing. This is said to cost Iran huge amounts of money each day, but those exact numbers haven't been confirmed by other sources."
+            ],
+            "zh": [
+              "六个月前，美国、以色列和伊朗之间爆发了战争。两天前，美国和伊朗之间一份为期60天的短期和平协议到期，双方都没有签署新的协议来延续它。",
+              "特朗普总统表示，目前没有和伊朗进行任何谈判。他在网上发布了一张图片，将一条叫做“霍尔木兹海峡”的狭窄水域标注为“美国新领土”。他还警告说，如果阿曼——海峡旁的一个国家——阻碍船只通行，他可能会轰炸阿曼。",
+              "阿拉伯联合酋长国是一个与伊朗贸易往来密切的国家，它表示自己动用了特殊的防御系统，拦截了伊朗发射的两枚导弹。其中一枚导弹落在了阿联酋附近的海域。事发之后，阿联酋宣布停止与伊朗的一切贸易往来。",
+              "霍尔木兹海峡之所以重要，是因为大量石油要经过这里运输。想象一下，把全世界一天使用的石油平均切成五份，其中整整一份就要经过这条狭窄的水道运输。有报道称，大约有85艘船只被拦截，3艘船被扣押，这被认为让伊朗每天损失巨额资金，不过这些具体数字还没有得到其他消息来源的证实。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If fewer ships can move oil through the strait, gas for cars and fuel for planes could cost more almost everywhere, even far from Iran. That means things your family buys — from toys to food — could get pricier too, because trucks and ships need fuel to deliver them.",
+            "zh": "如果通过这条海峡运输石油的船只减少，几乎世界各地的汽车用油和飞机燃料都可能变贵，就算是离伊朗很远的地方也不例外。这意味着你家里买的东西——从玩具到食物——也可能涨价，因为卡车和货船运送这些东西都需要燃料。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait",
+                "zh": "海峡"
+              },
+              "def": {
+                "en": "A strait is a narrow strip of water that connects two larger seas or oceans, and ships use it to travel between them.",
+                "zh": "海峡是连接两片更大海域的狭窄水道，船只通过它在两片海域之间往来。"
+              }
+            },
+            {
+              "term": {
+                "en": "Sanctions",
+                "zh": "制裁"
+              },
+              "def": {
+                "en": "Sanctions are rules one country makes to stop trading or doing business with another country, usually as a punishment.",
+                "zh": "制裁是一个国家制定的规则，用来停止与另一个国家的贸易或往来，通常是作为一种惩罚。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a powerful country says a shared sea path now belongs to it, should other countries have to go along with that?",
+                "zh": "如果一个强大的国家说一条大家共用的海上通道现在属于它，其他国家应该接受吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, if it keeps things safe",
+                    "zh": "应该接受，如果这样更安全"
+                  },
+                  "points": {
+                    "en": [
+                      "A strong country with a big navy can stop pirates and troublemakers from bothering ships.",
+                      "If everyone follows one set of rules, there might be fewer accidents and fights.",
+                      "Countries that use the strait for trade may already depend on that country's ships for protection."
+                    ],
+                    "zh": [
+                      "拥有强大海军的国家能阻止海盗和捣乱者骚扰船只。",
+                      "如果大家都遵守同一套规则，可能会减少事故和冲突。",
+                      "使用这条海峡做贸易的国家可能本来就依靠那个国家的船只来保护自己。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the sea belongs to everyone",
+                    "zh": "不该接受，海洋属于大家"
+                  },
+                  "points": {
+                    "en": [
+                      "No single country owns water that many nations share and travel through.",
+                      "If one country can just claim it, other powerful countries might start claiming shared places too.",
+                      "Smaller countries near the strait might feel bullied and unable to speak up."
+                    ],
+                    "zh": [
+                      "没有哪个国家能独自拥有许多国家共同使用和穿越的水域。",
+                      "如果一个国家可以随意宣称拥有它，其他大国也可能开始争抢共享的地方。",
+                      "海峡附近的小国可能会觉得受到欺负，却没有办法为自己发声。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When missiles land near a country's coast, is it better for that country to stop all trading right away, or keep trading while talking things out?",
+                "zh": "当导弹落在一个国家海岸附近时，这个国家是应该立刻停止一切贸易，还是一边继续贸易一边通过谈判解决问题？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Stop trading right away",
+                    "zh": "立刻停止贸易"
+                  },
+                  "points": {
+                    "en": [
+                      "It shows the attacking country that actions have real consequences.",
+                      "Continuing to trade might make the country feel it's safe to attack again.",
+                      "Cutting ties can protect people and businesses from more danger."
+                    ],
+                    "zh": [
+                      "这能让发动攻击的国家明白，行动是有真实后果的。",
+                      "如果继续贸易，对方可能会觉得再次攻击也没关系。",
+                      "切断联系能保护民众和企业免受进一步的危险。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep trading and talking",
+                    "zh": "继续贸易并谈判"
+                  },
+                  "points": {
+                    "en": [
+                      "Stopping trade can hurt ordinary people in both countries who had nothing to do with the missiles.",
+                      "Talking can sometimes solve problems without anyone else getting hurt.",
+                      "If trade stops completely, it might be harder to ever trust each other again."
+                    ],
+                    "zh": [
+                      "停止贸易可能会伤害两国中与导弹事件毫无关系的普通民众。",
+                      "谈判有时能在不让任何人再受伤的情况下解决问题。",
+                      "如果贸易完全中断，双方以后可能更难重新建立信任。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A US-Iran Deal Expired. Now Come the Threats.",
+            "zh": "美伊协议到期后，威胁接踵而至"
+          },
+          "hook": {
+            "en": "Six months into a war involving the US, Israel, and Iran, a temporary US-Iran agreement expired this week with no replacement in sight. President Trump said no talks were happening, posted a map labeling a crucial shipping route as \"New US Territory,\" and threatened to bomb a neighboring country if it got in the way. Meanwhile, the United Arab Emirates says it shot down two missiles fired from Iran and has cut off all trade with the country.",
+            "zh": "在美国、以色列与伊朗之间的战争持续六个月后，美伊之间一份临时协议本周到期，双方并未达成新协议。特朗普总统表示目前没有在与伊朗谈判，他还发布了一张地图，把一条重要航道标注为“美国新领土”，并威胁如果邻国挡路就要轰炸它。与此同时，阿拉伯联合酋长国表示已击落两枚从伊朗发射的导弹，并已切断与伊朗的一切贸易往来。"
+          },
+          "story": {
+            "en": [
+              "Back in the spring, the US and Iran signed a memorandum of understanding — a kind of informal agreement, weaker than a treaty, meant to buy time while the two sides figured out a longer-term deal. It was set to last 60 days. That window closed on August 18-19, and nothing replaced it. Instead of new talks, the world got new threats.",
+              "President Trump posted an image marking the Strait of Hormuz — a narrow strip of water between Iran and Oman that ships use to move oil out of the Persian Gulf — as \"New US Territory.\" There is no legal basis for that claim; most people who study international law see it as a message, not a real territorial move. Trump also said he would bomb Oman, a country that has stayed neutral in the conflict, if it \"gets in the way\" of reopening the strait, and promised the \"most crushing economic operation ever\" against Iran through new, harsher sanctions — penalties that cut a country off from trade, banking, or other resources to pressure it into changing behavior.",
+              "The UAE, which is Iran's second-biggest trading partner, got pulled directly into the crisis. It said its air defenses intercepted two ballistic missiles fired from Iran, with one landing in its own coastal waters. In response, the UAE suspended all trade with Iran — a major economic and political statement from a country that had tried to stay out of the fighting.",
+              "Here's why the Strait of Hormuz matters so much: about one-fifth of the world's oil shipped by sea passes through it. That is like one out of every five trucks delivering gasoline to every gas station on Earth going through a single, narrow road. If that road gets blocked or fought over, oil prices can spike everywhere, not just in the countries at war.",
+              "There are also reports of a naval blockade connected to the conflict — warships stopping other ships from entering or leaving — that has reportedly intercepted 85 vessels and seized 3, costing Iran an estimated $500 million a day. That number comes from a secondary source and hasn't been independently confirmed, which is common in fast-moving conflicts where accurate numbers are hard to verify.",
+              "Six months in, neither side seems close to backing down. Trump's rhetoric — the territorial claim, the threat against Oman, the promise of even harsher sanctions — suggests the US is trying to raise the pressure rather than restart talks. Whether that pressure brings Iran back to the table or pushes the conflict further into new countries and new waters is the open question hanging over the region right now."
+            ],
+            "zh": [
+              "今年春天，美国与伊朗签署了一份谅解备忘录——这是一种非正式协议，效力比正式条约弱，目的是为双方争取时间，以便日后达成更长期的协议。这份备忘录原定持续60天，到8月18日至19日就到期了，而双方并未签署新协议来接替它。取而代之的不是新一轮谈判，而是新一轮威胁。",
+              "特朗普总统发布了一张地图，把霍尔木兹海峡——伊朗与阿曼之间一条狭窄水道，是石油从波斯湾运出的必经之路——标注为“美国新领土”。这种说法在国际法上毫无依据，多数研究国际法的人士认为这只是一种表态，而非真正的领土行动。特朗普还表示，如果阿曼这个在冲突中一直保持中立的国家“挡了道”，妨碍重新开放海峡，他就会轰炸阿曼；他同时承诺将对伊朗实施“史上最严厉的经济打击”，通过更严苛的制裁——也就是切断一个国家的贸易、银行往来或其他资源，以此施压迫其改变行为。",
+              "阿联酋是伊朗的第二大贸易伙伴，如今被直接卷入这场危机。阿联酋表示其防空系统拦截了两枚从伊朗发射的弹道导弹，其中一枚落入其领海。作为回应，阿联酋宣布中止与伊朗的一切贸易往来——这对一个原本试图置身事外的国家来说，是极为重大的经济和政治表态。",
+              "霍尔木兹海峡之所以如此重要，是因为全球海运石油中约五分之一要经过这里。这就好比全世界每五辆运送汽油去加油站的卡车中，就有一辆必须经过同一条狭窄道路。如果这条“道路”被封锁或成为战场，油价就可能在全球范围内飙升，而不仅仅是在交战国内部。",
+              "另外还有报道称，与这场冲突相关的海上封锁——也就是军舰阻止其他船只进出——已拦截85艘船只、扣押3艘，据估计每天给伊朗造成约5亿美元的损失。这一数字来自一份二手资料，尚未得到独立核实，在瞬息万变的冲突局势中，这种情况其实很常见，因为准确数字往往很难核实。",
+              "冲突进行到第六个月，双方似乎都没有退让的迹象。特朗普的言辞——领土主张、对阿曼的威胁、更严厉制裁的承诺——都表明美国正试图加大施压，而不是重启谈判。这样的施压究竟会把伊朗拉回谈判桌，还是会把冲突进一步卷入新的国家和新的海域，是眼下悬而未决的问题。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When ships in the Strait of Hormuz slow down or stop, oil prices can rise almost everywhere — which shows up as more expensive gas at the pump and higher prices for anything shipped by truck or plane. It's also a reminder that conflicts between two countries rarely stay contained: a neutral country like Oman or the UAE can get dragged in just because of where it sits on a map.",
+            "zh": "当霍尔木兹海峡的船只放缓或停驶时，油价几乎会在全世界范围内上涨——这意味着加油站的汽油会更贵，靠卡车或飞机运输的商品价格也会随之上升。这也提醒我们，两国之间的冲突很少能被真正控制在两国之内：像阿曼或阿联酋这样的中立国家，仅仅因为地理位置，也可能被卷入其中。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz",
+                "zh": "霍尔木兹海峡"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and Oman that about one-fifth of the world's shipped oil travels through.",
+                "zh": "位于伊朗与阿曼之间的一条狭窄水道，全球约五分之一的海运石油都要经过这里。"
+              }
+            },
+            {
+              "term": {
+                "en": "sanctions",
+                "zh": "制裁"
+              },
+              "def": {
+                "en": "Penalties, like blocking trade or banking access, that one country uses to pressure another into changing its behavior.",
+                "zh": "一个国家用来向另一个国家施压、迫使其改变行为的手段，比如切断贸易或银行往来。"
+              }
+            },
+            {
+              "term": {
+                "en": "naval blockade",
+                "zh": "海上封锁"
+              },
+              "def": {
+                "en": "When warships stop other ships from entering or leaving a country's ports, usually to cut off trade during a conflict.",
+                "zh": "军舰阻止其他船只进出一个国家港口的行动，通常是在冲突期间用来切断对方的贸易。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When an agreement expires without renewal, is loud pressure — threats, sanctions, territorial claims — a smart way to force a deal, or does it make peace harder to reach?",
+                "zh": "当一份协议到期而未能续签时，用高调施压——威胁、制裁、领土主张——去逼对方达成协议，是明智之举，还是反而让和平更难实现？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pressure works",
+                    "zh": "施压有效"
+                  },
+                  "points": {
+                    "en": [
+                      "Sanctions and tough talk have pushed countries back to the negotiating table before, in other conflicts around the world.",
+                      "Showing strength after an attack, like the missile strikes on the UAE, can discourage further escalation from the other side.",
+                      "If a country senses hesitation or weakness, it may be more likely to keep pushing instead of settling."
+                    ],
+                    "zh": [
+                      "在世界其他冲突中，制裁与强硬言辞确实曾把国家逼回谈判桌。",
+                      "在遭受如对阿联酋的导弹袭击后展示强硬姿态，可能会遏制对方进一步升级。",
+                      "如果一个国家察觉到对方犹豫或软弱，可能会更倾向于继续施压，而不是妥协。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Escalation backfires",
+                    "zh": "升级适得其反"
+                  },
+                  "points": {
+                    "en": [
+                      "Threatening a neutral country like Oman risks losing a partner who might otherwise help broker peace.",
+                      "Claiming territory with no legal basis can make a country look reckless, which may cause the other side to dig in rather than compromise.",
+                      "Harsh sanctions often hurt ordinary people more than leaders, which can breed resentment instead of cooperation."
+                    ],
+                    "zh": [
+                      "威胁像阿曼这样的中立国家，可能会失去一个原本可以帮助斡旋和平的伙伴。",
+                      "没有法律依据的领土主张会让一个国家显得鲁莽，反而可能促使对方更加强硬，而非妥协。",
+                      "严厉的制裁往往伤害普通民众更甚于领导人，这可能滋生怨恨，而非促成合作。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Since a crisis in the Strait of Hormuz threatens oil supplies for the whole world, should countries not directly fighting get a say in how it's resolved — or is it fairer to let the countries actually at war decide?",
+                "zh": "既然霍尔木兹海峡的危机威胁着全世界的石油供应，那些没有直接参战的国家是否应该在如何解决问题上拥有发言权，还是应该由真正交战的国家来做决定，这样更公平？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Global stake, global voice",
+                    "zh": "全球利益，全球发言"
+                  },
+                  "points": {
+                    "en": [
+                      "A fifth of the world's oil passes through the strait, so nearly every country that depends on oil has something real at stake.",
+                      "The UAE was pulled into the conflict simply because of geography, so its interests deserve real weight in any resolution.",
+                      "A broader coalition of concerned countries might apply faster, more effective pressure than two adversaries negotiating alone."
+                    ],
+                    "zh": [
+                      "全球五分之一的石油需经过这条海峡，几乎每一个依赖石油的国家都有切身利益。",
+                      "阿联酋仅仅因为地理位置就被卷入冲突，其利益理应在任何解决方案中得到真正的重视。",
+                      "由更多相关国家组成的联盟，可能比两个敌对国家单独谈判更快、更有效地施加压力。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Direct parties decide",
+                    "zh": "当事方自行决定"
+                  },
+                  "points": {
+                    "en": [
+                      "Only the countries actually fighting have accurate, up-to-date information about what's really happening on the ground.",
+                      "Bringing in many outside voices can slow down a response when speed matters most, like during active military threats.",
+                      "Historically, wars are usually ended by the combatants themselves, and outside involvement can complicate negotiations rather than simplify them."
+                    ],
+                    "zh": [
+                      "只有真正交战的国家才掌握关于实际局势最准确、最新的信息。",
+                      "在军事威胁一触即发、速度至关重要的时刻，引入过多外部声音可能会拖慢应对进程。",
+                      "从历史上看，战争通常是由交战双方自行结束的，外部介入往往会使谈判更复杂，而非更简单。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "A 60-Day Deadline Expires, and the Strait of Hormuz Becomes a Flashpoint",
+            "zh": "60天期限已过,霍尔木兹海峡成为新的引爆点"
+          },
+          "hook": {
+            "en": "A temporary US-Iran agreement expired over the weekend without being renewed, and within days President Trump posted an image labeling the Strait of Hormuz 'New US Territory' and threatened to bomb Oman if it interfered with reopening the waterway. The United Arab Emirates says it shot down two Iranian ballistic missiles and has now suspended all trade with Tehran. About a fifth of the world's oil passes through that strait every day.",
+            "zh": "美伊之间一项临时协议在上周末到期,未获续签。几天后,特朗普总统在社交媒体上发布了一张将霍尔木兹海峡标注为"
+          },
+          "story": {
+            "en": [
+              "The agreement that lapsed was a memorandum of understanding — a written arrangement short of a formal treaty, often used when two governments want to signal intent without binding themselves legally. It had held for 60 days, apparently keeping a lid on direct US-Iran confrontation even as fighting between Israel and Iran continued elsewhere. When it expired on August 18-19 with no replacement, Trump said flatly that no talks were underway, then escalated in a way few expected: a social media post claiming the Strait of Hormuz, a 33-kilometer channel between Iran and Oman that virtually all Gulf oil exports must pass through, as American territory.",
+              "There is no legal basis for that claim. The strait is an international waterway; ownership isn't in dispute among lawyers or diplomats, only in the president's rhetoric. Most analysts read the post as a pressure tactic rather than a policy proposal — a way of signaling that the US considers free passage through the strait a red line it is willing to enforce by force, without actually asserting sovereignty anyone expects to be honored. Trump paired the claim with a direct threat to bomb Oman, a US partner that has historically played mediator in the region, if it 'gets in the way' of reopening shipping lanes.",
+              "The economic pressure track escalated alongside the military rhetoric. Trump promised what he called the 'most crushing economic operation ever' and new 'draconian' sanctions — economic penalties, like freezing assets or blocking trade, designed to cut off a country's access to money and goods until it changes behavior. Separately, a naval blockade connected to the wider conflict has reportedly intercepted 85 vessels and seized three ships attempting to move oil or goods linked to Iran, at an estimated cost to Iran of $500 million a day. That figure comes from a secondary summary of the situation rather than an independently verified source, so it should be treated as a claim under the fog of an active conflict, not a confirmed number.",
+              "The UAE's response signals how seriously regional governments are taking the danger of spillover. The UAE is Iran's second-largest trading partner, meaning the two economies are deeply intertwined despite decades of political friction. It reported intercepting two ballistic missiles fired from Iranian territory, with one landing in its own territorial waters, and responded by suspending all trade with Tehran — a rare and costly step for a country that has generally tried to keep commercial channels open even during periods of tension.",
+              "The reason any of this matters beyond the region is simple geography. Roughly one-fifth of the oil the world consumes each day physically has to pass through the Strait of Hormuz on tankers. There is no easy detour; pipelines exist as partial alternatives but can't handle anywhere close to that volume. A serious, sustained disruption there — whether from military action, mines, insurance companies refusing to cover ships, or Iran attempting to close the strait outright — would ripple immediately into fuel prices worldwide, the kind of shock that shows up at gas pumps and in shipping costs on everyday goods within weeks."
+            ],
+            "zh": [
+              "到期的协议是一份"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If shipping through the Strait of Hormuz is genuinely disrupted, oil prices could spike worldwide within weeks, raising costs for gasoline, heating, and anything shipped by sea — effects that reach household budgets far from the Gulf. It's also a case study in how quickly a rhetorical escalation, even one with no legal weight, can raise the risk of real military confrontation between major powers.",
+            "zh": "如果霍尔木兹海峡的航运真的受到干扰,全球石油价格可能在几周内飙升,推高汽油、取暖和海运商品的成本——这种影响会波及远离海湾地区的普通家庭预算。这也是一个案例,说明即便没有法律效力的言辞升级,也可能迅速加大大国之间发生真实军事对抗的风险。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Memorandum of understanding",
+                "zh": "谅解备忘录"
+              },
+              "def": {
+                "en": "A written agreement between governments that signals intent and expectations but usually isn't a legally binding treaty.",
+                "zh": "政府间的一种书面协议,表明双方的意图和期望,但通常不具备条约那样的法律约束力。"
+              }
+            },
+            {
+              "term": {
+                "en": "Sanctions",
+                "zh": "制裁"
+              },
+              "def": {
+                "en": "Economic penalties, like freezing assets or blocking trade, meant to pressure a country into changing its behavior.",
+                "zh": "如冻结资产或阻断贸易等经济惩罚措施,旨在向某国施压使其改变行为。"
+              }
+            },
+            {
+              "term": {
+                "en": "Naval blockade",
+                "zh": "海上封锁"
+              },
+              "def": {
+                "en": "The use of warships to stop vessels from entering or leaving a country's ports, cutting off trade by force rather than law.",
+                "zh": "使用军舰阻止船只进出某国港口,以武力而非法律手段切断贸易。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a president makes a claim with no legal basis, like labeling the Strait of Hormuz 'US territory,' should the world treat it as a serious signal of coming action or dismiss it as rhetoric not meant literally?",
+                "zh": "当一位总统做出没有法律依据的声明,比如将霍尔木兹海峡称为"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take it seriously",
+                    "zh": "应严肃对待"
+                  },
+                  "points": {
+                    "en": [
+                      "Presidents control militaries, so even legally baseless claims can precede real force being used to back them up.",
+                      "Treating provocative statements as 'just rhetoric' has historically let real escalations catch adversaries and allies off guard.",
+                      "Markets and governments already react to such statements with real policy changes, showing the words carry practical weight regardless of legal standing."
+                    ],
+                    "zh": [
+                      "总统掌控军队,即便法律上站不住脚的声明,也可能是动用真实武力的前奏。",
+                      "历史上把挑衅性言论视为"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's bluster, not policy",
+                    "zh": "这只是虚张声势,并非政策"
+                  },
+                  "points": {
+                    "en": [
+                      "No government, including the US's own diplomatic and legal apparatus, has moved to formalize or act on the sovereignty claim, suggesting it isn't meant as literal policy.",
+                      "Leaders sometimes use maximalist rhetoric deliberately to strengthen their negotiating position without intending to follow through.",
+                      "Reacting to every extreme statement as imminent action risks feeding a cycle where rhetoric escalates further just to be taken seriously."
+                    ],
+                    "zh": [
+                      "包括美国自身外交与法律机构在内的任何政府都未采取行动使该主权声明正式化,说明这并非字面意义上的政策。",
+                      "领导人有时故意使用极端言辞来增强谈判筹码,而并非真的打算付诸实施。",
+                      "把每一句极端言论都当作即将发生的行动来回应,可能会形成言辞不断升级、只为被认真对待的恶性循环。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was the UAE right to suspend all trade with Iran after the missile interceptions, even though Iran is one of its largest trading partners?",
+                "zh": "在拦截导弹事件后,阿联酋暂停与伊朗的全部贸易,即便伊朗是其最大贸易伙伴之一,这样做是否正确?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect the country first",
+                    "zh": "是,应优先保护本国安全"
+                  },
+                  "points": {
+                    "en": [
+                      "Missiles landing in national waters represent a direct security threat that outweighs commercial considerations.",
+                      "Continuing trade as normal after an attack could be read domestically and internationally as weakness, inviting further provocation.",
+                      "Cutting economic ties is a way to pressure Iran to de-escalate without resorting to military retaliation."
+                    ],
+                    "zh": [
+                      "导弹落入本国水域构成直接的安全威胁,其重要性超过商业考量。",
+                      "遭袭后仍照常贸易,可能在国内外被解读为软弱,从而招致更多挑衅。",
+                      "切断经济联系是一种在不诉诸军事报复的情况下向伊朗施压促其降级的方式。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it closes off a channel that could calm things down",
+                    "zh": "否,这样做关闭了本可缓和局势的渠道"
+                  },
+                  "points": {
+                    "en": [
+                      "Deep trade ties have historically given the UAE unique leverage as a mediator between Iran and the West; losing that role removes a potential path to de-escalation.",
+                      "A full trade suspension hurts ordinary businesses and consumers on both sides who had nothing to do with the missile launch.",
+                      "Isolating Iran further, at a moment of high tension, could push it toward more aggressive actions rather than restraint, since it now has less to lose economically."
+                    ],
+                    "zh": [
+                      "长期深厚的贸易联系曾使阿联酋在伊朗与西方之间拥有独特的斡旋作用;失去这一角色也就失去了缓和局势的潜在途径。",
+                      "全面贸易暂停会伤害双方与导弹发射毫无关系的普通企业和消费者。",
+                      "在紧张局势高涨之际进一步孤立伊朗,可能促使其采取更具攻击性的行动而非克制,因为经济上它已经没有太多可失去的。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Stock Market Today: Dow, S&P Live Updates",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Major US Stock Indexes Fared Wednesday",
+            "zh": "美国主要股指周三表现"
+          },
+          "summary": {
+            "en": "The Associated Press rounds up how the S&P 500, Dow, and Nasdaq moved as bond yields eased following the Treasury's buyback announcement.",
+            "zh": "美联社总结了在财政部宣布回购计划后，标普500、道指和纳斯达克指数随着债券收益率回落而出现的变化。"
+          },
+          "publisher": "AP via ABC News",
+          "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-8192026-135786651"
+        },
+        {
+          "title": {
+            "en": "Stock Market Today: Dow Jones, S&P 500, Nasdaq Updates Aug 18, 2026",
+            "zh": "2026年8月18日股市行情：道指、标普500、纳斯达克更新"
+          },
+          "summary": {
+            "en": "TheStreet details the prior day's yield spike and stock slide that prompted the Treasury's intervention.",
+            "zh": "TheStreet详细报道了此前一天收益率飙升与股市下跌的情况，正是这一情况促使财政部出手干预。"
+          },
+          "publisher": "TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-18-2026"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Stock Market Today, Aug 19",
+            "zh": "2026年8月19日股市行情"
+          },
+          "summary": {
+            "en": "Yahoo Finance covers the market rebound and rate moves following the Treasury's debt buyback expansion.",
+            "zh": "雅虎财经报道了财政部扩大债务回购计划后市场反弹及利率变化的情况。"
+          },
+          "publisher": "Yahoo Finance/TheStreet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-19-135024947.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Money Markets Get Scared, Then Feel Better",
+            "zh": "金融市场先受惊吓,后来又平静下来"
+          },
+          "hook": {
+            "en": "On Monday, investors got nervous about war and rising prices, so they demanded more interest to lend the U.S. government money for 30 years. Stock markets dropped that day. On Tuesday, the U.S. Treasury promised to buy back more of its old loans early, which calmed everyone down, and stocks bounced right back.",
+            "zh": "周一,投资者因为战争和物价上涨感到不安,于是要求更高的利息才愿意借钱给美国政府30年。股市当天下跌。周二,美国财政部承诺提前回购更多旧债券,让大家安心下来,股市当天就反弹了。"
+          },
+          "story": {
+            "en": [
+              "Imagine lending your allowance to a friend for a really long time. You'd probably want extra money back for waiting so long, right? That's kind of what happened with the U.S. government on Monday.",
+              "People who lend money to the government by buying something called a 'bond' got worried about war news and rising prices. So they wanted more interest before agreeing to lend money for 30 years. This pushed the interest rate to its highest point in almost 20 years. Nervous investors also sold stocks, so the stock market dropped.",
+              "On Tuesday, the government's money department, called the Treasury, said it would buy back way more of its old bonds early than planned. This is like a store saying, 'Don't worry, we'll buy this back from you early if you want.' It worked. The interest rate dropped a little, and stock markets bounced back the same day. Two big scoreboards that track how well large companies are doing, called the S&P 500 and the Dow Jones, both went up.",
+              "Meanwhile, the Federal Reserve, the special bank that sets the country's main interest rate, kept that rate exactly the same for several months in a row, because of all the uncertainty caused by war news. In a separate move, President Trump canceled a plan to add extra taxes on certain goods from Canada, right before it was set to start."
+            ],
+            "zh": [
+              "想象一下,你把零花钱借给朋友很长一段时间。你可能会希望多要回一点钱作为等待的补偿,对吧?周一,美国政府身上发生的事情跟这个有点像。",
+              "那些通过购买叫做'债券'的东西借钱给政府的人,因为战争消息和物价上涨而感到担心。于是他们要求更高的利息,才愿意借出30年期的钱。这让利率涨到了近20年来的最高点。紧张的投资者也纷纷卖出股票,股市因此下跌。",
+              "周二,政府管钱的部门——财政部宣布,会比原计划提前回购更多旧债券。这就像一家商店对你说:'别担心,如果你需要,我们可以提前把东西买回去。'这招奏效了。利率稍微下降了一点,股市当天就反弹了。两个追踪大公司表现的'计分板'——标普500指数和道琼斯指数——都上涨了。",
+              "与此同时,负责设定美国主要利率的特殊银行——美联储,已经连续好几次会议都把利率保持不变,因为战争带来的经济不确定性太大。另外,特朗普总统在原定生效前一刻,取消了对部分加拿大商品加征高额关税的计划。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When interest rates on government bonds jump around, it can change how much it costs your family to borrow money for a house or a car. It also affects the stock market, which is where many people's retirement savings live, so bumpy days like this can worry a lot of grown-ups you know.",
+            "zh": "当政府债券的利率大幅波动时,可能会影响你家人借钱买房子或买车所需支付的成本。它也会影响股市,而很多人的养老储蓄就存在股市里,所以像这样起伏不定的日子会让你认识的许多大人感到担忧。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Bond",
+                "zh": "债券"
+              },
+              "def": {
+                "en": "A bond is like an IOU — when you lend the government your money, they promise to pay it back later along with some extra for waiting.",
+                "zh": "债券就像一张'欠条'——当你把钱借给政府时,他们承诺以后连本带利还给你,作为你等待的报酬。"
+              }
+            },
+            {
+              "term": {
+                "en": "Yield",
+                "zh": "收益率"
+              },
+              "def": {
+                "en": "The yield is the extra money you earn for lending your money, kind of like the interest rate you'd charge a friend for a loan.",
+                "zh": "收益率就是你借出钱之后能赚到的额外收益,有点像你借钱给朋友时收取的利息比例。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When investors get scared and markets wobble, should the government step in to calm things down, or let the market sort itself out?",
+                "zh": "当投资者感到害怕、市场动荡时,政府应该出手让局势平静下来,还是应该让市场自己去调整?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Government should help",
+                    "zh": "政府应该出手帮忙"
+                  },
+                  "points": {
+                    "en": [
+                      "Quick action can stop panic from spreading and hurting more people's savings.",
+                      "The government has tools, like buying back bonds, that ordinary people don't have.",
+                      "Calming markets fast can protect jobs that depend on a stable economy."
+                    ],
+                    "zh": [
+                      "快速行动能阻止恐慌蔓延,避免更多人的储蓄受损。",
+                      "政府拥有像回购债券这样的普通人没有的工具。",
+                      "迅速稳定市场能保护那些依赖经济稳定的工作岗位。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let the market handle it",
+                    "zh": "让市场自己解决"
+                  },
+                  "points": {
+                    "en": [
+                      "If the government always steps in, investors might take bigger risks expecting to be rescued.",
+                      "Markets naturally go up and down, and interfering too much can hide real problems.",
+                      "Long-term, a market that fixes itself might end up healthier and more honest."
+                    ],
+                    "zh": [
+                      "如果政府总是出手相救,投资者可能会因为预期被救而冒更大的风险。",
+                      "市场本来就有起有落,过度干预可能会掩盖真正的问题。",
+                      "从长远看,让市场自己修复自己,可能会让它变得更健康、更真实。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it a good idea for the president to cancel the tariff plan right before it was supposed to start, or should he have stuck with the original plan?",
+                "zh": "总统在关税计划原定生效前一刻取消它,这是个好主意吗,还是他应该坚持原计划?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cancelling was the right call",
+                    "zh": "取消是正确的决定"
+                  },
+                  "points": {
+                    "en": [
+                      "Changing course can avoid unnecessary harm to businesses and shoppers at the last minute.",
+                      "Being flexible shows a willingness to fix mistakes before they cause real damage.",
+                      "New information, like the bond market troubles, can be a good reason to change plans."
+                    ],
+                    "zh": [
+                      "在最后一刻改变方向,可以避免给企业和消费者带来不必要的伤害。",
+                      "保持灵活说明愿意在造成真正损害之前纠正错误。",
+                      "像债券市场出现问题这样的新情况,可以成为改变计划的正当理由。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Sticking with the plan would have been better",
+                    "zh": "坚持原计划会更好"
+                  },
+                  "points": {
+                    "en": [
+                      "Changing plans at the last second makes it hard for businesses to trust future announcements.",
+                      "Companies may have already spent money and time preparing for the tariff, wasting their effort.",
+                      "Frequent reversals can make other countries less certain about what to expect next."
+                    ],
+                    "zh": [
+                      "在最后一刻改变计划,会让企业以后很难相信政府的声明。",
+                      "一些公司可能已经花费金钱和时间为关税做准备,这些努力就白费了。",
+                      "频繁的政策反复,会让其他国家更难预测接下来会发生什么。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A Bond Market Wobble Rattled Wall Street — Then the Government Stepped In",
+            "zh": "债券市场一度动荡，冲击华尔街——政府随即出手"
+          },
+          "hook": {
+            "en": "On Monday, fears about war and rising prices pushed the interest rate on a key U.S. government bond to its highest level in almost 20 years, and stocks fell. The very next day, the U.S. Treasury calmed everyone down by promising to buy back a lot more of its own debt, and the stock market bounced right back.",
+            "zh": "周一，对战争和物价上涨的担忧，把美国一种关键政府债券的利率推高到近20年来的最高水平，股市随之下跌。可就在第二天，美国财政部宣布将大幅增加回购自己发行债务的规模，市场情绪迅速平复，股市也应声反弹。"
+          },
+          "story": {
+            "en": [
+              "Imagine the U.S. government needs to borrow money, so it sells something like an IOU called a Treasury bond. If you buy one, the government promises to pay you back later — plus extra money called interest, expressed as a percentage called the \"yield.\" On August 18th, the yield on a 30-year Treasury bond spiked to levels not seen in nearly two decades. Investors were spooked by two things at once: worries that inflation (prices rising over time) wasn't slowing down, and fears that a war somewhere in the world could send oil prices soaring, which usually makes everything else more expensive too.",
+              "When bond yields jump like that, it's a big deal, and not just for people who own bonds. Higher yields mean it costs the government more to borrow money, but they also tend to push up interest rates on everyday things like mortgages, car loans, and credit cards, since those rates often follow Treasury yields. That day, stock markets took a hit too, as investors sold off shares and moved money into safer assets.",
+              "The next day, the U.S. Treasury announced it would \"more than double\" the size of its debt buyback program — essentially, the government said it would buy back more of its own bonds from investors, which increases demand and tends to push yields down. It worked: the 30-year yield dropped about 10 basis points (a basis point is one-hundredth of a percent, so 10 basis points equals 0.10%) to 5.18%.",
+              "Stock markets breathed a sigh of relief. The S&P 500, a collection of 500 large U.S. companies often used to measure how the overall stock market is doing, rose 0.2% to close at 7,707.98. The Dow Jones Industrial Average, another major index tracking 30 big companies, gained 119.65 points to finish at 53,463.05. Both moves were modest compared to the drama of the day before, but they showed investors trusted the government's move enough to calm down.",
+              "All of this happened against a tense economic backdrop. The Federal Reserve — the U.S. central bank, which sets a key interest rate that influences borrowing costs across the whole economy — has kept its benchmark rate steady at 3.50%-3.75% for several meetings in a row, wary of moving while war-related uncertainty clouds the picture. Minutes from its July meeting, which reveal what officials actually discussed behind closed doors, are due to be released soon and could offer clues about what comes next.",
+              "In a smaller but related twist, President Trump paused planned 50% tariffs (taxes on imported goods) on certain Canadian products just minutes before they were set to take effect. Tariffs like these can raise prices for consumers and strain trade relationships, so a last-minute reversal adds yet another layer of unpredictability to an already jittery economic moment — even though this particular move got only brief mention in the day's market coverage."
+            ],
+            "zh": [
+              "设想一下：美国政府需要借钱，于是它卖出一种类似“借条”的东西，叫做“国债”（Treasury bond）。如果你买了一份，政府承诺将来还给你本金，外加一笔额外的钱，也就是“利息”，用百分比表示，这个百分比被称为“收益率”（yield）。8月18日，30年期美国国债的收益率飙升到近20年来未见的高位。投资者同时被两件事吓到：一是担心通货膨胀（物价持续上涨）迟迟不见放缓，二是害怕世界某地的战争会让油价飙升，而油价一涨，几乎所有东西都会跟着变贵。",
+              "当债券收益率像这样猛涨时，这可不是小事，而且影响的不只是持有债券的人。收益率升高意味着政府借钱的成本更高，但它往往也会推高日常生活中的各种利率，比如房贷、车贷和信用卡利率，因为这些利率经常跟着国债收益率走。那天，股市也受到冲击，投资者纷纷抛售股票，把钱转移到更“安全”的资产中去。",
+              "第二天，美国财政部宣布将“把回购计划的规模扩大一倍以上”——简单来说，政府表示要从投资者手中买回更多自己发行的国债，这会增加对国债的需求，从而压低收益率。这招奏效了：30年期国债收益率下跌了约10个“基点”（一个基点等于百分之一，也就是0.01%，所以10个基点等于0.10%），降到5.18%。",
+              "股市随即松了一口气。标普500指数——由500家美国大公司组成、常被用来衡量整体股市表现的指数——上涨0.2%，收于7,707.98点。道琼斯工业平均指数——另一个追踪30家大公司股价的重要指数——上涨119.65点，收于53,463.05点。虽然这两个涨幅比起前一天的剧烈波动显得温和，但足以说明投资者对政府的这次出手足够信任，情绪也随之平复。",
+              "这一切都发生在紧张的经济大背景之下。美联储——美国的中央银行，负责设定一个影响整个经济借贷成本的关键利率——已经连续几次会议将基准利率维持在3.50%到3.75%之间，因为战争相关的不确定性让它不敢轻举妄动。7月会议的“会议纪要”（记录官员们闭门讨论内容的文件）即将公布，可能会透露美联储接下来打算怎么做。",
+              "还有一个规模较小但相关的插曲：特朗普总统在计划对某些加拿大商品征收50%关税（对进口商品征收的税）即将生效前几分钟，突然叫停了这项计划。这类关税通常会推高消费者要付的价格，也会让贸易关系变得紧张，所以这样一次临门一脚的反转，给本就动荡的经济局势又增添了一层不确定性——尽管这次调整在当天的市场报道中只是被简单提及。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When bond yields and stock markets swing wildly, the effects don't stay locked inside Wall Street — they can show up as higher interest rates on things your family might borrow for, like a house or a car, or in prices at the grocery store. This story is also a reminder that governments have tools to try to steady the economy when things get shaky, and watching whether those tools work (or don't) tells you something about how much control anyone really has over a jittery, interconnected financial system.",
+            "zh": "当债券收益率和股市剧烈波动时，影响不会只停留在华尔街——它可能表现为家里买房、买车时要付更高的利息，或者是超市里商品价格的上涨。这个故事也提醒我们：当经济动荡时，政府确实有一些工具试图稳住局势；而观察这些工具是否奏效，也能让我们看清，在一个牵一发而动全身的金融体系里，究竟有多少事是真正能被“控制”的。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Treasury bond yield",
+                "zh": "国债收益率"
+              },
+              "def": {
+                "en": "The percentage return the government promises to pay investors who lend it money by buying its bonds; when this number rises, borrowing tends to get more expensive across the economy.",
+                "zh": "政府向购买国债、也就是借钱给政府的投资者承诺支付的回报百分比；这个数字上升时，整个经济中的借贷成本往往也会随之升高。"
+              }
+            },
+            {
+              "term": {
+                "en": "debt buyback program",
+                "zh": "债务回购计划"
+              },
+              "def": {
+                "en": "A plan where the government buys back bonds it previously sold, which increases demand for those bonds and usually pushes their yields down.",
+                "zh": "指政府买回自己之前发行的债券的计划，这会增加对这些债券的需求，通常会压低它们的收益率。"
+              }
+            },
+            {
+              "term": {
+                "en": "basis point",
+                "zh": "基点"
+              },
+              "def": {
+                "en": "A unit equal to one-hundredth of a percent, used to describe small changes in interest rates or yields with precision.",
+                "zh": "一种计量单位，等于百分之一，用来精确描述利率或收益率的微小变化。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a bond market gets shaky, should the government step in to calm it down, or let the market work things out on its own?",
+                "zh": "当债券市场出现动荡时，政府应该出手干预来稳定局势，还是应该让市场自行调整？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Step in",
+                    "zh": "应该干预"
+                  },
+                  "points": {
+                    "en": [
+                      "Left unchecked, a bond market panic can spread quickly into stock markets, mortgages, and everyday borrowing costs, hurting millions of people who never bought a bond in their life.",
+                      "Governments have tools built for exactly this purpose, and using them quickly can prevent a small wobble from turning into a full-blown financial crisis.",
+                      "Confidence matters in financial markets; a fast, decisive government response can reassure investors and stop fear from feeding on itself."
+                    ],
+                    "zh": [
+                      "如果放任不管，债券市场的恐慌情绪会迅速蔓延到股市、房贷和日常借贷成本，伤害到千百万从未买过债券的普通人。",
+                      "政府本来就拥有为应对这种情况而设计的工具，及时使用它们可以防止小波动演变成一场彻底的金融危机。",
+                      "在金融市场中，信心至关重要；政府迅速而果断的回应能安抚投资者，阻止恐慌情绪自我加剧。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let markets adjust",
+                    "zh": "应该让市场自行调整"
+                  },
+                  "points": {
+                    "en": [
+                      "When governments repeatedly rescue markets, investors may start taking bigger risks, assuming there will always be a safety net — a problem economists call moral hazard.",
+                      "Intervention can mask real underlying problems, like actual inflation or war-driven uncertainty, instead of letting prices reflect the true state of the economy.",
+                      "Constantly stepping in gives the impression that markets aren't really free, which can distort how investors make decisions over the long run."
+                    ],
+                    "zh": [
+                      "如果政府一次又一次出手救市，投资者可能会开始承担更大的风险，因为他们总以为会有安全网兜底——经济学家把这种问题称为“道德风险”。",
+                      "干预可能会掩盖真正的深层问题，比如实际存在的通货膨胀或战争带来的不确定性，而不是让价格如实反映经济的真实状况。",
+                      "不断出手干预会让人觉得市场其实并不真正自由，长期来看这可能扭曲投资者的决策方式。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for the president to pause the tariffs on Canada at the last minute, or does that kind of sudden reversal do more harm than good?",
+                "zh": "总统在最后一刻叫停对加拿大的关税，这样做是对的，还是说这种突然反转弊大于利？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Right call",
+                    "zh": "这是正确的决定"
+                  },
+                  "points": {
+                    "en": [
+                      "Pausing a harmful policy before it takes effect shows flexibility and a willingness to avoid unnecessary economic damage to both countries.",
+                      "Last-minute changes can be part of active negotiation, giving both sides a chance to reach a better deal instead of locking in a costly tariff.",
+                      "Avoiding a trade fight with a close neighbor and major trading partner protects jobs and businesses that depend on smooth trade between the two countries."
+                    ],
+                    "zh": [
+                      "在有害政策生效前叫停，体现了灵活性，也表明愿意避免给两国经济造成不必要的伤害。",
+                      "最后一刻的调整可能正是积极谈判的一部分，让双方有机会达成更好的协议，而不是被高昂的关税“锁死”。",
+                      "避免与一个亲密邻国和重要贸易伙伴发生贸易冲突，能保护那些依赖两国顺畅贸易往来的就业岗位和企业。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Does more harm",
+                    "zh": "弊大于利"
+                  },
+                  "points": {
+                    "en": [
+                      "Businesses need to plan months or years ahead; sudden last-minute policy reversals make it hard for them to know what to expect and can discourage investment.",
+                      "Frequent flip-flopping on tariffs can undermine the credibility of trade policy, making other countries less certain that agreements will actually stick.",
+                      "If tariffs are threatened and then paused repeatedly, it can look like a negotiating bluff rather than serious policy, weakening the country's leverage in future talks."
+                    ],
+                    "zh": [
+                      "企业需要提前几个月甚至几年做规划；政策在最后一刻突然反转，会让企业难以预判形势，从而抑制投资意愿。",
+                      "关税政策反复无常，会削弱贸易政策的可信度，让其他国家更难确信协议真的能被遵守。",
+                      "如果关税一再被威胁又被叫停，看起来更像是一种谈判筹码而非严肃的政策，这会削弱本国在未来谈判中的话语权。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "A Bond Market Scare, and Washington's Quick Fix",
+            "zh": "美债市场一日惊魂,财政部紧急出手安抚"
+          },
+          "hook": {
+            "en": "On August 18, the interest rate on 30-year US government bonds jumped to its highest level in nearly twenty years, spooked by fears of inflation and war-driven oil prices, and stocks fell with it. The next day, the US Treasury said it would more than double a program that buys back its own debt, and within hours the bond market calmed down and stocks bounced back.",
+            "zh": "8月18日,美国30年期国债收益率飙升至近二十年来的最高水平,通胀担忧和战争导致的石油价格恐慌是主因,股市也随之下跌。第二天,美国财政部宣布将其债务回购计划的规模扩大一倍以上,几小时内债券市场便平静下来,股市也随之反弹。"
+          },
+          "story": {
+            "en": [
+              "Government bonds are supposed to be the boring, dependable corner of the financial system — a way for the US Treasury to borrow money that investors treat as close to risk-free. So when the yield on the 30-year Treasury bond spiked to its highest level in nearly two decades on August 18, it registered as more than a routine market move. A bond's yield is the return an investor gets for lending money to the government; yields rise when investors demand more compensation to hold that debt, usually because they're worried about inflation eating into their returns or about the government's ability to manage its finances.",
+              "The immediate trigger was a mix of inflation worries and fear that an ongoing war would push oil prices higher. Oil is woven into nearly everything — transportation, manufacturing, heating — so a spike in crude prices tends to ripple through the whole economy as higher costs, which is another way of saying inflation. Investors who buy long-dated bonds like the 30-year are making a bet that stretches decades into the future, so any sign that inflation could stay elevated for a long time makes that bond less attractive at its current price, and its yield has to rise to compensate. Stock markets fell the same day, since higher borrowing costs squeeze company profits and make bonds a more competitive alternative to stocks.",
+              "The next morning, the Treasury Department stepped in. It announced it would more than double the size of its debt buyback program — a mechanism where the government repurchases some of its own older bonds from the open market, using new borrowing to do it. The goal isn't to reduce government debt; it's to improve liquidity, meaning it becomes easier to buy and sell these bonds without big price swings, which reassures investors that the market for US debt will keep functioning smoothly even under stress. The announcement worked almost immediately: the 30-year yield fell by about 10 basis points — a basis point is one-hundredth of a percentage point, so 10 of them equal a tenth of one percent — settling at 5.18%.",
+              "Stocks recovered in step. The S&P 500, an index tracking 500 of the largest US companies, rose 0.2% to close at 7,707.98, while the Dow Jones Industrial Average, a narrower index of 30 major companies, gained 119.65 points to finish at 53,463.05. It was a reminder of how tightly connected the bond market and stock market are: when the government's own borrowing costs stabilize, it takes pressure off everything from mortgage rates to corporate lending, and investors read that as a signal that the underlying financial system is steady.",
+              "This all played out against a Federal Reserve that has kept its benchmark interest rate — the rate that influences borrowing costs throughout the economy — unchanged at 3.50% to 3.75% for several meetings in a row, wary of moving in either direction while war-related uncertainty clouds the economic picture. Minutes from the Fed's July meeting, which record what officials actually said and debated behind closed doors, were due for release around this same period, and traders were combing them for hints about whether the central bank leans toward cutting rates to support growth or holding firm to keep inflation in check.",
+              "Separately, and with far less fanfare in the day's market coverage, President Trump pulled back from imposing 50% tariffs on certain Canadian imports just before a midnight deadline — a reversal in trade policy that added yet another layer of uncertainty to an already volatile week, even though it received only a passing mention next to the bond market drama. Taken together, the two days showed how quickly financial markets can swing on the combination of war anxiety, inflation fears, and policy decisions made in Washington — and how much power the government still has to talk, or buy, its way back to calm."
+            ],
+            "zh": [
+              "政府债券本该是金融体系中枯燥而可靠的一角——美国财政部借钱的一种方式,投资者通常将其视为近乎零风险的资产。因此,当30年期美国国债收益率在8月18日飙升至近二十年来的最高水平时,这已不仅仅是一次寻常的市场波动。债券的收益率,是投资者借钱给政府所获得的回报;当投资者要求更高的补偿才愿意持有这些债务时,收益率就会上升,原因通常是担心通货膨胀会侵蚀他们的实际回报,或是担心政府管理财政的能力。",
+              "这次波动的直接导火索,是通胀担忧与一场持续战争可能推高油价的恐慌交织在一起。石油几乎渗透进经济的方方面面——运输、制造、供暖——因此原油价格的飙升往往会以更高成本的形式波及整个经济,而这换个说法就是通货膨胀。买入30年期这类长期债券的投资者,实际上是在为几十年后的未来下注,所以任何显示通胀可能长期居高不下的迹象,都会让这类债券在当前价格下变得不再有吸引力,其收益率必须上升以作补偿。同一天股市下跌,因为借贷成本上升会压缩企业利润,也让债券相对股票更具竞争力。",
+              "第二天上午,财政部出手了。它宣布将把债务回购计划的规模扩大一倍以上——这是一种机制,政府用新发行的债务,从公开市场回购自己此前发行的旧债券。这么做的目的并非减少政府债务,而是改善流动性,也就是让这些债券更容易买卖而不引发价格剧烈波动,从而向投资者传递信号:即便在压力之下,美国国债市场仍能平稳运转。这一公告几乎立即见效:30年期收益率下跌约10个基点——一个基点等于百分之一个百分点,10个基点也就是十分之一个百分点——最终收于5.18%。",
+              "股市也随之反弹。追踪美国500家大型企业的标普500指数当天上涨0.2%,收于7707.98点;而由30家主要企业组成、范围更窄的道琼斯工业平均指数上涨119.65点,收于53463.05点。这提醒人们债券市场与股票市场之间的联系有多紧密:当政府自身的借贷成本趋于稳定时,从房贷利率到企业贷款的方方面面压力都会随之减轻,投资者也会将其解读为整个金融体系依然稳健的信号。",
+              "这一切发生的背景,是美联储已连续多次会议将基准利率——这一利率影响着整个经济中的借贷成本——维持在3.50%至3.75%不变,原因是战争带来的不确定性让经济前景变得模糊,央行不愿贸然朝任何方向调整。7月会议纪要——记录了官员们在闭门会议中实际讨论和辩论的内容——也在同一时期发布,交易员们仔细研读,试图找出美联储究竟是倾向于降息以支持增长,还是坚持不动以遏制通胀。",
+              "另外,在当天的市场报道中几乎被一带而过的是,特朗普总统在午夜截止时限前撤回了对部分加拿大进口商品征收50%关税的计划——这一贸易政策上的转向,为本已动荡的一周又增添了一层不确定性,却只在国债市场的戏剧性事件旁被顺带提及。综合来看,这两天充分展示了金融市场在战争焦虑、通胀担忧与华盛顿政策决定的共同作用下能有多快地剧烈摇摆——也展示了政府仅凭表态或实际出手回购,依然拥有多大的力量将市场重新拉回平静。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When Treasury yields swing this sharply, it eventually shows up in ordinary borrowing costs — mortgage rates, car loans, credit card interest, and what businesses pay to expand or hire. It's also a reminder that retirement accounts and pension funds, which hold enormous amounts of government debt, felt this whiplash too, even if no one you know traded a single bond that week.",
+            "zh": "当国债收益率出现如此剧烈的波动时,最终会传导到普通人的借贷成本上——房贷利率、车贷、信用卡利息,以及企业扩张或招聘所需支付的成本。这也提醒我们,持有大量政府债务的退休账户和养老基金同样感受到了这种震荡,即便你认识的人当中没有一个人在那一周真的交易过国债。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Treasury yield",
+                "zh": "国债收益率"
+              },
+              "def": {
+                "en": "The return an investor earns for lending money to the US government by buying its bonds; it rises when investors see more risk or expect higher inflation.",
+                "zh": "投资者通过购买美国国债借钱给政府所获得的回报率;当投资者认为风险更高或预期通胀上升时,这一收益率就会上升。"
+              }
+            },
+            {
+              "term": {
+                "en": "debt buyback program",
+                "zh": "债务回购计划"
+              },
+              "def": {
+                "en": "A government program that repurchases its own older bonds to keep that market trading smoothly, especially when investors are nervous.",
+                "zh": "一种政府计划,用于回购自己此前发行的旧债券,以在投资者情绪紧张时保持该市场交易顺畅。"
+              }
+            },
+            {
+              "term": {
+                "en": "basis point",
+                "zh": "基点"
+              },
+              "def": {
+                "en": "A unit equal to one-hundredth of a percentage point, used to measure small changes in interest rates or yields.",
+                "zh": "一种计量单位,等于百分之一个百分点,用于衡量利率或收益率的微小变化。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the government step in to calm bond markets when yields spike, or should it let markets absorb the shock on their own?",
+                "zh": "当国债收益率飙升时,政府应该出手安抚债券市场,还是应该让市场自行消化冲击?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Intervene",
+                    "zh": "应该出手干预"
+                  },
+                  "points": {
+                    "en": [
+                      "A calm bond market keeps borrowing costs manageable for the government, businesses, and households, so a quick response protects everyone from unnecessary financial pain.",
+                      "Confidence in a market can spiral downward fast, and a credible signal from the Treasury can stop a temporary scare from becoming a full-blown crisis.",
+                      "The government already has the tools and the responsibility to maintain a functioning market for its own debt, since a broken Treasury market would destabilize the entire financial system."
+                    ],
+                    "zh": [
+                      "债券市场保持平稳,能让政府、企业和家庭的借贷成本维持在可控范围,迅速应对可以避免所有人承受不必要的财务痛苦。",
+                      "市场信心可能会迅速螺旋式下滑,财政部发出可信的信号,能够阻止一次暂时的恐慌演变成一场全面危机。",
+                      "政府本就拥有维持自身债务市场正常运转的工具和责任,因为一旦国债市场失灵,将会动摇整个金融体系的稳定。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let markets adjust",
+                    "zh": "应让市场自行调整"
+                  },
+                  "points": {
+                    "en": [
+                      "Yields rising is useful information — it tells everyone that investors see real risks, and papering over that signal with intervention can hide problems rather than fix them.",
+                      "Frequent government rescues teach investors that risk-taking has a safety net, which can encourage riskier behavior down the line — a pattern often called moral hazard.",
+                      "Relying on buybacks to calm markets can become a habit that has to be repeated every time there's stress, rather than addressing the deeper causes of inflation and war-driven uncertainty."
+                    ],
+                    "zh": [
+                      "收益率上升本身是有用的信息——它告诉所有人投资者确实看到了真实的风险,而用干预手段掩盖这一信号,可能只是掩盖问题而非解决问题。",
+                      "政府频繁出手救市,会让投资者认为冒险背后总有安全网兜底,这可能助长日后更加冒险的行为,这种现象通常被称为道德风险。",
+                      "依靠回购来安抚市场可能会形成一种习惯,每逢压力就要重复一次,而不是从根本上解决通胀和战争带来的不确定性。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Given war-driven uncertainty, is the Federal Reserve right to hold interest rates steady, or should it act more decisively in one direction?",
+                "zh": "面对战争带来的不确定性,美联储按兵不动是正确的选择,还是应该更果断地朝某个方向采取行动?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Hold steady",
+                    "zh": "应保持不动"
+                  },
+                  "points": {
+                    "en": [
+                      "War-related shocks to oil prices and inflation can be temporary and hard to read, so moving rates in response to volatile, fast-changing conditions risks overcorrecting.",
+                      "Waiting for more data, including the Fed's own meeting minutes and incoming economic reports, allows policymakers to avoid a decision they might have to reverse within months.",
+                      "Sudden rate moves themselves can spook markets, so steadiness can be a form of stability even if it looks like inaction."
+                    ],
+                    "zh": [
+                      "战争引发的油价和通胀冲击可能是暂时且难以判断的,针对剧烈且快速变化的局势贸然调整利率,可能导致矫枉过正。",
+                      "等待更多数据出炉,包括美联储自己的会议纪要和陆续公布的经济报告,能让决策者避免做出几个月后可能不得不推翻的决定。",
+                      "利率的突然变动本身就可能引发市场恐慌,因此保持稳定即便看起来像是不作为,也可能是一种稳定的方式。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Act decisively",
+                    "zh": "应更果断行动"
+                  },
+                  "points": {
+                    "en": [
+                      "Prolonged indecision can itself create uncertainty, leaving businesses and investors unable to plan and potentially worsening the very volatility the Fed is trying to avoid.",
+                      "If inflation expectations start to shift because of oil prices, waiting too long to respond could let inflation become entrenched and harder to bring back down later.",
+                      "A clear, decisive move — in either direction — gives markets a firmer anchor than a policy of watching and waiting, which can be read as the Fed itself being unsure."
+                    ],
+                    "zh": [
+                      "长期的犹豫不决本身就会制造不确定性,让企业和投资者无法做出规划,反而可能加剧美联储原本想要避免的市场波动。",
+                      "如果油价推动通胀预期开始转变,若央行迟迟不采取行动,可能会让通胀变得根深蒂固,日后更难压回去。",
+                      "无论朝哪个方向,一次清晰而果断的举动,都能比一味观望等待的政策为市场提供更稳固的锚点,而后者可能被解读为美联储自身也拿不定主意。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "United States Stock Market Overview",
+        "publisher": "Trading Economics",
+        "url": "https://tradingeconomics.com/united-states/stock-market"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Stock Market Today, Aug 19: Moderna, Merck Surge on Vaccine News",
+            "zh": "2026年8月19日股市行情：疫苗消息推动Moderna和默沙东股价大涨"
+          },
+          "summary": {
+            "en": "Yahoo Finance confirms the sharp Moderna and Merck stock moves tied to the melanoma vaccine trial news.",
+            "zh": "雅虎财经确认了与黑色素瘤疫苗试验消息相关的Moderna和默沙东股价大幅波动情况。"
+          },
+          "publisher": "Yahoo Finance/TheStreet",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-19-135024947.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "United States Stock Market Overview",
+            "zh": "美国股市概况"
+          },
+          "summary": {
+            "en": "Trading Economics provides the original market-data summary reporting the vaccine trial success and resulting stock surges.",
+            "zh": "Trading Economics提供了最初的市场数据摘要，报道了疫苗试验成功及随之而来的股价飙升。"
+          },
+          "publisher": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/stock-market"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Cancer Vaccine News Made Stock Prices Jump — But We Don't Know All the Details Yet",
+            "zh": "癌症疫苗消息让股价暴涨——但细节还不清楚"
+          },
+          "hook": {
+            "en": "Two companies, Moderna and Merck, said a vaccine helped stop a serious skin cancer called melanoma from coming back in patients. The news made both companies' stock prices jump hard in a single day. But nobody has officially confirmed exactly how the test worked or how many people were part of it.",
+            "zh": "两家公司,莫德纳(Moderna)和默克(Merck),说一种疫苗帮助阻止了一种叫黑色素瘤的严重皮肤癌复发。这个消息让两家公司的股价在一天之内大幅上涨。但目前还没有官方确认这项测试到底是怎么做的,也不知道有多少人参加了测试。"
+          },
+          "story": {
+            "en": [
+              "Moderna and Merck said a vaccine helped patients with melanoma, a dangerous type of skin cancer, avoid having the cancer return. This isn't like a flu shot that stops you from getting sick in the first place. It's given to people who already had cancer, to help their bodies keep fighting it off.",
+              "When the news came out, people who own small pieces of these companies — called stock — got very excited. Moderna's stock price nearly doubled in one day. Merck's stock jumped about 10%, making it the single biggest winner that day among 30 huge companies watched closely by investors.",
+              "Here's the catch: we don't actually have all the facts. Neither Moderna nor Merck has put out an official statement confirming exactly what the test showed. We don't know how many patients took part, how sick they were, or how strong the results really are.",
+              "Scientists have spent years working on this kind of vaccine, usually pairing it with another cancer medicine called Keytruda. If the results turn out to be true and solid, it could genuinely help many people with melanoma stay healthy for longer."
+            ],
+            "zh": [
+              "莫德纳和默克说,一种疫苗帮助患有黑色素瘤(一种危险的皮肤癌)的病人避免癌症复发。这和流感疫苗不一样,流感疫苗是提前预防你生病的。这种疫苗是给已经得过癌症的人用的,帮助他们的身体继续对抗癌细胞。",
+              "消息一出来,拥有这两家公司股份(也就是",
+              "股票",
+              " ​"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Cancer touches a lot of families — you might know someone whose grandparent or neighbor has had it. This story is exciting because it hints at real medical progress, but it's also a good reminder that big headlines don't always come with all the facts attached yet. Waiting to see the full details, instead of jumping to conclusions, is a skill grown-ups and kids both need.",
+            "zh": "癌症影响着很多家庭——你可能认识某个爷爷奶奶或邻居曾经得过癌症。这个消息令人兴奋,因为它暗示着医学上真正的进步,但它也提醒我们,大新闻标题出来的时候,细节不一定都齐全。不急着下结论,耐心等待完整信息,这是大人和孩子都需要学会的本领。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "clinical trial",
+                "zh": "临床试验"
+              },
+              "def": {
+                "en": "A careful test where doctors give a new medicine to volunteers to see if it works and is safe before everyone can use it.",
+                "zh": "临床试验是医生给志愿者试用新药,看它是否有效、是否安全,然后大家才能使用它。"
+              }
+            },
+            {
+              "term": {
+                "en": "stock price",
+                "zh": "股价"
+              },
+              "def": {
+                "en": "The price of one small piece of a company that people can buy — when good news comes out, that price can go up fast.",
+                "zh": "股价是一家公司一小份股份的价钱——当好消息出现时,这个价钱可能会很快上涨。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When scientists share exciting but not-yet-fully-confirmed news, is it right for everyone to celebrate right away?",
+                "zh": "当科学家分享令人兴奋但还没有完全确认的消息时,大家立刻就庆祝,这样做对吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, celebrate early",
+                    "zh": "应该早点庆祝"
+                  },
+                  "points": {
+                    "en": [
+                      "Sick people and their families need hope as soon as possible.",
+                      "Celebrating progress can encourage more people to fund and support research.",
+                      "Waiting for absolutely perfect proof could take years, and good news deserves attention now."
+                    ],
+                    "zh": [
+                      "生病的人和他们的家人需要尽早获得希望。",
+                      "庆祝进展可以鼓励更多人资助和支持研究。",
+                      "等待绝对完美的证据可能要花好几年,而好消息现在就值得关注。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait for confirmation",
+                    "zh": "应该等待确认"
+                  },
+                  "points": {
+                    "en": [
+                      "Celebrating too soon could give false hope if the details turn out weaker than they sound.",
+                      "People who bought stock based on incomplete news could lose money if the full story is different.",
+                      "Patients and families might make big decisions based on information that isn't fully checked yet."
+                    ],
+                    "zh": [
+                      "过早庆祝,如果细节后来没有听起来那么好,可能会带来虚假的希望。",
+                      "根据不完整消息买了股票的人,如果真实情况不同,可能会亏钱。",
+                      "病人和家属可能会根据还没被完全核实的信息做出重大决定。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that a company's stock price can jump hugely from good medical news, even though most sick patients don't see any direct benefit that same day?",
+                "zh": "一家公司因为医学好消息股价暴涨,但大多数生病的患者当天并没有直接受益,这样公平吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair",
+                    "zh": "公平"
+                  },
+                  "points": {
+                    "en": [
+                      "The company spent years and huge amounts of money researching before this news, taking a real risk.",
+                      "A higher stock price gives the company more money to keep developing the medicine for patients.",
+                      "People who invested and believed in the science took a chance, so it makes sense they benefit when it pays off."
+                    ],
+                    "zh": [
+                      "公司在这条消息之前花了多年时间和巨额资金进行研究,承担了真正的风险。",
+                      "股价上涨能让公司有更多资金继续开发这种药物,造福患者。",
+                      "投资者相信科学并冒了风险,当研究成功时,他们理应获得回报。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair",
+                    "zh": "不公平"
+                  },
+                  "points": {
+                    "en": [
+                      "People who don't own any stock get nothing, even though it's their health that's really at stake.",
+                      "The huge price jump happens before the medicine has even reached most patients who need it.",
+                      "It can feel like numbers on a screen are rising while sick people still have to wait years for real treatment."
+                    ],
+                    "zh": [
+                      "没有持股的人什么都得不到,尽管真正关乎的是他们的健康。",
+                      "股价暴涨发生在这种药物还没有真正送到大多数需要的病人手中之前。",
+                      "这感觉就像屏幕上的数字在上涨,而病人仍要等上好几年才能得到真正的治疗。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "A Cancer Vaccine Rumor Sent Two Drug Companies' Stocks Soaring",
+            "zh": "一则癌症疫苗消息,让两家药企股价暴涨"
+          },
+          "hook": {
+            "en": "On August 19, news that a melanoma vaccine seemed to stop skin cancer from coming back sent the stock prices of Moderna and Merck soaring. Moderna's stock nearly doubled in a single day. But there's a catch: nobody has actually confirmed the details of the trial that caused all this excitement.",
+            "zh": "8月19日,一则关于黑色素瘤疫苗能\"减少复发\"的消息,让Moderna和默沙东(Merck)两家公司的股价大涨,Moderna股价一天内几乎翻倍。但问题是:目前还没有人证实这项引发轰动的临床试验的具体细节。"
+          },
+          "story": {
+            "en": [
+              "On August 19, financial news outlets reported that a vaccine for melanoma — a serious type of skin cancer — appeared to reduce the chances of the cancer coming back after treatment. Investors reacted almost instantly. Moderna's stock price roughly doubled in a single day, and Merck's stock jumped about 10.2%, making it the best performer that day on the Dow Jones Industrial Average, one of the main lists used to track how big U.S. companies are doing on the stock market.",
+              "The vaccine in question is widely believed to be mRNA-4157/V940, a personalized cancer vaccine that Moderna and Merck have spent years developing together. It's usually given alongside a Merck drug called Keytruda, which helps a patient's own immune system recognize and attack cancer cells. Unlike a flu shot, which is identical for every person who gets it, this vaccine is custom-built for each patient, based on the specific genetic mutations found in their own tumor.",
+              "Here's the tricky part. The reports that caused this stock surge didn't actually name the specific trial, or say how many patients took part, what stage of cancer they had, or give any numbers on how much the recurrence rate actually dropped. Most of the information traced back to one financial data website, Trading Economics, along with brief mentions of the stock movement scattered across other financial reports. No dedicated health news outlet, and no official press release from Merck or Moderna, was found confirming the specific results.",
+              "That gap matters. A one-day stock jump this dramatic usually happens because investors believe they've learned something solid and important. But without an official announcement or a detailed trial report, it's impossible to know for certain how strong the actual medical results were — or whether the news got simplified, or even exaggerated, along the way.",
+              "This kind of reaction isn't unusual in the world of pharmaceutical stocks. Traders often move fast on any hint of good news about a promising drug, especially one combining two cutting-edge technologies: mRNA (the same vaccine technology behind the COVID-19 shots) and immunotherapy (treatments that boost the body's own immune system to fight disease). Whether all this excitement turns out to be justified will depend on data that hasn't yet been made public."
+            ],
+            "zh": [
+              "8月19日,财经媒体报道称,一款针对黑色素瘤(一种严重的皮肤癌)的疫苗似乎能降低患者治疗后癌症复发的几率。投资者几乎立刻做出反应:Moderna的股价一天之内几乎翻了一番,默沙东的股价也上涨了约10.2%,成为当天道琼斯工业平均指数——追踪美国大型企业股市表现的主要指数之一——中表现最好的股票。",
+              "外界普遍认为,这款疫苗就是Moderna和默沙东多年来共同研发的个性化癌症疫苗mRNA-4157/V940。它通常与默沙东的药物Keytruda搭配使用,后者能帮助患者自身的免疫系统识别并攻击癌细胞。与人人接种同一款配方的流感疫苗不同,这种疫苗是根据每位患者肿瘤中特有的基因突变\"量身定制\"的。",
+              "但问题来了。引发这次股价飙升的报道,并没有说明具体是哪项临床试验,也没有提到参与试验的患者人数、癌症分期,或者复发率究竟下降了多少的具体数据。大部分信息来自一家财经数据网站Trading Economics,以及散见于其他财经报道中对股价变动的简短提及。没有找到任何专业健康媒体的报道,也没有默沙东或Moderna官方发布的新闻稿来证实这些具体结果。",
+              "这个信息缺口很重要。如此剧烈的单日股价上涨,通常是因为投资者相信自己得到了确凿且重要的信息。但如果没有官方公告或详细的试验报告,我们就无法确定实际的医学结果到底有多可靠——也无法排除消息在传播过程中被简化甚至夸大的可能。",
+              "这种反应在制药股的世界里并不少见。只要有一点关于潜力药物的好消息苗头,交易者往往会迅速行动,尤其是当这种药物结合了两项前沿技术:mRNA(新冠疫苗采用的同一种技术)和免疫疗法(通过增强人体自身免疫系统来对抗疾病的治疗方法)。这场热潮是否真的名副其实,还要看那些尚未公开的数据。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you'll never buy a share of stock, this story matters because it shows how quickly money moves on hope — sometimes faster than facts can catch up. It's also a reminder that behind exciting cancer-research headlines, there are real families waiting to find out if a treatment truly works, not just whether it made someone rich for a day.",
+            "zh": "即使你以后不会买股票,这个故事依然值得关注,因为它展示了金钱是如何追着希望狂奔的——有时候比事实本身跑得还快。它也提醒我们,在振奋人心的癌症研究新闻标题背后,还有真实的家庭在等待答案:一种疗法究竟是否真的有效,而不只是让谁在某一天赚到了钱。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Clinical trial",
+                "zh": "临床试验"
+              },
+              "def": {
+                "en": "A carefully controlled scientific study where researchers test a new treatment on real patients to see if it's safe and effective.",
+                "zh": "一种受到严格控制的科学研究,研究人员在真实患者身上测试新疗法,以判断它是否安全有效。"
+              }
+            },
+            {
+              "term": {
+                "en": "Recurrence",
+                "zh": "复发"
+              },
+              "def": {
+                "en": "When a disease, like cancer, comes back after a patient was treated and seemed to be free of it.",
+                "zh": "指像癌症这样的疾病,在患者接受治疗、病情看似消失后又重新出现。"
+              }
+            },
+            {
+              "term": {
+                "en": "mRNA vaccine",
+                "zh": "mRNA疫苗"
+              },
+              "def": {
+                "en": "A vaccine that gives cells temporary instructions to make a small piece of a virus or cancer marker, training the immune system to recognize and fight it.",
+                "zh": "一种给细胞传递\"临时指令\"的疫苗,让细胞制造出病毒或癌症标志物的一小部分,从而训练免疫系统识别并对抗它。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it a problem that a company's stock price can jump so dramatically based on medical news that hasn't been fully confirmed?",
+                "zh": "一家公司的股价会因为一则尚未被完全证实的医学消息而剧烈上涨,这是个问题吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a problem",
+                    "zh": "是的,这是个问题"
+                  },
+                  "points": {
+                    "en": [
+                      "Investors and even cancer patients might make big financial or medical decisions based on incomplete information.",
+                      "Markets can end up rewarding companies for releasing promising-sounding hints early, rather than waiting for careful, peer-reviewed science.",
+                      "If the real results turn out weaker than hoped, everyday people who bought stock on the hype could lose real money."
+                    ],
+                    "zh": [
+                      "投资者甚至癌症患者,可能会基于不完整的信息做出重大的财务或医疗决定。",
+                      "市场可能会变相\"奖励\"那些提前放出诱人消息的公司,而不是耐心等待经过同行评审的严谨科学结论。",
+                      "如果最终结果不如预期理想,那些因为炒作而买入股票的普通人可能会真金白银地亏钱。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's just how markets work",
+                    "zh": "不,这就是市场运作的方式"
+                  },
+                  "points": {
+                    "en": [
+                      "Markets are designed to price in new information quickly, even when that information is imperfect or incomplete.",
+                      "Companies face serious legal and reputational risk if they overstate trial results, so there's real reason to trust some of what leaks out.",
+                      "Demanding full, formal confirmation before any market reaction would just delay useful information from reaching investors and patients who want to know."
+                    ],
+                    "zh": [
+                      "市场的设计初衷就是要迅速消化新信息,即便这些信息并不完美或不完整。",
+                      "如果公司夸大试验结果,将面临严重的法律和声誉风险,所以外泄的消息在一定程度上是可信的。",
+                      "如果非要等到完全正式的确认才允许市场做出反应,只会让想要了解信息的投资者和患者更晚获得有用的消息。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should scientists focus more on personalized cancer vaccines like this one, even though they're expensive and made individually for each patient, instead of cheaper treatments that work for everyone?",
+                "zh": "科学家是否应该把更多精力放在像这样昂贵、需要为每位患者单独制作的个性化癌症疫苗上,而不是投入那些人人都能用的廉价疗法?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, personalization is worth it",
+                    "zh": "是的,个性化值得投入"
+                  },
+                  "points": {
+                    "en": [
+                      "A vaccine built around a patient's own tumor mutations can potentially work far better than a one-size-fits-all drug.",
+                      "Success in melanoma could open the door to expanding personalized approaches to other, deadlier cancers over time.",
+                      "Manufacturing costs for personalized medicine have historically fallen as production technology improves, just as they did with mRNA vaccines during COVID-19."
+                    ],
+                    "zh": [
+                      "根据患者自身肿瘤突变定制的疫苗,效果有可能远超\"一刀切\"的通用药物。",
+                      "如果在黑色素瘤上取得成功,未来有望将个性化疗法拓展到其他更致命的癌症。",
+                      "随着生产技术的进步,个性化医疗的制造成本历来会下降,新冠mRNA疫苗的发展历程就是例子。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, focus on cheaper, universal treatments",
+                    "zh": "不,应优先发展廉价的通用疗法"
+                  },
+                  "points": {
+                    "en": [
+                      "Personalized vaccines are expensive to produce, and could widen health inequality if only wealthier patients or countries can afford them.",
+                      "Money and research time spent perfecting individualized treatments might save more lives if redirected toward improving affordable treatments that already reach millions of patients.",
+                      "A treatment that must be custom-built for every single patient is very hard to scale quickly, especially in poorer regions or during a health emergency."
+                    ],
+                    "zh": [
+                      "个性化疫苗生产成本高昂,如果只有富裕的患者或国家负担得起,可能会加剧医疗不平等。",
+                      "如果把用于完善个性化疗法的资金和研究时间,转投到改进已经惠及数百万患者的廉价疗法上,或许能挽救更多生命。",
+                      "一种必须为每位患者单独定制的疗法,很难快速规模化推广,尤其是在较贫困地区或突发公共卫生危机时期。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "A Cancer Vaccine Headline Sent Two Drug Giants' Stocks Flying — But the Fine Print Is Still Missing",
+            "zh": "一则癌症疫苗消息让两大药企股价暴涨——但细节仍未公开"
+          },
+          "hook": {
+            "en": "On August 19, financial markets reacted as if a cure had been found: Moderna's stock roughly doubled and Merck's jumped 10.2%, making it the best-performing stock on the Dow that day. The trigger was news that a melanoma vaccine the two companies developed together appeared to 'cut recurrence' of the skin cancer. The catch is that almost nobody outside the trading floor has seen the actual data yet.",
+            "zh": "8月19日,金融市场的反应就像找到了治愈方法一样：Moderna股价几乎翻了一倍,默克股价上涨10.2%,成为当天道琼斯指数中表现最好的股票。引发这一切的消息是,两家公司联合研发的一款黑色素瘤疫苗似乎能"
+          },
+          "story": {
+            "en": [
+              "Melanoma is an aggressive form of skin cancer, and 'recurrence' — the cancer coming back after treatment — is one of the biggest fears for patients who have had a tumor removed. So when word spread that a Moderna-Merck vaccine had reduced recurrence rates in a trial, investors piled in fast. Moderna's stock, which has been battered since the pandemic-era mRNA vaccine boom faded, roughly doubled in a single day. Merck, a much larger and steadier company, still saw its biggest one-day jump in years.",
+              "This is almost certainly a reference to mRNA-4157/V940, a personalized cancer vaccine program the two companies have been developing for years. Unlike a flu shot, which is identical for everyone, this vaccine is custom-built from a sample of each patient's own tumor, teaching the immune system to recognize and attack cancer cells unique to that person. It's typically given alongside Keytruda, Merck's blockbuster immunotherapy drug, which works by helping the immune system see cancer cells it might otherwise ignore. Earlier, smaller trials of this combination had already shown promise, so a positive update was not a total surprise to people following the field closely.",
+              "Here is the uncomfortable part: the news that moved billions of dollars in stock value traveled through markets before it traveled through the normal channels science uses to check itself. The information reached the public mainly through market-data reporting — the kind of outlet that exists to describe stock moves, not to interrogate clinical trial design. No press release from Merck or Moderna, no peer-reviewed paper, and no presentation at a medical conference has been found describing this specific result. Basic facts that oncologists would need to judge the finding — how many patients were enrolled, what stage of melanoma they had, how much the recurrence rate actually dropped, whether the result was statistically robust — are simply not in the public record yet.",
+              "This gap matters because biotech stocks are notoriously sensitive to headlines that later turn out to be incomplete, exaggerated, or wrong. Trial results announced in press releases sometimes look very different once the full data is published months later; sometimes an interim result presented mid-trial doesn't hold up at the final analysis. None of this means the vaccine news is false — melanoma researchers have genuine reason for optimism about this specific mRNA-and-Keytruda combination based on prior published data. It means the size of the stock reaction outran the size of the confirmed evidence, at least for now.",
+              "For patients and families following melanoma research, the honest takeaway is patience mixed with cautious hope. A personalized cancer vaccine that meaningfully cuts recurrence would be a genuine medical advance, not just a financial one — it could change how high-risk melanoma is treated after surgery. But whether this particular update clears the bar that doctors, regulators, and the FDA require before changing treatment guidelines is something only the full data release will settle. Until then, the story sits in an unusual middle zone: real enough to move markets, unverified enough that responsible reporting has to say so plainly."
+            ],
+            "zh": [
+              "黑色素瘤是一种侵袭性很强的皮肤癌,而"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Melanoma is common enough that a real advance in preventing its return would affect a large number of families, not just Moderna and Merck shareholders. But this story is also a lesson in reading financial news carefully: a stock price doubling is not the same thing as a medical fact being confirmed, and the two can move at very different speeds.",
+            "zh": "黑色素瘤十分常见,如果真能有效防止复发,受益的将是许多家庭,而不仅仅是Moderna和默克的股东。但这个故事也是一堂如何谨慎解读财经新闻的课：股价翻倍并不等于医学事实已经得到证实,两者的进展速度可能大相径庭。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Recurrence",
+                "zh": "复发"
+              },
+              "def": {
+                "en": "When a cancer that was treated and appeared to be gone comes back, often the single biggest fear for cancer survivors.",
+                "zh": "指已经治疗并似乎消失的癌症再次出现,这通常是癌症幸存者最担心的事情。"
+              }
+            },
+            {
+              "term": {
+                "en": "Personalized cancer vaccine",
+                "zh": "个性化癌症疫苗"
+              },
+              "def": {
+                "en": "A vaccine custom-made from a sample of a patient's own tumor, designed to train that specific person's immune system to attack their cancer cells.",
+                "zh": "一种根据患者自身肿瘤样本定制的疫苗,旨在训练该患者的免疫系统攻击其特有的癌细胞。"
+              }
+            },
+            {
+              "term": {
+                "en": "Immunotherapy",
+                "zh": "免疫疗法"
+              },
+              "def": {
+                "en": "A cancer treatment approach that works by boosting or redirecting the body's own immune system to find and destroy cancer cells, rather than attacking the cancer directly like chemotherapy does.",
+                "zh": "一种癌症治疗方法,通过增强或引导人体自身免疫系统去发现并消灭癌细胞,而不像化疗那样直接攻击癌症本身。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should investors react so strongly to trial news that hasn't been through peer review or a formal data release?",
+                "zh": "投资者是否应该对尚未经过同行评审或正式数据发布的试验消息做出如此强烈的反应？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Markets should wait for verified data",
+                    "zh": "市场应等待经过核实的数据"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock prices built on incomplete information can mislead ordinary investors who buy in based on headlines alone.",
+                      "History shows early trial announcements sometimes don't hold up once full data is published, causing painful crashes later.",
+                      "Rewarding companies for unverified claims creates an incentive to hype early results rather than wait for rigorous confirmation."
+                    ],
+                    "zh": [
+                      "建立在不完整信息基础上的股价可能会误导仅凭标题买入的普通投资者。",
+                      "历史表明,早期试验公告有时在完整数据公布后站不住脚,后续会导致痛苦的暴跌。",
+                      "因未经证实的说法而奖励企业,会催生企业炒作早期结果而非等待严谨确认的动机。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Markets are right to price in real possibilities early",
+                    "zh": "市场提前对真实可能性定价是合理的"
+                  },
+                  "points": {
+                    "en": [
+                      "Markets exist precisely to process new, imperfect information faster than formal institutions can confirm it.",
+                      "Waiting for full peer review could mean investors miss genuine turning points in a company's prospects.",
+                      "Prior published data on this exact vaccine combination gave investors a real basis for optimism, not just a rumor."
+                    ],
+                    "zh": [
+                      "市场存在的意义正是比正式机构确认速度更快地处理新的、不完美的信息。",
+                      "等待完整的同行评审可能意味着投资者错过公司前景的真正转折点。",
+                      "此前已发表的关于这一具体疫苗组合的数据,为投资者的乐观情绪提供了真实依据,而非仅仅是传闻。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should personalized cancer treatments like this vaccine be a top priority for the medical system, given how expensive and individualized they are?",
+                "zh": "考虑到这类癌症疫苗的高昂成本和高度个体化特点,它们是否应成为医疗系统的首要发展方向？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, prioritize the cutting edge",
+                    "zh": "应优先发展前沿技术"
+                  },
+                  "points": {
+                    "en": [
+                      "Every major medical advance was expensive and rare at first before scaling brought costs down over time.",
+                      "Personalized vaccines could eventually save more money than they cost by preventing expensive recurrences and long treatments.",
+                      "Patients facing high-risk melanoma deserve access to the most effective option available, regardless of how new it is."
+                    ],
+                    "zh": [
+                      "所有重大医学进步在初期都是昂贵且稀有的,后来才随着规模扩大而降低成本。",
+                      "个性化疫苗如果能预防昂贵的复发和长期治疗,长远来看或许能省下更多费用。",
+                      "面临高危黑色素瘤的患者理应获得现有最有效的治疗选择,无论它有多新。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, prioritize broader access first",
+                    "zh": "应优先保证更广泛的可及性"
+                  },
+                  "points": {
+                    "en": [
+                      "Resources spent on a treatment that only a small number of wealthy-system patients can access might do more good spread across cheaper, proven therapies.",
+                      "Highly personalized treatments are hard to scale, meaning most patients worldwide will never realistically benefit from them.",
+                      "Health systems have limited budgets, and prioritizing expensive novel treatments can crowd out funding for prevention and basic care that helps far more people."
+                    ],
+                    "zh": [
+                      "把资源投入到只有少数富裕地区患者能获得的治疗上,或许不如将其分散用于更便宜、已被证实有效的疗法上更有益。",
+                      "高度个性化的治疗难以规模化,这意味着全球大多数患者实际上永远无法从中受益。",
+                      "医疗系统预算有限,优先资助昂贵的新型疗法可能会挤占本可惠及更多人的预防和基础医疗的资金。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
