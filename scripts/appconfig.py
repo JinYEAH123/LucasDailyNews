@@ -68,6 +68,68 @@ REGIONS: dict[str, dict] = {
     "GLOBAL": {"label": {"en": "Global", "zh": "全球"}},
 }
 
+# --------------------------------------------------------------- the sources
+# Research searches these and nothing else. An open search kept returning
+# aggregators and interested parties — a fund manager was once cited as further
+# reading on the market it sells into — and prose telling the model to prefer
+# major outlets did not stop it, because nothing checked.
+#
+# The cost of a list is what it leaves out: a story broken by a local paper or a
+# trade title is reached second-hand or not at all. That is the trade being made
+# deliberately. Adding a name is one line, and worth doing whenever a good
+# account turns out to be unreachable.
+#
+# Bare domains, no scheme — that is the format the API expects, and subdomains
+# of a listed domain come with it. Keep the list tight: an over-long filter is
+# rejected as request_too_large.
+
+SOURCES: dict[str, list] = {
+    # Wire services: first, because they are where most of a day's news breaks.
+    "wires": ["reuters.com", "apnews.com", "afp.com", "bloomberg.com"],
+
+    # US papers and broadcasters with newsrooms and corrections policies.
+    "us": [
+        "nytimes.com", "washingtonpost.com", "wsj.com", "npr.org", "pbs.org",
+        "cbsnews.com", "nbcnews.com", "abcnews.go.com", "cnn.com",
+        "latimes.com", "politico.com", "axios.com", "usatoday.com",
+    ],
+
+    # Outside the US, in English — the GLOBAL beat depends on these.
+    "world": [
+        "bbc.com", "theguardian.com", "ft.com", "economist.com",
+        "aljazeera.com", "dw.com", "france24.com", "foreignpolicy.com",
+    ],
+
+    # China. Caixin and Sixth Tone are independent; the last three answer to the
+    # state, and the policy requires that to be said whenever they are used —
+    # they are here to show how that side puts it, not to settle what happened.
+    "china": [
+        "scmp.com", "caixinglobal.com", "sixthtone.com", "asia.nikkei.com",
+        "chinadaily.com.cn", "globaltimes.cn", "cgtn.com",
+    ],
+
+    # The specialist press each beat actually reads.
+    "business": ["cnbc.com", "marketwatch.com", "barrons.com", "fortune.com"],
+    "tech": ["theverge.com", "arstechnica.com", "wired.com", "techcrunch.com",
+             "technologyreview.com"],
+    "science": ["nature.com", "science.org", "scientificamerican.com",
+                "newscientist.com", "sciencenews.org"],
+
+    # Primary documents — a bill, a ruling, a statistical release. Better than
+    # any report about them, and the one category that cannot be accused of
+    # spin, only of being hard to read.
+    "primary": [
+        "congress.gov", "supremecourt.gov", "whitehouse.gov", "sec.gov",
+        "federalreserve.gov", "bls.gov", "census.gov", "stats.gov.cn",
+        "imf.org", "worldbank.org", "who.int", "un.org", "europa.eu",
+    ],
+
+    # Without this the explainer videos have nowhere to come from.
+    "video": ["youtube.com"],
+}
+
+ALLOWED_DOMAINS: list = [d for group in SOURCES.values() for d in group]
+
 # ----------------------------------------------------------------- age bands
 # Three bands, written separately. What changes is sentence length, how much
 # scaffolding a fact needs, and how hard the questions are — never how serious

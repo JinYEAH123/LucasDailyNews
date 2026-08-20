@@ -286,23 +286,17 @@ SELECTION — exactly {N} stories from the window, ranked by importance:
   a top story. Crime and gore are not top stories.
 - Never pick several stories that are really the same story.
 
-SOURCES — who is allowed to be cited, and in which slot:
-- The main source must be original reporting from an outlet with a newsroom and
-  a corrections policy: a wire service, a national or major regional paper, a
-  public broadcaster, or the specialist press of the field in question. A
-  primary document — a court filing, a bill, a statistical release, a company
-  statement — is always welcome in its own right.
-- Never a main source: aggregators and content farms that rewrite other
-  people's reporting, personal blogs and newsletters, press releases dressed as
-  news, and any organisation campaigning on the subject.
-- Never anywhere: a company writing about a market it sells into. An asset
-  manager on the economy, a vendor on its own technology — they may be right,
-  but they are not disinterested and a child cannot see the interest.
+SOURCES — search reaches a fixed list of outlets and nothing else, so every
+result you see is already allowed. What is left to you is which one to lean on:
+- Prefer original reporting to a report about a report, and a primary document —
+  a bill, a ruling, a statistical release — to any account of it.
 - An outlet that argues a line, or is owned or directed by a government, may be
   used for how that side sees it — but say so in the same breath, and never let
   it stand alone as the account of what happened.
 - Prefer two outlets that do not share an owner over two that do. If the only
   accounts of a story trace back to one newsroom, say that in `facts`.
+- If the list cannot reach a story properly, say so in `facts` rather than
+  stretching a thin source to cover it.
 
 Every URL you output must be one you saw in a search result during research.
 Never construct, guess, or repair a URL. An empty list beats an invented link.\
@@ -591,7 +585,15 @@ def _log_searches(message) -> None:
 
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     messages = [{"role": "user", "content": prompt}]
-    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
+    # Searching a named list instead of the open web. This is a quality control,
+    # not a cost one: a search costs the same either way, and the results still
+    # arrive as input tokens.
+    tools = [{
+        "type": "web_search_20260209",
+        "name": "web_search",
+        "max_uses": 20,
+        "allowed_domains": appconfig.ALLOWED_DOMAINS,
+    }]
 
     for attempt in range(max_restarts + 1):
         with client.messages.stream(

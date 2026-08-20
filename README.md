@@ -167,12 +167,12 @@ Edit that text to change the paper's taste. In summary:
   is not a top story. Crime and gore are not top stories.
 - **Spread across beats** when the ranking allows, but never fill a slot with a
   weak story to reach a beat.
-- **The main source must be original reporting** — a wire service, a national
-  paper, a public broadcaster, the specialist press — or a primary document.
-  Never an aggregator, a newsletter, or an organisation campaigning on the
-  subject; never, in any slot, a company writing about a market it sells into.
-  An outlet that argues a line or answers to a government can be cited for how
-  that side sees it, said plainly and never left to stand alone.
+- **Research searches a named list of outlets, not the open web.** The list is
+  `SOURCES` in `scripts/appconfig.py`: wire services, national papers and
+  broadcasters, the specialist press of each beat, and primary documents —
+  bills, rulings, statistical releases. Adding a name is one line. An outlet
+  that argues a line or answers to a government can be cited for how that side
+  sees it, said plainly and never left to stand alone.
 - **Every URL must have appeared in a search result.** Constructing, guessing, or
   repairing a link is forbidden; an empty list beats an invented one. Videos are
   included only when a real one turned up.
