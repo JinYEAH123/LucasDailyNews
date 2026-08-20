@@ -122,10 +122,36 @@ jobs:
             exit 0
           fi
           git commit -m "Edition for ${{ steps.due.outputs.date }}"
+
+          # Runs overlap — a manual one and the hourly one, or a slow one and
+          # the next hour — and when they do, both have rewritten the same
+          # generated files under docs/. A plain `pull --rebase` stops on that
+          # conflict and leaves the tree mid-rebase, which is worse than the
+          # conflict: every later attempt dies on "you have unmerged files"
+          # before it reaches the push, so the retries spin and a finished
+          # edition is thrown away after it has already been paid for.
+          #
+          # docs/ is generated from data/, so a disagreement there is not a
+          # disagreement about anything: keep this run's side, then render
+          # again so the published files match whatever data/ ended up holding
+          # — including an edition this run never saw.
           for attempt in 1 2 3 4; do
-            git pull --rebase origin "${GITHUB_REF_NAME}" && \
-              git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
-            echo "Push failed, retry $attempt"
+            git fetch origin "${GITHUB_REF_NAME}"
+
+            if ! git merge -X ours "origin/${GITHUB_REF_NAME}" --no-edit; then
+              git merge --abort || true
+              echo "Merge failed, retry $attempt" >&2
+              sleep $((2 ** attempt))
+              continue
+            fi
+
+            python3 scripts/render_site.py
+            git add docs
+            git diff --cached --quiet || \
+              git commit -m "Re-render after merging ${GITHUB_REF_NAME}"
+
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push failed, retry $attempt" >&2
             sleep $((2 ** attempt))
           done
           echo "Could not push after 4 attempts" >&2
