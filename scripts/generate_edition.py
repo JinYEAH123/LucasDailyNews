@@ -551,6 +551,26 @@ def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
     raise SystemExit(f"{what} fell short {attempts} times running: {problem}")
 
 
+def _log_searches(message) -> None:
+    """Print the searches the model actually chose to run.
+
+    max_uses is a ceiling, not a plan: the queries are written by the model as
+    it goes, each one decided after seeing what the last returned, and they
+    differ every day. Without this there is no way to tell whether a run used
+    three searches or twenty, or whether the twentieth was still finding
+    anything the first nineteen had not — which is the only honest basis for
+    deciding where the ceiling belongs.
+    """
+    queries = [
+        (block.input or {}).get("query")
+        for block in getattr(message, "content", [])
+        if getattr(block, "type", "") == "server_tool_use"
+        and getattr(block, "name", "") == "web_search"
+    ]
+    for i, query in enumerate(q for q in queries if q):
+        print(f"    search {i + 1}: {query}", file=sys.stderr)
+
+
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     messages = [{"role": "user", "content": prompt}]
     tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
@@ -569,6 +589,8 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
             tools=tools, messages=messages,
         ) as stream:
             message = _guard(stream.get_final_message(), "Research")
+
+        _log_searches(message)
 
         if message.stop_reason != "pause_turn":
             brief = _text_of(message)
