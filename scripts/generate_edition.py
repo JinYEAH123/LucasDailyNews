@@ -31,9 +31,11 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import anthropic
 import jsonschema
@@ -287,7 +289,20 @@ SELECTION — exactly {N} stories from the window, ranked by importance:
 - Never pick several stories that are really the same story.
 
 Every URL you output must be one you saw in a search result during research.
-Never construct, guess, or repair a URL. An empty list beats an invented link.\
+Never construct, guess, or repair a URL. An empty list beats an invented link.
+
+THE SOURCE LINK — a child clicks it to read the rest of the story they just
+read, so it has to be a story:
+- One dated article, published by a recognised news organisation, about this
+  one event. Wire services and national papers first.
+- Not rolling coverage: no live blog, no "live updates", no page that is
+  rewritten all day.
+- Not a collection: no "five things to know", no "top tech news today", no
+  daily briefing, no news roundup, no full-episode or whole-programme page.
+- Not a front: no homepage, no section index, no tag or topic page.
+- If the only link you have for a story is one of those, that story is not
+  ready — take the next candidate from the shortlist instead.
+The same test applies to background and further reading.\
 """
 
 
@@ -507,6 +522,125 @@ def _hollow_field(obj: dict, fields) -> str | None:
     return None
 
 
+# ------------------------------------------------------------------ source links
+
+# The link rules were written against invented URLs, so they had nothing to say
+# about a real page that is the wrong kind of page — and the first two editions
+# failed on that five times in six. Two CNN "live updates" blogs, a "Top Tech
+# News Today" list of six unrelated companies, a veterans' association's "Five
+# Things to Know", and a PBS "full episode" page: an hour of television. Every
+# one came out of a genuine search result. Every one is useless to the child the
+# page is for, who clicks to read the rest of what he was just told and finds
+# that it is not on the page, or is one paragraph in forty, or has scrolled away
+# under a day of later updates.
+#
+# Asking again in prose was not enough on its own — the policy already said
+# "the main source URL" and got a whole-programme page back — so the shapes that
+# keep recurring are named here and handed back as a complaint the next attempt
+# has to answer.
+
+ROUNDUP_TITLE = re.compile(
+    r"""
+      live \s+ (updates?|news|blog|coverage)
+    | \b live-?blog \b
+    | \b (what|things|takeaways) \s+ to \s+ know \b
+    | \b (five|5|four|4|three|3|six|6|seven|7|ten|10) \s+ things \b
+    | \b full \s+ (episode|show|broadcast|programme|program) \b
+    | \b news \s+ (roundup|round-up|wrap|recap|digest|briefing) \b
+    | \b (morning|evening|daily|weekly) \s+ (briefing|digest|wrap) \b
+    | \b round-?up \b
+    | \b top \s+ .{0,24}? news \s+ today \b
+    | \b week \s+ in \s+ review \b
+    | \b (today|this \s+ week) [''’]? s \s+ (top \s+)? (news|stories|headlines) \b
+    """,
+    re.IGNORECASE | re.VERBOSE,
+)
+
+# Rolling coverage and index pages are usually visible in the path even when the
+# headline is innocent, because publishers file them under their own directory.
+ROUNDUP_PATH = re.compile(
+    r"/(live-news|live-updates?|live-blog|liveblog|live)/"
+    r"|/(tag|tags|topic|topics|section|category|categories|author)/",
+    re.IGNORECASE,
+)
+
+
+def _weak_link(url: str, title: str) -> str | None:
+    """Why this link is not a story, in a phrase — or None if it is one."""
+    if ROUNDUP_TITLE.search(title or ""):
+        return "a roundup or rolling-coverage headline"
+    parts = urlsplit(url or "")
+    if not parts.netloc:
+        return "not a usable address"
+    if ROUNDUP_PATH.search(parts.path):
+        return "filed under live or index coverage"
+    # An article's address almost always names the piece somewhere: a hyphenated
+    # slug, or an opaque id where the publisher prefers those — the BBC files
+    # everything under /news/articles/c9x7k2mzl4po. A path made only of bare
+    # words is a front or a section index: cnn.com, cnn.com/politics, bbc.com/news.
+    if not any(_names_an_article(s) for s in parts.path.split("/") if s):
+        return "a homepage or section front, not an article"
+    return None
+
+
+def _names_an_article(segment: str) -> bool:
+    if len(segment) > 20 or segment.count("-") >= 2:
+        return True
+    # An id, not a word: long enough to be one, and mixing letters with digits
+    # the way a generated identifier does and a section name never does.
+    stem = segment.rsplit(".", 1)[0]
+    return (len(stem) >= 8
+            and any(c.isalpha() for c in stem)
+            and any(c.isdigit() for c in stem))
+
+
+def _weak_source(payload: dict) -> str | None:
+    """The first story whose source link is not an article, if any."""
+    for story in sorted(payload["stories"], key=lambda s: s.get("rank", 99)):
+        source = story.get("source") or {}
+        why = _weak_link(source.get("url", ""), source.get("title", ""))
+        if why:
+            return (f"story {story.get('rank')} ({story.get('slug')}) is sourced to "
+                    f"{source.get('url')!r} — {why}")
+    return None
+
+
+def chosen(client, cfg, brief: str, attempts: int = 3) -> dict:
+    """Pass 2, retried while an answer is short, hollow, or badly sourced.
+
+    Retrying here is cheap in a way retrying later is not: this is the second of
+    eleven calls, and the nine that write the stories have not been paid for
+    yet. So a day that cannot be sourced properly is stopped at three calls
+    rather than shipped, and the hourly job will try the next hour on a brief
+    that has had another hour of the world's reporting to draw on.
+    """
+    schema = skeleton_schema(cfg)
+    complaint = ""
+
+    for attempt in range(1, attempts + 1):
+        payload = structured(client, cfg, base_policy(cfg),
+                             skeleton_prompt(brief) + complaint, schema, "Skeleton")
+
+        problem = _shortfall(payload, schema, ())
+        if problem is None:
+            for story in payload["stories"]:
+                empty = _hollow_field(story, ("slug", "facts"))
+                if empty:
+                    problem = f"story {story.get('rank')}: empty {empty!r}"
+                    break
+        if problem is None:
+            problem = _weak_source(payload)
+        if problem is None:
+            return payload
+
+        print(f"  Skeleton: {problem}, retrying ({attempt}/{attempts})", file=sys.stderr)
+        complaint = (f"\n\nThe last attempt was rejected: {problem}. Use a different "
+                     f"article from the brief, or drop that story for the next "
+                     f"candidate on the shortlist.")
+
+    raise SystemExit(f"Skeleton fell short {attempts} times running: {problem}")
+
+
 def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
     """One story, written for one band, retried while it comes back blank.
 
@@ -643,18 +777,7 @@ def main() -> None:
     print(f"  brief: {len(brief)} characters")
 
     print("Pass 2 — choosing and recording the links…")
-    skel_schema = skeleton_schema(cfg)
-    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skel_schema, "Skeleton")
-    problem = _shortfall(skeleton, skel_schema, ())
-    if problem is None:
-        for story in skeleton["stories"]:
-            problem = _hollow_field(story, ("slug", "facts"))
-            problem = f"story {story.get('rank')}: empty {problem!r}" if problem else None
-            if problem:
-                break
-    if problem:
-        raise SystemExit(f"Skeleton fell short — {problem}")
+    skeleton = chosen(client, cfg, brief)
     for s in sorted(skeleton["stories"], key=lambda s: s["rank"]):
         print(f"  {s['rank']}. [{s['category']}·{s['region']}] {s['slug']}")
 
