@@ -286,6 +286,18 @@ SELECTION — exactly {N} stories from the window, ranked by importance:
   a top story. Crime and gore are not top stories.
 - Never pick several stories that are really the same story.
 
+SOURCES — search reaches a fixed list of outlets and nothing else, so every
+result you see is already allowed. What is left to you is which one to lean on:
+- Prefer original reporting to a report about a report, and a primary document —
+  a bill, a ruling, a statistical release — to any account of it.
+- An outlet that argues a line, or is owned or directed by a government, may be
+  used for how that side sees it — but say so in the same breath, and never let
+  it stand alone as the account of what happened.
+- Prefer two outlets that do not share an owner over two that do. If the only
+  accounts of a story trace back to one newsroom, say that in `facts`.
+- If the list cannot reach a story properly, say so in `facts` rather than
+  stretching a thin source to cover it.
+
 Every URL you output must be one you saw in a search result during research.
 Never construct, guess, or repair a URL. An empty list beats an invented link.\
 """
@@ -378,8 +390,13 @@ def _text_of(message) -> str:
 
 # Claude Sonnet 5, USD per token. Output covers thinking as well as the answer,
 # which is the part worth watching: it is invisible in the finished edition and
-# can be the larger half of the bill.
-PRICE_IN, PRICE_OUT = 3 / 1e6, 15 / 1e6
+# can be the larger half of the bill. A cache hit is a tenth of base input.
+PRICE_IN, PRICE_OUT = 2 / 1e6, 10 / 1e6
+PRICE_CACHE_READ, PRICE_CACHE_WRITE = PRICE_IN * 0.1, PRICE_IN * 1.25
+
+# Web search bills per search on top of the tokens its results cost, so a report
+# that counted only tokens would quietly understate the research pass.
+PRICE_SEARCH = 10 / 1000
 
 _spend: list = []
 
@@ -390,9 +407,20 @@ def _account(message, what: str) -> None:
         return
     took_in = getattr(usage, "input_tokens", 0) or 0
     took_out = getattr(usage, "output_tokens", 0) or 0
-    _spend.append((what, took_in, took_out))
-    print(f"    {took_in:,} in / {took_out:,} out  "
-          f"(${took_in * PRICE_IN + took_out * PRICE_OUT:.3f})", file=sys.stderr)
+    read = getattr(usage, "cache_read_input_tokens", 0) or 0
+    wrote = getattr(usage, "cache_creation_input_tokens", 0) or 0
+    tools = getattr(usage, "server_tool_use", None)
+    searches = getattr(tools, "web_search_requests", 0) or 0 if tools else 0
+
+    cost = (took_in * PRICE_IN + took_out * PRICE_OUT
+            + read * PRICE_CACHE_READ + wrote * PRICE_CACHE_WRITE
+            + searches * PRICE_SEARCH)
+    _spend.append((what, took_in, took_out, read, wrote, searches, cost))
+
+    extra = f" [cache {read:,} read / {wrote:,} written]" if read or wrote else ""
+    extra += f" [{searches} searches]" if searches else ""
+    print(f"    {took_in:,} in / {took_out:,} out{extra}  (${cost:.3f})",
+          file=sys.stderr)
 
 
 def _spend_summary() -> str:
@@ -405,20 +433,26 @@ def _spend_summary() -> str:
     if not _spend:
         return ""
     groups: dict = {}
-    for what, took_in, took_out in _spend:
+    counts: dict = {}
+    for what, *numbers in _spend:
         key = what.split(" · ")[0]           # fold the nine per-story calls
-        got = groups.setdefault(key, [0, 0, 0])
-        got[0] += took_in
-        got[1] += took_out
-        got[2] += 1
+        got = groups.setdefault(key, [0, 0, 0, 0, 0, 0.0])
+        for i, value in enumerate(numbers):
+            got[i] += value
+        counts[key] = counts.get(key, 0) + 1
 
     lines, total = ["", "Tokens and cost:"], 0.0
-    for key, (took_in, took_out, calls) in groups.items():
-        cost = took_in * PRICE_IN + took_out * PRICE_OUT
+    for key, (took_in, took_out, read, wrote, searches, cost) in groups.items():
         total += cost
-        times = f" x{calls}" if calls > 1 else ""
-        lines.append(f"  {key + times:<24} {took_in:>8,} in  {took_out:>8,} out  ${cost:.2f}")
-    lines.append(f"  {'total':<24} {'':>8} {'':>12}  ${total:.2f}")
+        times = f" x{counts[key]}" if counts[key] > 1 else ""
+        note = ""
+        if read or wrote:
+            note = f"  cache {read:,}r/{wrote:,}w"
+        if searches:
+            note += f"  {searches} searches"
+        lines.append(f"  {key + times:<24} {took_in:>9,} in  {took_out:>8,} out"
+                     f"  ${cost:5.2f}{note}")
+    lines.append(f"  {'total':<24} {'':>9} {'':>13}  ${total:5.2f}")
     return "\n".join(lines)
 
 
@@ -469,7 +503,7 @@ def _shortfall(payload: dict, schema: dict, fields) -> str | None:
 # Seen in a real answer: rather than leaving a field empty, the model wrote the
 # word "placeholder" into the word bank and every part of the question. Counting
 # would catch that particular reply, which was also short — but two questions
-# all reading "placeholder" would count as three, so treat the word itself as
+# both reading "placeholder" would count as two, so treat the word itself as
 # nothing said.
 FILLER = {"placeholder", "tbd", "n/a", "todo", "..."}
 
@@ -529,17 +563,71 @@ def written(client, cfg, story: dict, band_key: str, attempts: int = 3) -> dict:
     raise SystemExit(f"{what} fell short {attempts} times running: {problem}")
 
 
+def _log_searches(message) -> None:
+    """Print the searches the model actually chose to run.
+
+    max_uses is a ceiling, not a plan: the queries are written by the model as
+    it goes, each one decided after seeing what the last returned, and they
+    differ every day. Without this there is no way to tell whether a run used
+    three searches or twenty, or whether the twentieth was still finding
+    anything the first nineteen had not — which is the only honest basis for
+    deciding where the ceiling belongs.
+    """
+    queries, errors = [], []
+    for block in getattr(message, "content", []):
+        kind = getattr(block, "type", "")
+        if kind == "server_tool_use" and getattr(block, "name", "") == "web_search":
+            queries.append((block.input or {}).get("query"))
+        elif kind == "web_search_tool_result":
+            # A failed search is not an exception: the API returns 200 and puts
+            # the reason in the result, where content is a single error object
+            # rather than the usual list. Running out of searches arrives this
+            # way too, so without this the brief just quietly gets thinner.
+            content = getattr(block, "content", None)
+            code = getattr(content, "error_code", None)
+            if code:
+                errors.append(code)
+
+    for i, query in enumerate(q for q in queries if q):
+        print(f"    search {i + 1}: {query}", file=sys.stderr)
+
+    if "max_uses_exceeded" in errors:
+        print(f"  note: research wanted more than its {appconfig.SEARCHES_PER_RUN} "
+              f"searches and was refused — the brief may be thinner than usual. "
+              f"Raise SEARCHES_PER_RUN in appconfig.py if this keeps happening.",
+              file=sys.stderr)
+    for code in sorted(set(errors) - {"max_uses_exceeded"}):
+        print(f"  note: a search failed ({code}).", file=sys.stderr)
+
+
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     messages = [{"role": "user", "content": prompt}]
-    tools = [{"type": "web_search_20260209", "name": "web_search", "max_uses": 20}]
+    # Searching a named list instead of the open web. This is a quality control,
+    # not a cost one: a search costs the same either way, and the results still
+    # arrive as input tokens.
+    tools = [{
+        "type": "web_search_20260209",
+        "name": "web_search",
+        "max_uses": appconfig.SEARCHES_PER_RUN,
+        "allowed_domains": appconfig.ALLOWED_DOMAINS,
+    }]
 
     for attempt in range(max_restarts + 1):
         with client.messages.stream(
             model=MODEL, max_tokens=64000, system=base_policy(cfg),
             thinking={"type": "adaptive"}, output_config={"effort": "high"},
+            # This pass is three quarters of the day's bill, and almost all of
+            # it is input: search results are charged as input tokens on every
+            # iteration that re-reads them, so twenty searches pay for the
+            # earlier ones over and over. A cache hit costs a tenth of that.
+            # Automatic caching is enough here — there is one long conversation
+            # with a growing prefix, which is exactly the shape it handles.
+            cache_control={"type": "ephemeral"},
             tools=tools, messages=messages,
         ) as stream:
             message = _guard(stream.get_final_message(), "Research")
+
+        _log_searches(message)
 
         if message.stop_reason != "pause_turn":
             brief = _text_of(message)
