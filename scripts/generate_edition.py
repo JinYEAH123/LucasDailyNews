@@ -286,6 +286,24 @@ SELECTION — exactly {N} stories from the window, ranked by importance:
   a top story. Crime and gore are not top stories.
 - Never pick several stories that are really the same story.
 
+SOURCES — who is allowed to be cited, and in which slot:
+- The main source must be original reporting from an outlet with a newsroom and
+  a corrections policy: a wire service, a national or major regional paper, a
+  public broadcaster, or the specialist press of the field in question. A
+  primary document — a court filing, a bill, a statistical release, a company
+  statement — is always welcome in its own right.
+- Never a main source: aggregators and content farms that rewrite other
+  people's reporting, personal blogs and newsletters, press releases dressed as
+  news, and any organisation campaigning on the subject.
+- Never anywhere: a company writing about a market it sells into. An asset
+  manager on the economy, a vendor on its own technology — they may be right,
+  but they are not disinterested and a child cannot see the interest.
+- An outlet that argues a line, or is owned or directed by a government, may be
+  used for how that side sees it — but say so in the same breath, and never let
+  it stand alone as the account of what happened.
+- Prefer two outlets that do not share an owner over two that do. If the only
+  accounts of a story trace back to one newsroom, say that in `facts`.
+
 Every URL you output must be one you saw in a search result during research.
 Never construct, guess, or repair a URL. An empty list beats an invented link.\
 """
