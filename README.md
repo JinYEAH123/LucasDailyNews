@@ -168,9 +168,13 @@ Edit that text to change the paper's taste. In summary:
 - **Spread across beats** when the ranking allows, but never fill a slot with a
   weak story to reach a beat.
 - **Research searches a named list of outlets, not the open web.** The list is
-  `SOURCES` in `scripts/appconfig.py`: wire services, national papers and
-  broadcasters, the specialist press of each beat, and primary documents —
-  bills, rulings, statistical releases. Adding a name is one line. An outlet
+  `SOURCES` in `scripts/appconfig.py`: national papers and broadcasters, the
+  specialist press of each beat, and primary documents — bills, rulings,
+  statistical releases. Adding a name is one line. Note what is *not* there:
+  Reuters, AP, the NYT, the WSJ, the BBC and a dozen others block Anthropic's
+  crawler, so naming them fails the request instead of fetching them. They are
+  listed in `BLOCKED_BY_CRAWLER` so nobody adds them back. Wire copy still
+  arrives by way of the outlets that republish it. An outlet
   that argues a line or answers to a government can be cited for how that side
   sees it, said plainly and never left to stand alone.
 - **Every URL must have appeared in a search result.** Constructing, guessing, or
