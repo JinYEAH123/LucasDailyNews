@@ -167,6 +167,12 @@ Edit that text to change the paper's taste. In summary:
   is not a top story. Crime and gore are not top stories.
 - **Spread across beats** when the ranking allows, but never fill a slot with a
   weak story to reach a beat.
+- **Every beat is searched before anything is ranked.** Five of the day's
+  searches are committed in advance, one per beat, and the brief has to account
+  for all five — either a shortlisted candidate or an explicit "nothing here,
+  and why". A missing beat is sent back to be searched before the top three are
+  chosen. A beat that had nothing is a finding; a beat nobody looked at is a
+  hole, and the two are indistinguishable once the ranking is done.
 - **Research searches a named list of outlets, not the open web.** The list is
   `SOURCES` in `scripts/appconfig.py`: national papers and broadcasters, the
   specialist press of each beat, and primary documents — bills, rulings,

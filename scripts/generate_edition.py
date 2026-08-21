@@ -360,6 +360,7 @@ with exactly two sides. Treat it as the hardest thing you write:
 
 def research_prompt(cfg, start, end, date_str: str) -> str:
     beats = ", ".join(appconfig.category_label(k, "en") for k in appconfig.CATEGORIES)
+    beat_keys = ", ".join(appconfig.CATEGORIES)
     return f"""\
 Today is {date_str}. Research the news for the edition covering:
 
@@ -370,20 +371,38 @@ specialist press of each beat, primary documents — for what was actually
 published in that window. Beats: {beats}. Centre of
 gravity: the United States and China.
 
-Plan the searches before making them. You get {appconfig.SEARCHES_PER_RUN} and
-no more, so spend them on breadth: one per beat at least, then the regions that
-carry the day. A repeated query returns the same results and buys nothing — if a
-search comes back thin, the answer is a *different* query, not the same one
-again. Never issue a query you have already issued.
+You have {appconfig.SEARCHES_PER_RUN} searches. Spend them like this:
+
+  {len(appconfig.CATEGORIES)} of them are committed before you start — one for each beat
+  named above, whether or not you expect it to yield anything. Do those first.
+  The remaining {appconfig.SEARCHES_PER_RUN - len(appconfig.CATEGORIES)} are yours: follow what the first
+  {len(appconfig.CATEGORIES)} turned up, chase the regions carrying the day, confirm a
+  disputed number.
+
+A repeated query returns what it returned the first time — it buys nothing and
+costs one of the {appconfig.SEARCHES_PER_RUN}. If a search comes back thin, the answer is a
+*different* query, never the same one again.
 
 You are ranking what the whole day produced. A story you never searched for
-cannot be weighed, so a narrow search plan does not make for a quiet news day —
-it makes for a badly ranked one.
+cannot be weighed against the ones you did, so a narrow search plan does not
+produce a quiet news day — it produces a badly ranked one. A beat that truly had
+nothing is a finding; a beat you never looked at is a hole.
 
 Write a research brief containing:
 
-1. A ranked shortlist of about {N * 2 + 2} candidates. For each: what happened,
-   the specific numbers and names, why it matters, its beat, its region.
+1. A ranked shortlist of about {N * 2 + 2} candidates. Start each with its beat on
+   its own line, exactly:
+
+       BEAT: politics
+
+   using one of: {beat_keys}. Then what happened, the specific
+   numbers and names, why it matters, and its region. If a beat genuinely
+   produced nothing worth a shortlist place, say so on its own line instead:
+
+       NOTHING: science — searched, only routine journal releases
+
+   Every one of the {len(appconfig.CATEGORIES)} beats must appear as a BEAT or a NOTHING line.
+   This is checked, and a missing beat is sent back to you to search.
 2. Your top {N}, a sentence on each choice, and a sentence on what you left out.
 3. For each pick: the main source URL, 2-3 background/further reading URLs from
    different outlets, and any real YouTube explainer you found.
@@ -677,8 +696,30 @@ def _without_unreachable(err: Exception, domains: list) -> list | None:
     return kept
 
 
-def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
+_BEAT_LINE = re.compile(r"^\s*(BEAT|NOTHING)\s*:\s*([a-z]+)", re.M | re.I)
+
+
+def _beats_missing(brief: str) -> list:
+    """Beats the brief neither shortlisted nor declared empty.
+
+    The top three are chosen by ranking a shortlist, so a beat absent from the
+    shortlist did not lose — it never ran. On 2026-08-20 society, science and
+    business were never searched, and a Hong Kong court story took third place
+    against no competition. Asking for coverage in the prompt is what produced
+    that edition, so this reads the answer back and checks.
+
+    A beat with nothing to report is a legitimate outcome; it just has to be
+    stated (NOTHING: science) rather than left silent, because silence is
+    exactly what an unsearched beat looks like.
+    """
+    seen = {m.group(2).lower() for m in _BEAT_LINE.finditer(brief)}
+    return [b for b in appconfig.CATEGORIES if b not in seen]
+
+
+def research(client, cfg, prompt: str, max_restarts: int = 4,
+             max_top_ups: int = 2) -> str:
     messages = [{"role": "user", "content": prompt}]
+    collected, top_ups = [], max_top_ups
     # Searching a named list instead of the open web. This is a quality control,
     # not a cost one: a search costs the same either way, and the results still
     # arrive as input tokens.
@@ -692,7 +733,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
             "allowed_domains": allowed,
         }]
 
-    for attempt in range(max_restarts + 1):
+    for attempt in range(max_restarts + max_top_ups + 1):
         while True:
             try:
                 with client.messages.stream(
@@ -720,14 +761,43 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
 
         _log_searches(message)
 
-        if message.stop_reason != "pause_turn":
-            brief = _text_of(message)
-            if not brief:
-                raise SystemExit("Research produced no text.")
+        if message.stop_reason == "pause_turn":
+            messages.append({"role": "assistant", "content": message.content})
+            print(f"  research paused, resuming ({attempt + 1}/{max_restarts})",
+                  file=sys.stderr)
+            continue
+
+        text = _text_of(message)
+        if not text:
+            raise SystemExit("Research produced no text.")
+        collected.append(text)
+        brief = "\n\n".join(collected)
+
+        gaps = _beats_missing(brief)
+        covered = [b for b in appconfig.CATEGORIES if b not in gaps]
+        print(f"  beats covered: {', '.join(covered) or 'none'}", file=sys.stderr)
+
+        if not gaps:
+            return brief
+        if not top_ups:
+            # Not fatal. A paper missing a beat is worse than a paper that says
+            # which beat it is missing, and the day's work is already paid for.
+            print(f"  warning: {', '.join(gaps)} still unaccounted for after "
+                  f"{max_top_ups} top-up round(s). The top three were ranked "
+                  f"without them.", file=sys.stderr)
             return brief
 
+        top_ups -= 1
+        print(f"  never searched: {', '.join(gaps)} — sending them back "
+              f"({max_top_ups - top_ups}/{max_top_ups})", file=sys.stderr)
         messages.append({"role": "assistant", "content": message.content})
-        print(f"  research paused, resuming ({attempt + 1}/{max_restarts})", file=sys.stderr)
+        messages.append({"role": "user", "content":
+            f"You did not account for these beats: {', '.join(gaps)}. Search each "
+            f"one now, then extend the shortlist with whatever they turned up — "
+            f"same format, one BEAT line per candidate. If a beat really has "
+            f"nothing worth a place, say NOTHING: <beat> and why. Do not repeat a "
+            f"query you have already run, and do not restate the candidates you "
+            f"have already given me."})
 
     raise SystemExit("Research never finished — still paused after max restarts.")
 
