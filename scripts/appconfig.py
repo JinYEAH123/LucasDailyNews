@@ -96,6 +96,7 @@ REGIONS: dict[str, dict] = {
 # of the outlets that republish it.
 BLOCKED_BY_CRAWLER: frozenset = frozenset({
     "afp.com", "apnews.com", "arstechnica.com", "barrons.com", "bbc.com",
+    "businessinsider.com", "straitstimes.com", "zdnet.com",
     "dw.com", "economist.com", "ft.com", "latimes.com", "marketwatch.com",
     "newscientist.com", "nytimes.com", "politico.com", "reuters.com",
     "theguardian.com", "theverge.com", "usatoday.com", "wired.com", "wsj.com",
@@ -116,7 +117,7 @@ SOURCES: dict[str, list] = {
     # Outside the US, in English — the GLOBAL beat depends on these.
     "world": [
         "aljazeera.com", "france24.com", "foreignpolicy.com", "cbc.ca",
-        "japantimes.co.jp", "straitstimes.com", "theconversation.com",
+        "japantimes.co.jp", "theconversation.com",
     ],
 
     # China. Caixin and Sixth Tone are independent; the last three answer to the
@@ -128,7 +129,7 @@ SOURCES: dict[str, list] = {
     ],
 
     # The specialist press each beat actually reads.
-    "business": ["cnbc.com", "fortune.com", "businessinsider.com"],
+    "business": ["cnbc.com", "fortune.com"],
     "tech": ["techcrunch.com", "technologyreview.com", "engadget.com",
              "zdnet.com"],
     "science": ["nature.com", "science.org", "scientificamerican.com",
@@ -155,7 +156,16 @@ ALLOWED_DOMAINS: list = [d for group in SOURCES.values() for d in group
 # model stops when it has enough. Running out is not an error the API raises —
 # further searches simply come back refused — so generate_edition.py says so
 # when it happens, and prints the queries either way.
-SEARCHES_PER_RUN = 12
+#
+# Twelve was chosen when the research pass cost $2.69 and every search round
+# re-billed the ones before it. Prompt caching removed that: the 2026-08-20 run
+# read 965k cached tokens against 82 fresh ones and the whole pass came to
+# $0.68. What twelve bought instead was a badly ranked paper — the run spent
+# six of them re-issuing queries it had already made, leaving four beats
+# unsearched and a thin shortlist to rank.
+#
+# Breadth is what makes the ranking honest, and breadth is now the cheap part.
+SEARCHES_PER_RUN = 20
 
 # ----------------------------------------------------------------- age bands
 # Three bands, written separately. What changes is sentence length, how much

@@ -112,10 +112,19 @@ def skeleton_schema(cfg) -> dict:
                             "required": ["title", "publisher", "url"],
                             "additionalProperties": False,
                         },
-                        "background": {"type": "array", "minItems": 1, "maxItems": 3,
-                                       "items": reading_item},
-                        "further": {"type": "array", "minItems": 1, "maxItems": 3,
-                                    "items": reading_item},
+                        # No minimum. Requiring one guarantees a link, not a
+                        # relevant one: on a thin day the only way to satisfy
+                        # the schema is to reach for something off-topic.
+                        "background": {"type": "array", "maxItems": 3,
+                                       "items": reading_item,
+                                       "description": "Reading that explains THIS "
+                                                      "story's history. Empty if "
+                                                      "research found none."},
+                        "further": {"type": "array", "maxItems": 3,
+                                    "items": reading_item,
+                                    "description": "Reading that takes THIS story "
+                                                   "further. Empty if research "
+                                                   "found none."},
                         "videos": {
                             "type": "array", "maxItems": 2,
                             "items": {
@@ -300,7 +309,22 @@ result you see is already allowed. What is left to you is which one to lean on:
   stretching a thin source to cover it.
 
 Every URL you output must be one you saw in a search result during research.
-Never construct, guess, or repair a URL. An empty list beats an invented link.\
+Never construct, guess, or repair a URL. An empty list beats an invented link.
+
+Background and further reading belong to the story they sit under. A link goes
+there only if a reader who wants more about *that* story would want it — its
+history, its consequences, the same dispute argued elsewhere. Three tests, and
+failing any one means leave it out:
+
+- It is not another story in this edition. Today's other picks are not this
+  story's background, however near they sit in the news.
+- It is not merely from the same country, the same week, or the same beat.
+  "Also happened in China" is not a relationship.
+- You could say what it adds without using the words "meanwhile", "in the same
+  week", or "by contrast".
+
+An empty list is a normal outcome and costs nothing. A padded one costs the
+reader their trust in every other link on the page.\
 """
 
 
@@ -345,6 +369,16 @@ Search the outlets available to you — national papers and broadcasters, the
 specialist press of each beat, primary documents — for what was actually
 published in that window. Beats: {beats}. Centre of
 gravity: the United States and China.
+
+Plan the searches before making them. You get {appconfig.SEARCHES_PER_RUN} and
+no more, so spend them on breadth: one per beat at least, then the regions that
+carry the day. A repeated query returns the same results and buys nothing — if a
+search comes back thin, the answer is a *different* query, not the same one
+again. Never issue a query you have already issued.
+
+You are ranking what the whole day produced. A story you never searched for
+cannot be weighed, so a narrow search plan does not make for a quiet news day —
+it makes for a badly ranked one.
 
 Write a research brief containing:
 
@@ -590,8 +624,22 @@ def _log_searches(message) -> None:
             if code:
                 errors.append(code)
 
-    for i, query in enumerate(q for q in queries if q):
-        print(f"    search {i + 1}: {query}", file=sys.stderr)
+    asked = [q for q in queries if q]
+    for i, query in enumerate(asked):
+        seen_before = asked.index(query) + 1
+        repeat = f"   (repeat of {seen_before})" if seen_before <= i else ""
+        print(f"    search {i + 1}: {query}{repeat}", file=sys.stderr)
+
+    # A repeated query returns what it returned the first time, so it buys
+    # nothing and costs one of the day's searches. This is not cosmetic: the
+    # 2026-08-20 run spent six of twelve re-issuing queries it had already made,
+    # four beats went unsearched, and a Hong Kong court story it never had
+    # competition for ran third. Nothing failed, so nothing said so.
+    distinct = len(set(asked))
+    if asked and distinct < len(asked):
+        print(f"  note: {len(asked) - distinct} of {len(asked)} searches repeated an "
+              f"earlier query and returned nothing new — the shortlist was ranked "
+              f"on {distinct} searches, not {len(asked)}.", file=sys.stderr)
 
     if "max_uses_exceeded" in errors:
         print(f"  note: research wanted more than its {appconfig.SEARCHES_PER_RUN} "
@@ -700,8 +748,50 @@ def structured(client, cfg, system: str, prompt: str, schema: dict, what: str) -
 # --------------------------------------------------------------------------- assembly
 
 
+def _prune_stray_links(stories: list) -> None:
+    """Drop background/further/video links that belong to another story.
+
+    The 2026-08-20 edition ran the Evergrande verdict with the Hong Kong vigil
+    trial as its background and a Meta-Microsoft AI deal as its further reading,
+    each introduced with the tell — "in the same week", "by contrast". Nothing
+    was invented and every URL was real; they were simply not about the story
+    they sat under. The schema demanded a link, research had come back thin, and
+    padding was the only way to satisfy both.
+
+    The schema no longer demands one. This catches the rest: a link that is
+    another story's source is not a judgement call, and neither is the same URL
+    twice on one page.
+    """
+    sources = {st["source"]["url"] for st in stories}
+    seen, dropped = set(), []
+
+    for story in stories:
+        seen.add(story["source"]["url"])
+        for field in ("background", "further", "videos"):
+            kept = []
+            for item in story.get(field, []):
+                url = item.get("url", "")
+                if url in sources and url != story["source"]["url"]:
+                    dropped.append((story.get("slug"), field, "another story", url))
+                elif url in seen:
+                    dropped.append((story.get("slug"), field, "already linked", url))
+                else:
+                    seen.add(url)
+                    kept.append(item)
+            story[field] = kept
+
+    for slug, field, why, url in dropped:
+        print(f"  dropped a {field} link from {slug} — {why}: {url}",
+              file=sys.stderr)
+    if dropped:
+        print(f"  note: {len(dropped)} link(s) were padding rather than reading. "
+              f"Research came back thin; check the search queries above.",
+              file=sys.stderr)
+
+
 def build_edition(cfg, skeleton: dict, writing: dict, date_str: str, start, end) -> dict:
     stories = sorted(skeleton["stories"], key=lambda s: s.get("rank", 99))
+    _prune_stray_links(stories)
 
     for i, story in enumerate(stories, 1):
         story["rank"] = i

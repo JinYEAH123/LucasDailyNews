@@ -180,6 +180,10 @@ Edit that text to change the paper's taste. In summary:
 - **Every URL must have appeared in a search result.** Constructing, guessing, or
   repairing a link is forbidden; an empty list beats an invented one. Videos are
   included only when a real one turned up.
+- **Background and further reading belong to the story they sit under**, and the
+  list is allowed to be empty. Another story from the same edition is never this
+  story's background; nor is "also happened in China this week". A link that is
+  another story's source is stripped in code, not left to judgement.
 - **Contested claims are labelled contested**, with both readings given.
 - **Both sides of every question, argued at full strength** — never two good
   arguments and a weak one set up to be knocked down, and never a signal about
