@@ -1,0 +1,1542 @@
+{
+  "date": "2026-08-20",
+  "window": {
+    "start": "2026-08-19T17:00:00-07:00",
+    "end": "2026-08-20T17:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 5:00 PM to Thursday 5:00 PM PDT",
+      "zh": "PDT 8月19日 17:00 至 8月20日 17:00"
+    }
+  },
+  "generated_at": "2026-08-20T23:16:37-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 3 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 17
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump Turns to Economic Warfare, With China in the Crosshairs",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-08-20/trump-turns-to-economic-warfare-with-china-in-crosshairs"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Live Updates: Trump's Iran War Escalation",
+            "zh": "直播更新:特朗普升级伊朗战争"
+          },
+          "summary": {
+            "en": "CNN's rolling live coverage tracks reactions from world capitals to Trump's new sanctions threat and the latest strikes, offering real-time detail not in the main wire story.",
+            "zh": "CNN的实时报道追踪世界各国对特朗普新制裁威胁及最新打击行动的反应,提供主报道中没有的实时细节。"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/20/world/live-news/iran-war-trump"
+        },
+        {
+          "title": {
+            "en": "Live Updates: U.S.-Iran Standoff Over the Strait of Hormuz",
+            "zh": "直播更新:美伊在霍尔木兹海峡的对峙"
+          },
+          "summary": {
+            "en": "CBS News tracks the naval and diplomatic standoff in the Strait of Hormuz, a key oil chokepoint at the center of the pressure campaign, adding shipping and military detail.",
+            "zh": "CBS新闻追踪霍尔木兹海峡的海军与外交对峙,这是此次施压行动的关键石油通道,补充了航运与军事动向细节。"
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-strait-of-hormuz/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran War Live: Trump Announces 'Most Crushing' Iran Sanctions",
+            "zh": "伊朗战争直播:特朗普宣布对伊朗实施\"最严厉\"制裁"
+          },
+          "summary": {
+            "en": "Al Jazeera, funded by the Qatari government, gives a Middle East-centered view of the sanctions announcement and Gulf-state reactions, useful for a different vantage point though its state funding should be kept in mind.",
+            "zh": "半岛电视台由卡塔尔政府资助,从中东视角报道此次制裁宣布及海湾国家反应,提供了不同视角,但需注意其官方资助背景。"
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/8/20/iran-war-live-trump-announces-most-crushing-iran-sanctions"
+        },
+        {
+          "title": {
+            "en": "Trump's Iran Gamble in the Strait of Hormuz",
+            "zh": "特朗普在霍尔木兹海峡的伊朗赌局"
+          },
+          "summary": {
+            "en": "This CNN analysis unpacks the strategic risks of turning an economic threat into confrontation over the world's most important oil chokepoint and why markets reacted so fast.",
+            "zh": "这篇CNN分析文章剖析了将经济威胁升级为在全球最重要石油通道上公开对抗的战略风险,并解释了市场为何反应如此迅速。"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/20/politics/trump-iran-war-strait-of-hormuz"
+        },
+        {
+          "title": {
+            "en": "Early Edition: August 20, 2026",
+            "zh": "每日摘要:2026年8月20日"
+          },
+          "summary": {
+            "en": "This legal and national-security digest rounds up expert commentary on the Iran sanctions threat alongside other major stories, and flags the disputed debt-crisis claim made by Iran's foreign minister.",
+            "zh": "这份法律与国家安全每日摘要汇总了专家对伊朗制裁威胁及当天其他重大新闻的评论,并指出了伊朗外长关于债务危机说法的争议点。"
+          },
+          "publisher": "Just Security",
+          "url": "https://www.justsecurity.org/154606/early-edition-august-20-2026/"
+        }
+      ],
+      "videos": [
+        {
+          "title": "President Trump Delivers Remarks",
+          "channel": "The White House",
+          "url": "https://www.youtube.com/watch?v=mTz0qXlSd28",
+          "summary": {
+            "en": "Official White House video of President Trump's remarks announcing the new economic pressure campaign against countries trading with Iran.",
+            "zh": "白宫官方视频,记录特朗普总统宣布针对与伊朗贸易国家的新经济施压行动的讲话。"
+          }
+        }
+      ],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Trump Warns Countries: Stop Buying Oil From Iran, or Else",
+            "zh": "特朗普警告各国：别再买伊朗石油，否则后果自负"
+          },
+          "hook": {
+            "en": "President Trump said he would punish any country that keeps buying oil from Iran, a country the U.S. has been fighting with. His warning made oil prices jump around the world. Many people think his real target isn't actually Iran — it's China, which buys most of the oil Iran sells.",
+            "zh": "特朗普总统说，他要惩罚任何继续购买伊朗石油的国家，而美国最近一直在和伊朗打仗。他的警告让全世界的石油价格猛涨。很多人认为，他真正的目标其实不是伊朗，而是中国——因为中国购买了伊朗出售石油中的大部分。"
+          },
+          "story": {
+            "en": [
+              "Trump posted online that he would bring \"tremendous economic consequences\" on any country still trading with Iran. This came after U.S. military strikes and a blockade — using warships to stop other ships from reaching a country — failed to stop the fighting.",
+              "The warning shook the world's oil market. Oil is turned into gasoline for cars and fuel for planes, so when its price changes, it affects almost everyone. After Trump's threat, the price of one barrel of oil (a barrel is about the size of a big trash can) jumped to nearly $94, the highest it's been since July.",
+              "Many experts think this warning isn't really about Iran at all. It's about China. China buys almost all the oil Iran sells to other countries, so this threat could turn into a big disagreement between the U.S. and China — two of the most powerful countries on Earth.",
+              "Iran's foreign minister brushed off the threat, saying the U.S. should worry about its own money problems instead. The U.S. owes more than $40 trillion in debt — a number with 13 zeros. Iran also warned it has stronger weapons ready if fighting starts again, and another country, the United Arab Emirates, said it would stop trading with Iran for now."
+            ],
+            "zh": [
+              "特朗普在网上发帖说，他要给任何继续和伊朗做生意的国家带来\"巨大的经济后果\"。这是在美国的军事打击和\"封锁\"——用军舰阻止其他船只前往某个国家——都没能阻止战斗之后发生的。",
+              "这个警告震动了全世界的石油市场。石油被用来制造汽车用的汽油和飞机用的燃料，所以它的价格变化几乎影响到每一个人。特朗普发出威胁后，一桶石油（一桶大约有一个大垃圾桶那么大）的价格涨到了将近94美元，是自七月以来的最高价。",
+              "很多专家认为，这个警告其实根本不是针对伊朗的。它针对的是中国。中国购买了伊朗卖给其他国家的几乎所有石油，所以这个威胁可能会演变成美国和中国这两个世界上最强大的国家之间的大争端。",
+              "伊朗外交部长对这个威胁不以为然，说美国应该先担心自己的财务问题。美国欠下的债务已经超过40万亿美元——这是一个有13个零的数字。伊朗还警告说，如果战斗重新开始，它已经准备好了更具\"破坏性\"的武器，而另一个国家阿拉伯联合酋长国则表示暂时停止与伊朗的贸易往来。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When oil gets more expensive, it can cost your family more to drive a car or take a bus, and it can even make food cost more, because trucks need fuel to deliver it to stores. This disagreement also shows how the U.S., China, and Iran are all connected — a decision made far away can end up changing prices right at home.",
+            "zh": "当石油变贵，你家开车或坐公交车的花费可能会增加，甚至食物价格也可能上涨，因为运送食物的卡车也需要燃料。这场争端也说明了美国、中国和伊朗是如何紧密相连的——一个在遥远地方做出的决定，最终也可能改变你家附近的价格。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Economic Sanctions",
+                "zh": "经济制裁"
+              },
+              "def": {
+                "en": "When one country punishes another by refusing to trade with it or making trade very difficult, hoping this will change the other country's behavior.",
+                "zh": "当一个国家通过拒绝与另一个国家做生意，或让贸易变得非常困难来惩罚对方，希望以此改变对方的行为。"
+              }
+            },
+            {
+              "term": {
+                "en": "Blockade",
+                "zh": "封锁"
+              },
+              "def": {
+                "en": "When a country uses warships to stop other ships from reaching a place, like blocking the only door to a store so no one can go in or out.",
+                "zh": "一个国家用军舰阻止其他船只到达某个地方，就像堵住商店唯一的一扇门，让谁都进不去也出不来。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for the U.S. to punish other countries for buying oil from Iran, even if those countries had nothing to do with the fighting?",
+                "zh": "美国惩罚那些购买伊朗石油的国家，即使这些国家和这场战斗毫无关系，这公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair",
+                    "zh": "是的，公平"
+                  },
+                  "points": {
+                    "en": [
+                      "If a country wants to stop a war, sometimes it has to make it hard for the fighting side to get money, even if that means asking others to stop trading too.",
+                      "Countries that keep trading with Iran are indirectly helping pay for the fighting, since Iran uses oil money to buy weapons.",
+                      "The U.S. gets to choose who it trades with, and other countries can decide for themselves whether losing that trade is worth it."
+                    ],
+                    "zh": [
+                      "如果一个国家想阻止战争，有时候就必须让交战的一方难以获得资金，即使这意味着要求其他国家也停止贸易。",
+                      "继续和伊朗做生意的国家，其实是在间接帮助伊朗支付战争费用，因为伊朗用卖石油的钱买武器。",
+                      "美国有权选择和谁做生意，其他国家也可以自己决定，失去和美国的贸易是否值得。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair",
+                    "zh": "不，不公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries like China need oil to run their factories and cities, so punishing them could hurt ordinary people who had nothing to do with the war.",
+                      "It seems unfair to threaten a country that had no part in the original fighting, just because it buys something it needs.",
+                      "This could make other countries feel bullied, and might make them angrier at the U.S. than at Iran."
+                    ],
+                    "zh": [
+                      "像中国这样的国家需要石油来运转工厂和城市，惩罚它们可能会伤害那些与这场战争毫无关系的普通人。",
+                      "仅仅因为一个国家购买它所需要的东西，就威胁这个与最初的战斗毫无关系的国家，这似乎不公平。",
+                      "这可能让其他国家感觉被欺负了，甚至可能让它们更生美国的气，而不是伊朗的气。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a leader posts a big threat on social media, should people take it as seriously as an official announcement?",
+                "zh": "当一位领导人在社交媒体上发出重大威胁时，人们应该像对待正式声明一样认真对待吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, take it seriously",
+                    "zh": "是的，应该认真对待"
+                  },
+                  "points": {
+                    "en": [
+                      "Oil prices already jumped after this post, showing that people around the world believe the leader means what he says.",
+                      "The president has the power to actually carry out what he threatens, so ignoring it could be risky for countries and companies.",
+                      "Leaders often use public posts to prepare people for real actions they plan to take later."
+                    ],
+                    "zh": [
+                      "这篇帖子发出后，石油价格立刻上涨，说明全世界的人都相信这位领导人是认真的。",
+                      "总统有权力真正实施他所威胁的事情，所以忽视这些话对国家和公司来说都可能很危险。",
+                      "领导人常常用公开发帖的方式，为他们之后打算采取的真实行动做铺垫。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't rush to take it seriously",
+                    "zh": "不，不该急着当真"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders sometimes say strong things just to sound tough, without a real plan to act right away.",
+                      "A social media post isn't the same as an official law or order, which take much longer and involve many more people to make happen.",
+                      "Reacting too quickly to one post can cause panic — like the oil price jump — even if nothing actually changes."
+                    ],
+                    "zh": [
+                      "领导人有时说狠话只是为了显得强硬，并没有立刻行动的真正计划。",
+                      "社交媒体帖子和正式的法律或命令不一样，后者需要更长时间，也需要更多人的参与才能真正实施。",
+                      "对一条帖子反应过快，可能会引发恐慌——就像石油价格的上涨——即使实际上什么都没有改变。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Trump Threatens 'Economic Warfare' Over Iran — But the Real Target Might Be China",
+            "zh": "特朗普威胁对伊朗发动“经济战”——但真正目标可能是中国"
+          },
+          "hook": {
+            "en": "President Trump posted online that he would hit any country still trading with Iran with 'TREMENDOUS economic consequences.' The threat came after U.S. military strikes and a naval blockade failed to stop the fighting, and it sent oil prices jumping to nearly $94 a barrel, the highest price in months.",
+            "zh": "特朗普总统在社交媒体上发文称,任何继续与伊朗做生意的国家都将面临“巨大的经济后果”。这一威胁是在美国的军事打击和海军封锁都未能阻止战事之后发出的,消息一出,国际油价随即飙升至每桶近94美元,创下数月来的新高。"
+          },
+          "story": {
+            "en": [
+              "When a country's leader says they'll punish anyone doing business with an enemy nation, it's usually a sign that other options have run out. That's roughly what happened here. The U.S. had already tried bombing Iranian targets and blockading Iran's coastline with warships — cutting off ships trying to enter or leave — to pressure Iran to stop fighting. Neither worked. So Trump turned to a different weapon: money. He called for a campaign of 'economic warfare,' meaning the U.S. would try to choke Iran's economy by punishing any country that keeps buying its oil.",
+              "Oil is the kind of thing that quietly touches almost everything. It's not just what goes in cars — it's used to make plastic, to ship goods across oceans, and to run factories. So when traders around the world got nervous that a bigger fight over Iranian oil was coming, the price of crude oil jumped to almost $94 a barrel, its highest point since late July. Higher oil prices tend to ripple outward into higher prices for gas, shipping, and everyday goods, everywhere, not just in the countries directly involved.",
+              "Here's where the story gets more complicated. Bloomberg's reporting points out that the country buying the overwhelming majority of Iran's oil isn't some small, easily-pressured nation — it's China. That means Trump's threat, even though it's framed as being about Iran, is really landing on the world's second-largest economy. Some analysts see this less as a move to punish Iran and more as a test of how far the U.S. is willing to go in a economic standoff with China, using Iran as the pressure point.",
+              "Iran's foreign minister wasn't impressed. He dismissed the threat as a distraction, pointing to a New York Times report that U.S. national debt — the total amount the American government has borrowed and still owes — has now passed $40 trillion, an almost unimaginable number. His argument was essentially: how credible is a threat of economic punishment from a country that owes that much money itself? Iran also separately warned that if the war resumes, it could use more 'destructive' weapons than it has so far, raising the stakes further.",
+              "Meanwhile, the United Arab Emirates, a close U.S. ally in the region, suspended its own trade dealings with Iran — a sign that the pressure campaign is already reshaping decisions well beyond Washington and Tehran. What isn't settled, and may not be for a while, is how much of this is genuinely about stopping Iran's war, and how much is about using Iran as leverage against China. Different observers read the same set of facts in very different ways."
+            ],
+            "zh": [
+              "当一国领导人扬言要惩罚任何与敌对国家做生意的人时,通常说明其他办法都已用尽。这次的情况大致如此。美国此前已经轰炸过伊朗的军事目标,并用军舰对伊朗海岸线实施封锁——阻止船只进出——试图迫使伊朗停战。但这两招都没能奏效。于是特朗普转向了另一种武器:金钱。他呼吁发动一场“经济战”,意思是美国将设法通过惩罚任何继续购买伊朗石油的国家,来扼杀伊朗的经济。",
+              "石油是那种悄悄影响几乎一切的东西。它不仅仅是汽车用的燃料——塑料的制造、货物的跨海运输、工厂的运转都离不开它。所以当全球交易商担心围绕伊朗石油会爆发更大冲突时,原油价格跳涨至每桶近94美元,创下自7月下旬以来的最高水平。油价上涨往往会波及汽油价格、运输成本和日用品价格,而且不只是在直接卷入的国家,全世界都会受到影响。",
+              "故事在这里变得更加复杂。彭博社的报道指出,购买伊朗绝大部分石油出口的国家,并不是什么容易被施压的小国——而是中国。这意味着特朗普的威胁,虽然表面上针对伊朗,实际上落在了世界第二大经济体身上。一些分析人士认为,这与其说是要惩罚伊朗,不如说是在试探美国在与中国的经济对峙中愿意走多远,而伊朗只是施压的支点。",
+              "伊朗外长对此并不买账。他将这一威胁斥为转移视线之举,并援引《纽约时报》的一篇报道称,美国国家债务——即美国政府借款尚未偿还的总额——如今已突破40万亿美元,这是一个几乎难以想象的数字。他的论点基本是:一个自己欠下如此巨债的国家,发出的经济惩罚威胁又有多少可信度呢?伊朗还另外警告称,如果战事重启,它可能动用比目前更具“破坏性”的武器,使局势进一步升级。",
+              "与此同时,美国在该地区的重要盟友阿拉伯联合酋长国已暂停了与伊朗的贸易往来——这表明这场施压行动已经开始重塑华盛顿与德黑兰之外的诸多决策。目前尚未有定论、可能在相当长时间内也不会有定论的是,这一切究竟在多大程度上真的是为了制止伊朗的战争,又在多大程度上是把伊朗当作筹码来对付中国。不同的观察者对同一组事实,给出了截然不同的解读。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When oil prices jump like this, it doesn't stay confined to Iran or the Middle East — it can show up in the price of gas your family pays, the cost of things shipped from overseas, and even how expensive plastic products get. It's also a reminder that big political fights often get fought with money and trade rules, not just soldiers, and that a threat aimed at one country can quietly be aimed at another.",
+            "zh": "油价这样跳涨,影响不会只局限于伊朗或中东——它可能反映在你家加油要花的钱、从海外运来的商品价格,甚至塑料制品的成本上。这也提醒我们,许多重大的政治较量其实是靠金钱和贸易规则来打的,而不仅仅是靠士兵;一个表面上针对某国的威胁,背地里可能瞄准的是另一个国家。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "economic warfare",
+                "zh": "经济战"
+              },
+              "def": {
+                "en": "Using money, trade, and financial punishment instead of weapons to weaken another country.",
+                "zh": "指用金钱、贸易和经济惩罚而非武器来削弱另一个国家的做法。"
+              }
+            },
+            {
+              "term": {
+                "en": "naval blockade",
+                "zh": "海军封锁"
+              },
+              "def": {
+                "en": "Using warships to stop ships from entering or leaving a country's ports, cutting off its trade.",
+                "zh": "用军舰阻止船只进出一个国家的港口,从而切断其贸易往来。"
+              }
+            },
+            {
+              "term": {
+                "en": "national debt",
+                "zh": "国家债务"
+              },
+              "def": {
+                "en": "The total amount of money a government has borrowed over time and still needs to pay back.",
+                "zh": "一个政府长期以来借入、尚未偿还的债务总额。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for the U.S. to threaten economic punishment on countries just for trading with Iran, even if those countries aren't part of the fighting?",
+                "zh": "仅仅因为某些国家与伊朗做生意,美国就威胁对其进行经济惩罚,这公平吗?即便这些国家并未参与战事。"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a justified use of pressure",
+                    "zh": "是的,这是合理的施压手段"
+                  },
+                  "points": {
+                    "en": [
+                      "Economic pressure can push a country to stop fighting without anyone having to fire a weapon, making it a less deadly option than war.",
+                      "Countries that keep buying a warring nation's oil are, in effect, helping fund that war, so it's reasonable to hold them partly responsible.",
+                      "A powerful country using its economic leverage might end a conflict faster than years of fighting would, saving lives on all sides."
+                    ],
+                    "zh": [
+                      "经济施压有可能在无人开枪的情况下迫使一国停止战斗,是比战争伤亡更小的选择。",
+                      "持续购买交战国石油的国家,实际上是在为这场战争提供资金,让它们承担部分责任并不为过。",
+                      "一个大国利用经济杠杆,或许能比多年战争更快结束冲突,从而挽救各方的生命。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's unfair pressure on bystanders",
+                    "zh": "不,这是对局外国家的不公平施压"
+                  },
+                  "points": {
+                    "en": [
+                      "Punishing countries for their own trade decisions can look like bullying, especially toward smaller nations with fewer options.",
+                      "Targeting a major power like China this way risks turning a regional conflict into a much bigger economic confrontation.",
+                      "It punishes ordinary businesses and citizens in third countries for a war they had no part in starting."
+                    ],
+                    "zh": [
+                      "因一国自身的贸易决定而对其加以惩罚,看起来像是恃强凌弱,尤其对选择更少的小国而言。",
+                      "以这种方式针对中国这样的大国,可能把一场地区冲突升级为更大规模的经济对抗。",
+                      "这会让第三国的普通企业和民众,为一场他们并未参与挑起的战争买单。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Given that the U.S. has its own trillion-dollar debt problem, does that weaken its threat of economic punishment against other countries?",
+                "zh": "既然美国自身背负着数万亿美元的债务问题,这是否会削弱它对其他国家发出的经济惩罚威胁的可信度?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it undercuts the threat",
+                    "zh": "是的,这削弱了威胁的可信度"
+                  },
+                  "points": {
+                    "en": [
+                      "A country deep in debt threatening 'economic warfare' can look hypocritical, since its own economy runs partly on borrowed money.",
+                      "Other nations can point to America's debt as proof the threat is more bluster than real financial strength.",
+                      "Heavy debt limits how much economic pain the U.S. could actually sustain if targeted countries retaliated with their own trade measures."
+                    ],
+                    "zh": [
+                      "一个深陷债务的国家扬言发动“经济战”,难免显得有些虚伪,因为它自己的经济也部分靠借债运转。",
+                      "其他国家可以拿美国的债务当作证据,说明这威胁更多是虚张声势,而非真正的经济实力。",
+                      "沉重的债务限制了美国真正能够承受的经济代价,一旦被针对的国家采取反制贸易措施,情况会更棘手。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, debt doesn't erase economic power",
+                    "zh": "不,债务并不会抹去经济实力"
+                  },
+                  "points": {
+                    "en": [
+                      "The size and importance of an economy is different from how much debt it carries — the U.S. is still the world's largest market.",
+                      "Threats work based on who needs whom, and many countries still depend on access to U.S. markets and banks regardless of U.S. debt levels.",
+                      "National debt is a long-term financial issue, not something that limits a country's ability to act on trade policy right now."
+                    ],
+                    "zh": [
+                      "一个经济体的规模和重要性,与它背负的债务多少是两码事——美国仍然是世界上最大的市场。",
+                      "威胁是否有效取决于谁更依赖谁,许多国家无论美国债务多高,依然离不开美国的市场和银行体系。",
+                      "国家债务是一个长期的财政问题,并不会限制一个国家眼下在贸易政策上采取行动的能力。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Trump Threatens \"Economic Warfare\" Over Iran — But China May Be the Real Target",
+            "zh": "特朗普扬言对伊朗发动“经济战”——但真正目标可能是中国"
+          },
+          "hook": {
+            "en": "President Trump said he would impose \"TREMENDOUS economic consequences\" on any country still trading with Iran, after U.S. military strikes and a naval blockade failed to stop the fighting. The threat pushed global oil prices to almost $94 a barrel, the highest since late July. Because China buys most of Iran's oil, many analysts think the real message was aimed at Beijing, not Tehran.",
+            "zh": "特朗普总统表示，将对任何继续与伊朗贸易的国家施加“巨大的经济后果”，此前美国的军事打击和海军封锁都未能阻止战事。这一威胁一出，全球原油价格立刻涨到近每桶94美元，创下7月底以来的新高。由于中国是伊朗石油最大买家，不少分析人士认为，这番话真正的对象其实是北京，而非德黑兰。"
+          },
+          "story": {
+            "en": [
+              "Donald Trump posted the threat on social media in blunt, capitalized terms — \"TREMENDOUS economic consequences\" — aimed at any nation that keeps buying Iranian oil or otherwise trades with Tehran. It came after weeks in which U.S. airstrikes on Iranian targets and a naval blockade meant to choke off Iran's oil shipments had both failed to bring the fighting to an end. The post read less like a diplomatic statement than an ultimatum, and markets treated it that way.",
+              "Global crude oil jumped to nearly $94 a barrel within hours, its highest price since late July. Oil traders move fast on threats like this because a blockade or new sanctions regime can genuinely cut supply, and even the possibility of that is enough to make buyers pay more today rather than risk paying far more later. For anyone who drives a car, heats a home with oil, or buys anything shipped by truck or ship, a spike like this eventually shows up in ordinary bills.",
+              "Bloomberg's reporting on the threat pointed to an inconvenient detail: the countries that would actually feel \"tremendous economic consequences\" are not really Iran's smaller trading partners — they are dominated by one buyer. China purchases the overwhelming majority of Iran's oil exports, often through a network of independent refineries that get around existing sanctions. That makes any serious attempt to stop Iran's oil trade, in practice, an attempt to stop China's oil trade — turning a regional conflict into a test of how far Washington is willing to push Beijing.",
+              "Iran's foreign minister was dismissive, framing the threat as a distraction from America's own financial troubles rather than a serious danger to Iran. He pointed to a New York Times report that U.S. national debt — the total amount the U.S. government owes to its lenders — has now passed $40 trillion, arguing that a country in that much debt is in no position to lecture others about economic pain. It was as much a rhetorical jab as a policy argument, but it was clearly meant to be read in Washington as well as Tehran.",
+              "Iran did not stop at words of dismissal. It separately warned that it could deploy weapons it described as more \"destructive\" if the fighting resumes, a warning meant to signal that further military pressure carries its own risks. Meanwhile the United Arab Emirates, a close U.S. partner in the Gulf and a major regional trading hub, announced it was suspending its own trade dealings with Iran — a sign that regional governments are hedging against a wider economic and military confrontation rather than waiting to see how the standoff between Washington and Beijing plays out.",
+              "What remains genuinely unsettled is what this pressure campaign is actually for. One reading is that it is a conventional, if aggressive, attempt to squeeze Iran's economy until its government changes course on the fighting. The other reading, favored by much of the financial press, is that Iran has become the pretext for a much larger contest: whether the United States can force China, its biggest strategic rival, to give up a major and cheap source of oil. Both readings can be true at once, which is part of why the threat has rattled markets rather than reassured anyone."
+            ],
+            "zh": [
+              "特朗普在社交媒体上用直白、全部大写的语气发出这条威胁——“巨大的（TREMENDOUS）经济后果”——针对任何继续购买伊朗石油或与德黑兰进行贸易的国家。此前数周，美军对伊朗目标发动的空袭，以及旨在切断伊朗石油运输的海军封锁，都未能让战事平息。这条帖子读起来不像外交声明，更像最后通牒，市场也是这样反应的。",
+              "短短几小时内，全球原油价格跳涨至近每桶94美元，创下7月底以来的新高。石油交易员对这类威胁反应迅速，因为封锁或新一轮制裁确实可能真的切断供应，哪怕只是这种可能性，也足以让买家宁愿现在多付钱，也不愿冒着日后付出更高代价的风险。对于开车、用油取暖，或购买任何通过卡车或轮船运输商品的人来说，这样的价格飙升迟早会体现在日常账单里。",
+              "彭博社关于这一威胁的报道指出了一个尴尬的细节：真正会感受到“巨大经济后果”的，并不是伊朗那些规模较小的贸易伙伴——这个市场其实由一个买家主导。中国购买了伊朗绝大部分的石油出口，往往通过一批独立炼油厂来绕开现有制裁。这意味着，任何认真想阻止伊朗石油贸易的举动，实际上都等于想阻止中国的石油贸易——这就把一场地区冲突，变成了华盛顿愿意在多大程度上向北京施压的一次考验。",
+              "伊朗外长对此不以为然，将这一威胁定性为对美国自身财政困境的转移视线，而非对伊朗的真正威胁。他引用《纽约时报》的一篇报道称，美国国家债务——即美国政府欠债权人的总额——如今已突破40万亿美元，并借此反驳说，一个负债如此之重的国家没有资格教训别人经济上的痛苦。这与其说是政策论点，不如说是一记言辞上的反击，但显然既是说给德黑兰听的，也是说给华盛顿听的。",
+              "伊朗并未止步于言辞上的轻蔑。它还另外警告称，如果战事重启，可能会动用其所称“更具毁灭性”的武器，意在表明进一步的军事施压本身也带有风险。与此同时，美国在海湾地区的重要伙伴、区域贸易枢纽阿联酋宣布暂停与伊朗的贸易往来——这表明地区各国正在为一场更大范围的经济和军事对抗未雨绸缪，而不是坐等华盛顿与北京之间的对峙如何收场。",
+              "真正悬而未决的是，这场施压行动到底意欲何为。一种解读是，这不过是一次常规但强硬的手段，意在挤压伊朗经济，直到其政府在战事上改变立场。另一种解读——为许多财经媒体所倾向——是伊朗已经沦为一个更大博弈的借口：美国能否迫使其最大的战略对手中国，放弃一项重要且廉价的石油来源。这两种解读完全可以同时成立，这也正是为何这一威胁搅动了市场，却没能让任何一方感到安心。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil price spikes like this one ripple into gas pump prices, heating bills, and the cost of anything shipped by sea or truck, so a threat made over Iran can end up costing money in places that have nothing to do with the Middle East. It also shows how a regional war can quietly turn into a test of U.S.-China relations, meaning decisions made in this standoff could shape trade, prices, and diplomacy well beyond Iran itself.",
+            "zh": "像这样的油价飙升会一路传导到加油站价格、取暖账单，以及任何通过海运或陆运商品的成本，因此一场围绕伊朗发出的威胁，最终可能让与中东毫不相干的地方也要为此掏钱。这也说明一场地区战争会如何悄然演变成中美关系的一次考验，意味着这场对峙中做出的决定，其影响可能远远超出伊朗本身，波及贸易、物价与外交格局。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Economic warfare",
+                "zh": "经济战"
+              },
+              "def": {
+                "en": "Using financial pressure — like sanctions, trade bans, or blocked payments — instead of soldiers or weapons to force another country to change its behavior.",
+                "zh": "指用金融手段——比如制裁、贸易禁令或阻断支付——而非士兵或武器，来迫使另一个国家改变行为的做法。"
+              }
+            },
+            {
+              "term": {
+                "en": "Naval blockade",
+                "zh": "海军封锁"
+              },
+              "def": {
+                "en": "When a country uses warships to physically stop ships from entering or leaving another country's ports, cutting off trade like oil exports.",
+                "zh": "指一个国家出动军舰，从物理上阻止船只进出另一国港口，从而切断石油出口等贸易往来。"
+              }
+            },
+            {
+              "term": {
+                "en": "National debt",
+                "zh": "国家债务"
+              },
+              "def": {
+                "en": "The total amount of money a government owes to the people, banks, and other countries it has borrowed from over time.",
+                "zh": "指一个政府长期以来向民众、银行及其他国家借款所欠下的总金额。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. threaten broad economic sanctions on any country trading with Iran, even when that mainly means pressuring a major partner like China and risking a global oil price spike?",
+                "zh": "美国是否应该威胁对任何与伊朗贸易的国家施加广泛的经济制裁，即便这实质上主要是在向中国这样的重要贸易伙伴施压，并可能引发全球油价飙升？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Maximum pressure is justified",
+                    "zh": "最大限度施压是正当的"
+                  },
+                  "points": {
+                    "en": [
+                      "Sanctions have historically pushed governments toward negotiation without requiring direct military conflict.",
+                      "Iran's oil revenue helps fund weapons and armed groups that threaten regional stability, so cutting that income directly reduces the danger.",
+                      "If large buyers are allowed to keep purchasing Iranian oil freely, any sanctions regime becomes symbolic rather than effective."
+                    ],
+                    "zh": [
+                      "历史上，制裁曾多次促使一国政府走向谈判桌，而无需诉诸直接的军事冲突。",
+                      "伊朗的石油收入被用来资助武器和武装团体，威胁地区稳定，因此切断这笔收入能直接降低危险。",
+                      "如果放任大买家继续自由购买伊朗石油，任何制裁体系都会沦为象征性的摆设，而非真正有效。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "This is overreach",
+                    "zh": "这是过度施压"
+                  },
+                  "points": {
+                    "en": [
+                      "Threatening to punish a sovereign country's trade choices, especially a major power like China, is a form of coercion many see as illegitimate.",
+                      "Broad threats like \"any country\" drive up oil prices for everyone, including ordinary people far from the conflict, not just the intended target.",
+                      "Using Iran as leverage against China risks turning a regional war into a much larger and more dangerous great-power confrontation."
+                    ],
+                    "zh": [
+                      "威胁惩罚一个主权国家的贸易选择，尤其是像中国这样的大国，被许多人视为一种不正当的胁迫手段。",
+                      "像“任何国家”这样宽泛的威胁会推高所有人的油价，包括远离冲突、与此毫无关系的普通民众，而不仅仅是目标对象。",
+                      "把伊朗当作向中国施压的筹码，有可能把一场地区战争升级为更大、更危险的大国对抗。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it appropriate for a president to announce a major foreign policy threat like this through a social media post, rather than through official diplomatic channels?",
+                "zh": "总统通过社交媒体发帖来宣布这样一项重大外交威胁，而不是通过正式外交渠道，这种做法是否恰当？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's effective, direct signaling",
+                    "zh": "这是有效且直接的信号传递"
+                  },
+                  "points": {
+                    "en": [
+                      "A fast, blunt public statement can strengthen deterrence by making a threat impossible for adversaries to misread.",
+                      "Public pressure can mobilize domestic and international attention faster than slow, closed-door diplomacy.",
+                      "Modern leaders increasingly communicate policy through public platforms, and adversaries already treat those statements as official positions."
+                    ],
+                    "zh": [
+                      "快速而直白的公开表态能够强化威慑效果，让对手无法误读这一威胁。",
+                      "公开施压能比缓慢的闭门外交更快地调动国内外的关注。",
+                      "当代领导人越来越多地通过公开平台传达政策，而对手也早已将这些表态视为官方立场。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's reckless and undermines diplomacy",
+                    "zh": "这是鲁莽之举，会损害外交进程"
+                  },
+                  "points": {
+                    "en": [
+                      "Off-the-cuff public threats can spook global markets instantly, as the oil price spike shows, without any groundwork to manage the fallout.",
+                      "It removes the ambiguity and quiet flexibility that diplomats normally rely on to walk back tensions without losing face.",
+                      "It puts a leader's personal credibility on the line in public, making it harder to either follow through responsibly or de-escalate without appearing weak."
+                    ],
+                    "zh": [
+                      "未经深思的公开威胁可能瞬间搅动全球市场，油价飙升就是明证，而事先却没有任何应对后果的铺垫。",
+                      "它消除了外交官通常赖以化解紧张局势、又不失颜面所需的那种模糊空间和灵活余地。",
+                      "这会让领导人的个人信誉在公众面前受到考验，使得无论是负责任地兑现威胁，还是体面地降级，都变得更加困难。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "CN",
+      "source": {
+        "title": "China Sentences Evergrande Founder Hui Ka Yan to Life in Prison",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-sentences-evergrande-founder-hui-ka-yan-to-life-in-prison"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Hong Kong Convicts Tiananmen Vigil Organizers of Subversion",
+            "zh": "香港法院裁定天安门守夜活动组织者\"煽动颠覆\"罪成"
+          },
+          "summary": {
+            "en": "In the same week as the Evergrande sentencing, Hong Kong courts delivered another high-profile guilty verdict against pro-democracy figures, showing how Beijing's tightening grip now spans both business and political life.",
+            "zh": "就在恒大案宣判的同一周,香港法院对民主派人士作出另一项引人注目的有罪判决,显示北京的管控收紧已同时延伸至商业与政治领域。"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/20/china/hong-kong-china-tiananmen-vigil-verdict-hnk-intl"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Meta Becomes One of Microsoft's Largest AI Customers",
+            "zh": "Meta成为微软最大的人工智能客户之一"
+          },
+          "summary": {
+            "en": "As China's most famous property tycoon is sentenced to life, this Bloomberg report shows the opposite story unfolding in U.S. tech, where Meta spends hundreds of millions a year on Microsoft's cloud AI services.",
+            "zh": "就在中国最著名的地产大亨被判无期徒刑之际,这篇彭博社报道展示了美国科技行业截然不同的景象:Meta每年在微软云端人工智能服务上花费数亿美元。"
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-20/meta-has-quietly-become-one-of-microsoft-s-largest-ai-customers"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "The Man Who Built China's Biggest Housing Company Is Sent to Prison Forever",
+            "zh": "建造中国最大房地产公司的人被判终身监禁"
+          },
+          "hook": {
+            "en": "A man named Hui Ka Yan once built more apartment buildings in China than almost anyone else. His company, Evergrande, grew so big that he became one of the richest people in Asia. Now a court has sentenced him to life in prison, meaning he will likely never be free again.",
+            "zh": "一个叫许家印的人曾经在中国建造了比几乎所有人都多的公寓楼。他的公司恒大越做越大，他也一度成为亚洲最富有的人之一。现在法院判处他终身监禁，这意味着他很可能再也无法获得自由。"
+          },
+          "story": {
+            "en": [
+              "Hui Ka Yan started a company called Evergrande and turned it into China's largest builder of homes. For years, Evergrande put up huge apartment towers in cities all across the country, and millions of families bought homes built by his company.",
+              "But Evergrande had borrowed enormous amounts of money to build all those buildings, more than it could ever pay back. In 2021, the company ran out of money and could not repay what it owed. This is called a default, and it means breaking a promise to pay money back.",
+              "The trouble did not stay inside one company. Other builders across China got scared and stopped building as much, workers lost jobs, and some families who had already paid for apartments worried they might never get their homes finished. The whole country's property business, one of its biggest industries, has struggled ever since.",
+              "Right now, only one news organization, Bloomberg, has reported this life sentence. No other major news outlet has confirmed the exact details yet, so some facts about the case, like exactly what Hui Ka Yan was charged with, are still not fully clear."
+            ],
+            "zh": [
+              "许家印创办了恒大公司，把它做成了中国最大的住房建造商。多年来，恒大在全国各地的城市里盖起了一栋栋巨大的公寓楼，数百万个家庭购买了这家公司建造的房子。",
+              "但为了盖这么多楼，恒大借了巨额的钱，多到根本无法还清。2021年，公司耗尽了资金，无法偿还欠下的债务。这被称为“违约”，意思是没有兑现还钱的承诺。",
+              "麻烦并没有只留在这一家公司里。中国各地的其他建筑商也感到害怕，减少了建房，工人们因此失业，一些已经付了钱买房的家庭担心自己的房子可能永远也建不完。整个房地产行业——中国最大的产业之一——从那以后一直在苦苦挣扎。",
+              "目前，只有彭博社一家新闻机构报道了这次终身监禁的判决。还没有其他主要媒体证实这些细节，所以案件的一些事实，比如许家印到底被指控犯了什么罪，仍然不完全清楚。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When a company this big breaks its promise to pay back money, it is not just a story about one rich man losing everything, it is a story about millions of ordinary families and workers whose homes and jobs depended on that company staying steady. It also shows what can happen when someone borrows far more money than they can ever repay, a lesson that matters whether you are running a giant company or saving up your allowance.",
+            "zh": "当一家这么大的公司违背了还钱的承诺时，这不仅仅是一个富人失去一切的故事，更关系到数百万普通家庭和工人，他们的住房和工作都曾依赖这家公司保持稳定。这也说明了当一个人借的钱远远超过自己能还清的数额时会发生什么，这个道理无论是对经营巨型公司的人，还是对攒零花钱的孩子来说，都同样重要。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Property developer",
+                "zh": "房地产开发商"
+              },
+              "def": {
+                "en": "A property developer is a company or person that builds houses, apartments, or office buildings and then sells or rents them out.",
+                "zh": "房地产开发商是建造房屋、公寓或写字楼，然后再出售或出租的公司或个人。"
+              }
+            },
+            {
+              "term": {
+                "en": "Default",
+                "zh": "违约"
+              },
+              "def": {
+                "en": "A default happens when someone borrows money and then cannot pay it back as promised.",
+                "zh": "违约是指一个人借了钱，之后却无法按照承诺还清。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Hui Ka Yan built homes for millions of families but also borrowed money he could never pay back, hurting workers and buyers when his company collapsed. Is a life sentence a fair punishment for that?",
+                "zh": "许家印为数百万家庭建造了房屋，但也借了永远无法还清的钱，公司倒下时，工人和买房者都受到了伤害。终身监禁对他来说是公平的惩罚吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it is fair",
+                    "zh": "是的，这是公平的"
+                  },
+                  "points": {
+                    "en": [
+                      "So many people were hurt for so long that the punishment should match the size of the harm.",
+                      "A strong punishment might make other business leaders more careful with other people's money.",
+                      "When someone in charge causes this much damage, letting them go free would feel unfair to everyone who lost their home or job."
+                    ],
+                    "zh": [
+                      "这么多人受到了这么长时间的伤害，惩罚的力度应该与伤害的程度相匹配。",
+                      "严厉的惩罚也许能让其他企业负责人更加谨慎地对待别人的钱。",
+                      "一个负责人造成了这么大的损失，如果让他逍遥法外，对那些失去房子或工作的人来说是不公平的。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it is too harsh",
+                    "zh": "不，这太严厉了"
+                  },
+                  "points": {
+                    "en": [
+                      "Making risky business decisions is different from intentionally trying to hurt people.",
+                      "Many other people, like bankers and government officials, also helped make the decisions that led to the collapse, so it seems unfair that one person bears all the blame.",
+                      "A life sentence means he can never work to try to fix or pay back any of the damage he caused."
+                    ],
+                    "zh": [
+                      "做出冒险的商业决定，和故意想要伤害别人是不同的。",
+                      "还有很多其他人，比如银行家和政府官员，也参与了导致公司倒下的决策，让一个人承担全部责任似乎不公平。",
+                      "终身监禁意味着他再也没有机会去努力弥补或偿还他造成的损失。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should governments limit how much money a company is allowed to borrow, even if that slows down how fast it can build things people want?",
+                "zh": "即使会让公司建造人们想要的东西的速度变慢，政府是否应该限制公司能够借多少钱？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, limits help",
+                    "zh": "是的，限制有帮助"
+                  },
+                  "points": {
+                    "en": [
+                      "Limits protect everyday families who depend on a company staying steady and finishing what it promised.",
+                      "When one huge company borrows too much and fails, the trouble can spread and hurt many other businesses and workers too.",
+                      "Rules can stop leaders from taking reckless risks with money that belongs to other people, like homebuyers and banks."
+                    ],
+                    "zh": [
+                      "限制可以保护依赖公司保持稳定、完成承诺的普通家庭。",
+                      "当一家巨型公司借了太多钱又失败时，麻烦会蔓延，伤害到许多其他企业和工人。",
+                      "规则可以阻止负责人拿属于别人的钱——比如购房者和银行的钱——去冒险。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, companies need freedom",
+                    "zh": "不，公司需要自由"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies often need to borrow a lot of money to build big, useful things like homes and roads quickly.",
+                      "Too many rules can slow down how fast people get the homes and buildings they need.",
+                      "Businesses should be trusted to make their own decisions and learn from their own mistakes."
+                    ],
+                    "zh": [
+                      "公司往往需要借很多钱才能迅速建造房屋、道路这类有用的大型工程。",
+                      "太多的规则可能会拖慢人们获得所需住房和建筑的速度。",
+                      "企业应该被信任能够自己做决定，并从自己的错误中吸取教训。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "The Man Who Built China's Biggest Property Company Is Sentenced to Life",
+            "zh": "中国最大房企的创始人被判终身监禁"
+          },
+          "hook": {
+            "en": "Hui Ka Yan, also known as Xu Jiayin, once ranked as Asia's second-richest person and built China's largest property company, has been sentenced to life in prison. His company, China Evergrande, collapsed under a mountain of debt in 2021, an event that shook China's economy for years afterward. The sentencing was reported by Bloomberg; at the time of writing, other major outlets had not yet published their own confirmation of the details.",
+            "zh": "许家印（英文名许家印，公司叫恒大集团），曾是亚洲第二富有的人，一手把恒大打造成中国最大的房地产公司，如今被判处终身监禁。他的公司恒大集团在2021年因债台高筑而崩溃，这场危机之后拖累中国经济好几年。这条消息目前是彭博社报道的，写这篇文章时，其他大型媒体还没有发布自己独立核实的细节。"
+          },
+          "story": {
+            "en": [
+              "For nearly two decades, Hui Ka Yan was one of the most famous businessmen in China. He started with a small company and turned it into Evergrande, a property developer so large it built apartment towers in hundreds of Chinese cities. At his peak, he was worth tens of billions of dollars and was briefly ranked as the second-richest person in all of Asia.",
+              "Evergrande grew during a period when owning an apartment became the main way Chinese families built wealth, much like owning a home is central to many families' savings elsewhere. To keep building faster than almost anyone else, the company borrowed enormous sums of money, betting that home prices would keep climbing and new buyers would keep coming. For years, that bet paid off spectacularly.",
+              "Then in 2021 the bet fell apart. Evergrande could not pay back what it owed, an event called a default, meaning it missed payments on loans worth tens of billions of dollars. Construction stopped on apartment buildings across the country, leaving families who had already paid for their future homes waiting for apartments that were never finished. The shock spread to other property companies and weighed on China's whole economy for years, since real estate and construction touch nearly everything, from steel factories to furniture shops.",
+              "Chinese officials had actually been trying to slow down risky borrowing by property developers before Evergrande's collapse, worried that companies like it were building a financial system too fragile to survive a downturn. That effort is sometimes described as a crackdown, a strict campaign to stop a risky practice. Many analysts see Hui's life sentence as a symbolic closing chapter to that whole crackdown, a signal that the era of unlimited borrowing for property companies is meant to be over for good.",
+              "It's worth being honest about what we don't yet know. So far, only Bloomberg has reported the life sentence, and the report does not spell out the exact charges or precisely how much debt or fraud the punishment is based on. Other outlets that cover China closely, like Reuters or Hong Kong's South China Morning Post, had not confirmed these details at the time this was written, so some specifics may still shift as more reporting comes in."
+            ],
+            "zh": [
+              "近二十年来，许家印一直是中国最著名的商人之一。他从一家小公司起步，把它打造成恒大——一家规模庞大到能在中国几百个城市同时盖高楼的房地产公司。巅峰时期，他的身家高达数百亿美元，一度被列为亚洲第二富有的人。",
+              "恒大成长的那些年，正是买房成为中国家庭积累财富最主要方式的时期，就像在其他一些国家，拥有一套房子是许多家庭储蓄的核心一样。为了比几乎所有对手盖得更快，恒大借了巨额资金，赌的是房价会一直涨、新买家会源源不断地出现。多年来，这个赌注确实收获颇丰。",
+              "但到了2021年，这个赌注崩盘了。恒大无法偿还欠下的债务，这就是所谓的“违约”——意味着它没能按时偿还价值数百亿美元的贷款。全国各地在建的公寓楼纷纷停工，让那些已经预先付款、等着搬进新家的家庭迟迟等不到房子。这场冲击波及了其他房地产公司，也拖累了中国整体经济好几年，因为房地产和建筑业几乎牵动着一切，从钢铁厂到家具店都受到影响。",
+              "实际上，在恒大崩溃之前，中国官员已经在努力遏制房地产公司的高风险借贷，担心像恒大这样的公司正在搭建一个一旦遇到下滑就会崩塌的脆弱金融体系。这种严格的整治行动有时被称为“整顿”。许多分析人士认为，许家印的终身监禁判决象征性地为整个整顿行动画上了句号，传递出一个信号：房地产公司无限借贷的时代应该彻底结束了。",
+              "有一点需要老实说清楚：目前只有彭博社报道了这次终身监禁的判决，报道中并没有说明具体的罪名，也没有详细说明这一判决背后涉及的债务或欺诈金额。截至写这篇文章时，路透社、香港《南华早报》等其他密切关注中国新闻的媒体尚未证实这些细节，因此随着更多报道出现，一些具体信息可能还会有所调整。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "When a company as big as Evergrande borrows too much and then collapses, it isn't just an abstract business story — real families lost apartments they had already paid for, and workers across many industries lost jobs when construction stopped. It's a reminder that big promises built on debt can look successful for a long time before the bill comes due, a lesson that applies far beyond one country's property market.",
+            "zh": "当一家像恒大这样规模巨大的公司借债过度、最终崩塌时，这绝不只是一个抽象的商业故事——真实的家庭因此失去了已经付了钱的房子，很多行业的工人也因为工地停工而丢了工作。这提醒我们：靠借债撑起来的宏大承诺，可能在很长一段时间里看起来很成功，直到最终要还账的那一刻，这个教训远不止适用于一个国家的房地产市场。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "default",
+                "zh": "违约"
+              },
+              "def": {
+                "en": "When a borrower fails to make the payments it promised on money it owes.",
+                "zh": "指借款人未能按照承诺偿还所欠的钱。"
+              }
+            },
+            {
+              "term": {
+                "en": "property developer",
+                "zh": "房地产开发商"
+              },
+              "def": {
+                "en": "A company that buys land, builds buildings on it, and then sells or rents them out.",
+                "zh": "指购买土地、在其上建造建筑，然后出售或出租的公司。"
+              }
+            },
+            {
+              "term": {
+                "en": "crackdown",
+                "zh": "整顿"
+              },
+              "def": {
+                "en": "A strict, sustained effort by a government to stop a practice it sees as risky or harmful.",
+                "zh": "指政府为遏制其认为具有风险或危害的行为而采取的严格、持续的行动。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the leader of a company be given an extremely harsh punishment, like life in prison, when the company's collapse harms millions of ordinary people?",
+                "zh": "当一家公司的崩溃伤害了数百万普通人时，是否应该对公司的领导者施以极其严厉的惩罚，比如终身监禁？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, harsh punishment fits the harm",
+                    "zh": "应该，严惩与伤害相称"
+                  },
+                  "points": {
+                    "en": [
+                      "When a leader's decisions cause huge, widespread damage to ordinary families' savings and homes, the punishment should reflect the scale of that harm.",
+                      "A severe sentence sends a clear warning to other executives that reckless borrowing has real personal consequences, which could prevent future collapses.",
+                      "Many affected families lost money they had saved for years, so treating the case lightly would suggest their losses don't matter much to the legal system."
+                    ],
+                    "zh": []
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it may go too far",
+                    "zh": "不应该，这可能过头了"
+                  },
+                  "points": {
+                    "en": [
+                      "A single person rarely acts alone; banks, regulators, and business partners all played a role, so putting all the blame on one man may be unfair.",
+                      "Extremely harsh sentences can sometimes be used more to send a political signal than to fit the specific facts of a case, which raises questions about fairness.",
+                      "If the exact charges and evidence aren't fully public, it's hard to know whether the punishment truly matches what he did."
+                    ],
+                    "zh": [
+                      "很少有人是单独行动的；银行、监管机构和商业伙伴都在其中扮演了角色，把所有责任都归咎于一个人可能并不公平。",
+                      "极其严厉的判决有时更多是为了传递某种政治信号，而不是完全基于案件本身的具体事实，这就引发了对公正性的疑问。",
+                      "如果具体的罪名和证据没有完全公开，就很难判断这项惩罚是否真的与他所做的事相匹配。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was China's crackdown on property company debt worth the short-term economic pain it caused?",
+                "zh": "中国对房地产公司债务的整顿，是否值得承受它带来的短期经济阵痛？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it prevented a bigger crisis later",
+                    "zh": "值得，它避免了未来更大的危机"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting companies keep borrowing without limits could have led to an even larger collapse later, affecting far more families and businesses.",
+                      "Forcing risky companies to face consequences now discourages the entire industry from repeating the same dangerous behavior.",
+                      "A financial system built on endless borrowing eventually has to correct itself one way or another, so an earlier, controlled correction may cause less overall damage than an uncontrolled one."
+                    ],
+                    "zh": [
+                      "如果放任公司无限制地继续借债，未来可能会引发规模更大的崩溃，波及更多家庭和企业。",
+                      "现在就让高风险公司承担后果，能够遏制整个行业重复同样危险的行为。",
+                      "一个建立在无止境借债之上的金融体系迟早要经历某种调整，所以早一点、可控地调整，可能比失控的调整造成的总体损害更小。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the pain outweighed the benefit",
+                    "zh": "不值得，代价大于收益"
+                  },
+                  "points": {
+                    "en": [
+                      "Millions of ordinary families are still waiting for unfinished apartments they already paid for, and the crackdown didn't fix that problem quickly.",
+                      "The construction slowdown hurt workers and businesses far beyond the property industry, dragging on the broader economy for years.",
+                      "A slower, more gradual approach to reducing risky borrowing might have achieved the same long-term safety without triggering such a sharp, painful crisis."
+                    ],
+                    "zh": [
+                      "数百万普通家庭至今仍在等待自己已经付款却未完工的公寓，整顿行动并没有迅速解决这个问题。",
+                      "建筑业的放缓伤害了远超房地产行业本身的工人和企业，让整体经济连续几年都受到拖累。",
+                      "更缓慢、更循序渐进地降低高风险借贷，或许也能达到同样的长期安全效果，而不必引发如此剧烈、痛苦的危机。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "The Man Who Built China's Biggest Property Empire Gets Life in Prison",
+            "zh": "中国最大地产帝国的缔造者被判无期徒刑"
+          },
+          "hook": {
+            "en": "Hui Ka Yan, the founder of China Evergrande Group, has been sentenced to life in prison, according to Bloomberg. He once built the largest property developer in China and was briefly Asia's second-richest man before his company collapsed under a mountain of debt in 2021, dragging much of China's real-estate sector down with it.",
+            "zh": "据彭博社报道，中国恒大集团创始人许家印（又名Hui Ka Yan）已被判处无期徒刑。他曾一手打造中国最大的房地产开发商，一度是亚洲第二富豪，但公司在2021年因债台高筑而崩塌，也拖累了中国整个房地产行业。"
+          },
+          "story": {
+            "en": [
+              "Hui Ka Yan's story is one of the most extreme rise-and-fall arcs in modern business history. He started as a steel-factory worker and turned Evergrande into a real-estate giant that built entire cities' worth of apartment blocks, sponsored a Chinese football club, and even ventured into electric cars. At his peak, his personal fortune rivalled that of tech billionaires, and Evergrande's growth mirrored — and helped fuel — China's decades-long property boom, a period in which real estate became the backbone of the country's economic growth and, for many families, their single largest investment.",
+              "That boom ran on borrowed money. Evergrande expanded by taking on enormous amounts of debt, using future home sales to pay off past loans in a cycle that worked as long as prices kept rising and buyers kept coming. In 2021, the cycle broke: Evergrande formally defaulted, meaning it failed to make scheduled payments on its debts, and revealed liabilities of more than $300 billion — a number so large that its collapse rippled across the entire Chinese property sector, spooking homebuyers, freezing construction projects, and unsettling investors who held Evergrande's bonds.",
+              "The fallout has weighed on China's economy for years since. Property, once a reliable engine of growth and household wealth, became a source of anxiety instead, with unfinished apartment blocks and cautious buyers slowing an industry that used to account for a large share of the country's economic activity. Hui's sentencing closes a chapter that Beijing has treated as symbolic: a warning to other developers who borrowed just as aggressively during the boom years, and a marker of the government's broader campaign to curb excessive corporate debt.",
+              "What is missing from the public record so far is precision. Bloomberg's report is, at this point, the only account of the life sentence found among the outlets typically covering Chinese business news — corroboration from wire services or other major outlets has not yet surfaced, and the exact charges, the scale of alleged fraud, and the legal reasoning behind a life sentence have not been laid out in detail. That gap matters: China's courts do not always publish full case files, and sentences handed down in politically sensitive corporate cases can carry meanings — as deterrence, as closure, as political signal — that go beyond the legal facts alone.",
+              "Still, the broader arc is not in dispute. Evergrande's default in 2021 was real, its debts were real, and the crisis it triggered across China's property sector was real, touching everyone from construction workers to families who had paid deposits on homes that were never finished. Hui's personal sentencing is the final, human punctuation mark on a story that began with extraordinary ambition and ended with one of the largest corporate collapses in recent memory."
+            ],
+            "zh": [
+              "许家印的故事是现代商业史上最极端的兴衰传奇之一。他从一名钢铁厂工人起家，把恒大打造成一个建造了整座整座城市住宅楼的地产巨头，还赞助了一支中国足球俱乐部，甚至涉足电动汽车行业。在巅峰时期，他的个人财富堪比科技业亿万富豪，而恒大的扩张也映照并助推了中国长达数十年的房地产繁荣——房地产在这段时期成为中国经济增长的支柱，也是许多家庭最大的一笔投资。",
+              "这场繁荣是靠借来的钱支撑的。恒大通过大举借债扩张，用未来的房屋销售收入偿还过去的贷款，只要房价持续上涨、买家源源不断，这个循环就能运转下去。到了2021年，这个循环断裂了：恒大正式违约，也就是未能按期偿还债务，其披露的负债超过3000亿美元——数额之大，以至于其崩塌波及整个中国房地产行业，令购房者心生恐慌、工程项目陷入停滞，也让持有恒大债券的投资者忧心忡忡。",
+              "此后数年，这场余波一直拖累着中国经济。房地产曾是可靠的增长引擎和家庭财富来源，如今却成了焦虑的根源，烂尾楼和更加谨慎的购房者拖慢了这个曾占中国经济活动很大比重的行业。许家印的判决为这一章画上了句号，北京方面将此视为具有象征意义的事件：既是对那些在繁荣年代同样激进举债的其他开发商的警示，也标志着政府整顿企业过度负债运动的一个节点。",
+              "目前公开信息中缺失的是细节。截至此次调查，彭博社的报道是通常关注中国商业新闻的媒体中唯一提到无期徒刑判决的报道——尚未发现来自通讯社或其他主要媒体的佐证，具体罪名、涉嫌欺诈的规模，以及判处无期徒刑背后的法律依据都尚未详细披露。这一点很重要：中国法院并不总是公开完整的案卷，而在政治敏感的企业案件中做出的判决，其含义——是威慑、是了结、还是政治信号——有时超出单纯的法律事实本身。",
+              "不过，整体脉络并无争议。恒大2021年的违约是真实的，其债务是真实的，它在中国房地产行业引发的危机也是真实的，波及了从建筑工人到那些为永远无法交付的房屋支付了定金的家庭。许家印的个人判决，是这个始于非凡野心、终于近年来最大企业崩塌之一的故事，最后的、带着人情色彩的句点。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family has any connection to global markets — a pension fund, an index fund, a retirement account — you likely already owned a sliver of Evergrande's risk without knowing it, since Chinese property debt was widely held by international investors before the collapse. The story also shows something bigger: how the choices one company makes about debt can eventually shape whether millions of ordinary families ever get the apartments they already paid for.",
+            "zh": "如果你的家庭与全球市场有任何联系——养老基金、指数基金、退休账户——你很可能在不知情的情况下就已经承担了一部分恒大的风险，因为在崩盘之前，中国的房地产债务被国际投资者广泛持有。这个故事也揭示了更大的问题：一家公司在债务上做出的选择，最终可能决定数百万普通家庭能否拿到他们已经付了钱的房子。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Default",
+                "zh": "违约"
+              },
+              "def": {
+                "en": "When a borrower fails to make required payments on its debt, as Evergrande did in 2021.",
+                "zh": "指借款人未能按期偿还债务，恒大在2021年就发生了这种情况。"
+              }
+            },
+            {
+              "term": {
+                "en": "Real-estate boom",
+                "zh": "房地产繁荣"
+              },
+              "def": {
+                "en": "A long period of rising property prices and construction, which in China lasted for decades and became central to household wealth and economic growth.",
+                "zh": "指房价和建筑活动长期上涨的阶段，这一现象在中国持续了数十年，成为家庭财富和经济增长的核心。"
+              }
+            },
+            {
+              "term": {
+                "en": "Deleveraging crackdown",
+                "zh": "去杠杆整顿"
+              },
+              "def": {
+                "en": "A government campaign to reduce excessive borrowing by companies, which Beijing pursued in the property sector before Evergrande's collapse.",
+                "zh": "指政府为减少企业过度借贷而推行的整治行动，在恒大崩塌之前，北京就已在房地产行业推行此类政策。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a company collapses and harms millions of people, should the person at the top face personal criminal punishment, or does that let deeper systemic failures escape scrutiny?",
+                "zh": "当一家公司崩塌并伤害了数百万人时，是否应该让最高层的人承担个人刑事责任，还是这样做会让更深层的系统性问题逃脱审视？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Hold the individual accountable",
+                    "zh": "应追究个人责任"
+                  },
+                  "points": {
+                    "en": [
+                      "Someone made the decisions to borrow recklessly and expand aggressively, and that person should answer for the consequences.",
+                      "Personal accountability sends a clear signal to other executives that reckless behavior carries real personal risk, not just corporate losses.",
+                      "Without individual consequences, future leaders may repeat the same behavior, assuming the company — not them personally — will bear the cost."
+                    ],
+                    "zh": [
+                      "正是某个人做出了鲁莽借贷、激进扩张的决策，这个人理应为后果负责。",
+                      "追究个人责任向其他企业高管发出明确信号：鲁莽行为要承担真正的个人风险，而不仅仅是公司层面的损失。",
+                      "如果没有个人层面的后果，未来的企业领导者可能会重蹈覆辙，认为承担代价的是公司而非他们本人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Look at the system, not just the man",
+                    "zh": "应关注系统而非个人"
+                  },
+                  "points": {
+                    "en": [
+                      "Evergrande's rise was made possible by banks, regulators, and local governments that all benefited from and enabled the debt-fueled boom.",
+                      "Punishing one executive can create an illusion that the problem has been solved, when the underlying incentives that produced the crisis remain unchanged.",
+                      "Complex financial collapses usually involve many decision-makers across institutions, and singling out one figure may obscure who else contributed to the harm."
+                    ],
+                    "zh": [
+                      "恒大的崛起离不开银行、监管机构和地方政府，它们都从这场债务驱动的繁荣中获益，也促成了它的发生。",
+                      "惩罚一名高管可能造成问题已被解决的错觉，而催生这场危机的深层激励机制其实并未改变。",
+                      "复杂的金融崩溃通常涉及多个机构中的多方决策者，把责任集中到一个人身上，可能掩盖了其他造成伤害的责任方。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is a life sentence for a corporate figure like Hui Ka Yan a proportionate legal outcome, or is it also a political statement by the state?",
+                "zh": "对许家印这样的企业人物判处无期徒刑，究竟是合乎比例的法律结果，还是也带有国家层面的政治意味？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The severity is justified",
+                    "zh": "严厉判决是正当的"
+                  },
+                  "points": {
+                    "en": [
+                      "Debts and losses of this scale — reportedly over $300 billion — touch an extraordinary number of people, from bondholders to families waiting for unfinished homes.",
+                      "A punishment this severe reflects the real, lasting economic damage caused, not an overreaction to a single bad business decision.",
+                      "Strong deterrence matters most in a sector as large and systemically important as property, where reckless borrowing can threaten broader financial stability."
+                    ],
+                    "zh": [
+                      "据报道超过3000亿美元的债务和损失，波及了从债券持有人到等待烂尾楼交付的家庭在内的极大数量的人群。",
+                      "如此严厉的惩罚反映的是造成的真实、持久的经济损害，而非对单一商业决策失误的过度反应。",
+                      "在房地产这样规模庞大、具有系统重要性的行业中，强有力的威慑尤为重要，因为鲁莽借贷可能威胁更广泛的金融稳定。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The punishment may also be a political message",
+                    "zh": "判决也可能带有政治信号意味"
+                  },
+                  "points": {
+                    "en": [
+                      "Without full public disclosure of the charges and evidence, it's hard to know whether the sentence matches the specific crimes proven, rather than the scale of public anger.",
+                      "China's government has used the property crackdown to send broader signals about discipline in the sector, and Hui's case may serve that symbolic purpose as much as a legal one.",
+                      "Severe, opaque sentences in politically sensitive cases can raise questions about whether the legal process was primarily about justice or primarily about closure and control."
+                    ],
+                    "zh": [
+                      "在罪名和证据尚未完全公开的情况下，很难判断这一判决是否与已证实的具体罪行相符，而不是对应公众愤怒的程度。",
+                      "中国政府一直借助房地产整顿向整个行业传递关于纪律的更广泛信号，许家印案可能既服务于法律目的，也服务于象征目的。",
+                      "在政治敏感案件中做出严厉且不透明的判决，会让人质疑这一司法程序究竟主要是为了实现正义，还是主要是为了了结与管控。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "CN",
+      "source": {
+        "title": "Hong Kong Convicts Tiananmen Vigil Organizers of Subversion",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/08/20/china/hong-kong-china-tiananmen-vigil-verdict-hnk-intl"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "China Sentences Evergrande Founder Hui Ka Yan to Life in Prison",
+            "zh": "中国判处恒大创始人许家印无期徒刑"
+          },
+          "summary": {
+            "en": "This same week, China delivered another major legal verdict against a once-untouchable figure, sentencing property tycoon Hui Ka Yan to life in prison, part of a broader pattern of high-profile prosecutions across business and politics.",
+            "zh": "同一周内,中国对另一位曾经\"不可撼动\"的人物作出重大司法判决,将地产大亨许家印判处无期徒刑,这是商业与政治领域一系列高调检控的一部分。"
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-20/china-sentences-evergrande-founder-hui-ka-yan-to-life-in-prison"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Early Edition: August 20, 2026",
+            "zh": "每日摘要:2026年8月20日"
+          },
+          "summary": {
+            "en": "This legal and national-security newsletter rounds up global rights and rule-of-law developments including reactions to the Hong Kong verdict, useful for wider human-rights and legal context.",
+            "zh": "这份法律与国家安全通讯汇总了包括对香港判决反应在内的全球人权与法治动态,适合了解更广泛的人权与法律背景。"
+          },
+          "publisher": "Just Security",
+          "url": "https://www.justsecurity.org/154606/early-edition-august-20-2026/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "A Hong Kong Court Convicts Two People Who Organized a Yearly Candle Ceremony",
+            "zh": "香港法院裁定两名纪念活动组织者罪名成立"
+          },
+          "hook": {
+            "en": "A court in Hong Kong just found two people guilty of breaking the law. Their 'crime' was leading a yearly event where people lit candles to remember something sad that happened in 1989.",
+            "zh": "中国香港的一家法院裁定两个人有罪,他们曾多年组织一场用蜡烛悼念1989年一起事件的活动。法院认为他们的行为触犯了法律。"
+          },
+          "story": {
+            "en": [
+              "For many years, thousands of people gathered every year in a park in Hong Kong, holding candles. They were remembering something that happened in 1989 in Beijing, the capital of China — when soldiers stopped a huge protest, and many people were hurt or killed. This was the only large public event like it anywhere on Chinese soil.",
+              "The two people who organized it — a lawyer named Chow Hang-tung and a former lawmaker named Lee Cheuk-yan — were just found guilty in court. Judges said they broke a law called 'inciting subversion,' which means encouraging people to try to overthrow the government.",
+              "The gathering stopped happening after 2019, when new rules made it very hard to hold. Just days before this court decision, China's leader, Xi Jinping, publicly praised how the government handled the 1989 event — something leaders rarely say out loud.",
+              "Groups that watch over people's rights say this shows China doesn't want anyone, anywhere, still talking about 1989. Hong Kong's government says the two broke the law, and that this isn't about stopping people from remembering."
+            ],
+            "zh": [
+              "很多年来,每年都有成千上万人聚集在香港的一个公园里,手持蜡烛,纪念1989年发生在中国首都北京的一件悲伤的事——当时军队制止了一场大型抗议,许多人因此受伤或死亡。这个活动曾是中国领土上唯一的大型公开纪念活动。",
+              "组织这项活动的两个人——律师邹幸彤和前立法会议员李卓人——刚刚被法院裁定有罪。法官说他们触犯了'煽动颠覆国家政权'的罪名,这个说法的意思是鼓励别人试图推翻政府。",
+              "2019年之后,新的规定让这个纪念活动很难再举行,后来就停止了。就在法院作出这个裁决前几天,中国领导人习近平公开称赞了当年政府处理1989年事件的方式——这是很少见的公开表态。",
+              "关心人权的团体说,这件事说明中国不希望任何人、在任何地方继续谈论1989年发生的事。香港政府则表示,这两个人只是触犯了法律,这与阻止人们纪念历史无关。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine if you weren't allowed to talk about something sad that happened to your family, or hold even a small gathering to remember it. This story is about whether people should be allowed to remember hard moments from history out loud, even when a government would rather they stayed quiet.",
+            "zh": "想象一下,如果你不被允许谈论家里发生过的一件伤心事,甚至不能办一个小小的聚会来纪念它,会是什么感觉。这个故事讲的是:当政府希望人们保持沉默时,人们是否应该被允许公开纪念历史上艰难的时刻。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "candlelight vigil",
+                "zh": "烛光悼念活动"
+              },
+              "def": {
+                "en": "A quiet nighttime gathering where people hold lit candles to remember someone or something important.",
+                "zh": "一种安静的夜间聚会,人们手持点燃的蜡烛,纪念某个人或某件重要的事。"
+              }
+            },
+            {
+              "term": {
+                "en": "subversion",
+                "zh": "颠覆"
+              },
+              "def": {
+                "en": "A word describing an attempt to weaken or overthrow a government.",
+                "zh": "指试图削弱或推翻一个政府的行为。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to punish people for organizing a peaceful gathering that a government doesn't want held?",
+                "zh": "如果政府不希望某个和平聚会举行,惩罚组织这个聚会的人,这样做公平吗?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair",
+                    "zh": "公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments make the rules for what is allowed in their own country, and everyone has to follow them.",
+                      "Even peaceful gatherings can sometimes grow into something a government worries will cause unrest.",
+                      "If a rule is broken, there are usually consequences, no matter how good the reason seemed."
+                    ],
+                    "zh": [
+                      "政府为本国制定规则,每个人都要遵守这些规则。",
+                      "即使是和平的聚会,有时也可能发展成政府担心会引发动荡的事情。",
+                      "如果违反了规定,通常就会有后果,不管原因听起来多么正当。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair",
+                    "zh": "不公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Lighting candles to remember something sad doesn't hurt anyone.",
+                      "People should be free to gather peacefully, especially just to remember, not to fight.",
+                      "Punishing memory can stop people from learning about the past, which might help mistakes happen again."
+                    ],
+                    "zh": [
+                      "点蜡烛纪念一件伤心的事,并没有伤害到任何人。",
+                      "人们应该可以自由地和平聚集,尤其只是为了纪念,而不是为了对抗。",
+                      "惩罚纪念行为,会让人们无法了解过去,这可能导致同样的错误再次发生。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a government be allowed to decide which parts of history people can talk about?",
+                "zh": "政府是否应该有权决定人们可以谈论哪些历史?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes",
+                    "zh": "应该"
+                  },
+                  "points": {
+                    "en": [
+                      "A government might believe some topics could cause anger or conflict if discussed too openly.",
+                      "Every country has its own view of its history, and governments say they know what keeps their country stable.",
+                      "Rules about sensitive topics exist in many places, not just one country."
+                    ],
+                    "zh": [
+                      "政府可能认为,某些话题如果被公开讨论,可能引发愤怒或冲突。",
+                      "每个国家对自己的历史都有自己的看法,政府认为自己知道什么能让国家保持稳定。",
+                      "许多地方都有关于敏感话题的规定,并不只是一个国家这样做。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "Learning about the past, even painful parts, helps people understand the world honestly.",
+                      "If people can only hear one version of history, they can't decide for themselves what's true.",
+                      "History that isn't allowed to be discussed can't be learned from, so mistakes might repeat."
+                    ],
+                    "zh": [
+                      "了解过去,包括痛苦的部分,能帮助人们更真实地理解这个世界。",
+                      "如果人们只能听到历史的一个版本,他们就无法自己判断真相。",
+                      "不能被讨论的历史无法被吸取教训,同样的错误可能会重演。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Hong Kong Court Convicts Two for Organizing Tiananmen Vigils",
+            "zh": "香港法院裁定两名维园烛光集会组织者「煽动颠覆」罪成"
+          },
+          "hook": {
+            "en": "A Hong Kong court has convicted two long-time activists, Chow Hang-tung and Lee Cheuk-yan, of 'inciting subversion' for organizing the city's annual candlelight vigil remembering the 1989 Tiananmen Square crackdown. For three decades, that vigil was the only large public memorial for the event allowed anywhere on Chinese soil — until Hong Kong authorities effectively banned it in 2020. Sentencing has not yet been announced.",
+            "zh": "香港一间法院裁定两名资深社运人士——邹幸彤和李卓人——「煽动颠覆国家政权」罪名成立，理由是他们组织了香港一年一度纪念1989年天安门事件的烛光集会。三十年来，这场集会是中国国土上唯一获准公开举行的大型纪念活动，直到2020年被港府实质上禁止。法院尚未宣布判刑。"
+          },
+          "story": {
+            "en": [
+              "Chow Hang-tung, a human rights lawyer who defended herself in court without a lawyer, and Lee Cheuk-yan, a former pro-democracy lawmaker, led an organization called the Hong Kong Alliance in Support of Patriotic Democratic Movements of China. Every June 4th for more than 30 years, the Alliance filled Hong Kong's Victoria Park with tens of thousands of people holding candles, remembering the day in 1989 when Chinese troops opened fire on pro-democracy protesters in and around Tiananmen Square in Beijing, killing an unknown number of people — estimates range from several hundred to well over a thousand.",
+              "That vigil mattered because nowhere else in China could people gather to mark the anniversary at all. Mainland media rarely mention the date, and searching for it online inside China turns up almost nothing. Hong Kong, with its own legal system inherited from British rule, was the one place where the memory stayed alive in public, out loud, every year.",
+              "That changed after 2019, when huge pro-democracy protests swept Hong Kong. Beijing responded in 2020 by imposing a national security law on the city — a law that makes acts seen as challenging Chinese rule punishable by years in prison. Authorities banned the vigil, first citing COVID-19 rules, then arresting organizers directly. Chow and Lee were charged with 'inciting subversion,' a crime under the security law that can apply to speech and organizing, not just violence.",
+              "The timing is what's drawing extra attention. Just days before the verdict, Chinese leader Xi Jinping made a rare public comment defending the government's 1989 decision to send in troops. Chinese leaders almost never discuss the events of that year at all, let alone defend them directly. Human rights groups say the comment removes any doubt that Beijing sees the crackdown as settled and beyond debate — and that the guilty verdict fits the same message.",
+              "Hong Kong and Beijing officials say none of this is about silencing memory. They argue the law targets acts against national security, not free speech, and that courts are simply applying it as written. Chow, Lee and rights groups reject that framing, arguing that a peaceful candlelight vigil poses no security threat to anyone and that the prosecution exists specifically to erase a memory the government finds inconvenient.",
+              "One caution for readers: this report relies mainly on CNN's coverage. Other major wire services that normally also cover Hong Kong security trials were not available in this search, so the full picture — including sentencing, once it's announced — is worth checking against additional sources as they appear."
+            ],
+            "zh": [
+              "邹幸彤是一名人权律师，在庭上没有请律师、亲自为自己辩护；李卓人则是前民主派立法会议员。两人曾带领「香港市民支援爱国民主运动联合会」（简称「支联会」）。三十多年来，每年6月4日，支联会都会在香港维多利亚公园（维园）举行烛光晚会，吸引数以万计的市民手持蜡烛，悼念1989年中国军队在北京天安门广场一带向争取民主的示威者开枪镇压的事件——死伤人数至今没有官方公布，估计从数百人到超过一千人不等。",
+              "这场集会之所以重要，是因为在中国其他任何地方，人们都无法公开聚集纪念这一天。中国内地媒体几乎从不提及这个日期，在内地网络上搜索相关字眼几乎找不到任何结果。拥有沿袭自英国管治时期独立法律制度的香港，曾是全中国唯一能公开、大声延续这段记忆的地方。",
+              "这一切在2019年之后发生了变化。当年香港爆发大规模民主运动，北京在2020年为香港订立「国安法」——一部把被视为挑战中国管治的行为定为刑事罪、可判处多年监禁的法律。当局随后禁止了烛光集会，起初以防疫为由，后来直接拘捕组织者。邹幸彤和李卓人被控「煽动颠覆国家政权」，这是国安法下的一项罪名，适用范围不仅限于暴力行为，也可涵盖言论和组织行为。",
+              "这次判决的时机格外引人关注。就在裁决前几天，中国领导人习近平罕有地公开发言，为1989年政府出兵镇压的决定辩护。中国领导人几乎从不公开谈论那一年发生的事，更遑论正面为其辩护。人权组织认为，这番言论彻底打消了外界对北京会否重新检视那段历史的任何幻想——而这次的有罪判决，正好呼应了同样的信息。",
+              "香港和北京官员坚称，这一切与压制记忆无关。他们表示，国安法针对的是危害国家安全的行为，而非言论自由本身，法院只是依法审理。邹幸彤、李卓人和人权组织则反驳这种说法，认为一场和平的烛光集会不会对任何人构成安全威胁，这些检控的真正目的，是要抹去一段令政府感到尴尬的记忆。",
+              "提醒读者一点：这篇报道主要依据CNN的报道整理而成。通常也会报道香港国安审讯的其他主要通讯社，在本次检索中未能找到相关报道，因此包括判刑结果在内的完整情况，读者应留意后续是否有更多独立信源加以核实。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "You've probably had your own opinions about historical events you learned in school — moments people still disagree about decades later. This case asks what happens when a government decides that quietly remembering an event out loud, without violence or even much of a specific political demand, can still land you in prison. It's worth thinking about who gets to decide which memories are allowed to stay public, and what's lost when that choice is made for an entire city.",
+            "zh": "你在学校学到的历史事件，大概也曾让你形成自己的看法——有些事情，就算过了几十年，人们仍然会争论。这宗案件提出的问题是：当一个政府认定，即使只是安静地公开纪念一件事，不涉及暴力，也没有太具体的政治诉求，仍然可能让人坐牢，这意味着什么？谁有权决定哪些记忆可以留在公共视野里，而当这个决定由别人替整座城市作出时，又失去了什么，都值得你好好想一想。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "inciting subversion",
+                "zh": "煽动颠覆国家政权"
+              },
+              "def": {
+                "en": "A crime under Hong Kong's national security law that can apply to speech or organizing seen as encouraging people to challenge China's government, not just to violent acts.",
+                "zh": "香港国安法下的一项罪名，适用于被认为鼓动民众挑战中国政府管治的言论或组织行为，而不仅限于暴力行动。"
+              }
+            },
+            {
+              "term": {
+                "en": "national security law",
+                "zh": "国安法"
+              },
+              "def": {
+                "en": "A law imposed on Hong Kong by Beijing in 2020 that created new crimes, punishable by years in prison, for acts seen as threatening Chinese rule over the city.",
+                "zh": "北京于2020年为香港订立的法律，为被视为威胁中国对香港管治的行为设立新罪名，最高可判处多年监禁。"
+              }
+            },
+            {
+              "term": {
+                "en": "Tiananmen Square crackdown",
+                "zh": "天安门事件"
+              },
+              "def": {
+                "en": "The events of June 4, 1989, when Chinese troops opened fire on pro-democracy protesters in Beijing, killing an unknown number of people.",
+                "zh": "1989年6月4日，中国军队在北京对民主运动示威者开枪镇压的事件，死亡人数至今未有官方公布。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should organizing a peaceful memorial event ever count as a crime against national security?",
+                "zh": "组织一场和平的纪念活动，是否应该被视为危害国家安全的罪行？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can",
+                    "zh": "可以"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments have long argued they need broad security laws to prevent events from becoming platforms for organizing broader unrest, even if the event itself starts out peaceful.",
+                      "A vigil tied to a political movement that challenges the government's legitimacy is different from a private ceremony — it's a public statement carrying political weight.",
+                      "Many countries have security or public-order laws restricting gatherings judged to threaten state stability, so treating this as a security matter isn't unique to China."
+                    ],
+                    "zh": [
+                      "政府一直认为，需要广泛的安全法律来防止活动演变成组织更大规模动荡的平台，即使活动本身起初是和平的。",
+                      "与政治运动相关、挑战政府正当性的纪念集会，不同于私人仪式——它是带有政治份量的公开表态。",
+                      "许多国家都设有限制被认为威胁国家稳定的集会的安全或公共秩序法律，因此把这视为安全议题并非中国独有。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "A candlelight vigil harms no one physically and doesn't call for violence, so treating it as a security threat stretches the idea of danger past recognition.",
+                      "Suppressing a memory doesn't make it disappear; it can build quiet resentment that surfaces later, arguably making things less stable, not more.",
+                      "Freedom to gather and remember publicly is recognized as a basic right in international law, and criminalizing it sets a precedent that could be used against almost any peaceful protest."
+                    ],
+                    "zh": [
+                      "烛光集会不会对任何人造成实际伤害，也没有呼吁使用暴力，把它当作安全威胁，已经把「危险」的定义拉得过于宽泛。",
+                      "压制一段记忆并不会让它消失，反而可能积累成日后爆发的不满情绪，这样反而更不稳定，而非更稳定。",
+                      "公开集会、悼念的自由，在国际法中被视为基本权利，把它定为罪行，等于开了一个先例，日后几乎任何和平抗议都可能被同样对待。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When deciding whether to do business in Hong Kong, should companies and governments weigh cases like this one?",
+                "zh": "企业和政府在决定是否在香港经商时，是否应该考虑这类案件？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, they should",
+                    "zh": "应该"
+                  },
+                  "points": {
+                    "en": [
+                      "A legal system that jails people for organizing peaceful gatherings is less predictable, and unpredictable courts are a real risk for any company relying on the rule of law to protect contracts and property.",
+                      "Ignoring clear human rights concerns can create reputational and consumer backlash that costs companies more than staying quiet saves them.",
+                      "Political prosecutions can expand over time, so today's activist trial can signal what kind of legal risk a foreign business might face tomorrow."
+                    ],
+                    "zh": [
+                      "一个会因组织和平集会而将人监禁的法律体系，可预测性较低，而不可预测的司法对任何依赖法治来保障合约和财产的企业来说，都是实实在在的风险。",
+                      "忽视明显的人权问题，可能引发声誉和消费者的反弹，其代价往往高于保持沉默所省下的成本。",
+                      "政治检控可能随时间扩大范围，今天对社运人士的审判，或许预示着外国企业明天可能面对的法律风险。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they shouldn't",
+                    "zh": "不应该"
+                  },
+                  "points": {
+                    "en": [
+                      "Business decisions are usually judged on tangible things — market access, infrastructure, and reliability of commercial law — which can remain stable even amid political prosecutions.",
+                      "Many countries with serious human rights concerns still host major international business, so singling out Hong Kong risks inconsistency rather than principle.",
+                      "Companies pulling out or pressuring the government rarely changes state behavior, and the economic pain often falls hardest on ordinary Hong Kong residents, not officials."
+                    ],
+                    "zh": [
+                      "商业决策通常取决于市场准入、基础设施和商业法律的可靠性等实际因素，这些即使在政治检控发生时也可能保持稳定。",
+                      "许多存在严重人权问题的国家仍是国际商业重镇，单独针对香港，反而显得原则不一致。",
+                      "企业撤资或向政府施压，很少能真正改变当权者的行为，经济上的痛苦往往最先落在普通香港市民身上，而不是官员身上。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Hong Kong Court Convicts Two Who Kept Tiananmen Vigils Alive",
+            "zh": "香港法院裁定两名坚持举办六四烛光悼念活动的组织者罪成"
+          },
+          "hook": {
+            "en": "A Hong Kong court has convicted Chow Hang-tung and Lee Cheuk-yan of \"inciting subversion\" for their role organizing the city's annual candlelight vigil for the 1989 Tiananmen Square crackdown — once the only large public commemoration of that event allowed anywhere on Chinese soil. The verdict landed days after Chinese leader Xi Jinping made a rare public comment defending the 1989 crackdown decision itself. Sentencing has not yet been announced.",
+            "zh": "香港一家法院裁定邹幸彤与李卓人「煽动颠覆国家政权」罪名成立,两人曾组织香港市民纪念1989年六四事件的年度烛光悼念晚会——那曾是中国境内唯一获准举行的大型公开纪念活动。这一判决公布的前几天,中国领导人习近平罕见公开表态,为当年镇压的决定进行辩护。法院尚未宣布量刑结果。"
+          },
+          "story": {
+            "en": [
+              "For three decades, tens of thousands of people gathered every June 4th in Hong Kong's Victoria Park, holding candles to remember the hundreds, possibly thousands, of people killed when Chinese troops crushed pro-democracy protests in Beijing in 1989. It was a strange anomaly: nowhere else in mainland-controlled China could such a gathering happen without being shut down immediately. Hong Kong's semi-autonomous status, guaranteed under the \"one country, two systems\" arrangement negotiated when Britain handed the territory back to China in 1997, made the vigil possible. That arrangement has been steadily narrowed since Beijing imposed a national security law on the city in 2020, following mass pro-democracy protests the year before.",
+              "Chow Hang-tung, a human-rights lawyer who defended herself in court, and Lee Cheuk-yan, a former opposition lawmaker, led the Hong Kong Alliance in Support of Patriotic Democratic Movements of China, the group behind the vigil. Both were already in detention when this trial concluded; Chow has spent years in and out of custody on related charges, and much of the group's leadership has already been prosecuted or has fled the city. The vigil itself has not been held publicly since 2020, when authorities cited pandemic rules to ban it, then continued blocking it in subsequent years on national-security grounds even after those rules lapsed.",
+              "The charge against them, \"inciting subversion,\" comes from the 2020 national security law, which criminalizes acts deemed to undermine the authority of the Chinese state — a category broad enough, critics say, to cover organizing a vigil, and specific enough, prosecutors argue, to distinguish protected memory from political agitation aimed at the government. The prosecution's theory was that the Alliance's continued public calls to remember Tiananmen, combined with its stated goal of ending one-party rule in China, amounted to subversive intent rather than simple commemoration. The defense argued that mourning the dead is not the same as inciting rebellion, and that no law should be able to turn grief into a crime.",
+              "The timing sharpens the stakes. Just days before the verdict, Xi Jinping made an unusually direct public remark defending the 1989 crackdown as the correct decision — breaking with decades of official silence in which the Chinese Communist Party neither fully justified nor apologized for the killings, preferring simply not to discuss them. Human-rights groups read the comment, paired with this conviction, as confirmation that Beijing has closed the door on any future reassessment of 1989, a possibility that some Chinese reformers had quietly held onto for years.",
+              "This account relies primarily on CNN's reporting; other wire services that usually cover Hong Kong national-security trials, including AP, Reuters and the BBC, were not found in the same search and their accounts should be checked when available. Sentencing has not yet been handed down, and Hong Kong and Beijing officials maintain that the prosecution enforces the national security law rather than punishes free expression — a distinction that rights groups and much of the international legal community dispute, arguing that the law itself was written broadly enough to make almost any organized dissent prosecutable."
+            ],
+            "zh": [
+              "三十年来,每年六月四日,数以万计的香港市民都会聚集在维多利亚公园,手持蜡烛悼念1989年中国军队镇压北京民主运动时死伤的数百甚至上千人。这本身就是一个特殊的例外:在中国大陆管辖范围内,任何地方若尝试举行类似集会都会立即遭到取缔。香港之所以能够举行这样的悼念活动,得益于1997年英国将香港主权移交中国时确立的「一国两制」安排所赋予的半自治地位。然而自2020年北京在香港实施《国安法》以来——那是继前一年大规模民主抗议运动之后颁布的——这种自治空间已被持续压缩。",
+              "邹幸彤是一名人权律师,在法庭上为自己辩护;李卓人则是前反对派立法会议员。两人共同领导「香港市民支援爱国民主运动联合会」(简称「支联会」),正是该组织多年来举办烛光悼念晚会。案件审结时两人均已在囚;邹幸彤多年来因相关罪名多次被拘留,该组织的大部分领导层此前也已被起诉或已离开香港。自2020年起,当局以防疫规定为由禁止公开举行悼念活动,此后即便防疫措施已经解除,当局仍以国家安全为由继续加以阻止。",
+              "检控两人的罪名「煽动颠覆国家政权」,源自2020年颁布的《国安法》,该法将被认定为削弱中国国家权威的行为定为刑事罪。批评者认为,这一罪名的范围宽泛到足以涵盖组织悼念活动本身;而检方则辩称,该法足够具体,能够区分受保护的历史记忆与旨在颠覆政府的政治煽动。检方的论点是,支联会持续公开呼吁纪念六四,加上其明确提出结束中国一党专政的目标,构成了颠覆意图,而非单纯的悼念行为。辩方则主张,哀悼死者不等于煽动叛乱,任何法律都不应将悲伤本身定为罪行。",
+              "判决时机使这起案件的分量更为沉重。就在宣判前几天,习近平罕见地公开发表直接言论,为1989年的镇压决定进行辩护——打破了中国共产党数十年来对此事保持的官方沉默,此前党内既未完全为镇压辩护,也未曾道歉,而是选择回避不谈。人权组织将这番言论与本次判决联系起来解读,认为这证实北京已彻底关闭了未来重新评估六四事件的可能性——而一些中国内部的改革派人士多年来一直暗自保留着这种期望。",
+              "本报道内容主要依据CNN的报道;通常也会报道香港国安审判的其他通讯社,包括美联社、路透社和BBC,在同一次检索中未能找到相关报道,读者应在其他信源出现时加以核实。目前法院尚未宣布量刑结果。香港与北京官员均表示,此次检控是依法执行《国安法》,而非打压言论自由——但人权组织及国际法律界普遍对此提出异议,认为该法本身条文过于宽泛,几乎可将任何有组织的异议行为都定为可起诉的罪行。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is about whether remembering something out loud, in public, together, can itself be treated as a crime — and once one country decides it can, the question becomes how far that logic travels. If you've ever attended a vigil, a memorial march, or any gathering that criticizes a government's past actions, this case is a test of the legal boundary between mourning and rebellion that outlasts any single event.",
+            "zh": "这起事件关乎一个核心问题:公开、集体地大声悼念某段历史,本身是否可以被当作犯罪行为——一旦某个国家认定可以,这种逻辑还会延伸到多远就成了问题。如果你曾参加过悼念晚会、纪念游行,或任何批评政府过去行为的集会,这起案件所划出的「哀悼」与「颠覆」之间的法律界线,其影响将超越这一次判决本身。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "National security law",
+                "zh": "国安法(国家安全法)"
+              },
+              "def": {
+                "en": "A 2020 law imposed by Beijing on Hong Kong that criminalizes broadly defined acts against the Chinese state, including secession, subversion, terrorism, and collusion with foreign forces.",
+                "zh": "这是北京于2020年在香港实施的法律,将「危害国家」的行为定义得较为宽泛,包括分裂国家、颠覆政权、恐怖活动以及与境外势力勾结等罪行。"
+              }
+            },
+            {
+              "term": {
+                "en": "Inciting subversion",
+                "zh": "煽动颠覆国家政权"
+              },
+              "def": {
+                "en": "A charge under the national security law for encouraging others to undermine or overthrow the authority of the Chinese state, which prosecutors can apply to speech, writing, or organizing.",
+                "zh": "这是《国安法》下的一项罪名,指鼓动他人削弱或推翻中国政府的权威,检方可以将其适用于言论、文章或组织活动。"
+              }
+            },
+            {
+              "term": {
+                "en": "Tiananmen Square crackdown",
+                "zh": "六四事件（天安门事件）"
+              },
+              "def": {
+                "en": "The 1989 military suppression of pro-democracy protests in Beijing, in which Chinese troops killed an unknown but likely large number of demonstrators, a topic still censored in mainland China.",
+                "zh": "指1989年中国军队镇压北京民主运动的事件,当时造成数量不明但可能相当庞大的示威者死亡,这一话题至今在中国大陆仍受到审查限制。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government be allowed to treat the public commemoration of a decades-old event as a present-day threat to its authority?",
+                "zh": "政府是否应该被允许将对数十年前事件的公开悼念视为对其当下权威的威胁?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Memory can be political",
+                    "zh": "记忆本身可以具有政治性"
+                  },
+                  "points": {
+                    "en": [
+                      "Commemoration is never neutral; the Alliance itself stated a political goal of ending one-party rule, which moves the vigil beyond pure mourning.",
+                      "Governments have a legitimate interest in preventing organized movements from using anniversaries as recurring rallying points for opposition.",
+                      "A state's stability depends partly on controlling how founding traumas are narrated, and allowing unchecked annual mass gatherings can become a vehicle for broader dissent to organize."
+                    ],
+                    "zh": [
+                      "悼念活动从来不是完全中立的;支联会本身就明确提出结束一党专政的政治目标,这已超出单纯哀悼的范畴。",
+                      "政府有正当理由防止有组织的运动利用周年纪念日,作为反对派持续动员的场合。",
+                      "一个国家的稳定在一定程度上依赖于对重大历史创伤叙事的掌控,若放任每年不受限制的大规模集会,可能成为更广泛异见力量组织串联的渠道。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Grief is not rebellion",
+                    "zh": "哀悼不等于叛乱"
+                  },
+                  "points": {
+                    "en": [
+                      "Mourning the dead is a basic human and civic act that should not require political neutrality to remain legal.",
+                      "Treating remembrance as subversion effectively erases history by criminalizing anyone who keeps it alive.",
+                      "Decades of peaceful, non-violent vigils with no attempt at armed uprising suggest the actual risk to state authority was minimal, making the prosecution disproportionate to any real threat."
+                    ],
+                    "zh": [
+                      "悼念逝者是一种基本的人性与公民行为,不应要求其保持政治中立才能合法存在。",
+                      "将纪念行为等同于颠覆,实际上是通过惩罚坚持传承历史记忆的人来抹去历史本身。",
+                      "数十年来这些悼念活动始终和平进行,从未有任何武装起义的意图,这说明其对国家权威的实际威胁微乎其微,检控与真实风险并不相称。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does the outcome of this trial mean Hong Kong's legal system still functions independently, or has it become an extension of Beijing's political will?",
+                "zh": "这场审判的结果,是否说明香港的司法体系仍保有独立运作,还是已经沦为北京政治意志的延伸?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The legal process still has meaning",
+                    "zh": "司法程序仍具有实质意义"
+                  },
+                  "points": {
+                    "en": [
+                      "The trial followed formal court procedure, with a defendant able to argue her own case, rather than a summary or extrajudicial punishment.",
+                      "Hong Kong's courts still operate under a written law with defined charges and evidentiary standards, distinguishing this from arbitrary detention.",
+                      "Judicial outcomes in politically sensitive cases can still vary in severity and reasoning, showing courts retain some independent judgment even within a restrictive framework."
+                    ],
+                    "zh": [
+                      "审判遵循了正式的法庭程序,被告本人能够为自己辩护,而非遭受简易审判或法外处置。",
+                      "香港法院依然依据成文法律、明确的罪名与证据标准运作,这使其区别于任意拘留。",
+                      "即便在政治敏感案件中,司法结果在量刑轻重与说理方式上仍存在差异,说明法院在受限的框架内仍保有一定程度的独立判断空间。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The verdict was politically predetermined",
+                    "zh": "判决结果实际上早已由政治决定"
+                  },
+                  "points": {
+                    "en": [
+                      "The charge itself derives from a law written and imposed directly by Beijing, leaving Hong Kong courts to apply Beijing's definitions rather than locally developed legal standards.",
+                      "The near-total conviction rate in national-security cases since 2020 suggests the outcome was never seriously in doubt regardless of the defense presented.",
+                      "The timing alongside Xi Jinping's own public defense of the 1989 crackdown suggests judicial and political messaging were aligned rather than independent."
+                    ],
+                    "zh": [
+                      "这项罪名本身就源自北京直接制定并强加的法律,香港法院实际上只是在套用北京设定的定义,而非依据本地发展出的法律标准进行裁决。",
+                      "自2020年以来,国安案件几乎百分之百的定罪率表明,无论辩方如何辩护,结果几乎从未真正存在悬念。",
+                      "判决时机恰逢习近平本人公开为1989年镇压决定辩护,这说明司法与政治信息是相互配合的,而非彼此独立。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
