@@ -31,6 +31,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -340,8 +341,9 @@ Today is {date_str}. Research the news for the edition covering:
 
   {start:%A %B %d, %Y at %-I:%M %p} to {end:%A %B %d, %Y at %-I:%M %p} ({cfg.timezone})
 
-Search widely across major outlets — wire services, national papers, specialist
-press — for what was actually published in that window. Beats: {beats}. Centre of
+Search the outlets available to you — national papers and broadcasters, the
+specialist press of each beat, primary documents — for what was actually
+published in that window. Beats: {beats}. Centre of
 gravity: the United States and China.
 
 Write a research brief containing:
@@ -600,32 +602,73 @@ def _log_searches(message) -> None:
         print(f"  note: a search failed ({code}).", file=sys.stderr)
 
 
+# The API refuses the whole request — before any search runs — if the allowed
+# list names a site that blocks Anthropic's crawler, and it names the offenders
+# in the error. There is no way to ask in advance, and robots.txt is not ours
+# to control: a site that answers today may refuse next month, and the first
+# sign of it is a day with no edition at all. So take the API at its word, drop
+# what it named, and go again. Losing an outlet should cost a line in the log,
+# never the day's paper.
+_INACCESSIBLE = re.compile(r"not accessible to our user agent:\s*\[(.*?)\]", re.S)
+
+
+def _without_unreachable(err: Exception, domains: list) -> list | None:
+    """The allowed list minus whatever the error named, or None if that is not
+    what went wrong."""
+    found = _INACCESSIBLE.search(str(getattr(err, "message", "") or err))
+    if not found:
+        return None
+    named = set(re.findall(r"""['"]([^'"]+)['"]""", found.group(1)))
+    kept = [d for d in domains if d not in named]
+    if not named or len(kept) == len(domains) or not kept:
+        return None
+    print(f"  note: {len(named)} source(s) now block our reader and were "
+          f"dropped for this run: {', '.join(sorted(named))}. Remove them from "
+          f"SOURCES in appconfig.py, or the next run pays this round trip too.",
+          file=sys.stderr)
+    return kept
+
+
 def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
     messages = [{"role": "user", "content": prompt}]
     # Searching a named list instead of the open web. This is a quality control,
     # not a cost one: a search costs the same either way, and the results still
     # arrive as input tokens.
-    tools = [{
-        "type": "web_search_20260209",
-        "name": "web_search",
-        "max_uses": appconfig.SEARCHES_PER_RUN,
-        "allowed_domains": appconfig.ALLOWED_DOMAINS,
-    }]
+    allowed = list(appconfig.ALLOWED_DOMAINS)
+
+    def tools():
+        return [{
+            "type": "web_search_20260209",
+            "name": "web_search",
+            "max_uses": appconfig.SEARCHES_PER_RUN,
+            "allowed_domains": allowed,
+        }]
 
     for attempt in range(max_restarts + 1):
-        with client.messages.stream(
-            model=MODEL, max_tokens=64000, system=base_policy(cfg),
-            thinking={"type": "adaptive"}, output_config={"effort": "high"},
-            # This pass is three quarters of the day's bill, and almost all of
-            # it is input: search results are charged as input tokens on every
-            # iteration that re-reads them, so twenty searches pay for the
-            # earlier ones over and over. A cache hit costs a tenth of that.
-            # Automatic caching is enough here — there is one long conversation
-            # with a growing prefix, which is exactly the shape it handles.
-            cache_control={"type": "ephemeral"},
-            tools=tools, messages=messages,
-        ) as stream:
-            message = _guard(stream.get_final_message(), "Research")
+        while True:
+            try:
+                with client.messages.stream(
+                    model=MODEL, max_tokens=64000, system=base_policy(cfg),
+                    thinking={"type": "adaptive"},
+                    output_config={"effort": "high"},
+                    # This pass is three quarters of the day's bill, and almost
+                    # all of it is input: search results are charged as input
+                    # tokens on every iteration that re-reads them, so twenty
+                    # searches pay for the earlier ones over and over. A cache
+                    # hit costs a tenth of that. Automatic caching is enough
+                    # here — there is one long conversation with a growing
+                    # prefix, which is exactly the shape it handles.
+                    cache_control={"type": "ephemeral"},
+                    tools=tools(), messages=messages,
+                ) as stream:
+                    message = _guard(stream.get_final_message(), "Research")
+                break
+            except anthropic.BadRequestError as err:
+                # Rejected before any tokens were billed, so the retry is free.
+                kept = _without_unreachable(err, allowed)
+                if kept is None:
+                    raise
+                allowed = kept
 
         _log_searches(message)
 

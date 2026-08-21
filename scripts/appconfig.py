@@ -83,21 +83,40 @@ REGIONS: dict[str, dict] = {
 # of a listed domain come with it. Keep the list tight: an over-long filter is
 # rejected as request_too_large.
 
+# Anthropic's crawler is refused by a long list of the outlets you would name
+# first — Reuters, AP, AFP, the New York Times, the Wall Street Journal, the
+# BBC, the Guardian, the FT, the Economist, Wired, the Verge. Naming one here
+# does not fetch it; it fails the whole request with a 400 before any search
+# runs. They were never reachable, whitelist or not: across every edition this
+# paper has published, not one of the 43 links it cited came from any of them.
+# The whitelist did not lose that access, it only made the loss loud.
+#
+# So this list is the reachable press, not the ideal press. Nothing goes in
+# without a newsroom and a corrections policy; wire copy still arrives, by way
+# of the outlets that republish it.
+BLOCKED_BY_CRAWLER: frozenset = frozenset({
+    "afp.com", "apnews.com", "arstechnica.com", "barrons.com", "bbc.com",
+    "dw.com", "economist.com", "ft.com", "latimes.com", "marketwatch.com",
+    "newscientist.com", "nytimes.com", "politico.com", "reuters.com",
+    "theguardian.com", "theverge.com", "usatoday.com", "wired.com", "wsj.com",
+})
+
 SOURCES: dict[str, list] = {
-    # Wire services: first, because they are where most of a day's news breaks.
-    "wires": ["reuters.com", "apnews.com", "afp.com", "bloomberg.com"],
+    # What is left of the wires. Bloomberg runs its own; Yahoo Finance and CNBC
+    # carry Reuters and AP copy that cannot be read at the source.
+    "wires": ["bloomberg.com", "upi.com", "finance.yahoo.com"],
 
     # US papers and broadcasters with newsrooms and corrections policies.
     "us": [
-        "nytimes.com", "washingtonpost.com", "wsj.com", "npr.org", "pbs.org",
-        "cbsnews.com", "nbcnews.com", "abcnews.go.com", "cnn.com",
-        "latimes.com", "politico.com", "axios.com", "usatoday.com",
+        "washingtonpost.com", "npr.org", "pbs.org", "cbsnews.com",
+        "nbcnews.com", "abcnews.go.com", "abcnews.com", "cnn.com",
+        "axios.com", "thehill.com", "semafor.com",
     ],
 
     # Outside the US, in English — the GLOBAL beat depends on these.
     "world": [
-        "bbc.com", "theguardian.com", "ft.com", "economist.com",
-        "aljazeera.com", "dw.com", "france24.com", "foreignpolicy.com",
+        "aljazeera.com", "france24.com", "foreignpolicy.com", "cbc.ca",
+        "japantimes.co.jp", "straitstimes.com", "theconversation.com",
     ],
 
     # China. Caixin and Sixth Tone are independent; the last three answer to the
@@ -109,11 +128,11 @@ SOURCES: dict[str, list] = {
     ],
 
     # The specialist press each beat actually reads.
-    "business": ["cnbc.com", "marketwatch.com", "barrons.com", "fortune.com"],
-    "tech": ["theverge.com", "arstechnica.com", "wired.com", "techcrunch.com",
-             "technologyreview.com"],
+    "business": ["cnbc.com", "fortune.com", "businessinsider.com"],
+    "tech": ["techcrunch.com", "technologyreview.com", "engadget.com",
+             "zdnet.com"],
     "science": ["nature.com", "science.org", "scientificamerican.com",
-                "newscientist.com", "sciencenews.org"],
+                "sciencenews.org", "phys.org", "livescience.com"],
 
     # Primary documents — a bill, a ruling, a statistical release. Better than
     # any report about them, and the one category that cannot be accused of
@@ -122,13 +141,15 @@ SOURCES: dict[str, list] = {
         "congress.gov", "supremecourt.gov", "whitehouse.gov", "sec.gov",
         "federalreserve.gov", "bls.gov", "census.gov", "stats.gov.cn",
         "imf.org", "worldbank.org", "who.int", "un.org", "europa.eu",
+        "tradingeconomics.com", "justsecurity.org",
     ],
 
     # Without this the explainer videos have nowhere to come from.
     "video": ["youtube.com"],
 }
 
-ALLOWED_DOMAINS: list = [d for group in SOURCES.values() for d in group]
+ALLOWED_DOMAINS: list = [d for group in SOURCES.values() for d in group
+                         if d not in BLOCKED_BY_CRAWLER]
 
 # How many searches one day's research may make. A ceiling, not a target: the
 # model stops when it has enough. Running out is not an error the API raises —
