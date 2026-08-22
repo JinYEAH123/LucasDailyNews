@@ -213,7 +213,7 @@ button.copy {
     o.value = h;
     var ampm = h === 0 ? '12 AM' : h < 12 ? h + ' AM' : h === 12 ? '12 PM' : (h - 12) + ' PM';
     o.textContent = (h < 10 ? '0' + h : h) + ':00  ·  ' + ampm;
-    if (h === 17) o.selected = true;
+    if (h === 12) o.selected = true;
     hourSelect.appendChild(o);
   }
 
