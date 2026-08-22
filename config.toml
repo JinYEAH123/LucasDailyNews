@@ -18,8 +18,14 @@ languages = ["en", "zh"]
 # Asia/Shanghai, Asia/Tokyo, Australia/Sydney ...
 timezone = "America/Vancouver"
 # Hour of day, 0-23, in the zone above. Each edition covers the 24 hours ending
-# at this time. 17 = 5 PM, in time for dinner.
-hour = 17
+# at this time.
+#
+# 12 = noon, not 5 PM. The edition is *for* dinner, but it must not be built at
+# dinner: GitHub's hourly scheduler is best-effort and drifts, and on 2026-08-21
+# it checked at 16:54, six minutes early, then did not come back for over an
+# hour. A noon cutoff leaves the whole afternoon as slack, so a late scheduler
+# costs nothing anyone notices.
+hour = 12
 
 [site]
 # Your GitHub Pages address. The QR code on the share image points here.

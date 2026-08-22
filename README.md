@@ -48,11 +48,16 @@ languages = ["en", "zh"]
 
 [schedule]
 timezone = "America/Vancouver"    # any IANA zone
-hour     = 17                     # 0-23, local
+hour     = 12                     # 0-23, local — leave slack, see below
 
 [site]
 url = "https://yourname.github.io/your-repo/"
 ```
+
+Set `hour` several hours before you actually want to read the edition. The job
+runs hourly, but GitHub's scheduler is best-effort: it drifts by tens of minutes
+and sometimes skips an hour. A cutoff at the moment you want the paper leaves no
+room for that — noon, for a paper read at dinner, leaves five hours.
 
 Three ways to write it: open **`docs/setup.html`** in a browser, run
 **`python3 scripts/setup.py`**, or edit **`config.example.toml`** by hand.
@@ -167,6 +172,12 @@ Edit that text to change the paper's taste. In summary:
   is not a top story. Crime and gore are not top stories.
 - **Spread across beats** when the ranking allows, but never fill a slot with a
   weak story to reach a beat.
+- **Every beat is searched before anything is ranked.** Five of the day's
+  searches are committed in advance, one per beat, and the brief has to account
+  for all five — either a shortlisted candidate or an explicit "nothing here,
+  and why". A missing beat is sent back to be searched before the top three are
+  chosen. A beat that had nothing is a finding; a beat nobody looked at is a
+  hole, and the two are indistinguishable once the ranking is done.
 - **Research searches a named list of outlets, not the open web.** The list is
   `SOURCES` in `scripts/appconfig.py`: national papers and broadcasters, the
   specialist press of each beat, and primary documents — bills, rulings,
@@ -180,6 +191,11 @@ Edit that text to change the paper's taste. In summary:
 - **Every URL must have appeared in a search result.** Constructing, guessing, or
   repairing a link is forbidden; an empty list beats an invented one. Videos are
   included only when a real one turned up.
+- **Yesterday's stories are off the table.** The choosing pass is shown the
+  source URLs of the last few editions and refuses to run one twice — the
+  24-hour windows overlap at the edges, so a story breaking near a cutoff turns
+  up in two consecutive searches and reads as new both times. Checked in code,
+  not only asked for; a genuine development gets led with what is new.
 - **Background and further reading belong to the story they sit under**, and the
   list is allowed to be empty. Another story from the same edition is never this
   story's background; nor is "also happened in China this week". A link that is

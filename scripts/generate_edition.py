@@ -360,6 +360,7 @@ with exactly two sides. Treat it as the hardest thing you write:
 
 def research_prompt(cfg, start, end, date_str: str) -> str:
     beats = ", ".join(appconfig.category_label(k, "en") for k in appconfig.CATEGORIES)
+    beat_keys = ", ".join(appconfig.CATEGORIES)
     return f"""\
 Today is {date_str}. Research the news for the edition covering:
 
@@ -370,20 +371,38 @@ specialist press of each beat, primary documents — for what was actually
 published in that window. Beats: {beats}. Centre of
 gravity: the United States and China.
 
-Plan the searches before making them. You get {appconfig.SEARCHES_PER_RUN} and
-no more, so spend them on breadth: one per beat at least, then the regions that
-carry the day. A repeated query returns the same results and buys nothing — if a
-search comes back thin, the answer is a *different* query, not the same one
-again. Never issue a query you have already issued.
+You have {appconfig.SEARCHES_PER_RUN} searches. Spend them like this:
+
+  {len(appconfig.CATEGORIES)} of them are committed before you start — one for each beat
+  named above, whether or not you expect it to yield anything. Do those first.
+  The remaining {appconfig.SEARCHES_PER_RUN - len(appconfig.CATEGORIES)} are yours: follow what the first
+  {len(appconfig.CATEGORIES)} turned up, chase the regions carrying the day, confirm a
+  disputed number.
+
+A repeated query returns what it returned the first time — it buys nothing and
+costs one of the {appconfig.SEARCHES_PER_RUN}. If a search comes back thin, the answer is a
+*different* query, never the same one again.
 
 You are ranking what the whole day produced. A story you never searched for
-cannot be weighed, so a narrow search plan does not make for a quiet news day —
-it makes for a badly ranked one.
+cannot be weighed against the ones you did, so a narrow search plan does not
+produce a quiet news day — it produces a badly ranked one. A beat that truly had
+nothing is a finding; a beat you never looked at is a hole.
 
 Write a research brief containing:
 
-1. A ranked shortlist of about {N * 2 + 2} candidates. For each: what happened,
-   the specific numbers and names, why it matters, its beat, its region.
+1. A ranked shortlist of about {N * 2 + 2} candidates. Start each with its beat on
+   its own line, exactly:
+
+       BEAT: politics
+
+   using one of: {beat_keys}. Then what happened, the specific
+   numbers and names, why it matters, and its region. If a beat genuinely
+   produced nothing worth a shortlist place, say so on its own line instead:
+
+       NOTHING: science — searched, only routine journal releases
+
+   Every one of the {len(appconfig.CATEGORIES)} beats must appear as a BEAT or a NOTHING line.
+   This is checked, and a missing beat is sent back to you to search.
 2. Your top {N}, a sentence on each choice, and a sentence on what you left out.
 3. For each pick: the main source URL, 2-3 background/further reading URLs from
    different outlets, and any real YouTube explainer you found.
@@ -392,11 +411,58 @@ Paste URLs exactly as they appeared in search results. Note anything disputed or
 unconfirmed — that matters more than completeness."""
 
 
-def skeleton_prompt(brief: str) -> str:
+def recently_published(date_str: str, days: int = 4) -> list:
+    """(url, headline) for the stories the last few editions already ran.
+
+    Nothing in the pipeline remembered yesterday. Research covers a rolling
+    24-hour window and the windows overlap at the edges, so a story that broke
+    near a cutoff turns up in two consecutive searches and reads as new both
+    times. On 2026-08-21 the same CNN article — the same URL, not a follow-up —
+    ran as a top-three story for the second day running.
+
+    Read back a few days so the choosing pass can be told what is already spent.
+    """
+    out = []
+    for path in sorted(EDITIONS_DIR.glob("*.json"), reverse=True):
+        if path.stem >= date_str:
+            continue
+        try:
+            edition = json.loads(path.read_text())
+        except (OSError, ValueError):
+            continue
+        for story in edition.get("stories", []):
+            url = story.get("source", {}).get("url")
+            band = next(iter(story.get("versions", {}).values()), {})
+            head = (band.get("headline") or {}).get("en", "")
+            if url:
+                out.append((url, head))
+        days -= 1
+        if days <= 0:
+            break
+    return out
+
+
+def skeleton_prompt(brief: str, already: list) -> str:
+    spent = ""
+    if already:
+        lines = "\n".join(f"  {url}\n    {head}" for url, head in already)
+        spent = f"""
+
+The last few editions already ran these. The window this brief covers overlaps
+theirs, so a story that broke near a cutoff can appear in both and read as new
+the second time. Do not choose any of these URLs again, and do not re-tell the
+same event under a different link — unless something genuinely happened since,
+in which case lead with what is new rather than repeating the original account.
+
+<already_published>
+{lines}
+</already_published>"""
+
     return f"""\
 <brief>
 {brief}
 </brief>
+{spent}
 
 Emit the {N} chosen stories as JSON: rank, a short slug, beat, region, the links,
 and a plain adult-level `facts` paragraph for each. The facts field is the source
@@ -677,8 +743,30 @@ def _without_unreachable(err: Exception, domains: list) -> list | None:
     return kept
 
 
-def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
+_BEAT_LINE = re.compile(r"^\s*(BEAT|NOTHING)\s*:\s*([a-z]+)", re.M | re.I)
+
+
+def _beats_missing(brief: str) -> list:
+    """Beats the brief neither shortlisted nor declared empty.
+
+    The top three are chosen by ranking a shortlist, so a beat absent from the
+    shortlist did not lose — it never ran. On 2026-08-20 society, science and
+    business were never searched, and a Hong Kong court story took third place
+    against no competition. Asking for coverage in the prompt is what produced
+    that edition, so this reads the answer back and checks.
+
+    A beat with nothing to report is a legitimate outcome; it just has to be
+    stated (NOTHING: science) rather than left silent, because silence is
+    exactly what an unsearched beat looks like.
+    """
+    seen = {m.group(2).lower() for m in _BEAT_LINE.finditer(brief)}
+    return [b for b in appconfig.CATEGORIES if b not in seen]
+
+
+def research(client, cfg, prompt: str, max_restarts: int = 4,
+             max_top_ups: int = 2) -> str:
     messages = [{"role": "user", "content": prompt}]
+    collected, top_ups = [], max_top_ups
     # Searching a named list instead of the open web. This is a quality control,
     # not a cost one: a search costs the same either way, and the results still
     # arrive as input tokens.
@@ -692,7 +780,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
             "allowed_domains": allowed,
         }]
 
-    for attempt in range(max_restarts + 1):
+    for attempt in range(max_restarts + max_top_ups + 1):
         while True:
             try:
                 with client.messages.stream(
@@ -720,14 +808,43 @@ def research(client, cfg, prompt: str, max_restarts: int = 4) -> str:
 
         _log_searches(message)
 
-        if message.stop_reason != "pause_turn":
-            brief = _text_of(message)
-            if not brief:
-                raise SystemExit("Research produced no text.")
+        if message.stop_reason == "pause_turn":
+            messages.append({"role": "assistant", "content": message.content})
+            print(f"  research paused, resuming ({attempt + 1}/{max_restarts})",
+                  file=sys.stderr)
+            continue
+
+        text = _text_of(message)
+        if not text:
+            raise SystemExit("Research produced no text.")
+        collected.append(text)
+        brief = "\n\n".join(collected)
+
+        gaps = _beats_missing(brief)
+        covered = [b for b in appconfig.CATEGORIES if b not in gaps]
+        print(f"  beats covered: {', '.join(covered) or 'none'}", file=sys.stderr)
+
+        if not gaps:
+            return brief
+        if not top_ups:
+            # Not fatal. A paper missing a beat is worse than a paper that says
+            # which beat it is missing, and the day's work is already paid for.
+            print(f"  warning: {', '.join(gaps)} still unaccounted for after "
+                  f"{max_top_ups} top-up round(s). The top three were ranked "
+                  f"without them.", file=sys.stderr)
             return brief
 
+        top_ups -= 1
+        print(f"  never searched: {', '.join(gaps)} — sending them back "
+              f"({max_top_ups - top_ups}/{max_top_ups})", file=sys.stderr)
         messages.append({"role": "assistant", "content": message.content})
-        print(f"  research paused, resuming ({attempt + 1}/{max_restarts})", file=sys.stderr)
+        messages.append({"role": "user", "content":
+            f"You did not account for these beats: {', '.join(gaps)}. Search each "
+            f"one now, then extend the shortlist with whatever they turned up — "
+            f"same format, one BEAT line per candidate. If a beat really has "
+            f"nothing worth a place, say NOTHING: <beat> and why. Do not repeat a "
+            f"query you have already run, and do not restate the candidates you "
+            f"have already given me."})
 
     raise SystemExit("Research never finished — still paused after max restarts.")
 
@@ -787,6 +904,35 @@ def _prune_stray_links(stories: list) -> None:
         print(f"  note: {len(dropped)} link(s) were padding rather than reading. "
               f"Research came back thin; check the search queries above.",
               file=sys.stderr)
+
+
+def _choose(client, cfg, brief: str, already: list, schema: dict,
+            attempts: int = 2) -> dict:
+    """Pass 2, refusing a story a recent edition already ran.
+
+    Telling the model not to reuse a URL is the same kind of instruction that
+    let the padded reading lists through, so the answer is read back. A repeat
+    is unambiguous — the same URL, published days apart — and cheap to catch.
+    """
+    spent = {url for url, _ in already}
+    for attempt in range(1, attempts + 1):
+        skeleton = structured(client, cfg, base_policy(cfg),
+                              skeleton_prompt(brief, already),
+                              schema, "Skeleton")
+        repeats = [st for st in skeleton.get("stories", [])
+                   if st.get("source", {}).get("url") in spent]
+        if not repeats:
+            return skeleton
+
+        for st in repeats:
+            print(f"  {st.get('slug')} ran in a recent edition already: "
+                  f"{st['source']['url']}", file=sys.stderr)
+        if attempt == attempts:
+            print(f"  warning: kept {len(repeats)} repeat(s) — the brief may not "
+                  f"hold {N} stories that have not already run.", file=sys.stderr)
+            return skeleton
+        print(f"  choosing again without them ({attempt}/{attempts})", file=sys.stderr)
+        already = already + [(st["source"]["url"], st.get("slug", "")) for st in repeats]
 
 
 def build_edition(cfg, skeleton: dict, writing: dict, date_str: str, start, end) -> dict:
@@ -865,8 +1011,11 @@ def main() -> None:
 
     print("Pass 2 — choosing and recording the links…")
     skel_schema = skeleton_schema(cfg)
-    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skel_schema, "Skeleton")
+    already = recently_published(date_str)
+    if already:
+        print(f"  {len(already)} story/stories from recent editions are off the table",
+              file=sys.stderr)
+    skeleton = _choose(client, cfg, brief, already, skel_schema)
     problem = _shortfall(skeleton, skel_schema, ())
     if problem is None:
         for story in skeleton["stories"]:
