@@ -18,8 +18,13 @@ languages = ["en"]
 # Asia/Shanghai, Asia/Tokyo, Australia/Sydney ...
 timezone = "America/Vancouver"
 # Hour of day, 0-23, in the zone above. Each edition covers the 24 hours ending
-# at this time. 17 = 5 PM, in time for dinner.
-hour = 17
+# at this time.
+#
+# Set this several hours before you actually want to read it. The job runs
+# hourly, but GitHub's scheduler is best-effort: it drifts, and it sometimes
+# skips an hour entirely. A cutoff at the moment you want the paper leaves no
+# room for that; a cutoff at noon for a paper read at dinner leaves five hours.
+hour = 12
 
 [site]
 # Your GitHub Pages address. The QR code on the share image points here.

@@ -48,11 +48,16 @@ languages = ["en", "zh"]
 
 [schedule]
 timezone = "America/Vancouver"    # any IANA zone
-hour     = 17                     # 0-23, local
+hour     = 12                     # 0-23, local — leave slack, see below
 
 [site]
 url = "https://yourname.github.io/your-repo/"
 ```
+
+Set `hour` several hours before you actually want to read the edition. The job
+runs hourly, but GitHub's scheduler is best-effort: it drifts by tens of minutes
+and sometimes skips an hour. A cutoff at the moment you want the paper leaves no
+room for that — noon, for a paper read at dinner, leaves five hours.
 
 Three ways to write it: open **`docs/setup.html`** in a browser, run
 **`python3 scripts/setup.py`**, or edit **`config.example.toml`** by hand.

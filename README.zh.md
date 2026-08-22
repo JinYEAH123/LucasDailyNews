@@ -44,11 +44,16 @@ languages = ["en", "zh"]
 
 [schedule]
 timezone = "America/Vancouver"    # 任意 IANA 时区
-hour     = 17                     # 0-23，当地时间
+hour     = 12                     # 0-23，当地时间——要留余量，见下
 
 [site]
 url = "https://yourname.github.io/your-repo/"
 ```
+
+`hour` 要设在你真正想读到它的时刻**之前几个小时**。任务每小时触发一次，
+但 GitHub 的定时器是「尽力而为」的：会漂移几十分钟，偶尔整点跳过一次。
+把截止时刻设在你想看报的那一刻，等于一点余量都不留——
+晚饭时看的报纸，截止时刻设在中午，就有五个小时的缓冲。
 
 三种写法：浏览器打开 **`docs/setup.html`**、运行 **`python3 scripts/setup.py`**，
 或者直接改 **`config.example.toml`**。
