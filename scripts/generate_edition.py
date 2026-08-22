@@ -411,11 +411,58 @@ Paste URLs exactly as they appeared in search results. Note anything disputed or
 unconfirmed — that matters more than completeness."""
 
 
-def skeleton_prompt(brief: str) -> str:
+def recently_published(date_str: str, days: int = 4) -> list:
+    """(url, headline) for the stories the last few editions already ran.
+
+    Nothing in the pipeline remembered yesterday. Research covers a rolling
+    24-hour window and the windows overlap at the edges, so a story that broke
+    near a cutoff turns up in two consecutive searches and reads as new both
+    times. On 2026-08-21 the same CNN article — the same URL, not a follow-up —
+    ran as a top-three story for the second day running.
+
+    Read back a few days so the choosing pass can be told what is already spent.
+    """
+    out = []
+    for path in sorted(EDITIONS_DIR.glob("*.json"), reverse=True):
+        if path.stem >= date_str:
+            continue
+        try:
+            edition = json.loads(path.read_text())
+        except (OSError, ValueError):
+            continue
+        for story in edition.get("stories", []):
+            url = story.get("source", {}).get("url")
+            band = next(iter(story.get("versions", {}).values()), {})
+            head = (band.get("headline") or {}).get("en", "")
+            if url:
+                out.append((url, head))
+        days -= 1
+        if days <= 0:
+            break
+    return out
+
+
+def skeleton_prompt(brief: str, already: list) -> str:
+    spent = ""
+    if already:
+        lines = "\n".join(f"  {url}\n    {head}" for url, head in already)
+        spent = f"""
+
+The last few editions already ran these. The window this brief covers overlaps
+theirs, so a story that broke near a cutoff can appear in both and read as new
+the second time. Do not choose any of these URLs again, and do not re-tell the
+same event under a different link — unless something genuinely happened since,
+in which case lead with what is new rather than repeating the original account.
+
+<already_published>
+{lines}
+</already_published>"""
+
     return f"""\
 <brief>
 {brief}
 </brief>
+{spent}
 
 Emit the {N} chosen stories as JSON: rank, a short slug, beat, region, the links,
 and a plain adult-level `facts` paragraph for each. The facts field is the source
@@ -859,6 +906,35 @@ def _prune_stray_links(stories: list) -> None:
               file=sys.stderr)
 
 
+def _choose(client, cfg, brief: str, already: list, schema: dict,
+            attempts: int = 2) -> dict:
+    """Pass 2, refusing a story a recent edition already ran.
+
+    Telling the model not to reuse a URL is the same kind of instruction that
+    let the padded reading lists through, so the answer is read back. A repeat
+    is unambiguous — the same URL, published days apart — and cheap to catch.
+    """
+    spent = {url for url, _ in already}
+    for attempt in range(1, attempts + 1):
+        skeleton = structured(client, cfg, base_policy(cfg),
+                              skeleton_prompt(brief, already),
+                              schema, "Skeleton")
+        repeats = [st for st in skeleton.get("stories", [])
+                   if st.get("source", {}).get("url") in spent]
+        if not repeats:
+            return skeleton
+
+        for st in repeats:
+            print(f"  {st.get('slug')} ran in a recent edition already: "
+                  f"{st['source']['url']}", file=sys.stderr)
+        if attempt == attempts:
+            print(f"  warning: kept {len(repeats)} repeat(s) — the brief may not "
+                  f"hold {N} stories that have not already run.", file=sys.stderr)
+            return skeleton
+        print(f"  choosing again without them ({attempt}/{attempts})", file=sys.stderr)
+        already = already + [(st["source"]["url"], st.get("slug", "")) for st in repeats]
+
+
 def build_edition(cfg, skeleton: dict, writing: dict, date_str: str, start, end) -> dict:
     stories = sorted(skeleton["stories"], key=lambda s: s.get("rank", 99))
     _prune_stray_links(stories)
@@ -935,8 +1011,11 @@ def main() -> None:
 
     print("Pass 2 — choosing and recording the links…")
     skel_schema = skeleton_schema(cfg)
-    skeleton = structured(client, cfg, base_policy(cfg), skeleton_prompt(brief),
-                          skel_schema, "Skeleton")
+    already = recently_published(date_str)
+    if already:
+        print(f"  {len(already)} story/stories from recent editions are off the table",
+              file=sys.stderr)
+    skeleton = _choose(client, cfg, brief, already, skel_schema)
     problem = _shortfall(skeleton, skel_schema, ())
     if problem is None:
         for story in skeleton["stories"]:

@@ -191,6 +191,11 @@ Edit that text to change the paper's taste. In summary:
 - **Every URL must have appeared in a search result.** Constructing, guessing, or
   repairing a link is forbidden; an empty list beats an invented one. Videos are
   included only when a real one turned up.
+- **Yesterday's stories are off the table.** The choosing pass is shown the
+  source URLs of the last few editions and refuses to run one twice — the
+  24-hour windows overlap at the edges, so a story breaking near a cutoff turns
+  up in two consecutive searches and reads as new both times. Checked in code,
+  not only asked for; a genuine development gets led with what is new.
 - **Background and further reading belong to the story they sit under**, and the
   list is allowed to be empty. Another story from the same edition is never this
   story's background; nor is "also happened in China this week". A link that is
