@@ -1,0 +1,1557 @@
+{
+  "date": "2026-08-23",
+  "window": {
+    "start": "2026-08-22T12:00:00-07:00",
+    "end": "2026-08-23T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM PDT",
+      "zh": "PDT 8月22日 12:00 至 8月23日 12:00"
+    }
+  },
+  "generated_at": "2026-08-23T12:21:54-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 3 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "6-11",
+      "12-15",
+      "16+"
+    ],
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Canada Unveils $20 Billion Counter-Tariffs to Mirror Trump Levy",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-22/canada-unveils-20-billion-counter-tariffs-to-mirror-trump-levy"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US-Canada Tariffs",
+            "zh": "美加关税风波"
+          },
+          "summary": {
+            "en": "NPR's same-day account adds detail on which sectors are hit hardest by the 50% US tariffs and how Canadian officials are responding domestically.",
+            "zh": "NPR的同日报道补充了哪些行业受50%美国关税打击最严重，以及加拿大官员的国内应对细节。"
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
+        },
+        {
+          "title": {
+            "en": "Trump's Trade War With Canada: A Timeline",
+            "zh": "特朗普对加贸易战：时间线回顾"
+          },
+          "summary": {
+            "en": "This timeline traces how the US-Canada tariff fight escalated over the past year, giving readers the history behind Saturday's rupture.",
+            "zh": "这条时间线梳理了过去一年美加关税争端如何一步步升级，为周六的决裂提供历史背景。"
+          },
+          "publisher": "Yahoo Finance Canada",
+          "url": "https://ca.finance.yahoo.com/news/trumps-trade-war-canada-timeline-160052689.html"
+        }
+      ],
+      "further": [],
+      "videos": [
+        {
+          "title": "US-Canada Tariffs, Bessent's Bond Plan, China's AI Push | Bloomberg This Weekend: Aug 22, 2026",
+          "channel": "Bloomberg",
+          "url": "https://www.youtube.com/watch?v=2WyA89kLkYw",
+          "summary": {
+            "en": "A weekend markets roundup that explains how traders are pricing the new US-Canada tariff standoff alongside other economic news.",
+            "zh": "一档周末市场综述节目，解释交易员如何为新的美加关税对峙定价，并涉及其他经济新闻。"
+          }
+        }
+      ],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "The US and Canada Are Fighting Over Trade Taxes",
+            "zh": "美国和加拿大因贸易关税起了争执"
+          },
+          "hook": {
+            "en": "Late on Friday night, talks between the United States and Canada about buying and selling goods fell apart. Right at midnight, the US put a huge new tax on many Canadian products. The next morning, Canada's leader said the US had made a big mistake, and promised to tax American products right back.",
+            "zh": "周五深夜，美国和加拿大关于买卖商品的谈判破裂了。就在午夜时分，美国对许多加拿大商品加征了一项巨大的新税。第二天早上，加拿大领导人说美国犯了个大错，并承诺要以同样的方式反击。"
+          },
+          "story": {
+            "en": [
+              "Imagine you buy a toy truck from a yard sale for $10. Now imagine a rule says you must pay $5 extra just to carry it across the street into your house. That extra money is called a tariff — it's like a tax on things that cross the border between two countries.",
+              "The United States and Canada trade huge amounts of stuff with each other every single day — cars, cheese, wood, wheat, and much more. On Friday night, leaders from both countries tried to agree on new trading rules. The talks fell apart. Right at midnight, the US added a giant 50% tariff on many Canadian goods, so something that used to cost $10 to bring into the US now costs $15.",
+              "The next morning, Canada's Prime Minister, Mark Carney, called the move 'a miscalculation' — a fancy way of saying 'a mistake.' He said Canada will fight back with its own tariffs on $20 billion worth of American products, starting September 8. Twenty billion dollars is an enormous pile of money — roughly enough to buy 200 million bicycles.",
+              "Right now, nobody knows exactly which Canadian goods have the new US tariff, or which American goods Canada will tax in return. Store shelves on both sides of the border could get more expensive. This story is still changing, so expect more news before September 8."
+            ],
+            "zh": [
+              "想象你在庭院旧货市场用10美元买了一辆玩具卡车。现在假设有条规矩说，你必须多付5美元才能把它带过马路带回家。这多付的钱就叫“关税”——就像对跨越两国边境的商品征收的税。",
+              "美国和加拿大每天都在互相交易大量商品——汽车、奶酪、木材、小麦，还有很多其他东西。周五晚上，两国领导人试图就新的贸易规则达成一致，但谈判破裂了。就在午夜，美国对许多加拿大商品加征了高达50%的关税，原本运进美国要花10美元的东西，现在要花15美元。",
+              "第二天早上，加拿大总理马克·卡尼称这一举动是“一次误判”——也就是说“犯了个错误”。他说加拿大将以同样的方式反击，从9月8日起对价值200亿美元的美国商品加征关税。200亿美元是一笔巨大的钱——大约能买两亿辆自行车。",
+              "目前还不清楚哪些加拿大商品被美国加征了新关税，也不清楚加拿大会对哪些美国商品进行反击。两国边境两边的商店货架上，东西可能都会变贵。这件事还在发展中，9月8日之前很可能还会有更多消息。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you don't live near the US-Canada border, this can affect things your family buys — cars, food, and wood for building things. When two countries that trade a lot with each other start taxing each other's goods, prices can go up for regular families on both sides.",
+            "zh": "即使你不住在美加边境附近，这件事也可能影响你家买的东西——汽车、食品，还有盖房子用的木材。当两个彼此贸易频繁的国家开始互相加税，两边普通家庭要付的价钱都可能上涨。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "tariff",
+                "zh": "关税"
+              },
+              "def": {
+                "en": "A tariff is an extra tax a government adds to goods coming in from another country, which makes those goods cost more.",
+                "zh": "关税是政府对从别的国家进口的商品加收的一种额外税，会让这些商品变得更贵。"
+              }
+            },
+            {
+              "term": {
+                "en": "retaliate",
+                "zh": "反击"
+              },
+              "def": {
+                "en": "To retaliate means to respond to someone's action by doing something similar back to them.",
+                "zh": "反击的意思是，对方做了什么事之后，你也用类似的方式回应他们。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If one country puts a big tax on another country's goods, is it fair for that country to tax back?",
+                "zh": "如果一个国家对另一个国家的商品加征了很重的税，那个国家用同样的方式反击，算公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to fight back",
+                    "zh": "是的，反击是公平的"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone treats you unfairly, standing up for yourself shows you won't just be pushed around.",
+                      "If you don't respond, the other side might keep doing it, or do something even bigger next time.",
+                      "Doing the same thing back, tax for tax, treats both sides equally."
+                    ],
+                    "zh": [
+                      "如果有人不公平地对待你，站出来为自己说话，说明你不会任人摆布。",
+                      "如果你不回应，对方可能会继续这样做，甚至下次做得更过分。",
+                      "以同样的方式回击——你加税我也加税——对双方是平等的。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's better not to retaliate",
+                    "zh": "不，最好不要反击"
+                  },
+                  "points": {
+                    "en": [
+                      "Fighting back can make things worse for everyone, like two kids taking turns hitting instead of stopping.",
+                      "Regular people who didn't cause the problem end up paying the higher prices.",
+                      "Talking things through might solve the real problem better than punishing each other."
+                    ],
+                    "zh": [
+                      "互相反击可能让事情变得更糟，就像两个孩子轮流打对方，而不是停下来。",
+                      "为这件事付出代价的往往是没有做错事的普通人，他们要多花钱买东西。",
+                      "好好谈一谈，也许比互相惩罚更能真正解决问题。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When two countries depend on each other for many of the things they buy and sell, should they keep trading while they're upset, or pause until they work it out?",
+                "zh": "当两个国家在买卖上非常依赖彼此时，如果他们闹了矛盾，应该继续交易，还是先停下来等问题解决？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep trading",
+                    "zh": "继续交易"
+                  },
+                  "points": {
+                    "en": [
+                      "Farmers, factory workers, and store owners depend on trade for their jobs, and stopping suddenly could hurt them.",
+                      "Families need everyday things like food and car parts, and pausing trade could make those harder to find.",
+                      "It's possible to keep talking and solving the disagreement while trade continues, instead of waiting for everything to be perfect."
+                    ],
+                    "zh": [
+                      "农民、工厂工人和店主都靠贸易谋生，突然停止交易可能会伤害到他们。",
+                      "家庭需要食品、汽车零件这些日常用品，暂停贸易可能会让这些东西更难买到。",
+                      "其实可以一边继续交易，一边解决分歧，不必等到所有问题都完全解决。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Pause until they work it out",
+                    "zh": "先停下来等问题解决"
+                  },
+                  "points": {
+                    "en": [
+                      "Continuing to trade while unhappy might mean neither side feels a strong need to fix the real problem.",
+                      "Pausing sends a clear message that the disagreement is serious and needs to be solved quickly.",
+                      "Taking a break can help both sides cool down and think more clearly before making a deal."
+                    ],
+                    "zh": [
+                      "如果一边不满一边还继续交易，双方可能都不觉得需要真正解决问题。",
+                      "暂停交易能清楚地表明这个分歧很严重，需要尽快解决。",
+                      "暂停一下也许能让双方冷静下来，在达成协议前想得更清楚。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Trade Talks Collapse: US Slaps 50% Tariffs on Canada, Canada Vows to Hit Back",
+            "zh": "贸易谈判破裂:美国对加拿大加征50%关税,加拿大誓言反击"
+          },
+          "hook": {
+            "en": "Late Friday night, trade talks between the United States and Canada broke down. At midnight, the US began charging a 50% tariff — an extra tax on imported goods — on a wide range of Canadian products. Canada's Prime Minister, Mark Carney, called the move 'a miscalculation' and said Canada would strike back with matching tariffs on $20 billion of American goods starting September 8.",
+            "zh": "上周五深夜,美国和加拿大的贸易谈判宣告破裂。到了午夜,美国开始对大量加拿大商品征收50%的关税——关税就是政府对进口商品额外征收的一种税。加拿大总理马克·卡尼称这一举动是"
+          },
+          "story": {
+            "en": [
+              "Here's what happened, plainly: two countries that have traded with each other peacefully for decades suddenly stopped agreeing on the rules. Talks between American and Canadian negotiators fell apart Friday night, and the US didn't wait around — at the stroke of midnight, it started charging a 50% tariff on many Canadian goods entering the country. Carney announced Saturday morning that Canada would respond dollar-for-dollar, taxing $20 billion worth of American products starting September 8.",
+              "A tariff works like this: when a Canadian company ships lumber, steel, or car parts into the US, the American company buying it now has to pay an extra 50 cents on every dollar to the US government. That cost usually gets passed along — to other businesses, and eventually to the person buying a truck or a bag of groceries at the store. So a 50% tariff isn't just a number in a headline; it's money that flows out of somebody's wallet, usually without them noticing exactly why prices went up.",
+              "This particular relationship matters more than most, because for thirty years the US and Canadian economies have been stitched together on purpose. Under NAFTA and its replacement, USMCA, a car might cross the border five or six times before it's finished — an engine part made in Ontario, assembled in Michigan, shipped back to Canada for another step, then sold in Texas. Farmers, factory workers, and truckers on both sides built their businesses assuming that border would stay cheap and easy to cross. A sudden 50% tariff doesn't just tax one shipment; it jams a machine that both countries spent decades building.",
+              "Right now, a lot is still unknown. Nobody has published a clear list of exactly which Canadian goods face the new 50% tariff, or which American products Canada plans to target on September 8. Each government blames the other for escalating first, and neither side is backing down publicly. That uncertainty is its own kind of damage — a factory owner who doesn't know if her raw materials will cost 50% more next month can't plan, hire, or set prices with any confidence.",
+              "What happens next depends on whether cooler heads find a way back to the table before September 8. Trade disputes like this have been resolved before through renegotiation, and they've also dragged on for years, reshaping which countries companies choose to build factories in. For now, the fight is real, the deadline is set, and the people most affected — workers, shoppers, and small business owners on both sides of the border — didn't get a vote in either government's decision."
+            ],
+            "zh": [
+              "事情的经过很直接:两个和平贸易了几十年的国家,突然在规则上谈不拢了。美加双方的谈判代表在周五晚上谈崩,美国没有拖延——午夜钟声一响,就开始对大量进入美国的加拿大商品征收50%的关税。加拿大总理卡尼在周六早上宣布,加拿大将以牙还牙,从9月8日起对价值200亿美元的美国商品征收同等关税进行反击。",
+              "关税是这样运作的:当一家加拿大公司把木材、钢铁或汽车零件运到美国,买家现在每花一美元就要多付50美分给美国政府。这笔成本通常会一层层转嫁下去——转给其他企业,最终落到买卡车或买菜的普通人身上。所以50%的关税不只是新闻标题里的一个数字,它是从某个人钱包里真实流出去的钱,只是那个人往往不清楚价格为什么突然涨了。",
+              "这段贸易关系尤其重要,因为过去三十年里,美加两国的经济是被刻意"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Something as small as a can of soup or as big as your family's next car could cost more because of this dispute, since both are often made from parts and ingredients that cross the US-Canada border multiple times before reaching a store. Factory and farm workers in both countries could also lose hours or jobs if the businesses they work for suddenly can't afford to buy or sell across the border the way they used to. This is a reminder that decisions made by two governments in a single weekend can quietly show up in a family's grocery bill months later.",
+            "zh": "因为一罐汤或者一辆新车的零件和原料,常常要在美加边境之间往返好几次才能最终出现在商店货架上,这场纠纷可能会让它们变得更贵。两国的工厂工人和农场工人也可能因此减少工时甚至失业,如果他们所在的企业突然无法像过去那样轻松地跨境买卖。这提醒我们:两国政府在一个周末做出的决定,几个月后可能就悄悄出现在一个家庭的购物账单上。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff",
+                "zh": "关税"
+              },
+              "def": {
+                "en": "An extra tax a government charges on goods coming in from another country, usually paid by the company importing them.",
+                "zh": "关税是一国政府对从别国进口的商品额外征收的一种税,通常由进口商品的公司支付。"
+              }
+            },
+            {
+              "term": {
+                "en": "Supply chain",
+                "zh": "供应链"
+              },
+              "def": {
+                "en": "The network of factories, farms, and suppliers in different places that work together to make and deliver one finished product.",
+                "zh": "供应链是指分布在不同地方的工厂、农场和供应商组成的网络,它们共同协作,生产并交付一件成品。"
+              }
+            },
+            {
+              "term": {
+                "en": "USMCA",
+                "zh": "美墨加协定"
+              },
+              "def": {
+                "en": "The trade agreement between the US, Mexico, and Canada that set the rules for trading goods among the three countries, replacing an older deal called NAFTA.",
+                "zh": "美墨加协定是美国、墨西哥和加拿大之间的贸易协议,规定了三国之间商品贸易的规则,取代了此前的《北美自由贸易协定》(NAFTA)。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When one country raises tariffs sharply, should the other country hit back with equal tariffs of its own?",
+                "zh": "当一国大幅提高关税时,另一国是否应该以同等的关税进行反击?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, retaliate",
+                    "zh": "应该反击"
+                  },
+                  "points": {
+                    "en": [
+                      "Matching the pressure shows you won't be pushed around, which can protect your bargaining position in future talks.",
+                      "Equal retaliation can force the other side back to the negotiating table faster than quiet diplomacy alone.",
+                      "If a country never responds to unfair tariffs, it may invite even harsher treatment the next time a dispute arises."
+                    ],
+                    "zh": [
+                      "以同等力度回应,表明自己不会被随意拿捏,这有助于在未来谈判中保住话语权。",
+                      "对等反击往往比单纯的外交沟通更能迫使对方尽快回到谈判桌前。",
+                      "如果一个国家从不回应不公平的关税,下次争端出现时可能会招致更严厉的对待。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't retaliate",
+                    "zh": "不应该反击"
+                  },
+                  "points": {
+                    "en": [
+                      "Counter-tariffs raise prices for your own citizens too, since the extra tax lands on goods your own people want to buy.",
+                      "Trade wars can spiral quickly, leaving both economies worse off than the original tariff alone would have.",
+                      "Legal challenges and quiet diplomacy can sometimes resolve a dispute without the extra economic pain of a tit-for-tat fight."
+                    ],
+                    "zh": [
+                      "反制关税同样会推高本国民众要购买的商品价格,等于让自己人也一起承担代价。",
+                      "贸易战很容易迅速升级,最终让双方经济都比最初的关税本身受到更大伤害。",
+                      "法律途径和低调的外交沟通有时也能化解争端,而不必承受针锋相对带来的额外经济损失。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Do tariffs like these ultimately protect a country's workers and industries, or end up hurting them?",
+                "zh": "像这样的关税,最终究竟是保护了一国的工人和产业,还是伤害了他们?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "They protect",
+                    "zh": "起到保护作用"
+                  },
+                  "points": {
+                    "en": [
+                      "Making imported goods more expensive gives local companies a better chance to compete and keep jobs at home.",
+                      "Tariffs can pressure a trading partner to change practices seen as unfair, like underpricing goods to undercut competitors.",
+                      "Governments sometimes use tariffs to rebuild industries — like steel or semiconductors — considered important for national security."
+                    ],
+                    "zh": [
+                      "让进口商品变贵,能给本国企业更好的竞争机会,从而保住本地就业岗位。",
+                      "关税可以给贸易伙伴施压,迫使其改变被视为不公平的做法,比如故意压低价格挤垮竞争对手。",
+                      "政府有时会用关税来重建被认为关乎国家安全的产业,比如钢铁或半导体产业。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "They hurt",
+                    "zh": "造成了伤害"
+                  },
+                  "points": {
+                    "en": [
+                      "Higher tariffs raise costs for businesses that rely on imported parts, which can end up costing jobs instead of saving them.",
+                      "Everyday consumers pay more for goods like cars, groceries, and clothing once the extra tax works its way through the supply chain.",
+                      "When trading partners retaliate, exporters can lose access to markets abroad, hurting the very industries the tariffs were meant to protect."
+                    ],
+                    "zh": [
+                      "关税提高会增加依赖进口零部件的企业的成本,反而可能导致裁员而不是保住工作。",
+                      "一旦额外的税费通过供应链层层传导,普通消费者购买汽车、食品和衣物都要花更多钱。",
+                      "当贸易伙伴进行反击时,出口企业可能失去海外市场,反而伤害了关税原本想要保护的产业。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Trade Talks Collapse, US Hits Canada With 50% Tariffs",
+            "zh": "美加贸易谈判破裂,美国对加拿大加征50%关税"
+          },
+          "hook": {
+            "en": "Trade negotiations between Washington and Ottawa broke down late Friday night, and at midnight the United States imposed a 50% tariff on a wide range of Canadian goods. Canadian Prime Minister Mark Carney called the move 'a miscalculation' the next morning and said Canada will hit back with matching tariffs on $20 billion of American products starting September 8.",
+            "zh": "周五深夜,美国与加拿大的贸易谈判宣告破裂,美国在午夜时分对大量加拿大商品征收50%的关税。加拿大总理马克·卡尼第二天早上称此举是“一次误判”,并宣布加拿大将从9月8日起对200亿美元的美国产品征收对等报复性关税。"
+          },
+          "story": {
+            "en": [
+              "The talks fell apart late Friday, and by midnight the United States had put a 50% tariff on a broad swath of Canadian goods — one of the sharpest tariff moves the two countries have taken against each other in decades, striking at what has long been one of the largest trading relationships anywhere in the world.",
+              "A tariff is simply a tax a government charges on goods coming in from another country. The importer pays it, and that cost usually gets passed along the chain until it lands, at least partly, in the price a shopper sees on the shelf. Most tariffs between friendly trading partners run in the single digits; 50% is closer to a wall than a toll booth, and it hits industries — autos and agriculture among them — that have spent decades building supply chains that assume the border barely exists.",
+              "Carney did not wait long to answer. Standing before reporters Saturday morning, he called Washington's move a miscalculation and announced Canada would respond dollar-for-dollar: matching tariffs on $20 billion worth of American goods, timed to begin September 8. The logic of a dollar-for-dollar response is political as much as economic — it signals that Canada will not simply absorb the cost, even though matching tariffs also raises prices for Canadian buyers of American goods.",
+              "What exactly gets hit is still unclear on both sides. Washington has not spelled out precisely which Canadian goods fall under the new 50% rate, and Ottawa has not published the list of American products it plans to target come September. That ambiguity leaves businesses on both sides of the border — car makers, farmers, retailers — trying to plan shipments and contracts without knowing the actual rules they will be operating under in two weeks.",
+              "The disruption cuts deeper than a normal tariff dispute because of how integrated the two economies already are. Under NAFTA and its successor, the USMCA, a single car part can cross the US-Canada border several times before a vehicle is finished, each crossing assuming duty-free treatment. A 50% tariff does not just tax a finished good; it taxes a process that was built on the assumption that the border was, for practical purposes, not really there.",
+              "This is very much a live story. The tariffs took effect at midnight; Carney's retaliation plan was announced only hours later, and the September 8 deadline gives both governments more than a week in which talks could resume, escalate further, or simply stall while businesses absorb the cost."
+            ],
+            "zh": [
+              "谈判在周五深夜破裂,到午夜时分,美国已经对大量加拿大商品征收50%的关税——这是数十年来两国之间最激烈的关税行动之一,冲击的是全球规模最大的双边贸易关系之一。",
+              "关税说白了就是政府对进口商品征收的一种税。进口商先交这笔钱,然后这笔成本通常会沿着供应链层层转嫁,最终至少部分体现在消费者看到的商品价格上。友好贸易伙伴之间的关税通常只有个位数百分比,而50%更像是一堵墙,而不是一道收费站,直接冲击那些几十年来一直假设边境几乎不存在的产业——汽车和农业首当其冲。",
+              "卡尼没有拖延太久。周六早上,他在记者面前称华盛顿此举是一次误判,并宣布加拿大将采取对等回应:对200亿美元的美国商品征收同等关税,从9月8日起生效。这种“对等对等”的逻辑既是经济考量,也是政治信号——它表明加拿大不会一味承受损失,尽管报复性关税同样会推高加拿大买家购买美国商品的价格。",
+              "目前双方具体会波及哪些商品仍不明朗。华盛顿尚未明确说明哪些加拿大商品将适用新的50%税率,渥太华也还没公布9月起将针对哪些美国产品。这种不确定性让边境两侧的企业——汽车制造商、农场主、零售商——在不知道两周后实际适用规则的情况下,只能摸黑规划货运和合同。",
+              "这场纠纷之所以比一般关税争端更棘手,是因为两国经济早已高度融合。在《北美自由贸易协定》及其继任者《美墨加协定》(USMCA)的框架下,一个汽车零件在成品下线前可能要多次跨越美加边境,每一次跨境都建立在免税待遇的假设之上。50%的关税冲击的不只是一件成品,而是一整套建立在“边境实际上并不存在”这一假设之上的生产流程。",
+              "这仍是一个正在发展中的事件。关税在午夜生效,卡尼的报复计划几个小时后才宣布,而9月8日的期限给了两国政府一周多的时间,谈判可能重启,也可能进一步升级,或者干脆陷入僵局,由企业自行消化成本。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family buys a car, groceries, or anything built from parts that cross the US-Canada border, this dispute can show up as a higher price tag before the year is out. It is also a reminder that trade agreements many people assume are permanent — like USMCA — can be strained or reshaped by a single bad negotiation.",
+            "zh": "如果你或你的家人买车、买菜,或者买任何用跨越美加边境的零件组装的东西,这场纠纷都可能在年底前变成账单上更高的数字。这也提醒我们,像USMCA这样很多人以为理所当然、长期不变的贸易协定,其实也可能因为一次谈判破裂而被削弱甚至重塑。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff",
+                "zh": "关税"
+              },
+              "def": {
+                "en": "A tax a government charges on goods brought in from another country, usually paid by the importer and often passed on to consumers as a higher price.",
+                "zh": "政府对从别国进口的商品征收的税,通常由进口商支付,并常常转嫁为消费者要承担的更高价格。"
+              }
+            },
+            {
+              "term": {
+                "en": "USMCA",
+                "zh": "美墨加协定(USMCA)"
+              },
+              "def": {
+                "en": "The trade agreement between the United States, Mexico, and Canada that replaced NAFTA in 2020, setting the rules for largely tariff-free trade among the three countries.",
+                "zh": "2020年取代《北美自由贸易协定》(NAFTA)的美国、墨西哥、加拿大三国贸易协定,规定了三国之间基本免关税贸易的规则。"
+              }
+            },
+            {
+              "term": {
+                "en": "Dollar-for-dollar retaliation",
+                "zh": "对等报复"
+              },
+              "def": {
+                "en": "When one country imposes new tariffs specifically matched in value to tariffs another country placed on it first.",
+                "zh": "一国专门针对另一国先前施加的关税,以相同价值规模征收新关税作为回应。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When another country slaps you with a steep tariff, is matching it dollar-for-dollar the right call, or does it just deepen the damage to your own economy?",
+                "zh": "当另一国对你征收高额关税时,以对等关税回击是正确的做法,还是只会加深对自身经济的伤害?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Match it",
+                    "zh": "以牙还牙"
+                  },
+                  "points": {
+                    "en": [
+                      "Backing down without a response invites more pressure next time, since it signals there is no cost to squeezing you.",
+                      "Domestic industries hurt by the foreign tariff need visible political support, and retaliation shows workers and businesses that the government has their back.",
+                      "Raising the cost to the other side gives its own exporters and voters a reason to push their government back toward the table."
+                    ],
+                    "zh": [
+                      "如果不做任何回应就退让,只会向对方发出信号:施压是没有代价的,下次还会得寸进尺。",
+                      "本国因外国关税受损的产业需要看得见的政治支持,报复行动能向工人和企业表明政府在为他们撑腰。",
+                      "提高对方的成本,会让对方的出口商和选民也有理由推动本国政府重新回到谈判桌前。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "De-escalate instead",
+                    "zh": "选择降级而非对抗"
+                  },
+                  "points": {
+                    "en": [
+                      "Counter-tariffs raise prices for your own consumers and businesses too, adding self-inflicted harm on top of what the other side already did.",
+                      "Trade disputes tend to spiral once both sides start matching each other, making a return to real negotiation harder rather than easier.",
+                      "A smaller, more trade-dependent economy usually has more to lose from an extended standoff than the larger partner does, so restraint can be the more strategic move."
+                    ],
+                    "zh": [
+                      "报复性关税同样会推高本国消费者和企业的成本,在对方已造成的损害之上又加了一层自我伤害。",
+                      "一旦双方都开始互相加码,贸易争端往往会不断升级,反而让真正的谈判更难重启,而不是更容易。",
+                      "对贸易依赖度更高、经济体量更小的一方,长期对峙通常损失更大,因此克制有时反而是更明智的策略。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is aggressive tariff pressure like this a legitimate way for a government to defend its national interests, or is it a tool that mostly ends up hurting the very people it claims to protect?",
+                "zh": "像这样激进的关税施压,是政府捍卫国家利益的正当手段,还是一种最终反而伤害其声称要保护的人的工具?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Legitimate leverage",
+                    "zh": "合理的谈判筹码"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries have used tariffs for centuries to protect strategic industries and push back against trade practices they see as unfair.",
+                      "A credible threat of steep tariffs can force real concessions in negotiations that polite requests alone never achieve.",
+                      "Elected leaders answer to voters who expect their government to defend domestic jobs, even if that means accepting some short-term cost."
+                    ],
+                    "zh": [
+                      "几个世纪以来,各国一直用关税保护战略产业,并对抗他们认为不公平的贸易行为。",
+                      "高额关税带来的可信威胁,能够迫使对方在谈判中做出仅靠礼貌请求永远无法争取到的真正让步。",
+                      "民选领导人要对选民负责,而选民期待政府捍卫本国就业岗位,哪怕这意味着要承受一些短期代价。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Mostly self-defeating",
+                    "zh": "多半会反噬自身"
+                  },
+                  "points": {
+                    "en": [
+                      "Consumers on both sides usually end up paying more, since importers typically pass the tariff's cost on to stores and shoppers.",
+                      "Businesses that spent decades building supply chains around free trade cannot rearrange them overnight, so factories and jobs suffer even in the country imposing the tariff.",
+                      "Once tariffs escalate this far, they become politically hard to remove, since dropping them can look like weakness — trapping both sides in higher costs long after the original dispute fades."
+                    ],
+                    "zh": [
+                      "由于进口商通常会把关税成本转嫁给商店和消费者,最终双方的消费者往往都要多付钱。",
+                      "企业花了几十年围绕自由贸易搭建供应链,不可能一夜之间重新调整,即便在征收关税的国家,工厂和就业也会因此受损。",
+                      "关税一旦升级到这种程度,在政治上就很难撤销,因为取消关税可能被解读为示弱——这会让双方在最初争端早已淡出视野后,仍长期困在更高的成本里。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump Immigration Visa Ban 75 Countries",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/22/nx-s1-5941765/trump-immigration-visa-ban-75-countries"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Judge Voids Trump's 75-Country Visa Ban",
+            "zh": "法官废除特朗普针对75国的签证禁令"
+          },
+          "summary": {
+            "en": "CNN's report includes reaction from immigration advocates and details on how the ban had been enforced since it took effect.",
+            "zh": "CNN的报道包含移民倡导者的反应，以及该禁令自生效以来如何执行的细节。"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/22/politics/judge-voids-trumps-75-country-visa-ban-hnk"
+        },
+        {
+          "title": {
+            "en": "Federal Judge Vacates Trump Policy That Suspended Processing of Immigration Visas From 75 Countries",
+            "zh": "联邦法官撤销特朗普暂停75国移民签证处理的政策"
+          },
+          "summary": {
+            "en": "PBS NewsHour lays out the legal reasoning behind the ruling in more procedural detail, useful for readers wanting the court's exact findings.",
+            "zh": "PBS新闻时刻更详细地阐述了该裁决背后的法律推理，适合想了解法院具体认定的读者。"
+          },
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/federal-judge-vacates-trump-policy-that-suspended-processing-of-immigration-visas-from-75-countries"
+        },
+        {
+          "title": {
+            "en": "US Judge Strikes Down Trump's Immigrant Visa Ban Affecting 75 Countries",
+            "zh": "美国法官推翻影响75国的特朗普移民签证禁令"
+          },
+          "summary": {
+            "en": "Al Jazeera's account emphasizes the international reaction from some of the 75 affected countries, a dimension US-focused outlets cover less.",
+            "zh": "半岛电视台的报道强调了受影响的75个国家中一些国家的国际反应，这是美国本土媒体较少涉及的角度。"
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/us-judge-strikes-down-trump-immigrant-visa-ban-affecting-75-countries"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "'Contrary to Law': US Judge Strikes Down Trump's 75-Country Visa Ban",
+            "zh": "“违反法律”：美国法官推翻特朗普的75国签证禁令"
+          },
+          "summary": {
+            "en": "France24's coverage situates the ruling within broader international criticism of the administration's immigration policy.",
+            "zh": "France24的报道将该裁决置于国际社会对该政府移民政策更广泛批评的背景之中。"
+          },
+          "publisher": "France24",
+          "url": "https://www.france24.com/en/americas/20260822-contrary-to-law-us-judge-strikes-down-trump-s-75-country-visa-ban"
+        },
+        {
+          "title": {
+            "en": "Federal Judge Blocks Trump Visa Ban",
+            "zh": "联邦法官阻止特朗普签证禁令"
+          },
+          "summary": {
+            "en": "The Hill's report focuses on the political and congressional response to the ruling, adding a Washington-insider angle.",
+            "zh": "The Hill的报道聚焦于国会与政界对该裁决的反应，提供了华盛顿内部视角。"
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6045057-federal-judge-blocks-trump-visa-ban/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "Judge Says a Travel Ban on 75 Countries Was Not Fair",
+            "zh": "法官裁定针对75个国家的旅行禁令不公平"
+          },
+          "hook": {
+            "en": "A judge in the United States just canceled a rule that stopped people from 75 countries from getting visas to enter the country. The government had said people from those countries might need public help if they moved to the US. The judge said that reason was made up and unfair.",
+            "zh": "美国一位法官刚刚取消了一项规定，这项规定曾阻止来自75个国家的人获得进入美国的签证。政府曾表示，这些国家的人如果搬到美国，可能需要依靠政府救济。法官说，这个理由是编造出来的，并不公平。"
+          },
+          "story": {
+            "en": [
+              "Imagine wanting to visit a friend in another country, but being told no just because of where you were born. That is what happened to people from 75 different countries who wanted visas, which are like permission tickets, to enter the United States.",
+              "The US government had stopped giving out these visas. They said people from those countries were likely to need government help with money or food once they arrived.",
+              "A judge looked closely and said that reason wasn't true. She said the government had made up a story about these people without any real proof, and it isn't fair to judge someone just because of their home country.",
+              "Now the rule is canceled, and millions of people from those 75 countries might be able to apply for visas again. But the government could still try to fight the decision in a higher court."
+            ],
+            "zh": [
+              "想象一下，你想去另一个国家看望朋友，却仅仅因为你出生的地方而被拒绝。这正是来自75个不同国家、想要获得签证（也就是进入某个国家的许可证）的人们所遇到的事情。",
+              "美国政府之前一直不给这些国家的人发放签证。他们说，这些国家的人到了美国后，可能需要依靠政府提供的金钱或食物援助。",
+              "一位法官仔细审查后说，这个理由并不真实。她说政府编造了一个关于这些人的说法，却没有真正的证据，仅仅因为出生的国家就评判一个人是不公平的。",
+              "现在这项规定被取消了，来自这75个国家的数百万人也许又可以重新申请签证了。不过政府仍可能向更高一级的法院提出上诉，继续争取维持原来的规定。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might know someone, like a classmate or a family friend, whose relatives live in another country and want to visit. Rules like this one decide whether families can be together and whether people can travel, work, or study in a new place. This case shows that even powerful governments have to follow the law and treat people fairly, no matter where they were born.",
+            "zh": "你也许认识一些同学或家人的朋友，他们的亲戚住在另一个国家，想要来探望。像这样的规定决定了家庭是否能团聚，也决定了人们能不能去一个新地方旅行、工作或上学。这件事说明，即使是强大的政府，也必须遵守法律，公平对待每一个人，不能因为出生地不同就区别对待。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Visa",
+                "zh": "签证"
+              },
+              "def": {
+                "en": "A visa is like a special permission slip that lets a person from one country travel into another country.",
+                "zh": "签证就像一张特别的许可证，让来自一个国家的人可以进入另一个国家。"
+              }
+            },
+            {
+              "term": {
+                "en": "Discriminate",
+                "zh": "歧视"
+              },
+              "def": {
+                "en": "To discriminate means to treat someone unfairly just because of something about them, like where they were born, instead of who they really are.",
+                "zh": "歧视是指仅仅因为一个人的某个特征，比如出生地，而不公平地对待他，而不是根据他本身的真实情况。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a country be allowed to decide who can visit based on which country someone comes from?",
+                "zh": "一个国家是否应该可以根据一个人来自哪个国家来决定是否让他入境？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, countries need rules",
+                    "zh": "应该，国家需要规则"
+                  },
+                  "points": {
+                    "en": [
+                      "A country has the right to decide who enters, just like a family decides who comes into their house.",
+                      "Rules about visitors can help a country plan for schools, hospitals, and jobs.",
+                      "Some countries may have real reasons, like safety, to be more careful with certain places."
+                    ],
+                    "zh": [
+                      "一个国家有权决定谁可以进入，就像一个家庭有权决定谁可以进屋一样。",
+                      "关于访客的规则可以帮助一个国家为学校、医院和工作岗位做好准备。",
+                      "有些国家可能出于真正的原因，比如安全考虑，对某些地方更加谨慎。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair to judge by country",
+                    "zh": "不应该，仅凭国家判断不公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Every person is different, so it's unfair to treat them all the same just because of their country.",
+                      "Good, honest people shouldn't be blocked because of something they can't control, like where they were born.",
+                      "Judging whole countries at once can hurt families who just want to be together."
+                    ],
+                    "zh": [
+                      "每个人都是不同的，仅仅因为来自同一个国家就把他们一视同仁是不公平的。",
+                      "善良诚实的人不应该因为自己无法选择的出生地而被拒之门外。",
+                      "一次性评判整个国家，可能会伤害那些只是想团聚的家庭。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a judge be able to cancel a rule that the president made?",
+                "zh": "法官是否应该有权取消总统制定的规定？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, judges keep things fair",
+                    "zh": "应该，法官能维护公平"
+                  },
+                  "points": {
+                    "en": [
+                      "Judges make sure that even powerful leaders follow the country's laws.",
+                      "If a rule is unfair or untrue, someone independent should be able to stop it.",
+                      "This helps protect people who don't have much power to speak up for themselves."
+                    ],
+                    "zh": [
+                      "法官能确保即使是有权力的领导人也要遵守国家的法律。",
+                      "如果一项规定不公平或不真实，应该有独立的人能够阻止它。",
+                      "这有助于保护那些没有太多话语权为自己发声的人。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, leaders were chosen to decide",
+                    "zh": "不应该，领导人是被选来做决定的"
+                  },
+                  "points": {
+                    "en": [
+                      "The president was chosen by many people to make big decisions for the country.",
+                      "Judges are not elected, so some think they shouldn't overturn choices made by elected leaders.",
+                      "Constantly changing rules back and forth can make things confusing for everyone."
+                    ],
+                    "zh": [
+                      "总统是由许多人选举出来，专门为国家做重大决定的。",
+                      "法官不是由选举产生的，所以有人认为他们不应该推翻由民选领导人做出的决定。",
+                      "规定不断被推翻又恢复，可能会让所有人感到困惑。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Judge Strikes Down Visa Freeze That Blocked 75 Countries",
+            "zh": "法官叫停冻结75国签证的政策"
+          },
+          "hook": {
+            "en": "A federal judge has ruled that the Trump administration broke the law when it stopped processing visas for citizens of 75 countries. The judge said the policy illegally singled out people based on their nationality — the country they're from — rather than anything about them as individuals.",
+            "zh": "一名联邦法官裁定，特朗普政府在暂停处理75个国家公民签证申请时违反了法律。法官表示，该政策仅凭申请人的国籍——也就是他们来自哪个国家——就将其区别对待，这是非法的，因为这并不代表这个人本身的任何情况。"
+          },
+          "story": {
+            "en": [
+              "Imagine applying to study or work abroad, doing everything right, and then being told your application simply won't be looked at — not because of anything you did, but because of where you were born. That's what happened to citizens of 75 countries under a policy the Trump administration put in place, freezing visa processing for people from those nations entirely.",
+              "The administration's reasoning was economic: officials argued that people coming from these particular countries were more likely to need public assistance once in the US — things like food aid, housing help, or medical support paid for by the government. But a federal judge disagreed, ruling that this reasoning didn't hold up and that the policy amounted to illegal discrimination based on nationality alone.",
+              "Susan Welber, a supervising attorney at The Legal Aid Society, which represented the people challenging the policy in court, put it bluntly: the ban was 'premised on a fiction' — meaning the government's claim about who was likely to need help wasn't backed by real evidence, it was more of an assumption dressed up as fact.",
+              "The ruling matters because it reverses one of the broadest immigration restrictions the administration had put in place, potentially reopening the door to visa access for millions of people across those 75 countries — students, workers, family members, all kinds of applicants who had simply been shut out.",
+              "It isn't over yet, though. The government can appeal, meaning it can ask a higher court to overturn this decision. Nobody knows yet exactly how fast visa offices will start processing applications again, or whether the administration will ask the courts to pause the ruling while the appeal plays out. For now, the block has been declared illegal — but the story of who actually gets a visa, and when, is still being written."
+            ],
+            "zh": [
+              "想象一下：你申请出国留学或工作，所有材料都准备妥当，却被告知你的申请根本不会被受理——不是因为你做错了什么，而是因为你出生在哪个国家。这正是特朗普政府某项政策下、75个国家公民所遭遇的情况：这些国家的所有公民的签证申请处理，被整体冻结。",
+              "政府给出的理由是经济方面的：官员们声称，来自这些特定国家的人，进入美国后更有可能需要依赖公共援助——比如政府出资提供的食品补助、住房帮助或医疗支持。但一名联邦法官不认同这个说法，裁定这一理由站不住脚，认定该政策构成了仅凭国籍进行区别对待的非法歧视。",
+              "代表原告在法庭上提出诉讼的法律援助协会（The Legal Aid Society）监督律师苏珊·韦尔伯（Susan Welber）直言不讳地表示，这项禁令'建立在一个虚构之上'——意思是政府关于谁更可能需要援助的说法，并没有真实证据支撑，更像是把一种假设包装成了事实。",
+              "这项裁决之所以重要，是因为它推翻了该政府实施过的最广泛的移民限制措施之一，可能会为75个国家、数以百万计的申请人重新打开签证的大门——包括学生、劳工、家庭成员等各类申请者，此前他们完全被排除在外。",
+              "不过事情还没结束。政府可以提起上诉，也就是请求更高一级的法院推翻这项裁决。目前还不清楚签证办理机构会以多快的速度恢复处理申请，也不清楚政府是否会在上诉期间要求法院暂缓执行这项裁决。目前，这项冻结政策已被认定为非法——但究竟谁最终能拿到签证、何时能拿到，这个故事仍在继续书写中。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you have friends, cousins, or classmates whose families come from one of these 75 countries, this ruling could directly change whether relatives can visit, study, or immigrate to the US. It's also a reminder that courts can check a president's power — even on big policies — if judges decide a law was broken.",
+            "zh": "如果你有朋友、表亲或同学，他们的家庭来自这75个国家中的某一个，这项裁决可能会直接影响他们的亲属能否来美国探亲、留学或移民。这也提醒我们，即便是重大政策，一旦法官认定其违反了法律，法院也能够对总统的权力进行制衡。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "visa",
+                "zh": "签证"
+              },
+              "def": {
+                "en": "An official document or approval that lets someone from another country enter, stay in, work, or study in a country like the US.",
+                "zh": "一种官方文件或批准，允许来自其他国家的人进入、居留、工作或在某国（比如美国）学习。"
+              }
+            },
+            {
+              "term": {
+                "en": "discrimination based on nationality",
+                "zh": "基于国籍的歧视"
+              },
+              "def": {
+                "en": "Treating people differently or unfairly just because of the country they're a citizen of, rather than anything about them personally.",
+                "zh": "仅仅因为一个人是某国公民，而不是因为这个人本身的特质，就对其区别对待或不公平对待。"
+              }
+            },
+            {
+              "term": {
+                "en": "appeal",
+                "zh": "上诉"
+              },
+              "def": {
+                "en": "When one side in a legal case asks a higher court to review and possibly overturn a lower court's ruling.",
+                "zh": "诉讼中的一方请求更高一级的法院重新审查，并有可能推翻下级法院所作出的裁决。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for immigration rules to treat everyone from the same country the same way?",
+                "zh": "移民政策把来自同一个国家的所有人一视同仁，这样公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Group-based rules make sense",
+                    "zh": "按群体制定规则是合理的"
+                  },
+                  "points": {
+                    "en": [
+                      "Immigration agencies handle millions of applications and can't deeply investigate every single person, so patterns based on country-level data help them prioritize limited resources.",
+                      "Economic and social conditions really do vary a lot between countries, so using that information isn't necessarily arbitrary — it's based on real differences.",
+                      "Clear, broad rules that apply the same way to everyone from a given country are more predictable and consistent than rules that depend on an official's individual judgment call."
+                    ],
+                    "zh": [
+                      "移民机构每年要处理数以百万计的申请，不可能对每个人都进行深入调查，因此基于国家层面数据的模式，能帮助他们优先分配有限的资源。",
+                      "国与国之间的经济和社会状况确实存在很大差异，因此利用这类信息未必是随意的——它是基于真实存在的差异。",
+                      "对来自某个国家的所有人都适用同样的、清晰而宽泛的规则，比依赖官员个人判断的规则更具可预测性和一致性。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Individual assessment is fairer",
+                    "zh": "个案评估更公平"
+                  },
+                  "points": {
+                    "en": [
+                      "A person's nationality doesn't reliably predict what that specific individual will do or need — treating everyone the same erases real differences between people.",
+                      "Broad bans punish individuals for belonging to a category they never chose and had no control over.",
+                      "Even if unintended, sweeping nationality-based rules can look and feel like discrimination, which damages public trust in the whole immigration system."
+                    ],
+                    "zh": [
+                      "一个人的国籍并不能可靠地预测这个人具体会做什么或需要什么——把所有人一概而论，抹去了人与人之间真实存在的差异。",
+                      "宽泛的禁令惩罚的是个人所属的某个类别，而这个类别是他们从未选择、也无法控制的。",
+                      "即便并非故意，基于国籍的宽泛规则也可能显得像是歧视，从而损害公众对整个移民体系的信任。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should judges be able to overturn a president's immigration policy?",
+                "zh": "法官是否应该有权推翻总统的移民政策？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — courts should check this power",
+                    "zh": "应该——法院应当制衡这一权力"
+                  },
+                  "points": {
+                    "en": [
+                      "Judicial review — courts checking whether laws are followed — exists precisely to stop any branch of government, including the presidency, from acting illegally.",
+                      "If a policy discriminates unfairly, someone needs the power to strike it down, and elected officials might not want to reverse their own decisions.",
+                      "Courts protect individual rights that could otherwise be overridden by whoever happens to hold power at the moment."
+                    ],
+                    "zh": [
+                      "司法审查——即法院审查法律是否得到遵守——的存在，恰恰就是为了阻止包括总统在内的任何政府部门做出违法行为。",
+                      "如果一项政策存在不公平的歧视，就需要有人有权将其撤销，而民选官员往往不愿意推翻自己做出的决定。",
+                      "法院能够保护个人权利，否则这些权利可能会被当权者随意践踏。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — elected leaders should decide",
+                    "zh": "不应该——应由民选领导人决定"
+                  },
+                  "points": {
+                    "en": [
+                      "The president and Congress are elected by voters specifically to make decisions like immigration policy, while judges are not elected and don't answer directly to the public.",
+                      "Courts second-guessing national security or economic judgments can create long delays and uncertainty that make it harder for any administration to govern effectively.",
+                      "Judges may lack the specialized expertise in immigration and foreign policy that the executive branch develops through daily experience running these systems."
+                    ],
+                    "zh": [
+                      "总统和国会是由选民选出来的，专门负责制定像移民政策这样的决策，而法官并非民选产生，也不直接对公众负责。",
+                      "法院对国家安全或经济方面的判断进行事后质疑，可能造成长时间的延误和不确定性，使任何一届政府都更难有效施政。",
+                      "法官可能缺乏行政部门在日常管理这些体系过程中积累的移民和外交政策方面的专业知识。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "Judge Strikes Down Visa Freeze That Covered 75 Countries",
+            "zh": "法官推翻涵盖75个国家的签证冻结令"
+          },
+          "hook": {
+            "en": "A federal judge has ruled that the Trump administration illegally froze visa processing for citizens of 75 countries, rejecting the government's claim that people from those nations were likely to need public assistance. The ruling blocks one of the broadest immigration restrictions of the administration and could restore visa access for millions of people, though the government may still appeal.",
+            "zh": "一名联邦法官裁定,特朗普政府对75个国家公民的签证审理冻结属于非法,并驳回了政府所称这些国家的人可能需要依赖公共援助的说法。这项裁决叫停了该政府最广泛的移民限制措施之一,可能为数百万人恢复签证申请渠道,但政府仍可能提起上诉。"
+          },
+          "story": {
+            "en": [
+              "For months, citizens of 75 countries — spanning much of Africa, Asia, and Latin America — found their visa applications simply not processed. The Trump administration had imposed the freeze as part of a broader push to restrict immigration, arguing that people from these countries were, as a group, more likely to become 'public charges' — a legal term for immigrants judged likely to depend mainly on government assistance rather than support themselves.",
+              "The people affected include students accepted to U.S. universities, workers with job offers, and relatives trying to reunite with family already living in the United States — all of whom had visa applications on file that stopped moving the moment the freeze took effect.",
+              "A federal judge rejected the government's reasoning outright, ruling that the policy violated a decades-old legal principle: the government cannot deny visas based on someone's nationality alone. That rule dates to 1965, when Congress rewrote immigration law specifically to eliminate quotas and preferences tied to a person's country of origin. The judge found that sorting applicants by nationality and assuming they would need welfare, without looking at their individual finances, job offers, or family support, amounted to exactly the kind of blanket discrimination the law forbids.",
+              "The case was brought by the Legal Aid Society on behalf of people whose visa applications had stalled under the freeze. Susan Welber, a supervising attorney at the organization, said the policy was 'premised on a fiction' — the idea that where someone is from tells you whether they will need public assistance, when in reality that depends on the person, not their passport.",
+              "It is not yet clear how quickly visa processing will actually restart. The administration can ask the court for a stay — an order pausing the ruling — while it appeals, which would keep the freeze in place a while longer even after losing in court. If the ruling stands, it would reopen a pathway that had been closed to citizens of 75 countries for months.",
+              "The freeze was one of the largest immigration restrictions of Trump's second term, dwarfing the travel bans of his first, which targeted a handful of mostly Muslim-majority countries. This case follows a familiar pattern from his first term: a broad executive restriction on immigration, a legal challenge arguing it discriminates unlawfully, and a court fight that could still end up before a higher court."
+            ],
+            "zh": [
+              "几个月来,来自75个国家的公民——遍及非洲、亚洲和拉丁美洲大部分地区——发现自己的签证申请根本没有被受理。特朗普政府将这项冻结作为更广泛限制移民举措的一部分,理由是这些国家的人整体上更可能成为“公共负担”——这是一个法律术语,指移民被认定很可能主要依赖政府援助生活,而非自食其力。",
+              "受影响的人包括已被美国大学录取的学生、拿到工作邀约的劳工,以及试图与已定居美国的亲属团聚的人——他们的签证申请此前都在受理中,却在冻结令生效那一刻戛然而止。",
+              "一名联邦法官彻底驳回了政府的理由,裁定该政策违反了一项已存在数十年的法律原则:政府不能仅凭国籍拒绝签证。这项原则可追溯到1965年,当时国会重新修订移民法,专门取消了与申请人原籍国挂钩的配额和优待。法官认定,按国籍将申请人归类、并假定他们会需要福利救济,却不审查其个人财务状况、工作机会或家庭支持,正是法律所禁止的那种一刀切歧视。",
+              "此案由法律援助协会代表签证申请因冻结而停滞的人提起。该机构的督导律师苏珊·韦尔伯(Susan Welber)表示,这项政策“建立在一个虚构之上”——即一个人来自哪里就能说明他是否需要公共援助,而现实中这取决于个人,而非他手中的护照。",
+              "目前尚不清楚签证审理究竟能多快恢复。政府可以在上诉期间向法院申请中止令——一种暂停裁决生效的命令——这可能会让冻结令在败诉后仍维持一段时间。如果裁决最终维持,将重新打开一条对75个国家公民关闭了数月的通道。",
+              "这项冻结是特朗普第二任期内规模最大的移民限制措施之一,远超第一任期内那些主要针对少数几个穆斯林占多数国家的旅行禁令。此案沿袭了他第一任期的一个熟悉模式:行政部门出台大范围移民限制,随后遭遇法律挑战,指控其构成非法歧视,而这场官司很可能仍会一路打到更高级别的法院。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "This ruling affects far more than the plaintiffs in the case — it touches millions of people from 75 countries who might otherwise apply to work, study, or join family in the U.S., and it tests how far a president can go in restricting immigration by executive action rather than through Congress. Whatever happens on appeal, the case will likely shape how future administrations justify — or can't justify — sweeping bans based on nationality rather than individual circumstances.",
+            "zh": "这项裁决影响的远不止本案原告——它关系到75个国家中数百万可能申请赴美工作、求学或与家人团聚的人,也检验着总统在不经国会、仅凭行政行动限制移民方面能走多远。无论上诉结果如何,此案都可能影响未来的政府如何为(或无法为)基于国籍而非个人情况的大范围禁令进行辩护。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "public charge",
+                "zh": "公共负担"
+              },
+              "def": {
+                "en": "A legal label immigration officials can apply to someone judged likely to depend mainly on government assistance rather than support themselves, which can be grounds to deny them entry.",
+                "zh": "这是移民官员可能对某人贴上的法律标签,指此人被认定很可能主要依赖政府援助而非自食其力,可作为拒绝其入境的理由。"
+              }
+            },
+            {
+              "term": {
+                "en": "nationality-based discrimination",
+                "zh": "基于国籍的歧视"
+              },
+              "def": {
+                "en": "Treating someone differently in immigration decisions purely because of which country they hold citizenship in, rather than looking at their individual situation.",
+                "zh": "仅仅因为一个人持有哪国国籍,而非考察其个人具体情况,就在移民决定中对其区别对待。"
+              }
+            },
+            {
+              "term": {
+                "en": "stay",
+                "zh": "中止令"
+              },
+              "def": {
+                "en": "A court order that pauses a ruling from taking effect, often requested while a losing party appeals.",
+                "zh": "一种暂停裁决生效的法院命令,通常由败诉一方在上诉期间申请。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should immigration policy be allowed to sort applicants by their home country, even without judging them as individuals?",
+                "zh": "移民政策是否应该被允许按申请人的原籍国进行分类,而不逐一审查每个人的具体情况?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, nationality can be a legitimate proxy",
+                    "zh": "可以:国籍可作为一种合理的参考标准"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments handling millions of applications cannot realistically vet every person's finances and circumstances one by one.",
+                      "Aggregate data about a country's economic conditions is a real, measurable input, not an arbitrary guess.",
+                      "Nations already use country-specific rules all the time, from visa waiver programs to reciprocal treaties, without being accused of unlawful bias."
+                    ],
+                    "zh": [
+                      "各国政府在处理数百万份申请时,不可能对每个人的财务状况和具体情况逐一进行审查。",
+                      "一个国家的经济状况的汇总数据是真实、可衡量的信息,而非随意的猜测。",
+                      "各国本就一直在使用针对特定国家的规则,例如免签计划或互惠条约,却并未因此被指责为非法歧视。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it punishes individuals for their passport",
+                    "zh": "不可以:这是在因护照而惩罚个人"
+                  },
+                  "points": {
+                    "en": [
+                      "Judging a person by their country's statistics ignores their actual income, job offer, or savings.",
+                      "U.S. law was deliberately rewritten in 1965 specifically to end this kind of blanket sorting by national origin.",
+                      "In practice, it can become a race- or class-neutral-sounding way to disadvantage poorer or non-Western countries as a whole."
+                    ],
+                    "zh": [
+                      "以一个国家的统计数据来评判个人,忽略了这个人实际的收入、工作机会或积蓄状况。",
+                      "美国法律在1965年被专门修订,正是为了终结这种按原籍国一刀切分类的做法。",
+                      "在实践中,这种做法可能沦为一种听起来种族中立、阶级中立,实则整体上不利于较贫穷或非西方国家的手段。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a court blocks a president's immigration policy, is it enforcing the law or overriding a decision the Constitution leaves to elected leaders?",
+                "zh": "当法院叫停总统的移民政策时,这究竟是在维护法律,还是在推翻本应由民选领导人决定的事项?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Courts should intervene",
+                    "zh": "法院应当介入"
+                  },
+                  "points": {
+                    "en": [
+                      "Immigration statutes set real legal limits, and someone must enforce them when the executive branch ignores them.",
+                      "Without judicial review, a president could rewrite immigration rules by decree, bypassing Congress entirely.",
+                      "People harmed by an illegal policy have no faster or more direct way to get relief than the courts."
+                    ],
+                    "zh": [
+                      "移民法中确实设有法律限制,当行政部门无视这些限制时,总得有人来执行它们。",
+                      "没有司法审查,总统就可能通过行政命令改写移民规则,完全绕开国会。",
+                      "对于因非法政策而受损的人来说,法院是他们获得救济最快、最直接的途径。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Courts should defer",
+                    "zh": "法院应当克制"
+                  },
+                  "points": {
+                    "en": [
+                      "The Constitution and long legal tradition give the president broad authority over who may enter the country, especially on national-security or economic grounds.",
+                      "Courts second-guessing sweeping immigration policy risk turning every executive decision into years of litigation.",
+                      "Elected officials, not judges, are the ones voters can hold accountable for immigration outcomes."
+                    ],
+                    "zh": [
+                      "宪法和长期的法律传统赋予总统在决定谁可以入境方面拥有广泛权力,尤其是出于国家安全或经济方面的考量。",
+                      "法院对大范围移民政策进行事后质疑,可能使每一项行政决定都陷入长达数年的诉讼。",
+                      "民选官员而非法官,才是选民真正能够为移民政策后果追究责任的对象。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-08-22/nvidia-customers-notified-about-ai-related-price-hikes-above-15"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia Customers Notified of AI-Related Price Rises Above 15%",
+            "zh": "英伟达客户被告知AI相关产品价格上涨超15%"
+          },
+          "summary": {
+            "en": "The South China Morning Post's account adds a China-market angle on memory chip demand driving the price increases.",
+            "zh": "《南华早报》的报道补充了中国市场对内存芯片需求推高价格的角度。"
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3364945/nvidia-customers-notified-ai-related-price-rises-above-15"
+        },
+        {
+          "title": {
+            "en": "Nvidia Customers Face AI-Related Price Hikes of 15%: Vera Rubin, Grace Blackwell Chips Affected",
+            "zh": "英伟达客户面临15%的AI相关涨价：Vera Rubin、Grace Blackwell芯片受影响"
+          },
+          "summary": {
+            "en": "Fortune's report gives more specific detail on which chip lines and server configurations are affected by the increases.",
+            "zh": "《财富》杂志的报道提供了哪些芯片系列和服务器配置受涨价影响的更具体细节。"
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/22/nvidia-customers-ai-related-price-hikes-15-percent-vera-rubin-grace-blackwell-chips/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nvidia's 15% Price Hike Reveals...",
+            "zh": "英伟达15%的涨价揭示了……"
+          },
+          "summary": {
+            "en": "Yahoo Finance explores what the price increase signals about investor sentiment and the broader AI trade heading into Nvidia's next earnings report.",
+            "zh": "雅虎财经探讨了此次涨价对投资者情绪以及英伟达下一份财报前AI板块走势的意味。"
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-15-price-hike-reveals-144354675.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "6-11": {
+          "headline": {
+            "en": "AI Computer Parts Are About to Cost a Lot More",
+            "zh": "人工智能电脑零件即将大幅涨价"
+          },
+          "hook": {
+            "en": "Nvidia makes special chips that power AI programs like chatbots. Companies that buy huge amounts of these chips just found out that whole computer systems built with them will cost more than 15% more starting early next year. The reason: another kind of chip, used for memory, is getting expensive everywhere.",
+            "zh": "英伟达（Nvidia）制造一种特殊芯片，用来驱动像聊天机器人这样的人工智能程序。购买大量这种芯片的公司刚刚得知，从明年年初开始，用这些芯片组装的整套电脑系统价格将上涨超过15%。原因是：另一种叫做内存芯片的零件，正在全球范围内变得越来越贵。"
+          },
+          "story": {
+            "en": [
+              "Imagine a $100 video game console suddenly costing $115 or more. That is roughly what is happening with servers, which are powerful computers that run AI programs. These servers are built using Nvidia's newest chips, called Vera Rubin and Grace Blackwell.",
+              "The price is going up because of memory chips. Think of memory chips as a computer's notebook, where it jots down information to work with quickly. Companies all over the world, including in China, want more and more of these notebooks for their own AI projects, so there are not enough to go around.",
+              "A news organization called Bloomberg first reported this, using unnamed sources, meaning people who did not want their names printed. Nvidia has not officially confirmed the price increases. Other news outlets have repeated Bloomberg's story, but none of them checked it independently themselves.",
+              "The companies buying these expensive servers are usually big cloud providers, businesses that rent out computer power over the internet. If their costs go up, they may charge more to the businesses and apps that use their AI, which could eventually affect regular people too."
+            ],
+            "zh": [
+              "想象一台原价100美元的游戏机突然涨到115美元甚至更贵。这大致就是服务器正在发生的事情——服务器是运行人工智能程序的强大电脑。这些服务器使用的正是英伟达最新的芯片，名字叫Vera Rubin和Grace Blackwell。",
+              "价格上涨的原因是内存芯片。你可以把内存芯片想象成电脑的记事本，电脑用它快速记下正在处理的信息。世界各地的公司，包括中国的公司，都想要更多这样的“记事本”来做自己的人工智能项目，于是供不应求。",
+              "一家名叫彭博社（Bloomberg）的新闻机构最先报道了这件事，消息来源是几位不愿透露姓名的人士。英伟达官方并没有正式确认涨价的具体数字。其他新闻媒体也报道了这条消息，但都是转载彭博社的内容，没有自己独立核实。",
+              "购买这些昂贵服务器的通常是大型云服务公司，它们通过互联网把计算能力租给别人用。如果它们的成本上升，可能会向使用人工智能的企业和应用收取更高费用，最终可能也会影响到普通人。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you use apps that have AI features, like ones that help with homework or draw pictures, this story is about the machines behind them getting more expensive to build. That cost might eventually show up as higher prices or fewer free features for people like you and your family.",
+            "zh": "如果你使用带有人工智能功能的应用程序，比如帮你完成作业或画画的软件，这条新闻讲的就是支撑这些功能的机器正在变得更贵。这种成本最终可能会让你和你的家人看到更高的价格，或者更少的免费功能。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AI chip",
+                "zh": "人工智能芯片"
+              },
+              "def": {
+                "en": "A special computer part designed to run artificial intelligence programs very quickly, like a super-fast calculator for AI tasks.",
+                "zh": "一种专门设计用来快速运行人工智能程序的电脑零件，就像是为人工智能任务打造的超快计算器。"
+              }
+            },
+            {
+              "term": {
+                "en": "memory chip",
+                "zh": "内存芯片"
+              },
+              "def": {
+                "en": "A computer part that stores information the computer is actively using, like a notebook it writes in while working.",
+                "zh": "电脑用来存储正在使用的信息的零件，就像电脑工作时随手记录的一本笔记本。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When something everyone wants becomes scarce, is it fair for the price to suddenly jump a lot?",
+                "zh": "当大家都想要的东西变得稀缺时，价格突然大涨，这公平吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair",
+                    "zh": "公平"
+                  },
+                  "points": {
+                    "en": [
+                      "When there isn't enough of something for everyone, higher prices help decide who gets it most urgently.",
+                      "Higher prices can encourage companies to build more factories, which means more supply later for everyone.",
+                      "If prices stayed low, the very first buyers would grab everything and leave nothing for anyone else at any price."
+                    ],
+                    "zh": [
+                      "当东西不够所有人用时，更高的价格能帮助决定谁最迫切需要它。",
+                      "价格上涨能鼓励公司建造更多工厂，这意味着以后大家都能有更多供应。",
+                      "如果价格一直很低，最先出手的买家就会把东西全部抢光，别人无论出多少钱都买不到。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it feels unfair",
+                    "zh": "不公平"
+                  },
+                  "points": {
+                    "en": [
+                      "The people who end up paying more later are often everyday users, not the giant companies making the decisions.",
+                      "A sudden jump of over 15% gives businesses little time to plan or adjust their own prices.",
+                      "If only a few companies control the memory chip supply, they could raise prices more than truly necessary."
+                    ],
+                    "zh": [
+                      "最后多付钱的往往是普通用户，而不是做出决定的那些大公司。",
+                      "价格突然上涨超过15%，让企业几乎没有时间做计划或调整自己的价格。",
+                      "如果只有少数几家公司掌控内存芯片的供应，他们可能会把价格抬得比真正需要的还要高。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should we trust a big news story that is based only on unnamed sources?",
+                "zh": "我们应该相信一则完全依赖匿名消息来源的重大新闻吗？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, trust it",
+                    "zh": "应该相信"
+                  },
+                  "points": {
+                    "en": [
+                      "People inside a company often can't share information openly without getting in trouble, so staying unnamed protects them.",
+                      "Serious news organizations usually check facts carefully with multiple sources before publishing, even if they don't name them.",
+                      "When many other outlets repeat the same story, it suggests the original reporting is probably solid."
+                    ],
+                    "zh": [
+                      "公司内部的人往往不能公开分享信息，否则会惹上麻烦，所以匿名保护了他们。",
+                      "严肃的新闻机构通常会用多个信息来源仔细核实事实后才发布，即使不透露姓名。",
+                      "当很多其他媒体都转载同一条新闻时，这说明原始报道很可能是可靠的。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, be careful",
+                    "zh": "应该谨慎"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia itself has not confirmed the numbers, so we can't be completely sure they're accurate.",
+                      "Anonymous sources might guess wrong or have their own reasons to make things sound bigger than they are.",
+                      "Other news outlets just copying the first report doesn't make the story more true, since they didn't check it themselves."
+                    ],
+                    "zh": [
+                      "英伟达自己并没有确认这些数字，所以我们不能百分之百确定它们是准确的。",
+                      "匿名消息来源可能猜错，也可能出于自己的原因把事情说得比实际更严重。",
+                      "其他媒体只是转载第一篇报道，并没有让这个故事更可信，因为它们自己并没有核实过。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "12-15": {
+          "headline": {
+            "en": "Why Your Favourite AI Tools Might Get More Expensive to Build",
+            "zh": "你常用的AI工具，为什么会变得更贵？"
+          },
+          "hook": {
+            "en": "Nvidia makes the chips that power most of the world's AI systems, and its biggest customers - the giant cloud companies - have reportedly been told that servers containing those chips are about to cost more than 15% more. The reason isn't Nvidia's own chips getting pricier, but a shortage of memory chips, a different part every computer needs. The report comes from Bloomberg, based on unnamed sources, and Nvidia hasn't confirmed the numbers itself.",
+            "zh": "英伟达（Nvidia）生产的芯片支撑着全世界大多数人工智能系统的运转。据报道，它最大的一批客户——那些巨型云计算公司——被告知，装有这些芯片的服务器价格即将上涨超过15%。原因并不是英伟达自己的芯片变贵了，而是另一种电脑必需部件——内存芯片——正在闹短缺。这条消息来自彭博社（Bloomberg），基于匿名消息来源，英伟达本身尚未证实这些具体数字。"
+          },
+          "story": {
+            "en": [
+              "A server is basically a very powerful computer that lives in a huge warehouse called a data center, doing computing work for other people over the internet - it's what lets you chat with an AI assistant or ask it to write something, even though the actual computer is thousands of miles away. Companies like Amazon, Microsoft, and Google buy enormous numbers of these servers, many built around Nvidia's chips, to run AI services for businesses and regular people. Bloomberg reported that some of Nvidia's largest customers have now been warned that prices for these servers are jumping more than 15% in many cases, for equipment shipping starting early next year.",
+              "The surprising part is why. It's not that Nvidia's processors themselves got more expensive - it's memory chips, the parts that temporarily store data so a processor can grab what it needs quickly, like keeping just the papers you're using within arm's reach on a desk instead of digging through a filing cabinet every time. Demand for memory chips has surged worldwide as AI companies build bigger and bigger systems, and factories that make memory chips can't keep up. That shortage is pushing up the price of a key ingredient in every server, even ones built around Nvidia's newest chip designs, known as Vera Rubin and Grace Blackwell.",
+              "If cloud companies have to pay more to build their AI data centers, that cost doesn't just disappear - it often gets passed down the chain. Cloud providers might charge businesses more to use their AI tools, and those businesses might then raise prices for the apps, chatbots, or services you actually use. Nobody knows exactly how much of the increase will reach ordinary users, but the worry is real enough that it's making headlines across the tech industry.",
+              "It's worth pausing on where this story actually comes from, though. Nvidia has not confirmed these price figures on the record. The original report is Bloomberg's, and it relies on unnamed sources - people who talked to reporters but didn't want their names attached, often because they'd get in trouble with their employer for leaking pricing details. Other outlets covering the story are essentially repeating Bloomberg's reporting rather than confirming it independently, so what we have is one well-sourced report, not something multiple newsrooms have separately verified.",
+              "Zoom out, and this fits a bigger pattern: countries and companies everywhere, including in China, are racing to build more AI systems, and they're all competing for the same limited supply of memory chips. When many buyers want a scarce thing at once, prices climb - which is exactly what seems to be happening here, whether or not the precise 15% figure holds up."
+            ],
+            "zh": [
+              "服务器其实就是一台非常强大的电脑，存放在一个叫做“数据中心”的巨大仓库里，通过互联网为其他人处理计算任务——这就是为什么你能和AI助手聊天、让它帮你写东西，尽管那台真正在运算的电脑可能远在千里之外。亚马逊、微软、谷歌这些公司购买了数量惊人的服务器，其中很多都搭载英伟达的芯片，用来为企业和普通用户提供AI服务。彭博社报道称，英伟达的一些最大客户已被告知，从明年初开始发货的设备中，这类服务器的价格在许多情况下将上涨超过15%。",
+              "令人意外的是涨价的原因。并不是英伟达的处理器本身变贵了，而是内存芯片——一种暂时存储数据、让处理器能快速调用所需信息的部件，就像把正在用的文件放在手边的桌面上，而不是每次都要去翻文件柜。全球范围内，随着AI公司不断建造越来越庞大的系统，对内存芯片的需求激增，而生产内存芯片的工厂根本供不应求。这种短缺正推高服务器中一项关键部件的价格，即便是搭载英伟达最新一代芯片——代号“Vera Rubin”和“Grace Blackwell”——的服务器也不例外。",
+              "如果云计算公司建设AI数据中心的成本上升，这笔费用不会凭空消失，往往会一路向下传递。云服务商可能会向使用其AI工具的企业收取更高费用，而这些企业又可能因此提高你实际使用的应用程序、聊天机器人或服务的价格。目前没人能确切知道这波涨价最终会有多少转嫁到普通用户身上，但这种担忧已经足够真实，以至于成为科技行业的热门话题。",
+              "不过，值得停下来想想这条消息究竟从何而来。英伟达并未正式证实这些具体的价格数字。最初的报道来自彭博社，依据的是匿名消息来源——也就是那些向记者透露信息、但不愿透露姓名的人，通常是因为如果被认出身份，会在公司惹上麻烦。其他媒体对此事的报道基本上是在转述彭博社的内容，而不是各自独立核实，所以目前我们掌握的是一份来源可靠的报道，而非多家新闻机构分别证实过的事实。",
+              "放大来看，这件事契合了一个更大的趋势：包括中国在内，世界各国和各家公司都在争相打造更多AI系统，它们都在争夺同样有限的内存芯片供应。当许多买家同时想要一种稀缺的东西时，价格自然会上涨——不论具体的15%这个数字最终是否准确，这正是眼下正在发生的事情。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you use AI chatbots for homework help, ask an app to generate images, or play games with AI features, those services all run on servers like the ones getting pricier. Higher costs for the companies building AI infrastructure could eventually mean higher prices, new fees, or fewer free features for the tools you already use.",
+            "zh": "如果你用AI聊天机器人帮忙做作业，让某个应用生成图片，或者玩带有AI功能的游戏，这些服务背后运行的正是这类正在涨价的服务器。搭建AI基础设施的公司成本上升，最终可能意味着你常用的工具会涨价、增加新收费，或者减少免费功能。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Server",
+                "zh": "服务器"
+              },
+              "def": {
+                "en": "A powerful computer, usually kept in a huge building called a data center, that does computing work for people over the internet.",
+                "zh": "一种功能强大的电脑，通常存放在被称为“数据中心”的巨大建筑里，通过互联网为人们处理计算任务。"
+              }
+            },
+            {
+              "term": {
+                "en": "Memory chip",
+                "zh": "内存芯片"
+              },
+              "def": {
+                "en": "A computer part that temporarily stores data so the main processor can grab what it needs quickly, like keeping just the papers you're using within reach instead of in a filing cabinet.",
+                "zh": "一种电脑部件，用于暂时存储数据，方便主处理器快速取用，就像把正在用的文件放在手边而不是锁进文件柜里。"
+              }
+            },
+            {
+              "term": {
+                "en": "Unnamed source",
+                "zh": "匿名消息来源"
+              },
+              "def": {
+                "en": "A person who gives a journalist information but asks not to be named, often because they could get in trouble at work if identified.",
+                "zh": "向记者提供信息、但要求不透露姓名的人，通常是因为一旦身份暴露，可能会在工作中惹上麻烦。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should news outlets report stories like this one, based only on anonymous sources, before the company involved confirms anything?",
+                "zh": "在涉事公司尚未证实任何信息之前，新闻媒体是否应该报道这种仅基于匿名消息来源的新闻？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report it now",
+                    "zh": "应该现在就报道"
+                  },
+                  "points": {
+                    "en": [
+                      "Insiders often can't speak on the record without risking their jobs, so anonymous sourcing is sometimes the only way important information gets out at all.",
+                      "Readers, investors, and businesses benefit from knowing about major price changes as early as possible, even with some uncertainty attached.",
+                      "Reputable outlets like Bloomberg have strict standards for using anonymous sources and a track record worth trusting."
+                    ],
+                    "zh": [
+                      "内部人士往往无法公开发言，否则可能丢掉工作，所以匿名消息来源有时是重要信息能被披露出来的唯一途径。",
+                      "读者、投资者和企业都能从尽早了解重大价格变化中受益，即便其中还带有一定的不确定性。",
+                      "像彭博社这样有信誉的媒体在使用匿名消息来源时有严格标准，其过往报道的可信度值得信赖。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmation",
+                    "zh": "应该等待证实"
+                  },
+                  "points": {
+                    "en": [
+                      "Anonymous information can be wrong, exaggerated, or based on a misunderstanding, and there's no way for readers to check it themselves.",
+                      "Reporting unconfirmed numbers can cause real market reactions - stock prices moving, other companies changing plans - based on something that might not even be true.",
+                      "Without a name attached, nobody can be held accountable if the information turns out to be false."
+                    ],
+                    "zh": [
+                      "匿名信息可能是错误的、夸大的，或者基于误解，而读者根本无法自行核实。",
+                      "报道未经证实的数字可能引发真实的市场反应——比如股价波动、其他公司调整计划——而这一切可能建立在并不真实的信息之上。",
+                      "由于没有具名，一旦信息被证明是错的，也没有人需要为此负责。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When the cost of building AI systems rises, should cloud companies absorb the extra cost themselves or pass it on to customers?",
+                "zh": "当建设AI系统的成本上升时，云计算公司应该自己承担额外成本，还是将其转嫁给客户？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pass it on",
+                    "zh": "应该转嫁给客户"
+                  },
+                  "points": {
+                    "en": [
+                      "Cloud companies operate on real budgets, and absorbing every cost increase forever isn't sustainable for the businesses that keep AI services running.",
+                      "Passing costs through transparently lets customers see the true price of the technology they're using and make informed choices.",
+                      "If prices don't reflect real costs, companies might cut corners elsewhere, like security or reliability, to make up the difference."
+                    ],
+                    "zh": [
+                      "云计算公司也有实际的预算，永远自行吸收每一次成本上涨对维持AI服务运转的企业来说并不可持续。",
+                      "把成本透明地转嫁出去，能让客户看清自己所使用技术的真实价格，从而做出明智的选择。",
+                      "如果价格不能反映真实成本，公司可能会在其他方面偷工减料，比如安全性或稳定性，来弥补差额。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Absorb it",
+                    "zh": "应该自行承担"
+                  },
+                  "points": {
+                    "en": [
+                      "The biggest cloud companies make enormous profits and could absorb a temporary cost spike without hardship.",
+                      "Passing costs on could make AI tools too expensive for students, small businesses, and startups, shutting out exactly the people who might benefit most.",
+                      "If every company passes on costs immediately, it can trigger a chain reaction of price increases across the whole economy, hurting consumers who have no say in any of it."
+                    ],
+                    "zh": [
+                      "最大的几家云计算公司利润极为丰厚，完全可以在短期内承担一次成本上涨而不至于伤筋动骨。",
+                      "如果把成本转嫁出去，可能会让学生、小企业和初创公司用不起AI工具，恰恰把最可能从中受益的人挡在门外。",
+                      "如果每家公司都立即转嫁成本，可能引发整个经济体的连锁涨价，最终伤害到那些对此毫无发言权的普通消费者。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "16+": {
+          "headline": {
+            "en": "The AI Boom Is Running Into a Memory Bottleneck",
+            "zh": "AI热潮遇上内存瓶颈"
+          },
+          "hook": {
+            "en": "Nvidia's biggest customers have reportedly been told that servers built around its AI chips will cost more than 15% more starting early next year. The cause isn't Nvidia's chips themselves — it's the memory chips sitting next to them, which have become scarce and expensive as global demand for AI hardware surges. The report comes from Bloomberg, citing unnamed sources, and Nvidia has not confirmed it.",
+            "zh": "据报道，英伟达一些最大的客户被告知，从明年初开始，搭载其AI芯片的服务器价格将上涨超过15%。原因并非英伟达芯片本身，而是与之搭配的内存芯片——随着全球对AI硬件需求激增，这类芯片变得稀缺且昂贵。该消息最早由彭博社援引匿名消息人士报道，英伟达尚未证实。"
+          },
+          "story": {
+            "en": [
+              "Nvidia's biggest customers — the cloud giants and AI companies that buy its most advanced chips by the thousands — have reportedly been told that the price of the servers built around those chips is about to jump. According to Bloomberg, which cited people familiar with the pricing but did not name them, increases of more than 15% will apply to systems shipping starting early next year, including machines built around Nvidia's next flagship platforms, Vera Rubin and Grace Blackwell.",
+              "The strange part is that Nvidia's chip design hasn't gotten more expensive to make. What's driving the increase is memory — specifically a type called high-bandwidth memory, or HBM, which sits right next to the processor and feeds it data fast enough to keep up with AI workloads. HBM is made by only a handful of companies, mainly Samsung, SK Hynix, and Micron, and demand for it has outrun what they can produce, partly because AI data centers need far more of it than a laptop or phone ever did.",
+              "Vera Rubin and Grace Blackwell are Nvidia's next generation of AI computing platforms, each packing more processing power and, crucially, requiring more memory bandwidth than the chips they replace. That makes them more exposed to a memory shortage than earlier hardware — a system that needed, say, eight memory chips before might need twice that now, and each one costs more than it did a year ago.",
+              "The companies buying these servers — Microsoft, Google, Amazon, Meta and others racing to build out AI infrastructure — typically order this equipment by the billions of dollars a year. A 15% increase across that scale is not a rounding error; it changes the economics of running AI services. Some of that cost is likely to reach the businesses and individuals who pay for AI tools, whether through cloud computing bills, subscription price increases, or features quietly folded into products people already use.",
+              "None of this comes from Nvidia itself. The company has not confirmed the figures on the record, and the reporting rests entirely on Bloomberg's unnamed sources. Other outlets that picked up the story, including the South China Morning Post, Fortune and Yahoo Finance, are relaying Bloomberg's reporting rather than confirming it independently — so the story currently rests on one newsroom's sourcing, however well-regarded that reporting is.",
+              "The underlying squeeze is bigger than any one company's price list. Memory chip demand is being pulled from multiple directions at once — AI data centers in the US, a parallel AI buildout in China, and ordinary demand for phones and PCs that never went away. When one input becomes the bottleneck for an entire industry, its price tends to ripple through everything built on top of it, and this may be an early sign of how tight that squeeze has become."
+            ],
+            "zh": [
+              "据报道，英伟达最大的一批客户——那些大批量采购其最先进芯片的云计算巨头和AI公司——被告知，搭载这些芯片的服务器价格即将上涨。彭博社援引知情人士（未透露姓名）的说法称，从明年初开始交付的系统将涨价超过15%，其中包括基于英伟达下一代旗舰平台Vera Rubin和Grace Blackwell打造的机型。",
+              "奇怪的是，英伟达芯片本身的制造成本并没有上升。真正推高价格的是内存——确切地说是一种叫做高带宽内存（HBM）的芯片，它紧挨着处理器，负责以足够快的速度为其输送数据，以跟上AI运算的需求。HBM只有少数几家公司在生产，主要是三星、SK海力士和美光，而需求已经超出了它们的产能，部分原因是AI数据中心所需的内存量远超一台笔记本电脑或手机。",
+              "Vera Rubin和Grace Blackwell是英伟达下一代AI计算平台，两者都配备了更强的处理能力，关键是需要比上一代芯片更高的内存带宽。这使它们比早期硬件更容易受到内存短缺的冲击——原本需要八块内存芯片的系统，现在可能需要两倍的数量，而每一块的价格都比一年前更贵。",
+              "采购这些服务器的公司——微软、谷歌、亚马逊、Meta等争相扩建AI基础设施的企业——通常每年的采购金额高达数十亿美元。在这种规模下，15%的涨价绝非小事，它会改变运营AI服务的整体经济账。这部分成本很可能会转嫁给使用AI工具的企业和个人，无论是通过云计算账单、订阅价格上调，还是悄悄嵌入到人们已经在用的产品功能中。",
+              "这一切都并非来自英伟达官方。该公司并未正式证实这些数字，报道完全依赖彭博社的匿名消息来源。其他跟进报道此事的媒体，包括《南华早报》、《财富》和雅虎财经，都是转引彭博社的报道，而非独立核实——也就是说，目前这个故事仅建立在一家新闻机构的信源之上，尽管该机构声誉良好。",
+              "这种供应紧张的根源远不止某一家公司的价格清单。内存芯片的需求正同时来自多个方向——美国的AI数据中心、中国同步进行的AI基础设施建设，以及从未消退的手机和电脑常规需求。当某一种零部件成为整个行业的瓶颈时，它的价格往往会波及建立在其之上的一切产品，而这或许正是这种紧张程度加剧的早期信号。"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you use AI tools like chatbots, image generators, or AI features baked into apps you already pay for, this is the kind of cost that eventually shows up in your bill or in what used to be free suddenly costing something. It's also a reminder that a single obscure component — a memory chip most people have never heard of — can ripple through an entire technology industry that touches daily life.",
+            "zh": "如果你使用聊天机器人、图像生成工具，或是已经付费的应用中嵌入的AI功能，这类成本最终很可能体现在你的账单上，或者让原本免费的功能开始收费。这也提醒我们，一种大多数人从未听说过的冷门零部件——内存芯片，也能波及触及日常生活的整个科技产业。"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "High-bandwidth memory (HBM)",
+                "zh": "高带宽内存（HBM）"
+              },
+              "def": {
+                "en": "A type of memory chip stacked close to a processor so it can feed data fast enough for AI workloads; it's made by only a few companies, which is part of why shortages hit hard.",
+                "zh": "一种紧靠处理器堆叠的内存芯片，能以足够快的速度为AI运算输送数据；由于只有少数几家公司能生产，一旦短缺就会造成很大冲击。"
+              }
+            },
+            {
+              "term": {
+                "en": "AI infrastructure buildout",
+                "zh": "AI基础设施建设"
+              },
+              "def": {
+                "en": "The large-scale construction of data centers, chips, and networking that companies need to run AI services at global scale.",
+                "zh": "企业为在全球范围内运行AI服务而进行的数据中心、芯片和网络等大规模基础设施建设。"
+              }
+            },
+            {
+              "term": {
+                "en": "Unnamed sources",
+                "zh": "匿名消息人士"
+              },
+              "def": {
+                "en": "People a journalist quotes or relies on for information without publishing their names, often because they aren't authorized to speak publicly.",
+                "zh": "记者在报道中引用或依赖的信息提供者，但不公开其姓名，通常是因为这些人无权公开发言。"
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a report about a major price hike relies only on unnamed sources and the company involved won't confirm it, should readers treat it as reliable, or wait for confirmation?",
+                "zh": "当一篇关于重大涨价的报道完全依赖匿名消息来源，而涉事公司又不予证实时，读者应该相信这篇报道，还是应该等待进一步证实？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Trust the reporting",
+                    "zh": "相信这篇报道"
+                  },
+                  "points": {
+                    "en": [
+                      "Bloomberg's business desk has a strong track record on chip supply-chain stories, and insiders often speak anonymously because confirming publicly could violate contracts or tip off competitors.",
+                      "Multiple named outlets picked up and treated the report as credible, which suggests it matches what industry insiders already understood to be true.",
+                      "Investors and analysts routinely act on this kind of sourcing, because waiting for an on-the-record confirmation would mean reacting too late to matter."
+                    ],
+                    "zh": [
+                      "彭博社的商业报道团队在芯片供应链报道方面有良好的信誉，而内部人士选择匿名往往是因为公开证实可能违反合同或向竞争对手泄露信息。",
+                      "多家知名媒体转载并将此报道视为可信内容，这说明它与业内人士本已了解的情况相符。",
+                      "投资者和分析师经常根据这类信源采取行动，因为等到有实名证实时再反应往往为时已晚。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmation",
+                    "zh": "等待证实"
+                  },
+                  "points": {
+                    "en": [
+                      "Every account of the story traces back to one original report, so if that reporting is wrong, the error spreads everywhere without anyone independently catching it.",
+                      "Nvidia's silence could simply mean the numbers are inaccurate or premature, not that the company is hiding something true.",
+                      "Anonymous sources can have their own reasons to exaggerate or leak selectively, and readers have no way to check their motives or accuracy."
+                    ],
+                    "zh": [
+                      "所有相关报道都可追溯到同一篇原始报道，如果那篇报道有误，错误会在没有人独立核实的情况下不断扩散。",
+                      "英伟达的沉默也可能只是因为这些数字不准确或为时过早，而不是在隐瞒真相。",
+                      "匿名消息人士可能出于自身原因夸大其词或选择性爆料，读者根本无法核实他们的动机或准确性。"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If AI server costs keep rising, should cloud companies pass that cost on to the businesses and people using AI services, or absorb it themselves?",
+                "zh": "如果AI服务器成本持续上涨，云计算公司应该把这部分成本转嫁给使用AI服务的企业和个人，还是应该自行承担？"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pass it on",
+                    "zh": "转嫁成本"
+                  },
+                  "points": {
+                    "en": [
+                      "Running AI models costs real money, and hiding that cost indefinitely isn't a sustainable business model for anyone.",
+                      "Charging closer to the true cost could push customers to use AI resources more thoughtfully instead of treating them as effectively free.",
+                      "Even the largest cloud providers operate on thin margins in the AI business specifically, and absorbing every hardware increase indefinitely would make that business unsustainable."
+                    ],
+                    "zh": [
+                      "运行AI模型需要真金白银，无限期地掩盖这一成本对任何人来说都不是可持续的商业模式。",
+                      "让价格更接近真实成本，能促使用户更谨慎地使用AI资源，而不是把它当作近乎免费的东西。",
+                      "即便是最大的云计算公司，在AI这项具体业务上利润也很薄，无限期吸收每一次硬件涨价会让这项业务难以为继。"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Absorb it",
+                    "zh": "自行承担"
+                  },
+                  "points": {
+                    "en": [
+                      "The largest cloud providers earn enormous profits from other parts of their business and could shield customers from a short-term price shock.",
+                      "Passing costs straight to smaller businesses and everyday users could slow adoption of tools many people are only just starting to rely on.",
+                      "Competitive pressure between the major cloud providers already discourages any one of them from raising prices too fast, since none wants to be the first to lose customers."
+                    ],
+                    "zh": [
+                      "最大的云计算公司从其他业务板块获得巨额利润，完全有能力帮客户暂时抵御短期的价格冲击。",
+                      "把成本直接转嫁给中小企业和普通用户，可能会拖慢许多人才刚开始依赖的这些工具的普及速度。",
+                      "各大云计算公司之间的竞争压力本身就会抑制任何一家过快涨价，因为没有谁愿意成为第一个失去客户的公司。"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
