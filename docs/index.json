@@ -1,12 +1,16 @@
 {
   "app": "Daily News for Kids",
-  "updated": "2026-08-23T19:22:10+00:00",
+  "updated": "2026-08-24T20:05:23+00:00",
   "bands": [
     "6-11",
     "12-15",
     "16+"
   ],
   "editions": [
+    {
+      "date": "2026-08-24",
+      "url": "editions/2026-08-24.html"
+    },
     {
       "date": "2026-08-23",
       "url": "editions/2026-08-23.html"
