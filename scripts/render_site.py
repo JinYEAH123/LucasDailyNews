@@ -6,7 +6,7 @@ Standard library only.
     python3 scripts/render_site.py
     python3 scripts/render_site.py --single out.html   # one self-contained page
 
-Every page carries all three age bands. Switching between them is a CSS class on
+Every page carries both reading levels. Switching between them is a CSS class on
 the root element, so it is instant and needs no server — which is the whole
 reason the bands are generated up front rather than on demand.
 """
@@ -33,45 +33,40 @@ LANGS = CFG.languages
 BANDS = list(appconfig.AGE_BANDS)
 
 LABELS = {
-    "read_more": {"en": "Read the whole story", "zh": "读完整篇"},
-    "why": {"en": "Why this matters", "zh": "为什么重要"},
-    "words": {"en": "Words worth knowing", "zh": "值得记住的词"},
-    "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
+    "read_more": {"en": "Read the whole story"},
+    "why": {"en": "Why this matters"},
+    "words": {"en": "Words worth knowing"},
+    "talk": {"en": "Talk about it at dinner"},
     "talk_intro": {
         "en": "There is no right answer to any of these. Say what you think first — "
               "then open the hints. Both sides are argued as well as they can be, "
               "so the hints won't decide for you. You still have to pick, and say why.",
-        "zh": "这几个问题都没有标准答案。先说说你自己怎么想，再点开提示。"
-              "提示里两边都尽力讲了各自的道理，所以它不会替你决定。选哪边、为什么选，还是你的事。",
     },
-    "talk_hint": {"en": "Stuck? Two ways to argue it", "zh": "想不出来？两方各有说法"},
-    "background": {"en": "Background reading", "zh": "背景阅读"},
-    "further": {"en": "Go deeper", "zh": "延展阅读"},
-    "watch": {"en": "Watch", "zh": "看视频"},
-    "source": {"en": "Main source", "zh": "主要来源"},
-    "archive": {"en": "Archive", "zh": "往期"},
-    "today": {"en": "Today", "zh": "今日"},
-    "archive_title": {"en": "Every past edition", "zh": "所有往期"},
-    "archive_intro": {"en": "Newest first.", "zh": "从新到旧排列。"},
+    "talk_hint": {"en": "Stuck? Two ways to argue it"},
+    "background": {"en": "Background reading"},
+    "further": {"en": "Go deeper"},
+    "watch": {"en": "Watch"},
+    "source": {"en": "Main source"},
+    "archive": {"en": "Archive"},
+    "today": {"en": "Today"},
+    "archive_title": {"en": "Every past edition"},
+    "archive_intro": {"en": "Newest first."},
     "archive_first": {
         "en": "This is the first edition. From tomorrow, every past day collects here.",
-        "zh": "这是第一期。从明天起，每一天的往期都会收在这里。",
     },
     "empty": {
         "en": "No editions yet. The first one arrives at the time you set.",
-        "zh": "还没有内容。第一期会在你设定的时间发布。",
     },
-    "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"},
-    "poster": {"en": "Share image", "zh": "转发长图"},
-    "print": {"en": "Print", "zh": "打印"},
-    "band_prompt": {"en": "Written for", "zh": "读给"},
+    "theme": {"en": "Light / Dark"},
+    "poster": {"en": "Share image"},
+    "print": {"en": "Print"},
+    "band_prompt": {"en": "Written for"},
 }
 
 CONTACT_EMAIL = "yejingxin@gmail.com"
 
 WEEKDAYS = {
     "en": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    "zh": ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六", "星期日"],
 }
 
 MONTHS_EN = ["January", "February", "March", "April", "May", "June",
@@ -85,7 +80,7 @@ def e(text: object) -> str:
 
 
 def band_class(key: str) -> str:
-    """A CSS-safe class for a band key — '16+' cannot appear in a selector as-is."""
+    """A CSS-safe class for a band key, whatever punctuation the key carries."""
     return "b-" + re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
 
 
@@ -149,10 +144,7 @@ def safe_url(url: object) -> str:
 def pretty_date(date_str: str) -> dict:
     d = datetime.strptime(date_str, "%Y-%m-%d")
     idx = d.weekday()
-    return {
-        "en": f"{WEEKDAYS['en'][idx]}, {MONTHS_EN[d.month - 1]} {d.day}, {d.year}",
-        "zh": f"{d.year}年{d.month}月{d.day}日 {WEEKDAYS['zh'][idx]}",
-    }
+    return {"en": f"{WEEKDAYS['en'][idx]}, {MONTHS_EN[d.month - 1]} {d.day}, {d.year}"}
 
 
 def generated_css() -> str:

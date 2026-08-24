@@ -4,8 +4,7 @@
     "start": "2026-08-23T12:00:00-07:00",
     "end": "2026-08-24T12:00:00-07:00",
     "label": {
-      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT",
-      "zh": "PDT 8月23日 12:00 至 8月24日 12:00"
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
     }
   },
   "generated_at": "2026-08-24T13:05:07-07:00",
@@ -25,13 +24,11 @@
       "GLOBAL"
     ],
     "bands": [
-      "6-11",
-      "12-15",
-      "16+"
+      "primary",
+      "secondary"
     ],
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "timezone": "America/Vancouver",
     "hour": 12
@@ -49,24 +46,20 @@
       "background": [
         {
           "title": {
-            "en": "Bessent press conference: Iran sanctions 'economic D-Day'",
-            "zh": "贝森特新闻发布会:对伊朗制裁的“经济D日”"
+            "en": "Bessent press conference: Iran sanctions 'economic D-Day'"
           },
           "summary": {
-            "en": "CBS News covers Bessent's own press conference remarks laying out the sanctions campaign in his words.",
-            "zh": "哥伦比亚广播公司新闻报道了贝森特在新闻发布会上亲自阐述该制裁行动的言论。"
+            "en": "CBS News covers Bessent's own press conference remarks laying out the sanctions campaign in his words."
           },
           "publisher": "CBS News",
           "url": "https://www.cbsnews.com/news/bessent-press-conference-iran-sanctions-economic-d-day/"
         },
         {
           "title": {
-            "en": "Trump, Iran, the economy and sanctions: China in the crosshairs",
-            "zh": "特朗普、伊朗、经济与制裁:中国成为焦点"
+            "en": "Trump, Iran, the economy and sanctions: China in the crosshairs"
           },
           "summary": {
-            "en": "CNBC focuses specifically on how China, as Iran's biggest oil buyer, factors into the sanctions push and Washington's pressure campaign.",
-            "zh": "CNBC专门报道了作为伊朗最大石油买家的中国,在此次制裁行动和华盛顿施压中所扮演的角色。"
+            "en": "CNBC focuses specifically on how China, as Iran's biggest oil buyer, factors into the sanctions push and Washington's pressure campaign."
           },
           "publisher": "CNBC",
           "url": "https://www.cnbc.com/2026/08/24/trump-iran-economy-sanctions-china-bessent.html"
@@ -75,14 +68,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "America's Money Chief Declares an 'Economic D-Day' Against Iran",
-            "zh": "美国财政部长对伊朗发起\"经济版诺曼底登陆\""
+            "en": "America's Money Chief Declares an 'Economic D-Day' Against Iran"
           },
           "hook": {
-            "en": "The United States' top money official, Scott Bessent, announced a big new plan to squeeze Iran's economy. He gave it a dramatic name — 'Operation Economic Outcast' — and compared it to D-Day, one of the biggest military operations in history. The plan tries to stop money, oil, and gold from reaching Iran, even when that money passes through other countries like China.",
-            "zh": "美国的财政部长斯科特·贝森特宣布了一项打压伊朗经济的大计划。他给这个计划起了个响亮的名字——\"经济弃儿行动\"——还把它比作历史上最著名的军事行动之一——诺曼底登陆(D-Day)。这个计划想要切断流向伊朗的资金、石油和黄金,哪怕这些钱是经过中国这样的国家转手的。"
+            "en": "The United States' top money official, Scott Bessent, announced a big new plan to squeeze Iran's economy. He gave it a dramatic name — 'Operation Economic Outcast' — and compared it to D-Day, one of the biggest military operations in history. The plan tries to stop money, oil, and gold from reaching Iran, even when that money passes through other countries like China."
           },
           "story": {
             "en": [
@@ -90,80 +81,56 @@
               "The new plan is called 'sanctions.' Sanctions are rules that stop people or countries from trading with someone. The US wants to stop Iran from selling oil, gold, and even using computer money called crypto. Iran needs to sell oil to get money, like a farmer needs to sell vegetables to buy shoes.",
               "The tricky part: China buys about 9 out of every 10 barrels of oil Iran sells. That's a huge amount — like if a neighborhood bake sale sold almost every single cookie to just one family. The US says China must stop too, or face punishment. President Trump has even been calling world leaders directly, asking them to stop buying from Iran.",
               "Iran is angry. It has threatened to block ships in a narrow sea passage called the Strait of Hormuz, where a huge share of the world's oil ships travel through. Grown-ups disagree on what happens next: some think China will keep buying Iranian oil no matter what, because it needs the oil and doesn't like being told what to do. Others think the pressure could work, especially if banks and shipping companies get scared of being punished too."
-            ],
-            "zh": [
-              "想象一下,你在学校闯了祸,校长告诉所有同学:\"谁也不许跟他换零食,不然你也要受罚。\"美国现在对伊朗做的事情有点像这样。伊朗是中东的一个国家。过去六个月里,美国和伊朗一直在冲突——不只是吵架,还动用了导弹。",
-              "这个新计划叫做\"制裁\"。制裁是一种规定,不让人或国家跟某个对象做生意。美国想阻止伊朗卖石油、黄金,甚至使用一种叫\"加密货币\"的电子货币。伊朗需要卖石油来赚钱,就像农民需要卖菜才能买鞋子一样。",
-              "麻烦的是,中国买走了伊朗大约十分之九的石油。这个数量非常大——就好像社区的义卖会上,几乎所有饼干都被一个家庭买走了。美国说中国也必须停止购买,否则也要受到惩罚。特朗普总统甚至亲自打电话给其他国家的领导人,要求他们别再跟伊朗做生意。",
-              "伊朗很生气。它威胁说要在霍尔木兹海峡拦截船只,这是一条狭窄的海上通道,世界上很大一部分石油船都要经过这里。大人们对接下来会发生什么意见不一:有人认为中国无论如何都会继续购买伊朗石油,因为它需要石油,也不喜欢被别人指挥。也有人认为这种压力可能真的有用,尤其是当银行和运输公司也害怕被牵连受罚的时候。"
             ]
           },
           "why_it_matters": {
-            "en": "Oil is used to make gasoline for cars and buses, and even shows up in some of the plastic in your toys. When countries fight over oil and shipping routes, prices for things your family buys can go up or down. If ships really get stopped in the Strait of Hormuz, it could make gas more expensive everywhere, including at the pump your family uses.",
-            "zh": "石油被用来制造汽车和公交车用的汽油,甚至你的一些塑料玩具里也含有石油成分。当国家们为了石油和运输通道发生冲突时,你家买东西的价格可能会涨或跌。如果霍尔木兹海峡的船真的被拦下,可能会让全世界的汽油都变贵,包括你家加油站的价格。"
+            "en": "Oil is used to make gasoline for cars and buses, and even shows up in some of the plastic in your toys. When countries fight over oil and shipping routes, prices for things your family buys can go up or down. If ships really get stopped in the Strait of Hormuz, it could make gas more expensive everywhere, including at the pump your family uses."
           },
           "word_bank": [
             {
               "term": {
-                "en": "sanctions",
-                "zh": "制裁"
+                "en": "sanctions"
               },
               "def": {
-                "en": "Rules one country makes to stop people from trading with another country, like a time-out for buying and selling.",
-                "zh": "一个国家用来阻止别人和另一个国家做生意的规定,就像给买卖行为按下的\"暂停\"处罚。"
+                "en": "Rules one country makes to stop people from trading with another country, like a time-out for buying and selling."
               }
             },
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow strip of ocean near Iran where many oil ships must pass through, like a hallway everyone has to walk down.",
-                "zh": "伊朗附近一条狭窄的海上通道,很多运石油的船都必须经过这里,就像大家都要走的一条走廊。"
+                "en": "A narrow strip of ocean near Iran where many oil ships must pass through, like a hallway everyone has to walk down."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair for the US to punish other countries, like China, for trading with Iran, even though those countries didn't start the fight?",
-                "zh": "美国因为像中国这样的国家跟伊朗做生意就惩罚它们,这样公平吗,即使这些国家并没有挑起这场冲突?"
+                "en": "Is it fair for the US to punish other countries, like China, for trading with Iran, even though those countries didn't start the fight?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's fair",
-                    "zh": "公平"
+                    "en": "Yes, it's fair"
                   },
                   "points": {
                     "en": [
                       "If everyone keeps trading with a country causing trouble, the trouble can get worse for everyone.",
                       "If no one is punished for helping Iran get around the rules, the original punishment won't work at all.",
                       "Countries can choose who they trade with, so they could choose a different oil seller instead."
-                    ],
-                    "zh": [
-                      "如果大家都继续跟一个惹麻烦的国家做生意,麻烦可能会对每个人都变得更糟。",
-                      "如果没人因为帮伊朗绕开规则而受罚,那最初的制裁就完全没用了。",
-                      "国家可以自己选择跟谁做生意,它们本可以选择别的石油卖家。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not fair",
-                    "zh": "不公平"
+                    "en": "No, it's not fair"
                   },
                   "points": {
                     "en": [
                       "China didn't start the fight between the US and Iran, so punishing it feels like blaming the wrong side.",
                       "Stopping oil trades can hurt ordinary families in China and Iran who just need affordable fuel, not the leaders making the decisions.",
                       "One country telling others who they're allowed to trade with can feel like being bossed around, even for a good reason."
-                    ],
-                    "zh": [
-                      "中国并没有挑起美国和伊朗之间的冲突,惩罚它感觉像是怪错了对象。",
-                      "停止石油交易可能会伤害中国和伊朗的普通家庭,他们只是需要便宜的燃料,而不是那些做决定的领导人。",
-                      "一个国家告诉别国该跟谁做生意,即使理由充分,也让人感觉像是被指挥。"
                     ]
                   }
                 }
@@ -171,43 +138,30 @@
             },
             {
               "question": {
-                "en": "Should Iran be allowed to block ships in the Strait of Hormuz to defend itself, even though it would hurt people around the world who need oil?",
-                "zh": "伊朗为了保护自己而拦截霍尔木兹海峡的船只,应该被允许吗,尽管这会伤害全世界需要石油的人?"
+                "en": "Should Iran be allowed to block ships in the Strait of Hormuz to defend itself, even though it would hurt people around the world who need oil?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it can defend itself",
-                    "zh": "应该被允许"
+                    "en": "Yes, it can defend itself"
                   },
                   "points": {
                     "en": [
                       "If a country feels attacked, it makes sense it wants to protect itself with the tools it has.",
                       "Iran didn't start the sanctions — blocking ships is a reaction to being economically squeezed first.",
                       "Countries throughout history have used blockades to defend themselves when they felt threatened."
-                    ],
-                    "zh": [
-                      "如果一个国家感觉受到攻击,它想用手头的办法保护自己是可以理解的。",
-                      "制裁不是伊朗先挑起的——拦截船只是对先被经济打压的一种反应。",
-                      "历史上有很多国家在感到威胁时都用过封锁的办法来保护自己。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it shouldn't block ships",
-                    "zh": "不应该被允许"
+                    "en": "No, it shouldn't block ships"
                   },
                   "points": {
                     "en": [
                       "Blocking ships would hurt millions of people around the world who need oil for everyday life, not just the US.",
                       "It could turn an economic dispute into a much bigger and more dangerous conflict.",
                       "The ships carry crews and cargo that have nothing to do with the political fight, so innocent people could get hurt."
-                    ],
-                    "zh": [
-                      "拦截船只会伤害全世界数百万需要石油维持日常生活的人,而不只是美国。",
-                      "这可能会把一场经济纠纷变成更大、更危险的冲突。",
-                      "船上载有跟这场政治争端毫无关系的船员和货物,可能会伤及无辜。"
                     ]
                   }
                 }
@@ -215,14 +169,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "The US Declares an 'Economic D-Day' on Iran — and This Time China's a Target Too",
-            "zh": "美国对伊朗打出'经济版D日'——这次矛头对准中国"
+            "en": "The US Declares an 'Economic D-Day' on Iran — and This Time China's a Target Too"
           },
           "hook": {
-            "en": "The US Treasury Secretary, Scott Bessent, just announced a giant new sanctions campaign against Iran — and he gave it a war-sized name: 'Operation Economic Outcast.' He called it an 'economic D-Day,' comparing it to the massive Allied invasion that helped turn World War II. The target isn't just Iran. It's every country and company still doing business with Iran, including its single biggest oil customer: China.",
-            "zh": "美国财政部长斯科特·贝森特宣布了一项针对伊朗的大规模新制裁行动,还给它起了个像军事行动一样的名字——'经济弃儿行动'。他把这次行动称为'经济版D日',暗指1944年盟军在诺曼底登陆、扭转二战局势的那场大规模军事行动。这次的打击目标不只是伊朗本身,还包括所有仍与伊朗做生意的国家和公司——其中就包括伊朗最大的石油买家:中国。"
+            "en": "The US Treasury Secretary, Scott Bessent, just announced a giant new sanctions campaign against Iran — and he gave it a war-sized name: 'Operation Economic Outcast.' He called it an 'economic D-Day,' comparing it to the massive Allied invasion that helped turn World War II. The target isn't just Iran. It's every country and company still doing business with Iran, including its single biggest oil customer: China."
           },
           "story": {
             "en": [
@@ -232,92 +184,64 @@
               "The most striking target is China, which buys roughly 90 percent of Iran's oil exports and is by far its biggest customer. Bessent said flatly that China would not get an exemption this time — a notable statement, since China is also the world's second-largest economy and a country the US usually treats carefully. President Trump has reportedly been personally calling other world leaders, urging them to cut their own ties with Tehran.",
               "The timing matters too. This sanctions push comes about six months after a period of open conflict between the US and Israel on one side and Iran on the other. A deadline for a ceasefire — an agreement to stop the fighting — passed without both sides reaching a deal. In response, Iran has threatened to seize ships passing through the Strait of Hormuz, a narrow strip of water between Iran and the Arabian Peninsula that carries about a fifth of the world's oil every single day. Blocking or threatening that passage would ripple through gas prices worldwide.",
               "What nobody can say for certain yet is whether any of this will actually work. China has weathered plenty of US pressure before, and both Iran and China have spent years building workarounds — disguised shipping routes, renamed tankers, non-dollar payment systems — specifically designed to dodge sanctions like these. Some analysts think this round, because it targets the entire supply chain at once, could genuinely bite. Others think it will mostly add cost and hassle without stopping the oil from flowing."
-            ],
-            "zh": [
-              "美国财政部长斯科特·贝森特宣布了一项针对伊朗的大规模新制裁行动,并为它取了一个听起来像军事行动的名字——'经济弃儿行动'。他把这称为'经济版D日',指的是1944年盟军对纳粹占领下的法国发动的大规模登陆作战,那是二战的转折点之一。这是个很大的说法:贝森特是在说,这场行动同样具有决定性意义,只不过战场从枪炮换成了金融规则。",
-              "这项计划瞄准的是维系伊朗经济与世界其他地方联系的各种网络——运送石油的船只、用来保值的黄金、飞机航班,甚至是伊朗用来绕开制裁转移资金的加密货币交易。这些网络要经过阿联酋、香港、中国大陆、新加坡和瑞士等金融枢纽——多年来,伊朗一直借助这些地方作为中转站,在既有制裁之下维持贸易。",
-              "真正发挥作用的工具叫做'二级制裁'。一般的美国制裁只禁止美国公司与被制裁对象做生意。而二级制裁则更进一步:只要外国银行或公司继续与伊朗做交易,不管它身处世界哪个角落,都可能被切断与美国金融体系的联系。由于全球贸易和银行业务有很大一部分都依赖美元结算,这种威胁即使对从未踏足美国的公司来说,分量也不轻。",
-              "最引人注目的目标是中国——它购买了伊朗大约90%的石油出口,是伊朗迄今最大的客户。贝森特明确表示,这次中国不会获得豁免——这一表态很不寻常,因为中国是世界第二大经济体,通常是美国需要谨慎对待的对象。据报道,特朗普总统还亲自打电话给其他国家领导人,敦促他们切断与德黑兰的联系。",
-              "这次行动的时机也很关键。此次制裁是在美国和以色列一方与伊朗一方公开冲突大约六个月之后推出的。双方原定的'停火'——即停止交火的协议——期限已经过去,却始终没有达成协议。作为回应,伊朗威胁要在霍尔木兹海峡扣押过往船只。这条狭窄的海峡位于伊朗和阿拉伯半岛之间,全球大约五分之一的石油每天都要经过这里运输。一旦这条通道被封锁或受到威胁,全球油价都会受到波及。",
-              "目前谁也无法确定这一切是否真的会奏效。中国过去经历过不少美国的施压,而伊朗和中国多年来一直在建立各种变通手段——伪装航线、更改油轮船籍、使用非美元支付系统——专门用来规避这类制裁。一些分析人士认为,这一轮制裁因为同时打击整条供应链,可能真的会产生实质影响;另一些人则认为,它大概率只会增加成本和麻烦,却难以真正切断石油流动。"
             ]
           },
           "why_it_matters": {
-            "en": "Even if you've never thought about Iran or sanctions, this affects the price of gas your family pays and how stable global trade feels, because a fifth of the world's oil passes through the waterway Iran is threatening to block. It's also a preview of how the US and China — the two biggest economies on Earth — might handle disagreements without going to war, using money and trade as the battlefield instead.",
-            "zh": "就算你从没关心过伊朗或制裁问题,这件事也会影响你家里加油要花多少钱,以及全球贸易看起来有多稳定——因为伊朗威胁封锁的那条水道,承载着全球五分之一的石油运输。这也是一个预演:世界上两个最大的经济体——美国和中国——在不诉诸战争的情况下,可能会如何用金钱和贸易作为战场来处理彼此的分歧。"
+            "en": "Even if you've never thought about Iran or sanctions, this affects the price of gas your family pays and how stable global trade feels, because a fifth of the world's oil passes through the waterway Iran is threatening to block. It's also a preview of how the US and China — the two biggest economies on Earth — might handle disagreements without going to war, using money and trade as the battlefield instead."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Secondary sanctions",
-                "zh": "二级制裁"
+                "en": "Secondary sanctions"
               },
               "def": {
-                "en": "Rules that punish foreign companies and banks — not just Americans — if they keep doing business with a country the US has sanctioned.",
-                "zh": "一种规定:即使不是美国公司,只要继续与被美国制裁的国家做生意,也会受到惩罚。"
+                "en": "Rules that punish foreign companies and banks — not just Americans — if they keep doing business with a country the US has sanctioned."
               }
             },
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow sea passage between Iran and the Arabian Peninsula that roughly a fifth of the world's oil ships through every day.",
-                "zh": "伊朗与阿拉伯半岛之间的一条狭窄海峡,全球大约五分之一的石油都要经过这里运输。"
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula that roughly a fifth of the world's oil ships through every day."
               }
             },
             {
               "term": {
-                "en": "Ceasefire",
-                "zh": "停火"
+                "en": "Ceasefire"
               },
               "def": {
-                "en": "An agreement between fighting sides to stop shooting, at least for a while — though it doesn't necessarily end the underlying conflict.",
-                "zh": "交战双方同意暂时停止武装冲突的协议,但这并不代表根本矛盾已经解决。"
+                "en": "An agreement between fighting sides to stop shooting, at least for a while — though it doesn't necessarily end the underlying conflict."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair for the US to punish foreign companies for trading with Iran, even when those companies' own governments never agreed to follow US sanctions?",
-                "zh": "美国因外国公司与伊朗做生意而对其进行惩罚,即使这些公司所在国政府从未同意遵守美国的制裁——这样做公平吗?"
+                "en": "Is it fair for the US to punish foreign companies for trading with Iran, even when those companies' own governments never agreed to follow US sanctions?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's justified",
-                    "zh": "是的,这样做有道理"
+                    "en": "Yes, it's justified"
                   },
                   "points": {
                     "en": [
                       "Iran's government has been accused of funding armed groups and pursuing weapons that threaten regional and global security, so cutting off its money matters to more than just the US.",
                       "The US dollar and its banking system are so central to world trade that using them as leverage is one of the few tools that can pressure a determined regime without firing a shot.",
                       "If sanctions have loopholes big enough for China or anyone else to ignore, the whole system becomes pointless — closing them treats every country the same."
-                    ],
-                    "zh": [
-                      "伊朗政府被指控资助武装团体并寻求发展武器,这威胁到地区乃至全球的安全,因此切断其资金来源不仅仅关乎美国自身利益。",
-                      "美元和美国的银行体系在全球贸易中处于核心地位,利用这一点施压,是为数不多能在不动一枪一炮的情况下逼迫一个顽固政权让步的手段。",
-                      "如果制裁的漏洞大到中国等国家可以视而不见,那整套制裁体系就形同虚设——堵住漏洞才能一视同仁。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's overreach",
-                    "zh": "不,这是越权"
+                    "en": "No, it's overreach"
                   },
                   "points": {
                     "en": [
                       "A country's government should get to decide its own trade policy — it isn't the US's place to dictate who China or the UAE can buy oil from.",
                       "Punishing entire economies for their government's choices ends up hurting ordinary workers and businesses who had no say in the decision.",
                       "Using the dollar system as a weapon gives other countries a strong reason to build alternatives to it, which could weaken US influence in the long run."
-                    ],
-                    "zh": [
-                      "一个国家应该有权自主决定本国的贸易政策——中国或阿联酋从谁那里买石油,不该由美国说了算。",
-                      "因为一国政府的选择而惩罚整个经济体,最终受伤的往往是那些根本无权决策的普通工人和企业。",
-                      "把美元体系当作武器使用,会给其他国家一个强烈的理由去建立替代系统,这从长远看可能削弱美国自身的影响力。"
                     ]
                   }
                 }
@@ -325,195 +249,30 @@
             },
             {
               "question": {
-                "en": "Will 'Operation Economic Outcast' actually get China to buy less Iranian oil, or will it just make China dig in and cooperate less?",
-                "zh": "'经济弃儿行动'真的能让中国减少购买伊朗石油吗?还是只会让中国更加抵触、更不愿配合?"
+                "en": "Will 'Operation Economic Outcast' actually get China to buy less Iranian oil, or will it just make China dig in and cooperate less?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It will probably work",
-                    "zh": "很可能会奏效"
+                    "en": "It will probably work"
                   },
                   "points": {
                     "en": [
                       "Chinese banks and shipping companies still need access to the US dollar system for most of their international business, and losing that access would be extremely costly.",
                       "Targeting the entire supply chain — ships, insurance, gold payments, crypto transfers — closes off many of the workarounds Iran has relied on until now.",
                       "Past sanctions campaigns have gradually squeezed Iran's oil exports before, even if imperfectly, showing that sustained pressure does have an effect over time."
-                    ],
-                    "zh": [
-                      "中国的银行和航运公司在大多数国际业务中仍然需要使用美元体系,一旦失去这一渠道,代价会非常高昂。",
-                      "这次制裁把船只、保险、黄金支付、加密货币转账等整条供应链都纳入打击范围,堵住了伊朗此前依赖的许多变通办法。",
-                      "过去的制裁行动也曾逐步压缩伊朗的石油出口,虽然效果并不完美,但这说明持续施压确实能在长期内产生作用。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It probably won't work",
-                    "zh": "很可能不会奏效"
+                    "en": "It probably won't work"
                   },
                   "points": {
                     "en": [
                       "China is the world's second-largest economy and has the size and independence to absorb US pressure that smaller countries could never withstand.",
                       "Iran and China have spent years building disguised shipping routes, renamed tankers, and non-dollar payment channels specifically to dodge sanctions like these.",
                       "Public pressure campaigns like this one can make a government look tougher for pushing back rather than complying, especially amid other US-China tensions."
-                    ],
-                    "zh": [
-                      "中国是世界第二大经济体,拥有足够的体量和独立性去承受许多小国根本无法承受的美国压力。",
-                      "伊朗和中国多年来一直在建立伪装航线、更改油轮船籍、使用非美元支付渠道,专门用来规避这类制裁。",
-                      "在中美关系本就紧张的背景下,这种公开施压反而可能让中国政府觉得强硬回击比配合更能显示自己的立场。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "The US Treasury Declares an 'Economic D-Day' Against Iran — and This Time China Isn't Exempt",
-            "zh": "美国财政部对伊朗发起\"经济版诺曼底登陆\"——这次连中国也不例外"
-          },
-          "hook": {
-            "en": "US Treasury Secretary Scott Bessent unveiled a new sanctions campaign against Iran called Operation Economic Outcast, aiming to sever Tehran's remaining links — oil, shipping, gold, aviation and crypto — to the global economy. Unlike previous rounds, Bessent says China, which buys nearly all of Iran's oil exports, will not be spared. The push comes as a ceasefire deadline in the US/Israel-Iran conflict has passed, and Iran is threatening to seize ships in the Strait of Hormuz.",
-            "zh": "美国财政部长斯科特·贝森特宣布了一项针对伊朗的新制裁行动，名为\"经济弃儿行动\"，目标是切断德黑兰在石油、航运、黄金、航空和加密货币等领域与全球经济的最后联系。与以往不同，贝森特表示，几乎买下伊朗全部石油出口的中国这次也不会获得豁免。这一举措发布之际，美国、以色列与伊朗冲突的停火期限已经过去，而伊朗正威胁要在霍尔木兹海峡扣押船只。"
-          },
-          "story": {
-            "en": [
-              "US Treasury Secretary Scott Bessent gave the new sanctions push a name that sounds more like a military operation than a financial one: \"Operation Economic Outcast.\" He called it \"an economic D-Day\" — language borrowed from the 1944 invasion of Normandy — for a campaign aimed at severing Iran's remaining links to the global economy. The targets aren't just Iranian entities but the networks in the UAE, Hong Kong, mainland China, Singapore and Switzerland that move Iranian oil, gold, and crypto payments around the world.",
-              "The tool doing the work is called a secondary sanction, and it's more aggressive than it sounds. Ordinary sanctions bar US companies from dealing with a target country. Secondary sanctions go further: they threaten anyone anywhere — a bank in Zurich, a shipping firm in Dubai — with being cut off from the US financial system if they keep doing business with the sanctioned country. Because so much of world trade still runs through US dollars and US banks, this gives Washington leverage far beyond its own borders.",
-              "The biggest name on that target list is China, which buys around 90% of Iran's oil exports and is by far its largest customer. Bessent said explicitly that China will get no exemption this time — a notable statement given how carefully the US has usually tried to avoid a full economic confrontation with its second-largest trading partner. President Trump has reportedly been making personal calls to other world leaders, urging them to cut commercial ties with Tehran, treating this as a diplomatic full-court press rather than a Treasury memo.",
-              "The timing matters. The announcement comes six months into a conflict between the US, Israel, and Iran, after a deadline for a ceasefire agreement passed without a deal. Iran has responded to escalating pressure with its own threat: to seize ships passing through the Strait of Hormuz, the narrow waterway between Iran and Oman that carries roughly a fifth of the world's oil trade. A blockade or seizure there would ripple through oil markets far beyond the Middle East.",
-              "What's genuinely uncertain is whether any of this changes China's behavior. Iran has spent years building workarounds — a so-called shadow fleet of tankers with obscured ownership, ship-to-ship transfers at sea, and payment routes that avoid the dollar system — precisely to survive sanctions like these. China has shown little appetite for scaling back oil purchases it considers a matter of energy security, not politics, and Beijing has publicly rejected the legitimacy of secondary sanctions before. Analysts are split on whether \"Economic Outcast\" represents a real escalation in enforcement or a symbolic hardening of language attached to a system that has already been in place, with limited effect, for years."
-            ],
-            "zh": [
-              "美国财政部长斯科特·贝森特给这轮新制裁起了一个听起来更像军事行动而非金融政策的名字——\"经济弃儿行动\"。他称之为\"经济版的诺曼底登陆日\"，借用1944年诺曼底登陆的说法，来形容这场旨在切断伊朗与全球经济最后联系的行动。打击对象不仅是伊朗本身，还包括阿联酋、香港、中国大陆、新加坡和瑞士等地帮助伊朗转运石油、黄金和加密货币资金的网络。",
-              "这场行动的核心工具叫做\"次级制裁\"，它比听起来更具攻击性。普通制裁只禁止美国企业与目标国家做生意；次级制裁则更进一步——它警告世界任何地方的任何机构，比如苏黎世的一家银行或迪拜的一家航运公司，如果继续与被制裁国家往来，就可能被切断与美国金融体系的联系。由于全球贸易仍高度依赖美元和美国银行系统，这让华盛顿获得了远超其本土范围的影响力。",
-              "名单上最重要的名字是中国——中国购买了伊朗约90%的石油出口，是伊朗迄今为止最大的客户。贝森特明确表示，这次中国不会获得豁免，这一表态颇为罕见，因为美国过去通常会小心避免与其第二大贸易伙伴发生全面经济对抗。据报道，特朗普总统亲自致电多国领导人，敦促他们切断与德黑兰的经贸往来——这更像是一场外交总动员，而不只是财政部的一纸文件。",
-              "时机也很关键。这项声明发布之际，美国、以色列与伊朗之间的冲突已持续六个月，停火协议的最后期限已经过去却未能达成协议。面对不断升级的压力，伊朗以自己的威胁作出回应：扬言要在霍尔木兹海峡扣押过往船只——这条狭窄水道位于伊朗与阿曼之间，承载着全球约五分之一的石油贸易。一旦这里发生封锁或扣船事件，冲击将远远超出中东地区，波及全球油市。",
-              "真正存疑的是，这一切能否真正改变中国的行为。多年来，伊朗一直在构建各种规避手段——比如所谓的\"影子船队\"（船东身份被刻意隐藏的老旧油轮）、海上船对船转运，以及绕开美元结算体系的支付渠道——目的正是为了在类似制裁下生存下去。中国方面则一直表现出不愿削减石油采购的态度，认为这是能源安全问题而非政治问题，北京此前也公开否定过次级制裁的合法性。分析人士对\"经济弃儿行动\"究竟意味着执法力度的真正升级，还是仅仅是给一套早已存在、效果有限的制裁体系换上更强硬的措辞，看法不一。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "If Iran follows through on seizing ships in the Strait of Hormuz, oil prices could spike worldwide — the kind of shock that shows up directly at the gas pump and in the price of nearly everything shipped by sea. How this standoff plays out will also help determine whether the US and China keep this dispute contained or let it spill into their much larger trading relationship, one that already touches your phone, your car, and the shelves of almost every store you shop in.",
-            "zh": "如果伊朗真的在霍尔木兹海峡扣押船只，全球油价可能会大幅飙升——这种冲击会直接反映在加油站的油价上，也会波及几乎所有依赖海运的商品价格。这场对峙如何收场，也将影响美中两国能否把这场争端限制在伊朗问题范围内，还是让它蔓延到两国规模大得多的贸易关系中——而那份关系早已渗透到你的手机、汽车，乃至几乎每家商店的货架上。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Secondary sanctions",
-                "zh": "次级制裁"
-              },
-              "def": {
-                "en": "Penalties that threaten to cut off any company or bank in the world — not just American ones — from the US financial system if they keep doing business with a sanctioned country.",
-                "zh": "一种制裁手段，威胁将全球任何企业或银行（不只是美国公司）与被制裁国家继续往来的行为，就可能导致其被切断与美国金融体系的联系。"
-              }
-            },
-            {
-              "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
-              },
-              "def": {
-                "en": "A narrow sea passage between Iran and Oman that roughly a fifth of the world's oil shipments must pass through.",
-                "zh": "位于伊朗与阿曼之间的一条狭窄海峡，全球约五分之一的石油运输都必须经过这里。"
-              }
-            },
-            {
-              "term": {
-                "en": "Shadow fleet",
-                "zh": "影子船队"
-              },
-              "def": {
-                "en": "A network of aging tankers with disguised ownership and flags, used to move sanctioned oil around the world without detection.",
-                "zh": "一群刻意隐藏船东身份和船旗的老旧油轮组成的网络，用于在不被察觉的情况下运输受制裁国家的石油。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Is it fair for the US to threaten foreign companies and countries with financial punishment for trading with Iran, even when those countries aren't part of the conflict?",
-                "zh": "美国以切断金融往来相威胁，逼迫那些并非冲突当事方的外国企业和国家停止与伊朗贸易，这样做公平吗？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Sanctions are legitimate leverage",
-                    "zh": "制裁是合理的施压手段"
-                  },
-                  "points": {
-                    "en": [
-                      "The US controls the dollar-based financial system that most global trade depends on, and it has the right to decide who gets access to it.",
-                      "Without military action, economic pressure may be the only tool capable of changing Iran's calculations.",
-                      "Countries and companies still have a choice: they can stop trading with Iran and keep their access to US markets instead."
-                    ],
-                    "zh": [
-                      "美国掌控着全球贸易高度依赖的美元金融体系，有权决定谁能使用这一体系。",
-                      "在不动用军事手段的情况下，经济压力或许是唯一能改变伊朗决策的工具。",
-                      "各国和企业仍有选择权：他们可以停止与伊朗交易，从而保住进入美国市场的资格。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "It's extraterritorial overreach",
-                    "zh": "这是域外管辖权的滥用"
-                  },
-                  "points": {
-                    "en": [
-                      "Punishing a Swiss bank or a Singaporean shipping firm for a dispute they had no part in imposes US foreign policy on sovereign nations.",
-                      "It pressures ordinary businesses and civilians in third countries who have no say over the Iran conflict.",
-                      "It risks pushing US-aligned allies toward alternative payment systems, weakening the dollar's dominance over time."
-                    ],
-                    "zh": [
-                      "因为一场自己毫无参与的冲突而惩罚瑞士银行或新加坡航运公司，等于将美国外交政策强加于主权国家。",
-                      "这会伤及第三国那些对伊朗冲突毫无发言权的普通企业和民众。",
-                      "这可能促使美国的盟友转向其他支付体系，长期削弱美元的主导地位。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Will an aggressive sanctions campaign like this make war with Iran less likely, or more likely?",
-                "zh": "像这样激进的制裁行动，究竟会降低还是提高对伊朗爆发战争的风险？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Less likely — pressure forces negotiation",
-                    "zh": "降低——施压能促成谈判"
-                  },
-                  "points": {
-                    "en": [
-                      "Squeezing Iran's economy without firing a shot gives Tehran a strong incentive to return to the negotiating table.",
-                      "Historically, sanctions pressure has been credited with bringing Iran to prior nuclear talks.",
-                      "The alternative — doing nothing — leaves military options as the only remaining form of pressure."
-                    ],
-                    "zh": [
-                      "在不动一枪一炮的情况下压缩伊朗经济，能给德黑兰重返谈判桌的强烈动机。",
-                      "历史上，制裁压力曾被认为促成了伊朗此前的核问题谈判。",
-                      "如果什么都不做，军事手段将成为唯一剩下的施压方式。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "More likely — cornering a desperate opponent",
-                    "zh": "提高——逼入绝境的对手更危险"
-                  },
-                  "points": {
-                    "en": [
-                      "Squeezing an already-fighting country's economy can push it toward higher-risk retaliation, like seizing ships in the Strait of Hormuz.",
-                      "A regime with nothing left to lose economically has less incentive to show restraint.",
-                      "Sanctions this aggressive, layered on top of an active six-month conflict, can look less like diplomacy and more like an ultimatum."
-                    ],
-                    "zh": [
-                      "对一个已经身陷冲突的国家进一步施压经济，可能促使其采取风险更高的报复行动，比如在霍尔木兹海峡扣押船只。",
-                      "一个在经济上已无所可失的政权，克制的动力也会随之减弱。",
-                      "在长达六个月的冲突背景下叠加如此激进的制裁，看起来更像是最后通牒，而非外交手段。"
                     ]
                   }
                 }
@@ -535,24 +294,20 @@
       "background": [
         {
           "title": {
-            "en": "CNBC Daily Open: AI, Iran, 'economic D-Day'",
-            "zh": "CNBC每日开盘:人工智能、伊朗与“经济D日”"
+            "en": "CNBC Daily Open: AI, Iran, 'economic D-Day'"
           },
           "summary": {
-            "en": "This newsletter carries the distinct detail on Alibaba's $10 billion placement and its recent profit drop, the only independent account of that half of the story.",
-            "zh": "这份新闻简报详细报道了阿里巴巴100亿美元配股和近期利润下滑的情况,是该事件另一面唯一的独立报道。"
+            "en": "This newsletter carries the distinct detail on Alibaba's $10 billion placement and its recent profit drop, the only independent account of that half of the story."
           },
           "publisher": "CNBC",
           "url": "https://www.cnbc.com/2026/08/24/cnbc-daily-open-ai-iran-economic-d-day.html"
         },
         {
           "title": {
-            "en": "Nvidia's Q2 earnings to test the resurgent AI trade",
-            "zh": "英伟达第二季度财报将考验重新升温的人工智能行情"
+            "en": "Nvidia's Q2 earnings to test the resurgent AI trade"
           },
           "summary": {
-            "en": "Explains why Wall Street is watching Nvidia's earnings so closely as a bellwether for the whole AI-spending story.",
-            "zh": "解释了为何华尔街如此密切关注英伟达的财报,将其视为整个人工智能支出故事的风向标。"
+            "en": "Explains why Wall Street is watching Nvidia's earnings so closely as a bellwether for the whole AI-spending story."
           },
           "publisher": "Yahoo Finance",
           "url": "https://finance.yahoo.com/news/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html"
@@ -561,14 +316,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "Chip Companies Get Nervous Before the Big Report Card",
-            "zh": "芯片公司在\"成绩单\"公布前变得紧张"
+            "en": "Chip Companies Get Nervous Before the Big Report Card"
           },
           "hook": {
-            "en": "Nvidia, a company that makes tiny computer chips used for AI, is about to announce how much money it made — like handing in a report card. Right before that happened, the stock prices of other chip companies dropped. On the other side of the world, a Chinese tech giant called Alibaba saw its stock drop too, after it said it made way less money than before.",
-            "zh": "英伟达（Nvidia）是一家生产用于人工智能的微型电脑芯片的公司，它即将宣布自己赚了多少钱——就像交一份成绩单。就在这之前，其他芯片公司的股票价格下跌了。在地球的另一边，中国科技巨头阿里巴巴的股票也下跌了，因为它宣布自己赚的钱比以前少了很多。"
+            "en": "Nvidia, a company that makes tiny computer chips used for AI, is about to announce how much money it made — like handing in a report card. Right before that happened, the stock prices of other chip companies dropped. On the other side of the world, a Chinese tech giant called Alibaba saw its stock drop too, after it said it made way less money than before."
           },
           "story": {
             "en": [
@@ -576,80 +329,56 @@
               "People who buy pieces of these companies, called stock, got worried. AI has been the exciting new thing everyone wants to build. But building it costs a huge amount of money, and some people are asking: is it actually worth that much? Making things worse, reports say Nvidia might raise the price of its AI computers by more than 15% for its biggest customers.",
               "Across the ocean, Alibaba, a giant Chinese tech company, announced it would sell $10 billion worth of new stock to raise money for AI projects. That is such a big number that if you saved one dollar every single second, it would take you more than 300 years to save that much. This came right after Alibaba said its profit — the money left over after paying its bills — had dropped by 75%, like a piggy bank that used to hold $100 now only holding $25.",
               "Both stories show the same worry, just in two different countries. People are asking whether all this AI spending will really pay off, or whether companies are spending too much, too fast, on something still new and unproven."
-            ],
-            "zh": [
-              "英伟达生产特殊的芯片，帮助电脑完成人工智能的工作，比如写故事或识别图片。每隔几个月，英伟达就要向大家公布自己赚了多少钱。这周，就在这次公布之前，另外三家芯片公司——英特尔（Intel）、AMD和台积电（TSMC）——的股票价格都下跌了。英特尔下跌了大约5%，就像一个价值100元的玩具突然只值95元。",
-              "那些买了这些公司股票（也就是公司的一小份所有权）的人开始担心了。人工智能一直是大家都想投入的新鲜又激动人心的领域。但建设人工智能需要花费巨额的钱，有人开始问：这真的值那么多钱吗？更让人担心的是，有消息说英伟达可能会把卖给最大客户的人工智能电脑价格提高超过15%。",
-              "在大洋彼岸，中国科技巨头阿里巴巴宣布将出售价值100亿美元的新股票，用来筹钱投入人工智能项目。这个数字大到什么程度呢？如果你每一秒存一美元，需要存300多年才能存到这么多钱。而就在这之前，阿里巴巴刚刚宣布自己的利润——也就是付完所有账单后剩下的钱——下降了75%，就像一个原本有100元的储蓄罐现在只剩25元。",
-              "这两件事说的其实是同一种担心，只是发生在两个不同的国家。人们都在问：这些花在人工智能上的巨额投入，到底能不能真正带来回报？还是说，公司们在一件还没被证明成功的新事物上，花钱花得太快、太多了？"
             ]
           },
           "why_it_matters": {
-            "en": "The apps and games you use, and the computers your school or your parents' workplace relies on, are increasingly built using AI chips like the ones these companies make. If companies decide AI spending isn't paying off, they might slow down building new things — or prices for tech gadgets could go up to cover the cost.",
-            "zh": "你用的应用程序和游戏，还有你学校或者爸爸妈妈工作单位用的电脑，越来越多都要依靠这些公司生产的人工智能芯片。如果公司们觉得在人工智能上花的钱不划算，他们可能会放慢开发新东西的速度——又或者，电子产品的价格可能会上涨，来弥补这些花费。"
+            "en": "The apps and games you use, and the computers your school or your parents' workplace relies on, are increasingly built using AI chips like the ones these companies make. If companies decide AI spending isn't paying off, they might slow down building new things — or prices for tech gadgets could go up to cover the cost."
           },
           "word_bank": [
             {
               "term": {
-                "en": "stock",
-                "zh": "股票"
+                "en": "stock"
               },
               "def": {
-                "en": "A tiny piece of ownership in a company that people can buy; when the company does well its stock is worth more, and when it struggles the stock is worth less.",
-                "zh": "一份公司所有权的小份额，人们可以购买；公司经营得好，股票就更值钱，公司遇到困难，股票就会贬值。"
+                "en": "A tiny piece of ownership in a company that people can buy; when the company does well its stock is worth more, and when it struggles the stock is worth less."
               }
             },
             {
               "term": {
-                "en": "profit",
-                "zh": "利润"
+                "en": "profit"
               },
               "def": {
-                "en": "The money a company has left over after it pays for everything it needs, like materials, rent, and workers' pay.",
-                "zh": "公司支付完所有必要开支（比如材料、租金和员工工资）之后剩下的钱。"
+                "en": "The money a company has left over after it pays for everything it needs, like materials, rent, and workers' pay."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair for giant companies to spend so much money betting on new technology like AI, when the bet might not pay off?",
-                "zh": "巨型公司花那么多钱去赌人工智能这样的新技术，而这个赌注可能不会有回报，这样公平吗？"
+                "en": "Is it fair for giant companies to spend so much money betting on new technology like AI, when the bet might not pay off?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's fair",
-                    "zh": "公平"
+                    "en": "Yes, it's fair"
                   },
                   "points": {
                     "en": [
                       "Companies are spending their own money, and taking risks is how new inventions get made.",
                       "If nobody took big risks, we might never get exciting new technology at all.",
                       "The people running these companies understand the risks better than anyone else and chose to take them anyway."
-                    ],
-                    "zh": [
-                      "公司花的是自己的钱，愿意冒险正是新发明诞生的方式。",
-                      "如果没有人敢冒大风险，我们可能永远也得不到令人兴奋的新技术。",
-                      "经营这些公司的人比谁都更了解其中的风险，而他们仍然选择去冒险。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not fair",
-                    "zh": "不公平"
+                    "en": "No, it's not fair"
                   },
                   "points": {
                     "en": [
                       "When a company's bet goes wrong, ordinary workers can lose their jobs even though they didn't make the decision.",
                       "People who bought stock, including regular families saving for the future, can lose real money.",
                       "Spending so much on one risky idea means less money for things that are already working and helping people."
-                    ],
-                    "zh": [
-                      "当公司的赌注出错时，普通员工可能会失去工作，尽管做决定的根本不是他们。",
-                      "买了股票的人，包括为未来储蓄的普通家庭，可能会真的损失钱财。",
-                      "把这么多钱押在一个有风险的想法上，意味着能用在已经在运转、正在帮助人们的事情上的钱就变少了。"
                     ]
                   }
                 }
@@ -657,43 +386,30 @@
             },
             {
               "question": {
-                "en": "When a company's profit drops a lot, like Alibaba's did, should it keep spending big on its future plans anyway?",
-                "zh": "当一家公司的利润大幅下降（就像阿里巴巴那样），它是否还应该继续在未来计划上大手笔花钱？"
+                "en": "When a company's profit drops a lot, like Alibaba's did, should it keep spending big on its future plans anyway?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Keep spending",
-                    "zh": "继续花钱"
+                    "en": "Keep spending"
                   },
                   "points": {
                     "en": [
                       "Stopping now could mean falling permanently behind competitors who keep building.",
                       "Big new technologies often lose money at first before they become useful and profitable.",
                       "A temporary drop in profit doesn't mean the long-term plan is wrong."
-                    ],
-                    "zh": [
-                      "现在停下来，可能意味着永远落后于那些一直在建设的竞争对手。",
-                      "很多重大新技术在变得有用、有利可图之前，一开始往往是亏钱的。",
-                      "利润的暂时下降并不代表长远计划就是错的。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Slow down and be careful",
-                    "zh": "放慢脚步，谨慎行事"
+                    "en": "Slow down and be careful"
                   },
                   "points": {
                     "en": [
                       "If profit is already dropping fast, spending even more money could make things worse before they get better.",
                       "Being careful with money protects workers and customers if the AI plans don't work out.",
                       "It's wiser to prove an idea works on a small scale before betting everything on it."
-                    ],
-                    "zh": [
-                      "如果利润已经在快速下降，花更多的钱可能会让情况在好转之前变得更糟。",
-                      "谨慎用钱能在人工智能计划不成功的情况下，保护员工和顾客的利益。",
-                      "更明智的做法是先在小规模上证明这个想法可行，而不是把所有筹码都押上去。"
                     ]
                   }
                 }
@@ -701,14 +417,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "The Market Gets Nervous Right Before Nvidia Speaks",
-            "zh": "英伟达财报前,芯片股集体"
+            "en": "The Market Gets Nervous Right Before Nvidia Speaks"
           },
           "hook": {
-            "en": "This week, shares in some of the world's biggest chipmakers took a hard hit, just days before Nvidia — the company at the center of the AI boom — was set to report its earnings on Wednesday. Intel dropped about 5%, AMD about 4%, and Taiwan's TSMC about 3%, all within days of each other. On the other side of the world, Chinese tech giant Alibaba's stock also fell after it said it would sell $10 billion worth of new shares to keep funding its AI ambitions. Investors on both sides of the Pacific seem to be asking the same nervous question: is all this AI spending actually going to pay off?",
-            "zh": "本周,一些全球最大芯片制造商的股价大幅下跌,就在英伟达——这家站在AI热潮中心的公司——周三公布财报前几天。英特尔股价下跌约5%,AMD下跌约4%,台积电下跌约3%,几乎同时发生。而在太平洋的另一边,中国科技巨头阿里巴巴也宣布将发行价值100亿美元的新股,以继续为其AI计划筹资,消息一出股价随之下滑。太平洋两岸的投资者似乎都在问同一个令人不安的问题:这些投入巨大的AI支出,到底能不能换来回报?"
+            "en": "This week, shares in some of the world's biggest chipmakers took a hard hit, just days before Nvidia — the company at the center of the AI boom — was set to report its earnings on Wednesday. Intel dropped about 5%, AMD about 4%, and Taiwan's TSMC about 3%, all within days of each other. On the other side of the world, Chinese tech giant Alibaba's stock also fell after it said it would sell $10 billion worth of new shares to keep funding its AI ambitions. Investors on both sides of the Pacific seem to be asking the same nervous question: is all this AI spending actually going to pay off?"
           },
           "story": {
             "en": [
@@ -717,104 +431,64 @@
               "Meanwhile in China, Alibaba made its own AI-related move that spooked investors. The company announced it would sell $10 billion worth of new shares — a move called a share placement, where a company creates and sells more of itself to raise cash quickly, but it also means each existing share is worth a slightly smaller piece of the company. Alibaba said the money would go toward building AI infrastructure, the data centers and networks needed to run AI systems. That announcement landed just days after Alibaba revealed its quarterly profit had fallen 75% compared to a year earlier — a steep drop that made investors question whether spending even more on AI right now was wise.",
               "Put together, these two stories point to the same underlying worry, just from opposite sides of the world. American chipmakers are watching to see if Nvidia's massive AI bet will keep paying off, while Alibaba is asking its shareholders to trust that pouring more money into AI infrastructure will eventually be worth it, even as current profits shrink. Neither side has a clear answer yet — investors are essentially betting on a future that hasn't happened.",
               "It's worth noting that most of the reporting on the American chip stocks comes from a single source, and only one other outlet has separately covered the Alibaba side, so the full picture is still filling in. But the pattern itself — nervous investors, huge sums of money, and a technology that hasn't fully proven its payoff — is clear enough to matter."
-            ],
-            "zh": [
-              "芯片是塞进你手机、也塞进运行ChatGPT那些服务器里的微型",
-              "这种焦虑部分源于一个投资界术语——AI交易",
-              ", 意思是因为大家都预期AI未来会带来巨额利润, 才争相买入科技股。",
-              "问题在于, 这些公司的股价已经涨到很高的位置, 一些投资者担心, 这个价位反映的是一个完美未来, 而这个未来未必会到来。",
-              "更让人紧张的是, 有报道称英伟达可能对其最大客户的AI服务器涨价超过15%, 这些强大的计算机是运行AI程序的核心设备, 涨价可能压缩所有购买设备的公司的利润。",
-              "与此同时, 中国的阿里巴巴也做出了一个让投资者不安的AI相关举动。",
-              "公司宣布将发行价值100亿美元的新股",
-              "——这种做法叫做配股",
-              ", 即公司增发股份来快速筹钱, 但这也意味着原有股东手中每股所代表的公司份额会略微缩水。",
-              "阿里巴巴表示这笔钱将用于建设AI基础设施",
-              ", 也就是运行AI系统所需的数据中心和网络。",
-              "这一消息公布仅几天前, 阿里巴巴刚刚披露其季度利润同比下降了75%",
-              "——如此大的降幅让投资者质疑, 在这个时候继续加码AI投入是否明智。",
-              "把这两件事放在一起看, 它们指向同一个深层的担忧, 只是分别来自世界的两端。",
-              "美国芯片制造商在观望英伟达的巨额AI赌注能否持续获得回报, 而阿里巴巴则要求股东相信, 即便当前利润在萎缩, 继续投入AI基础设施最终也是值得的。",
-              "目前双方都没有明确答案——投资者实际上是在为一个尚未发生的未来下注。",
-              "值得说明的是, 关于美国芯片股的大部分报道来自单一信息源, 只有另外一家媒体独立报道了阿里巴巴的部分, 所以完整的图景仍在填充中。",
-              "但这种模式本身——紧张的投资者、巨额的资金、以及一项尚未完全证明能带来回报的技术——已经足够重要了。"
             ]
           },
           "why_it_matters": {
-            "en": "If you've ever used a phone with an AI assistant, played a game with AI-generated content, or watched a video recommended by an algorithm, you've relied on the exact chips these companies make. Whether AI spending pays off affects more than stock prices — it shapes what gets funded, which jobs get created or cut, and how fast (or slowly) AI tools show up in daily life.",
-            "zh": "如果你用过带AI助手的手机, 玩过AI生成内容的游戏, 或者看过算法推荐的视频, 你其实一直在依赖这些公司制造的芯片。AI投入到底能不能带来回报, 影响的远不止股价——它决定了什么项目能获得资金、哪些工作会被创造或裁减, 也决定了AI工具会以多快(或多慢)的速度出现在我们的日常生活里。"
+            "en": "If you've ever used a phone with an AI assistant, played a game with AI-generated content, or watched a video recommended by an algorithm, you've relied on the exact chips these companies make. Whether AI spending pays off affects more than stock prices — it shapes what gets funded, which jobs get created or cut, and how fast (or slowly) AI tools show up in daily life."
           },
           "word_bank": [
             {
               "term": {
-                "en": "AI trade",
-                "zh": "AI交易"
+                "en": "AI trade"
               },
               "def": {
-                "en": "The pattern of investors buying up tech company stocks because they expect artificial intelligence to become hugely profitable in the future.",
-                "zh": "指投资者因预期人工智能未来会带来巨额利润, 而争相买入科技公司股票的现象。"
+                "en": "The pattern of investors buying up tech company stocks because they expect artificial intelligence to become hugely profitable in the future."
               }
             },
             {
               "term": {
-                "en": "share placement",
-                "zh": "配股"
+                "en": "share placement"
               },
               "def": {
-                "en": "When a company creates and sells new shares of itself to raise money quickly, which slightly shrinks the ownership stake of existing shareholders.",
-                "zh": "公司增发并出售新股份以快速筹集资金的做法, 这会使现有股东手中每股所代表的公司份额略微缩水。"
+                "en": "When a company creates and sells new shares of itself to raise money quickly, which slightly shrinks the ownership stake of existing shareholders."
               }
             },
             {
               "term": {
-                "en": "valuation",
-                "zh": "估值"
+                "en": "valuation"
               },
               "def": {
-                "en": "How much investors believe a company is worth, based on its stock price compared to its actual profits and growth.",
-                "zh": "投资者根据股价相对于公司实际利润和增长情况, 判断一家公司值多少钱的估算。"
+                "en": "How much investors believe a company is worth, based on its stock price compared to its actual profits and growth."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should companies keep pouring billions into AI infrastructure even while their profits are shrinking?",
-                "zh": "公司是否应该在利润萎缩的情况下, 继续向AI基础设施投入数十亿美元?"
+                "en": "Should companies keep pouring billions into AI infrastructure even while their profits are shrinking?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Keep investing",
-                    "zh": "继续投入"
+                    "en": "Keep investing"
                   },
                   "points": {
                     "en": [
                       "Falling behind in AI now could mean losing the entire market later, since early leaders often dominate for years.",
                       "Building data centers and chips takes years, so pulling back now could mean missing the payoff when AI demand actually arrives.",
                       "Short-term profit dips are common when companies invest heavily in new technology, and investors who panic may be reacting to noise, not substance."
-                    ],
-                    "zh": [
-                      "现在在AI领域落后, 未来可能意味着永远失去整个市场, 因为早期领先者往往能主导行业多年。",
-                      "建设数据中心和芯片需要多年时间, 现在收手可能会错过AI真正需求到来时的回报。",
-                      "公司大举投资新技术时, 短期利润下滑很常见, 恐慌的投资者可能只是在对噪音做出反应, 而非对实质问题。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Slow down",
-                    "zh": "放慢脚步"
+                    "en": "Slow down"
                   },
                   "points": {
                     "en": [
                       "A 75% profit drop is a serious warning sign, and doubling down on spending without proof of payoff risks real financial damage.",
                       "Selling more shares to raise cash dilutes existing investors and signals the company may not have enough cash on hand already.",
                       "Chasing a trend just because competitors are doing it can lead an entire industry into an expensive bubble that eventually bursts."
-                    ],
-                    "zh": [
-                      "利润下降75%是一个严重的警示信号, 在没有证据证明回报的情况下加倍投入, 可能带来真实的财务损失。",
-                      "增发股份筹钱会稀释现有投资者的权益, 也可能说明公司手头现金本就不够充裕。",
-                      "仅仅因为竞争对手在做就跟风投入, 可能会让整个行业陷入昂贵的泡沫, 最终难免破裂。"
                     ]
                   }
                 }
@@ -822,197 +496,30 @@
             },
             {
               "question": {
-                "en": "When stock prices swing sharply on rumors — like a possible price hike — is that the market working correctly, or a sign something is broken?",
-                "zh": "当股价因传闻——比如可能的涨价消息——而剧烈波动时, 这究竟是市场在正常运作, 还是出了问题的信号?"
+                "en": "When stock prices swing sharply on rumors — like a possible price hike — is that the market working correctly, or a sign something is broken?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Working correctly",
-                    "zh": "市场在正常运作"
+                    "en": "Working correctly"
                   },
                   "points": {
                     "en": [
                       "Markets are supposed to react quickly to new information, and a price-hike rumor is exactly the kind of thing that changes a company's future profits.",
                       "Quick swings show investors are paying close attention and adjusting their bets, rather than blindly holding stocks no matter what happens.",
                       "A drop of 3-5% is relatively modest — it's not a crash, just a normal correction after prices climbed very high."
-                    ],
-                    "zh": [
-                      "市场理应对新信息做出迅速反应, 而涨价传闻正是那种会改变公司未来利润的消息。",
-                      "股价快速波动说明投资者在密切关注并调整自己的判断, 而不是不顾一切地死守股票。",
-                      "3%到5%的跌幅相对温和——这不是崩盘, 只是股价此前涨得过高后的正常回调。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Something's broken",
-                    "zh": "这说明出了问题"
+                    "en": "Something's broken"
                   },
                   "points": {
                     "en": [
                       "If a mere rumor, not confirmed fact, can wipe out billions in stock value in days, it suggests prices were built on hope rather than solid numbers.",
                       "Investors reacting this nervously right before one company's earnings report suggests the whole sector's value depends too heavily on a single company's performance.",
                       "Wild swings based on unverified reports can hurt ordinary people whose retirement savings are invested in these stocks, even though they had no part in the rumor."
-                    ],
-                    "zh": [
-                      "如果一个未经证实的传闻就能在几天内抹去数十亿美元的市值, 这说明股价本就建立在期望之上, 而非扎实的数据之上。",
-                      "在一家公司发布财报前, 投资者如此紧张的反应, 说明整个行业的估值过度依赖单一公司的表现。",
-                      "基于未经证实报道的剧烈波动, 可能伤害到那些退休储蓄投资在这些股票中的普通人, 尽管他们与传闻毫无关系。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "Chip Stocks Wobble, Alibaba Stumbles: Investors Start Asking If the AI Boom Pays for Itself",
-            "zh": "芯片股震荡、阿里巴巴走低:投资者开始追问AI热潮到底能不能赚回本"
-          },
-          "hook": {
-            "en": "Chip stocks fell broadly on Tuesday ahead of Nvidia's earnings report, with Intel down about 5%, AMD down 4%, and TSMC down 3%, as reports surfaced that Nvidia may raise AI server prices by more than 15% for its biggest customers. In Hong Kong, Alibaba shares dropped after the company said it would sell $10 billion in new stock to keep funding AI infrastructure — just days after reporting a 75% year-over-year collapse in quarterly profit.",
-            "zh": "周二,芯片股普遍下跌,英特尔跌约5%,AMD跌4%,台积电跌3%,市场正等待英伟达即将发布的财报,同时有报道称英伟达可能将大客户的AI服务器价格上调超过15%。在香港,阿里巴巴股价下跌,原因是该公司宣布将增发100亿美元新股以继续投入AI基础设施——就在此前几天,阿里刚公布季度利润同比暴跌75%。"
-          },
-          "story": {
-            "en": [
-              "Chip stocks did not fall because of one bad piece of news — they fell because investors are getting nervous about a story they have been telling themselves for two years. On Tuesday, Intel dropped about 5%, AMD about 4%, and Taiwan Semiconductor Manufacturing Company (TSMC), which makes the chips that power almost every major AI system, about 3%. The slide came a day before Nvidia — the company whose graphics chips are the closest thing the AI industry has to a bottleneck — was due to report earnings on Wednesday, a report the entire sector treats as a referendum on whether AI spending is still worth the money.",
-              "Adding to the unease were reports that Nvidia may raise prices on its AI servers by more than 15% for its largest customers. Those customers are the 'hyperscalers' — Microsoft, Google, Amazon, Meta — companies buying chips by the tens of thousands to build the data centers that run AI models. A price increase that size would boost Nvidia's own revenue, but it also raises the cost of the very infrastructure those companies are betting billions on, at a moment when some investors are already asking how long they can keep spending before the payoff shows up.",
-              "On the other side of the Pacific, Alibaba's Hong Kong-listed shares fell for a related but distinct reason. The company announced a share placement — selling $10 billion of new stock directly to investors — specifically to fund more AI infrastructure spending. The timing mattered: the announcement came just days after Alibaba reported that its quarterly profit had fallen 75% year-over-year, a drop the company attributed largely to the enormous sums it has poured into AI data centers and chip purchases.",
-              "Put next to each other, the two moves describe the same anxiety from opposite ends of the supply chain. In the US, investors are asking whether chipmakers can keep raising prices and shipping volume without the AI boom itself running out of steam. In China, they're asking whether a company can keep raising money to spend on AI while its actual profits shrink, and whether shareholders should be diluted — meaning each existing share represents a smaller slice of the company — to keep the buildout going.",
-              "What ties both stories together is a phrase traders use casually but rarely define: the 'AI trade.' It refers to the belief, priced into stock valuations across the tech sector, that AI will eventually generate enough revenue to justify the trillions being spent on chips, data centers, and electricity to run them. That belief has driven much of the stock market's gains over the past two years. Tuesday's sell-off doesn't prove the belief is wrong — but it shows that even a modest wobble, a pricing rumor here, a bad earnings report there, is enough to make investors ask the question out loud.",
-              "It's worth noting how thin the reporting on this story actually is. Most of the US chip-stock coverage traces back to a single newsroom, Yahoo Finance, and only CNBC's newsletter independently covers the Alibaba side — meaning the two halves of this story aren't corroborated by fully separate news organizations, even though they're being read together as one narrative about global AI spending."
-            ],
-            "zh": [
-              "芯片股下跌并非因为某一条坏消息,而是因为投资者开始对一个讲了两年的故事感到不安。周二,英特尔下跌约5%,AMD下跌约4%,台积电——几乎所有主流AI系统所用芯片的制造商——下跌约3%。这次下跌发生在英伟达周三财报公布前一天,而这份财报被整个行业视为一次公投:AI支出到底还值不值。",
-              "让市场更不安的是有报道称,英伟达可能将其大客户的AI服务器价格上调超过15%。这些大客户是所谓的“超大规模云服务商”——微软、谷歌、亚马逊、Meta,它们以万计的规模采购芯片,用来建造运行AI模型的数据中心。这样规模的涨价会提高英伟达自身的营收,但也会推高这些公司押注数十亿美元的基础设施成本——而此时,已经有投资者开始质疑,这样的支出还能持续多久才能看到回报。",
-              "太平洋对岸,阿里巴巴在香港上市的股票因一个相关但不同的原因下跌。该公司宣布增发100亿美元新股,直接向投资者募资,专门用于追加AI基础设施投入。这一时机值得注意:公告发布前几天,阿里巴巴刚刚公布季度利润同比暴跌75%,公司将此主要归因于其在AI数据中心和芯片采购上投入的巨额资金。",
-              "把这两件事放在一起看,描述的其实是同一种焦虑,只是来自供应链的两端。在美国,投资者在问:芯片厂商能否在AI热潮本身可能降温的情况下,继续提价、继续放量出货。在中国,他们在问:一家公司能否在实际利润不断萎缩的情况下持续融资投入AI,以及股东是否应该接受股权被稀释——也就是说,每一股所代表的公司份额变小——来换取这场基建继续推进。",
-              "把两个故事串起来的,是交易员常挂在嘴边却很少认真定义的一个词:“AI概念股行情”。它指的是一种被计入整个科技板块股价的信念——AI最终会产生足够的收入,来证明这数万亿美元花在芯片、数据中心和电力上是值得的。这种信念推动了过去两年股市的大部分涨幅。周二的抛售并不能证明这种信念是错的,但它说明,哪怕只是一条涨价传闻、一份不佳的财报,也足以让投资者把这个问题重新摆到台面上。",
-              "值得指出的是,这条新闻本身的报道来源相当单薄。美国芯片股的大部分报道都可以追溯到同一家媒体——雅虎财经,而只有CNBC的新闻简报独立报道了阿里巴巴这一侧的消息——也就是说,尽管这两半故事被当作同一个关于全球AI支出的叙事来阅读,它们并未得到完全独立的新闻机构的相互印证。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "If you have money in a retirement account or an index fund, you almost certainly own a slice of this story — a handful of AI-linked companies now make up an outsized share of major stock indexes, so their swings move your savings whether you've ever bought a chip stock yourself. Whether the AI buildout turns out to be a sound long-term bet or an overextended one won't be settled this week, but it will eventually show up in whose jobs, pensions, and companies were built on solid ground.",
-            "zh": "如果你的退休账户或指数基金里有钱,你几乎肯定也持有这个故事的一部分——如今少数几家AI相关公司在主要股指中占据了不成比例的权重,所以即便你从未买过一支芯片股,它们的涨跌也会牵动你的储蓄。AI基建究竟是一笔稳健的长期投资,还是一场过度扩张的赌注,这周不会有答案,但最终会体现在谁的工作、养老金和公司是建立在坚实基础上的。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "AI trade",
-                "zh": "AI概念股行情"
-              },
-              "def": {
-                "en": "The market belief that AI will eventually generate enough revenue to justify the trillions of dollars being spent on chips and data centers, a belief priced into many tech stocks.",
-                "zh": "指市场普遍相信AI最终会产生足够的收入,来证明投入芯片和数据中心的数万亿美元支出是值得的——这种信念已被计入许多科技股的股价之中。"
-              }
-            },
-            {
-              "term": {
-                "en": "share placement",
-                "zh": "股票增发"
-              },
-              "def": {
-                "en": "When a company sells new shares directly to investors to raise cash, which also means existing shareholders each own a slightly smaller slice of the company afterward.",
-                "zh": "公司直接向投资者出售新股以筹集现金的行为,这也意味着现有股东在增发后每股所代表的公司份额会略微缩小。"
-              }
-            },
-            {
-              "term": {
-                "en": "capex (capital expenditure)",
-                "zh": "资本支出(capex)"
-              },
-              "def": {
-                "en": "Money a company spends on long-term physical assets, like data centers or factories, rather than on day-to-day operating costs.",
-                "zh": "公司用于购置数据中心、厂房等长期实物资产的资金,区别于日常运营开支。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Is this week's sell-off a sign that AI stock valuations are a bubble about to correct, or just normal jitters ahead of one earnings report?",
-                "zh": "本周的抛售,是否说明AI股票估值是一个即将修正的泡沫,还是只是一次财报前的正常波动?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "It's a bubble showing cracks",
-                    "zh": "这是泡沫开始出现裂痕"
-                  },
-                  "points": {
-                    "en": [
-                      "Companies like Alibaba are seeing profits collapse even as they raise more money to spend on AI, which is not how a healthy investment usually looks.",
-                      "Stock valuations across the AI sector have run far ahead of actual revenue the technology has produced so far.",
-                      "When a single company's earnings report can move an entire sector's stock prices, that concentration itself is a warning sign about how fragile the story is."
-                    ],
-                    "zh": [
-                      "像阿里巴巴这样的公司,一边利润暴跌,一边还在筹更多钱投入AI,这通常不是健康投资该有的样子。",
-                      "整个AI板块的股票估值,已经远远超过了这项技术目前实际产生的收入。",
-                      "当一家公司的财报就能牵动整个板块的股价时,这种高度集中本身就说明这个故事有多脆弱。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "It's just normal market nervousness",
-                    "zh": "这只是正常的市场紧张情绪"
-                  },
-                  "points": {
-                    "en": [
-                      "Stocks routinely dip a few percent before a major earnings report; that alone doesn't indicate a structural problem.",
-                      "Heavy AI investment now can still pay off over a decade even if quarterly profits look weak today.",
-                      "Markets have priced in AI disruption before and recovered; short-term volatility isn't the same as a bubble bursting."
-                    ],
-                    "zh": [
-                      "股票在重要财报公布前出现几个百分点的下跌是常态,这本身并不说明存在结构性问题。",
-                      "即便当下季度利润看起来不佳,大规模的AI投资仍可能在十年后带来回报。",
-                      "市场此前也曾因AI相关的冲击而波动并恢复过,短期波动不等于泡沫破裂。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Should a company like Alibaba keep raising money to fund AI spending even as its profits collapse, or should it scale back until the payoff is clearer?",
-                "zh": "像阿里巴巴这样的公司,是否应该在利润暴跌的同时继续融资投入AI,还是应该等到回报更明朗后再收缩支出?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Keep investing",
-                    "zh": "继续投入"
-                  },
-                  "points": {
-                    "en": [
-                      "Being early and well-positioned in AI infrastructure could determine which companies dominate the next decade of tech, and pulling back now risks losing that race permanently.",
-                      "Short-term profit dips are the normal cost of building expensive infrastructure that takes years to generate returns.",
-                      "Competitors in the US are spending just as aggressively, so scaling back unilaterally could hand them a lasting advantage."
-                    ],
-                    "zh": [
-                      "在AI基础设施上抢先布局,可能决定谁将主导下一个十年的科技格局,现在收缩很可能永久性地输掉这场竞赛。",
-                      "短期利润下滑是建设需要数年才能产生回报的昂贵基础设施的正常代价。",
-                      "美国的竞争对手同样在激进投入,如果单方面收缩,可能会把长期优势拱手让人。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Scale back until returns are clearer",
-                    "zh": "等回报更明朗再投入"
-                  },
-                  "points": {
-                    "en": [
-                      "Diluting shareholders to fund spending whose payoff is uncertain shifts risk onto investors without their full understanding of the odds.",
-                      "A 75% profit collapse is a steep price to pay for a bet that hasn't yet proven itself in revenue terms.",
-                      "Disciplined spending that matches actual demand protects the company if AI adoption turns out slower or smaller than expected."
-                    ],
-                    "zh": [
-                      "为了投资一个回报尚不确定的项目而稀释股东权益,等于在股东未必完全理解风险的情况下把风险转嫁给了他们。",
-                      "利润暴跌75%,对一个尚未在收入层面得到验证的赌注来说,代价相当高昂。",
-                      "如果AI的普及速度或规模低于预期,按实际需求谨慎控制支出,能更好地保护公司自身。"
                     ]
                   }
                 }
@@ -1034,24 +541,20 @@
       "background": [
         {
           "title": {
-            "en": "Meta loses last-minute bid to pause landmark state AGs' trial",
-            "zh": "Meta未能延迟审理各州总检察长提起的标杆性诉讼"
+            "en": "Meta loses last-minute bid to pause landmark state AGs' trial"
           },
           "summary": {
-            "en": "Covers the August 10 ruling that let the trial proceed as scheduled, explaining the legal path that led to this week's resumption.",
-            "zh": "报道了8月10日的裁决,该裁决允许审判按计划进行,解释了导致本周审判恢复的法律过程。"
+            "en": "Covers the August 10 ruling that let the trial proceed as scheduled, explaining the legal path that led to this week's resumption."
           },
           "publisher": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-08-10/meta-loses-last-minute-bid-to-pause-landmark-state-ags-trial"
         },
         {
           "title": {
-            "en": "Tech stocks today: all eyes on Nvidia as Meta trial resumes",
-            "zh": "今日科技股:随着Meta审判恢复,市场目光聚焦英伟达"
+            "en": "Tech stocks today: all eyes on Nvidia as Meta trial resumes"
           },
           "summary": {
-            "en": "A live markets blog noting how the Meta trial is drawing investor attention even as Nvidia's earnings dominate headlines.",
-            "zh": "一篇实时市场博客指出,即便英伟达财报占据头条,Meta审判仍吸引着投资者的关注。"
+            "en": "A live markets blog noting how the Meta trial is drawing investor attention even as Nvidia's earnings dominate headlines."
           },
           "publisher": "Yahoo Finance",
           "url": "https://finance.yahoo.com/technology/live/tech-stocks-today-all-eyes-on-nvidia-as-meta-trial-resumes-125406169.html"
@@ -1060,14 +563,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "29 US States Say Instagram Was Designed to Be Hard to Stop Using",
-            "zh": "美国29个州指控Instagram被故意设计得让人难以放下"
+            "en": "29 US States Say Instagram Was Designed to Be Hard to Stop Using"
           },
           "hook": {
-            "en": "A big trial started up again in a courtroom in California. Lawyers for 29 US states say Meta, the company that owns Instagram and Facebook, built features on purpose to keep kids scrolling and scrolling. They say this hurt teenagers' mental health. The states want Meta to pay a huge amount of money.",
-            "zh": "加州一场重要的审判又开庭了。来自美国29个州的律师说，脸书和Instagram的母公司Meta故意设计了一些功能，让孩子们不停地刷手机。他们说这伤害了青少年的心理健康。这些州想让Meta赔一大笔钱。"
+            "en": "A big trial started up again in a courtroom in California. Lawyers for 29 US states say Meta, the company that owns Instagram and Facebook, built features on purpose to keep kids scrolling and scrolling. They say this hurt teenagers' mental health. The states want Meta to pay a huge amount of money."
           },
           "story": {
             "en": [
@@ -1075,80 +576,56 @@
               "The states say this harmed many teenagers' mental health. They took Meta to court in Oakland, California, in front of a judge and jury. Meta tried to delay the trial before it even started, but a judge said no — the trial has to happen now.",
               "The amount of money on the table is enormous. The states say Meta could owe as much as $1.4 trillion. If you paid one dollar every single second without stopping, it would take you more than 44,000 years to pay that back. Meta says the real number, if they lose, is closer to $200 billion — still enough money to build hundreds of hospitals.",
               "Grown-ups on both sides are watching closely. This case could decide how apps are allowed to be built for young people all across the country."
-            ],
-            "zh": [
-              "Meta是脸书和Instagram背后的公司。来自29个不同美国州的律师——超过全美50个州的一半——说Meta故意把这些应用设计得让人很难放下。他们说，像无限下滑的内容和不停震动的通知，就是为了让孩子们尽可能长时间地使用应用，哪怕这会伤害他们。",
-              "这些州说，这伤害了很多青少年的心理健康。他们把Meta告上了法庭，地点在加州的奥克兰，有法官和陪审团在场。Meta曾试图在审判开始前拖延时间，但法官不同意——审判必须现在进行。",
-              "涉及的金额非常庞大。这些州说Meta可能要赔多达1.4万亿美元。如果你每秒钟付一美元，一直不停地付，要花超过44000年才能还清这笔钱。Meta说，如果他们输了，真实的数字更接近2000亿美元——这仍然足够建几百家医院。",
-              "双方的大人都在密切关注这场审判。这个案子可能会决定，全国范围内的应用今后要怎样为年轻人设计。"
             ]
           },
           "why_it_matters": {
-            "en": "If you or someone in your family uses Instagram or a similar app, this case is really about you. The court is deciding whether apps can be built to grab your attention on purpose, or whether companies must design them more carefully for kids. Whatever the judge and jury decide could change how the apps on your phone actually work.",
-            "zh": "如果你或你家里的人用Instagram或类似的应用，这个案子其实和你有关。法院正在决定：应用是否可以被故意设计来抓住你的注意力，还是公司必须为孩子更小心地设计应用。不管法官和陪审团最后怎么判，都可能改变你手机里的应用运作的方式。"
+            "en": "If you or someone in your family uses Instagram or a similar app, this case is really about you. The court is deciding whether apps can be built to grab your attention on purpose, or whether companies must design them more carefully for kids. Whatever the judge and jury decide could change how the apps on your phone actually work."
           },
           "word_bank": [
             {
               "term": {
-                "en": "attorneys general",
-                "zh": "总检察长"
+                "en": "attorneys general"
               },
               "def": {
-                "en": "An attorney general is the top lawyer for a state government, and can bring big legal cases like this one.",
-                "zh": "总检察长是一个州政府里最主要的律师，可以提起像这样的大型诉讼。"
+                "en": "An attorney general is the top lawyer for a state government, and can bring big legal cases like this one."
               }
             },
             {
               "term": {
-                "en": "addictive design",
-                "zh": "成瘾式设计"
+                "en": "addictive design"
               },
               "def": {
-                "en": "Addictive design means building something, like an app, in a way that makes it very hard for people to stop using it.",
-                "zh": "成瘾式设计是指把一个东西（比如一个应用）设计成让人很难停下来不用的样子。"
+                "en": "Addictive design means building something, like an app, in a way that makes it very hard for people to stop using it."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the government be allowed to tell tech companies exactly how to design their apps?",
-                "zh": "政府应该被允许告诉科技公司具体该怎样设计应用吗？"
+                "en": "Should the government be allowed to tell tech companies exactly how to design their apps?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, government should step in",
-                    "zh": "应该，政府应该介入"
+                    "en": "Yes, government should step in"
                   },
                   "points": {
                     "en": [
                       "Kids can't always tell when an app is designed to trick them into staying longer.",
                       "Harm to millions of teenagers is too big a problem for individual families to fix alone.",
                       "Rules can force every company to be safer, not just the ones that choose to be."
-                    ],
-                    "zh": [
-                      "孩子们不一定能看出一个应用是不是被设计来骗他们多花时间的。",
-                      "伤害到几百万青少年的问题太大了，单靠一个个家庭是解决不了的。",
-                      "规则可以强迫所有公司都变得更安全，而不只是那些愿意这么做的公司。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, let companies and families decide",
-                    "zh": "不应该，让公司和家庭自己决定"
+                    "en": "No, let companies and families decide"
                   },
                   "points": {
                     "en": [
                       "Every family is different, and parents know their own kids better than any government rule can.",
                       "Government rules can be slow and might not keep up with how fast technology changes.",
                       "If rules are too strict, companies might make worse apps or leave, giving people fewer choices."
-                    ],
-                    "zh": [
-                      "每个家庭都不一样，父母比任何政府规定都更了解自己的孩子。",
-                      "政府制定规则的速度很慢，可能跟不上科技变化的速度。",
-                      "如果规则太严格，公司可能会做出更差的应用，或者干脆退出，让大家的选择变少。"
                     ]
                   }
                 }
@@ -1156,43 +633,30 @@
             },
             {
               "question": {
-                "en": "Is it fair to make Meta pay such a massive amount of money?",
-                "zh": "让Meta赔付这么巨额的一笔钱，公平吗？"
+                "en": "Is it fair to make Meta pay such a massive amount of money?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's fair",
-                    "zh": "公平"
+                    "en": "Yes, it's fair"
                   },
                   "points": {
                     "en": [
                       "If a company knowingly hurt millions of teenagers, a huge fine should match how much harm was done.",
                       "A small fine wouldn't even bother a company as rich as Meta, so it has to be big to matter.",
                       "The money could be used to help teenagers who were affected."
-                    ],
-                    "zh": [
-                      "如果一家公司明知故犯地伤害了几百万青少年，巨额罚款应该与造成的伤害相匹配。",
-                      "小额罚款根本影响不到像Meta这么有钱的公司，所以必须罚得够大才有意义。",
-                      "这笔钱可以用来帮助那些受到影响的青少年。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not fair",
-                    "zh": "不公平"
+                    "en": "No, it's not fair"
                   },
                   "points": {
                     "en": [
                       "Nobody has proven in court yet that Meta's designs actually caused the harm — only that Meta is accused of it.",
                       "A fine this size could hurt regular employees and everyday shareholders, not just company leaders.",
                       "Parents and schools also share some responsibility for how much teens use apps."
-                    ],
-                    "zh": [
-                      "法庭上还没有证明是Meta的设计真的造成了伤害——目前只是被指控而已。",
-                      "这么大的罚款可能会伤害到普通员工和普通股东，而不只是公司领导层。",
-                      "父母和学校对青少年花多少时间用应用也负有一部分责任。"
                     ]
                   }
                 }
@@ -1200,14 +664,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "29 States Are Suing Meta Over Instagram's Effect on Teens",
-            "zh": "美国29个州起诉Meta:Instagram对青少年的影响成焦点"
+            "en": "29 States Are Suing Meta Over Instagram's Effect on Teens"
           },
           "hook": {
-            "en": "A major trial is underway in a federal court in Oakland, California. Attorneys general from 29 US states say Meta, the company behind Instagram and Facebook, built features on purpose to keep teenagers hooked, even when it hurt their mental health. The states want penalties that could reach $1.4 trillion; Meta says the real number, if it loses, would be closer to $200 billion. Either way, the case could change how every social media app designs features for young users.",
-            "zh": "加州奥克兰的联邦法院正在审理一起重大案件。美国29个州的总检察长指控Meta公司(Instagram和Facebook的母公司)故意设计功能来让青少年上瘾,即使这会伤害他们的心理健康。这些州希望获得的罚款可能高达1.4万亿美元,而Meta表示,如果败诉,真实金额更接近2000亿美元。无论结果如何,这起案件都可能改变所有社交媒体应用为年轻用户设计功能的方式。"
+            "en": "A major trial is underway in a federal court in Oakland, California. Attorneys general from 29 US states say Meta, the company behind Instagram and Facebook, built features on purpose to keep teenagers hooked, even when it hurt their mental health. The states want penalties that could reach $1.4 trillion; Meta says the real number, if it loses, would be closer to $200 billion. Either way, the case could change how every social media app designs features for young users."
           },
           "story": {
             "en": [
@@ -1216,96 +678,64 @@
               "The money at stake is almost impossible to picture. The states say penalties could reach $1.4 trillion — for comparison, that is more than the entire yearly economic output of a country like Belgium or Switzerland. Meta pushes back hard on that number, arguing that if it actually loses, the realistic total would be closer to $200 billion. That gap exists because the final penalty depends on exactly which claims a jury believes and how many individual violations they count.",
               "What makes this trial matter beyond the dollar figure is the word precedent — a legal decision that later courts look to when deciding similar cases. If the states win, it could give lawmakers and other state governments a clear legal path to force tech companies to redesign apps aimed at kids, not just here but potentially across the whole industry. If Meta wins, it becomes harder for anyone to argue in court that addictive-feeling app design alone counts as illegal harm.",
               "Meta's side of the story deserves a fair hearing too. The company argues that plenty of adults use the same features without becoming addicted, that parents have tools to limit screen time already, and that blaming app design ignores everything else going on in a teenager's life — school stress, friendships, family, all of it. Meta already tried to delay this trial back on August 10 and a judge said no, so the company is now defending its design choices in open court, in front of a jury that will decide who is right."
-            ],
-            "zh": [
-              "想象一个几乎不会让你停下来的应用:没有自然的结束点,没有",
-              "the scroll下去的视频和照片,时不时被设计成能立刻把你拉回去的红色提醒小圆点打断。29个美国州政府指控,Meta正是故意在Instagram和Facebook里建造了这样的设计,而且他们说,公司明知这会伤害那些还在学习如何管理自己注意力和情绪的青少年。",
-              "这起诉讼此前曾被推迟一次,如今重新开庭审理,由各州的总检察长(代表各州政府、可以代表本州居民起诉公司的最高法律官员)提起。他们指控Meta使用了特定的设计手法,比如无限滚动(一个没有底部的信息流,可以一直往下划)和不定时奖励提醒(不可预测地弹出的通知,类似老虎机让人不断拉杆的原理),来让青少年一次又一次地打开应用。Meta否认自己是特意设计这些功能来造成伤害的。",
-              "涉及的金额几乎让人难以想象。各州表示罚款可能高达1.4万亿美元——作为对比,这比比利时或瑞士一整年的经济总产值还要多。Meta强烈反驳这个数字,称如果真的败诉,现实中的总金额会更接近2000亿美元。之所以差距这么大,是因为最终罚款取决于陪审团相信哪些指控,以及他们认定了多少起具体违规行为。",
-              "这起审判之所以重要,不仅仅因为涉及的金额,还因为",
-              "先例",
-              "是指后续法院在审理类似案件时会参考的法律判决。如果各州胜诉,可能会给立法者和其他州政府一条明确的法律途径,迫使科技公司重新设计针对儿童的应用,而且这种影响可能远不止本案,会波及整个行业。如果Meta胜诉,以后任何人想在法庭上主张",
-              "让人上瘾感的应用设计本身就是违法伤害",
-              "就会变得更难。",
-              "Meta的说法也值得公平地听一听。公司辩称,许多成年人使用同样的功能却并没有上瘾,家长本来就有工具可以限制孩子的屏幕使用时间,而且单纯指责应用设计,忽略了青少年生活中的其他一切——学业压力、友谊、家庭关系等等。Meta此前曾在8月10日试图推迟这场审判,但法官驳回了请求,于是公司现在必须在公开法庭上,面对将裁决谁是谁非的陪审团,为自己的设计选择辩护。"
             ]
           },
           "why_it_matters": {
-            "en": "If you have Instagram, TikTok, or any app with a never-ending feed, this case is about the very screen you might be scrolling on right now. Whatever the jury decides could change whether apps keep the addictive-style features you use every day, or whether companies are forced to redesign them for anyone under 18.",
-            "zh": "如果你也用Instagram、TikTok,或者任何有无限信息流的应用,这起案件其实关系到你此刻可能正在刷的那块屏幕。陪审团的裁决结果,可能会决定这些应用会不会继续保留你每天都在用的那种让人上瘾的功能,还是被迫为未成年用户重新设计。"
+            "en": "If you have Instagram, TikTok, or any app with a never-ending feed, this case is about the very screen you might be scrolling on right now. Whatever the jury decides could change whether apps keep the addictive-style features you use every day, or whether companies are forced to redesign them for anyone under 18."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Attorney general",
-                "zh": "总检察长"
+                "en": "Attorney general"
               },
               "def": {
-                "en": "The top government lawyer for a state, who can bring lawsuits on behalf of everyone who lives there.",
-                "zh": "一个州最高级别的政府律师,可以代表该州所有居民提起诉讼。"
+                "en": "The top government lawyer for a state, who can bring lawsuits on behalf of everyone who lives there."
               }
             },
             {
               "term": {
-                "en": "Infinite scroll",
-                "zh": "无限滚动"
+                "en": "Infinite scroll"
               },
               "def": {
-                "en": "A feed design with no natural stopping point, so a user can keep swiping through content forever.",
-                "zh": "一种没有自然终点的信息流设计,让用户可以一直不停地往下划看内容。"
+                "en": "A feed design with no natural stopping point, so a user can keep swiping through content forever."
               }
             },
             {
               "term": {
-                "en": "Precedent",
-                "zh": "先例"
+                "en": "Precedent"
               },
               "def": {
-                "en": "A legal decision that later courts look at and often follow when they face a similar case.",
-                "zh": "一项法律判决,之后的法院在遇到类似案件时会参考甚至遵循它。"
+                "en": "A legal decision that later courts look at and often follow when they face a similar case."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should a company be held legally responsible for making an app that's hard to stop using, even if no single feature is illegal by itself?",
-                "zh": "如果一个应用的每个功能单独看都不违法,但整体设计让人很难停下来,公司应该为此承担法律责任吗?"
+                "en": "Should a company be held legally responsible for making an app that's hard to stop using, even if no single feature is illegal by itself?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, hold them responsible",
-                    "zh": "应该,追究责任"
+                    "en": "Yes, hold them responsible"
                   },
                   "points": {
                     "en": [
                       "Companies design these features specifically to increase time spent, using research on human psychology, so the effect is intentional even if no single piece is illegal.",
                       "Teenagers' brains are still developing self-control, so it's unfair to treat them the same as adults who can more easily set limits.",
                       "Without legal consequences, companies have little financial incentive to change designs that keep users hooked, since more time on the app usually means more money from ads."
-                    ],
-                    "zh": [
-                      "公司专门利用对人类心理的研究来设计这些功能以增加使用时长,即使单个功能不违法,整体效果也是故意的。",
-                      "青少年的大脑自控能力仍在发育中,把他们和更容易自我约束的成年人一视同仁并不公平。",
-                      "如果没有法律后果,公司几乎没有经济动力去改变让用户上瘾的设计,因为用户花在应用上的时间越多,广告收入通常也越多。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, that goes too far",
-                    "zh": "不应该,这样管得太宽"
+                    "en": "No, that goes too far"
                   },
                   "points": {
                     "en": [
                       "Millions of adults use the exact same features without becoming addicted, so blaming the design alone ignores individual differences.",
                       "Parents and schools already have tools — screen time limits, app blockers, house rules — and it isn't only the company's job to enforce them.",
                       "If courts start punishing companies for design choices that aren't themselves illegal, it becomes very hard to know in advance what counts as acceptable app design at all."
-                    ],
-                    "zh": [
-                      "数百万成年人使用完全相同的功能却并没有上瘾,所以只怪罪设计本身忽略了个体差异。",
-                      "家长和学校已经有工具可以用——屏幕使用时间限制、应用屏蔽、家庭规定——执行这些不该只是公司一方的责任。",
-                      "如果法院开始因为本身不违法的设计选择来惩罚公司,人们就很难提前知道到底什么样的应用设计才算是可以接受的。"
                     ]
                   }
                 }
@@ -1313,197 +743,30 @@
             },
             {
               "question": {
-                "en": "Is a penalty as large as $1.4 trillion the right way to fix a harmful app design, or could it cause more problems than it solves?",
-                "zh": "用高达1.4万亿美元的罚款来解决有害的应用设计问题,是正确的做法,还是可能带来更多问题?"
+                "en": "Is a penalty as large as $1.4 trillion the right way to fix a harmful app design, or could it cause more problems than it solves?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, a huge penalty is justified",
-                    "zh": "是的,巨额罚款是合理的"
+                    "en": "Yes, a huge penalty is justified"
                   },
                   "points": {
                     "en": [
                       "Only a penalty this large is big enough to actually change the behavior of a company as wealthy and powerful as Meta.",
                       "A massive fine sends a clear message to the entire tech industry that harming millions of teenagers has real financial consequences.",
                       "Smaller fines have historically been treated by big companies as just a cost of doing business, so they don't lead to real change."
-                    ],
-                    "zh": [
-                      "只有这么巨大的罚款才足以真正改变Meta这样财力雄厚、势力强大的公司的行为。",
-                      "巨额罚款向整个科技行业传递明确信号:伤害数百万青少年是要付出实实在在的经济代价的。",
-                      "历史上,小额罚款往往被大公司当作运营成本的一部分承受下来,并不会带来真正的改变。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it goes too far or misses the point",
-                    "zh": "不,这样做过头了或没抓住重点"
+                    "en": "No, it goes too far or misses the point"
                   },
                   "points": {
                     "en": [
                       "A fine this size could be passed on to users or advertisers, or could destabilize the company in ways that hurt employees and shareholders who had nothing to do with the design decisions.",
                       "Money doesn't automatically fix the underlying design — a company could pay the fine and still keep features that harm teens if the penalty is treated as a one-time cost.",
                       "Extremely large, headline-grabbing numbers can be more about political pressure and public attention than about a fair, proportionate legal outcome."
-                    ],
-                    "zh": [
-                      "如此巨额的罚款可能会转嫁给用户或广告商,也可能会破坏公司稳定,伤及那些与设计决策毫无关系的员工和股东。",
-                      "金钱并不能自动解决根本的设计问题——如果罚款被当作一次性成本,公司完全可能照样保留伤害青少年的功能。",
-                      "极其庞大、吸引眼球的数字,有时更多是出于政治压力和公众关注,而不是一个公平、合乎比例的法律结果。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "States Take Meta to Trial Over Claims Instagram Was Built to Hook Teens",
-            "zh": "29州起诉Meta:称Instagram和Facebook被设计成让青少年上瘾,案件开庭审理"
-          },
-          "hook": {
-            "en": "A trial began in a federal court in Oakland, California, where attorneys general from 29 states argue Meta built features into Instagram and Facebook specifically to keep teenagers scrolling, at the cost of their mental health. The states want penalties that could run as high as $1.4 trillion; Meta says the realistic number is closer to $200 billion. Either way, the case is being watched as a test of whether the government can force a tech company to redesign a product used by hundreds of millions of young people.",
-            "zh": "美国加州奥克兰的一家联邦法院开庭审理一起诉讼,29个州的总检察长指控Meta在Instagram和Facebook中植入了专门设计用来让青少年不停刷屏的功能,以损害他们的心理健康为代价。各州要求的罚款金额最高可达1.4万亿美元;Meta则表示,现实的数字更接近2000亿美元。无论结果如何,这起案件都被视为一次关键测试——政府究竟能不能强迫一家科技公司重新设计一款数亿年轻人正在使用的产品。"
-          },
-          "story": {
-            "en": [
-              "The lawsuit does not accuse Meta of publishing anything illegal. It accuses the company of engineering how its apps work — the notifications that ping at odd hours, the endless scroll that never signals a natural stopping point, the algorithm that learns what keeps a particular teenager watching and serves more of it. The states' lawyers argue these are not neutral technical choices but deliberate ones, made because a more engaged user is a more profitable user, and that Meta made them knowing the toll on younger, still-developing minds.",
-              "Meta's defense rests on a different framing: that these features are standard to nearly every app teenagers use, that plenty of research on social media and teen mental health is mixed or inconclusive, and that holding a company liable for how people choose to use a product opens a legal door nobody can predict the end of. The company has also argued, in this case and others, that some of what the states are targeting — like the design of a newsfeed or a recommendation algorithm — is a form of editorial choice that courts have historically been reluctant to regulate.",
-              "The gap between $1.4 trillion and $200 billion isn't a rounding error — it reflects two different ways of counting. State consumer-protection laws often allow penalties to be calculated per violation, and with hundreds of millions of Instagram and Facebook accounts held by minors over the years, the states argue the math legitimately reaches into the trillions if every deceptive design choice is treated as a separate violation. Meta counters that the states are unlikely to prove violations at that scale and that a realistic verdict, even in a worst case for the company, lands far lower.",
-              "What makes this trial more than a dispute over money is the theory driving it: a product-design theory, borrowed from cases against carmakers and drug manufacturers, applied for the first time at real scale to a social media platform. Courts have long allowed lawsuits when a car's fuel tank was placed somewhere it would explode in a crash, or when a drug's warning label buried a known risk. Applying that same logic to a newsfeed or a notification system is new legal territory — and if it succeeds, plaintiffs' lawyers elsewhere are ready to bring similar cases against other platforms.",
-              "Meta already tried once to delay this reckoning. On August 10, the company asked the court to push back the trial date; the request was denied, and the case moved forward as scheduled. That failed attempt matters less for what it changed than for what it signals — a company that would clearly have preferred more time to prepare, or to negotiate a settlement, and didn't get either.",
-              "Whatever the jury decides, the case is expected to be appealed, possibly for years, before any penalty is actually paid. But the design choices at the center of the trial — autoplay, infinite scroll, algorithmic feeds tuned to individual attention spans — are already under scrutiny from regulators in Europe and several US states passing their own age-verification and design laws. A verdict against Meta wouldn't just cost the company money; it would hand every other legislature and lawyer a working blueprint for how to argue that a platform's design, not just its content, can be the thing that did the harm."
-            ],
-            "zh": [
-              "这起诉讼并不是指控Meta发布了什么违法内容,而是指控公司在应用的运作方式上做了手脚——在奇怪的时间点弹出的通知、永远不会自然停下来的无限滚动页面、以及会学习什么内容能让某个青少年持续看下去、并不断推送更多同类内容的算法。各州律师认为,这些并非中立的技术选择,而是刻意为之的设计,因为用户越沉迷,公司就越赚钱,而Meta明知这会对仍在发育中的年轻人心理造成伤害,却依然这样做。",
-              "Meta的辩护则采用了另一种说法:这些功能几乎是青少年使用的每一款应用都具备的标准配置,关于社交媒体与青少年心理健康关系的研究本身结论并不一致,而如果因为用户如何使用一款产品就追究公司责任,将打开一扇没人能预料后果的法律大门。公司在本案及其他案件中也曾辩称,一些被各州盯上的设计——比如信息流的排列方式或推荐算法——本质上是一种编辑性选择,而法院历来不愿介入此类事务。",
-              "1.4万亿美元和2000亿美元之间的差距并非计算失误,而是反映了两种不同的算法逻辑。许多州的消费者保护法允许按每一次违规行为分别计算罚款,考虑到多年来数以亿计的未成年人持有Instagram和Facebook账户,各州认为,只要把每一项具有欺骗性的设计选择都算作一次独立违规,总金额合理地会达到万亿级别。Meta则反驳称,各州不太可能证明违规达到那种规模,即便在对公司最不利的情况下,现实的判决金额也会远低于此。",
-              "让这场审判超越金钱纠纷本身的,是驱动它的法律理论:一种借鉴自汽车制造商和药品制造商案件的产品设计缺陷理论,首次被真正大规模地套用到社交媒体平台上。法院长期以来允许类似诉讼——比如汽车油箱被安装在碰撞时容易爆炸的位置,或药品说明书上隐藏了已知风险。把同样的逻辑套用到信息流或通知系统上,是一片全新的法律领域——如果这套逻辑成立,其他地方的原告律师已经准备好对别的平台提起类似诉讼。",
-              "Meta此前已经试图拖延这场清算。8月10日,公司曾要求法院推迟审判日期,但请求被驳回,案件按原计划推进。这次失败的尝试之所以重要,不在于它改变了什么,而在于它透露出的信号——一家显然希望争取更多时间准备、或达成庭外和解的公司,结果两样都没得到。",
-              "无论陪审团最终作出什么裁决,此案预计都将进入上诉程序,可能拖延数年后罚款才会真正落地。但这场审判核心所涉及的那些设计选择——自动播放、无限滚动、根据个人注意力特征调校的算法信息流——已经受到欧洲监管机构和美国多个正在通过各自年龄验证与设计法规的州的审视。一旦Meta败诉,损失的将不只是金钱,更会为其他立法机构和律师提供一份现成的范本,证明一个平台的设计本身——而不仅仅是其内容——也可能是造成伤害的原因。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "If you or someone you know spends hours a day on Instagram or Facebook, this case is about the machinery behind that pull — and whether courts will treat it as something companies can be held responsible for designing, rather than something users simply choose to do. A ruling against Meta could change what your feed, your notifications, and your scroll actually look like within a few years, not just for teenagers but eventually for everyone.",
-            "zh": "如果你或你认识的人每天要花好几个小时刷Instagram或Facebook,这起案件关乎的正是让人停不下来的那套机制背后的东西——法院是否会认定这是公司在设计上应当承担责任的事,而不仅仅是用户自己的选择。如果Meta败诉,未来几年内,你的信息流、通知方式乃至滚动页面的样子都可能因此改变,受影响的不只是青少年,最终可能是所有人。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Attorney General",
-                "zh": "总检察长"
-              },
-              "def": {
-                "en": "The top legal officer of a US state, responsible for enforcing state law and bringing lawsuits on the state's behalf.",
-                "zh": "美国各州最高的法律官员,负责执行州法律,并代表本州提起诉讼。"
-              }
-            },
-            {
-              "term": {
-                "en": "Engagement-driven design",
-                "zh": "以提升用户粘性为目的的设计"
-              },
-              "def": {
-                "en": "App features — like autoplay, infinite scroll, or personalized recommendation algorithms — built specifically to maximize how much time and attention a user spends on the platform.",
-                "zh": "指自动播放、无限滚动、个性化推荐算法等专门设计用来最大化用户在平台上花费的时间和注意力的应用功能。"
-              }
-            },
-            {
-              "term": {
-                "en": "Precedent",
-                "zh": "判例先例"
-              },
-              "def": {
-                "en": "A legal ruling that establishes a principle other courts are likely to follow in similar future cases.",
-                "zh": "指一项确立了某种原则的司法判决,未来类似案件的其他法院很可能会参照这一原则。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should companies be held legally liable for designing features that make a product hard to put down, even when no single feature is illegal by itself?",
-                "zh": "如果某项功能本身并不违法,公司是否应该因为把产品设计得让人难以放下而承担法律责任?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes, hold them liable",
-                    "zh": "应当追责"
-                  },
-                  "points": {
-                    "en": [
-                      "Companies have detailed data on what keeps users, including minors, hooked, and choosing to exploit that data for profit is a decision they can be held accountable for.",
-                      "The same legal logic already applies to physical products — a car or a drug can be defectively designed even if every individual part is legal — and there's no principled reason software should be exempt.",
-                      "Without legal consequences, companies have no financial incentive to redesign features that harm vulnerable users, since engagement itself is what generates revenue."
-                    ],
-                    "zh": [
-                      "公司掌握着关于哪些手段能让用户(包括未成年人)上瘾的详细数据,选择利用这些数据牟利是一个可以被追责的决定。",
-                      "同样的法律逻辑早已适用于实体产品——即便每个零件本身都合法,一辆汽车或一种药品仍可能因设计缺陷而被追责——软件没有理由例外。",
-                      "如果没有法律后果,公司就没有经济动机去重新设计那些伤害弱势用户的功能,因为用户粘性本身就是收入的来源。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No, don't hold them liable",
-                    "zh": "不应追责"
-                  },
-                  "points": {
-                    "en": [
-                      "Nearly every popular app uses similar design techniques, so singling out one company for a nearly universal industry practice is arbitrary.",
-                      "The scientific evidence linking social media design specifically to teen mental health harm is genuinely mixed, and courts risk imposing massive penalties based on contested science.",
-                      "Treating design choices as legally actionable opens the door to lawsuits against almost any engaging product — books, television, video games — based on how people choose to use them."
-                    ],
-                    "zh": [
-                      "几乎所有热门应用都采用类似的设计手法,单独针对某一家公司追究近乎行业通行的做法有失公允。",
-                      "将社交媒体设计与青少年心理健康损害直接挂钩的科学证据本身确实存在争议,法院基于有争议的科学结论施加巨额罚款存在风险。",
-                      "将设计选择视为可被起诉的行为,会为几乎所有具有吸引力的产品——书籍、电视、电子游戏——打开被起诉的大门,理由仅仅是人们如何选择使用它们。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Is it the government's job to regulate how apps are designed to protect children, or should that responsibility rest with parents and families?",
-                "zh": "保护儿童免受应用设计伤害,究竟是政府的职责,还是应当由家长和家庭承担这份责任?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Government should regulate design",
-                    "zh": "政府应当监管设计"
-                  },
-                  "points": {
-                    "en": [
-                      "Parents can't fully monitor or counteract design features engineered by teams of psychologists and data scientists specifically to bypass a child's self-control.",
-                      "Leaving it to individual families creates unequal protection — kids with less parental oversight bear the most harm, which is exactly the population regulation is meant to protect.",
-                      "Other industries that market to children, from food to toys to advertising, are already regulated for exactly this reason, and there's no clear reason apps should be different."
-                    ],
-                    "zh": [
-                      "家长根本无法全面监控或抵消由心理学家和数据科学家团队专门设计、用来绕过孩子自控力的功能。",
-                      "把责任完全交给个体家庭会造成保护上的不平等——家长监管较少的孩子往往受害最深,而这恰恰是监管本应保护的群体。",
-                      "其他面向儿童营销的行业,从食品到玩具再到广告,早已因同样的理由受到监管,没有明显理由说明应用应该例外。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Families should handle it, not government",
-                    "zh": "应由家庭而非政府处理"
-                  },
-                  "points": {
-                    "en": [
-                      "Parents, not courts or legislators, know their own child's needs and can set limits, install controls, or restrict access far more precisely than a blanket regulation could.",
-                      "Government design mandates risk being clumsy, one-size-fits-all rules that hamper features adults use responsibly, just to address harm to a subset of users.",
-                      "Relying on lawsuits and regulation to solve what is fundamentally a parenting and media-literacy challenge shifts responsibility away from families and toward courts that are ill-equipped to design software."
-                    ],
-                    "zh": [
-                      "家长而非法院或立法者最了解自己孩子的需求,能比一刀切的监管更精准地设定限制、安装控制或限制使用。",
-                      "政府主导的设计强制令可能会显得笨拙、一刀切,为了解决部分用户的伤害问题,反而妨碍了成年人负责任地使用这些功能。",
-                      "依靠诉讼和监管来解决本质上是家庭教育和媒介素养的问题,会把责任从家庭转移到并不擅长设计软件的法院手中。"
                     ]
                   }
                 }

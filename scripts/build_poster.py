@@ -14,8 +14,7 @@ with the site.
 Usage:
     python3 scripts/build_poster.py                     # newest edition, Chinese, all bands
     python3 scripts/build_poster.py --lang en
-    python3 scripts/build_poster.py --date 2026-08-17 --both
-    python3 scripts/build_poster.py --band 12-15         # just one reading level
+    python3 scripts/build_poster.py --band primary       # just one reading level
     python3 scripts/build_poster.py --keep-html         # also write the HTML
 
 Requires: pip install segno playwright && playwright install chromium
@@ -62,8 +61,8 @@ C = {
 BEAT = appconfig.beat_colors("light")
 
 T = {
-    "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
-    "scan": {"en": "Scan to read the whole thing", "zh": "扫码读完整版"},
+    "talk": {"en": "Talk about it at dinner"},
+    "scan": {"en": "Scan to read the whole thing"},
 }
 
 
@@ -72,10 +71,7 @@ def t(key: str, lang: str) -> str:
 
 
 def scan_sub(lang: str, band: str) -> str:
-    """The QR leads to the page, where all three reading levels are available."""
-    if lang == "zh":
-        return ("完整正文、值得记住的词、背景阅读与延展阅读、视频，"
-                "以及上面每个问题正反两方的说法。网页上还能切换其他年龄段。")
+    """The QR leads to the page, where the other reading level is available."""
     return ("The full rewrite, words worth knowing, background and further "
             "reading, videos, and the case for both sides of every question "
             "above — plus the other reading levels.")
@@ -93,8 +89,6 @@ def footer_line(lang: str, band: str, when=None) -> str:
     """When the next one lands, and which reading level this image is."""
     zone = appconfig.tz_abbrev(CFG, when)
     label = appconfig.band_label(band, lang)
-    if lang == "zh":
-        return f"每天 {CFG.hour}:00 {zone} 更新 · 本图为{label}版"
     return f"Updated daily at {CFG.hour}:00 {zone} · {label} edition"
 
 
@@ -367,8 +361,10 @@ def verify_qr(png_path: Path, expected: str) -> str:
 def main() -> None:
     ap = argparse.ArgumentParser(description="Render an edition as a WeChat long image.")
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
-    ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language)
-    ap.add_argument("--both", action="store_true", help="Render both languages.")
+    ap.add_argument("--lang", choices=list(appconfig.LANGUAGES),
+                    default=CFG.primary_language)
+    ap.add_argument("--both", action="store_true",
+                    help="Render every configured language.")
     ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=None,
                     help="Which reading level the image uses. Default: all of "
                          "them, since the page's band switcher needs one poster "

@@ -4,8 +4,7 @@
     "start": "2026-08-17T17:00:00-07:00",
     "end": "2026-08-18T17:00:00-07:00",
     "label": {
-      "en": "News from Monday 5:00 PM to Tuesday 5:00 PM PDT",
-      "zh": "PDT 8月17日 17:00 至 8月18日 17:00"
+      "en": "News from Monday 5:00 PM to Tuesday 5:00 PM PDT"
     }
   },
   "generated_at": "2026-08-19T16:59:46-07:00",
@@ -25,13 +24,11 @@
       "GLOBAL"
     ],
     "bands": [
-      "6-11",
-      "12-15",
-      "16+"
+      "primary",
+      "secondary"
     ],
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "timezone": "America/Vancouver",
     "hour": 17
@@ -49,36 +46,30 @@
       "background": [
         {
           "title": {
-            "en": "Trump demands Iran put up the 'white flag of surrender' as MOU expires",
-            "zh": "随着谅解备忘录到期，特朗普要求伊朗举起'投降白旗'"
+            "en": "Trump demands Iran put up the 'white flag of surrender' as MOU expires"
           },
           "summary": {
-            "en": "Al Jazeera's coverage of the deadline's expiry lays out Tehran's public defiance and the collapse of the negotiating track.",
-            "zh": "半岛电视台报道了谈判期限到期后德黑兰的公开抵抗立场以及谈判轨道的破裂。"
+            "en": "Al Jazeera's coverage of the deadline's expiry lays out Tehran's public defiance and the collapse of the negotiating track."
           },
           "publisher": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/17/trump-demands-iran-put-up-the-white-flag-of-surrender-as-mou-expires"
         },
         {
           "title": {
-            "en": "US-Iran war deal expired: Strait of Hormuz live updates",
-            "zh": "美伊战争协议已过期：霍尔木兹海峡实时更新"
+            "en": "US-Iran war deal expired: Strait of Hormuz live updates"
           },
           "summary": {
-            "en": "CBS News tracks the military and diplomatic fallout hour by hour, including shipping disruptions near Hormuz.",
-            "zh": "CBS新闻逐小时追踪军事与外交后果，包括霍尔木兹海峡附近的航运中断情况。"
+            "en": "CBS News tracks the military and diplomatic fallout hour by hour, including shipping disruptions near Hormuz."
           },
           "publisher": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-war-deal-expired-strait-of-hormuz/"
         },
         {
           "title": {
-            "en": "Trump threatens to bomb Oman if it gets in the way, Fox News says",
-            "zh": "特朗普威胁若阿曼阻挠将对其实施轰炸，福克斯新闻报道"
+            "en": "Trump threatens to bomb Oman if it gets in the way, Fox News says"
           },
           "summary": {
-            "en": "Bloomberg's report details the surprising threat against a longtime U.S. partner and mediator in the region.",
-            "zh": "彭博社的报道详细说明了这一针对该地区长期美国伙伴及调解方的意外威胁。"
+            "en": "Bloomberg's report details the surprising threat against a longtime U.S. partner and mediator in the region."
           },
           "publisher": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-08-17/trump-threatens-to-bomb-oman-if-it-gets-in-way-of-us-fox-news-msx5rdoc"
@@ -87,24 +78,20 @@
       "further": [
         {
           "title": {
-            "en": "60-day deadline for an Iran peace deal is expiring. Here's how things stand",
-            "zh": "伊朗和平协议的60天期限即将到期，目前局势如何"
+            "en": "60-day deadline for an Iran peace deal is expiring. Here's how things stand"
           },
           "summary": {
-            "en": "NBC News explains the origins of the memorandum and what happens now that it has lapsed without a deal.",
-            "zh": "NBC新闻解释了该谅解备忘录的由来，以及在未达成协议、期限已过后接下来会发生什么。"
+            "en": "NBC News explains the origins of the memorandum and what happens now that it has lapsed without a deal."
           },
           "publisher": "NBC News",
           "url": "https://www.nbcnews.com/world/iran/60-day-deadline-iran-peace-deal-expiring-s-things-stand-rcna592875"
         },
         {
           "title": {
-            "en": "Early Edition, August 18, 2026",
-            "zh": "2026年8月18日 早间简报"
+            "en": "Early Edition, August 18, 2026"
           },
           "summary": {
-            "en": "Just Security's daily roundup compiles legal and policy analysis on the widening conflict for readers who want more depth.",
-            "zh": "Just Security的每日简报汇集了关于这场不断扩大的冲突的法律与政策分析，供希望深入了解的读者参考。"
+            "en": "Just Security's daily roundup compiles legal and policy analysis on the widening conflict for readers who want more depth."
           },
           "publisher": "Just Security",
           "url": "https://www.justsecurity.org/154447/early-edition-august-18-2026/"
@@ -116,8 +103,7 @@
           "channel": "ABC News Live",
           "url": "https://www.youtube.com/watch?v=vYNrBRdJcHg",
           "summary": {
-            "en": "A full evening broadcast covering the expired deadline, Trump's threats, and reaction from the Gulf region.",
-            "zh": "一段完整的晚间新闻广播，报道了到期的谈判期限、特朗普的威胁以及海湾地区的反应。"
+            "en": "A full evening broadcast covering the expired deadline, Trump's threats, and reaction from the Gulf region."
           }
         },
         {
@@ -125,20 +111,17 @@
           "channel": "CBS Evening News",
           "url": "https://www.youtube.com/watch?v=9aoKzlt-Yvo",
           "summary": {
-            "en": "CBS's nightly broadcast includes a segment on the stalled Iran talks and rising oil prices.",
-            "zh": "CBS的晚间新闻节目包含关于陷入僵局的伊朗谈判以及油价上涨的报道。"
+            "en": "CBS's nightly broadcast includes a segment on the stalled Iran talks and rising oil prices."
           }
         }
       ],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "U.S. and Iran Talks Fail, Oil Gets a Little More Expensive",
-            "zh": "美国与伊朗谈判破裂,石油价格小幅上涨"
+            "en": "U.S. and Iran Talks Fail, Oil Gets a Little More Expensive"
           },
           "hook": {
-            "en": "The United States and Iran spent 60 days trying to talk instead of fight. That time ran out on Monday, and they still haven't agreed on anything. Since then, oil -- the fuel that powers cars, trucks, and airplanes -- has gotten a little more expensive, and leaders on both sides are saying tougher things.",
-            "zh": "美国和伊朗花了60天时间,试图用谈判代替打仗。这段时间在周一到期了,但他们还是没有达成一致。从那以后,石油——就是给汽车、卡车和飞机提供动力的燃料——价格涨了一点,双方领导人说话也更强硬了。"
+            "en": "The United States and Iran spent 60 days trying to talk instead of fight. That time ran out on Monday, and they still haven't agreed on anything. Since then, oil -- the fuel that powers cars, trucks, and airplanes -- has gotten a little more expensive, and leaders on both sides are saying tougher things."
           },
           "story": {
             "en": [
@@ -146,80 +129,56 @@
               "U.S. President Donald Trump says his country talks directly with Iran's military leaders. He said Iran wants a deal but won't agree to his conditions. He also said he might declare the Strait of Hormuz -- a narrow strip of ocean where huge numbers of oil ships pass through every day -- to be U.S. territory. He warned another country, Oman, not to get in the way of U.S. ships blocking Iranian oil ships.",
               "An Iranian official told reporters that Iran will now act 'fully offensive,' meaning more ready to attack, since the talks didn't work. By Tuesday, Trump said no talks were happening at all, and a nearby country called the UAE said it had spotted a possible missile threat.",
               "So right now, nobody is talking, both sides sound angrier, and oil already costs a bit more because of the tension."
-            ],
-            "zh": [
-              "美国和伊朗已经争执很久了,双方之间已经有一些冲突。他们本想用60天的谈判计划代替打仗。这个计划在周一结束,但没有达成协议。",
-              "美国总统特朗普说,他的政府和伊朗的军事领导人有直接联系。他说伊朗想达成协议,但不愿意接受他的条件。他还说,可能会宣布霍尔木兹海峡——一条每天有大量运油船经过的狭窄海域——归美国所有。他警告另一个国家阿曼,不要妨碍美国军舰拦截伊朗的运油船。",
-              "一位伊朗官员告诉记者,既然谈判没有成功,伊朗现在会采取'完全进攻性'的姿态,也就是说更准备好发动攻击。到了周二,特朗普说目前根本没有在谈判,而附近的阿联酋说他们发现了可能的导弹威胁。",
-              "所以现在,双方都没有在谈话,语气都更强硬了,而石油价格已经因为这种紧张局势涨了一点。"
             ]
           },
           "why_it_matters": {
-            "en": "When countries argue over the Strait of Hormuz, it can affect prices all over the world, because so much oil travels through that one narrow passage. If oil costs more, it can make gas for your family's car, and even things shipped by truck or boat, cost a bit more too. It also matters because a fight between two countries can sometimes pull in other countries nearby, making a small argument into a much bigger problem.",
-            "zh": "当两个国家在霍尔木兹海峡问题上发生争执时,可能会影响全世界的价格,因为大量石油都要经过这条狭窄的水道运输。如果石油变贵了,可能会让你家汽车加的油,甚至用卡车或轮船运来的东西,也跟着涨价。这件事也很重要,因为两个国家之间的冲突有时会把附近的其他国家也牵扯进来,让一件小事变成大麻烦。"
+            "en": "When countries argue over the Strait of Hormuz, it can affect prices all over the world, because so much oil travels through that one narrow passage. If oil costs more, it can make gas for your family's car, and even things shipped by truck or boat, cost a bit more too. It also matters because a fight between two countries can sometimes pull in other countries nearby, making a small argument into a much bigger problem."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow strip of ocean near Iran that a huge share of the world's oil ships must pass through to reach the rest of the world.",
-                "zh": "伊朗附近一条狭窄的海峡,世界上很大一部分运油船都必须经过这里才能开往其他地方。"
+                "en": "A narrow strip of ocean near Iran that a huge share of the world's oil ships must pass through to reach the rest of the world."
               }
             },
             {
               "term": {
-                "en": "Blockade",
-                "zh": "封锁"
+                "en": "Blockade"
               },
               "def": {
-                "en": "When one country uses ships or warnings to stop another country's ships from passing through an area.",
-                "zh": "指一个国家用军舰或警告,阻止另一个国家的船只经过某个区域。"
+                "en": "When one country uses ships or warnings to stop another country's ships from passing through an area."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "When two countries can't agree, is it better to keep talking patiently or to make tough threats?",
-                "zh": "当两个国家无法达成一致时,是耐心地继续谈判好,还是发出强硬威胁好?"
+                "en": "When two countries can't agree, is it better to keep talking patiently or to make tough threats?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Keep talking",
-                    "zh": "继续谈判"
+                    "en": "Keep talking"
                   },
                   "points": {
                     "en": [
                       "Talking gives everyone time to calm down and find a solution without anyone getting hurt.",
                       "Threats can make the other side angrier and less willing to agree to anything.",
                       "Most people affected by a war never wanted it and would prefer a peaceful answer."
-                    ],
-                    "zh": [
-                      "谈判能给大家时间冷静下来,找到不伤害任何人的解决办法。",
-                      "威胁可能会让对方更生气,更不愿意达成任何协议。",
-                      "大多数受战争影响的人根本不想打仗,更希望和平解决。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Show strength",
-                    "zh": "展示实力"
+                    "en": "Show strength"
                   },
                   "points": {
                     "en": [
                       "Sometimes a country only takes talks seriously if it believes the other side is willing to act.",
                       "Waiting too long to act can let a dangerous situation get worse.",
                       "A country has to protect its own ships and people, even if that means sounding tough."
-                    ],
-                    "zh": [
-                      "有时候,一个国家只有相信对方真的敢采取行动,才会认真对待谈判。",
-                      "等待太久才采取行动,可能会让危险的局势变得更糟。",
-                      "一个国家必须保护自己的船只和人民,哪怕这意味着语气要强硬一些。"
                     ]
                   }
                 }
@@ -227,43 +186,30 @@
             },
             {
               "question": {
-                "en": "Is it fair for the U.S. to threaten Oman, a country not directly fighting, to keep its blockade working?",
-                "zh": "美国为了让自己的封锁行动生效,威胁并未直接参战的阿曼,这样公平吗?"
+                "en": "Is it fair for the U.S. to threaten Oman, a country not directly fighting, to keep its blockade working?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It's fair",
-                    "zh": "公平"
+                    "en": "It's fair"
                   },
                   "points": {
                     "en": [
                       "If Oman helps ships get around the blockade, it becomes part of the problem, not a bystander.",
                       "A country enforcing a blockade needs every country nearby to respect it, or the whole plan fails.",
                       "Warning a country ahead of time can actually prevent a bigger conflict later."
-                    ],
-                    "zh": [
-                      "如果阿曼帮助船只绕开封锁,它就不再是旁观者,而是问题的一部分了。",
-                      "执行封锁的国家需要周边所有国家都遵守规则,否则整个计划就会失败。",
-                      "提前警告一个国家,其实可能避免以后发生更大的冲突。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's unfair",
-                    "zh": "不公平"
+                    "en": "It's unfair"
                   },
                   "points": {
                     "en": [
                       "Oman isn't fighting in this war, so threatening it punishes a country that just wants to stay out of it.",
                       "Big threats against a smaller, peaceful country can feel like bullying rather than fair warning.",
                       "Innocent people in Oman could suffer from a conflict they had no part in starting."
-                    ],
-                    "zh": [
-                      "阿曼并没有参与这场战争,威胁它等于惩罚一个只想置身事外的国家。",
-                      "对一个更弱小、爱好和平的国家发出强硬威胁,感觉更像是欺负人,而不是公平的警告。",
-                      "阿曼的无辜民众可能会因为一场他们并未参与挑起的冲突而受苦。"
                     ]
                   }
                 }
@@ -271,14 +217,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "A Deadline Passes, and the U.S. and Iran Edge Closer to War",
-            "zh": "最后期限已过，美伊冲突濒临升级"
+            "en": "A Deadline Passes, and the U.S. and Iran Edge Closer to War"
           },
           "hook": {
-            "en": "A 60-day deadline for the U.S. and Iran to reach a deal ended this Monday with nothing signed. Oil prices ticked up, President Trump talked about declaring a key shipping route U.S. territory, and an Iranian official said the country would go 'fully offensive.' A day later, nobody could even agree on whether talks were still happening.",
-            "zh": "美国和伊朗为达成协议设定的60天期限已于本周一到期，双方仍未签署任何协议。油价随之小幅上涨，特朗普总统甚至谈到要宣布一条重要航运通道为美国领土，而一位伊朗官员则表示该国将转向“全面进攻”姿态。仅仅一天后，双方连是否仍在谈判都说不清楚。"
+            "en": "A 60-day deadline for the U.S. and Iran to reach a deal ended this Monday with nothing signed. Oil prices ticked up, President Trump talked about declaring a key shipping route U.S. territory, and an Iranian official said the country would go 'fully offensive.' A day later, nobody could even agree on whether talks were still happening."
           },
           "story": {
             "en": [
@@ -287,91 +231,64 @@
               "President Trump said Iran wants a deal but won't accept the terms he's offering, and he raised the idea of declaring the Strait of Hormuz U.S. territory — an extraordinary claim, since it borders Iran and Oman, not the United States. He also confirmed something unusual: his administration has a direct backchannel, a private, informal line of communication, with Iran's Revolutionary Guard, the elite military force that answers to Iran's top religious leader rather than its regular government. 'They're good poker players, but they're dying,' Trump said, adding that he has 'no time schedule.' In the same stretch of days, he threatened to bomb Oman — a country that isn't even part of the dispute — if it interfered with the U.S. blockade, a military effort to stop ships from moving in or out of Iranian waters.",
               "Iran did not back down quietly. A senior Iranian official told the news agency Reuters that after talks stalled, the country would shift to a 'fully offensive' military posture and carry out a 'timely and precise' attack. That kind of language, from a government official rather than a random commentator, is taken seriously by intelligence agencies and markets alike, because it suggests a decision has already been made somewhere inside the government.",
               "By the next day, the picture got even murkier. CNN reported Trump saying no talks were actually underway, contradicting the sense of ongoing negotiation from just a day earlier. Meanwhile, officials in the United Arab Emirates said they had detected a 'missile threat.' When world leaders can't even agree publicly on whether diplomacy is happening, it becomes harder for anyone — allies, enemies, or ordinary people trying to plan their lives — to know what happens next."
-            ],
-            "zh": [
-              "过去60天里，美国和伊朗的官员一直在一份“备忘录”——一份约定继续谈判的书面协议——的框架下工作，目标是不通过达成协议就结束两国之间的战争。这份备忘录已于本周一到期，双方并未达成任何持久协议。油价几乎立刻做出反应：作为欧洲及全球大部分地区定价基准的布伦特原油价格涨至每桶88.85美元，美国主要基准价格西德克萨斯中质原油（WTI）则涨到82.42美元。",
-              "油价之所以会波动，关键在于一条名叫霍尔木兹海峡的狭窄水道，它位于伊朗和阿曼之间。全球约五分之一的石油每天都要通过油轮经过这里运输。如果这条海峡被封锁或关闭，几乎全世界的油价都可能飙升——因为世界上如此大比例的燃料供应都要挤过这一条通道，就像一条繁忙高速公路上唯一的一座桥一旦关闭，车流会堵上好几英里。",
-              "特朗普总统表示，伊朗想要达成协议，但不愿接受他提出的条件。他甚至提出要宣布霍尔木兹海峡为美国领土——这是一个极不寻常的说法，因为这条海峡毗邻的是伊朗和阿曼，而不是美国。他还证实了一件不寻常的事：他的政府与伊朗革命卫队——一支直接听命于伊朗最高宗教领袖、而非普通政府的精锐军事力量——保持着一条秘密渠道，也就是私下、非正式的沟通线路。“他们是很会打牌的高手，但他们快撑不住了，”特朗普说道，并补充说自己“没有时间表”。同一时期，他还威胁说，如果阿曼——一个甚至不是这场争端直接当事方的国家——干预美国对伊朗海域实施的封锁（即用军事手段阻止船只进出），他就要“狠狠轰炸”阿曼。",
-              "伊朗方面并没有悄悄让步。一名伊朗高级官员告诉路透社，在谈判陷入僵局后，伊朗将转向“全面进攻”的军事姿态，并将发动一次“适时而精准”的打击。这种话如果出自政府官员之口，而非普通评论人士，情报机构和市场都会认真对待，因为这往往意味着政府内部已经做出了某种决定。",
-              "到了第二天，局势变得更加扑朔迷离。据CNN报道，特朗普表示目前并没有实际的谈判在进行，这与前一天给人的“谈判仍在继续”的印象截然矛盾。与此同时，阿联酋官员称他们探测到了“导弹威胁”。当世界各国领导人连谈判是否在进行都无法公开达成一致时，无论是盟友、对手，还是普通想要规划自己生活的人，都更难判断接下来会发生什么。"
             ]
           },
           "why_it_matters": {
-            "en": "If the Strait of Hormuz gets blocked or fought over, gas prices could rise for everyone, everywhere — including in your family's car and in the cost of things shipped by sea. It's also a reminder that wars don't always start with a clear declaration; sometimes they creep closer through threats, confusion, and moves that are hard to take back.",
-            "zh": "如果霍尔木兹海峡被封锁或成为交战地点，全世界的油价都可能上涨——包括你家车加的油和海运商品的价格。这也提醒我们，战争并不总是以一份明确的宣战开始，有时它是通过威胁、混乱和一步步难以收回的举动，慢慢逼近的。"
+            "en": "If the Strait of Hormuz gets blocked or fought over, gas prices could rise for everyone, everywhere — including in your family's car and in the cost of things shipped by sea. It's also a reminder that wars don't always start with a clear declaration; sometimes they creep closer through threats, confusion, and moves that are hard to take back."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow waterway between Iran and Oman that about a fifth of the world's oil ships pass through every day.",
-                "zh": "位于伊朗和阿曼之间的一条狭窄水道，全球约五分之一的石油油轮每天都要经过这里。"
+                "en": "A narrow waterway between Iran and Oman that about a fifth of the world's oil ships pass through every day."
               }
             },
             {
               "term": {
-                "en": "Backchannel",
-                "zh": "秘密渠道"
+                "en": "Backchannel"
               },
               "def": {
-                "en": "A private, unofficial way for two governments or groups to communicate outside of public negotiations.",
-                "zh": "两国政府或团体在公开谈判之外私下、非正式沟通的一种方式。"
+                "en": "A private, unofficial way for two governments or groups to communicate outside of public negotiations."
               }
             },
             {
               "term": {
-                "en": "Blockade",
-                "zh": "封锁"
+                "en": "Blockade"
               },
               "def": {
-                "en": "A military action where one side uses ships or force to stop people or goods from moving in or out of an area.",
-                "zh": "一方使用船只或武力，阻止人员或物资进出某一地区的军事行动。"
+                "en": "A military action where one side uses ships or force to stop people or goods from moving in or out of an area."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is making big, unpredictable threats — like claiming a foreign strait as your own territory or threatening to bomb a country not even involved — a smart way to win a negotiation?",
-                "zh": "发出重大且难以预料的威胁——比如宣称一条外国海峡是自己的领土，或威胁轰炸一个甚至与争端无关的国家——是赢得谈判的明智策略吗？"
+                "en": "Is making big, unpredictable threats — like claiming a foreign strait as your own territory or threatening to bomb a country not even involved — a smart way to win a negotiation?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, unpredictability can work",
-                    "zh": "是，出其不意可能奏效"
+                    "en": "Yes, unpredictability can work"
                   },
                   "points": {
                     "en": [
                       "Keeping the other side unsure of what happens next can push them toward compromise faster than patient, predictable diplomacy.",
                       "Bold threats can signal real resolve, making the other side believe you're serious enough to act.",
                       "Throughout history, leaders who took dramatic, surprising stances sometimes reached deals faster than those who negotiated cautiously."
-                    ],
-                    "zh": [
-                      "让对方摸不清下一步会发生什么，可能比耐心、可预测的外交手段更快促使对方妥协。",
-                      "大胆的威胁能够传递真正的决心信号，让对方相信你确实认真到会采取行动。",
-                      "历史上，一些采取戏剧性、出人意料立场的领导人，有时反而比谨慎谈判的人更快达成协议。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's too dangerous",
-                    "zh": "否，风险太大"
+                    "en": "No, it's too dangerous"
                   },
                   "points": {
                     "en": [
                       "Unpredictable threats can be misread as genuine intentions, causing an accidental escalation into real conflict.",
                       "Threatening an uninvolved country like Oman can destroy the trust needed for that country to help mediate later.",
                       "Constantly shifting between 'talks are happening' and 'no talks are happening' erodes credibility, making future threats and promises less believable."
-                    ],
-                    "zh": [
-                      "难以预料的威胁可能被误读为真实意图，从而意外升级为真正的冲突。",
-                      "威胁一个像阿曼这样并未卷入争端的国家，可能摧毁其日后从中调解所需的信任。",
-                      "在“谈判正在进行”和“谈判并未进行”之间不断反复，会削弱可信度，使未来的威胁和承诺都变得不再可信。"
                     ]
                   }
                 }
@@ -379,191 +296,30 @@
             },
             {
               "question": {
-                "en": "When a country's shipping is being blocked by a much stronger power, should it respond with force to defend its rights, or keep negotiating even though talks have stalled?",
-                "zh": "当一个国家的航运被更强大的势力封锁时，它应该以武力回应来捍卫自身权利，还是在谈判陷入僵局的情况下继续谈判？"
+                "en": "When a country's shipping is being blocked by a much stronger power, should it respond with force to defend its rights, or keep negotiating even though talks have stalled?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Respond with force",
-                    "zh": "以武力回应"
+                    "en": "Respond with force"
                   },
                   "points": {
                     "en": [
                       "Allowing your shipping and economy to be strangled without any cost invites even more pressure in the future.",
                       "Showing a willingness to act might actually bring the stronger side back to the negotiating table with more respect.",
                       "International law generally treats freedom of navigation as a shared right, so resisting a blockade can be framed as self-defense, not aggression."
-                    ],
-                    "zh": [
-                      "若容忍自己的航运和经济被扼制却毫无代价，只会招致未来更大的压力。",
-                      "展现出行动意愿，反而可能让更强大的一方带着更多尊重重新回到谈判桌前。",
-                      "国际法通常将航行自由视为共同权利，因此抵抗封锁可以被视为自卫，而非侵略。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Keep negotiating, avoid force",
-                    "zh": "继续谈判，避免动武"
+                    "en": "Keep negotiating, avoid force"
                   },
                   "points": {
                     "en": [
                       "Taking military action against a far stronger power could lead to devastating losses that outweigh any gain.",
                       "Escalation risks dragging other countries into a wider regional war that would hurt far more people than the original dispute.",
                       "Rising oil prices and open conflict would damage the weaker country's own economy and civilians more than continued patience would."
-                    ],
-                    "zh": [
-                      "对实力远超自己的一方采取军事行动，可能造成远超收益的毁灭性损失。",
-                      "局势升级可能把其他国家卷入更大范围的地区战争，伤及的人远比原本这场争端中的更多。",
-                      "油价上涨和公开冲突对较弱一方自身经济和平民造成的伤害，可能远大于继续保持耐心所带来的损失。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "A Deadline for Iran Talks Expired. Within a Day, the Threats Multiplied.",
-            "zh": "美伊谈判期限已过,威胁声浪骤然升级"
-          },
-          "hook": {
-            "en": "A 60-day U.S. deadline for reaching a lasting deal with Iran expired Monday with no agreement in place. Within about a day, President Trump was threatening to bomb Oman, floating the idea of declaring a critical oil route U.S. territory, and a senior Iranian official was warning of a coming attack. Oil prices ticked up as traders weighed the odds of a wider war breaking out in the Gulf.",
-            "zh": "美国为达成对伊朗持久协议设定的60天期限周一到期,双方仍未签署任何协议。不到一天之内,特朗普总统就威胁要"
-          },
-          "story": {
-            "en": [
-              "On Monday, Aug. 17, a 60-day negotiating window the Trump administration had set for reaching a lasting deal with Iran ran out without one. Nothing detonated immediately, but the market reaction was itself a signal: Brent crude, the global oil-price benchmark, climbed to $88.85 a barrel, and the U.S. benchmark, West Texas Intermediate, rose to $82.42. Traders read the expired deadline as another tick upward in the odds of disruption to the Strait of Hormuz, the narrow waterway between Iran and the Arabian Peninsula through which roughly a fifth of the world's oil passes every day.",
-              "The memorandum had set out terms meant to end months of on-and-off confrontation between the U.S. and Iran over its nuclear program and its naval activity in the Gulf. Trump said publicly that Iran wants an agreement but won't accept his conditions, without specifying which ones. He also confirmed something unusual for a formal diplomatic standoff: his administration maintains a direct backchannel, an informal line of communication outside normal diplomatic channels, with Iran's Islamic Revolutionary Guard Corps — the branch of Iran's military that answers to its supreme leader rather than its elected government, and that controls much of the country's missile and naval forces. \"They're good poker players, but they're dying,\" Trump said of Iranian officials, adding he has \"no time schedule\" for a deal.",
-              "He floated an idea that alarmed people who track international law: declaring the Strait of Hormuz U.S. territory. The strait sits in Iranian and Omani waters under international law, not on American ground, and no U.S. president has previously treated a foreign shipping lane as sovereign American soil. It isn't clear whether Trump meant this as literal policy or as a way of signaling that the U.S. Navy would treat any interference with oil shipping there as an attack on the United States itself. Either reading raises the stakes, since forces defending \"our territory\" operate under different rules of engagement than those merely protecting freedom of navigation.",
-              "The threats didn't stop at Iran. Trump warned he would \"bomb the shit out of\" Oman if it interfered with the American blockade of Iranian shipping — a striking target, since Oman sits on the other side of the strait and has long served as a trusted go-between hosting U.S.-Iran diplomacy. Oman has generally tried to stay neutral, mediating rather than taking sides, which made the threat land as pressure on a country trying to keep the door to talks open rather than on an adversary. On the Iranian side, a senior official told Reuters that with negotiations stalled, Iran would shift to a \"fully offensive\" military posture and carry out a \"timely and precise\" strike — language that leaves open both timing and target while committing to some form of retaliation.",
-              "By Tuesday, Aug. 18, the picture had shifted again. CNN reported Trump saying no talks were currently underway at all, and that the United Arab Emirates had detected a \"missile threat\" — a claim without public confirmation of what it referred to or where it originated. The sequence itself is the story: a deadline expiring, threats fired in multiple directions, a reported missile detection, all inside roughly 48 hours. Officials on both sides are making high-stakes public statements faster than anyone outside the room can verify or walk them back."
-            ],
-            "zh": [
-              "8月17日星期一,特朗普政府为与伊朗达成持久协议设定的60天谈判期限到期,双方仍未签署协议。没有立即发生爆炸性事件,但市场的反应本身就是一个信号:全球石油定价基准布伦特原油涨至每桶88.85美元,美国基准西德克萨斯中质原油涨至82.42美元。交易员们将期限届满解读为霍尔木兹海峡——伊朗与阿拉伯半岛之间的狹窄水道,全球约五分之一的石油每天经此运输——发生中断的概率又上升了一档。",
-              "这份谅解备忘录本意是为结束美伊之间数月来围绕伊朗核项目及其在海湾地区海军活动的时断时续对峙划定条款。特朗普公开表示伊朗想要达成协议,但不会接受他的条件,却未说明具体是哪些条件。他还证实了一件在正式外交对峙中颇为罕见的事:他的政府与伊朗伊斯兰革命卫队保持着直接的秘密沟通渠道——这是绕开常规外交程序的非正式联系方式。革命卫队是伊朗军队中直接听命于最高领袖而非民选政府的一支,掌控着该国大部分导弹和海军力量。",
-              " 特朗普说伊朗官员"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Roughly a fifth of the world's oil moves through the Strait of Hormuz, so any serious disruption there shows up quickly at the gas pump and in the price of nearly everything shipped by sea. A shooting war involving the U.S. and Iran wouldn't stay confined to the Gulf — it would ripple through markets, insurance costs, and shipping prices long before most people felt it as anything more dramatic than a bigger receipt.",
-            "zh": "全球约五分之一的石油要经过霍尔木兹海峡运输,这条航道一旦发生严重中断,加油站油价和海运商品成本很快就会受到影响。美伊之间若真正爆发战争,后果不会只局限在海湾地区——它会通过市场、保险费用和运输价格向外传导,而大多数人最先感受到的,可能只是账单上悄悄变大的数字。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
-              },
-              "def": {
-                "en": "A narrow sea passage between Iran and the Arabian Peninsula through which about a fifth of the world's oil shipments travel every day.",
-                "zh": "位于伊朗与阿拉伯半岛之间的一条狹窄海上通道,全球约五分之一的石油运输要经过这里。"
-              }
-            },
-            {
-              "term": {
-                "en": "Brent crude",
-                "zh": "布伦特原油"
-              },
-              "def": {
-                "en": "A global benchmark price for oil traded internationally; when it rises, gasoline and shipping costs tend to follow.",
-                "zh": "国际石油交易中广泛使用的定价基准,它上涨时,汽油价格和海运成本通常也会跟着上涨。"
-              }
-            },
-            {
-              "term": {
-                "en": "Backchannel",
-                "zh": "秘密沟通渠道"
-              },
-              "def": {
-                "en": "An informal line of communication between governments or officials that operates outside normal, publicly known diplomatic channels.",
-                "zh": "政府或官员之间绕开常规、公开外交程序的非正式联系方式。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should a government negotiate directly with a foreign military faction its own laws label a terrorist organization, if doing so might end a war faster?",
-                "zh": "如果这样做可能更快结束战争,一国政府是否应该直接与被本国法律列为恐怖组织的外国军事派别谈判?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes, talk to whoever holds the guns",
-                    "zh": "应该谈:要跟真正掌权的人谈"
-                  },
-                  "points": {
-                    "en": [
-                      "Wars end through negotiating with whoever actually controls the forces on the ground, regardless of their formal title.",
-                      "Formal diplomatic channels have already failed here, so a working backchannel is better than no channel at all.",
-                      "Refusing to engage with the real center of power because of a label can prolong a war and cost more lives than the compromise of talking would."
-                    ],
-                    "zh": [
-                      "战争的结束往往取决于与真正掌控武力的一方谈判,而不是纠结于其正式头衔。",
-                      "正常的外交渠道已经失败,一条能用的秘密渠道总比完全没有渠道好。",
-                      "因为一个"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No, it legitimizes the wrong power",
-                    "zh": "不应该:这会让错的一方获得正当性"
-                  },
-                  "points": {
-                    "en": [
-                      "Negotiating with a military faction over its own elected government undermines whatever civilian institutions still exist and rewards armed groups for holding power.",
-                      "Secret channels bypass domestic accountability, letting leaders make consequential decisions with no public scrutiny.",
-                      "Talking directly to a group your own government designates a terrorist organization signals that the label is negotiable, weakening its deterrent value everywhere else."
-                    ],
-                    "zh": [
-                      "与军事派别谈判而绕开其民选政府,会削弱现存的文官体制,并变相奖励靠武力掌权的一方。",
-                      "秘密渠道绕开了国内的问责机制,使领导人在没有公众监督的情况下做出重大决定。",
-                      "直接与本国政府认定为恐怖组织的一方对话,等于暗示这个标签可以商量,从而削弱它在其他地方的威慑力。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Is it legitimate for a country to treat a strategic international waterway as if it were its own sovereign territory to protect its interests, even where international law doesn't support the claim?",
-                "zh": "一个国家为了保护自身利益,把一条具有战略意义的国际航道当作本国主权领土来对待,即便国际法并不支持这一主张,这样做是否合理?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Justified, given the stakes",
-                    "zh": "考虑到利害关系,合理"
-                  },
-                  "points": {
-                    "en": [
-                      "When a passage is critical to global stability and no reliable enforcement mechanism exists, unilateral action fills a real gap.",
-                      "Ambiguity about how far a country will go can deter adversaries more effectively than a narrowly defined freedom-of-navigation stance.",
-                      "Great powers have long stretched legal claims when core economic and security interests were at stake; this fits a familiar pattern rather than breaking new ground."
-                    ],
-                    "zh": [
-                      "当一条航道对全球稳定至关重要而又缺乏可靠的执法机制时,单边行动填补了一个真实的空白。",
-                      "对于自己会采取多大行动保持模糊,往往比明确划定"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "A dangerous overreach",
-                    "zh": "是危险的越界"
-                  },
-                  "points": {
-                    "en": [
-                      "Declaring foreign waters as domestic territory abandons the rules-based order the U.S. itself has long promoted, undercutting its own credibility to invoke that order elsewhere.",
-                      "It redefines what counts as an attack, turning ordinary interference into grounds for war and raising the risk of a fight nobody intended.",
-                      "Other powers could point to the precedent to justify their own contested territorial claims over disputed waters elsewhere in the world."
-                    ],
-                    "zh": [
-                      "把外国水域宣布为本国领土,背离了美国自己长期倡导的基于规则的国际秩序,削弱了它在其他场合援引这一秩序的信誉。",
-                      "这重新定义了什么算作"
                     ]
                   }
                 }
@@ -585,12 +341,10 @@
       "background": [
         {
           "title": {
-            "en": "Asia Intelligence Brief, Tuesday August 18, 2026",
-            "zh": "2026年8月18日周二 亚洲情报简报"
+            "en": "Asia Intelligence Brief, Tuesday August 18, 2026"
           },
           "summary": {
-            "en": "This regional brief lays out how Wang Yi's Seoul trip fits into China's broader courting of South Korea as U.S. commitments shift.",
-            "zh": "这份区域简报说明了王毅访问首尔如何契合中国在美国承诺出现变化之际拉拢韩国的更广泛策略。"
+            "en": "This regional brief lays out how Wang Yi's Seoul trip fits into China's broader courting of South Korea as U.S. commitments shift."
           },
           "publisher": "The Rio Times",
           "url": "https://www.riotimesonline.com/asia-intelligence-brief-tuesday-august-18-2026/"
@@ -599,12 +353,10 @@
       "further": [
         {
           "title": {
-            "en": "Democracy Now Headlines, August 17, 2026",
-            "zh": "2026年8月17日 民主已经headline新闻"
+            "en": "Democracy Now Headlines, August 17, 2026"
           },
           "summary": {
-            "en": "An independent daily news roundup that corroborates Trump's quoted remarks and situates the drills decision alongside other headlines of the day.",
-            "zh": "这份独立的每日新闻摘要证实了特朗普的相关言论，并将削减军演的决定与当天其他重要新闻并列呈现。"
+            "en": "An independent daily news roundup that corroborates Trump's quoted remarks and situates the drills decision alongside other headlines of the day."
           },
           "publisher": "Democracy Now",
           "url": "https://www.democracynow.org/2026/8/17/headlines"
@@ -612,14 +364,12 @@
       ],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "Trump Tells the Military: Practice Less With South Korea",
-            "zh": "特朗普下令：减少与韩国的联合军演"
+            "en": "Trump Tells the Military: Practice Less With South Korea"
           },
           "hook": {
-            "en": "President Trump said he told the U.S. military to do fewer training exercises with South Korea. He said it would save money and that he gets along well with North Korea's leader, Kim Jong Un. He announced this just before a big 11-day drill with 18,000 South Korean soldiers began — but that drill happened anyway, because it was too late to stop it.",
-            "zh": "特朗普总统说，他让美国军方减少与韩国的军事演习。他说这样能省钱，而且他和朝鲜领导人金正恩关系很好。他是在一场有1.8万名韩国士兵参加、为期11天的大型演习开始前宣布这个消息的——不过演习还是照常进行了，因为已经来不及取消。"
+            "en": "President Trump said he told the U.S. military to do fewer training exercises with South Korea. He said it would save money and that he gets along well with North Korea's leader, Kim Jong Un. He announced this just before a big 11-day drill with 18,000 South Korean soldiers began — but that drill happened anyway, because it was too late to stop it."
           },
           "story": {
             "en": [
@@ -627,80 +377,56 @@
               "On Sunday, President Trump wrote on his social media site, Truth Social, that he wants fewer of these practices. He said it costs too much money. He also said he has a 'very good relationship' with Kim Jong Un, the leader of North Korea. Just hours later, a big practice drill began anyway — 18,000 South Korean soldiers, more people than fit in a large sports stadium, took part for 11 days.",
               "At the same time, China's top diplomat, Wang Yi, is getting ready to visit South Korea. This will be his first solo visit there in four years. China has long supported North Korea and is one of the countries that signed the deal ending the 1953 war. Some people think China is stepping forward now because the U.S. seems to be stepping back.",
               "So two things are happening at once: the United States is doing less with an old friend, and China is doing more with that same friend. People are watching closely to see what happens next."
-            ],
-            "zh": [
-              "韩国和朝鲜曾经是同一个国家。1953年一场战争结束后，两国就分开了，到现在已经70多年。美国从那时起就一直在韩国驻军，帮忙保护韩国。每年，美国和韩国的军人都会一起进行训练，就像消防演习一样，只不过练习的是打仗。这种训练叫做“联合军事演习”。",
-              "星期天，特朗普总统在他的社交媒体“真实社交”（Truth Social）上写道，他希望减少这样的军演。他说这样做能省钱。他还说，自己和朝鲜领导人金正恩的关系“非常好”。可就在几个小时后，一场大型演习还是照常开始了——1.8万名韩国士兵参加，训练持续了11天，人数比一个大型体育场坐满的观众还多。",
-              "与此同时，中国的最高外交官王毅正准备访问韩国。这将是他四年来第一次单独访问韩国。中国长期以来一直支持朝鲜，也是1953年结束那场战争协议的签署方之一。有人认为，正因为美国看起来在往后退，中国才趁机往前走。",
-              "所以现在同时发生着两件事：美国在减少和老朋友的合作，而中国在增加和这个朋友的往来。很多人都在密切关注接下来会发生什么。"
             ]
           },
           "why_it_matters": {
-            "en": "Imagine your school's soccer team suddenly practices less, right when a rival school's team starts inviting your team to hang out more. You might wonder if the friendship is changing. That's a bit like what's happening between the U.S., South Korea, North Korea, and China right now — big countries figuring out who their closest friends really are.",
-            "zh": "想象一下，如果你们班的足球队突然减少了训练，而这时另一所学校的球队却开始邀请你们一起玩，你可能会怀疑友谊是不是变了。美国、韩国、朝鲜和中国之间现在发生的事情，就有点像这样——几个大国正在弄清楚，谁才是真正亲近的朋友。"
+            "en": "Imagine your school's soccer team suddenly practices less, right when a rival school's team starts inviting your team to hang out more. You might wonder if the friendship is changing. That's a bit like what's happening between the U.S., South Korea, North Korea, and China right now — big countries figuring out who their closest friends really are."
           },
           "word_bank": [
             {
               "term": {
-                "en": "joint military exercise",
-                "zh": "联合军事演习"
+                "en": "joint military exercise"
               },
               "def": {
-                "en": "When soldiers from two countries practice fighting together, like a rehearsal, so they're ready if a real war ever happens.",
-                "zh": "两个国家的军人一起训练，就像排练一样，这样如果真的打仗，他们已经提前准备好了。"
+                "en": "When soldiers from two countries practice fighting together, like a rehearsal, so they're ready if a real war ever happens."
               }
             },
             {
               "term": {
-                "en": "ally",
-                "zh": "盟友"
+                "en": "ally"
               },
               "def": {
-                "en": "A country that promises to help and protect another country, like a very close friend.",
-                "zh": "承诺互相帮助、互相保护的国家，就像非常要好的朋友一样。"
+                "en": "A country that promises to help and protect another country, like a very close friend."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair to suddenly change big plans with a friend, even if you think it's for a good reason?",
-                "zh": "突然改变和朋友之间的重要计划，就算理由不错，这样公平吗？"
+                "en": "Is it fair to suddenly change big plans with a friend, even if you think it's for a good reason?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It's fair",
-                    "zh": "公平"
+                    "en": "It's fair"
                   },
                   "points": {
                     "en": [
                       "Plans can change if the reason is good, like saving money.",
                       "The person making the decision has the right to decide quickly.",
                       "Waiting too long to change something can sometimes waste even more time and money."
-                    ],
-                    "zh": [
-                      "如果理由充分，比如省钱，计划当然可以改变。",
-                      "做决定的人有权利很快做出决定。",
-                      "拖得越久，有时反而浪费更多时间和金钱。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's not fair",
-                    "zh": "不公平"
+                    "en": "It's not fair"
                   },
                   "points": {
                     "en": [
                       "Friends deserve advance notice so they can prepare.",
                       "A sudden change can feel like a betrayal, even if it isn't meant that way.",
                       "Trust between friends is built by staying steady, not by changing plans overnight."
-                    ],
-                    "zh": [
-                      "朋友应该提前得到通知，好做准备。",
-                      "突然的改变，就算不是故意的，也会让人感觉被辜负。",
-                      "友谊之间的信任，是靠一直保持稳定建立起来的，而不是说变就变。"
                     ]
                   }
                 }
@@ -708,43 +434,30 @@
             },
             {
               "question": {
-                "en": "Is it okay for a country to become friendlier with your friend, right when you're pulling back?",
-                "zh": "当你正在和朋友疏远的时候，另一个人却开始对你的朋友更加友好，这样可以吗？"
+                "en": "Is it okay for a country to become friendlier with your friend, right when you're pulling back?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It's okay",
-                    "zh": "可以"
+                    "en": "It's okay"
                   },
                   "points": {
                     "en": [
                       "Countries, like people, can choose to talk to whomever they want.",
                       "Being friendly with everyone can help solve problems peacefully.",
                       "South Korea gets to pick its own friends, not just follow what the U.S. does."
-                    ],
-                    "zh": [
-                      "国家和人一样，可以选择和谁交流。",
-                      "对大家都友好，有助于和平解决问题。",
-                      "韩国有权选择自己的朋友，而不是只能跟着美国走。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's not okay",
-                    "zh": "不可以"
+                    "en": "It's not okay"
                   },
                   "points": {
                     "en": [
                       "It can look like taking advantage of a moment when a friend feels less supported.",
                       "It might make the original friendship feel shakier.",
                       "It could look more like trying to gain influence than being a genuine friend."
-                    ],
-                    "zh": [
-                      "这看起来像是趁朋友感觉不被支持的时候占便宜。",
-                      "这可能会让原来的友谊变得更不稳固。",
-                      "这看起来更像是想扩大自己的影响力，而不是真心交朋友。"
                     ]
                   }
                 }
@@ -752,14 +465,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "Trump Pulls Back Military Drills With South Korea — And China Steps In",
-            "zh": "特朗普缩减美韩军演,中国趁势访问首尔"
+            "en": "Trump Pulls Back Military Drills With South Korea — And China Steps In"
           },
           "hook": {
-            "en": "President Trump says he's ordered the Pentagon to shrink joint military exercises with South Korea, pointing to cost savings and his friendly relationship with North Korea's Kim Jong Un. He announced it on his own social media platform just hours before a huge scheduled drill began anyway. Days later, China's top diplomat is set to visit Seoul for the first time in nearly four years.",
-            "zh": "特朗普总统表示,他已下令五角大楼大幅缩减与韩国的联合军演,理由是节省开支,以及他与朝鲜领导人金正恩'非常好的关系'。他在自己的社交平台上宣布这一消息时,离一场规模巨大的既定军演开始只有几个小时——军演最终照常举行。几天后,中国最高外交官将近四年来首次正式访问首尔。"
+            "en": "President Trump says he's ordered the Pentagon to shrink joint military exercises with South Korea, pointing to cost savings and his friendly relationship with North Korea's Kim Jong Un. He announced it on his own social media platform just hours before a huge scheduled drill began anyway. Days later, China's top diplomat is set to visit Seoul for the first time in nearly four years."
           },
           "story": {
             "en": [
@@ -768,91 +479,64 @@
               "These drills matter because they're not just practice — they're a signal. Running large-scale exercises every year tells North Korea, and anyone else watching, that the U.S. and South Korea can fight effectively together if they ever need to. Scaling them back, even for budget reasons, can be read as the U.S. easing up on that signal, whether or not that's what Trump intends.",
               "Three days after Trump's announcement, another development landed: South Korea's foreign ministry confirmed that Wang Yi, China's top diplomat, will make an official two-day visit to Seoul starting Wednesday — his first visit there focused solely on South Korea since September 2021. China isn't a neutral bystander in Korean affairs. It remains officially a party to the armistice, the 1953 agreement that stopped the fighting in the Korean War without ever becoming a formal peace treaty, and it's still North Korea's most important economic backer, propping up its economy through trade and aid.",
               "Put the two stories together and a pattern appears: just as Washington signals it might be pulling back part of its commitment to South Korea, Beijing steps forward with a high-profile diplomatic visit. Some see this as China simply filling a gap the U.S. is creating. Others caution against reading too much into the timing, since so far this amounts to one reduced drill and one scheduled visit, not a dramatic shift in the regional order."
-            ],
-            "zh": [
-              "七十多年来,美国和韩国一直共同演练作战,以防朝鲜发动袭击。周日,特朗普在自己拥有的社交平台Truth Social上宣布,他已指示五角大楼——那座位于华盛顿特区附近、掌管美军事务的巨大建筑——大幅削减这类联合军演。他表示,这些军演耗资过高,而且他与朝鲜领导人金正恩个人关系良好,使得军演显得不那么必要。",
-              "这一时机颇为尴尬。就在他宣布消息几个小时后,美韩两国启动了'乙支自由之盾'演习——一场为期十一天、有1.8万名韩国士兵参与的年度大型军演之一。特朗普表示,演习之所以照常进行,只是因为'来不及取消了'。这就出现了奇怪的一幕:总统一边公开表示要削减盟友承诺,一边他想要缩减的演习却几乎按原计划进行。",
-              "这些军演之所以重要,并不只是因为它们是训练——它们也是一种信号。每年举行大规模演习,是在向朝鲜以及所有观察者传递信息:美韩两军若真需要并肩作战,能够高效配合。哪怕出于预算原因缩减演习,也可能被解读为美国正在放松这一信号,无论特朗普本意是否如此。",
-              "就在特朗普宣布消息三天后,又传来新动向:韩国外交部证实,中国最高外交官王毅将于周三开始对首尔进行为期两天的正式访问——这是自2021年9月以来,他首次专门以韩国为目的地的访问。中国在朝鲜半岛事务中并非局外人。它至今仍是1953年停战协定的缔约方之一——那份协定结束了朝鲜战争的战斗,却从未转化为正式和平条约;中国同时仍是朝鲜最重要的经济支柱,通过贸易与援助支撑着朝鲜经济。",
-              "把这两条消息放在一起看,一种模式浮现出来:就在华盛顿释放出可能收缩对韩承诺信号的同时,北京却以一场高规格外交访问向前迈进。一些人认为,这是中国在填补美国留下的空白。另一些人则提醒,不要过度解读这一时间上的巧合,因为目前发生的,不过是一次军演缩减和一次既定访问,还远谈不上地区格局的剧变。"
             ]
           },
           "why_it_matters": {
-            "en": "Alliances like the one between the U.S. and South Korea shape which countries feel safe, which feel threatened, and who gets influence in a region full of major U.S. trading partners and technology suppliers. Decisions made in the White House about far-off military commitments can ripple into things you don't usually connect to foreign policy — from the price of electronics made in South Korea to how stable that part of the world stays for the next decade.",
-            "zh": "像美韩这样的同盟关系,决定着哪些国家感到安全、哪些感到受威胁,也决定着谁能在这个聚集了众多美国贸易伙伴和科技供应商的地区拥有影响力。白宫做出的关于遥远军事承诺的决定,可能波及一些你平常不会与外交政策联系起来的事情——从韩国制造的电子产品价格,到这一地区未来十年能否保持稳定。"
+            "en": "Alliances like the one between the U.S. and South Korea shape which countries feel safe, which feel threatened, and who gets influence in a region full of major U.S. trading partners and technology suppliers. Decisions made in the White House about far-off military commitments can ripple into things you don't usually connect to foreign policy — from the price of electronics made in South Korea to how stable that part of the world stays for the next decade."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Pentagon",
-                "zh": "五角大楼"
+                "en": "Pentagon"
               },
               "def": {
-                "en": "The five-sided building near Washington, D.C. that serves as headquarters for the U.S. Department of Defense, and is often used as shorthand for U.S. military leadership itself.",
-                "zh": "位于华盛顿特区附近的五边形建筑,是美国国防部总部所在地,常被用来代指美国军方领导层。"
+                "en": "The five-sided building near Washington, D.C. that serves as headquarters for the U.S. Department of Defense, and is often used as shorthand for U.S. military leadership itself."
               }
             },
             {
               "term": {
-                "en": "joint military exercise",
-                "zh": "联合军演"
+                "en": "joint military exercise"
               },
               "def": {
-                "en": "A practice event where two or more countries' armed forces train together, both to prepare for real conflict and to show potential enemies they can cooperate effectively.",
-                "zh": "由两个或多个国家的军队共同进行的训练活动,目的是为真实冲突做准备,并向潜在对手展示彼此能够有效协作。"
+                "en": "A practice event where two or more countries' armed forces train together, both to prepare for real conflict and to show potential enemies they can cooperate effectively."
               }
             },
             {
               "term": {
-                "en": "armistice",
-                "zh": "停战协定"
+                "en": "armistice"
               },
               "def": {
-                "en": "A formal agreement to stop fighting in a war, which is not the same as a peace treaty — North and South Korea are technically still at war under the 1953 armistice.",
-                "zh": "正式停止战争行动的协议,但并不等同于和平条约——根据1953年的停战协定,朝鲜和韩国严格来说至今仍处于战争状态。"
+                "en": "A formal agreement to stop fighting in a war, which is not the same as a peace treaty — North and South Korea are technically still at war under the 1953 armistice."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the U.S. reduce military exercises with allies to save money and try to build trust with rivals, even if it might weaken the signal of military readiness?",
-                "zh": "美国是否应该为了节省开支、并尝试与对手建立信任,而缩减与盟友的联合军演,哪怕这可能削弱军事戒备的信号?"
+                "en": "Should the U.S. reduce military exercises with allies to save money and try to build trust with rivals, even if it might weaken the signal of military readiness?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Scale back",
-                    "zh": "支持缩减"
+                    "en": "Scale back"
                   },
                   "points": {
                     "en": [
                       "Large-scale exercises cost enormous amounts of money that could be spent elsewhere, and cutting them doesn't mean ending the alliance entirely.",
                       "Reducing drills can lower tensions and give diplomacy with North Korea room to work, since North Korea has long called the exercises a provocation.",
                       "Trust built through personal relationships between leaders can sometimes achieve results that military pressure alone cannot."
-                    ],
-                    "zh": [
-                      "大规模军演耗费巨额资金,这些钱本可以用在别处,而且削减军演并不等于终结同盟关系。",
-                      "缩减军演可以缓和紧张局势,为对朝外交留出空间,因为朝鲜长期以来一直将这些演习称为挑衅行为。",
-                      "领导人之间通过个人关系建立的信任,有时能取得单靠军事压力无法达到的效果。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Keep them strong",
-                    "zh": "支持维持强度"
+                    "en": "Keep them strong"
                   },
                   "points": {
                     "en": [
                       "Military readiness depends on regular practice; scaling back drills can genuinely erode how well allied forces would perform together in a real crisis.",
                       "Adversaries and allies alike read troop numbers and exercise size as signals of commitment — a smaller drill can look like weaker resolve, regardless of the reason given.",
                       "North Korea has continued weapons testing regardless of past pauses in exercises, suggesting reduced drills may not change its behavior while still leaving the alliance less prepared."
-                    ],
-                    "zh": [
-                      "军事战备状态依赖于经常性的训练;缩减军演可能真正削弱盟军在真实危机中协同作战的能力。",
-                      "无论对手还是盟友,都会把兵力规模和演习大小解读为承诺程度的信号——即便理由是省钱,规模缩小也可能被视为决心减弱。",
-                      "不论过去军演是否暂停,朝鲜一直持续进行武器试验,这说明缩减军演未必能改变其行为,却可能让同盟准备得更不充分。"
                     ]
                   }
                 }
@@ -860,195 +544,30 @@
             },
             {
               "question": {
-                "en": "Is China's high-profile diplomatic visit to Seoul a stabilizing move for the region, or an opportunistic attempt to expand its influence while the U.S. steps back?",
-                "zh": "中国高调访问首尔,究竟是有利于地区稳定的举动,还是趁美国收缩之际扩大自身影响力的机会主义行为?"
+                "en": "Is China's high-profile diplomatic visit to Seoul a stabilizing move for the region, or an opportunistic attempt to expand its influence while the U.S. steps back?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Stabilizing",
-                    "zh": "有利稳定"
+                    "en": "Stabilizing"
                   },
                   "points": {
                     "en": [
                       "More diplomatic contact between China and South Korea can reduce misunderstandings and open channels that help manage crises involving North Korea.",
                       "China has genuine interests in a stable Korean peninsula, since instability or war on its border would hurt its own economy and security.",
                       "Diplomacy between any two countries is generally healthier than silence, regardless of what else is happening in the region."
-                    ],
-                    "zh": [
-                      "中韩之间更多的外交接触可以减少误解,开辟有助于处理涉朝危机的沟通渠道。",
-                      "中国对朝鲜半岛的稳定有着切身利益,因为边境地区的动荡或战争会损害其自身经济与安全。",
-                      "无论地区局势如何变化,两国之间保持外交往来总比彼此沉默更为健康。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Opportunistic",
-                    "zh": "机会主义"
+                    "en": "Opportunistic"
                   },
                   "points": {
                     "en": [
                       "The visit's timing, right after the U.S. signals a pullback, suggests China is moving to expand its regional influence at America's expense.",
                       "China's support for North Korea's economy gives it leverage that isn't neutral — it benefits from South Korea depending more on Beijing's goodwill.",
                       "Increased Chinese influence in Seoul could come at the cost of South Korea's alignment with U.S. security guarantees, reshaping the regional balance of power."
-                    ],
-                    "zh": [
-                      "访问的时机恰好在美国释放收缩信号之后,这表明中国正试图借机扩大自己在该地区的影响力。",
-                      "中国对朝鲜经济的支持,给了它一种并不中立的筹码——韩国若更依赖北京的善意,对中国是有利的。",
-                      "中国在首尔影响力的上升,可能以韩国与美国安全保障关系的疏远为代价,从而重塑地区力量平衡。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "Trump Scales Back Korea War Games as China's Top Diplomat Heads to Seoul",
-            "zh": "特朗普缩减韩美军演之际 中国最高外交官将访问首尔"
-          },
-          "hook": {
-            "en": "President Trump says he's ordered the Pentagon to significantly cut back joint military exercises with South Korea, citing cost and his relationship with North Korea's Kim Jong Un. He announced it just hours before this year's drill began anyway — it was, he said, 'too late to cancel.' Days later, China's top diplomat is set to make his first solo visit to Seoul in four years.",
-            "zh": "特朗普总统表示，他已下令五角大楼大幅缩减与韩国的联合军演，理由是节省成本以及他与朝鲜领导人金正恩的关系。他是在今年的军演即将开始前几个小时发出这一命令的——军演最终照常举行，因为他说'现在取消已经太晚了'。几天后，中国最高外交官将对首尔进行四年来首次单独访问。"
-          },
-          "story": {
-            "en": [
-              "Trump posted the announcement on Truth Social on a Sunday, saying he had directed the Pentagon to substantially reduce the scale of joint exercises with South Korea. He framed it as a money-saving move and pointed to what he called his 'very good relationship' with Kim Jong Un as a reason tensions didn't require such a large military presence. The timing was awkward: the post landed just hours before the U.S. and South Korea launched Ulchi Freedom Shield, an eleven-day exercise involving 18,000 South Korean troops. Trump said the drill would go ahead this time only because it was too far along to stop, suggesting future exercises would look different.",
-              "Joint exercises like Ulchi Freedom Shield exist to keep the U.S.-South Korea alliance combat-ready — practicing command structures, troop movements, and coordination that would matter if North Korea ever attacked. They've run for decades, and North Korea has always denounced them as provocative rehearsals for invasion. Trump's comment about his rapport with Kim echoes his first term, when he met the North Korean leader three times and repeatedly floated troop reductions, arguing that expensive military theater wasn't necessary given the personal relationship he believed he'd built. Critics from that era, including many in his own administration, argued Kim gave up nothing in return for the goodwill.",
-              "The announcement arrived alongside a separate but related development: South Korea's foreign ministry confirmed that Wang Yi, China's top diplomat, will visit Seoul for two days starting Wednesday. It will be his first standalone bilateral visit to South Korea since September 2021 — a gap of four years during which relations between Seoul and Beijing had cooled over trade disputes and South Korea's deepening security ties with Washington. China's timing is not incidental. Beijing has real leverage over what happens on the Korean peninsula: it remains a formal party to the 1953 armistice that ended the Korean War's fighting without a peace treaty, and it is North Korea's largest trading partner and effectively its economic lifeline.",
-              "Seen from Beijing, a Washington that talks openly about scaling back its military footprint in South Korea is a Washington leaving room to be filled. China has spent years trying to loosen the U.S. alliance network in Asia — arguing to regional governments that American commitments are unreliable and shift with each election, while China's presence is permanent and its economic ties are deep. Wang Yi's visit gives Beijing a chance to make exactly that pitch in person, at a moment when Trump himself has handed them the opening.",
-              "Seen from Washington, the picture is more mixed. Trump's advisers and outside defense analysts have pushed back publicly on the idea that a personal rapport with Kim substitutes for military readiness, noting North Korea has continued expanding its nuclear arsenal and testing missiles throughout the years of on-and-off diplomacy. South Korean officials, for their part, have to manage both relationships at once — an ally that funds and trains alongside them but now talks about doing less, and a giant neighbor that wants back into the conversation just as that ally pulls back."
-            ],
-            "zh": [
-              "特朗普是在一个周日于社交媒体Truth Social上发布这一消息的，称他已指示五角大楼大幅缩减与韩国联合军演的规模。他将此说成是省钱之举，并称他与金正恩之间'非常好的关系'意味着紧张局势不需要如此庇大的军事存在。发布时间颇为尴尬：这条帖子发出仅几个小时后，美韩就启动了'乙支自由之盾'演习，这场为期十一天的演习动用了1.8万名韩国士兵。特朗普说，这次演习之所以照常进行，只是因为已经来不及取消了，暗示未来的演习将会有所不同。",
-              "像'乙支自由之盾'这样的联合演习，目的是让美韩同盟保持战备状态——演练指挥体系、部队调动以及在朝鲜真的发动进攻时至关重要的协同。这类演习已经持续了几十年，朝鲜一直将其斥为入侵演练。特朗普提及他与金正恩私交的说法，呼应了他第一任期的做法：当时他与朝鲜领导人会面三次，多次提出削减驻韩美军规模，理由是既然他认为已经建立了私人关系，就不再需要如此昂贵的军事演习。当时包括他自己政府中的许多人都批评说，金正恩并未因此做出任何实质让步。",
-              "这一消息公布的同时，还发生了另一件相关但独立的事：韩国外交部确认，中国最高外交官王毅将于周三开始对首尔进行为期两天的访问。这将是他自2021年9月以来首次对韩国进行单独双边访问——四年间，首尔与北京的关系因贸易争端以及韩国与华盛顿日益紧密的安全联系而降温。中国选择这个时机并非偶然。北京在朝鲜半岛问题上拥有实际影响力：它仍是1953年结束战事却未签署和平条约的停战协定的正式缔约方，也是朝鲜最大的贸易伙伴，实际上是朝鲜经济的生命线。",
-              "从北京的角度看，一个公开谈论要缩减在韩军事存在的华盛顿，就是留出了可以被填补的空间。中国多年来一直试图松动美国在亚洲的同盟网络，向该地区各国宣称美国的承诺并不可靠，会随每次选举而摇摆，而中国的存在是持久的，经济联系是深厚的。王毅此次访问，正好给了北京一个当面兜售这种说法的机会——而这个机会恰恰是特朗普自己送上门的。",
-              "从华盛顿的角度看，情况则更为复杂。特朗普的顾问以及外部防务分析人士都公开反驳过'与金正恩的私人关系可以取代军事戒备'这种说法，指出朝鲜在多年时断时续的外交接触中，一直在扩充核武库并持续试射导弹。而对韩国官员来说，他们必须同时应付两条关系：一边是资助并与其共同训练、却如今谈论要减少投入的盟友，另一边是恰好在盟友后退之际想重新加入对话的庞大邻国。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "If the U.S. really does shrink these exercises, it changes how prepared the South Korean and American militaries would be in a crisis — and it changes what North Korea and China conclude about how firm America's commitments actually are. For a teenager, the more relatable stake is the pattern underneath it: alliances built over decades can be renegotiated by one person's post on a Sunday, and other countries move fast to take advantage of the gap.",
-            "zh": "如果美国真的缩减这些演习，将改变韩美军队在危机中的战备水平——也会改变朝鲜和中国对美国承诺究竟有多牢固的判断。对青少年读者而言，更贴近生活的重点在于其中的模式：几十年建立起来的同盟关系，可能因一个人某个周日发的帖子而被重新调整，而其他国家会迅速行动，去填补由此产生的空隙。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Joint military exercise",
-                "zh": "联合军演"
-              },
-              "def": {
-                "en": "A training operation run together by two or more countries' armed forces to practice fighting side by side, like a fire drill rehearsed at the scale of an entire army.",
-                "zh": "由两个或多个国家的军队共同举行的训练行动，用来演练并肩作战，规模相当于整支军队进行的一次消防演习。"
-              }
-            },
-            {
-              "term": {
-                "en": "Armistice",
-                "zh": "停战协定"
-              },
-              "def": {
-                "en": "An agreement to stop fighting a war without formally ending it with a peace treaty, which is why North and South Korea are technically still at war seven decades later.",
-                "zh": "一种停止战争行动但并未通过和平条约正式结束战争的协议，这也是朝韩七十多年后从技术上仍处于战争状态的原因。"
-              }
-            },
-            {
-              "term": {
-                "en": "Bilateral visit",
-                "zh": "双边访问"
-              },
-              "def": {
-                "en": "An official trip where one country's leader or diplomat visits another country specifically to discuss the relationship between just those two nations, rather than a multi-country summit.",
-                "zh": "一国领导人或外交官专门访问另一国、讨论两国间关系的正式出访，区别于多国共同参加的峰会。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should the size of a country's military commitment to an ally depend on how well its leader personally gets along with the rival country's leader?",
-                "zh": "一个国家对盟友的军事承诺规模，是否应该取决于其领导人与对手国领导人的私人关系好坏？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Personal diplomacy matters",
-                    "zh": "个人外交有其价值"
-                  },
-                  "points": {
-                    "en": [
-                      "Leaders who build direct rapport can defuse crises faster than formal channels allow, since trust between individuals can unlock decisions bureaucracies won't risk.",
-                      "Reducing costly military exercises when tensions are genuinely lower frees up resources for other priorities without abandoning the underlying alliance.",
-                      "Rigid policy that never adapts to changing personal and political dynamics can lock countries into unnecessary spending long after the original threat has shifted."
-                    ],
-                    "zh": [
-                      "能够建立直接私人关系的领导人，往往能比正式渠道更快化解危机，因为个人之间的信任可以促成官僚体系不敢冒险做出的决定。",
-                      "当紧张局势确实有所缓和时，削减昂贵的军事演习可以将资源腾出用于其他优先事项，而不必放弃根本的同盟关系。",
-                      "一成不变、从不因个人和政治关系变化而调整的政策，可能会让国家在原有威胁已经改变很久之后，仍被锁定在不必要的开支中。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Institutions should outlast individuals",
-                    "zh": "制度应比个人关系更持久"
-                  },
-                  "points": {
-                    "en": [
-                      "A rival government's actual capabilities and behavior, not one leader's stated feelings about another, are what military readiness should be measured against.",
-                      "Personal relationships between leaders can end abruptly with an election, a health crisis, or a change of heart, leaving allies exposed if commitments were tied to that bond.",
-                      "North Korea's weapons programs kept advancing even during periods of warm rhetoric between the two leaders, suggesting the relationship changed little on the ground."
-                    ],
-                    "zh": [
-                      "军事戒备水平应当依据对手国实际的能力与行为来衡量，而非某位领导人对另一位领导人的一时感受。",
-                      "领导人之间的私人关系可能因选举、健康状况或心意改变而骤然终结，如果承诺是绑定在这种关系上，盟友就会因此陷入被动。",
-                      "即便两位领导人之间言辞热络，朝鲜的武器项目仍在持续推进，说明这种关系在实际局势上改变甚微。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "When a dominant power signals it may reduce its commitments in a region, is it more responsible for a rival power to move quickly to fill that space, or to hold back?",
-                "zh": "当一个主导力量表示可能减少在某地区的承诺时，另一个竞争大国迅速行动填补空间，还是保持克制，哪种做法更负责任？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Moving in is rational and fair",
-                    "zh": "迅速介入是合理且公平的"
-                  },
-                  "points": {
-                    "en": [
-                      "Countries pursue their own interests and security; waiting politely while a rival withdraws would be a strange standard to hold only one side to.",
-                      "Diplomatic outreach through visits and dialogue is a normal, non-coercive tool, not an act of aggression, even if its timing is opportunistic.",
-                      "If a regional power like South Korea welcomes the outreach, it reflects that country's own choice about how to balance its relationships, not an imposition from outside."
-                    ],
-                    "zh": [
-                      "各国都在追求自身的利益与安全，要求只有一方在对方后退时礼貌等待，这是一种奇怪的标准。",
-                      "通过访问和对话进行外交接触是一种正常且非强制性的手段，即便时机上带有机会主义色彩，也不等于侵略行为。",
-                      "如果像韩国这样的地区大国欢迎这种接触，这反映的是该国自身在如何平衡各方关系上的选择，而不是外部强加的结果。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Restraint reduces the risk of destabilizing the region",
-                    "zh": "保持克制能降低地区不稳定的风险"
-                  },
-                  "points": {
-                    "en": [
-                      "Rapid moves to exploit a security vacuum can trigger overreactions from other regional players, escalating tension rather than easing it.",
-                      "A rival power expanding influence right as an ally pulls back can look like exploiting an ally's internal politics rather than pursuing legitimate diplomacy.",
-                      "Stability in a region with a live armistice and nuclear-armed neighbor benefits from predictable behavior by all major powers, not from each side racing to capitalize on the other's uncertainty."
-                    ],
-                    "zh": [
-                      "为填补安全真空而快速行动，可能引发地区内其他行为方的过度反应，反而加剧紧张而非缓解局势。",
-                      "在盟友后撤之际，竞争大国立即扩大自身影响力，看起来更像是在利用盟友的内部政治，而非从事正当的外交活动。",
-                      "在一个仍处于停战状态、且邻国拥核的地区，稳定得益于各大国行为的可预测性，而不是各方争相利用对方的不确定性来谋取利益。"
                     ]
                   }
                 }
@@ -1070,12 +589,10 @@
       "background": [
         {
           "title": {
-            "en": "Democracy Now Headlines, August 17, 2026",
-            "zh": "2026年8月17日 民主现在新闻摘要"
+            "en": "Democracy Now Headlines, August 17, 2026"
           },
           "summary": {
-            "en": "This segment features media analyst Jessica González discussing what she calls an 'authoritarian takeover' of media regulation, including the ABC-FCC dispute.",
-            "zh": "该节目邀请媒体分析人士杰西卡·冈萨雷斯，讨论她所称的媒体监管'威权化接管'，其中包括ABC与联邦通信委员会之间的争议。"
+            "en": "This segment features media analyst Jessica González discussing what she calls an 'authoritarian takeover' of media regulation, including the ABC-FCC dispute."
           },
           "publisher": "Democracy Now",
           "url": "https://www.democracynow.org/2026/8/17/headlines"
@@ -1084,12 +601,10 @@
       "further": [
         {
           "title": {
-            "en": "Democracy Now Headlines, August 18, 2026",
-            "zh": "2026年8月18日 民主现在新闻摘要"
+            "en": "Democracy Now Headlines, August 18, 2026"
           },
           "summary": {
-            "en": "A follow-up daily roundup that continues tracking the ABC-FCC lawsuit alongside other stories from the same day.",
-            "zh": "这份后续每日新闻摘要继续追踪ABC与联邦通信委员会的诉讼进展，并涵盖当天的其他新闻。"
+            "en": "A follow-up daily roundup that continues tracking the ABC-FCC lawsuit alongside other stories from the same day."
           },
           "publisher": "Democracy Now",
           "url": "https://www.democracynow.org/2026/8/18/headlines"
@@ -1097,14 +612,12 @@
       ],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "A TV Network Is Suing the Government",
-            "zh": "一家电视台把政府告上法庭"
+            "en": "A TV Network Is Suing the Government"
           },
           "hook": {
-            "en": "ABC is a big television network that many American families watch. It just did something unusual: it sued a part of the U.S. government. ABC says the government broke an important rule about free speech, after a disagreement over one of its late-night shows.",
-            "zh": "ABC是美国一家很多家庭都会看的电视台。它最近做了一件不寻常的事：把美国政府的一个部门告上了法庭。ABC说,这个政府部门破坏了一条关于言论自由的重要规定,起因是围绕它一档深夜节目的争议。"
+            "en": "ABC is a big television network that many American families watch. It just did something unusual: it sued a part of the U.S. government. ABC says the government broke an important rule about free speech, after a disagreement over one of its late-night shows."
           },
           "story": {
             "en": [
@@ -1112,80 +625,56 @@
               "Something happened between ABC and a government group called the FCC. The FCC is the part of the U.S. government that watches over TV and radio stations across the country.",
               "ABC believes the FCC broke a rule called the First Amendment. That rule is part of America's founding rulebook, and it protects people's right to say what they think, even on television. Now ABC wants a judge to decide who is right.",
               "Nobody knows yet exactly what will happen next. But people who care about free speech say this case matters a lot, no matter who wins."
-            ],
-            "zh": [
-              "ABC有一档深夜节目,主持人是喜剧演员吉米·坎摩尔。他每天晚上讲笑话,聊新闻。",
-              "ABC和一个叫FCC的政府部门之间出现了纠纷。FCC是美国政府里专门监管全国电视台和广播电台的部门。",
-              "ABC认为FCC违反了一条叫做'第一修正案'的规定。这条规定是美国建国规则的一部分,保护人们表达想法的权利,包括在电视上说话的权利。现在ABC希望法官来判断谁对谁错。",
-              "目前还不清楚接下来会发生什么。但关心言论自由的人说,不管谁赢,这个案子都很重要。"
             ]
           },
           "why_it_matters": {
-            "en": "Even if you don't watch late-night TV, this story is really about a big question: who gets to decide what can be said on television, a TV channel or the government? That question could affect what shows, jokes, and news you get to see someday.",
-            "zh": "就算你不看深夜电视节目,这个故事其实关系到一个重要问题:到底该由电视台还是政府来决定电视上能说什么?这个问题以后可能会影响到你能看到什么样的节目、笑话和新闻。"
+            "en": "Even if you don't watch late-night TV, this story is really about a big question: who gets to decide what can be said on television, a TV channel or the government? That question could affect what shows, jokes, and news you get to see someday."
           },
           "word_bank": [
             {
               "term": {
-                "en": "FCC",
-                "zh": "FCC(联邦通信委员会)"
+                "en": "FCC"
               },
               "def": {
-                "en": "The FCC is a U.S. government group that makes rules for television and radio stations.",
-                "zh": "FCC是美国政府的一个部门,负责为电视台和广播电台制定规则。"
+                "en": "The FCC is a U.S. government group that makes rules for television and radio stations."
               }
             },
             {
               "term": {
-                "en": "First Amendment",
-                "zh": "第一修正案"
+                "en": "First Amendment"
               },
               "def": {
-                "en": "The First Amendment is a rule in America's founding rulebook that protects people's right to say what they think.",
-                "zh": "第一修正案是美国建国规则中的一条,保护人们说出自己想法的权利。"
+                "en": "The First Amendment is a rule in America's founding rulebook that protects people's right to say what they think."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the government be allowed to have a say in what TV shows can say?",
-                "zh": "政府应该有权决定电视节目能说什么吗?"
+                "en": "Should the government be allowed to have a say in what TV shows can say?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Some rules are okay",
-                    "zh": "有一些规定是可以的"
+                    "en": "Some rules are okay"
                   },
                   "points": {
                     "en": [
                       "TV reaches millions of people, so some rules can protect viewers from harm.",
                       "Rules can help stop dangerous or false information from spreading widely.",
                       "Every country needs some standards to keep public broadcasting fair and safe."
-                    ],
-                    "zh": [
-                      "电视能被数百万人看到,所以一些规定可以保护观众不受伤害。",
-                      "规定可以帮助阻止危险或虚假的信息大范围传播。",
-                      "每个国家都需要一些标准,让公共广播保持公平和安全。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Hands off TV content",
-                    "zh": "政府不该插手电视内容"
+                    "en": "Hands off TV content"
                   },
                   "points": {
                     "en": [
                       "Free speech means people should be able to say what they think without government pressure.",
                       "If the government can punish shows it dislikes, it could silence people who disagree with it.",
                       "TV channels, not government officials, should decide what their own shows say."
-                    ],
-                    "zh": [
-                      "言论自由意味着人们应该能自由表达想法,不受政府压力。",
-                      "如果政府能惩罚它不喜欢的节目,它就可能压制不同意见的人。",
-                      "应该由电视台自己决定节目内容,而不是政府官员。"
                     ]
                   }
                 }
@@ -1193,43 +682,30 @@
             },
             {
               "question": {
-                "en": "When a TV network sues the government, is that a good way to solve the disagreement?",
-                "zh": "当电视台起诉政府时,这是解决争议的好办法吗?"
+                "en": "When a TV network sues the government, is that a good way to solve the disagreement?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's a fair way",
-                    "zh": "是的,这是公平的办法"
+                    "en": "Yes, it's a fair way"
                   },
                   "points": {
                     "en": [
                       "A court lets a neutral judge decide, instead of both sides just shouting at each other.",
                       "Suing shows the network trusts the rules and the legal system, not just complaining.",
                       "A court case can create clear rules for the future that protect everyone."
-                    ],
-                    "zh": [
-                      "法庭能让一个中立的法官来判断,而不是双方互相争吵。",
-                      "起诉说明电视台相信规则和司法制度,而不只是抱怨。",
-                      "一场官司可以为未来定下清楚的规则,保护每一个人。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not ideal",
-                    "zh": "不,这不是理想的办法"
+                    "en": "No, it's not ideal"
                   },
                   "points": {
                     "en": [
                       "Lawsuits can take a very long time, so the real problem isn't solved quickly.",
                       "It can turn into a big public fight that confuses people about what's actually true.",
                       "Suing might make the relationship between the network and the government even worse."
-                    ],
-                    "zh": [
-                      "打官司可能要花很长时间,真正的问题不能很快解决。",
-                      "这可能演变成一场公开的大争吵,让人们更难分清真相。",
-                      "起诉可能让电视台和政府之间的关系变得更糟。"
                     ]
                   }
                 }
@@ -1237,14 +713,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "A TV Network Sues the U.S. Government",
-            "zh": "一家电视台把美国政府告上法庭"
+            "en": "A TV Network Sues the U.S. Government"
           },
           "hook": {
-            "en": "ABC, one of America's biggest television networks, has sued the FCC — the federal agency that regulates broadcasting — claiming it violated ABC's free-speech rights. The fight grew out of a clash over late-night host Jimmy Kimmel's show. It's rare for a broadcaster to take a federal regulator to court over what can air on television.",
-            "zh": "美国最大的电视网之一ABC,将联邦通信委员会（FCC，负责监管广播电视的政府机构）告上法庭，称对方侵犯了自己的言论自由权。这场纠纷源于深夜脱口秀主持人吉米·坎摩尔（Jimmy Kimmel）节目引发的争执。电视台把联邦监管机构告上法庭，这种事很少见。"
+            "en": "ABC, one of America's biggest television networks, has sued the FCC — the federal agency that regulates broadcasting — claiming it violated ABC's free-speech rights. The fight grew out of a clash over late-night host Jimmy Kimmel's show. It's rare for a broadcaster to take a federal regulator to court over what can air on television."
           },
           "story": {
             "en": [
@@ -1253,88 +727,64 @@
               "The exact spark that set off this particular fight — what the FCC said or did about Kimmel's show — hasn't been fully laid out in public reporting yet. What is clear is that it comes during a broader clash between the Trump administration and major TV networks, several of which have faced complaints, investigations, or pressure over their news and entertainment programming.",
               "Press-freedom advocates, including a guest on the news program Democracy Now, have described this kind of government pressure on broadcasters as part of an 'authoritarian takeover' of the media — meaning they see it as the government trying to control what people can watch and hear. Others would push back hard on that framing, arguing the FCC has always had some role in overseeing broadcast content and that enforcing existing rules isn't the same as censorship. Reasonable people disagree sharply about which reading is closer to the truth here.",
               "Whichever way this lawsuit turns out, lawyers and journalists say it will matter beyond ABC and Kimmel. Courts rarely get asked to decide exactly how much power a government regulator can hold over what a private broadcaster puts on air. However this case ends, it will likely shape how much room future administrations have to lean on TV networks — a precedent that outlasts any one host or one show."
-            ],
-            "zh": [
-              "先说清楚发生了什么：ABC正式向FCC提起诉讼。FCC是美国政府机构，负责决定谁能在电视和广播上播出内容，并执行相关规定。ABC称，FCC在吉米·坎摩尔节目一事上对其施压，已经越过了底线，这种施压违反了美国宪法第一修正案——该条款保护言论自由和新闻自由。",
-              "要理解FCC为什么有这种影响力，可以这样想：电视网并不拥有它们用来播出节目的电波频率。这些电波其实是公共资源，电视网需要从FCC获得",
-              "这场纠纷具体的导火索——FCC到底对坎摩尔的节目说了什么、做了什么——目前公开报道中还没有完全说清楚。可以确定的是，这件事发生在特朗普政府与多家主流电视网持续摩擦的大背景之下，这些电视网的新闻和娱乐节目都曾面临投诉、调查或压力。",
-              "一些新闻自由的支持者，包括在新闻节目《Democracy Now》上发言的一位嘉宾，把政府对电视台的这类施压描述为媒体遭遇"
             ]
           },
           "why_it_matters": {
-            "en": "You might not watch much broadcast TV, but the principle here touches everything you do watch: whether a government agency can quietly shape what shows up on your screen just by controlling who gets to broadcast. If a regulator can pressure a huge network like ABC, the same logic could someday reach streaming platforms, news sites, or apps you use every day.",
-            "zh": "你可能平时看的不是有线电视，但这件事背后的原则和你每天看的内容都有关：政府机构能不能仅凭掌控播出许可，就悄悄影响屏幕上出现什么内容。如果连ABC这样的大公司都可能受到监管机构的施压，同样的逻辑将来也可能延伸到流媒体平台、新闻网站，或者你每天在用的App。"
+            "en": "You might not watch much broadcast TV, but the principle here touches everything you do watch: whether a government agency can quietly shape what shows up on your screen just by controlling who gets to broadcast. If a regulator can pressure a huge network like ABC, the same logic could someday reach streaming platforms, news sites, or apps you use every day."
           },
           "word_bank": [
             {
               "term": {
-                "en": "FCC",
-                "zh": "联邦通信委员会（FCC）"
+                "en": "FCC"
               },
               "def": {
-                "en": "The U.S. government agency that regulates television and radio broadcasting, including who gets permission to use the airwaves.",
-                "zh": "美国负责监管电视和广播的政府机构，包括决定谁能获得使用电波频率的许可。"
+                "en": "The U.S. government agency that regulates television and radio broadcasting, including who gets permission to use the airwaves."
               }
             },
             {
               "term": {
-                "en": "First Amendment",
-                "zh": "第一修正案"
+                "en": "First Amendment"
               },
               "def": {
-                "en": "The part of the U.S. Constitution that protects freedoms like speech and the press from government interference.",
-                "zh": "美国宪法中保护言论自由和新闻自由、防止政府干预的条款。"
+                "en": "The part of the U.S. Constitution that protects freedoms like speech and the press from government interference."
               }
             },
             {
               "term": {
-                "en": "broadcast license",
-                "zh": "播出许可"
+                "en": "broadcast license"
               },
               "def": {
-                "en": "Official government permission that allows a TV or radio station to use a specific slice of the public airwaves.",
-                "zh": "政府授予电视台或广播电台使用特定电波频率的正式许可。"
+                "en": "Official government permission that allows a TV or radio station to use a specific slice of the public airwaves."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the government be allowed to use its licensing power to pressure networks about their content, even a little?",
-                "zh": "政府能不能利用发放许可的权力，哪怕只是稍微地，对电视台的内容施加压力？"
+                "en": "Should the government be allowed to use its licensing power to pressure networks about their content, even a little?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Some oversight makes sense",
-                    "zh": "适度监管是合理的"
+                    "en": "Some oversight makes sense"
                   },
                   "points": {
                     "en": [
                       "Airwaves are a shared, limited public resource, so it's fair to attach some public-interest rules to using them.",
                       "Without any oversight, stations could air harmful misinformation or dangerous content with zero accountability.",
                       "The FCC's decency and public-interest rules have historically had broad public support, not just government interest."
-                    ],
-                    "zh": [
-                      "电波频率是有限的公共资源，因此对使用者附加一些"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's too dangerous to allow",
-                    "zh": "这样做风险太大"
+                    "en": "It's too dangerous to allow"
                   },
                   "points": {
                     "en": [
                       "Any content-based pressure risks sliding into political censorship, no matter how it's framed.",
                       "A rule that seems reasonable under one administration can become a weapon in the hands of a hostile one later.",
                       "A free press only works if broadcasters don't have to fear government retaliation for jokes, opinions, or criticism."
-                    ],
-                    "zh": [
-                      "任何基于内容的施压，无论打着什么旗号，都有可能滑向政治审查。",
-                      "在一届政府手中看似合理的规则，换一届不友善的政府，就可能变成打压异见的武器。",
-                      "新闻自由要真正发挥作用，前提是电视台不必因为一句玩笑、一个观点或一次批评而担心遭到政府报复。"
                     ]
                   }
                 }
@@ -1342,193 +792,30 @@
             },
             {
               "question": {
-                "en": "When a company sues a regulator claiming its free speech was violated, is it defending an important principle or protecting its own business interests?",
-                "zh": "当一家公司以言论自由受侵犯为由起诉监管机构时，它究竟是在捍卫重要原则，还是在保护自身商业利益？"
+                "en": "When a company sues a regulator claiming its free speech was violated, is it defending an important principle or protecting its own business interests?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It's about principle",
-                    "zh": "这是原则问题"
+                    "en": "It's about principle"
                   },
                   "points": {
                     "en": [
                       "Lawsuits like this set precedents that protect everyone's speech, not just one company's.",
                       "If companies never push back, government overreach can quietly become normal and unchecked.",
                       "ABC's viewers also have a stake in what gets to stay on air, so the network is arguably standing up for them too."
-                    ],
-                    "zh": [
-                      "这类诉讼确立的先例，保护的是所有人的言论自由，而不仅仅是一家公司。",
-                      "如果公司从不反抗，政府的越权行为就可能悄悄变成常态而无人制约。",
-                      "ABC的观众对什么内容能够继续播出也有切身利益，从这个角度看，电视台某种程度上也是在为观众发声。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's about self-interest",
-                    "zh": "这是自身利益问题"
+                    "en": "It's about self-interest"
                   },
                   "points": {
                     "en": [
                       "Corporations tend to invoke free speech loudest when it happens to protect their profits or their stars.",
                       "ABC may simply be protecting a valuable host and show, not championing a broader cause.",
                       "The same networks crying government censorship also make their own content decisions for business reasons all the time."
-                    ],
-                    "zh": [
-                      "企业往往在言论自由恰好能保护自身利润或明星资源时，才最大声地援引这个原则。",
-                      "ABC此举也许只是在保护一位有价值的主持人和一档赚钱的节目，而不是在为更宏大的理念发声。",
-                      "那些抱怨政府审查的电视网，自己出于商业考虑对内容做取舍决定，其实也是家常便饭。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "ABC Takes the Government to Court Over a Late-Night Joke",
-            "zh": "因深夜秀风波,ABC将联邦监管机构告上法庭"
-          },
-          "hook": {
-            "en": "ABC has sued the Federal Communications Commission (FCC), the federal agency that licenses local TV stations, arguing the agency violated its First Amendment rights. The dispute grew out of comments by late-night host Jimmy Kimmel that drew political backlash and, reportedly, pressure from the FCC aimed at stations that carry his show. The exact filing and specific legal claims are not yet fully public — most of what's known comes from broadcast reporting rather than the court filing itself.",
-            "zh": "美国广播公司(ABC)已将联邦通信委员会(FCC)告上法庭。FCC是负责发放地方电视台执照的联邦机构。ABC指控该机构侵犯了其第一修正案权利。这场纠纷源于深夜秀主持人吉米·坎摩尔的一段言论,该言论引发政治反弹,据报道FCC随后向播出该节目的电视台施加了压力。目前诉状的具体内容和确切提交日期尚未完全公开,已知信息主要来自广播报道,而非法院文件本身。"
-          },
-          "story": {
-            "en": [
-              "Here is the sequence as it has been reported so far: Jimmy Kimmel, who hosts a nightly comedy and interview show on ABC, made an on-air remark that provoked complaints reaching the FCC. The agency's chairman then spoke publicly about possible consequences for the local stations that broadcast Kimmel's program — stations that need FCC-issued licenses to operate at all. Several station groups reportedly dropped the show in response, and ABC itself pulled it from the air for a period before bringing it back.",
-              "Now ABC has gone further, suing the very agency that controls whether its affiliate stations keep their licenses. That is an unusual move. Broadcasters generally avoid antagonizing the FCC, because the agency renews station licenses periodically and has wide discretion over enforcement. A network picking a legal fight with its own regulator is a bit like a driver suing the department that issues car registrations — it works only if you're confident you're in the right, because you still need that agency's cooperation afterward.",
-              "The legal question at the center of the suit is whether government pressure on a broadcaster's content — even pressure that never becomes a formal rule or fine — can amount to unconstitutional coercion. Lawyers call this kind of informal arm-twisting 'jawboning': an official suggesting there could be consequences, without ever issuing an order that a court could review directly. Courts have sometimes sided with speakers in jawboning cases, reasoning that the government doesn't need to issue a written command if the implicit threat does the same job.",
-              "It's worth being honest about what isn't confirmed yet. The filing date, the precise FCC action ABC is challenging, and the detailed wording of the legal claims all remain unclear from the available reporting, which so far consists of broadcast segments rather than the underlying court documents. A companion segment on the independent program Democracy Now, featuring press-freedom advocate Jessica González of the group Free Press, framed the episode as part of a broader pattern of political pressure on media companies — a reading ABC's lawsuit itself doesn't have to endorse to still be a legitimate constitutional claim.",
-              "What makes this notable regardless of how the case turns out is the rarity of the move itself. Major broadcasters almost never sue their federal regulator over programming disputes, because the leverage runs so heavily in the government's favor. Press-freedom advocates argue that simply filing the suit — testing whether informal government pressure on content can be challenged in court — matters even if ABC eventually loses, because it forces judges to draw a clearer line around what regulators can and cannot do to influence what appears on air."
-            ],
-            "zh": [
-              "据目前的报道,事情的经过大致如下:在ABC主持一档夜间脱口秀节目的吉米·坎摩尔,在节目中说了一段引发投诉的话,投诉一直传到了FCC。随后,FCC主席公开谈及播出坎摩尔节目的地方电视台可能面临的后果——这些电视台的运营资格恰恰依赖FCC发放的执照。据报道,几家电视台集团因此暂停播出该节目,ABC自己也曾一度将节目撤下,之后又恢复播出。",
-              "如今ABC更进一步,直接起诉了掌控其加盟台执照命脉的这家机构。这是相当罕见的举动。广播公司通常会避免与FCC正面冲突,因为该机构定期审核并可自主决定是否续发执照,拥有很大的裁量权。一家电视网与自己的监管机构打官司,有点像司机去告发牌部门——除非你非常确定自己站在理的一方,否则风险很大,因为打完官司之后,你还得继续和这家机构打交道。",
-              "这场诉讼的法律核心在于:政府对广播内容施加的压力,即便从未变成正式规定或罚款,是否也构成违宪的胁迫。律师们把这种非正式的施压方式称为'口头施压'(jawboning)——官员只是暗示可能有后果,却从不下达可供法院直接审查的正式命令。在过去的一些案例中,法院确实站在了发声者一方,理由是:只要暗示中的威胁能起到同样的作用,政府就不必真的下达书面命令。",
-              "有必要坦白说明哪些细节尚未确认。诉状的具体提交日期、ABC所挑战的FCC具体行为、以及诉状中详细的法律主张,从目前的报道——主要来自广播片段而非法院文件本身——中都无法完全厘清。独立节目《民主此刻》(Democracy Now)播出了一段配套内容,邀请媒体自由倡导团体'自由出版社'(Free Press)的杰西卡·冈萨雷斯参与讨论,将此事定性为政治力量施压媒体的更大模式的一部分——但这种解读并非ABC诉讼本身必须认同的前提,后者仍可以是一项独立且成立的宪法主张。",
-              "无论案件最终结果如何,值得关注的是这一举动本身有多罕见。大型广播公司几乎从不会因节目内容纠纷起诉联邦监管机构,因为筹码几乎全部倒向政府一方。媒体自由倡导者认为,仅仅提起诉讼——测试非正式的政府压力能否在法庭上受到挑战——本身就有意义,即便ABC最终败诉,因为这会迫使法官为监管机构究竟能对广播内容施加多大影响划出更清晰的界线。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Whoever wins this case will help decide how much informal pressure a government agency can put on what you see and hear on television, without ever passing a law or issuing a formal order. That line affects every channel your family watches, not just late-night comedy — because the same tool, applied quietly, could be used against any broadcaster whose content a future administration dislikes.",
-            "zh": "这个案子最终无论谁胜诉,都将影响政府机构在未通过任何正式法律或命令的情况下,能对你在电视上看到、听到的内容施加多大的非正式压力。这条界线影响的不只是深夜喜剧节目,而是你们家看的每一个频道——因为同样的手段一旦被默许使用,未来任何一届政府都可能用它来对付自己不喜欢的广播内容。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "First Amendment",
-                "zh": "第一修正案"
-              },
-              "def": {
-                "en": "The part of the U.S. Constitution that protects freedom of speech and of the press from government interference.",
-                "zh": "美国宪法中保护言论自由与新闻自由、防止政府干预的条款。"
-              }
-            },
-            {
-              "term": {
-                "en": "FCC (Federal Communications Commission)",
-                "zh": "联邦通信委员会(FCC)"
-              },
-              "def": {
-                "en": "The federal agency that licenses TV and radio stations and enforces broadcasting rules in the United States.",
-                "zh": "美国负责发放电视和广播电台执照、并执行广播相关规定的联邦机构。"
-              }
-            },
-            {
-              "term": {
-                "en": "broadcast license",
-                "zh": "广播执照"
-              },
-              "def": {
-                "en": "The government permit a TV or radio station must hold to legally transmit on public airwaves, which the FCC can renew, deny, or revoke.",
-                "zh": "电视或广播电台合法使用公共电波播出所必须持有的政府许可证,FCC有权决定是否续发、拒绝或撤销。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should a government agency be allowed to publicly comment on the consequences a broadcaster might face over its content, even if it never issues a formal order?",
-                "zh": "政府机构是否应该被允许公开谈论广播公司可能因节目内容面临的后果,即使从未下达正式命令?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Regulators should be able to speak plainly",
-                    "zh": "监管机构应能坦诚表态"
-                  },
-                  "points": {
-                    "en": [
-                      "The FCC has a legal mandate to consider whether broadcasters serve the public interest, and silence about that mandate would leave it toothless.",
-                      "Officials commenting on possible consequences is different from actually imposing them, and broadcasters remain free to ignore the comments and fight any real enforcement action in court.",
-                      "Total silence from regulators could let genuinely harmful broadcast content go unaddressed simply because no one in government is willing to say anything about it."
-                    ],
-                    "zh": [
-                      "FCC负有法定职责去评估广播公司是否服务了公共利益,若对此完全保持沉默,该机构的监管权力将形同虚设。",
-                      "官员谈论可能的后果,与实际实施后果是两件事,广播公司完全可以无视这些言论,并在真正的执法行动发生时通过法律途径抗辩。",
-                      "如果监管机构完全不发声,一些确实有害的广播内容可能因无人在政府层面提出任何意见而被放任不管。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Any government comment is coercive",
-                    "zh": "任何政府言论都构成胁迫"
-                  },
-                  "points": {
-                    "en": [
-                      "When the same official who controls your license talks about consequences, the power imbalance turns a comment into a threat regardless of intent.",
-                      "Broadcasters facing a possible license review can't afford to treat regulator remarks as mere opinion, so the practical effect is the same as a formal order.",
-                      "Allowing informal pressure lets officials shape media content without ever going through the accountability of a formal rule, hearing, or vote."
-                    ],
-                    "zh": [
-                      "当掌握你执照命运的官员谈论"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Was it wise for ABC to sue the FCC now, rather than waiting for a formal enforcement action to challenge in court?",
-                "zh": "ABC选择现在就起诉FCC,而不是等到出现正式执法行动后再提起诉讼,这是明智之举吗?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Suing early was the right call",
-                    "zh": "提前起诉是正确的选择"
-                  },
-                  "points": {
-                    "en": [
-                      "Waiting for a formal order would mean absorbing months or years of chilling effect on programming decisions in the meantime.",
-                      "A pre-emptive suit forces courts to define the limits of informal pressure before more networks feel forced to self-censor out of caution.",
-                      "Once a broadcaster has already changed its programming under pressure, the harm has occurred whether or not a formal order ever follows."
-                    ],
-                    "zh": [
-                      "如果等到正式命令出现才行动,意味着在此期间要长期承受对节目决策的寒蝉效应。",
-                      "提前起诉能迫使法院在更多电视网因谨慎而自我审查之前,先划定非正式施压的边界。",
-                      "一旦广播公司已经在压力下改变了节目内容,伤害就已经造成,无论之后是否真的出现正式命令。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Waiting would have been the stronger strategy",
-                    "zh": "等待才是更稳妥的策略"
-                  },
-                  "points": {
-                    "en": [
-                      "Courts are often reluctant to rule on disputes before a concrete, formal government action exists to review, which could get the case dismissed on procedural grounds.",
-                      "Suing preemptively risks looking like a broadcaster picking a political fight rather than defending a clear legal injury, which can weaken public and judicial sympathy.",
-                      "A weaker case filed too early could produce an unfavorable ruling that makes it harder to win a stronger case later, once the facts are clearer."
-                    ],
-                    "zh": [
-                      "法院往往不愿在缺乏具体、正式的政府行为可供审查的情况下裁决争议,这可能导致案件因程序问题被驳回。",
-                      "提前起诉可能被视为广播公司主动挑起政治争端,而非真正在维护明确的法律权益,这会削弱公众和司法上的同情。",
-                      "过早提起一个证据尚不充分的案件,可能招致不利判决,反而使日后事实更清楚时再提起更有力的诉讼变得更加困难。"
                     ]
                   }
                 }

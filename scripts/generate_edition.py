@@ -3,7 +3,7 @@
 
 Three stories a day, from five beats, centred on the US and China. None of that
 is configurable — it is the editorial line. What is generated three times is the
-writing: every story is rewritten for ages 6-11, 12-15 and 16+.
+writing: every story is rewritten for primary and secondary readers.
 
 The run is deliberately split into small passes:
 
@@ -956,8 +956,6 @@ def build_edition(cfg, skeleton: dict, writing: dict, date_str: str, start, end)
     if "en" in cfg.languages:
         label["en"] = (f"News from {start:%A} {start:%-I:%M %p} to "
                        f"{end:%A} {end:%-I:%M %p} {zone}")
-    if "zh" in cfg.languages:
-        label["zh"] = f"{zone} {start:%-m月%-d日} {start:%H:%M} 至 {end:%-m月%-d日} {end:%H:%M}"
 
     return {
         "date": date_str,

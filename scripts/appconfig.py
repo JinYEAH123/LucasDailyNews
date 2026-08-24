@@ -20,13 +20,10 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config.toml"
 
-APP_NAME = {"en": "Daily News for Kids", "zh": "少年每日新闻"}
-SLOGAN = {
-    "en": "Know big worlds. Train young minds.",
-    "zh": "看见大世界，启发小脑瓜。",
-}
+APP_NAME = {"en": "Daily News for Kids"}
+SLOGAN = {"en": "Know big worlds. Train young minds."}
 
-LANGUAGES = {"en": "English", "zh": "中文"}
+LANGUAGES = {"en": "English"}
 
 STORIES_PER_DAY = 3
 
@@ -37,23 +34,23 @@ STORIES_PER_DAY = 3
 
 CATEGORIES: dict[str, dict] = {
     "politics": {
-        "label": {"en": "Politics", "zh": "政治"},
+        "label": {"en": "Politics"},
         "light": ("#a4243b", "#fbeef0"), "dark": ("#f0899c", "#2a171c"),
     },
     "society": {
-        "label": {"en": "Society", "zh": "社会"},
+        "label": {"en": "Society"},
         "light": ("#1a6b4a", "#eaf4ef"), "dark": ("#5cc79b", "#12251d"),
     },
     "business": {
-        "label": {"en": "Business & Economy", "zh": "财经"},
+        "label": {"en": "Business & Economy"},
         "light": ("#8a5a0f", "#f8f0e2"), "dark": ("#dfae5c", "#262013"),
     },
     "tech": {
-        "label": {"en": "Tech", "zh": "科技"},
+        "label": {"en": "Tech"},
         "light": ("#4b3ba8", "#eeecfa"), "dark": ("#a89bf7", "#1d1a2e"),
     },
     "science": {
-        "label": {"en": "Science", "zh": "科学"},
+        "label": {"en": "Science"},
         "light": ("#0f6a76", "#e6f2f4"), "dark": ("#5ec4d2", "#10262a"),
     },
 }
@@ -63,9 +60,9 @@ CATEGORIES: dict[str, dict] = {
 # editorial policy needs for news too big to belong to one country.
 
 REGIONS: dict[str, dict] = {
-    "US": {"label": {"en": "United States", "zh": "美国"}},
-    "CN": {"label": {"en": "China", "zh": "中国"}},
-    "GLOBAL": {"label": {"en": "Global", "zh": "全球"}},
+    "US": {"label": {"en": "United States"}},
+    "CN": {"label": {"en": "China"}},
+    "GLOBAL": {"label": {"en": "Global"}},
 }
 
 # --------------------------------------------------------------- the sources
@@ -172,10 +169,15 @@ SEARCHES_PER_RUN = 20
 # scaffolding a fact needs, and how hard the questions are — never how serious
 # the news is allowed to be.
 
+# Two, named for the school a reader is in rather than an age. A child knows
+# which one they are in without being told, and a label that says "Ages 12–15"
+# is a small insult to a sixteen-year-old reading the same page. The ranges
+# below are never shown; they exist only to pick which view opens first.
+
 AGE_BANDS: dict[str, dict] = {
-    "6-11": {
-        "label": {"en": "Ages 6–11", "zh": "6–11 岁"},
-        "short": {"en": "6–11", "zh": "6–11"},
+    "primary": {
+        "label": {"en": "Primary school"},
+        "short": {"en": "Primary"},
         "range": (5, 11),
         "paragraphs": "3 to 4 very short paragraphs",
         "sentences": "Short sentences, one idea each. Almost never a subclause.",
@@ -194,45 +196,39 @@ AGE_BANDS: dict[str, dict] = {
             "genuinely two-sided, and the two sides still argued properly."
         ),
     },
-    "12-15": {
-        "label": {"en": "Ages 12–15", "zh": "12–15 岁"},
-        "short": {"en": "12–15", "zh": "12–15"},
-        "range": (12, 15),
+    # One band now covers eleven to eighteen, which is a wide room to write for.
+    # Aim at the middle of it and let the ends reach: a thirteen-year-old should
+    # not be lost, and a seventeen-year-old should not feel condescended to. The
+    # way to serve both is to keep the substance adult and the scaffolding
+    # generous — explain the institution, never simplify the argument.
+    "secondary": {
+        "label": {"en": "Secondary school"},
+        "short": {"en": "Secondary"},
+        "range": (12, 18),
         "paragraphs": "4 to 6 paragraphs",
-        "sentences": "Varied sentence length. Nuance is welcome when it is earned.",
-        "words": 3,
-        "voice": (
-            "Write for a bright, sceptical 13-year-old. They can hold a system in "
-            "mind — incentives, second-order effects, competing interests — but "
-            "every institution and piece of jargon still gets unpacked the first "
-            "time it appears."
+        "sentences": (
+            "Adult sentence rhythm. Complexity is fine where it is earned; "
+            "padding never is."
         ),
-        "questions": (
-            "Questions about trade-offs, incentives, and unintended consequences, "
-            "hard enough that a thoughtful adult would pause before answering."
-        ),
-    },
-    "16+": {
-        "label": {"en": "Ages 16+", "zh": "16 岁以上"},
-        "short": {"en": "16+", "zh": "16+"},
-        "range": (16, 18),
-        "paragraphs": "5 to 6 paragraphs",
-        "sentences": "Adult sentence rhythm. Complexity is fine; padding is not.",
         "words": 3,
         "voice": (
             "Write close to good adult journalism, minus the assumed background. "
-            "Assume real reasoning ability and no institutional knowledge. Do not "
-            "simplify the substance — only the scaffolding. Name the mechanism, "
-            "not just the outcome."
+            "Assume real reasoning ability — incentives, second-order effects, "
+            "competing interests — and no institutional knowledge whatsoever. "
+            "Every institution and piece of jargon is unpacked the first time it "
+            "appears, in a clause rather than a lecture. Do not simplify the "
+            "substance, only the scaffolding: name the mechanism, not just the "
+            "outcome."
         ),
         "questions": (
             "Questions that reach the actual disagreement among informed adults — "
-            "about values and trade-offs, not about facts."
+            "about values and trade-offs, not about facts. Hard enough that a "
+            "thoughtful adult would pause before answering."
         ),
     },
 }
 
-DEFAULT_BAND = "12-15"
+DEFAULT_BAND = "secondary"
 
 MIN_AGE, MAX_AGE = 5, 18
 
@@ -350,7 +346,8 @@ def load(path: Path | None = None) -> Config:
 
     languages = list(edition.get("languages") or ["en"])
     unknown = [l for l in languages if l not in LANGUAGES]
-    _require(not unknown, f"unknown language {unknown}. Choose from: en, zh")
+    _require(not unknown, f"unknown language {unknown}. Choose from: "
+             + ", ".join(LANGUAGES))
     _require(bool(languages), "edition.languages cannot be empty")
 
     timezone = schedule.get("timezone", "America/Vancouver")

@@ -4,8 +4,7 @@
     "start": "2026-08-21T12:00:00-07:00",
     "end": "2026-08-22T12:00:00-07:00",
     "label": {
-      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT",
-      "zh": "PDT 8月21日 12:00 至 8月22日 12:00"
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
     }
   },
   "generated_at": "2026-08-22T12:29:04-07:00",
@@ -25,13 +24,11 @@
       "GLOBAL"
     ],
     "bands": [
-      "6-11",
-      "12-15",
-      "16+"
+      "primary",
+      "secondary"
     ],
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "timezone": "America/Vancouver",
     "hour": 12
@@ -49,36 +46,30 @@
       "background": [
         {
           "title": {
-            "en": "U.S.-Canada tariffs take effect after trade talks collapse",
-            "zh": "美加贸易谈判破裂后关税生效"
+            "en": "U.S.-Canada tariffs take effect after trade talks collapse"
           },
           "summary": {
-            "en": "NPR's account of the deadline passing adds detail on which Canadian industries are hit hardest and how officials on both sides describe the breakdown.",
-            "zh": "NPR的报道补充了哪些加拿大行业受冲击最大，以及双方官员如何描述谈判破裂的细节。"
+            "en": "NPR's account of the deadline passing adds detail on which Canadian industries are hit hardest and how officials on both sides describe the breakdown."
           },
           "publisher": "NPR",
           "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs"
         },
         {
           "title": {
-            "en": "U.S.-Canada trade talks collapse, triggering Trump's 50% tariffs",
-            "zh": "美加贸易谈判破裂，触发特朗普的50%关税"
+            "en": "U.S.-Canada trade talks collapse, triggering Trump's 50% tariffs"
           },
           "summary": {
-            "en": "Bloomberg's market-focused report explains what the tariffs mean for cross-border supply chains and company costs.",
-            "zh": "彭博社以市场视角的报道解释了关税对跨境供应链和企业成本的影响。"
+            "en": "Bloomberg's market-focused report explains what the tariffs mean for cross-border supply chains and company costs."
           },
           "publisher": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-08-22/us-canada-trade-talks-collapse-triggering-trump-s-50-tariffs"
         },
         {
           "title": {
-            "en": "U.S.-Canada talks collapse, 50% tariffs begin",
-            "zh": "美加谈判破裂，50%关税开始实施"
+            "en": "U.S.-Canada talks collapse, 50% tariffs begin"
           },
           "summary": {
-            "en": "UPI's wire report gives a concise timeline of the deadline and the immediate reactions from both governments.",
-            "zh": "UPI通讯社的报道简明梳理了截止时间的时间线及两国政府的即时反应。"
+            "en": "UPI's wire report gives a concise timeline of the deadline and the immediate reactions from both governments."
           },
           "publisher": "UPI",
           "url": "https://www.upi.com/Top_News/US/2026/08/22/US-Canada-talks-collapse-50-tariffs-begin/3531787410477/"
@@ -87,14 +78,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "The US and Canada Are in a Big Money Fight",
-            "zh": "美国和加拿大陷入了一场“钱”的大战"
+            "en": "The US and Canada Are in a Big Money Fight"
           },
           "hook": {
-            "en": "The United States and Canada have been friends and trading partners for a very long time, buying and selling things back and forth every single day. Last night, talks to keep that trade friendly broke down right before a deadline. Now the U.S. is charging an extra 50% tax on Canadian goods like wine, hockey sticks, cement, and plywood — and Canada says it will charge the same tax back on American goods starting next month.",
-            "zh": "很久以来，美国和加拿大一直是好朋友，也是贸易伙伴，每天都在互相买卖各种东西。昨天深夜，就在最后期限之前，双方为了维持友好贸易而进行的谈判破裂了。现在，美国要对加拿大商品——比如葡萄酒、冰球棍、水泥和胶合板——多收50%的税，而加拿大说下个月开始也要对美国商品收一样多的税作为回应。"
+            "en": "The United States and Canada have been friends and trading partners for a very long time, buying and selling things back and forth every single day. Last night, talks to keep that trade friendly broke down right before a deadline. Now the U.S. is charging an extra 50% tax on Canadian goods like wine, hockey sticks, cement, and plywood — and Canada says it will charge the same tax back on American goods starting next month."
           },
           "story": {
             "en": [
@@ -102,80 +91,56 @@
               "Last night, the two countries could not agree on new trading rules before a midnight deadline. So the U.S. put a 50% tariff — a special extra tax — on about $20 billion worth of Canadian goods. If you spent one dollar every single second, it would take you more than 600 years to spend that much money.",
               "A hockey stick that used to cost $50 to bring into the U.S. now costs $75, because of that extra tax.",
               "Canada's leader, Prime Minister Mark Carney, said the U.S. terms were unfair. He promised Canada would tax American goods back by the exact same amount, starting next month."
-            ],
-            "zh": [
-              "想象一下，你的邻居每天都买你的柠檬水，而你也买他们的饼干。美国和加拿大做的事情有点像这样，只不过换成了汽车、木材和食物这些东西——价值可大得多。",
-              "昨天深夜，两国没能在午夜的最后期限前就新的贸易规则达成一致。于是美国对价值大约200亿美元的加拿大商品，加收了50%的特别税，叫做“关税”。如果你每秒花一美元，要花600多年才能花完这么多钱。",
-              "一根以前进入美国要花50美元的冰球棍，现在因为这项额外的税，要花75美元了。",
-              "加拿大总理马克·卡尼说，美国提出的条件不公平。他承诺加拿大也会用完全一样的金额，从下个月开始对美国商品加税作为回应。"
             ]
           },
           "why_it_matters": {
-            "en": "If your family buys Canadian maple syrup, wine, or wood for building things, those prices could go up soon. It also matters because the U.S. and Canada have been each other's biggest trading partner for decades, so when they stop cooperating, businesses and workers on both sides of the border feel it.",
-            "zh": "如果你家会买加拿大的枫糖浆、葡萄酒，或者用来盖房子的木材，这些东西的价格可能很快就会上涨。这件事也很重要，因为几十年来，美国和加拿大一直是彼此最大的贸易伙伴，一旦双方不再友好合作，边境两边的企业和工人都会受到影响。"
+            "en": "If your family buys Canadian maple syrup, wine, or wood for building things, those prices could go up soon. It also matters because the U.S. and Canada have been each other's biggest trading partner for decades, so when they stop cooperating, businesses and workers on both sides of the border feel it."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Tariff",
-                "zh": "关税"
+                "en": "Tariff"
               },
               "def": {
-                "en": "A tariff is extra money a government charges on goods coming in from another country, which usually makes those goods more expensive to buy.",
-                "zh": "关税是政府对从其他国家进口的商品额外征收的钱，这通常会让这些商品变得更贵。"
+                "en": "A tariff is extra money a government charges on goods coming in from another country, which usually makes those goods more expensive to buy."
               }
             },
             {
               "term": {
-                "en": "Trade deal",
-                "zh": "贸易协议"
+                "en": "Trade deal"
               },
               "def": {
-                "en": "A trade deal is an agreement between countries about what taxes and rules apply when they buy and sell things to each other.",
-                "zh": "贸易协议是国家之间就互相买卖商品时应适用什么税收和规则所达成的约定。"
+                "en": "A trade deal is an agreement between countries about what taxes and rules apply when they buy and sell things to each other."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "If you felt a deal with a friend was unfair, would it be okay to suddenly change the rules without warning, like the U.S. did here?",
-                "zh": "如果你觉得和朋友的约定不公平，可以像美国这样，事先不打招呼就突然改变规则吗？"
+                "en": "If you felt a deal with a friend was unfair, would it be okay to suddenly change the rules without warning, like the U.S. did here?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's okay",
-                    "zh": "可以这样做"
+                    "en": "Yes, it's okay"
                   },
                   "points": {
                     "en": [
                       "If a deal really is unfair, waiting longer just lets the unfairness continue.",
                       "Sometimes you have to act firmly to get the other side to take your complaint seriously.",
                       "A country has to look out for its own workers and businesses first."
-                    ],
-                    "zh": [
-                      "如果一个约定真的不公平，等得越久，不公平就持续得越久。",
-                      "有时候必须采取果断的行动，才能让对方认真对待你的不满。",
-                      "一个国家首先要照顾好自己的工人和企业。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not okay",
-                    "zh": "不应该这样做"
+                    "en": "No, it's not okay"
                   },
                   "points": {
                     "en": [
                       "Changing the rules suddenly, right before a deadline, doesn't give the other side a fair chance to respond.",
                       "It can break trust that took a long time to build, making it harder to work together in the future.",
                       "Surprise decisions often hurt regular people and small businesses who didn't get a say."
-                    ],
-                    "zh": [
-                      "在最后期限前突然改变规则，没有给对方公平的机会做出回应。",
-                      "这样做会破坏花了很长时间才建立起来的信任，让以后的合作变得更难。",
-                      "突然的决定往往会伤害到没有发言权的普通人和小企业。"
                     ]
                   }
                 }
@@ -183,43 +148,30 @@
             },
             {
               "question": {
-                "en": "Since Canada plans to tax American goods back by the exact same amount, is 'doing the same thing back' a good way to solve this kind of fight?",
-                "zh": "既然加拿大打算用完全一样的方式对美国商品加税作为回应，“以牙还牙”是解决这类争端的好办法吗？"
+                "en": "Since Canada plans to tax American goods back by the exact same amount, is 'doing the same thing back' a good way to solve this kind of fight?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, matching back is fair",
-                    "zh": "以同样方式回应是公平的"
+                    "en": "Yes, matching back is fair"
                   },
                   "points": {
                     "en": [
                       "Matching the tax exactly shows the other side what it feels like, which might make them want to talk again.",
                       "It stops one country from being pushed around while the other one wins everything.",
                       "It sends a clear message that actions have equal consequences."
-                    ],
-                    "zh": [
-                      "用完全相同的税收进行回应，能让对方切身体会同样的感受，也许会促使双方重新坐下来谈判。",
-                      "这样能避免一个国家被欺负，而另一个国家却什么都占了便宜。",
-                      "这清楚地表明，做出的行动会带来同等的后果。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it makes things worse",
-                    "zh": "这样只会让事情变得更糟"
+                    "en": "No, it makes things worse"
                   },
                   "points": {
                     "en": [
                       "Hitting back just as hard can turn one disagreement into a much bigger, longer fight.",
                       "Regular families on both sides end up paying more for things, even though they didn't cause the problem.",
                       "Talking and compromising might fix the real issue faster than trading punishments."
-                    ],
-                    "zh": [
-                      "同样力度的反击可能会把一次分歧变成一场更大、更持久的争端。",
-                      "双方普通家庭最终都要为东西多付钱，尽管问题不是他们造成的。",
-                      "谈判和妥协也许比互相惩罚更能快速解决真正的问题。"
                     ]
                   }
                 }
@@ -227,14 +179,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "U.S. and Canada Slap Huge Tariffs on Each Other After Trade Talks Collapse",
-            "zh": "美加贸易谈判破裂,双方互征巨额关税"
+            "en": "U.S. and Canada Slap Huge Tariffs on Each Other After Trade Talks Collapse"
           },
           "hook": {
-            "en": "Trade talks between the United States and Canada fell apart just before a midnight deadline. The U.S. responded by placing a 50% tax on about $20 billion worth of Canadian goods — including wine, hockey sticks, cement and plywood — and Canada says it will hit back with matching tariffs next month.",
-            "zh": "美国与加拿大的贸易谈判在午夜截止期限前突然破裂。美国随即对价值约200亿美元的加拿大商品——包括葡萄酒、冰球杆、水泥和胶合板——征收50%的关税，加拿大则表示下个月将“以牙还牙”实施同等规模的反制关税。"
+            "en": "Trade talks between the United States and Canada fell apart just before a midnight deadline. The U.S. responded by placing a 50% tax on about $20 billion worth of Canadian goods — including wine, hockey sticks, cement and plywood — and Canada says it will hit back with matching tariffs next month."
           },
           "story": {
             "en": [
@@ -243,91 +193,64 @@
               "Canadian Prime Minister Mark Carney did not hide his frustration. He called the American terms 'uneconomic' and 'unfair,' saying they 'undermined the net benefits for Canada' — in plain terms, that the deal on the table would have cost Canada more than it gained. Carney promised that Canada will respond 'dollar for dollar,' meaning it plans to impose its own tariffs on American goods worth roughly the same amount, starting next month.",
               "This matters more than a normal disagreement between two countries. The U.S. and Canada have long shared the closest and largest trading relationship either country has with anyone. Car parts cross the border multiple times before a vehicle is finished. Farmers, energy companies, and factories on both sides depend on cheap, easy trade with their neighbor. A rupture this size doesn't just affect wine drinkers and hockey players — it touches jobs and prices in industries most people never think about.",
               "Exactly who caused the breakdown depends on who you ask. American officials and Canadian officials each blame the other for demanding unreasonable terms, and there's no independent referee to settle it. It's also unclear how long the new tariffs will stay in place, or whether the two sides will go back to the negotiating table before Canada's retaliation kicks in next month. For now, businesses on both sides of the border are left waiting to see how expensive their neighbor is about to become."
-            ],
-            "zh": [
-              "午夜的钟声敲响时，谈判的时间也用完了。美加两国的谈判代表原本试图达成一项新的贸易协议，但谈判在截止期限前就破裂了。几个小时后，美国宣布对价值约200亿美元的加拿大商品征收50%的关税——关税就是政府对进口商品征收的一种税。清单上有些商品可能出乎你的意料：葡萄酒、冰球杆、成袋的水泥，还有建房子用的胶合板。",
-              "50%的关税意味着什么？假设一家加拿大公司想把一根价值100美元的冰球杆卖到美国的商店，现在光是把它运过边境，就要多付50美元的关税。这笔额外的成本通常会转嫁出去——要么商店把价格提高，让美国消费者多花钱；要么加拿大公司自己少赚很多；有时候两种情况同时发生。把这种情况乘以成千上万种商品，你就能明白为什么200亿美元的关税是一件大事。",
-              "加拿大总理马克·卡尼毫不掩饰自己的不满。他称美方提出的条件“不合经济逻辑”且“不公平”，并说这些条件“损害了加拿大的净利益”——用大白话说，就是这份协议加拿大付出的代价比得到的好处还多。卡尼承诺，加拿大将“一美元对一美元”地反击，也就是说，从下个月开始，加拿大将对价值大致相同的美国商品征收自己的关税。",
-              "这件事的影响远不止于一场普通的两国分歧。长期以来，美国和加拿大一直保持着彼此最紧密、规模最大的贸易关系——比双方与其他任何国家的贸易关系都更深。一辆汽车在造好之前，零部件可能要跨越两国边境好几次。两国的农民、能源公司和工厂，都依赖与邻国之间便宜又顺畅的贸易往来。这样一场大规模的破裂，影响的可不只是喝葡萄酒和打冰球的人——它会波及很多普通人根本想不到的行业里的工作岗位和商品价格。",
-              "至于到底是谁造成了这次破裂，取决于你问的是哪一方。美国官员和加拿大官员都指责对方提出了不合理的条件，而且没有一个中立的裁判能来断定谁对谁错。目前也不清楚新关税会持续多久，也不知道在加拿大下个月的反制措施生效之前，双方是否会重新回到谈判桌前。眼下，边境两侧的企业都只能等着看，自己的邻国接下来会变得有多“贵”。"
             ]
           },
           "why_it_matters": {
-            "en": "Even if you don't buy Canadian wine or hockey sticks, tariffs like these tend to ripple into prices for everyday things — construction materials, packaged goods, anything built using parts or ingredients that cross that border. It's also a reminder that even friendly countries with decades of connected economies can hit a wall when their governments can't agree on what's fair.",
-            "zh": "就算你不买加拿大的葡萄酒或冰球杆，这类关税往往也会渗透到日常用品的价格里——建材、包装商品，任何用到跨境零件或原料制成的东西都可能涨价。这件事也提醒我们：即便是拥有几十年紧密经济联系的友好国家，一旦政府在“什么才算公平”这个问题上谈不拢，关系也可能碰壁。"
+            "en": "Even if you don't buy Canadian wine or hockey sticks, tariffs like these tend to ripple into prices for everyday things — construction materials, packaged goods, anything built using parts or ingredients that cross that border. It's also a reminder that even friendly countries with decades of connected economies can hit a wall when their governments can't agree on what's fair."
           },
           "word_bank": [
             {
               "term": {
-                "en": "tariff",
-                "zh": "关税"
+                "en": "tariff"
               },
               "def": {
-                "en": "A tax a government puts on goods coming in from another country, usually paid by the company importing them.",
-                "zh": "政府对从其他国家进口的商品征收的一种税，通常由进口商品的公司支付。"
+                "en": "A tax a government puts on goods coming in from another country, usually paid by the company importing them."
               }
             },
             {
               "term": {
-                "en": "retaliate",
-                "zh": "反制"
+                "en": "retaliate"
               },
               "def": {
-                "en": "To respond to an action by doing something similar back — here, Canada plans to tax American goods because the U.S. taxed Canadian goods.",
-                "zh": "针对对方的行动做出类似的回应——在这里，就是因为美国对加拿大商品征税，加拿大也计划对美国商品征税。"
+                "en": "To respond to an action by doing something similar back — here, Canada plans to tax American goods because the U.S. taxed Canadian goods."
               }
             },
             {
               "term": {
-                "en": "trade deal",
-                "zh": "贸易协议"
+                "en": "trade deal"
               },
               "def": {
-                "en": "An agreement between countries about the rules for buying and selling goods across their borders.",
-                "zh": "国家之间就跨境买卖商品的规则达成的协议。"
+                "en": "An agreement between countries about the rules for buying and selling goods across their borders."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "When trade talks fail, is it better to reject a deal you see as unfair, even if it means higher prices and lost jobs in the short term?",
-                "zh": "当贸易谈判破裂时，即使短期内会导致物价上涨和工作岗位流失，拒绝一份自己认为不公平的协议，是不是更好的选择？"
+                "en": "When trade talks fail, is it better to reject a deal you see as unfair, even if it means higher prices and lost jobs in the short term?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Reject the deal",
-                    "zh": "拒绝这份协议"
+                    "en": "Reject the deal"
                   },
                   "points": {
                     "en": [
                       "Accepting a bad deal now can lock in unfair terms for years, since trade agreements are hard to renegotiate once signed.",
                       "Backing down under pressure can signal to future negotiating partners that a country can be pushed around, inviting worse offers next time.",
                       "Short-term pain from tariffs can motivate both sides to find a genuinely fair agreement faster than simply accepting unfavorable terms."
-                    ],
-                    "zh": [
-                      "现在接受一份不好的协议，可能会把不公平的条款锁定很多年，因为贸易协议一旦签署，很难重新谈判。",
-                      "在压力下让步，可能会向未来的谈判对手传递一个信号：这个国家是可以被逼迫的，从而招来更糟糕的条件。",
-                      "关税带来的短期阵痛，可能比直接接受不利条款更能促使双方尽快达成真正公平的协议。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Accept a compromise to avoid a rupture",
-                    "zh": "接受妥协，避免关系破裂"
+                    "en": "Accept a compromise to avoid a rupture"
                   },
                   "points": {
                     "en": [
                       "Tariffs raise prices and can cost jobs immediately, hurting real families before any 'better deal' arrives.",
                       "Even an imperfect deal preserves a working relationship that took decades to build, which can be worth more than winning a particular negotiating point.",
                       "Retaliation cycles can escalate unpredictably, and neither government fully controls how far they'll go once they start."
-                    ],
-                    "zh": [
-                      "关税会立刻推高物价、造成失业，在所谓“更好的协议”到来之前，真正受伤的是普通家庭。",
-                      "即使不够完美，一份协议也能维系一段花了几十年才建立起来的合作关系，这种价值有时比在某个谈判细节上“赢了”更重要。",
-                      "反制关税可能会不断升级，一旦开始，没有哪个政府能完全控制局面会走多远。"
                     ]
                   }
                 }
@@ -335,197 +258,30 @@
             },
             {
               "question": {
-                "en": "Should governments treat trade disagreements with close allies the same way they'd treat disagreements with rivals?",
-                "zh": "政府处理与亲密盟友的贸易分歧时，是否应该和处理与对手国家的分歧一样强硬？"
+                "en": "Should governments treat trade disagreements with close allies the same way they'd treat disagreements with rivals?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, treat trade as trade",
-                    "zh": "是，贸易归贸易"
+                    "en": "Yes, treat trade as trade"
                   },
                   "points": {
                     "en": [
                       "Economic fairness shouldn't depend on friendship; a bad deal is a bad deal regardless of who's offering it.",
                       "Allies can take advantage of goodwill precisely because they assume the other side won't push back hard.",
                       "Firm tariffs, used consistently, protect domestic industries and workers no matter who the trading partner is."
-                    ],
-                    "zh": [
-                      "经济上的公平不应该取决于双方是不是朋友；不公平的协议就是不公平，不管提出的是谁。",
-                      "盟友有时恰恰因为对方认定不会强硬反击，反而更容易占对方便宜。",
-                      "无论贸易伙伴是谁，坚定一致地使用关税，都能保护本国产业和工人。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, allies deserve different treatment",
-                    "zh": "不，对盟友应区别对待"
+                    "en": "No, allies deserve different treatment"
                   },
                   "points": {
                     "en": [
                       "Punishing an ally with the same tools used against rivals can damage trust that matters for things beyond trade, like security cooperation.",
                       "Aggressive tactics between neighbors can spill into other areas of the relationship, making future cooperation harder even after the trade issue is resolved.",
                       "Long-standing allies have deeply intertwined economies, so tariffs hurt both sides' own citizens more than tariffs against a distant rival would."
-                    ],
-                    "zh": [
-                      "用对付对手的手段去惩罚盟友，可能会破坏一些超越贸易本身的信任，比如安全领域的合作。",
-                      "邻国之间的强硬手段，可能会蔓延到关系的其他方面，让贸易问题解决之后，未来的合作也变得更难。",
-                      "长期盟友的经济早已深度交织在一起，关税伤害的其实是双方自己的老百姓，程度会比针对遥远对手的关税更严重。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "US-Canada Trade Talks Collapse, 50% Tariffs Now in Effect",
-            "zh": "美加贸易谈判破裂，50%关税正式生效"
-          },
-          "hook": {
-            "en": "Trade talks between the United States and Canada fell apart just before a midnight deadline, and the U.S. has now slapped 50% tariffs on about $20 billion of Canadian goods — wine, hockey sticks, cement, plywood. Canadian Prime Minister Mark Carney called the U.S. terms \"uneconomic\" and \"unfair,\" and says Canada will hit back with matching tariffs starting next month.",
-            "zh": "美国与加拿大的贸易谈判在午夜截止期限前破裂，美国随即对约200亿美元的加拿大商品——葡萄酒、冰球棒、水泥、胶合板——征收50%的关税。加拿大总理马克·卡尼称美方提出的条件“不合经济逻辑”且“不公平”，并表示加拿大将从下个月起以同等力度反制。"
-          },
-          "story": {
-            "en": [
-              "For weeks, negotiators from both countries worked toward a deadline set for midnight. When it passed without a deal, the U.S. followed through on a threat it had been making for months: a 50% tariff on a wide slice of Canadian exports, worth roughly $20 billion. The list reads like a snapshot of Canadian industry — wine from British Columbia and Ontario, hockey sticks made for a sport Canada practically invented, cement and plywood used across North American construction sites.",
-              "A tariff is a tax collected at the border when goods cross from one country into another. It is not paid by the exporting country's government — it is paid by the importer, usually a business, which then either absorbs the cost or passes it on in higher prices to whoever buys the product next. A 50% tariff on Canadian plywood, for instance, means an American lumber yard now pays half again as much to bring it in, a cost that tends to show up eventually in the price of a house being built.",
-              "Carney's language was pointed. He said the U.S. terms \"undermined the net benefits for Canada\" — meaning that whatever Canada was being asked to give up in the deal outweighed what it would get back — and promised retaliation \"dollar for dollar,\" meaning Canada's countertariffs, due next month, will be sized to match the U.S. measures precisely rather than escalate past them or fall short.",
-              "What makes this more than a routine trade dispute is the size of what it touches. The U.S. and Canada have long run the largest bilateral trading relationship either country has, with supply chains — especially in autos, energy and lumber — built over decades on the assumption that goods would cross the border with minimal friction. A rupture at this scale is structural, not seasonal: it changes the basic terms under which companies on both sides have been planning production, pricing and investment, and it will not simply reset once a new agreement is signed.",
-              "The two governments do not agree on who broke the talks or why. Washington has framed the tariffs as a response to Canadian trade practices it considers unfair; Ottawa frames Washington's demands as unreasonable and the tariffs as an overreaction. NBC, NPR, Bloomberg and UPI have each independently confirmed the tariffs and the retaliation plan, but the account of what happened inside the negotiating room — who moved, who didn't — depends on which government's version you're reading.",
-              "What isn't yet known is how long any of this lasts. There is no confirmed date for talks to resume, no sign of which side might blink first, and no guarantee Canada's countertariffs won't be met with a further U.S. response once they take effect next month. For now, businesses on both sides of the border are left pricing in a tax that didn't exist a few weeks ago."
-            ],
-            "zh": [
-              "数周以来，两国谈判代表一直朝着午夜截止期限努力。当期限过去、协议未能达成后，美国兑现了数月来的威胁：对价值约200亿美元的一大批加拿大出口商品征收50%的关税。这份清单几乎是加拿大产业的缩影——不列颠哥伦比亚省和安大略省的葡萄酒、为这项几乎由加拿大发明的运动所制造的冰球棒，以及北美各地建筑工地都会用到的水泥和胶合板。",
-              "关税是货物从一国跨境进入另一国时在边境征收的税。缴纳者不是出口国政府，而是进口方——通常是一家企业，它要么自行承担这笔成本，要么把它转嫁到卖给下一位买家的价格中。举例来说，对加拿大胶合板征收50%的关税，意味着一家美国木材厂现在要多付一半的钱才能把货运进来，而这笔成本最终往往会体现在一栋在建房屋的价格里。",
-              "卡尼的措辞很尖锐。他表示美方条件“损害了加拿大的净利益”——意思是加拿大在这份协议中被要求放弃的东西，超过了它能得到的回报——并承诺以“一美元对一美元”的方式反制，也就是说，加拿大将于下月生效的反制关税会精确匹配美方措施的规模，既不升级也不打折扣。",
-              "这起事件超出一般贸易纠纷的原因在于它所触及的规模。美国与加拿大长期以来一直是彼此最大的双边贸易伙伴，尤其在汽车、能源和木材领域，几十年来建立起的供应链都建立在货物能以最小摩擦跨境流通这一假设之上。如此规模的破裂是结构性的，而非季节性的：它改变了两国企业长期以来据以安排生产、定价和投资的基本条件，而且不会因为日后签署新协议就简单地恢复原状。",
-              "两国政府对谈判为何破裂、责任在谁并不一致。华盛顿将关税定性为对其认为不公平的加拿大贸易做法的回应；渥太华则认为美方的要价不合理，关税是一种过度反应。NBC、NPR、彭博社和合众国际社都各自独立证实了关税及反制计划的存在，但至于谈判桌上究竟发生了什么、是谁先让步——这要看你看的是哪一方政府的说法。",
-              "目前还不清楚这一切会持续多久。谈判重启没有确定日期，也看不出哪一方会率先让步，更无法保证下月加拿大反制关税生效后，美国不会再做出进一步回应。眼下，边境两侧的企业都不得不开始为几周前还不存在的这项税费重新计算成本。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "If you've ever bought Canadian lumber, wine, or anything built with plywood or cement, this is the kind of decision that eventually shows up in a receipt, not just a headline. It's also a reminder that even the closest, most routine economic relationships — the ones nobody thinks about because they've always just worked — can be renegotiated overnight when one side decides the terms no longer serve it.",
-            "zh": "如果你买过加拿大的木材、葡萄酒，或是任何用胶合板、水泥建造的东西，这类决定最终会体现在账单上，而不只是新闻标题里。这也提醒我们：即便是最紧密、最日常的经济关系——那些因为一直运转正常而没人多想的关系——一旦有一方认定条件不再对自己有利，也可能一夜之间被重新谈判。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Tariff",
-                "zh": "关税"
-              },
-              "def": {
-                "en": "A tax collected at the border on goods imported from another country, usually paid by the importing business and often passed on to customers as a higher price.",
-                "zh": "一种在边境对进口商品征收的税，通常由进口企业支付，往往会以更高的价格转嫁给消费者。"
-              }
-            },
-            {
-              "term": {
-                "en": "Dollar-for-dollar retaliation",
-                "zh": "“一美元对一美元”式反制"
-              },
-              "def": {
-                "en": "A response where a country matches the exact value of another country's tariffs with tariffs of its own, rather than escalating higher or responding with less.",
-                "zh": "指一国用与对方关税规模完全相等的反制关税作为回应，既不进一步升级，也不做出弱于对方的回应。"
-              }
-            },
-            {
-              "term": {
-                "en": "Structural rupture",
-                "zh": "结构性破裂"
-              },
-              "def": {
-                "en": "A break in a long-running relationship or system that changes its basic terms going forward, rather than a temporary disruption that resets once conditions change back.",
-                "zh": "指一段长期关系或体系中发生的、会改变其未来基本运作条件的断裂，而非一时性的、条件恢复后就会自动消失的干扰。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should the U.S. use steep tariffs to pressure a close ally like Canada, even knowing it will damage the relationship?",
-                "zh": "美国是否应该用高额关税向加拿大这样的亲密盟友施压，即便明知这会损害两国关系？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes — allies should still be held to fair terms",
-                    "zh": "应该——盟友也应遵守公平条款"
-                  },
-                  "points": {
-                    "en": [
-                      "If a trading partner has been getting terms that no longer make economic sense for the other side, tariffs are one of the few tools that can force a renegotiation.",
-                      "Treating allies as exempt from scrutiny just because they're allies can let unfair arrangements persist indefinitely.",
-                      "Short-term economic pain can be the price of a more balanced long-term deal for both countries."
-                    ],
-                    "zh": [
-                      "如果一个贸易伙伴长期享有的条件对另一方而言已不再合乎经济逻辑，关税是少数能够迫使重新谈判的工具之一。",
-                      "仅仅因为对方是盟友就免于审视，可能会让不公平的安排无限期地持续下去。",
-                      "短期的经济阵痛，可能是换取双方长期更平衡协议所必须付出的代价。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No — the cost to trust outweighs the gain",
-                    "zh": "不应该——信任受损的代价大于收益"
-                  },
-                  "points": {
-                    "en": [
-                      "Damaging trust with your largest and closest trading partner has costs that don't show up in any tariff calculation.",
-                      "Retaliation can spiral, hurting industries and raising prices for consumers on both sides of the border.",
-                      "An ally that feels bullied may start looking to diversify its trade relationships elsewhere, a loss that outlasts any single dispute."
-                    ],
-                    "zh": [
-                      "损害与最大、最亲密贸易伙伴之间的信任，其代价不会体现在任何关税计算表上。",
-                      "反制可能不断升级，最终损害两国的产业，并推高边境两侧消费者的物价。",
-                      "一个感到被欺压的盟友可能开始寻求贸易关系的多元化，这种损失会比任何一次具体争端持续得更久。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Should Canada match the U.S. tariffs dollar for dollar, or would restraint serve it better?",
-                "zh": "加拿大应该以“一美元对一美元”的方式反制美国关税，还是保持克制会更有利？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Match it",
-                    "zh": "以牙还牙"
-                  },
-                  "points": {
-                    "en": [
-                      "Matching the tariffs exactly signals resolve and protects domestic industries from being squeezed without consequence.",
-                      "A government that doesn't respond risks looking weak to its own voters and businesses.",
-                      "Imposing real costs on the U.S. side may bring negotiators back to the table faster than patience would."
-                    ],
-                    "zh": [
-                      "精确匹配关税能够表明决心，避免本国产业在毫无代价的情况下被持续挤压。",
-                      "一个不作回应的政府，可能在本国选民和企业眼中显得软弱。",
-                      "让美方也承受真实的经济代价，或许比单纯的耐心等待更能促使谈判代表尽快重返谈判桌。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Show restraint",
-                    "zh": "保持克制"
-                  },
-                  "points": {
-                    "en": [
-                      "Canada's economy is smaller and more exposed to U.S. retaliation, so an escalating cycle is likely to hurt it more in the end.",
-                      "Avoiding retaliation keeps the door open to a negotiated fix without inflicting further damage on either economy.",
-                      "Canadian consumers and businesses will pay higher prices either way, regardless of who is seen to 'win' the standoff."
-                    ],
-                    "zh": [
-                      "加拿大经济体量较小，更容易受到美国反制的冲击，一旦陷入升级循环，最终受损更重的可能是加拿大自身。",
-                      "避免反制能为通过谈判解决问题保留空间，而不必让两国经济承受进一步损害。",
-                      "无论外界认为谁在这场对峙中“获胜”，加拿大的消费者和企业最终都要为更高的物价买单。"
                     ]
                   }
                 }
@@ -547,24 +303,20 @@
       "background": [
         {
           "title": {
-            "en": "What did war with the US reveal about Iran's weapons capabilities?",
-            "zh": "与美国的战争暴露了伊朗武器能力的哪些方面？"
+            "en": "What did war with the US reveal about Iran's weapons capabilities?"
           },
           "summary": {
-            "en": "Al Jazeera (Qatar state-funded) assesses Iran's military performance and losses during the conflict, offering a perspective sympathetic to Tehran's framing.",
-            "zh": "半岛电视台（由卡塔尔政府资助）评估了伊朗在冲突中的军事表现和损失，其视角较为同情德黑兰的立场。"
+            "en": "Al Jazeera (Qatar state-funded) assesses Iran's military performance and losses during the conflict, offering a perspective sympathetic to Tehran's framing."
           },
           "publisher": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/22/what-did-war-with-the-us-reveal-about-irans-weapons-capabilities"
         },
         {
           "title": {
-            "en": "Iran war live: Trump says Tehran 'not ready to make right deal' to end war",
-            "zh": "伊朗战争直播：特朗普称德黑兰\"尚未准备好达成正确协议\"以结束战争"
+            "en": "Iran war live: Trump says Tehran 'not ready to make right deal' to end war"
           },
           "summary": {
-            "en": "This Al Jazeera liveblog (Qatar state-funded) tracks the diplomatic back-and-forth in real time, including Trump's stated conditions for ending the conflict.",
-            "zh": "这个半岛电视台（卡塔尔政府资助）的直播博客实时追踪外交往来，包括特朗普结束冲突所提出的条件。"
+            "en": "This Al Jazeera liveblog (Qatar state-funded) tracks the diplomatic back-and-forth in real time, including Trump's stated conditions for ending the conflict."
           },
           "publisher": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/liveblog/2026/8/22/iran-war-live-trump-says-tehran-not-ready-to-make-right-deal-to-end-war"
@@ -573,14 +325,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "The US Says It Will Try to Cut Off Iran's Money",
-            "zh": "美国说要切断伊朗的资金"
+            "en": "The US Says It Will Try to Cut Off Iran's Money"
           },
           "hook": {
-            "en": "The United States and Iran have been locked in a tense standoff for months, and it just got more serious. The US President says America is preparing an \"economic D-Day\" — a massive push to block Iran's money. Iran says it would rather lose everything it has than back down.",
-            "zh": "美国和伊朗之间紧张对峙已经持续了好几个月，现在情况变得更严重了。美国总统说，美国正在准备一场“经济版的诺曼底登陆”——一次大规模行动，目的是切断伊朗的资金来源。伊朗则表示，宁愿失去一切，也不会退让。"
+            "en": "The United States and Iran have been locked in a tense standoff for months, and it just got more serious. The US President says America is preparing an \"economic D-Day\" — a massive push to block Iran's money. Iran says it would rather lose everything it has than back down."
           },
           "story": {
             "en": [
@@ -588,80 +338,56 @@
               "These penalties are called sanctions. Think of it like taking away someone's allowance so they can't buy anything. When the US puts sanctions on Iran, it tries to stop banks and companies everywhere from doing business with it — especially buying Iran's oil, one of its biggest sources of money.",
               "Iran's top parliament leader said Iran is ready to \"sacrifice our wealth\" rather than lose its \"dignity and honor.\" In other words, Iran might rather go broke than look weak. China, which buys a lot of oil from Iran, said the sanctions plan doesn't help anyone.",
               "The conflict is also costing the US expensive machines. New reports say at least 45 of America's MQ-9 Reaper drones — planes flown by remote control with no pilot inside — have been shot down. That's about one out of every four of these drones, worth more than $1.3 billion altogether, which is more money than almost anyone could spend in a hundred lifetimes."
-            ],
-            "zh": [
-              "美国和伊朗已经争执很久了。两国原本有一个达成协议的截止日期，但最后没能谈成。现在特朗普总统说，美国正准备一件大事：“经济版诺曼底登陆”，也就是一大波制裁，目的是切断维持伊朗政府运转的资金。",
-              "这种惩罚措施叫做“制裁”。你可以把它想象成没收一个人的零花钱，让他没法买东西。当美国对伊朗实施制裁时，它想阻止全世界的银行和公司跟伊朗做生意——尤其是购买伊朗的石油，那是伊朗最主要的收入来源之一。",
-              "伊朗议会议长说，伊朗宁愿“牺牲财富”，也不愿失去“尊严和荣誉”。也就是说，伊朗可能宁愿变穷，也不愿显得软弱。而大量购买伊朗石油的中国表示，这项制裁计划对谁都没好处。",
-              "这场冲突也让美国损失了昂贵的机器。最新报道说，美国至少有45架“死神”MQ-9无人机被击落——这是一种没有飞行员、靠远程操控飞行的飞机。这大约是全部无人机数量的四分之一，总价值超过13亿美元，这笔钱多到普通人就算活一百辈子也花不完。"
             ]
           },
           "why_it_matters": {
-            "en": "When two powerful countries fight with money instead of only weapons, it can still change prices you notice, like the cost of gas for cars. It also shows that disagreements between countries don't always end quickly — sometimes both sides keep pushing, even when it costs them a lot.",
-            "zh": "当两个强大的国家不只靠武器、也靠金钱来较量时，仍然会影响到你能感受到的东西，比如汽车加油的价格。这也说明国家之间的争执不会很快结束——有时候双方都会一直坚持，哪怕代价很大。"
+            "en": "When two powerful countries fight with money instead of only weapons, it can still change prices you notice, like the cost of gas for cars. It also shows that disagreements between countries don't always end quickly — sometimes both sides keep pushing, even when it costs them a lot."
           },
           "word_bank": [
             {
               "term": {
-                "en": "sanctions",
-                "zh": "制裁"
+                "en": "sanctions"
               },
               "def": {
-                "en": "Rules one country makes to stop money or trade with another country, in order to pressure it into changing what it does.",
-                "zh": "一个国家制定的规则，用来阻止和另一个国家的资金往来或贸易，目的是逼迫对方改变做法。"
+                "en": "Rules one country makes to stop money or trade with another country, in order to pressure it into changing what it does."
               }
             },
             {
               "term": {
-                "en": "drone",
-                "zh": "无人机"
+                "en": "drone"
               },
               "def": {
-                "en": "A flying machine with no pilot inside, controlled from far away, sometimes used for watching or attacking.",
-                "zh": "一种没有飞行员的飞行器，由远处的人来操控，有时用来侦察或攻击。"
+                "en": "A flying machine with no pilot inside, controlled from far away, sometimes used for watching or attacking."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair to try to cut off a whole country's money to change what its leaders do?",
-                "zh": "为了改变一个国家领导人的做法，切断整个国家的资金，这样公平吗？"
+                "en": "Is it fair to try to cut off a whole country's money to change what its leaders do?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's fair",
-                    "zh": "公平"
+                    "en": "Yes, it's fair"
                   },
                   "points": {
                     "en": [
                       "It can pressure a government to change without soldiers having to fight.",
                       "It shows there are real consequences for actions many people disagree with.",
                       "It can push leaders to sit down and talk instead of keep fighting."
-                    ],
-                    "zh": [
-                      "它能在不派士兵打仗的情况下，迫使政府改变做法。",
-                      "它表明许多人反对的行为是有真实后果的。",
-                      "它可能促使领导人坐下来谈判，而不是继续冲突。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's not fair",
-                    "zh": "不公平"
+                    "en": "No, it's not fair"
                   },
                   "points": {
                     "en": [
                       "Ordinary families, not just leaders, end up with less money for food and medicine.",
                       "It can make people angrier and less willing to give in.",
                       "It punishes people who never got a say in their government's choices."
-                    ],
-                    "zh": [
-                      "最先受苦的往往是普通家庭，而不是领导人，他们买食物和药品的钱会变少。",
-                      "它可能让人们更愤怒，更不愿意让步。",
-                      "它惩罚的是那些根本无法决定政府政策的普通人。"
                     ]
                   }
                 }
@@ -669,43 +395,30 @@
             },
             {
               "question": {
-                "en": "If you truly believe you're right, should you keep giving up things you have rather than back down?",
-                "zh": "如果你坚信自己是对的，是应该继续付出代价，也不肯退让吗？"
+                "en": "If you truly believe you're right, should you keep giving up things you have rather than back down?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, stand firm",
-                    "zh": "应该坚持"
+                    "en": "Yes, stand firm"
                   },
                   "points": {
                     "en": [
                       "Standing firm for what you believe protects your sense of who you are.",
                       "Giving in just because someone else is bigger or richer isn't always right.",
                       "Sometimes a loss now is worth it to protect something more important, like dignity."
-                    ],
-                    "zh": [
-                      "坚持自己的信念，能守住自己的身份和原则。",
-                      "仅仅因为对方更强大或更富有就妥协，并不总是对的。",
-                      "有时候当下的损失是值得的，为了守住更重要的东西，比如尊严。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's smarter to bend",
-                    "zh": "应该妥协更明智"
+                    "en": "No, it's smarter to bend"
                   },
                   "points": {
                     "en": [
                       "It's often smarter to compromise a little now than to lose everything later.",
                       "Being stubborn can end up hurting the people who depend on you.",
                       "Real strength sometimes means knowing when to change your plan."
-                    ],
-                    "zh": [
-                      "现在做一点让步，往往比日后失去一切更明智。",
-                      "过于固执可能会伤害到依赖你的人。",
-                      "真正的强大，有时是懂得何时该改变计划。"
                     ]
                   }
                 }
@@ -713,14 +426,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "Trump Threatens an 'Economic D-Day' Against Iran",
-            "zh": "特朗普扬言对伊朗发起“经济版诺曼底登陆”"
+            "en": "Trump Threatens an 'Economic D-Day' Against Iran"
           },
           "hook": {
-            "en": "The stand-off between the United States and Iran just got sharper. A deadline for a new nuclear deal came and went with no agreement, and President Trump says Washington is now preparing what he calls an 'economic D-Day' — an all-out sanctions campaign meant to break Iran's economy. Iran says it won't be pressured into giving up its 'dignity,' and even China, one of Iran's biggest oil customers, says the plan is a bad idea.",
-            "zh": "美国和伊朗的对峙进一步升级。新一轮核协议谈判的截止日期已经过去，双方仍未达成协议，特朗普总统随后宣布，华盛顿正准备发起他所谓的“经济版诺曼底登陆”——一轮全面的制裁行动，目的是让伊朗经济彻底崩溃。伊朗表示绝不会向压力低头，甚至连伊朗石油的主要买家之一中国，也公开表示这一制裁计划“不符合任何一方的利益”。"
+            "en": "The stand-off between the United States and Iran just got sharper. A deadline for a new nuclear deal came and went with no agreement, and President Trump says Washington is now preparing what he calls an 'economic D-Day' — an all-out sanctions campaign meant to break Iran's economy. Iran says it won't be pressured into giving up its 'dignity,' and even China, one of Iran's biggest oil customers, says the plan is a bad idea."
           },
           "story": {
             "en": [
@@ -729,91 +440,64 @@
               "This fight also pulls in other countries. China, one of the largest buyers of Iranian oil, publicly pushed back against the sanctions plan, saying it does not 'fit the interest of any party.' That shows this is no longer just a two-country dispute — it touches global energy markets and trade relationships far beyond Washington and Tehran.",
               "The costs are not only diplomatic. A separate analysis found that at least 45 of the U.S. military's advanced MQ-9 Reaper drones — about a quarter of the entire fleet, worth more than $1.3 billion — have been shot down or lost during the broader conflict. The Reaper is a large, remotely piloted aircraft the U.S. uses for spying and airstrikes, and one of its most expensive tools. That number is a reminder that this standoff already carries real military costs, not just angry statements.",
               "It's worth noting that coverage of these latest developments traces back to only two newsrooms: CNN and Al Jazeera. Al Jazeera is funded by the government of Qatar, which is worth keeping in mind when weighing how it frames Iran's side of the story. And whether this new sanctions push will actually force Iran back to the negotiating table, or simply harden its resistance, is something even experts disagree about right now."
-            ],
-            "zh": [
-              "事情的起点是一个错过的截止日期。美伊两国围绕新核协议的谈判截止时间已过，双方并未达成一致。特朗普总统随后宣布，美国准备发起一场他称之为“经济版诺曼底登陆日”的行动——这个说法借用了二战中盟军在诺曼底登陆、扭转战局的著名战役，暗示这轮制裁将是决定性的、压倒一切的一击。所谓“制裁”，就是一国动用规则切断另一国的贸易和资金往来，目的是逼迫对方改变政策。这一次，目标是让伊朗政府因经济崩溃而难以正常运转。",
-              "伊朗方面目前毫不示弱。伊朗议会议长——相当于伊朗国家立法机构的负责人，类似美国众议院议长的角色——回应说，伊朗准备“牺牲我们的财富”来捍卫国家的“尊严和荣誉”。这句话传递出明确信号：伊朗短期内不打算屈服。",
-              "这场对抗也牵动着其他国家的利益。中国是伊朗石油的主要买家之一，公开反对这轮制裁计划，称其“不符合任何一方的利益”。这说明，美伊对峙早已不只是两国之间的事，而是牵涉到全球能源市场和贸易格局的大问题。",
-              "代价也不仅仅停留在外交层面。一份分析报告显示，至少有45架美军先进的“死神”（MQ-9 Reaper）无人机——约占该型号无人机总数的四分之一，价值超过13亿美元——在更广泛的冲突中被击落或损毁。“死神”是一种大型遥控飞行器，美军用它执行侦察和空袭任务，是美军最先进、造价也最高的工具之一。这个数字提醒我们，这场对峙早已不只是口水仗，军事成本已经实实在在摆在台面上。",
-              "值得说明的是，目前关于这些最新进展的报道，只能追溯到两家媒体——CNN和半岛电视台（Al Jazeera）。半岛电视台由卡塔尔政府出资，因此在解读其对伊朗立场的报道方式时，读者应留意这一点。至于这轮制裁最终会不会把伊朗逼回谈判桌，还是让它更加强硬地抵抗，就连专家们目前的看法也并不一致。"
             ]
           },
           "why_it_matters": {
-            "en": "This standoff may feel far away, but it touches global oil prices and trade — the kind of thing that shows up at your local gas station and ripples through the wider economy. It's also a reminder that when powerful countries clash, the effects spread to other nations and ordinary people who had no say in the decision at all.",
-            "zh": "这场对峙看似发生在遥远的地方，但它牵动着全球石油价格和贸易——而这些会体现在你家附近加油站的油价上，也会波及整个全球经济。它也提醒我们，大国之间的较量常常会波及其他国家和无关的普通人，即使他们对这些决定毫无发言权。"
+            "en": "This standoff may feel far away, but it touches global oil prices and trade — the kind of thing that shows up at your local gas station and ripples through the wider economy. It's also a reminder that when powerful countries clash, the effects spread to other nations and ordinary people who had no say in the decision at all."
           },
           "word_bank": [
             {
               "term": {
-                "en": "sanctions",
-                "zh": "制裁"
+                "en": "sanctions"
               },
               "def": {
-                "en": "Official rules a country uses to cut off another country's trade or money, meant to punish it and pressure it to change its policies.",
-                "zh": "一国动用官方规则切断另一国的贸易或资金往来，以此惩罚对方并迫使其改变政策。"
+                "en": "Official rules a country uses to cut off another country's trade or money, meant to punish it and pressure it to change its policies."
               }
             },
             {
               "term": {
-                "en": "economic D-Day",
-                "zh": "经济版诺曼底登陆日"
+                "en": "economic D-Day"
               },
               "def": {
-                "en": "Trump's term for a huge new wave of sanctions, named after the World War II invasion that turned the war's tide, meant to signal an overwhelming, decisive blow.",
-                "zh": "特朗普用来形容新一轮大规模制裁的说法，借用二战中扭转战局的诺曼底登陆战役，暗示这将是决定性的、压倒一切的一击。"
+                "en": "Trump's term for a huge new wave of sanctions, named after the World War II invasion that turned the war's tide, meant to signal an overwhelming, decisive blow."
               }
             },
             {
               "term": {
-                "en": "MQ-9 Reaper",
-                "zh": "MQ-9“死神”无人机"
+                "en": "MQ-9 Reaper"
               },
               "def": {
-                "en": "A large, remotely piloted aircraft the U.S. military uses for spying and airstrikes, one of its most advanced and expensive drones.",
-                "zh": "一种大型遥控飞行器，美军用它执行侦察和空袭任务，是美军最先进、造价也最高的无人机之一。"
+                "en": "A large, remotely piloted aircraft the U.S. military uses for spying and airstrikes, one of its most advanced and expensive drones."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair to use sanctions that hurt an entire country's economy — including ordinary people — to try to change a government's behavior?",
-                "zh": "为了迫使一国政府改变行为，而使用会伤害整个国家经济（包括普通民众）的制裁手段，这样做公平吗？"
+                "en": "Is it fair to use sanctions that hurt an entire country's economy — including ordinary people — to try to change a government's behavior?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Sanctions are justified",
-                    "zh": "制裁是正当的"
+                    "en": "Sanctions are justified"
                   },
                   "points": {
                     "en": [
                       "Sanctions can avoid direct war, which would likely kill far more people than economic pressure does.",
                       "They cut off money a government might use to fund weapons or military action, which can save lives elsewhere.",
                       "History shows sanctions have sometimes brought governments back to the negotiating table without a single shot fired."
-                    ],
-                    "zh": [
-                      "制裁可以避免直接开战，而战争造成的死亡往往远远超过经济制裁。",
-                      "制裁能切断政府用于购买武器或发动军事行动的资金，从而在别处挽救生命。",
-                      "历史上，制裁有时确实能在不开一枪的情况下，把一国政府逼回谈判桌。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Sanctions are unfair to ordinary people",
-                    "zh": "制裁对普通民众不公平"
+                    "en": "Sanctions are unfair to ordinary people"
                   },
                   "points": {
                     "en": [
                       "The people who suffer most from shortages of medicine, food, and jobs are rarely the powerful leaders making the decisions.",
                       "Sanctions can take years to work, meaning ordinary families bear the cost for a long time with no guaranteed result.",
                       "Squeezing an entire population can backfire, making people angrier at outside pressure instead of at their own government."
-                    ],
-                    "zh": [
-                      "因药品、食品短缺和失业而受苦的往往是普通百姓，而不是做决策的当权者。",
-                      "制裁常常需要数年才能见效，这意味着普通家庭要长期承受代价，却不一定能换来结果。",
-                      "对整个国家的挤压有时会适得其反，让民众把怒气对准外部压力，而不是自己的政府。"
                     ]
                   }
                 }
@@ -821,197 +505,30 @@
             },
             {
               "question": {
-                "en": "When a country faces overwhelming economic pressure, is it wiser to hold firm and refuse to back down, or to negotiate and compromise?",
-                "zh": "当一个国家面临巨大的经济压力时，是坚决不退让更明智，还是选择谈判妥协更明智？"
+                "en": "When a country faces overwhelming economic pressure, is it wiser to hold firm and refuse to back down, or to negotiate and compromise?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Hold firm",
-                    "zh": "坚决不退让"
+                    "en": "Hold firm"
                   },
                   "points": {
                     "en": [
                       "Backing down under pressure can invite even bigger demands later, once an opponent learns that pressure works.",
                       "National pride and independence matter — leaders who give in too easily may lose legitimacy at home.",
                       "Holding firm can buy time for allies, like China, to offer support that eases the pressure."
-                    ],
-                    "zh": [
-                      "在压力下退让，可能会让对手认为施压有效，从而在未来提出更多、更过分的要求。",
-                      "国家尊严和独立很重要——过于轻易让步的领导人，可能会在国内失去民众的支持和合法性。",
-                      "坚持立场可以为盟友（比如中国）争取时间，让他们提供支持来缓解压力。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Negotiate and compromise",
-                    "zh": "谈判与妥协"
+                    "en": "Negotiate and compromise"
                   },
                   "points": {
                     "en": [
                       "Prolonged economic pain can cause lasting damage to a country's people and infrastructure that outlasts any political win.",
                       "Reaching a deal early can preserve some leverage, rather than being forced into a worse deal later out of desperation.",
                       "Compromise can reopen trade and diplomacy that benefit ordinary citizens' everyday lives."
-                    ],
-                    "zh": [
-                      "长期的经济痛苦会给一个国家的民众和基础设施带来持久的损害，其代价可能超过任何政治上的“胜利”。",
-                      "尽早达成协议可以保留一定的谈判筹码，而不是等到走投无路时被迫接受更差的条件。",
-                      "妥协有可能重新打开贸易和外交的大门，让普通民众的日常生活因此受益。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "Washington and Tehran Dig In as Sanctions Threat Escalates",
-            "zh": "华盛顿加码制裁威胁，德黑兰针锋相对"
-          },
-          "hook": {
-            "en": "A deadline for a U.S.-Iran nuclear deal has passed without agreement, and President Trump is threatening what he calls an 'economic D-Day' — a sweeping sanctions campaign meant to collapse Iran's government financially. Iran says it will not back down, China is objecting because it depends on Iranian oil, and new reporting shows the U.S. has already lost a quarter of its advanced Reaper drone fleet in the fighting so far.",
-            "zh": "美伊核协议的最后期限已经过去，双方仍未达成协议。特朗普总统威胁要发动他所称的“经济诺曼底登陆日”——一场旨在从财政上压垮伊朗政府的全面制裁行动。伊朗表示绝不屈服，中国则因依赖伊朗石油而公开反对，与此同时，最新报道显示美国已在冲突中损失了四分之一的先进“死神”无人机机队。"
-          },
-          "story": {
-            "en": [
-              "The confrontation entered a sharper phase after a deadline for renewed nuclear talks passed with no deal on the table. Trump described the next move as an 'economic D-Day' — borrowing the language of the World War II invasion to describe a sanctions offensive he wants to be decisive rather than gradual. The plan aims to choke off the revenue that keeps Iran's government funded, particularly oil exports, by pressuring any country or company that still does business with Tehran.",
-              "Iran's response came from its parliament speaker, who said the country was prepared to 'sacrifice our wealth' to defend its 'dignity and honor.' That is not the language of a government looking for a quick exit. Iranian officials have long argued that yielding to sanctions pressure, rather than negotiating from strength, would be read domestically as capitulation — a word that carries particular weight in a country that has built decades of political identity around resisting Western pressure.",
-              "China complicated the picture by pushing back publicly. As one of the largest remaining buyers of Iranian oil, Beijing has a direct financial stake in the outcome, and a foreign ministry statement said the new sanctions push does not 'fit the interest of any party.' That objection matters beyond rhetoric: if Chinese refineries and shipping networks keep moving Iranian crude regardless of U.S. sanctions, Washington's ability to actually starve Tehran of revenue depends on enforcement it may not fully control.",
-              "Away from the sanctions fight, the military cost of the broader confrontation is becoming clearer. A separate analysis found that at least 45 MQ-9 Reaper drones — sophisticated, remotely piloted aircraft used for surveillance and strikes — have been shot down or lost, roughly a quarter of the entire U.S. fleet, worth more than $1.3 billion. Losses on that scale are unusual for a single theater and suggest Iranian air defenses, or those of its allies, have been more effective against high-value American hardware than expected.",
-              "It is worth noting how thin the reporting on these latest developments actually is: coverage traces back to just two newsrooms, CNN and Al Jazeera. Al Jazeera is funded by the government of Qatar, which has its own diplomatic relationship with Iran and a stake in how the confrontation is perceived across the region — a detail worth keeping in mind when weighing how it frames Tehran's defiance versus how American outlets frame Washington's resolve.",
-              "What remains genuinely unsettled is whether the sanctions strategy will work on its own terms. Supporters argue that squeezing Iran's finances hard enough, fast enough, is the surest way to force new talks without further military escalation. Skeptics point out that Iran has weathered sanctions campaigns for decades without folding, and that a defiant public posture from its leadership may make compromise politically harder, not easier, no matter how much economic pain is applied."
-            ],
-            "zh": [
-              "这场对峙在重启核谈判的最后期限过去、双方仍未达成协议后进入了更为激烈的阶段。特朗普将下一步行动称为“经济诺曼底登陆日”——借用二战诺曼底登陆的说法，形容他希望这场制裁攻势是决定性的一击，而非渐进施压。该计划旨在切断支撑伊朗政府运转的收入来源，尤其是石油出口，办法是向所有仍与德黑兰做生意的国家和企业施压。",
-              "伊朗的回应来自其议会议长，他表示伊朗准备好“牺牲我们的财富”以捍卫国家的“尊严与荣誉”。这绝不是一个准备迅速让步的政府所说的话。伊朗官员长期以来一直认为，在制裁压力下屈服而非以实力谈判，会在国内被解读为投降——这个词在一个数十年来将抵抗西方压力作为政治身份核心的国家里，分量格外沉重。",
-              "中国的公开反对让局势更加复杂。作为伊朗石油最大买家之一，北京在这场博弈中有着直接的经济利益，中国外交部的声明称，新的制裁行动“不符合任何一方的利益”。这一反对并非只是外交辞令：如果中国的炼油厂和航运网络无视美国制裁、继续运输伊朗原油，那么华盛顿能否真正切断德黑兰的财政命脉，将取决于它未必能完全掌控的执行力度。",
-              "在制裁较量之外，这场更广泛对峙的军事代价也逐渐清晰。一项独立分析发现，至少45架MQ-9“死神”无人机——一种用于侦察和打击的先进无人驾驶飞机——已被击落或损失，约占美国整个机队的四分之一，价值超过13亿美元。如此规模的损失在单一战场上并不常见，这表明伊朗及其盟友的防空能力，对美国的高价值装备造成了比预期更大的威胁。",
-              "值得注意的是，关于这些最新进展的报道来源其实相当有限：所有报道都可追溯到仅有的两家新闻机构——CNN和半岛电视台。半岛电视台由卡塔尔政府出资，而卡塔尔与伊朗有着自身的外交关系，在这场地区对峙如何被外界解读上也有其利益考量——这一点在权衡半岛电视台如何呈现德黑兰的强硬立场、与美国媒体如何呈现华盛顿的决心时，值得牢记。",
-              "真正悬而未决的是，制裁战略本身能否奏效。支持者认为，尽快、尽力压垮伊朗的财政，是在不进一步军事升级的情况下逼其重返谈判桌的最可靠办法。怀疑者则指出，伊朗已经在数十年的制裁中挺了过来，而其领导层如今摆出的强硬姿态，无论经济痛苦施加得多重，都可能让妥协在政治上变得更难，而非更容易。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Sanctions campaigns like this one shape oil prices, shipping routes, and diplomatic alignments that reach well beyond the Middle East — including how much you pay at the gas pump and which countries your government treats as allies or adversaries. A conflict this contested, with two governments and a major power like China all reading the same events differently, is also a case study in how hard it is to know what's actually happening from the outside.",
-            "zh": "像这样的制裁行动会影响石油价格、航运路线以及远远超出中东范围的外交格局——包括你在加油站付多少钱，以及你所在国家的政府把哪些国家视为盟友或对手。这场争议如此激烈的冲突，两国政府和中国这样的大国对同一事件有着截然不同的解读，也说明了从外部想弄清楚真相究竟有多难。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "economic D-Day",
-                "zh": "经济“诺曼底登陆日”"
-              },
-              "def": {
-                "en": "A phrase Trump used to describe an all-out, decisive sanctions offensive, borrowing the name of the massive World War II invasion that turned the tide of the war.",
-                "zh": "特朗普用来形容一场全面、决定性制裁攻势的说法，借用了二战中扭转战局的诺曼底大规模登陆行动的名称。"
-              }
-            },
-            {
-              "term": {
-                "en": "sanctions",
-                "zh": "制裁"
-              },
-              "def": {
-                "en": "Economic penalties, such as trade bans or financial restrictions, imposed by one country on another to pressure it into changing its behavior.",
-                "zh": "一国对另一国实施的经济惩罚措施，例如贸易禁令或金融限制，目的是迫使对方改变行为。"
-              }
-            },
-            {
-              "term": {
-                "en": "MQ-9 Reaper drone",
-                "zh": "MQ-9“死神”无人机"
-              },
-              "def": {
-                "en": "A large, remotely piloted U.S. military aircraft used for surveillance and armed strikes, expensive and technologically advanced compared to most drones.",
-                "zh": "一种大型的美国军用遥控飞机，用于侦察和武装打击，相较大多数无人机造价高昂、技术先进。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Is an all-out sanctions campaign the right way to pressure Iran, or does it risk making the standoff worse?",
-                "zh": "全面制裁攻势是向伊朗施压的正确方式，还是可能让僵局变得更糟？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Pressure can work",
-                    "zh": "施压可能奏效"
-                  },
-                  "points": {
-                    "en": [
-                      "Iran's economy is already strained, so a severe financial squeeze could push its leaders back to the table faster than continued fighting would.",
-                      "Sanctions avoid the human and political cost of direct military escalation, which both sides say they want to avoid.",
-                      "A visibly severe economic threat gives Washington leverage without committing more troops or hardware to a fight that is already costing it drones."
-                    ],
-                    "zh": [
-                      "伊朗经济已经承压，严厉的财政打击可能比继续交战更快地把其领导人逼回谈判桌。",
-                      "制裁避免了直接军事升级带来的人员伤亡和政治代价，而双方都表示希望避免这种升级。",
-                      "一场明显严厉的经济威胁能为华盛顿提供筹码，而无需在这场已经损失无人机的冲突中投入更多兵力或装备。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Pressure can backfire",
-                    "zh": "施压可能适得其反"
-                  },
-                  "points": {
-                    "en": [
-                      "Iran's leadership has repeatedly framed sanctions as an attack on national dignity, and public defiance can make compromise look like surrender, hardening resistance rather than softening it.",
-                      "Past sanctions campaigns against Iran have run for years without producing the negotiated outcome Washington wanted, suggesting economic pressure has diminishing returns.",
-                      "If China and other oil buyers ignore the sanctions, the campaign could isolate the U.S. diplomatically without actually crippling Iran's finances."
-                    ],
-                    "zh": [
-                      "伊朗领导层一再将制裁描述为对国家尊严的攻击，公开的强硬姿态会让妥协看起来像投降，从而强化而非削弱抵抗。",
-                      "过去对伊朗的制裁行动持续多年，却未能带来华盛顿想要的谈判结果，这说明经济施压的效果正在递减。",
-                      "如果中国等石油买家无视制裁，这场攻势可能只会让美国在外交上被孤立，却并未真正削弱伊朗的财政。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Do the drone losses show the U.S. should scale back its military role, or are they an acceptable cost of maintaining pressure?",
-                "zh": "无人机的损失是否表明美国应缩减其军事介入，还是这只是维持施压所必须付出的可接受代价？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Scale back",
-                    "zh": "缩减介入"
-                  },
-                  "points": {
-                    "en": [
-                      "Losing a quarter of an advanced drone fleet in one conflict suggests the military campaign is costlier and riskier than officials have acknowledged publicly.",
-                      "Continued losses could invite mission creep, drawing the U.S. deeper into a fight it says it wants to end through economic means, not force.",
-                      "Money spent replacing lost drones — over $1.3 billion and rising — could be better used, or saved, if pressure shifted more fully to sanctions and diplomacy."
-                    ],
-                    "zh": [
-                      "在一场冲突中损失四分之一的先进无人机机队，说明这场军事行动的代价和风险，比官员公开承认的要高。",
-                      "持续的损失可能引发任务蔓延，把美国拖入一场它自称想通过经济手段而非武力结束的冲突。",
-                      "用于补充损失无人机的资金——已超过13亿美元且仍在增加——如果把重心更充分地转向制裁与外交，或许能用得更好，或者干脆省下来。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Costs are acceptable",
-                    "zh": "代价可以接受"
-                  },
-                  "points": {
-                    "en": [
-                      "Advanced weapons are inherently expendable in active conflict zones, and losses do not necessarily mean the strategy is failing.",
-                      "Maintaining a military presence signals resolve to Iran and its allies, which reinforces rather than undercuts the sanctions campaign's credibility.",
-                      "The U.S. defense budget can absorb equipment losses of this scale without changing the broader strategic calculus."
-                    ],
-                    "zh": [
-                      "在活跃的冲突地区，先进武器本就存在被消耗的可能，损失本身并不必然意味着战略失败。",
-                      "保持军事存在向伊朗及其盟友传递出决心的信号，这会强化而非削弱制裁攻势的可信度。",
-                      "这种规模的装备损失，美国国防预算完全可以承受，不会改变整体战略考量。"
                     ]
                   }
                 }
@@ -1034,14 +551,12 @@
       "further": [],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "No Power for Over a Week: Storm Leaves Thousands of Indiana Families in the Dark",
-            "zh": "停电超过一周:风暴让印第安纳州数万家庭陷入黑暗"
+            "en": "No Power for Over a Week: Storm Leaves Thousands of Indiana Families in the Dark"
           },
           "hook": {
-            "en": "A powerful storm hit Indiana, a state in the middle of the United States. It knocked down trees and power lines. Now, more than a week later, tens of thousands of people still have no electricity.",
-            "zh": "美国中部的印第安纳州遭遇了一场强风暴。风暴吹倒了树木和电线。一个多星期过去了,仍有数万人家中没有电。"
+            "en": "A powerful storm hit Indiana, a state in the middle of the United States. It knocked down trees and power lines. Now, more than a week later, tens of thousands of people still have no electricity."
           },
           "story": {
             "en": [
@@ -1049,80 +564,56 @@
               "Tens of thousands of people means about as many people as could fill a huge sports stadium. All of them have no lights, no way to keep food cold in the fridge, and maybe no heat at night.",
               "Because there's no electricity, schools in the storm area had to close. Schools need power for lights, heat, and computers. Stores and businesses couldn't open either, so workers weren't getting paid and shops weren't earning money.",
               "So far, only one news organization has reported the exact numbers, so the details might change as more information comes in. It's important to remember that when a story is new, some facts are still being checked."
-            ],
-            "zh": [
-              "这场风暴威力巨大,把大树像多米诺骨牌一样吹倒了。树倒下时会砸到把电送到家家户户的电线上。这样一来,电线断了,电也就没了。",
-              "数万人差不多相当于能坐满一个大型体育场的人数。这些人家里都没有灯,冰箱里的食物没法保鲜,晚上可能也没有暖气。",
-              "因为没有电,风暴地区的学校不得不停课。学校需要用电来开灯、供暖和使用电脑。商店和企业也开不了门,工人们拿不到工资,店铺也赚不到钱。",
-              "目前只有一家新闻机构报道了具体的数字,所以细节以后可能会有变化。要记住,当一条新闻刚发生时,有些事实还在被核实。"
             ]
           },
           "why_it_matters": {
-            "en": "Imagine your house with no lights, no charged phone, and food going bad in the fridge — for a whole week and more. This story shows how one storm can change daily life for a huge number of families all at once, and how long it can take things to get back to normal.",
-            "zh": "想象一下你家里没有灯,手机充不了电,冰箱里的食物一直坏掉——而且持续一个多星期。这个故事说明,一场风暴可以同时改变成千上万家庭的日常生活,也说明恢复正常需要花多长时间。"
+            "en": "Imagine your house with no lights, no charged phone, and food going bad in the fridge — for a whole week and more. This story shows how one storm can change daily life for a huge number of families all at once, and how long it can take things to get back to normal."
           },
           "word_bank": [
             {
               "term": {
-                "en": "power outage",
-                "zh": "停电"
+                "en": "power outage"
               },
               "def": {
-                "en": "A power outage is when the electricity in a home or area suddenly stops working.",
-                "zh": "停电是指一个家庭或地区的电力突然停止供应。"
+                "en": "A power outage is when the electricity in a home or area suddenly stops working."
               }
             },
             {
               "term": {
-                "en": "power lines",
-                "zh": "电线"
+                "en": "power lines"
               },
               "def": {
-                "en": "Power lines are the wires, often strung on tall poles, that carry electricity from power plants to houses and buildings.",
-                "zh": "电线是通常架在高高的电线杆上的电缆,负责把电力从发电厂输送到住宅和建筑物。"
+                "en": "Power lines are the wires, often strung on tall poles, that carry electricity from power plants to houses and buildings."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "When a storm knocks out power for a long time, should the government pay to help every family, or should families handle it on their own?",
-                "zh": "当风暴导致长时间停电时,政府应该出钱帮助每个家庭,还是应该让家庭自己想办法解决?"
+                "en": "When a storm knocks out power for a long time, should the government pay to help every family, or should families handle it on their own?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Government should help",
-                    "zh": "政府应该帮忙"
+                    "en": "Government should help"
                   },
                   "points": {
                     "en": [
                       "Families didn't cause the storm, so it doesn't seem fair for them to suffer alone.",
                       "The government has more resources and can help many people at once, faster than families could on their own.",
                       "Some families don't have extra money for hotels or food, so without help they could be in real danger."
-                    ],
-                    "zh": [
-                      "风暴不是家庭造成的,让他们独自承受似乎不公平。",
-                      "政府拥有更多资源,能比家庭自己更快地同时帮助很多人。",
-                      "有些家庭没有多余的钱住旅馆或买食物,没有帮助他们可能真的会陷入危险。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Families should handle it themselves",
-                    "zh": "家庭应该自己解决"
+                    "en": "Families should handle it themselves"
                   },
                   "points": {
                     "en": [
                       "The government has limited money, and it's needed for many other emergencies too, not just this one.",
                       "Some families can manage on their own, like staying with relatives or friends nearby.",
                       "It can be hard for the government to decide fairly who gets help and how much, since not every family's situation is the same."
-                    ],
-                    "zh": [
-                      "政府的钱是有限的,还需要用在很多其他紧急情况上,不只是这一次。",
-                      "有些家庭可以自己想办法,比如去附近的亲戚朋友家暂住。",
-                      "政府很难公平地决定谁该得到帮助、该给多少,因为每个家庭的情况都不一样。"
                     ]
                   }
                 }
@@ -1130,43 +621,30 @@
             },
             {
               "question": {
-                "en": "If some homes still don't have power, should schools stay closed for everyone, or reopen as soon as the school building itself is safe?",
-                "zh": "如果有些家庭还没有恢复供电,学校应该为所有人保持停课,还是只要校舍本身安全就应该重新开学?"
+                "en": "If some homes still don't have power, should schools stay closed for everyone, or reopen as soon as the school building itself is safe?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Stay closed until power is back everywhere",
-                    "zh": "等到全部恢复供电再开学"
+                    "en": "Stay closed until power is back everywhere"
                   },
                   "points": {
                     "en": [
                       "It's more fair if every student is in the same situation, instead of some having power at home and others not.",
                       "Kids without power at home might not sleep well or have hot food, making it hard to focus at school.",
                       "Waiting a little longer keeps things simple and avoids leaving any family feeling left behind."
-                    ],
-                    "zh": [
-                      "如果每个学生的处境都一样,而不是有人家里有电、有人没有,这样更公平。",
-                      "家里没电的孩子可能睡不好,也吃不上热饭,上学时很难集中注意力。",
-                      "再多等一等能让事情更简单,也不会让任何一个家庭觉得被落下。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Reopen as soon as the building is safe",
-                    "zh": "只要校舍安全就应该复课"
+                    "en": "Reopen as soon as the building is safe"
                   },
                   "points": {
                     "en": [
                       "Kids need routine, and being at school gives them something normal during a hard week.",
                       "If everyone waits for every single home to have power, school could stay closed for a very long time.",
                       "The school building can have power and heat even if some students' homes don't, so learning can still happen safely."
-                    ],
-                    "zh": [
-                      "孩子们需要规律的生活,在艰难的一周里,上学能给他们带来一些正常感。",
-                      "如果要等到每一户人家都恢复供电,学校可能要关闭很长时间。",
-                      "即使有些学生家里没电,校舍本身可以有电有暖气,学习依然可以安全进行。"
                     ]
                   }
                 }
@@ -1174,14 +652,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "More Than a Week Without Power: Indiana's Long Wait After the Storm",
-            "zh": "停电超过一周:印第安纳州风暴过后的漫长等待"
+            "en": "More Than a Week Without Power: Indiana's Long Wait After the Storm"
           },
           "hook": {
-            "en": "A deadly storm tore through Indiana more than a week ago, snapping trees and knocking down power lines, and tens of thousands of people still don't have electricity. Schools remain closed and businesses can't open, so families are relying on flashlights, generators, and patience.",
-            "zh": "一场致命风暴袭击印第安纳州已超过一周,吹倒了树木和电线,数万人至今仍未恢复供电。许多地区的学校仍未开学,商店也因为没有电力而无法营业,家庭只能靠手电筒、发电机和耐心撑过去。"
+            "en": "A deadly storm tore through Indiana more than a week ago, snapping trees and knocking down power lines, and tens of thousands of people still don't have electricity. Schools remain closed and businesses can't open, so families are relying on flashlights, generators, and patience."
           },
           "story": {
             "en": [
@@ -1190,91 +666,64 @@
               "The outage has closed schools across the affected areas for over a week, meaning students have missed classes they can't easily make up. Businesses, from grocery stores to auto shops, have been unable to reopen because they can't run cash registers, refrigerate goods, or simply turn on the lights, cutting off both paychecks for workers and services the community relies on.",
               "Utility crews, sometimes called linemen, have been working long hours to restore power, and when damage is this widespread, companies often ask utilities from other states for extra workers and trucks, an arrangement known as mutual aid. But when a storm topples trees across many miles of small towns and rural roads at once, restoring power isn't as simple as flipping a switch: crews often have to clear fallen trees before they can even reach damaged lines, then repair or replace poles and wires section by section.",
               "Right now, the exact number of people still without power and a firm date for full restoration haven't been confirmed by more than one news organization. This story is currently based on reporting from NPR alone, so some of the numbers here should be treated as provisional until other outlets can confirm them independently."
-            ],
-            "zh": [
-              "一周多以前,一场强烈风暴席卷印第安纳州,刮断树木、吹倒电线,导致数万户家庭和商铺断电。这场风暴造成了人员死亡,破坏程度严重到许多地区至今仍未恢复供电。",
-              "断电一周绝不是小麻烦,它几乎改变了日常生活的方方面面。冰箱无法继续保鲜食物,暖气和空调停止运转,手机和电脑电量耗尽;对于依靠水井取水的家庭来说,连抽水泵也因为没电而停止工作。红绿灯熄灭,让普通的十字路口变成让人困惑的无信号路口。而对于依赖供氧机等电动医疗设备的家庭来说,情况更加危急。",
-              "这场停电已导致受灾地区的学校停课超过一周,学生们错过的课程难以轻易补回。从杂货店到汽修店,各类商铺都因无法使用收银机、无法给商品保鲜、甚至连灯都开不了,而被迫停业,这不仅切断了员工的收入来源,也让社区失去了日常所需的服务。",
-              "电力公司的维修工人——有时被称为电力线路工——一直在加班加点抢修线路。当损坏范围很大时,电力公司通常会请求其他州的电力公司增派人手和车辆支援,这种做法被称为互助支援。但当一场风暴同时在许多英里范围内的小镇和乡村道路上刮倒树木时,恢复供电并不像打开开关那么简单:维修人员往往要先清除倒下的树木,才能接触到受损的电线,然后再一段一段地修复或更换电线杆和电线。",
-              "目前,究竟还有多少人处于断电状态,以及全面恢复供电的确切时间,都还没有得到不止一家新闻机构的证实。这篇报道目前仅依据美国国家公共广播电台(NPR)一家媒体的报道,因此其中一些数字应被视为初步信息,有待其他媒体进一步核实。"
             ]
           },
           "why_it_matters": {
-            "en": "Even if you don't live in Indiana, this story is a reminder of how much everyday life depends on an invisible system, the power grid, and how fragile that system can be when severe weather hits. It's also a preview of a question more places may face as extreme storms become more common: how much should communities invest to prevent this from happening, and who should pay for it?",
-            "zh": "即使你不住在印第安纳州,这个故事也提醒我们,日常生活有多依赖一个看不见的系统——电网,而这个系统在极端天气面前有多脆弱。随着极端风暴变得越来越常见,这也预示着更多地方可能要面对一个问题:社区应该投入多少资金来防止这种情况发生,又该由谁来买单?"
+            "en": "Even if you don't live in Indiana, this story is a reminder of how much everyday life depends on an invisible system, the power grid, and how fragile that system can be when severe weather hits. It's also a preview of a question more places may face as extreme storms become more common: how much should communities invest to prevent this from happening, and who should pay for it?"
           },
           "word_bank": [
             {
               "term": {
-                "en": "power outage",
-                "zh": "停电"
+                "en": "power outage"
               },
               "def": {
-                "en": "A period of time when the electricity supply to homes or businesses is cut off, also often called a blackout.",
-                "zh": "家庭或企业的电力供应中断的一段时间,也常被称为断电。"
+                "en": "A period of time when the electricity supply to homes or businesses is cut off, also often called a blackout."
               }
             },
             {
               "term": {
-                "en": "power grid",
-                "zh": "电网"
+                "en": "power grid"
               },
               "def": {
-                "en": "The network of wires, poles, and equipment that carries electricity from power plants to homes and businesses.",
-                "zh": "把发电厂产生的电力输送到千家万户和企业的电线、电塔和设备组成的网络。"
+                "en": "The network of wires, poles, and equipment that carries electricity from power plants to homes and businesses."
               }
             },
             {
               "term": {
-                "en": "mutual aid",
-                "zh": "互助支援"
+                "en": "mutual aid"
               },
               "def": {
-                "en": "An arrangement where companies or organizations, like power utilities, send workers and equipment to help each other during emergencies.",
-                "zh": "发生紧急情况时,不同地区或公司之间互相派遣人员和设备帮忙的安排,例如电力公司在灾后互相支援维修人员。"
+                "en": "An arrangement where companies or organizations, like power utilities, send workers and equipment to help each other during emergencies."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should power companies be required to spend huge amounts of money burying power lines underground to prevent long outages like this one, even though it would raise electric bills for everyone, including in years with no storms at all?",
-                "zh": "电力公司是否应该被要求花费巨资把电线埋入地下,以防止这种长时间停电再次发生,即使这样做会让所有人的电费上涨,哪怕是在没有风暴的年份里?"
+                "en": "Should power companies be required to spend huge amounts of money burying power lines underground to prevent long outages like this one, even though it would raise electric bills for everyone, including in years with no storms at all?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Bury the lines",
-                    "zh": "把电线埋入地下"
+                    "en": "Bury the lines"
                   },
                   "points": {
                     "en": [
                       "Underground lines are far less likely to be knocked down by falling trees or high winds, so outages become rarer and shorter.",
                       "A week-long outage costs communities money and safety, through lost business, spoiled food, and even danger to people needing medical equipment, costs that can add up to more than the investment over time.",
                       "Severe storms appear to be happening more often, so protecting the grid now guards against a risk that keeps repeating."
-                    ],
-                    "zh": [
-                      "埋在地下的电线极少会被倒下的树木或强风损坏,因此停电会变得更少、更短。",
-                      "长达一周的停电会给社区带来经济损失和安全隐患,比如商店停业、食物变质,甚至危及依赖医疗设备生存的人,这些代价长期算下来可能超过前期投资。",
-                      "严重风暴似乎正变得越来越频繁,现在保护电网等于是提前防范一种会不断重演的风险。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Keep costs down",
-                    "zh": "保持成本低廉"
+                    "en": "Keep costs down"
                   },
                   "points": {
                     "en": [
                       "Burying power lines is extremely expensive per mile, and passing that cost onto every customer's bill could make electricity unaffordable for families already struggling financially.",
                       "When something does go wrong underground, crews can't see the problem right away and often have to dig, which can make repairs slower and even more expensive.",
                       "Not every area gets hit by severe storms often, so spending the same amount everywhere might waste money in places that rarely need this kind of protection."
-                    ],
-                    "zh": [
-                      "把电线埋入地下每英里的花费极其昂贵,把这笔费用摊到每位用户的电费账单上,可能会让本就经济紧张的家庭负担不起电费。",
-                      "一旦地下电线出了问题,维修人员无法立刻看到故障所在,往往需要挖掘,这可能让维修变得更慢、成本更高。",
-                      "并不是每个地区都经常遭遇严重风暴,在各地平均花同样多的钱,可能会把资金浪费在很少需要这种保护的地方。"
                     ]
                   }
                 }
@@ -1282,197 +731,30 @@
             },
             {
               "question": {
-                "en": "When a storm leaves a whole region without power for more than a week, should the government be able to take charge of restoration efforts away from the private power company, even if that company insists it's already working as fast as it can?",
-                "zh": "当一场风暴导致整个地区断电超过一周时,政府是否应该从私营电力公司手中接管抢修工作,即使这家公司坚称自己已经在尽全力抢修?"
+                "en": "When a storm leaves a whole region without power for more than a week, should the government be able to take charge of restoration efforts away from the private power company, even if that company insists it's already working as fast as it can?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Government should step in",
-                    "zh": "政府应该介入"
+                    "en": "Government should step in"
                   },
                   "points": {
                     "en": [
                       "A private company's decisions are shaped partly by cost, while a government agency might prioritize reconnecting the most vulnerable people, like the elderly or those on medical equipment, first.",
                       "Government involvement can unlock faster access to resources like National Guard troops, emergency funding, and crews from other states.",
                       "When something affects the safety of so many people at once, some believe essential services like electricity shouldn't be left entirely in the hands of one private company's timeline."
-                    ],
-                    "zh": [
-                      "私营公司的决策部分受成本考量影响,而政府机构可能会优先恢复最脆弱人群的供电,比如老年人或依赖医疗设备的病人。",
-                      "政府介入可以更快调动国民警卫队、应急资金以及其他州支援人员等资源。",
-                      "当一件事关乎这么多人的安全时,有人认为像电力这样的基本服务,不应该完全交由一家私营公司自行决定进度。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Let the utility handle it",
-                    "zh": "交给电力公司处理"
+                    "en": "Let the utility handle it"
                   },
                   "points": {
                     "en": [
                       "Power companies have specialized training, equipment, and experience built specifically for this kind of repair work, and a change in leadership mid-crisis could slow things down with confusion and red tape.",
                       "Handing control to unfamiliar government managers partway through an emergency risks duplicated efforts and delays right when speed matters most.",
                       "Private companies already face public pressure, government oversight, and legal responsibility to restore power quickly, so accountability already exists without a takeover."
-                    ],
-                    "zh": [
-                      "电力公司拥有专门为这类维修工作打造的技术、设备和经验,危机中途换指挥可能会因混乱和繁琐程序而拖慢进度。",
-                      "在紧急状况进行到一半时,把控制权交给不熟悉情况的政府管理者,可能造成重复劳动和延误,而这正是最需要争分夺秒的时刻。",
-                      "私营公司本身已经面临公众压力、政府监管和法律责任,必须尽快恢复供电,因此即使不接管,问责机制也已经存在。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "A Storm Knocked Out Their Power a Week Ago. It's Still Out.",
-            "zh": "一场风暴一周前切断了电力,至今仍未恢复"
-          },
-          "hook": {
-            "en": "A violent storm tore through Indiana more than a week ago, snapping trees and power lines across the state. Tens of thousands of people are still without electricity, schools in the hardest-hit areas remain closed, and businesses that depend on power to operate cannot reopen.",
-            "zh": "一周多前,一场猛烈的风暴席卷印第安纳州,吹倒了大量树木,损毁了电线。至今仍有数万人生活在停电之中,受灾最严重地区的学校依然停课,依赖电力运营的商户也无法重新开门。"
-          },
-          "story": {
-            "en": [
-              "When the storm system moved through Indiana, it did not just knock out power for a night. Fallen trees crushed power lines across wide stretches of the state, and more than a week later, tens of thousands of households and businesses are still sitting in the dark, according to NPR reporting. That length of time — not hours or a couple of days, but well over a week — is what turns a storm story into an infrastructure story.",
-              "The practical effects pile up fast when an outage runs this long. Schools in affected districts have stayed closed, not because buildings were damaged but because a school without lights, heat or cooling, and working plumbing pumps is not considered safe to occupy. Businesses that need electricity to run registers, refrigeration, or basic lighting have simply been unable to open, which means lost paychecks for hourly workers and lost inventory for owners — a walk-in cooler full of spoiled food is a real cost, not an inconvenience. For households, the stakes can be higher still: people who rely on refrigerated medication or powered medical equipment face genuine safety risks the longer an outage drags on.",
-              "Storm damage of this scale is slow to fix because of how power grids are physically built. Crews have to clear downed trees before they can even reach the lines, and in rural areas a repair crew might drive miles between the handful of customers served by a single stretch of line — compared with dense city blocks where one truck can restore power to hundreds of homes in an afternoon. Utilities facing outages this large often call in reinforcements from neighboring states, a standard practice known as mutual aid, but a storm severe enough to knock out power for tens of thousands of people can overwhelm even that extra help.",
-              "It's worth being upfront about what is and isn't confirmed here. The account of how many people remain without power, and when full restoration might happen, currently traces back to a single news organization's reporting. No second, independent outlet has confirmed those specific figures or the timeline, so the numbers should be treated as the best available estimate rather than a settled count — something that may firm up as utilities issue their own updates.",
-              "Outages of this length are becoming a recurring feature of severe weather coverage, and they raise an uncomfortable question about the systems people depend on without thinking about them. Much of the power grid in places like Indiana was built decades ago, strung on poles designed for the storms of that era, not necessarily the more intense weather events becoming more common now. When a single storm can leave a state's worth of people without electricity for over a week, it says something about how much slack — or how little — exists in the system meant to keep the lights on.",
-              "For the people living through it, the abstractions matter less than the daily grind: running a generator if you have one, throwing out spoiled food, driving kids to relatives with power, and waiting for a utility truck that may still be days away. A storm passes in an afternoon; the disruption it leaves behind can outlast it by weeks."
-            ],
-            "zh": [
-              "这场风暴系统席卷印第安纳州时,造成的停电并非一夜之隔。倒下的树木在全州大片区域压断了电线,据NPR报道,一周多过去了,仍有数万户家庭和商户处于停电状态。停电时间之长——不是几小时或两三天,而是超过一周——正是这起风暴事件演变为基础设施问题的关键。",
-              "停电持续这么久,带来的实际影响迅速累积。受灾学区的学校一直停课,原因不是校舍受损,而是一所没有照明、没有冷暖气、水泵也无法运转的学校被认为不适合使用。需要电力运转收银机、冷藏设备或基本照明的商户根本无法营业,这意味着按时薪工作的员工收入中断,店主的库存也随之损失——一个装满食物的步入式冷柜坏掉,是实实在在的损失,而不仅仅是麻烦。对普通家庭而言,风险可能更大:依赖冷藏药品或电动医疗设备维生的人,停电时间越长,面临的安全风险就越真实。",
-              "这种规模的风暴损坏之所以修复缓慢,与电网的物理构造方式有关。维修队必须先清除倒下的树木才能接触到电线,而在农村地区,一支维修队可能要开车数英里,才能修复一小段线路服务的寥寥几户人家——相比之下,在密集的城市街区,一辆维修车一个下午就能让数百户家庭恢复供电。面对如此大规模的停电,电力公司通常会从邻近州调来增援,这种做法被称为“互助支援”,但当一场风暴严重到让数万人断电时,即便有这些额外人手也可能应接不暇。",
-              "有必要坦白说明这里哪些信息已被证实、哪些尚未。目前关于还有多少人处于停电状态、以及何时能全面恢复供电的说法,主要来自单一新闻机构的报道。尚无第二家独立媒体证实这些具体数字或时间表,因此这些数字应被视为目前所能获得的最佳估计,而非最终定论——随着电力公司发布自己的进展更新,情况可能会更加明确。",
-              "这类长时间停电正逐渐成为极端天气报道中反复出现的一幕,也提出了一个令人不安的问题:人们平时不假思索依赖的系统,究竟有多脆弱。像印第安纳州这样的地方,很多电网设施建于几十年前,当初设计所依据的是那个年代的风暴强度,未必能应对如今愈发频繁的极端天气。当一场风暴就能让相当于一个州的人口断电超过一周时,这说明支撑“灯一直亮着”这件事的系统,留下的余地可能远比人们想象的要少。",
-              "对亲身经历停电的人来说,这些宏大的问题不如日常的煎熬来得真切:如果有发电机就跑发电机,把变质的食物扔掉,把孩子送到有电的亲戚家,然后等待一辆可能还要好几天才能到达的电力维修车。风暴一个下午就能过去,它留下的混乱却可能持续数周之久。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Most people only think about the power grid when it fails, but this story shows how quickly modern life — schools, paychecks, medicine, food safety — depends on electricity staying on continuously, not just most of the time. As severe storms become more common, the question of how resilient that system is stops being abstract and starts being a matter of how many days a family can go without power before real harm follows.",
-            "zh": "大多数人只有在电力系统出问题时才会想起它的存在,但这起事件说明,现代生活——上学、发薪水、用药、食品安全——在多大程度上依赖于电力持续不断供应,而不仅仅是大部分时间有电。随着极端风暴越来越常见,这套系统究竟有多“扛造”,已经不再是一个抽象问题,而是关系到一个家庭在真正受到伤害之前,能撑过多少天没有电。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "outage",
-                "zh": "停电(outage)"
-              },
-              "def": {
-                "en": "A period when electricity, or another utility service, stops working for a group of customers.",
-                "zh": "指一段时间内,一群用户的电力或其他公共服务中断无法使用。"
-              }
-            },
-            {
-              "term": {
-                "en": "mutual aid",
-                "zh": "互助支援(mutual aid)"
-              },
-              "def": {
-                "en": "An arrangement where utility companies send extra repair crews to help another company handle a storm too big for its own workers to fix quickly.",
-                "zh": "指电力公司之间的一种安排:当某家公司遇到的风暴损坏太大、自身人手无法及时修复时,其他公司派出额外的维修队伍前来支援。"
-              }
-            },
-            {
-              "term": {
-                "en": "the grid",
-                "zh": "电网(the grid)"
-              },
-              "def": {
-                "en": "The connected network of power lines, poles, and equipment that carries electricity from power plants to homes and businesses.",
-                "zh": "指将电力从发电厂输送到千家万户和商户的电线、电线杆及相关设备所组成的联通网络。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "When storms keep knocking out power for over a week, should utilities be required to bury power lines underground, even though it costs far more and takes years to complete?",
-                "zh": "如果风暴总是导致停电持续一周以上,是否应该强制要求电力公司把电线埋入地下,即便这样做成本高得多、需要多年才能完成?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes, require burial",
-                    "zh": "应该要求埋线"
-                  },
-                  "points": {
-                    "en": [
-                      "Underground lines are far less exposed to falling trees and high winds, which are the main cause of these prolonged outages.",
-                      "The economic cost of a week-long outage — lost wages, spoiled food, closed schools and businesses — is itself enormous and repeats every time a bad storm hits.",
-                      "People who depend on electric medical equipment or refrigerated medication face real safety risks that longer, above-ground outages keep putting them through."
-                    ],
-                    "zh": [
-                      "地下电线受倒树和强风影响的可能性大大降低,而这些正是造成长时间停电的主要原因。",
-                      "长达一周的停电本身经济代价巨大——工资损失、食物变质、学校和商户停摆——而且每次遇到强风暴都会重演。",
-                      "依赖电动医疗设备或冷藏药品的人,每次因架空线路停电时间过长,都会面临实实在在的安全风险。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No, too costly for the benefit",
-                    "zh": "成本太高,不值得强制推行"
-                  },
-                  "points": {
-                    "en": [
-                      "Burying lines can cost many times more than overhead lines, and those costs usually get passed on to customers through higher electricity bills.",
-                      "The money might do more good spent on tree-trimming programs, grid monitoring technology, or faster crew response, which address the same problem more cheaply.",
-                      "Underground systems are not immune to failure either — flooding can damage them, and repairs, when needed, are often slower and more expensive to locate and fix."
-                    ],
-                    "zh": [
-                      "埋线的成本往往是架空线路的数倍,这些费用通常最终会通过更高的电费转嫁给用户。",
-                      "这笔钱如果用在修剪树木、电网监测技术或加快维修队响应速度上,可能以更低成本解决同样的问题。",
-                      "地下系统也并非万无一失——洪水同样可能造成损坏,而且一旦出现故障,定位和维修往往更慢、成本也更高。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "When an outage drags on for more than a week, should the government be able to force a private utility company to speed up repairs or bring in more crews, even against the company's own judgment?",
-                "zh": "当停电持续超过一周时,政府是否应该有权强制私营电力公司加快维修或增派人手,即便这与公司自身的判断相悖?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes, government should compel action",
-                    "zh": "政府应有权强制介入"
-                  },
-                  "points": {
-                    "en": [
-                      "Electricity is not a luxury but a basic need tied directly to public safety, so a government has a legitimate interest in stepping in when a company's response is too slow.",
-                      "Emergency powers can help coordinate mutual aid across state lines faster than a single company negotiating on its own.",
-                      "Vulnerable residents — the elderly, people on medical equipment — can't simply wait out a company's normal timeline without real risk to their health."
-                    ],
-                    "zh": [
-                      "电力不是奢侈品,而是与公共安全直接相关的基本需求,因此当企业反应过慢时,政府介入具有正当性。",
-                      "紧急权力可以帮助更快地协调跨州互助支援,而不是让一家公司单独去谈判协商。",
-                      "老年人、依赖医疗设备的居民等弱势群体,无法在不承担健康风险的情况下,单纯等待企业按部就班的正常进度。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No, leave it to the utility",
-                    "zh": "应交由电力公司自行处理"
-                  },
-                  "points": {
-                    "en": [
-                      "Utility engineers and line crews understand the technical realities of storm damage far better than government officials making decisions under political pressure.",
-                      "Government mandates issued in a crisis can create confusion or duplicate effort rather than actually speeding up repairs.",
-                      "Private companies already have strong financial and regulatory incentives to restore power quickly, since prolonged outages damage their reputation and invite fines."
-                    ],
-                    "zh": [
-                      "电力工程师和维修团队远比在政治压力下做决策的政府官员更了解风暴损坏的技术实际情况。",
-                      "危机期间由政府下达的强制指令,可能造成混乱或工作重复,反而拖慢而非加快修复进度。",
-                      "私营电力公司本身就有强烈的财务和监管压力尽快恢复供电,因为长时间停电会损害其声誉并招致罚款。"
                     ]
                   }
                 }

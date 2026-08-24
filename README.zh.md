@@ -17,8 +17,8 @@
 
 | | |
 | --- | --- |
-| **一个网页** | 当日新闻，加上每天的固定链接和往期存档；一或两种语言，浅色深色皆可 |
-| **一封邮件** | 同一期内容发到你和你添加的邮箱，每个人收到自己那种语言 |
+| **一个网页** | 当日新闻，加上每天的固定链接和往期存档；浅色深色皆可 |
+| **一封邮件** | 同一期内容发到你和你添加的邮箱，每人可指定阅读难度 |
 | **一张长图** | 适合发朋友圈的竖版 PNG，结尾是回到完整网页的二维码 |
 
 每条新闻先给标题和简要概述；完整改写、值得记住的词、背景阅读、延展阅读、视频、
@@ -40,7 +40,7 @@ name = "Lucas"      # 可留空，页面上显示「为 ___ 而做」
 age  = 12           # 5-18，决定页面默认打开哪个阅读难度
 
 [edition]
-languages = ["en", "zh"]
+languages = ["en"]
 
 [schedule]
 timezone = "America/Vancouver"    # 任意 IANA 时区
@@ -58,15 +58,18 @@ url = "https://yourname.github.io/your-repo/"
 三种写法：浏览器打开 **`docs/setup.html`**、运行 **`python3 scripts/setup.py`**，
 或者直接改 **`config.example.toml`**。
 
-## 三个阅读难度
+## 两个阅读难度
 
-每一期都会写三遍——**6–11 岁、12–15 岁、16 岁以上**——三个版本同在一个页面里。
+每一期都会写两遍——**小学**和**中学**（含初中与高中）——两个版本同在一个页面里。
 切换只是改根元素上的一个属性，所以是瞬时的，离线也能用，不需要服务器。
 
 不同难度之间变化的是：句子长短、一个事实需要多少铺垫、生词收几个、
 饭桌问题有多难。**不变**的是讲哪几条新闻、以及它们可以有多严肃。
 7 岁的孩子会读到用他能想象的距离来解释霍尔木兹海峡，
 而不是被换成一条关于小狗的新闻。
+
+阅读难度按「在读哪个学段」命名，而不是按年龄：孩子不用被告知就知道自己在哪一档，
+而对一个正在读同一个页面的十六岁少年来说，「12–15 岁」这个标签本身就是一种冒犯。
 
 `[child] age` 只决定页面默认打开哪一档。任何读者都可以用页面顶部的按钮切换，
 选择会记在那台设备上。
@@ -112,7 +115,7 @@ Gmail 需要先开启两步验证，然后到 <https://myaccount.google.com/appp
 一个家里有两个不同年龄的孩子，靠的就是这个：
 
 ```
-lucas@example.com:en:12-15, mia@example.com:en:6-11, mum@example.com:zh
+lucas@example.com:en:secondary, mia@example.com:en:primary, mum@example.com
 ```
 
 增减读者就改这一个 secret。地址放在 secret 而不是仓库文件里是有意的——
@@ -211,7 +214,7 @@ python3 -m http.server -d docs 8000         # 打开 localhost:8000 预览
 python3 scripts/generate_edition.py --date 2026-08-16 --force
 python3 scripts/generate_edition.py --dry-run
 python3 scripts/render_site.py --single one-page.html
-python3 scripts/send_newsletter.py --dry-run mail.html --lang zh
+python3 scripts/send_newsletter.py --dry-run mail.html --band primary
 python3 scripts/send_newsletter.py --to you@example.com
 python3 scripts/build_poster.py --keep-html
 ```
@@ -221,7 +224,7 @@ python3 scripts/build_poster.py --keep-html
 
 ### 成本
 
-每天十一次 Claude Sonnet 调用：一次联网调研，一次记录选中的新闻和链接，
+每天八次 Claude Sonnet 调用：一次联网调研，一次记录选中的新闻和链接，
 然后每条新闻、每个阅读难度各一次。每次运行结束会打印每一步的 token 用量和花费，
 所以你自己那份设置的真实数字，以那份明细为准。
 
