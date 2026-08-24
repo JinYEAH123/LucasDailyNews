@@ -4,8 +4,7 @@
     "start": "2026-08-20T17:00:00-07:00",
     "end": "2026-08-21T17:00:00-07:00",
     "label": {
-      "en": "News from Thursday 5:00 PM to Friday 5:00 PM PDT",
-      "zh": "PDT 8月20日 17:00 至 8月21日 17:00"
+      "en": "News from Thursday 5:00 PM to Friday 5:00 PM PDT"
     }
   },
   "generated_at": "2026-08-21T18:43:33-07:00",
@@ -25,13 +24,11 @@
       "GLOBAL"
     ],
     "bands": [
-      "6-11",
-      "12-15",
-      "16+"
+      "primary",
+      "secondary"
     ],
     "languages": [
-      "en",
-      "zh"
+      "en"
     ],
     "timezone": "America/Vancouver",
     "hour": 17
@@ -49,12 +46,10 @@
       "background": [
         {
           "title": {
-            "en": "Iran Pushes Back On U.S. Threat Of Economic Warfare",
-            "zh": "伊朗回应美国\"经济战\"威胁"
+            "en": "Iran Pushes Back On U.S. Threat Of Economic Warfare"
           },
           "summary": {
-            "en": "Iranian officials respond directly to Trump's sanctions threat, giving voice to the other side of the dispute.",
-            "zh": "伊朗官员直接回应特朗普的制裁威胁,呈现这场争端的另一方观点。"
+            "en": "Iranian officials respond directly to Trump's sanctions threat, giving voice to the other side of the dispute."
           },
           "publisher": "NPR",
           "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare"
@@ -63,24 +58,20 @@
       "further": [
         {
           "title": {
-            "en": "Trump Turns to Economic Warfare, With China in the Crosshairs",
-            "zh": "特朗普转向经济战,中国成为焦点"
+            "en": "Trump Turns to Economic Warfare, With China in the Crosshairs"
           },
           "summary": {
-            "en": "Explains why China, as Iran's largest oil buyer, is central to the new U.S. sanctions push, and how Beijing might respond.",
-            "zh": "解释为何作为伊朗最大石油买家的中国成为美国新一轮制裁的核心目标,以及北京可能的应对方式。"
+            "en": "Explains why China, as Iran's largest oil buyer, is central to the new U.S. sanctions push, and how Beijing might respond."
           },
           "publisher": "Bloomberg",
           "url": "https://www.bloomberg.com/news/newsletters/2026-08-20/trump-turns-to-economic-warfare-with-china-in-crosshairs"
         },
         {
           "title": {
-            "en": "How China and Russia Could Hobble Trump's Plans to Isolate Iran",
-            "zh": "中国和俄罗斯如何可能阻挠特朗普孤立伊朗的计划"
+            "en": "How China and Russia Could Hobble Trump's Plans to Isolate Iran"
           },
           "summary": {
-            "en": "An analysis, from the Qatari state-funded broadcaster Al Jazeera, of the economic tools Beijing and Moscow could use to blunt U.S. pressure on Iran.",
-            "zh": "这篇分析来自卡塔尔国家资助的半岛电视台,探讨北京和莫斯科可用来削弱美国对伊朗施压的经济手段。"
+            "en": "An analysis, from the Qatari state-funded broadcaster Al Jazeera, of the economic tools Beijing and Moscow could use to blunt U.S. pressure on Iran."
           },
           "publisher": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/8/20/how-china-and-russia-could-hobble-trumps-plans-to-isolate-iran"
@@ -88,14 +79,12 @@
       ],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "The US Sets a Deadline for Iran — Then the Deadline Passes",
-            "zh": "美国给伊朗下了最后通牒——期限到了,协议却没有达成"
+            "en": "The US Sets a Deadline for Iran — Then the Deadline Passes"
           },
           "hook": {
-            "en": "For 60 days, the United States gave Iran a chance to make a deal about nuclear weapons and money rules called sanctions. That time ran out this week. Now President Trump is threatening huge new punishments on any country that still does business with Iran — even countries like Oman that were just trying to help make peace.",
-            "zh": "过去60天里,美国给了伊朗一个机会,让它就核武器和一种叫“制裁”的经济规则达成协议。这个期限本周到了,协议却没有谈成。现在,特朗普总统威胁要对任何仍与伊朗做生意的国家施加严厉的新惩罚——哪怕是像阿曼这样一直努力帮忙调解和平的国家。"
+            "en": "For 60 days, the United States gave Iran a chance to make a deal about nuclear weapons and money rules called sanctions. That time ran out this week. Now President Trump is threatening huge new punishments on any country that still does business with Iran — even countries like Oman that were just trying to help make peace."
           },
           "story": {
             "en": [
@@ -103,80 +92,56 @@
               "President Trump says he will now launch what he calls an 'economic D-Day' — a huge wave of new sanctions. Sanctions are rules that stop countries from trading with each other, kind of like taking away someone's allowance until they behave. Trump says any country, even a friendly one like Oman, could get punished too if it keeps doing business with Iran.",
               "Vice President JD Vance called this a 'new phase' of a war already happening between the US, Israel, and Iran. That war has already caused hundreds of deaths and led to ships being blocked from passing through the Strait of Hormuz — a narrow strip of ocean where a huge share of the world's oil travels through, almost like a single tollbooth for oil tankers.",
               "China called the US pressure unhelpful, and China has real power here — it buys more of Iran's oil than any other country in the world. Iran also pushed back hard against what it called 'economic warfare.' Making things messier, the Pentagon, which runs the US military, recently changed how it counts deaths from the war, so nobody even agrees on how many people have really died."
-            ],
-            "zh": [
-              "伊朗是中东的一个国家。多年来,其他国家一直担心伊朗可能在秘密制造核武器。六十天前——差不多相当于一个暑假那么长——美国要求伊朗达成协议,否则将面临严重后果。这周,期限到了,协议却仍未谈成。",
-              "特朗普总统说,他现在要发动一场他称之为“经济诺曼底登陆日”的行动——也就是一大波新的制裁。制裁是一种阻止国家之间做生意的规则,有点像因为某人表现不好而没收他的零花钱。特朗普说,任何国家,哪怕是像阿曼这样的友好国家,只要继续和伊朗做生意,都可能受到惩罚。",
-              "副总统万斯说,这标志着美国、以色列与伊朗之间已经在进行的战争进入了“新阶段”。这场战争已经造成数百人死亡,并导致船只无法通过霍尔木兹海峡——一条狭窄的海峡,世界上很大一部分石油都要经过这里,就像油轮必须经过的一个收费站。",
-              "中国表示美国的施压“无益”,而中国在这件事上确实有很大的影响力——因为中国购买的伊朗石油比世界上任何国家都多。伊朗也强烈反对所谓的“经济战”。更让事情复杂的是,美国国防部最近改变了统计战争死亡人数的方法,导致现在没有人能说清楚这场战争到底造成了多少人死亡。"
             ]
           },
           "why_it_matters": {
-            "en": "When countries fight over oil routes and trading rules, it can push up the price of gas for cars and buses — and even the plastic used in toys — because so much of the world's oil passes through that one narrow strait. If this conflict keeps growing, your family could end up paying more for everyday things, even though nobody in your house is anywhere near Iran.",
-            "zh": "当各国在石油航道和贸易规则上发生冲突时,汽车、公交车用的汽油价格可能会上涨,甚至连玩具里用的塑料价格也会受影响,因为世界上很大一部分石油都要经过那条狭窄的海峡。如果这场冲突继续扩大,你家可能要为日常用品多付钱,即使你们家没有一个人靠近伊朗。"
+            "en": "When countries fight over oil routes and trading rules, it can push up the price of gas for cars and buses — and even the plastic used in toys — because so much of the world's oil passes through that one narrow strait. If this conflict keeps growing, your family could end up paying more for everyday things, even though nobody in your house is anywhere near Iran."
           },
           "word_bank": [
             {
               "term": {
-                "en": "sanctions",
-                "zh": "制裁"
+                "en": "sanctions"
               },
               "def": {
-                "en": "Rules one country uses to stop trading with another country, like a punishment that cuts off money and goods until something changes.",
-                "zh": "制裁是一个国家用来阻止与另一个国家做生意的规则,就像一种惩罚,切断金钱和货物往来,直到情况改变为止。"
+                "en": "Rules one country uses to stop trading with another country, like a punishment that cuts off money and goods until something changes."
               }
             },
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow strip of ocean between Iran and other countries that a huge share of the world's oil ships must pass through, like one doorway many trucks all have to drive through.",
-                "zh": "霍尔木兹海峡是伊朗与其他国家之间一条狭窄的海域,世界上大量运油船必须经过这里,就像许多卡车都得挤过同一扇门。"
+                "en": "A narrow strip of ocean between Iran and other countries that a huge share of the world's oil ships must pass through, like one doorway many trucks all have to drive through."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is it fair for the US to punish other countries, like Oman, for doing business with Iran, even if those countries didn't do anything wrong to the US?",
-                "zh": "如果阿曼这样的国家并没有对美国做错任何事,只是和伊朗做生意,美国因此惩罚它们,这公平吗?"
+                "en": "Is it fair for the US to punish other countries, like Oman, for doing business with Iran, even if those countries didn't do anything wrong to the US?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, it's fair",
-                    "zh": "公平"
+                    "en": "Yes, it's fair"
                   },
                   "points": {
                     "en": [
                       "If Iran is doing something dangerous, cutting off all its money fast might be the quickest way to stop it.",
                       "Sometimes tough choices are needed to prevent something even worse, like a bigger war.",
                       "Other countries knew helping Iran might come with a cost, so they made that choice themselves."
-                    ],
-                    "zh": [
-                      "如果伊朗真的在做危险的事,尽快切断它的资金也许是阻止它最快的办法。",
-                      "有时候必须做出艰难的选择,才能防止发生更糟糕的事,比如更大规模的战争。",
-                      "其他国家在帮助伊朗之前就该知道可能要付出代价,这是它们自己的选择。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, it's unfair",
-                    "zh": "不公平"
+                    "en": "No, it's unfair"
                   },
                   "points": {
                     "en": [
                       "Oman didn't attack anyone, so punishing it feels like blaming the wrong country.",
                       "It hurts everyday people who need to trade, not just the leaders making big decisions.",
                       "Punishing friendly countries could turn them angry, making the whole situation worse."
-                    ],
-                    "zh": [
-                      "阿曼并没有攻击任何人,惩罚它感觉像是怪错了对象。",
-                      "这样做伤害的是需要贸易的普通老百姓,而不只是做决定的领导人。",
-                      "惩罚原本友好的国家可能会激怒它们,让整个局势变得更糟。"
                     ]
                   }
                 }
@@ -184,43 +149,30 @@
             },
             {
               "question": {
-                "en": "When people can't even agree on how many have died in a war, should countries still make big decisions like sanctions right away?",
-                "zh": "当人们连战争中到底死了多少人都说不清楚时,各国是否还应该立刻做出制裁这样的重大决定?"
+                "en": "When people can't even agree on how many have died in a war, should countries still make big decisions like sanctions right away?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, act now",
-                    "zh": "应该立刻行动"
+                    "en": "Yes, act now"
                   },
                   "points": {
                     "en": [
                       "Waiting to know the exact numbers could take forever, while dangerous things like blocked ships keep happening.",
                       "Leaders already have other proof things are serious, like the blocked strait and disrupted oil.",
                       "Delaying a decision could let the situation get even more dangerous."
-                    ],
-                    "zh": [
-                      "等到弄清楚确切数字可能要花很长时间,而船只被封锁等危险情况却一直在持续。",
-                      "领导人已经有其他证据证明事态严重,比如海峡被封锁、石油运输受阻。",
-                      "拖延决定可能会让局势变得更加危险。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, wait for facts",
-                    "zh": "应该等事实清楚"
+                    "en": "No, wait for facts"
                   },
                   "points": {
                     "en": [
                       "Big decisions like sanctions or war need accurate facts, not guesses.",
                       "If the numbers are wrong, countries might overreact or underreact to what's really happening.",
                       "History shows big actions taken on bad information have caused even more harm."
-                    ],
-                    "zh": [
-                      "像制裁或开战这样的重大决定,需要准确的事实,而不是猜测。",
-                      "如果数字不准确,各国可能会对真实情况反应过度或反应不足。",
-                      "历史上有很多因为信息错误而做出重大行动,结果造成更大伤害的例子。"
                     ]
                   }
                 }
@@ -228,14 +180,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "Trump Declares 'Economic D-Day' on Iran as Deadline Passes",
-            "zh": "最后期限已过，特朗普向伊朗宣布'经济版诺曼底登陆日'"
+            "en": "Trump Declares 'Economic D-Day' on Iran as Deadline Passes"
           },
           "hook": {
-            "en": "A 60-day deadline for the US and Iran to reach a deal on Iran's nuclear program and sanctions has expired with no agreement. President Trump responded by threatening new sanctions on Oman, the country that had been quietly trying to broker peace, and promising a sweeping new sanctions campaign against any nation trading with Iran. Vice President JD Vance called it a 'new phase' of the US-Israel-Iran conflict, which has already caused hundreds of casualties.",
-            "zh": "美国和伊朗为达成核问题与制裁协议设定的60天期限已经到期，双方未能达成协议。特朗普总统随即威胁要制裁一直在斡旋和谈的阿曼，并誓言对任何与伊朗做生意的国家发起全面新制裁。副总统万斯称这是美国、以色列与伊朗冲突的'新阶段'，而这场冲突已造成数百人伤亡。"
+            "en": "A 60-day deadline for the US and Iran to reach a deal on Iran's nuclear program and sanctions has expired with no agreement. President Trump responded by threatening new sanctions on Oman, the country that had been quietly trying to broker peace, and promising a sweeping new sanctions campaign against any nation trading with Iran. Vice President JD Vance called it a 'new phase' of the US-Israel-Iran conflict, which has already caused hundreds of casualties."
           },
           "story": {
             "en": [
@@ -244,91 +194,64 @@
               "That fighting has already been costly. It has caused hundreds of casualties and led to a blockade of the Strait of Hormuz, a narrow waterway between Iran and Oman that roughly a fifth of the world's oil shipments pass through every day. Even figuring out exactly how many people have died has become complicated: the Pentagon recently changed how it counts and categorizes casualties from the conflict, meaning the same war can now produce very different casualty numbers depending on who is counting and how.",
               "China's government publicly rejected the US pressure campaign, calling it unhelpful, while Iranian officials pushed back hard against what they called 'economic warfare.' Both reactions point to the same problem for Washington: sanctions only work if enough of the world agrees to enforce them, and right now two of the biggest players in the global economy are not on board. China buys more Iranian oil than any other country by a wide margin, giving Beijing real leverage to blunt whatever sanctions the US rolls out, and Russia has its own reasons to help Iran dodge economic isolation.",
               "That leaves the US in a tricky spot. 'Economic D-Day' is a dramatic phrase -- it borrows from the codename of the massive Allied invasion that helped turn World War II -- but sanctions are only as strong as the countries willing to enforce them. If China and Russia keep trading with Iran anyway, the sweeping campaign Trump is promising could end up looking more like a warning shot than a knockout blow."
-            ],
-            "zh": [
-              "美国曾给伊朗设定了一个为期60天的'倒计时'：要么就伊朗核项目和被称为'制裁'的严厉经济惩罚达成协议，要么面对后果。这个期限本周到期，双方仍未达成任何协议。",
-              "接下来的反应十分直接强硬。特朗普总统威胁要对阿曼——这个几个月来一直在低调斡旋美伊谈判的海湾小国——实施新制裁，并誓言发起他的政府所称的'经济版诺曼底登陆日'：对全球任何继续与伊朗做生意的国家发起制裁浪潮。副总统万斯的表态更进一步，他将这一时刻称为美国、以色列与伊朗冲突的'新阶段'——这场冲突已经持续数月的真实军事对抗，而不仅仅是经济施压。",
-              "这场军事对抗已经付出了沉重代价。冲突已造成数百人伤亡，并导致霍尔木兹海峡遭到封锁——这是伊朗和阿曼之间一条狭窄水道，全球大约五分之一的石油运输每天都要经过这里。就连准确统计死亡人数也变得复杂：五角大楼最近改变了统计和归类这场冲突伤亡人数的方式，这意味着同一场战争，根据统计方和统计方法的不同，可能得出截然不同的伤亡数字。",
-              "中国政府公开反对美国的施压行动，称其无益，伊朗官员也强烈反对所谓的'经济战'。这两种反应都指向华盛顿面临的同一个难题：制裁要奏效，需要世界上足够多的国家配合执行，而目前，全球经济中两个最重要的参与者都没有加入。中国是伊朗石油最大的买家，遥遥领先其他国家，这让北京拥有真正的筹码，可以削弱美国推出的任何制裁效果，而俄罗斯出于自身利益，也有理由帮助伊朗规避经济孤立。",
-              "这让美国陷入了一个棘手的处境。'经济版诺曼底登陆日'是一个极具戏剧性的说法——它借用了二战中扭转战局的盟军大规模登陆行动的代号——但制裁的效力，终究取决于有多少国家愿意真正执行它。如果中国和俄罗斯继续照常与伊朗做生意，特朗普承诺的这场全面攻势，最终可能更像是一记警告，而非致命一击。"
             ]
           },
           "why_it_matters": {
-            "en": "Roughly a fifth of the world's oil passes through the Strait of Hormuz, so a blockade there can push up the price of gas at the pump wherever you live, even far from the Middle East. Decisions made in this standoff -- by the US, Iran, China, and Russia -- could shape whether this conflict cools down or spreads, at a moment when major powers are already choosing sides.",
-            "zh": "全球大约五分之一的石油要经过霍尔木兹海峡，因此那里一旦被封锁，无论你住在世界哪个角落，加油站的汽油价格都可能上涨。美国、伊朗、中国和俄罗斯在这场对峙中做出的决定，可能决定这场冲突是逐渐降温，还是进一步扩大——而此时，几个大国已经在选边站队。"
+            "en": "Roughly a fifth of the world's oil passes through the Strait of Hormuz, so a blockade there can push up the price of gas at the pump wherever you live, even far from the Middle East. Decisions made in this standoff -- by the US, Iran, China, and Russia -- could shape whether this conflict cools down or spreads, at a moment when major powers are already choosing sides."
           },
           "word_bank": [
             {
               "term": {
-                "en": "Sanctions",
-                "zh": "制裁"
+                "en": "Sanctions"
               },
               "def": {
-                "en": "Penalties one country places on another, like blocking trade or freezing money, to try to force a change in behavior without going to war.",
-                "zh": "一个国家对另一个国家施加的惩罚，比如切断贸易或冻结资金，目的是在不诉诸战争的情况下迫使对方改变行为。"
+                "en": "Penalties one country places on another, like blocking trade or freezing money, to try to force a change in behavior without going to war."
               }
             },
             {
               "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
+                "en": "Strait of Hormuz"
               },
               "def": {
-                "en": "A narrow strip of water between Iran and Oman that roughly a fifth of the world's oil shipments pass through every day, making it a critical global chokepoint.",
-                "zh": "伊朗和阿曼之间一条狭窄水道，全球大约五分之一的石油运输每天都要经过这里，是至关重要的全球咽喉要道。"
+                "en": "A narrow strip of water between Iran and Oman that roughly a fifth of the world's oil shipments pass through every day, making it a critical global chokepoint."
               }
             },
             {
               "term": {
-                "en": "Leverage",
-                "zh": "筹码/影响力"
+                "en": "Leverage"
               },
               "def": {
-                "en": "The power one side has to influence another, often because the other side needs something from them -- like Iran needing to sell oil to China.",
-                "zh": "一方能够影响另一方的能力，通常是因为对方需要从自己这里得到某种东西——比如伊朗需要向中国出售石油。"
+                "en": "The power one side has to influence another, often because the other side needs something from them -- like Iran needing to sell oil to China."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the US impose sweeping sanctions on any country that keeps trading with Iran, even powerful nations like China?",
-                "zh": "美国是否应该对任何继续与伊朗做生意的国家实施全面制裁，即便是中国这样的大国？"
+                "en": "Should the US impose sweeping sanctions on any country that keeps trading with Iran, even powerful nations like China?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Maximum pressure",
-                    "zh": "极限施压"
+                    "en": "Maximum pressure"
                   },
                   "points": {
                     "en": [
                       "Cutting off Iran's oil money makes it much harder to fund weapons and allied militias, achieving real results without a full-scale war.",
                       "If the US makes exceptions for powerful trading partners, Iran can simply wait out the pressure, so sanctions only work if applied broadly and consistently.",
                       "Backing down in the face of Chinese or Russian objections would signal weakness, inviting other countries to defy US demands in future conflicts too."
-                    ],
-                    "zh": [
-                      "切断伊朗的石油收入，能让其更难为武器项目和盟友武装提供资金，从而在不发动全面战争的情况下取得实际效果。",
-                      "如果美国对强大的贸易伙伴网开一面，伊朗完全可以耗着等制裁过去，所以制裁只有广泛且一致地执行才能真正奏效。",
-                      "面对中国或俄罗斯的反对就退让，会传递出软弱的信号，鼓励其他国家在未来的冲突中也无视美国的要求。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Too costly to enforce",
-                    "zh": "代价太高，难以执行"
+                    "en": "Too costly to enforce"
                   },
                   "points": {
                     "en": [
                       "Sanctioning major economies like China risks triggering a broader trade war that could raise prices on everyday goods for ordinary Americans.",
                       "Sweeping sanctions often hurt regular citizens in the targeted country far more than the officials making the decisions, without necessarily changing behavior.",
                       "Pushing China and Russia to cooperate against US pressure could unite two rivals more tightly, reducing American leverage in the long run rather than increasing it."
-                    ],
-                    "zh": [
-                      "对中国这样的大型经济体实施制裁，可能引发更广泛的贸易战，进而推高普通美国人日常商品的价格。",
-                      "全面制裁往往对被制裁国家的普通民众造成的伤害，远大于对做决策的政府官员，却未必能真正改变对方的行为。",
-                      "逼迫中国和俄罗斯联手对抗美国的压力，可能让这两个对手走得更近，从长远看反而削弱美国的影响力，而非增强它。"
                     ]
                   }
                 }
@@ -336,197 +259,30 @@
             },
             {
               "question": {
-                "en": "When a government changes how it counts war casualties, should the public treat that as normal bookkeeping or as a reason for suspicion?",
-                "zh": "当一个政府改变统计战争伤亡人数的方式时，公众应该将其视为正常的统计调整，还是应该心生怀疑？"
+                "en": "When a government changes how it counts war casualties, should the public treat that as normal bookkeeping or as a reason for suspicion?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Normal military bookkeeping",
-                    "zh": "正常的军事统计调整"
+                    "en": "Normal military bookkeeping"
                   },
                   "points": {
                     "en": [
                       "Militaries routinely update how they classify casualties as a conflict evolves, and that alone doesn't prove anything is being hidden.",
                       "Some casualty definitions genuinely need revising -- like how to count contractors, allied fighters, or deaths from indirect causes -- and getting that right takes work.",
                       "Comparing raw casualty numbers across different counting systems can be misleading anyway, so a more careful system might actually give a truer picture."
-                    ],
-                    "zh": [
-                      "随着冲突的发展，军方经常会更新伤亡人员的分类方式，这本身并不能证明有什么被刻意隐瞒。",
-                      "有些伤亡统计的定义确实需要修订——比如如何统计承包商、盟军战斗人员，或因间接原因导致的死亡——把这件事做对本身就需要时间。",
-                      "用不同统计体系下的原始伤亡数字进行比较，本来就可能产生误导，所以更严谨的统计方式反而可能提供更真实的情况。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Reason for suspicion",
-                    "zh": "理由充分的怀疑"
+                    "en": "Reason for suspicion"
                   },
                   "points": {
                     "en": [
                       "Changing the definitions right as a conflict escalates raises a fair question about whether the true human cost is being downplayed on purpose.",
                       "A democracy depends on citizens knowing the real cost of a war their government is fighting, so they can hold leaders accountable for it.",
                       "History includes real examples of governments minimizing casualty counts during unpopular or expanding conflicts, so skepticism here isn't unreasonable."
-                    ],
-                    "zh": [
-                      "恰好在冲突升级之际改变统计定义，让人有理由怀疑真实的人员伤亡是否正在被有意淡化。",
-                      "民主制度依赖于公民了解本国政府所打战争的真实代价，这样才能追究领导人的责任。",
-                      "历史上确实存在政府在冲突不受欢迎或不断扩大时压低伤亡数字的先例，因此这种怀疑并非没有道理。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "Iran Deadline Expires, and Washington Vows an 'Economic D-Day'",
-            "zh": "伊朗谈判期限已过，华盛顿誓言发动“经济诺曼底”"
-          },
-          "hook": {
-            "en": "A 60-day window for Iran and the United States to strike a new nuclear and sanctions deal has closed without an agreement. President Trump responded by threatening Oman, the country that had been mediating the talks, and promising sweeping new sanctions on any nation still doing business with Iran. Vice President JD Vance called it a 'new phase' of a conflict between the US, Israel, and Iran that has already killed and wounded hundreds of people and shut down shipping through one of the world's most important oil routes.",
-            "zh": "伊朗与美国原定六十天内达成新的核协议与制裁协议，但这一期限已经过去，双方并未谈成。特朗普总统随即向担任调解方的阿曼发出威胁，并誓言要对任何仍与伊朗有生意往来的国家施加全面新制裁。副总统万斯将此称为美国、以色列与伊朗之间冲突的“新阶段”——这场冲突已造成数以百计的人员伤亡，并使一条全球最重要的石油航道陷入停摆。"
-          },
-          "story": {
-            "en": [
-              "The deadline that just lapsed was not the beginning of this confrontation but its latest checkpoint. For two months, Washington had held out the possibility of a negotiated settlement — some combination of limits on Iran's nuclear program in exchange for the lifting of sanctions that have strangled its economy for years. When the sixty days ran out with no deal, Trump did not simply reimpose the old sanctions; he announced what he called an 'economic D-Day,' invoking the language of the Allied invasion of Normandy to describe a coordinated push meant to cut Iran off from the world economy entirely. He also threatened Oman directly, a striking move given that Oman had been the trusted go-between shuttling messages between Washington and Tehran for months.",
-              "This is happening against the backdrop of an active shooting war, not a cold standoff. Israeli and American strikes on Iranian targets, and Iranian retaliation, have killed and wounded hundreds of people over recent months, and Iran has responded in part by disrupting shipping through the Strait of Hormuz, the narrow waterway between Iran and the Arabian Peninsula through which roughly a fifth of the world's oil passes each day. Vance's description of a 'new phase' suggests the administration sees the sanctions push not as an alternative to military pressure but as an extension of it — economic weapons deployed alongside, not instead of, actual weapons.",
-              "Iran did not accept the framing quietly. Officials in Tehran pushed back publicly on what they called 'economic warfare,' arguing that sweeping sanctions on third countries amount to collective punishment aimed at ordinary Iranians rather than at the government's nuclear program specifically. China's foreign ministry went further, rejecting the entire US pressure campaign as unhelpful — a notable statement given that China is not a bystander in this dispute but Iran's single largest oil customer, and therefore one of the primary targets of any 'secondary sanctions' regime that punishes countries for trading with Tehran.",
-              "That Chinese objection points to the real weakness in Washington's strategy. Sanctions only isolate a country if enough of the world agrees to enforce them, and both China and Russia have concrete reasons and real means to blunt an American pressure campaign — China needs Iranian oil, and both governments have their own reasons to resist a strategy that would let Washington set the rules of who can trade with whom. Analysts point out that this is the structural problem with any 'maximum pressure' approach in a world where the US no longer has uncontested control over global energy markets: the sanctions can be sweeping in language while being porous in practice.",
-              "Adding to the uncertainty is a dispute over the basic facts of the conflict's human cost. The Pentagon has changed how it categorizes casualties from this war, a shift that has made the true toll of dead and wounded a genuinely contested number rather than a simple statistic — different counting methods can produce very different headlines from the same events on the ground, and it is not yet clear which method the public is now seeing. CNN, NPR, Bloomberg, and Al Jazeera have each reported pieces of this story independently; Al Jazeera, it's worth noting, is funded by the government of Qatar, a fact relevant to how it frames Gulf and Iran-related coverage even where its factual reporting lines up with the others.",
-              "What happens next depends on choices that have not yet been made. If the sanctions campaign proceeds as described, it will test whether the US can still compel global compliance through financial pressure alone, or whether an economy the size of China's simply routes around it. If it stalls, Washington may face pressure to escalate militarily instead, given how explicitly Vance has tied the sanctions to the broader war effort. Either path affects oil prices, shipping costs, and diplomatic alignments well beyond the Middle East."
-            ],
-            "zh": [
-              "刚刚过去的这一期限并非冲突的开端，而只是最新一个节点。过去两个月里，华盛顿一直留有谈判解决的可能——大致思路是伊朗限制核计划，换取美方解除多年来重创伊朗经济的制裁。六十天期限届满、协议未能达成后，特朗普并未只是简单恢复旧制裁，而是宣布发动他所称的“经济诺曼底”，借用二战盟军诺曼底登陆的说法，形容一场旨在将伊朗彻底排除出世界经济体系的协同行动。他还直接向阿曼发出威胁——考虑到阿曼数月来一直是华盛顿与德黑兰之间信任的传话人，这一举动格外引人注目。",
-              "这一切发生在一场正在进行的实弹战争背景下，而非一场冷对峙。以色列和美国对伊朗目标的打击，以及伊朗的报复行动，近几个月来已造成数百人伤亡，伊朗则部分以扰乱霍尔木兹海峡航运作为回应——这条位于伊朗与阿拉伯半岛之间的狭窄水道，每天承担着全球约五分之一的石油运输量。万斯所说的“新阶段”，暗示美方并不将制裁攻势视为军事压力的替代方案，而是其延伸——经济武器与实际武器并用，而非取而代之。",
-              "伊朗方面并未默默接受这一说法。德黑兰官员公开反驳所谓“经济战争”的说法，认为对第三国的全面制裁实质上是一种集体惩罚，打击的是普通伊朗民众，而非政府的核计划本身。中国外交部的表态更进一步，公开拒绝美方整个施压行动，称其无助于问题解决——这一表态格外值得关注，因为中国在这场争端中并非旁观者，而是伊朗最大的石油买家，因此也是任何针对与德黑兰有生意往来的国家实施“次级制裁”政策的首要打击对象。",
-              "中国的这一反对恰恰点出了华盛顿战略的真正软肋。制裁要真正孤立一个国家，前提是世界上足够多的国家愿意配合执行，而中国和俄罗斯都有充分的现实理由与切实的手段来削弱美国的施压行动——中国需要伊朗的石油，两国政府也各自有理由抵制一种由美国单方面决定谁能与谁做生意的战略。分析人士指出，这正是任何“极限施压”策略在当今世界所面临的结构性难题：在美国已不再对全球能源市场拥有绝对控制力的情况下，制裁措辞可以很全面，执行起来却可能千疮百孔。",
-              "让局势更加扑朔迷离的是，围绕这场冲突人员伤亡这一最基本事实的争议。五角大楼改变了对这场战争伤亡人数的统计口径，这一变化使得死伤真实数字成为一个真正有争议的问题，而非一个简单的统计数据——不同的统计方法可能对同样的战场事件得出截然不同的结论，目前尚不清楚公众现在看到的究竟是哪一种口径下的数字。CNN、NPR、彭博社和半岛电视台各自独立报道了这一事件的不同侧面；值得说明的是，半岛电视台由卡塔尔政府出资运营，这一点与其在报道海湾及伊朗相关事务时的立场取向有关，尽管其事实报道与其他媒体大体一致。",
-              "接下来会发生什么，取决于尚未做出的选择。如果制裁行动按预期推进，它将检验美国是否仍能仅凭金融压力迫使全球遵从，还是说像中国这样体量的经济体终究能绕开限制。如果行动陷入停滞，鉴于万斯已如此明确地将制裁与更广泛的战争行动挂钩，华盛顿或将面临转向军事升级的压力。无论走哪条路，其影响都会波及中东以外的石油价格、航运成本与外交格局。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Sanctions on this scale ripple into everyday costs far from Iran — oil prices, shipping insurance, and the price of goods that travel by sea all move when a route like the Strait of Hormuz is disrupted. It's also a case study in how much leverage any one country, even a superpower, actually has left in an economy where China and Russia can simply decline to cooperate.",
-            "zh": "这种规模的制裁会波及远离伊朗的日常生活成本——一旦霍尔木兹海峡这样的航道受阻，石油价格、航运保险乃至海运货物的价格都会随之波动。这也是一个很好的案例，说明在一个中国和俄罗斯完全可以选择不配合的世界经济中，即便是超级大国，实际还剩下多少真正的话语权。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "Secondary sanctions",
-                "zh": "次级制裁"
-              },
-              "def": {
-                "en": "Penalties the US imposes not on Iran itself, but on any other country or company that keeps doing business with Iran.",
-                "zh": "美国并非直接制裁伊朗，而是惩罚任何继续与伊朗保持生意往来的其他国家或企业。"
-              }
-            },
-            {
-              "term": {
-                "en": "Strait of Hormuz",
-                "zh": "霍尔木兹海峡"
-              },
-              "def": {
-                "en": "A narrow waterway between Iran and the Arabian Peninsula through which about a fifth of the world's oil shipments pass every day.",
-                "zh": "位于伊朗与阿拉伯半岛之间的狭窄水道，全球约五分之一的石油运输每天经此通过。"
-              }
-            },
-            {
-              "term": {
-                "en": "'Economic D-Day'",
-                "zh": "“经济诺曼底”"
-              },
-              "def": {
-                "en": "Trump's own phrase for a coordinated, large-scale sanctions push, borrowing the name of the WWII Allied invasion to signal a decisive, all-at-once offensive.",
-                "zh": "特朗普本人对这次协同大规模制裁行动的称呼，借用二战盟军诺曼底登陆的名称，意在表明这是一次一次性、决定性的攻势。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Should the US impose sweeping secondary sanctions on any country that trades with Iran, even knowing it will strain relations with major powers like China?",
-                "zh": "美国是否应该对任何与伊朗有贸易往来的国家实施全面的次级制裁，即便明知这会使与中国等大国的关系变得紧张？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Yes, apply the pressure",
-                    "zh": "应该，施加压力"
-                  },
-                  "points": {
-                    "en": [
-                      "Partial sanctions have historically let Iran route around isolation through third countries, so closing those gaps is the only way to make sanctions actually bite.",
-                      "A conflict already involving military strikes calls for using every non-military tool available before escalating further.",
-                      "Allowing China to freely fund Iran's economy through oil purchases undercuts the entire premise of the sanctions regime."
-                    ],
-                    "zh": [
-                      "以往局部制裁往往让伊朗通过第三国绕开孤立，因此堵住这些漏洞才能让制裁真正发挥作用。",
-                      "既然冲突已经涉及军事打击，那么在进一步升级之前，理应先用尽所有非军事手段。",
-                      "若放任中国通过购买石油自由地为伊朗经济输血，将从根本上瓦解整套制裁体系的前提。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "No, it will backfire",
-                    "zh": "不应该，这会适得其反"
-                  },
-                  "points": {
-                    "en": [
-                      "Punishing third countries risks turning allies and neutral trading partners into adversaries over a dispute that isn't theirs.",
-                      "Sanctions that squeeze ordinary Iranians more than the government they're meant to pressure tend to entrench the regime rather than weaken it.",
-                      "If China and Russia simply refuse to comply, the US risks looking weak by declaring a sweeping policy it cannot actually enforce."
-                    ],
-                    "zh": [
-                      "惩罚第三国有可能把本不相干的盟友和中立贸易伙伴，因这场与他们无关的争端而推向对立面。",
-                      "若制裁伤及普通伊朗民众的程度超过对其政府的施压效果，反而可能巩固而非削弱该政权。",
-                      "一旦中俄拒不配合，美国宣布一项实际上无法执行的全面政策，反而会显得虚弱无力。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Given that the Pentagon has changed how it classifies casualties, should the public trust official military casualty figures during an ongoing conflict?",
-                "zh": "既然五角大楼已改变了伤亡统计的分类方式，公众是否还应该在冲突进行中信任官方发布的伤亡数字？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Trust the official count",
-                    "zh": "应该信任官方数字"
-                  },
-                  "points": {
-                    "en": [
-                      "Militaries have legitimate technical reasons to refine classification systems, such as distinguishing direct combat deaths from indirect ones.",
-                      "Officials have access to battlefield information the public simply doesn't, so deferring to their count is often the only practical option.",
-                      "Constantly second-guessing every official figure during wartime can fuel conspiracy thinking that isn't grounded in evidence."
-                    ],
-                    "zh": [
-                      "军方对分类方式进行技术性调整往往有合理原因，比如区分直接战斗死亡与间接死亡。",
-                      "官方掌握着公众根本无法获取的战场信息，因此在很多情况下，采信官方数字是唯一可行的做法。",
-                      "在战时不断质疑每一个官方数字，可能助长缺乏证据支撑的阴谋论思维。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Demand independent verification",
-                    "zh": "应要求独立核实"
-                  },
-                  "points": {
-                    "en": [
-                      "A change in classification that happens to lower the visible toll during an active war is, at minimum, worth scrutinizing rather than accepting at face value.",
-                      "Governments engaged in a conflict have an obvious incentive to present the human cost in the most favorable light possible.",
-                      "History offers repeated examples of casualty figures being revised upward significantly once wars end and independent researchers gain access."
-                    ],
-                    "zh": [
-                      "恰好在战争进行期间调整分类方式、使公开伤亡数字看起来降低，这至少值得审视，而不应照单全收。",
-                      "身处冲突之中的政府，显然有动机以对自己最有利的方式呈现人员伤亡的真实代价。",
-                      "历史上不乏这样的先例：战争结束后独立研究人员获得资料，伤亡数字往往会被大幅上修。"
                     ]
                   }
                 }
@@ -548,24 +304,20 @@
       "background": [
         {
           "title": {
-            "en": "Organizers of Hong Kong's Tiananmen Vigils Face National Security Case",
-            "zh": "香港天安门烛光晚会组织者面临国安法审判"
+            "en": "Organizers of Hong Kong's Tiananmen Vigils Face National Security Case"
           },
           "summary": {
-            "en": "Explains the history of the case since charges were filed in 2021 and the decades-long tradition of the vigils the defendants once led.",
-            "zh": "介绍自2021年提出指控以来案件的历史背景,以及被告曾领导的数十年烛光悼念传统。"
+            "en": "Explains the history of the case since charges were filed in 2021 and the decades-long tradition of the vigils the defendants once led."
           },
           "publisher": "NBC News",
           "url": "https://www.nbcnews.com/world/asia/organizers-hong-kong-tiananmen-vigils-national-security-case-rcna593677"
         },
         {
           "title": {
-            "en": "2 Organizers of Hong Kong's Tiananmen Vigils Convicted in National Security Case",
-            "zh": "香港两名天安门烛光晚会组织者被裁定国安罪成"
+            "en": "2 Organizers of Hong Kong's Tiananmen Vigils Convicted in National Security Case"
           },
           "summary": {
-            "en": "Covers the UK and EU governments' criticism of the verdict as a sign of shrinking free expression in Hong Kong.",
-            "zh": "报道英国和欧盟政府对判决的批评,认为这是香港言论自由空间收窄的又一例证。"
+            "en": "Covers the UK and EU governments' criticism of the verdict as a sign of shrinking free expression in Hong Kong."
           },
           "publisher": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/world/2-organizers-of-hong-kongs-tiananmen-vigils-convicted-in-national-security-case"
@@ -574,12 +326,10 @@
       "further": [
         {
           "title": {
-            "en": "Hong Kong Convicts Tiananmen Vigil Leaders of Subversion",
-            "zh": "香港裁定天安门烛光晚会领袖颠覆罪成立"
+            "en": "Hong Kong Convicts Tiananmen Vigil Leaders of Subversion"
           },
           "summary": {
-            "en": "Details the specific 'end one-party rule' charge and potential sentences, going deeper into the legal mechanics of the national security law case.",
-            "zh": "详细说明\"结束一党专政\"这一具体指控及可能的刑期,深入解析国安法案件的法律细节。"
+            "en": "Details the specific 'end one-party rule' charge and potential sentences, going deeper into the legal mechanics of the national security law case."
           },
           "publisher": "Bloomberg",
           "url": "https://www.bloomberg.com/news/articles/2026-08-21/hong-kong-convicts-tiananmen-vigil-leaders-of-subversion"
@@ -587,93 +337,68 @@
       ],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "Hong Kong Court Finds Two Vigil Organizers Guilty",
-            "zh": "香港法庭裁定两名烛光悼念活动组织者罪名成立"
+            "en": "Hong Kong Court Finds Two Vigil Organizers Guilty"
           },
           "hook": {
-            "en": "A court in Hong Kong, a city in China, said two people broke the law by asking China to change how it is run. Lee Cheuk-yan, 69, and Chow Hang-tung, 41, used to lead a group that held a huge candlelight gathering every year to remember a protest from 1989. Now they could go to prison for up to 10 years, though the judge hasn't said the exact number yet.",
-            "zh": "香港——中国的一座城市——的法庭说,两个人因为要求中国改变管治方式而违反了法律。69岁的李卓人和41岁的邹幸彤曾经领导一个团体,这个团体每年都会举办一场巨大的烛光悼念活动,纪念1989年的一次抗议。现在他们可能要坐牢长达十年,不过法官还没有说出具体的刑期。"
+            "en": "A court in Hong Kong, a city in China, said two people broke the law by asking China to change how it is run. Lee Cheuk-yan, 69, and Chow Hang-tung, 41, used to lead a group that held a huge candlelight gathering every year to remember a protest from 1989. Now they could go to prison for up to 10 years, though the judge hasn't said the exact number yet."
           },
           "story": {
             "en": [
               "For more than 30 years, a group called the Hong Kong Alliance held a candlelight vigil every June 4th. Thousands of people would gather in a park, holding candles, to remember people who died in 1989 during protests in Beijing's Tiananmen Square. It was one of the only places in China where people could openly remember that event.",
               "In 2021, Hong Kong's government forced the group to shut down. Lee and Chow were its leaders. This week, a court said they were guilty of 'inciting subversion' — that means encouraging people to try to overthrow the government — because the group had called for China to end one-party rule, where only one political party is allowed to hold power.",
               "The charge comes from a law China put in place in 2020, called the national security law, which lets Hong Kong punish people it says threaten China's control. Britain and the European Union said the verdict shows that Hong Kong is losing its freedom to speak openly. Hong Kong and Chinese officials say the law is necessary to keep the city safe and stable."
-            ],
-            "zh": [
-              "三十多年来,一个名叫“香港市民支援爱国民主运动联合会”的团体每年6月4日都会举办烛光悼念活动。成千上万的人会聚集在公园里,手持蜡烛,纪念1989年在北京天安门广场抗议中丧生的人们。这是中国唯一可以公开纪念这件事的地方之一。",
-              "2021年,香港政府迫使这个团体解散。李卓人和邹幸彤是团体的领袖。本周,法庭裁定他们犯有“煽动颠覆国家政权罪”——意思是鼓励别人试图推翻政府——因为该团体曾呼吁结束中国的一党执政,也就是只允许一个政党掌权的制度。",
-              "这项指控来自中国在2020年设立的一部法律,叫做《国家安全法》,让香港可以惩罚那些被认为威胁中国管治的人。英国和欧盟表示,这次判决说明香港正在失去公开表达意见的自由。香港和中国官员则表示,这部法律对维护城市的安全与稳定是必要的。"
             ]
           },
           "why_it_matters": {
-            "en": "This story is about whether people should be allowed to say a government should change, even loudly and publicly. It also shows how a place that once let people remember a hard part of history openly, like a school letting kids talk about tough topics, might not be able to anymore.",
-            "zh": "这个故事关乎人们是否应该被允许公开、大声地说政府应该改变。它也说明了一个曾经可以公开纪念历史上艰难一页的地方——就像学校允许孩子谈论困难话题一样——现在可能不再被允许这样做。"
+            "en": "This story is about whether people should be allowed to say a government should change, even loudly and publicly. It also shows how a place that once let people remember a hard part of history openly, like a school letting kids talk about tough topics, might not be able to anymore."
           },
           "word_bank": [
             {
               "term": {
-                "en": "national security law",
-                "zh": "国家安全法"
+                "en": "national security law"
               },
               "def": {
-                "en": "A law China created in 2020 that lets Hong Kong's government punish people for actions it decides threaten China's control over the city.",
-                "zh": "这是中国在2020年制定的一部法律,让香港政府可以惩罚那些被认定威胁中国对香港管控的行为。"
+                "en": "A law China created in 2020 that lets Hong Kong's government punish people for actions it decides threaten China's control over the city."
               }
             },
             {
               "term": {
-                "en": "vigil",
-                "zh": "烛光悼念活动"
+                "en": "vigil"
               },
               "def": {
-                "en": "A quiet gathering, often at night with candles, where people come together to remember someone or something important.",
-                "zh": "一种安静的聚会,通常在夜晚点着蜡烛,人们聚在一起纪念某个人或某件重要的事。"
+                "en": "A quiet gathering, often at night with candles, where people come together to remember someone or something important."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should people be punished for saying they want their government to change, even if many people disagree with them?",
-                "zh": "如果有人说希望自己的政府做出改变,即使很多人不同意他们的看法,他们应该因此受到惩罚吗?"
+                "en": "Should people be punished for saying they want their government to change, even if many people disagree with them?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, for order",
-                    "zh": "是,为了秩序"
+                    "en": "Yes, for order"
                   },
                   "points": {
                     "en": [
                       "A government needs to be able to stop people who might cause chaos or violence.",
                       "If everyone could say the government should be replaced, it might make the country unstable.",
                       "Rules like this exist so citizens feel safe and protected."
-                    ],
-                    "zh": [
-                      "政府需要有能力阻止那些可能引发混乱或暴力的人。",
-                      "如果每个人都能说政府应该被换掉,国家可能会变得不稳定。",
-                      "有这样的规则,是为了让公民感到安全和受到保护。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, speech should be free",
-                    "zh": "不,言论应该自由"
+                    "en": "No, speech should be free"
                   },
                   "points": {
                     "en": [
                       "People should be able to disagree with their government without fear of prison.",
                       "Peaceful requests for change are how many countries have improved over time.",
                       "Punishing words, not actions, can stop people from ever speaking up about problems."
-                    ],
-                    "zh": [
-                      "人们应该能够不同意自己的政府,而不用担心被关进监狱。",
-                      "许多国家正是通过和平地要求改变而变得更好的。",
-                      "惩罚言论而不是行动,可能会让人们再也不敢说出问题。"
                     ]
                   }
                 }
@@ -681,43 +406,30 @@
             },
             {
               "question": {
-                "en": "If a government says a yearly memory event is against the law, should people still hold it?",
-                "zh": "如果政府说每年一次的纪念活动违法,人们还应该继续举办吗?"
+                "en": "If a government says a yearly memory event is against the law, should people still hold it?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Follow the law",
-                    "zh": "遵守法律"
+                    "en": "Follow the law"
                   },
                   "points": {
                     "en": [
                       "Laws are made to be followed, even ones we might not like.",
                       "Breaking a law on purpose can lead to serious punishment, which might hurt more people, like family and friends of the organizers.",
                       "There may be safer, legal ways to remember something without breaking rules."
-                    ],
-                    "zh": [
-                      "法律是用来遵守的,即使是我们不太喜欢的法律。",
-                      "故意违反法律可能带来严重的惩罚,这可能会伤害更多人,比如组织者的家人和朋友。",
-                      "也许有更安全、合法的方式来纪念某件事,而不必违反规则。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Keep remembering",
-                    "zh": "坚持纪念"
+                    "en": "Keep remembering"
                   },
                   "points": {
                     "en": [
                       "Some things are too important to forget, even if a law tries to stop people from talking about them.",
                       "If no one remembers, future generations might never learn what happened.",
                       "Standing up for a memory, even at personal risk, can be an act of courage that matters."
-                    ],
-                    "zh": [
-                      "有些事情太重要,不能被遗忘,即使有法律试图阻止人们谈论它们。",
-                      "如果没有人纪念,后代可能永远不会知道发生过什么。",
-                      "即使冒着个人风险,也要坚持纪念,这本身就是一种有意义的勇气。"
                     ]
                   }
                 }
@@ -725,14 +437,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "Hong Kong Court Convicts Two Tiananmen Vigil Organizers of 'Subversion'",
-            "zh": "香港法庭裁定两名六四悼念活动组织者'煽动颠覆'罪成"
+            "en": "Hong Kong Court Convicts Two Tiananmen Vigil Organizers of 'Subversion'"
           },
           "hook": {
-            "en": "A Hong Kong court on Friday found two veteran pro-democracy activists, Lee Cheuk-yan and Chow Hang-tung, guilty of inciting subversion for their work organizing the city's annual Tiananmen Square vigils. They now face up to 10 years in prison under a national security law Beijing imposed in 2020.",
-            "zh": "周五,香港一家法院裁定两名资深民主派活动人士李卓人和邹幸彤'煽动颠覆国家政权'罪成,罪名与他们多年组织六四烛光悼念活动有关。根据北京于2020年实施的《国家安全法》,两人最高可被判处十年监禁。"
+            "en": "A Hong Kong court on Friday found two veteran pro-democracy activists, Lee Cheuk-yan and Chow Hang-tung, guilty of inciting subversion for their work organizing the city's annual Tiananmen Square vigils. They now face up to 10 years in prison under a national security law Beijing imposed in 2020."
           },
           "story": {
             "en": [
@@ -741,91 +451,64 @@
               "That changed after huge, sometimes violent pro-democracy protests swept Hong Kong in 2019. Beijing responded in 2020 by imposing a national security law that made broad categories of activity — including \"subversion\" — a crime punishable by up to life in prison. The Hong Kong Alliance was forced to disband in 2021, and its leaders, including Lee and Chow, were arrested. Prosecutors argued that the group's calls to \"end one-party rule\" in China amounted to inciting people to overthrow the state.",
               "The British and European Union governments called the verdict further proof that free speech and independent civil society are shrinking fast in Hong Kong, a city once known for its relatively open press and courts. Hong Kong and Beijing officials reject that entirely, insisting the national security law is a legitimate and necessary tool against real threats — like foreign interference and violent unrest — and that the courts, not politics, decided this case based on evidence. A date for sentencing has not yet been set.",
               "Lee and Chow are not the only ones convicted under this law. Dozens of activists, journalists, and pro-democracy politicians have faced similar charges since 2020, and most independent legal observers count this case among the clearest signs yet that the space for peaceful political dissent in Hong Kong has been closing."
-            ],
-            "zh": [
-              "周五,香港一家法院裁定两名知名民主派活动人士触犯了一项严重的政治罪行。69岁的李卓人和41岁的邹幸彤被裁定'煽动颠覆国家政权'罪成——即鼓动他人试图推翻或严重削弱中国政府——所依据的是北京在2020年为香港制定的《国家安全法》。两人最高可被判处十年监禁,法官尚未裁定具体刑期。",
-              "两人都曾是'香港市民支援爱国民主运动联合会'(简称'支联会')的领导人。三十多年来,这个组织每年6月4日都会在香港维多利亚公园举行大型烛光悼念活动,纪念1989年北京天安门广场附近数百甚至数千名遭中国军队镇压致死的示威者。35年来,中国大陆当局一直试图从公众记忆中抹去这一事件,禁止在境内提及。而香港,凭借1997年英国将其主权移交中国时确立的'一国两制'安排,长期以来是中国国土上唯一可以公开悼念六四而不被逮捕的地方。",
-              "这一切在2019年香港爆发大规模、有时甚至演变为暴力冲突的民主抗议活动后发生了改变。北京于2020年作出回应,颁布了一部《国家安全法》,将包括'颠覆'在内的多种广泛行为定为刑事罪行,最高可判终身监禁。支联会在2021年被迫解散,包括李卓人和邹幸彤在内的领导人相继被捕。检方认为,该组织呼吁'结束一党专政'等同于煽动他人推翻国家政权。",
-              "英国和欧盟政府称,这一判决进一步证明,香港这个曾以相对开放的新闻自由和司法制度著称的城市,言论自由与独立公民社会的空间正在迅速收窄。香港和北京官员则完全否认这一说法,坚称《国家安全法》是应对外国干预、暴力骚乱等真实威胁的合法且必要的工具,而且此案是法院依据证据、而非政治因素作出的裁决。目前尚未确定量刑日期。",
-              "李卓人和邹幸彤并非唯一因此法被定罪的人。自2020年以来,已有数十名活动人士、记者和民主派政治人物面临类似指控,大多数独立法律观察人士认为,这起案件是香港和平政治异见空间日益收窄的最明显迹象之一。"
             ]
           },
           "why_it_matters": {
-            "en": "This case is about whether remembering a historical event — one your own government would rather you forget — can be treated as a crime. It's worth asking what would happen if, someday, a country decided that organizing a memorial or a peaceful protest at your own school or town square counted as trying to overthrow the government.",
-            "zh": "这起案件关乎一个问题:纪念一段本国政府希望人们遗忘的历史,是否可以被视为犯罪。不妨想一想,如果有一天,你所在的国家认定在你的学校或城镇广场组织一场纪念活动或和平抗议,等同于试图推翻政府,那会是什么情况。"
+            "en": "This case is about whether remembering a historical event — one your own government would rather you forget — can be treated as a crime. It's worth asking what would happen if, someday, a country decided that organizing a memorial or a peaceful protest at your own school or town square counted as trying to overthrow the government."
           },
           "word_bank": [
             {
               "term": {
-                "en": "national security law",
-                "zh": "国家安全法"
+                "en": "national security law"
               },
               "def": {
-                "en": "A law Beijing introduced in Hong Kong in 2020 that made a wide range of activities against the Chinese government illegal, with punishments as severe as life in prison.",
-                "zh": "北京在2020年为香港制定的一部法律,将多种针对中国政府的行为定为非法,最高可判终身监禁。"
+                "en": "A law Beijing introduced in Hong Kong in 2020 that made a wide range of activities against the Chinese government illegal, with punishments as severe as life in prison."
               }
             },
             {
               "term": {
-                "en": "incite subversion",
-                "zh": "煽动颠覆(国家政权)"
+                "en": "incite subversion"
               },
               "def": {
-                "en": "A crime under the national security law that means encouraging other people to try to overthrow or seriously weaken a government.",
-                "zh": "《国家安全法》下的一项罪名,指鼓动他人试图推翻或严重削弱政府。"
+                "en": "A crime under the national security law that means encouraging other people to try to overthrow or seriously weaken a government."
               }
             },
             {
               "term": {
-                "en": "vigil",
-                "zh": "守夜/悼念活动"
+                "en": "vigil"
               },
               "def": {
-                "en": "A quiet, peaceful gathering — often held at night with candles — where people come together to remember or honor someone or something.",
-                "zh": "一种安静、和平的聚会形式,通常在夜间手持蜡烛举行,人们借此共同纪念或缅怀某人或某事。"
+                "en": "A quiet, peaceful gathering — often held at night with candles — where people come together to remember or honor someone or something."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should a government be allowed to make it a crime to publicly call for its own system to be replaced?",
-                "zh": "政府是否应该有权将公开呼吁推翻其自身体制的行为定为犯罪?"
+                "en": "Should a government be allowed to make it a crime to publicly call for its own system to be replaced?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, governments need this power",
-                    "zh": "是,政府需要这种权力"
+                    "en": "Yes, governments need this power"
                   },
                   "points": {
                     "en": [
                       "Every government has a right to protect itself from being violently overthrown, and laws have to draw a line somewhere between criticism and organizing against the state.",
                       "Calling to 'end one-party rule' is not just an opinion — it's a call for a total change of government, which many countries treat as more serious than ordinary criticism.",
                       "Hong Kong had just experienced real, sometimes violent unrest in 2019, and officials argue that a clear law helps prevent that kind of upheaval from happening again."
-                    ],
-                    "zh": [
-                      "每个政府都有权保护自己不被暴力推翻,法律必须在批评言论和组织颠覆国家之间划出一条界线。",
-                      "呼吁'结束一党专政'不只是表达一种观点,而是呼吁彻底更换政权,许多国家都将此视为比普通批评更严重的行为。",
-                      "香港在2019年刚经历过真实且有时演变为暴力的社会动荡,官员认为明确的法律有助于防止类似动荡再次发生。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, this crosses a line",
-                    "zh": "否,这已越过界限"
+                    "en": "No, this crosses a line"
                   },
                   "points": {
                     "en": [
                       "The vigils and speeches in question were peaceful, yet the organizers received sentences usually reserved for people who used violence.",
                       "Laws written this broadly can end up treating ordinary political criticism the same as an actual plot to overthrow the government, which chills speech far beyond what security requires.",
                       "If remembering the victims of a 35-year-old event counts as inciting subversion, the definition has stretched to cover memory and mourning, not just action."
-                    ],
-                    "zh": [
-                      "本案中的悼念活动和言论都是和平的,但组织者却被判处通常只施加于使用暴力者的刑罚。",
-                      "写得如此宽泛的法律,可能让普通的政治批评和真正意图推翻政府的阴谋被同等对待,从而对言论自由造成远超安全需要的压制。",
-                      "如果纪念35年前事件的遇难者也算煽动颠覆,那么这个罪名的定义已经扩大到涵盖记忆与哀悼,而不仅仅是行动。"
                     ]
                   }
                 }
@@ -833,195 +516,30 @@
             },
             {
               "question": {
-                "en": "Should other countries publicly criticize a government for how it enforces its own domestic laws?",
-                "zh": "其他国家是否应该公开批评一个政府执行本国国内法律的方式?"
+                "en": "Should other countries publicly criticize a government for how it enforces its own domestic laws?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Yes, speak up",
-                    "zh": "是,应当发声"
+                    "en": "Yes, speak up"
                   },
                   "points": {
                     "en": [
                       "International pressure and public criticism have historically helped push some governments to change unjust laws or release political prisoners.",
                       "Hong Kong's freedoms were promised under an international treaty until 2047, so other countries that signed or witnessed that agreement have a direct stake in whether the promise is kept.",
                       "Staying silent can look like approval, while speaking out costs a critical government little and shows solidarity with people who cannot speak freely themselves."
-                    ],
-                    "zh": [
-                      "从历史上看,国际压力和公开批评曾帮助推动一些政府修改不公正的法律或释放政治犯。",
-                      "香港的自由曾在一项国际条约中被承诺保留至2047年,因此签署或见证这一协议的国家在承诺是否兑现上拥有直接利益。",
-                      "保持沉默可能被解读为默许,而公开批评对发声国而言代价很小,却能体现对无法自由发声者的声援。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No, stay out of it",
-                    "zh": "否,不应干涉"
+                    "en": "No, stay out of it"
                   },
                   "points": {
                     "en": [
                       "Every country enforces its laws differently, and foreign criticism can look like other nations trying to dictate how a sovereign country runs its own legal system.",
                       "Governments that criticize others' human rights records are often accused of hypocrisy given the problems in their own justice systems.",
                       "Public criticism from abroad can backfire, making it easier for a government to frame its own activists as agents of foreign interference — which is exactly the kind of charge already being used here."
-                    ],
-                    "zh": [
-                      "每个国家执法方式各不相同,外国的批评可能被视为其他国家试图干涉一个主权国家如何运作自己的法律体系。",
-                      "批评他国人权状况的政府,常常因自身司法体系存在问题而被指责为双重标准。",
-                      "外国的公开批评可能适得其反,反而让该国政府更容易把本国活动人士说成是'外国势力'的代理人——而这正是本案中已经使用的指控之一。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "Hong Kong Court Convicts Two Tiananmen Vigil Leaders of 'Subversion'",
-            "zh": "香港法院裁定两名六四悼念活动组织者「颠覆」罪成"
-          },
-          "hook": {
-            "en": "A Hong Kong court on Friday found Lee Cheuk-yan, 69, and Chow Hang-tung, 41, guilty of inciting subversion of state power under the city's 2020 national security law. Both once led the Hong Kong Alliance, the group that organized the city's mass June 4 candlelight vigils for more than thirty years until it was forced to disband in 2021. They face up to ten years in prison; a sentencing date has not been set.",
-            "zh": "香港一家法院周五裁定69岁的李卓人和41岁的邹幸彤「煽动颠覆国家政权」罪名成立,依据的是2020年实施的《国家安全法》。两人都曾是香港市民支援爱国民主运动联合会(简称「支联会」)的领导人,该组织三十多年来一直是香港六四烛光悼念活动的主要组织者,直到2021年在压力下被迫解散。两人最高可能面临十年监禁,量刑日期尚未公布。"
-          },
-          "story": {
-            "en": [
-              "On Friday, a Hong Kong court convicted Lee Cheuk-yan and Chow Hang-tung of \"inciting subversion of state power,\" a charge that exists only under the national security law Beijing imposed on the city in 2020. Both had led the Hong Kong Alliance in Support of Patriotic Democratic Movements of China, the organization that for more than three decades ran the huge candlelight vigils marking June 4 — the anniversary of the 1989 Tiananmen Square crackdown, when Chinese troops killed protesters who had gathered to demand political reform. The Alliance disbanded in 2021 rather than risk prosecution under the new law.",
-              "The charge centers on the Alliance's longstanding public call to \"end one-party rule\" in China, a slogan it used for years alongside demands for democracy and an official reassessment of the 1989 crackdown. Prosecutors argued that campaigning to end the Communist Party's monopoly on power amounts to an attempt to overthrow the state — an offense the security law punishes severely, with life imprisonment possible in the gravest cases. Lee and Chow now face up to ten years each; sentencing has not yet been scheduled.",
-              "The national security law was drafted in Beijing in 2020, after a year of mass anti-government protests in Hong Kong, and applied to the city without passing through its own legislature. It created several new offenses — secession, subversion, terrorism, and collusion with foreign forces — defined broadly enough that, in serious cases, defendants can be tried without a jury. Chinese and Hong Kong officials describe the law as necessary to restore order and protect national sovereignty after the 2019 unrest. Critics, including Western governments, argue its vague language lets prosecutors treat ordinary political speech, including slogans and public advocacy, as a threat to the state itself.",
-              "Friday's verdict drew swift criticism from the UK and the EU, which said it showed how far freedom of expression and independent civic organizing have narrowed in Hong Kong since the law took effect. Before the Alliance was dismantled, Hong Kong was the only place on Chinese soil where June 4 could be publicly commemorated at scale, with vigils once drawing crowds of well over 100,000 people. Hong Kong and Beijing authorities rejected the foreign criticism, insisting the law was enacted lawfully and applies to conduct rather than opinion — that no one is punished for remembering June 4 privately, only for organizing to end the political system that governs China.",
-              "Lee and Chow are among dozens of pro-democracy figures — journalists, lawmakers, lawyers, and activists — convicted or awaiting trial under the same law since 2020. Several opposition groups, independent unions, and news outlets in Hong Kong have shut down rather than risk similar charges. The Alliance's own museum documenting the Tiananmen crackdown, once the only such museum on Chinese soil, closed alongside the organization in 2021."
-            ],
-            "zh": [
-              "周五,香港一家法院裁定李卓人和邹幸彤「煽动颠覆国家政权」罪名成立,这项罪名只存在于北京在2020年为香港制定的《国家安全法》之下。两人都曾是「支联会」的领导人,该组织三十多年来一直负责筹办纪念六四的大型烛光晚会——六四指的是1989年天安门广场镇压事件,当时中国军队向要求政治改革的示威者开枪。支联会在2021年选择解散,以避免在新法下被起诉。",
-              "此案的核心,是支联会长期公开呼吁「结束一党专政」——这一口号多年来与要求民主、要求官方为1989年镇压事件平反的诉求并列出现。检方认为,推动结束共产党对权力的垄断,等同于企图推翻国家政权,而《国安法》对此类罪行的惩罚极为严厉,情节最严重者可判处终身监禁。李卓人和邹幸彤如今各自最高可能面临十年监禁,量刑日期尚未确定。",
-              "《国安法》由北京在2020年香港经历一年大规模反政府示威后起草,未经香港本地立法机关审议便直接适用于香港。该法新设了多项罪名——分裂国家、颠覆国家政权、恐怖活动以及勾结外国势力——定义相当宽泛,情节严重的案件甚至可以不设陪审团审理。中国和香港官员称,这部法律是2019年动荡后恢复秩序、维护国家主权所必需的。批评者,包括西方多国政府,则认为其措辞含糊,使检方得以把普通的政治言论,包括口号和公开倡议,当作对国家的威胁来起诉。",
-              "周五的裁决迅速招致英国和欧盟的批评,两方均表示,这一判决显示自《国安法》实施以来,香港的言论自由和独立公民组织空间已大幅收窄。在支联会被瓦解之前,香港是中国境内唯一能大规模公开纪念六四的地方,晚会人数一度超过十万。香港和北京当局驳斥了这些批评,坚称该法是依法制定的,针对的是行为而非观点——没有人仅因私下悼念六四而受罚,受罚的是那些组织起来试图结束中国现行政治体制的人。",
-              "自2020年以来,已有数十位民主派人士——记者、议员、律师和活动人士——在同一部法律下被定罪或正在等候审判,李卓人和邹幸彤只是其中之二。香港的多个反对派团体、独立工会和新闻机构宁可解散,也不愿冒被起诉的风险。支联会自己设立的六四纪念馆,曾是中国境内唯一的同类博物馆,也随组织一起在2021年关闭。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "This case is really about how far a government can go in turning a political slogan into a crime — and what happens to public memory when the institutions that keep it alive are made illegal. It matters beyond Hong Kong because broadly worded national security laws, which let states prosecute advocacy rather than violence, are becoming a common tool for narrowing dissent without ever formally banning free speech.",
-            "zh": "这起案件的核心,是一个政府究竟可以在多大程度上把一句政治口号变成一项罪名——以及当维系公共记忆的机构被定为非法时,这份记忆会遭遇什么。它的意义超出香港本身,因为用宽泛措辞把「主张」而非「暴力」入罪的国安类法律,正成为许多地方在不正式禁止言论自由的情况下压缩异见空间的常见手法。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "national security law",
-                "zh": "国家安全法"
-              },
-              "def": {
-                "en": "A law Beijing imposed on Hong Kong in 2020 that created broad new crimes, such as subversion and secession, aimed at political activity seen as threatening Chinese state power.",
-                "zh": "北京在2020年为香港制定的一部法律,新设了颠覆、分裂国家等定义宽泛的罪名,针对被视为威胁中国国家政权的政治活动。"
-              }
-            },
-            {
-              "term": {
-                "en": "incite subversion",
-                "zh": "煽动颠覆国家政权"
-              },
-              "def": {
-                "en": "A charge under the security law for encouraging others to work toward overthrowing or fundamentally changing China's system of government.",
-                "zh": "《国安法》下的一项罪名,指鼓动他人推翻或从根本上改变中国现行政治体制。"
-              }
-            },
-            {
-              "term": {
-                "en": "one-party rule",
-                "zh": "一党专政"
-              },
-              "def": {
-                "en": "A political system in which a single party — here, the Chinese Communist Party — holds exclusive control of government, with no legal opposition parties allowed to compete for power.",
-                "zh": "一种政治体制,由单一政党（此处指中国共产党）独掌政权,不允许其他政党合法参与权力竞争。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Was the Alliance's slogan \"end one-party rule\" a political idea that should be protected as free speech, or a call to overthrow China's system of government that the state has a right to criminalize?",
-                "zh": "支联会「结束一党专政」的口号,应被视为受言论自由保护的政治主张,还是一种国家有权取缔的、旨在推翻现行政权的呼吁?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Protected speech",
-                    "zh": "应受保护的言论"
-                  },
-                  "points": {
-                    "en": [
-                      "Calling for a different political system is a normal part of political debate in most democracies, not a crime in itself.",
-                      "The slogan was never paired with plans for violence or armed uprising — only persuasion, protest, and public argument.",
-                      "Treating a stated political goal as subversion risks criminalizing the idea itself rather than any actual harmful act."
-                    ],
-                    "zh": [
-                      "在多数民主社会,主张改变政治体制本身是正常的政治辩论,而非罪行。",
-                      "该口号从未与暴力或武装起义计划相关联,仅仅是说服、抗议和公开论辩。",
-                      "把一个明确表达的政治诉求当作颠覆行为来处理,等于是把「想法」本身定罪,而非任何实际造成危害的行动。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "State's right to defend its order",
-                    "zh": "国家维护政权的权利"
-                  },
-                  "points": {
-                    "en": [
-                      "Sovereign states have long treated organized campaigns aimed at ending their constitutional system as a security matter, not ordinary politics.",
-                      "China's constitution enshrines Communist Party leadership, so campaigning to end that leadership is calling for a change to the state's basic structure, not merely a policy shift.",
-                      "Many governments elsewhere also criminalize organized incitement to overthrow the state even where no violence is planned or imminent."
-                    ],
-                    "zh": [
-                      "长期以来,许多主权国家都把旨在终结其宪政体制的有组织运动视为安全问题,而非普通政治活动。",
-                      "中国宪法明确规定了共产党的领导地位,因此主张结束这一领导地位,等于要求改变国家的根本制度,而不只是政策调整。",
-                      "许多国家的法律同样将有组织地煽动推翻政权定为刑事罪,即便并无迫近的暴力计划。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Does prosecuting the Alliance's leaders help stabilize Hong Kong after the 2019 unrest, or does it erode the autonomy Hong Kong was promised?",
-                "zh": "起诉支联会领导人,是有助于2019年动荡后香港的稳定,还是在侵蚀香港曾被承诺享有的自治?"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Stability",
-                    "zh": "维护稳定"
-                  },
-                  "points": {
-                    "en": [
-                      "After the 2019 unrest, authorities argue that unresolved, organized opposition networks posed a continuing risk of renewed disorder.",
-                      "The law targets organizations and organized activity, not memory itself — individuals can still privately discuss or mourn June 4.",
-                      "Many governments restrict organizations judged to threaten the constitutional order, and in this case Hong Kong's courts, not just police, decided the outcome."
-                    ],
-                    "zh": [
-                      "当局认为,2019年动荡之后,若不处理具有组织能力的反对派网络,仍存在再度引发动乱的风险。",
-                      "该法律针对的是有组织的行为,而非记忆本身——个人仍可以私下讨论或悼念六四。",
-                      "许多国家的政府都会限制被认定威胁宪政秩序的组织,而此案的结果是由香港法院而非仅由警方作出裁决的。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Eroded autonomy",
-                    "zh": "自治受损"
-                  },
-                  "points": {
-                    "en": [
-                      "Hong Kong was promised a high degree of autonomy and its own protections for expression under \"one country, two systems\" until 2047.",
-                      "The security law was imposed without passing through Hong Kong's own legislature, bypassing the local lawmaking process the city was promised.",
-                      "Beyond the Alliance, unions, newspapers, and student groups have also shut down under the same law, suggesting a chilling effect well beyond a single organization."
-                    ],
-                    "zh": [
-                      "根据「一国两制」的承诺,香港本应享有高度自治,并保留其自身对言论自由的法律保障,直至2047年。",
-                      "《国安法》未经香港本地立法机关审议便直接实施,绕过了原本承诺给予香港的本地立法程序。",
-                      "除支联会外,多个工会、报社和学生团体也在同一部法律下相继解散,显示其寒蝉效应远超单一组织。"
                     ]
                   }
                 }
@@ -1043,24 +561,20 @@
       "background": [
         {
           "title": {
-            "en": "The U.S. Debt Tops a Record-Shattering $40 Trillion. Yes, With a T",
-            "zh": "美国债务突破创纪录的40万亿美元"
+            "en": "The U.S. Debt Tops a Record-Shattering $40 Trillion. Yes, With a T"
           },
           "summary": {
-            "en": "The original day-of report on crossing the threshold, with reaction from bond markets on interest-rate risk.",
-            "zh": "首份报道美国债务突破这一门槛的当日新闻,并附上债券市场对利率风险的反应。"
+            "en": "The original day-of report on crossing the threshold, with reaction from bond markets on interest-rate risk."
           },
           "publisher": "NPR",
           "url": "https://www.npr.org/2026/08/19/nx-s1-5937552/the-u-s-debt-tops-a-record-shattering-40-trillion-yes-with-a-t"
         },
         {
           "title": {
-            "en": "U.S. Government Debt Passes $40 Trillion Mark for the First Time",
-            "zh": "美国政府债务首次突破40万亿美元大关"
+            "en": "U.S. Government Debt Passes $40 Trillion Mark for the First Time"
           },
           "summary": {
-            "en": "Lays out the decade-over-decade comparison and the size of July's monthly deficit.",
-            "zh": "列出与十年前相比的债务增长对比,以及7月份财政赤字的规模。"
+            "en": "Lays out the decade-over-decade comparison and the size of July's monthly deficit."
           },
           "publisher": "CNBC",
           "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html"
@@ -1069,12 +583,10 @@
       "further": [
         {
           "title": {
-            "en": "How Did U.S. Debt Hit $40 Trillion? Here's What to Know",
-            "zh": "美国债务如何达到40万亿美元?你需要了解的信息"
+            "en": "How Did U.S. Debt Hit $40 Trillion? Here's What to Know"
           },
           "summary": {
-            "en": "A seven-question explainer on what's driving the debt and what happens if it keeps growing at this pace.",
-            "zh": "以七个问题解释推动债务增长的原因,以及若按此速度持续增长将带来什么后果。"
+            "en": "A seven-question explainer on what's driving the debt and what happens if it keeps growing at this pace."
           },
           "publisher": "PBS NewsHour",
           "url": "https://www.pbs.org/newshour/politics/how-did-u-s-debt-hit-40-trillion-heres-what-to-know"
@@ -1082,14 +594,12 @@
       ],
       "videos": [],
       "versions": {
-        "6-11": {
+        "primary": {
           "headline": {
-            "en": "The U.S. Now Owes More Than 40 Trillion Dollars",
-            "zh": "美国欠的钱首次超过40万亿美元"
+            "en": "The U.S. Now Owes More Than 40 Trillion Dollars"
           },
           "hook": {
-            "en": "The United States government now owes more money than it ever has before: $40.05 trillion. That's more than double what it owed just ten years ago. And in July alone, the government spent $432.3 billion more than it collected in taxes.",
-            "zh": "美国政府现在欠的钱比历史上任何时候都多——40.05万亿美元。这个数字是十年前的两倍还多。仅在今年7月,美国政府花的钱就比收到的税款多出4323亿美元。"
+            "en": "The United States government now owes more money than it ever has before: $40.05 trillion. That's more than double what it owed just ten years ago. And in July alone, the government spent $432.3 billion more than it collected in taxes."
           },
           "story": {
             "en": [
@@ -1097,80 +607,56 @@
               "The total amount it owes is called the national debt. Right now that's $40.05 trillion. If you tried to count to 40 trillion by saying one number every second, without stopping to eat or sleep, it would take you over a million years.",
               "Ten years ago, the debt was $19.4 trillion. It has more than doubled since then. Reasons include tax cuts (the government collecting less money), spending on programs like healthcare for older people, and paying interest on money it already borrowed.",
               "A group called the Peterson Foundation, which studies government money, thinks the debt could grow to $50 trillion in about six years if nothing changes. Some experts think this is a huge problem that needs fixing soon. Others think it's manageable, as long as the economy keeps growing too."
-            ],
-            "zh": [
-              "想象一下,你每周有10块钱零花钱,但花了15块钱。你就得想办法借5块钱。如果你每周都这样,借了好几年,你会欠很多钱。美国政府这些年做的,基本上就是这件事。",
-              "政府欠的钱总数叫做",
-              "十年前,这笔债务是19.4万亿美元。十年间它翻了一倍还多。原因包括减税(政府收的税变少了)、给老年人提供医疗保健等项目花钱,以及为之前借的钱支付利息。",
-              "一个专门研究政府财政的机构叫彼得森基金会,他们认为如果情况不变,大约六年后这笔债务可能涨到50万亿美元。有些专家认为这是个大问题,需要尽快解决。也有专家认为只要经济持续增长,这笔债务是可以应付的。"
             ]
           },
           "why_it_matters": {
-            "en": "When a government owes this much money, it has to spend more on paying interest, which is money it can't use for schools, roads, or helping people. Grown-ups disagree about whether this debt will affect you when you're older, through higher taxes or fewer government services, or whether it's just a normal part of how big countries manage money.",
-            "zh": "当政府欠这么多钱时,它就得花更多钱来支付利息,这些钱本来可以用来建学校、修路或帮助人们。大人们对这笔债务是否会在你长大后影响你——比如让你交更多税,或者政府提供的服务变少——意见不一,有人认为这只是大国管理财政的正常现象。"
+            "en": "When a government owes this much money, it has to spend more on paying interest, which is money it can't use for schools, roads, or helping people. Grown-ups disagree about whether this debt will affect you when you're older, through higher taxes or fewer government services, or whether it's just a normal part of how big countries manage money."
           },
           "word_bank": [
             {
               "term": {
-                "en": "national debt",
-                "zh": "国家债务"
+                "en": "national debt"
               },
               "def": {
-                "en": "The total amount of money a country's government owes because it has borrowed more than it collected in taxes over many years.",
-                "zh": "国家债务是指一个国家的政府因为多年来借的钱比收的税多而欠下的总金额。"
+                "en": "The total amount of money a country's government owes because it has borrowed more than it collected in taxes over many years."
               }
             },
             {
               "term": {
-                "en": "budget deficit",
-                "zh": "财政赤字"
+                "en": "budget deficit"
               },
               "def": {
-                "en": "A budget deficit happens when a government spends more money in a certain time, like a month or a year, than it takes in from taxes.",
-                "zh": "财政赤字是指政府在某段时间内(比如一个月或一年)花的钱比收的税款还多。"
+                "en": "A budget deficit happens when a government spends more money in a certain time, like a month or a year, than it takes in from taxes."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Should the government cut spending on things like healthcare and helping people, or should it raise taxes, to pay down the debt?",
-                "zh": "为了还清债务,政府应该削减医疗保健和帮助民众的开支,还是应该提高税收?"
+                "en": "Should the government cut spending on things like healthcare and helping people, or should it raise taxes, to pay down the debt?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Cut spending",
-                    "zh": "削减开支"
+                    "en": "Cut spending"
                   },
                   "points": {
                     "en": [
                       "Spending less means the government doesn't need to borrow as much new money.",
                       "Some programs might be inefficient and could be run with less money.",
                       "Lower spending today means less debt for kids to deal with later."
-                    ],
-                    "zh": [
-                      "少花钱意味着政府不需要再借那么多新债。",
-                      "有些项目可能效率不高,用更少的钱也能运作。",
-                      "今天少花钱,以后孩子们要面对的债务就会更少。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Raise taxes",
-                    "zh": "提高税收"
+                    "en": "Raise taxes"
                   },
                   "points": {
                     "en": [
                       "Cutting programs like healthcare could hurt people who really need help.",
                       "Raising taxes on those who can afford it doesn't take away things people rely on.",
                       "More tax money coming in can shrink the debt without cutting services."
-                    ],
-                    "zh": [
-                      "削减医疗保健等项目可能会伤害真正需要帮助的人。",
-                      "向有能力负担的人多收税,不会让人们失去依赖的东西。",
-                      "增加税收收入,不用削减服务也能缩小债务。"
                     ]
                   }
                 }
@@ -1178,43 +664,30 @@
             },
             {
               "question": {
-                "en": "Is it okay for a country to keep borrowing huge amounts of money, since a country doesn't have to pay everything back before it 'dies' like a person does?",
-                "zh": "一个国家可以一直借很多钱吗?毕竟国家不像人一样,必须在“去世”前还清所有债务。"
+                "en": "Is it okay for a country to keep borrowing huge amounts of money, since a country doesn't have to pay everything back before it 'dies' like a person does?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "It's manageable",
-                    "zh": "是可以应付的"
+                    "en": "It's manageable"
                   },
                   "points": {
                     "en": [
                       "Countries can keep borrowing for a very long time as long as their economy keeps growing.",
                       "Many strong countries have carried large debts for decades without collapsing.",
                       "Borrowing can pay for things like roads and schools that help the economy grow even more."
-                    ],
-                    "zh": [
-                      "只要经济持续增长,国家可以长期借钱而不出问题。",
-                      "许多强大的国家已经背负大量债务几十年,并没有垮掉。",
-                      "借来的钱可以用来建道路、学校,这些反而能帮助经济进一步增长。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "It's risky",
-                    "zh": "是有风险的"
+                    "en": "It's risky"
                   },
                   "points": {
                     "en": [
                       "Paying interest on a huge debt takes money away from other important things.",
                       "If lenders ever worry the debt is too big, they could demand higher interest, making everything worse.",
                       "Passing a huge debt to future generations isn't fair to kids who had no say in it."
-                    ],
-                    "zh": [
-                      "为巨额债务支付利息,会占用本可以用于其他重要事情的钱。",
-                      "如果借钱给政府的人开始担心债务太大,他们可能要求更高的利息,让情况变得更糟。",
-                      "把巨额债务留给后代并不公平,因为孩子们根本没有发言权。"
                     ]
                   }
                 }
@@ -1222,14 +695,12 @@
             }
           ]
         },
-        "12-15": {
+        "secondary": {
           "headline": {
-            "en": "America's Debt Just Hit $40 Trillion — And It's Growing Fast",
-            "zh": "美国国债突破40万亿美元——而且还在飞速增长"
+            "en": "America's Debt Just Hit $40 Trillion — And It's Growing Fast"
           },
           "hook": {
-            "en": "The U.S. government now owes more than $40.05 trillion — twice what it owed just ten years ago. In July alone, the government spent $432.3 billion more than it collected in taxes, the worst July shortfall in five years, and one respected research group thinks the total debt could hit $50 trillion within six years.",
-            "zh": "美国政府现在欠下的债务已经超过40.05万亿美元——是十年前的两倍。仅在今年7月,政府的支出就比收上来的税款多出4323亿美元,是五年来7月份最严重的赤字,而一家权威研究机构认为,总债务可能在六年内达到50万亿美元。"
+            "en": "The U.S. government now owes more than $40.05 trillion — twice what it owed just ten years ago. In July alone, the government spent $432.3 billion more than it collected in taxes, the worst July shortfall in five years, and one respected research group thinks the total debt could hit $50 trillion within six years."
           },
           "story": {
             "en": [
@@ -1239,92 +710,64 @@
               "Three things are driving the climb. Tax cuts mean the government collects less money than it used to. 'Entitlement spending' — mandatory programs like Social Security and Medicare that pay out to retirees and the sick — keeps growing automatically as the population ages, with no yearly vote required. And interest payments on past debt have become one of the government's biggest expenses all by themselves.",
               "The consequences reach beyond a big scary number. As debt piles up, lenders sometimes demand higher interest rates to keep lending to the government, which means even more of each year's budget goes toward interest payments instead of schools, roads, or the military. That squeezes future choices — money spent paying off yesterday's borrowing is money not spent on anything else.",
               "Economists don't agree on how urgent this is. Some argue the U.S. needs to act now, before rising interest costs spiral out of control. Others point out that America has carried large debts for decades without disaster, and that panicking could lead to cuts that hurt real people more than the debt itself does. They also disagree sharply on the fix — higher taxes, lower spending, or some mix of both — and which popular programs, if any, should be touched."
-            ],
-            "zh": [
-              "可以把国国债想象成一张从建国起就一直没还清的巨额信用卡账单。政府每年只要花的钱比收上来的税多,就得靠借钱填补差额——而这些借来的钱会不断累积。这个月,财政部的数据证实,债务总额已经突破40.05万亿美元,大约是十年前19.4万亿美元的两倍。",
-              "这40万亿美元是政府整个历史上累积下来的总债务。而“赤字”是另一回事:它指的是政府在某一年(或某一个月)支出和收入之间的差额。7月份,这个缺口达到4323亿美元——是五年来最严重的7月赤字,说明这个窟窿正在以近年来少见的速度加深。",
-              "无党派研究机构彼得森基金会长期追踪联邦支出,他们预测,如果情况不变,债务可能在大约六年内膨胀到50万亿美元。之所以增长这么快,是因为债务就像滚下坡的雪球:政府必须为已经欠下的一切支付利息,而这些利息本身又会被加进未来要还的账单里。",
-              "推动债务攀升的主要有三个因素。减税意味着政府收上来的税款比以前少了。“法定支出”——比如社会保障金和联邦医疗保险这类必须支付给退休人员和病患的强制性项目——会随着人口老龄化自动增长,不需要每年投票决定。而为过去债务支付的利息,本身也已经成了政府最大的开支项目之一。",
-              "这带来的影响远不止一个吓人的数字。债务越滚越多,放贷方有时会要求更高的利率才愿意继续借钱给政府,这意味着每年预算中会有更多钱用来支付利息,而不是投入学校、道路或军事。这挤压了未来的选择空间——用来偿还过去债务的钱,就不能再花在别的地方了。",
-              "经济学家们对这件事有多紧迫看法不一。有人认为美国必须现在就采取行动,否则利息成本可能会失控攀升。也有人指出,美国已经背负巨额债务几十年而没有酿成灾难,过度恐慌反而可能导致削减开支,伤害到普通人比债务本身还厉害。他们在具体解决办法上分歧更大——是加税、削减支出,还是两者兼顾——以及哪些受欢迎的项目该不该动。"
             ]
           },
           "why_it_matters": {
-            "en": "By the time you're an adult, this debt and its interest payments will still be there, shaping how much tax you pay and how much money is left for things like schools, research, and infrastructure. The choices made now about taxes and spending will decide who ends up carrying that bill.",
-            "zh": "等你长大成人时,这笔债务和它产生的利息依然会存在,影响你要交多少税,以及还剩多少钱能花在学校、科研和基础设施这些事情上。现在关于税收和支出的选择,将决定未来由谁来承担这笔账单。"
+            "en": "By the time you're an adult, this debt and its interest payments will still be there, shaping how much tax you pay and how much money is left for things like schools, research, and infrastructure. The choices made now about taxes and spending will decide who ends up carrying that bill."
           },
           "word_bank": [
             {
               "term": {
-                "en": "National debt",
-                "zh": "国债(国家债务)"
+                "en": "National debt"
               },
               "def": {
-                "en": "The total amount of money a government owes, built up from years of spending more than it collects.",
-                "zh": "指政府因多年支出超过收入而累积欠下的总金额。"
+                "en": "The total amount of money a government owes, built up from years of spending more than it collects."
               }
             },
             {
               "term": {
-                "en": "Federal budget deficit",
-                "zh": "联邦预算赤字"
+                "en": "Federal budget deficit"
               },
               "def": {
-                "en": "The gap between what the government spends and what it collects in taxes during one year, which gets added to the national debt.",
-                "zh": "指政府在一年内支出与税收之间的差额,这个差额会被计入国债总额。"
+                "en": "The gap between what the government spends and what it collects in taxes during one year, which gets added to the national debt."
               }
             },
             {
               "term": {
-                "en": "Entitlement spending",
-                "zh": "法定支出(强制性支出)"
+                "en": "Entitlement spending"
               },
               "def": {
-                "en": "Money the government must pay out automatically to programs like Social Security and Medicare, without a yearly vote.",
-                "zh": "指政府必须自动支付给社会保障金、联邦医疗保险等项目的资金,不需要每年重新投票决定。"
+                "en": "Money the government must pay out automatically to programs like Social Security and Medicare, without a yearly vote."
               }
             }
           ],
           "talk_about_it": [
             {
               "question": {
-                "en": "Is a $40 trillion debt a crisis that needs urgent action right now, or can the U.S. keep going without an immediate fix?",
-                "zh": "40万亿美元的债务是否已经是需要立刻采取行动的危机,还是美国目前还可以在没有紧急对策的情况下继续运转?"
+                "en": "Is a $40 trillion debt a crisis that needs urgent action right now, or can the U.S. keep going without an immediate fix?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Act now",
-                    "zh": "应立即行动"
+                    "en": "Act now"
                   },
                   "points": {
                     "en": [
                       "Interest payments are growing so fast they could soon crowd out spending on everything else the government does.",
                       "Waiting makes the problem compound, since interest on debt gets added to future debt, like a snowball.",
                       "Lenders could eventually demand much higher interest rates if they doubt the U.S. can manage its debt, making borrowing far more expensive overnight."
-                    ],
-                    "zh": [
-                      "利息支出增长得如此之快,可能很快就会挤压掉政府在其他一切事务上的支出。",
-                      "拖延只会让问题不断复利累积,因为债务利息会被计入未来的债务,像滚雪球一样越滚越大。",
-                      "如果放贷方开始怀疑美国能否管理好债务,他们最终可能会要求高得多的利率,使借贷成本一夜之间大幅上升。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "No need to panic",
-                    "zh": "无需恐慌"
+                    "en": "No need to panic"
                   },
                   "points": {
                     "en": [
                       "The U.S. has carried large and growing debts for decades without the predicted disaster ever arriving.",
                       "Rushing into steep spending cuts or tax hikes could hurt real people — retirees, patients, workers — more than the debt itself does.",
                       "The size of an economy matters as much as the size of its debt, and the U.S. economy has kept growing alongside the debt."
-                    ],
-                    "zh": [
-                      "美国已经背负巨额且不断增长的债务几十年,预言中的灾难始终没有真正发生。",
-                      "急于大幅削减开支或加税,可能会比债务本身更伤害到退休人员、病患和劳动者等真实的人。",
-                      "经济体量和债务规模同样重要,而美国经济一直在随着债务增长而持续增长。"
                     ]
                   }
                 }
@@ -1332,197 +775,30 @@
             },
             {
               "question": {
-                "en": "If the debt must be tackled, should the U.S. mainly raise taxes or mainly cut spending, even on popular programs like Social Security and Medicare?",
-                "zh": "如果必须解决债务问题,美国应该主要靠加税,还是主要靠削减开支,即便这意味着触动社会保障金和联邦医疗保险这类受欢迎的项目?"
+                "en": "If the debt must be tackled, should the U.S. mainly raise taxes or mainly cut spending, even on popular programs like Social Security and Medicare?"
               },
               "sides": [
                 {
                   "label": {
-                    "en": "Raise taxes",
-                    "zh": "应主要加税"
+                    "en": "Raise taxes"
                   },
                   "points": {
                     "en": [
                       "Cutting programs like Social Security and Medicare would hurt millions of retirees and sick people who depend on them to survive.",
                       "Tax rates on high earners and corporations have been lower in recent decades than in much of the 20th century, leaving room to raise them.",
                       "Spending cuts alone historically haven't closed deficits this large without also slowing the economy, which can shrink tax revenue further."
-                    ],
-                    "zh": [
-                      "削减社会保障金和联邦医疗保险这类项目,会伤害数百万依赖它们维持生计的退休人员和病患。",
-                      "近几十年来,高收入者和企业的税率一直低于20世纪大部分时间的水平,因此仍有提高的空间。",
-                      "历史经验表明,单靠削减支出很难填补如此巨大的赤字缺口,而且往往会拖慢经济增长,进而使税收进一步减少。"
                     ]
                   }
                 },
                 {
                   "label": {
-                    "en": "Cut spending",
-                    "zh": "应主要削减支出"
+                    "en": "Cut spending"
                   },
                   "points": {
                     "en": [
                       "Raising taxes too much can discourage businesses from investing and hiring, which can slow economic growth for everyone.",
                       "Entitlement programs are the fastest-growing part of the budget, so ignoring them means other spending gets squeezed instead.",
                       "Government programs sometimes contain waste or inefficiency, and trimming spending can force overdue reforms rather than just collecting more money."
-                    ],
-                    "zh": [
-                      "加税幅度过大可能会打消企业投资和招聘的积极性,进而拖慢整体经济增长。",
-                      "法定支出项目是预算中增长最快的部分,如果不加以调整,其他支出就会被进一步挤压。",
-                      "政府项目中有时存在浪费或效率低下的问题,削减支出可以倒逼推行早该进行的改革,而不只是一味多收钱。"
-                    ]
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        "16+": {
-          "headline": {
-            "en": "The National Debt Just Crossed $40 Trillion — Double What It Was a Decade Ago",
-            "zh": "美国国债突破40万亿美元——十年翻了一番"
-          },
-          "hook": {
-            "en": "The U.S. Treasury has confirmed the national debt passed $40.05 trillion this month, double the $19.4 trillion it stood at ten years ago. In July alone, the federal government spent $432.3 billion more than it collected in taxes — the worst July shortfall in five years. If current trends hold, the nonpartisan Peterson Foundation projects the debt could reach $50 trillion within about six years.",
-            "zh": "美国财政部本月确认，国家债务已突破40.05万亿美元，是十年前19.4万亿美元的两倍。仅7月份，联邦政府支出就比税收收入多出4323亿美元，是五年来同月最大的缺口。无党派智库彼得森基金会预测，若维持目前趋势，债务规模可能在约六年内达到50万亿美元。"
-          },
-          "story": {
-            "en": [
-              "To put $40 trillion in perspective: the entire U.S. economy — everything produced and sold in the country in a year — is worth roughly $29 trillion. That means the government now owes more than the whole country earns annually, a ratio economists watch closely because it shows how much of future economic growth is already spoken for.",
-              "There's a difference between the debt and the deficit, and it matters. The deficit is the yearly gap between what the government spends and what it collects in taxes — like an annual overspend on a credit card. The debt is the running total of every year's overspend, plus the interest charged on carrying that balance forward. July's $432.3 billion deficit is one month's addition to a pile that's been growing for decades.",
-              "Three forces are driving the pile higher at once. Tax cuts passed in recent years reduced how much revenue the government collects. Entitlement spending — Social Security, Medicare, and Medicaid, the programs that pay for retirement and health care — keeps rising automatically as the population ages, regardless of who's in office. And interest costs have become a problem in their own right: as interest rates rose from near-zero in 2022 to much higher levels, the government now pays substantially more just to service the debt it already has, which adds to next year's deficit, which adds to the debt — a loop that feeds itself.",
-              "That loop is why the Peterson Foundation's projection is alarming to some economists: not just that the debt is large, but that its growth is accelerating rather than leveling off. Reaching $50 trillion in six years would mean adding roughly $10 trillion in a period shorter than it took to add the previous $10 trillion.",
-              "The immediate consequence is competition for the federal budget. Every dollar spent paying interest to bondholders is a dollar not available for defense, infrastructure, or tax relief — and interest payments are now one of the fastest-growing lines in the budget. There's also a broader economic worry: heavy government borrowing can push up interest rates across the whole economy, meaning higher costs on mortgages, car loans, and business borrowing for everyone, not just the government.",
-              "Economists don't agree on what to do about any of this, or even on how urgent it is. Some argue the trajectory is unsustainable and demands painful choices now — cutting entitlement growth, raising taxes, or both. Others point out that the U.S. borrows in its own currency, that investors worldwide still buy U.S. bonds, and that similar debt-to-GDP levels have been worked down before without collapse — meaning gradual fixes may be wiser than a crisis response that risks slowing the economy further."
-            ],
-            "zh": [
-              "把40万亿美元放进背景里看：美国整个经济体——一年内全国生产和销售的一切——价值约29万亿美元。也就是说，政府所欠的债务已经超过全国一年的总产出，这个比例是经济学家密切关注的指标，因为它显示出未来经济增长有多少已经被提前透支。",
-              "“债务”和“赤字”不是一回事，这个区别很重要。赤字是政府每年支出与税收收入之间的差额——就像信用卡上每年超支的部分。债务则是历年赤字累积的总额，再加上为维持这笔欠款而支付的利息。7月4323亿美元的赤字，只是这堆债务持续几十年增长中的又一笔新增。",
-              "三股力量同时在推高这堆债务。近年通过的减税政策降低了政府的税收收入；社会保障、医疗保险和医疗补助等“福利性支出”——用于养老和医疗的项目——会随着人口老龄化自动增长，与谁执政无关；而利息成本本身也成了问题：随着利率从2022年接近零的水平大幅上升，政府现在光是偿还已有债务的利息就要多付出许多，这又加大了来年的赤字，进而推高债务总额——这是一个自我强化的循环。",
-              "这个循环正是彼得森基金会预测令一些经济学家担忧的原因：问题不只是债务规模庞大，而是它的增速在加快而非放缓。若六年内达到50万亿美元，意味着增加下一个10万亿美元所需的时间，将比增加上一个10万亿美元还要短。",
-              "眼前的后果是联邦预算内部的资源争夺。每一美元用来支付给债券持有人的利息，就少一美元可用于国防、基础设施或减税——而利息支出正是预算中增长最快的项目之一。更广泛的经济担忧在于：政府大规模借债可能推高整个经济体的利率水平，意味着房贷、车贷和企业贷款的成本对所有人来说都会上升，而不只是政府自己。",
-              "对于该怎么办，甚至这件事有多紧迫，经济学家们并没有共识。一些人认为目前的走势不可持续，必须现在就做出艰难抉择——削减福利性支出的增长、加税，或者两者兼施。另一些人则指出，美国以本国货币借债，全球投资者仍在持续购买美国国债，历史上类似的债务与经济规模之比也曾被逐步化解而未引发崩溃——这意味着渐进式的调整或许比危机式的应对更明智，后者反而可能进一步拖慢经济。"
-            ]
-          },
-          "why_it_matters": {
-            "en": "Rising interest payments on the debt compete with spending on things that touch daily life — infrastructure, education, health programs — and heavy government borrowing can push up the interest rates on your own mortgage, car loan, or credit card. Whatever mix of tax changes or spending cuts eventually addresses the debt will likely affect the programs and paychecks of people alive today, not just some distant future generation.",
-            "zh": "债务利息支出的增加，会挤压基础设施、教育、医疗等与日常生活息息相关的开支，而政府大规模借债也可能推高你自己房贷、车贷或信用卡的利率。无论最终用加税还是削减支出的组合来应对债务问题，受影响的很可能是当下这代人的福利和薪水，而不只是遥远的未来一代。"
-          },
-          "word_bank": [
-            {
-              "term": {
-                "en": "National debt",
-                "zh": "国家债务"
-              },
-              "def": {
-                "en": "The total amount the federal government owes, built up from every year's deficit plus accumulated interest.",
-                "zh": "联邦政府所欠债务的总额，由历年赤字加上累积利息不断叠加而成。"
-              }
-            },
-            {
-              "term": {
-                "en": "Budget deficit",
-                "zh": "财政赤字"
-              },
-              "def": {
-                "en": "The gap in a single year between what the government spends and what it collects in taxes.",
-                "zh": "某一年内政府支出与税收收入之间的差额。"
-              }
-            },
-            {
-              "term": {
-                "en": "Interest on the debt",
-                "zh": "债务利息"
-              },
-              "def": {
-                "en": "The money the government must pay each year just to cover interest owed to those who hold its bonds, separate from any new spending.",
-                "zh": "政府每年必须支付给国债持有人的利息，这笔钱与任何新增支出无关，纯粹是为已有债务付息。"
-              }
-            }
-          ],
-          "talk_about_it": [
-            {
-              "question": {
-                "en": "Is the growing national debt an urgent crisis demanding immediate action, or a manageable feature of a large economy that can be addressed gradually?",
-                "zh": "不断增长的国家债务，是需要立即行动的紧迫危机，还是大型经济体可以逐步应对的可控问题？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Urgent crisis",
-                    "zh": "紧迫危机"
-                  },
-                  "points": {
-                    "en": [
-                      "The debt is growing faster than the economy that has to eventually pay it off, which cannot continue indefinitely.",
-                      "Interest costs are now one of the fastest-rising items in the federal budget, crowding out other priorities.",
-                      "Waiting for a crisis of confidence among bond buyers to force action would be far more painful than adjusting course now."
-                    ],
-                    "zh": [
-                      "债务的增速已经超过必须为其买单的经济体本身的增速，这种状态无法无限持续下去。",
-                      "利息支出已成为联邦预算中增长最快的项目之一，挤压了其他重要开支。",
-                      "如果等到债券买家信心崩溃才被迫行动，代价将远比现在主动调整要惨重。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Manageable, not urgent",
-                    "zh": "可控，并不紧迫"
-                  },
-                  "points": {
-                    "en": [
-                      "The U.S. borrows in its own currency and controls its own central bank, unlike countries that have faced debt crises before.",
-                      "Global investors still buy U.S. Treasury bonds in huge volumes, showing continued confidence rather than alarm.",
-                      "History shows debt-to-GDP ratios can be brought down gradually through growth, and rushing austerity now risks triggering the very recession that would make the debt harder to manage."
-                    ],
-                    "zh": [
-                      "美国以本国货币借债，并掌控着本国央行，这与历史上那些爆发债务危机的国家情况不同。",
-                      "全球投资者仍在大量购买美国国债，说明市场信心依旧，而非恐慌。",
-                      "历史经验表明，债务与经济规模之比可以通过经济增长逐步降低；现在急于紧缩，反而可能引发衰退，让债务问题更难处理。"
-                    ]
-                  }
-                }
-              ]
-            },
-            {
-              "question": {
-                "en": "Should addressing the debt rely mainly on raising taxes or mainly on cutting spending?",
-                "zh": "应对债务问题，主要应该依靠加税，还是依靠削减支出？"
-              },
-              "sides": [
-                {
-                  "label": {
-                    "en": "Raise taxes",
-                    "zh": "加税"
-                  },
-                  "points": {
-                    "en": [
-                      "Recent tax cuts reduced government revenue significantly, and reversing some of them would close a real part of the gap without touching benefits people rely on.",
-                      "Cutting entitlement spending falls hardest on retirees and low-income households who depend on those programs most.",
-                      "Effective tax rates on high earners and corporations have fallen over past decades even as their share of national income rose."
-                    ],
-                    "zh": [
-                      "近年的减税政策大幅降低了政府收入，撤销部分减税措施能在不触及民众依赖的福利前提下，真正缩小缺口。",
-                      "削减福利性支出对退休人员和低收入家庭打击最大，而他们恰恰最依赖这些项目。",
-                      "过去几十年间，高收入群体和企业的实际税率不断下降，而他们占国民收入的比例却在上升。"
-                    ]
-                  }
-                },
-                {
-                  "label": {
-                    "en": "Cut spending",
-                    "zh": "削减支出"
-                  },
-                  "points": {
-                    "en": [
-                      "Entitlement programs are structurally unsustainable given an aging population, regardless of how much revenue is raised.",
-                      "Higher taxes can slow economic growth and investment, which would shrink the tax base the government relies on.",
-                      "The growth in spending, not a shortfall in revenue, is the primary force widening the deficit year over year."
-                    ],
-                    "zh": [
-                      "无论加多少税，福利性项目在人口老龄化的结构性压力下都难以持续维系。",
-                      "加税可能抑制经济增长和投资，从而缩小政府依赖的税基。",
-                      "支出的持续增长，而非收入不足，才是逐年扩大赤字的主要推手。"
                     ]
                   }
                 }

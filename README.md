@@ -19,8 +19,8 @@ account, and no service in the middle. You own the repository and the content.
 
 | | |
 | --- | --- |
-| **A web page** | Today's edition plus a permalink per day and an archive, in one or two languages, light or dark. |
-| **A newsletter** | The same edition by email to you and anyone you add, each reader in their own language. |
+| **A web page** | Today's edition plus a permalink per day and an archive, light or dark. |
+| **A newsletter** | The same edition by email to you and anyone you add, at whichever reading level suits them. |
 | **A share image** | A tall PNG for WeChat Moments and the like, ending in a QR code back to the full page. |
 
 Each story carries a headline and a short summary; the full rewrite, words worth
@@ -44,7 +44,7 @@ name = "Lucas"      # optional, shown as "made for ___"
 age  = 12           # 5-18 — picks which reading level the page opens on
 
 [edition]
-languages = ["en", "zh"]
+languages = ["en"]
 
 [schedule]
 timezone = "America/Vancouver"    # any IANA zone
@@ -64,8 +64,8 @@ Three ways to write it: open **`docs/setup.html`** in a browser, run
 
 ## Reading levels
 
-Every edition is written three times — for **ages 6–11, 12–15 and 16+** — and all
-three ship in the same page. Switching between them is one attribute on the root
+Every edition is written twice — once for **primary school** readers and once
+for **secondary school** — and both ship in the same page. Switching between them is one attribute on the root
 element, so it is instant, works offline, and needs no server.
 
 What changes between bands is sentence length, how much scaffolding a fact needs,
@@ -73,6 +73,10 @@ how many words go in the word bank, and how hard the dinner questions are. What
 does **not** change is which stories are told or how serious they are allowed to
 be. A seven-year-old gets the Strait of Hormuz explained with a distance they can
 picture — not a story about puppies instead.
+
+The levels are named for the school a reader is in, not an age: a child knows
+which one they are in without being told, and a label reading "Ages 12–15" is a
+small insult to a sixteen-year-old reading the same page.
 
 `[child] age` only decides which band the page opens on. Any reader can switch
 with the control at the top, and the choice is remembered on that device.
@@ -120,7 +124,7 @@ Recipients are comma-separated, optionally with a language and a reading level
 each — which is how one household sends different levels to different children:
 
 ```
-lucas@example.com:en:12-15, mia@example.com:en:6-11, mum@example.com:zh
+lucas@example.com:en:secondary, mia@example.com:en:primary, mum@example.com
 ```
 
 Adding or removing a reader means editing that one secret. Addresses live in a
@@ -231,7 +235,7 @@ Useful flags:
 python3 scripts/generate_edition.py --date 2026-08-16 --force
 python3 scripts/generate_edition.py --dry-run
 python3 scripts/render_site.py --single one-page.html
-python3 scripts/send_newsletter.py --dry-run mail.html --lang zh
+python3 scripts/send_newsletter.py --dry-run mail.html --band primary
 python3 scripts/send_newsletter.py --to you@example.com
 python3 scripts/build_poster.py --keep-html
 ```
@@ -241,7 +245,7 @@ re-run `render_site.py`. No API call needed.
 
 ### Cost
 
-Eleven Claude Sonnet calls a day: one research pass, one that records the chosen
+Eight Claude Sonnet calls a day: one research pass, one that records the chosen
 stories and their links, then one per story per reading level. The run prints a
 per-pass breakdown of tokens and cost when it finishes, so the real figure for
 your own settings is the one to go by.

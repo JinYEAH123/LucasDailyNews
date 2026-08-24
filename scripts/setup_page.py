@@ -22,9 +22,9 @@ TEXT = {
     },
     "h_child": {"en": "Who is reading", "zh": "谁在读"},
     "n_child": {
-        "en": "Every edition is written at all three reading levels, so this only "
-              "picks which one the page opens on. Anyone can switch on the page itself.",
-        "zh": "每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。"
+        "en": "Every edition is written at both reading levels, so this only picks "
+              "which one the page opens on. Anyone can switch on the page itself.",
+        "zh": "每一期都会按两个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。"
               "任何人都可以在页面上自己切换。",
     },
     "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"},
@@ -32,9 +32,10 @@ TEXT = {
     "band_is": {"en": "Opens on", "zh": "默认打开"},
     "h_langs": {"en": "Languages", "zh": "语言"},
     "n_langs": {
-        "en": "Pick both and the page gets a toggle — handy when the child reads one "
-              "language at school and the family reads another at home.",
-        "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。",
+        "en": "The edition is written in English. Choosing more than one language "
+              "adds a toggle to the page and multiplies what each day costs to write.",
+        "zh": "每期以英文写成。多选一种语言，页面上会多出切换按钮，"
+              "同时每天的生成成本也会成倍增加。",
     },
     "h_when": {"en": "When it arrives", "zh": "什么时候更新"},
     "n_when": {

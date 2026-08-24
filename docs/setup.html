@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-lang="en" data-band="12-15">
+<html lang="en" data-lang="en" data-band="secondary">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,9 +43,8 @@
 .archive-item .heads li.tech::before { background: var(--tech); }
 .story.science { --accent: var(--science); --accent-tint: var(--science-tint); }
 .archive-item .heads li.science::before { background: var(--science); }
-[data-band="6-11"] .band:not(.b-6-11) { display: none; }
-[data-band="12-15"] .band:not(.b-12-15) { display: none; }
-[data-band="16+"] .band:not(.b-16) { display: none; }
+[data-band="primary"] .band:not(.b-primary) { display: none; }
+[data-band="secondary"] .band:not(.b-secondary) { display: none; }
 
 .setup-section { margin: 2rem 0 0; }
 .setup-section > h2 {
@@ -93,27 +92,27 @@ button.copy {
 <body>
 <div class="wrap">
 <header class="masthead">
-  <h1><span class="l-en">Daily News for Kids</span><span class="l-zh">少年每日新闻</span></h1>
-  <p class="tagline"><span class="l-en">Know big worlds. Train young minds.</span><span class="l-zh">看见大世界，启发小脑瓜。</span></p>
-  <p class="for-line"><span class="l-en">Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.</span><span class="l-zh">填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。</span></p>
+  <h1><span class="l-en">Daily News for Kids</span></h1>
+  <p class="tagline"><span class="l-en">Know big worlds. Train young minds.</span></p>
+  <p class="for-line"><span class="l-en">Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.</span></p>
   <div class="controls">
-    <button type="button" data-lang-set="en" aria-pressed="true">English</button><button type="button" data-lang-set="zh" aria-pressed="false">中文</button>
-    <button type="button" data-theme-toggle><span class="l-en">Light / Dark</span><span class="l-zh">浅色 / 深色</span></button>
-    <a class="btn" href="index.html"><span class="l-en">Today</span><span class="l-zh">今日</span></a>
+    
+    <button type="button" data-theme-toggle><span class="l-en">Light / Dark</span></button>
+    <a class="btn" href="index.html"><span class="l-en">Today</span></a>
   </div>
 </header>
 
 <form id="f">
   <section class="setup-section">
-    <h2><span class="l-en">Who is reading</span><span class="l-zh">谁在读</span></h2>
-    <p class="note"><span class="l-en">Every edition is written at all three reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.</span><span class="l-zh">每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。任何人都可以在页面上自己切换。</span></p>
+    <h2><span class="l-en">Who is reading</span></h2>
+    <p class="note"><span class="l-en">Every edition is written at both reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.</span></p>
     <div class="row">
       <div class="field">
-        <label for="name"><span class="l-en">Child's name (optional)</span><span class="l-zh">孩子的名字（可留空）</span></label>
+        <label for="name"><span class="l-en">Child's name (optional)</span></label>
         <input type="text" id="name" value="Lucas">
       </div>
       <div class="field">
-        <label for="age"><span class="l-en">Age</span><span class="l-zh">年龄</span> <output class="pill" id="ageOut">12</output></label>
+        <label for="age"><span class="l-en">Age</span> <output class="pill" id="ageOut">12</output></label>
         <input type="range" id="age" min="5" max="18" value="12">
       </div>
     </div>
@@ -121,21 +120,21 @@ button.copy {
   </section>
 
   <section class="setup-section">
-    <h2><span class="l-en">Languages</span><span class="l-zh">语言</span></h2>
-    <p class="note"><span class="l-en">Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.</span><span class="l-zh">两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。</span></p>
+    <h2><span class="l-en">Languages</span></h2>
+    <p class="note"><span class="l-en">The edition is written in English. Choosing more than one language adds a toggle to the page and multiplies what each day costs to write.</span></p>
     <div class="row" id="langs"></div>
   </section>
 
   <section class="setup-section">
-    <h2><span class="l-en">When it arrives</span><span class="l-zh">什么时候更新</span></h2>
-    <p class="note"><span class="l-en">Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.</span><span class="l-zh">已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，所以挑一个你们通常在一起的时间。</span></p>
+    <h2><span class="l-en">When it arrives</span></h2>
+    <p class="note"><span class="l-en">Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.</span></p>
     <div class="row">
       <div class="field">
-        <label for="tz"><span class="l-en">Time zone</span><span class="l-zh">时区</span></label>
+        <label for="tz"><span class="l-en">Time zone</span></label>
         <select id="tz"></select>
       </div>
       <div class="field">
-        <label for="hour"><span class="l-en">Time of day</span><span class="l-zh">更新时刻</span></label>
+        <label for="hour"><span class="l-en">Time of day</span></label>
         <select id="hour"></select>
       </div>
     </div>
@@ -143,20 +142,20 @@ button.copy {
   </section>
 
   <section class="setup-section">
-    <h2><span class="l-en">Where it will live</span><span class="l-zh">发布在哪里</span></h2>
-    <p class="note"><span class="l-en">Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.</span><span class="l-zh">你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。</span></p>
+    <h2><span class="l-en">Where it will live</span></h2>
+    <p class="note"><span class="l-en">Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.</span></p>
     <div class="field">
-      <label for="url"><span class="l-en">Site address</span><span class="l-zh">网站地址</span></label>
+      <label for="url"><span class="l-en">Site address</span></label>
       <input type="text" id="url" value="https://jinyeah123.github.io/LucasDailyNews/" placeholder="https://yourname.github.io/your-repo/">
     </div>
   </section>
 </form>
 
 <section class="setup-section">
-  <h2><span class="l-en">Your config.toml</span><span class="l-zh">你的 config.toml</span></h2>
-  <p class="note"><span class="l-en">Copy this into config.toml in the root of your repository and commit. The next edition follows it.</span><span class="l-zh">把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。</span></p>
+  <h2><span class="l-en">Your config.toml</span></h2>
+  <p class="note"><span class="l-en">Copy this into config.toml in the root of your repository and commit. The next edition follows it.</span></p>
   <div class="outbar">
-    <button class="copy" type="button" id="copy"><span class="l-en">Copy</span><span class="l-zh">复制</span></button>
+    <button class="copy" type="button" id="copy"><span class="l-en">Copy</span></button>
     <span id="status" class="preview-note"></span>
     <span id="warn" class="warn"></span>
   </div>
@@ -164,19 +163,19 @@ button.copy {
 </section>
 
 <section class="setup-section">
-  <h2><span class="l-en">What is not a setting</span><span class="l-zh">哪些不是设置项</span></h2>
-  <p class="fixed-box"><span class="l-en">Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.</span><span class="l-zh">每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。</span></p>
+  <h2><span class="l-en">What is not a setting</span></h2>
+  <p class="fixed-box"><span class="l-en">Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.</span></p>
 </section>
 
-<footer class="foot"><span class="l-en">Nothing here is sent anywhere — the page builds the text in your browser.</span><span class="l-zh">这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。</span></footer>
+<footer class="foot"><span class="l-en">Nothing here is sent anywhere — the page builds the text in your browser.</span></footer>
 </div>
 
 <script src="assets/app.js"></script>
 <script>
 (function () {
-  var LANGS = [{"code": "en", "label": "English", "on": true}, {"code": "zh", "label": "中文", "on": true}];
-  var BANDS = [{"key": "6-11", "min": 5, "max": 11, "label": {"en": "Ages 6–11", "zh": "6–11 岁"}}, {"key": "12-15", "min": 12, "max": 15, "label": {"en": "Ages 12–15", "zh": "12–15 岁"}}, {"key": "16+", "min": 16, "max": 18, "label": {"en": "Ages 16+", "zh": "16 岁以上"}}];
-  var TEXT = {"intro": {"en": "Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.", "zh": "填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。"}, "h_child": {"en": "Who is reading", "zh": "谁在读"}, "n_child": {"en": "Every edition is written at all three reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.", "zh": "每一期都会按三个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。任何人都可以在页面上自己切换。"}, "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"}, "l_age": {"en": "Age", "zh": "年龄"}, "band_is": {"en": "Opens on", "zh": "默认打开"}, "h_langs": {"en": "Languages", "zh": "语言"}, "n_langs": {"en": "Pick both and the page gets a toggle — handy when the child reads one language at school and the family reads another at home.", "zh": "两个都选，页面上会出现切换按钮——孩子在学校读一种语言、家里读另一种时很好用。"}, "h_when": {"en": "When it arrives", "zh": "什么时候更新"}, "n_when": {"en": "Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.", "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，所以挑一个你们通常在一起的时间。"}, "l_tz": {"en": "Time zone", "zh": "时区"}, "l_hour": {"en": "Time of day", "zh": "更新时刻"}, "h_site": {"en": "Where it will live", "zh": "发布在哪里"}, "n_site": {"en": "Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.", "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。"}, "l_url": {"en": "Site address", "zh": "网站地址"}, "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"}, "n_out": {"en": "Copy this into config.toml in the root of your repository and commit. The next edition follows it.", "zh": "把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。"}, "b_copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"}, "whenPreview": {"en": "Each edition covers the 24 hours ending at {hour} in {tz}.", "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。"}, "fixed_h": {"en": "What is not a setting", "zh": "哪些不是设置项"}, "fixed_n": {"en": "Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.", "zh": "每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。"}, "foot": {"en": "Nothing here is sent anywhere — the page builds the text in your browser.", "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。"}, "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"}, "today": {"en": "Today", "zh": "今日"}};
+  var LANGS = [{"code": "en", "label": "English", "on": true}];
+  var BANDS = [{"key": "primary", "min": 5, "max": 11, "label": {"en": "Primary school"}}, {"key": "secondary", "min": 12, "max": 18, "label": {"en": "Secondary school"}}];
+  var TEXT = {"intro": {"en": "Fill this in, copy the result into config.toml, and it becomes your child's paper from the next edition on.", "zh": "填好这张表，把结果复制到 config.toml，从下一期开始它就是你孩子的那份报纸。"}, "h_child": {"en": "Who is reading", "zh": "谁在读"}, "n_child": {"en": "Every edition is written at both reading levels, so this only picks which one the page opens on. Anyone can switch on the page itself.", "zh": "每一期都会按两个阅读难度各写一遍，所以这里只是决定页面默认打开哪一个。任何人都可以在页面上自己切换。"}, "l_name": {"en": "Child's name (optional)", "zh": "孩子的名字（可留空）"}, "l_age": {"en": "Age", "zh": "年龄"}, "band_is": {"en": "Opens on", "zh": "默认打开"}, "h_langs": {"en": "Languages", "zh": "语言"}, "n_langs": {"en": "The edition is written in English. Choosing more than one language adds a toggle to the page and multiplies what each day costs to write.", "zh": "每期以英文写成。多选一种语言，页面上会多出切换按钮，同时每天的生成成本也会成倍增加。"}, "h_when": {"en": "When it arrives", "zh": "什么时候更新"}, "n_when": {"en": "Your own time zone is filled in already. Each edition covers the 24 hours ending at this time, so pick a moment you are usually together.", "zh": "已经自动填好了你所在的时区。每一期覆盖截至这个时刻的 24 小时，所以挑一个你们通常在一起的时间。"}, "l_tz": {"en": "Time zone", "zh": "时区"}, "l_hour": {"en": "Time of day", "zh": "更新时刻"}, "h_site": {"en": "Where it will live", "zh": "发布在哪里"}, "n_site": {"en": "Your GitHub Pages address. The QR code on the share image points here, so fill it in before sharing an image anywhere.", "zh": "你的 GitHub Pages 地址。转发长图上的二维码指向这里，所以分享之前要先填好。"}, "l_url": {"en": "Site address", "zh": "网站地址"}, "h_out": {"en": "Your config.toml", "zh": "你的 config.toml"}, "n_out": {"en": "Copy this into config.toml in the root of your repository and commit. The next edition follows it.", "zh": "把它复制进仓库根目录的 config.toml 并提交。下一期就会按它来。"}, "b_copy": {"en": "Copy", "zh": "复制"}, "copied": {"en": "Copied.", "zh": "已复制。"}, "needLang": {"en": "Pick at least one language.", "zh": "至少选一种语言。"}, "whenPreview": {"en": "Each edition covers the 24 hours ending at {hour} in {tz}.", "zh": "每一期覆盖 {tz} 时区里截至 {hour} 的 24 小时。"}, "fixed_h": {"en": "What is not a setting", "zh": "哪些不是设置项"}, "fixed_n": {"en": "Three stories a day, drawn from politics, society, business, tech and science, centred on the US and China plus anything too big to belong to one country. That is the editorial line rather than a preference, so it is the same for everyone.", "zh": "每天三条，取自政治、社会、财经、科技、科学，以美国和中国为重心，外加大到不属于任何单一国家的事件。这是编辑方针，不是偏好设置，所以对所有人都一样。"}, "foot": {"en": "Nothing here is sent anywhere — the page builds the text in your browser.", "zh": "这里填的内容不会发送到任何地方——文本是在你的浏览器里生成的。"}, "theme": {"en": "Light / Dark", "zh": "浅色 / 深色"}, "today": {"en": "Today", "zh": "今日"}};
   var lang = document.documentElement.getAttribute('data-lang') || 'en';
   function tr(key) { var e = TEXT[key] || {}; return e[lang] || e.en || ''; }
 

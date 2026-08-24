@@ -1,7 +1,7 @@
 // Daily News for Kids — reading level, language and theme, stored per device.
 //
 // The age band is the only control that changes the words on the page, and it
-// works because all three bands are already in the HTML: switching is one
+// works because both bands are already in the HTML: switching is one
 // attribute on the root element. Nothing here talks to a server, and nothing
 // here pretends to change what tomorrow's edition will say.
 (function () {

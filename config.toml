@@ -5,13 +5,13 @@
 [child]
 # Shown as "made for ___" on the page. Leave empty to omit.
 name = "Lucas"
-# 5-18. Every edition is written at all three reading levels (6-11, 12-15, 16+),
-# so this only decides which one the page opens on. Anyone can switch on the page.
+# 5-18. Every edition is written for both primary and secondary readers, so
+# this only decides which of the two the page opens on. Anyone can switch.
 age = 12
 
 [edition]
-# "en", "zh", or both. The first one is what the page opens in.
-languages = ["en", "zh"]
+# The edition is written once, in English.
+languages = ["en"]
 
 [schedule]
 # Any IANA zone: America/Vancouver, America/New_York, Europe/London,

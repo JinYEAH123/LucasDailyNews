@@ -5,12 +5,11 @@
 [child]
 # Shown as "made for ___" on the page. Leave empty to omit.
 name = ""
-# 5-18. Every edition is written at all three reading levels (6-11, 12-15, 16+),
-# so this only decides which one the page opens on. Anyone can switch on the page.
+# 5-18. Only decides which of the two reading levels the page opens on.
 age = 12
 
 [edition]
-# "en", "zh", or both. The first one is what the page opens in.
+# The edition is written once, in English.
 languages = ["en"]
 
 [schedule]

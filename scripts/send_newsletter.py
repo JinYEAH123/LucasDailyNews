@@ -20,16 +20,15 @@ Configuration, all through the environment so no address is ever committed:
                            anything that is not the authenticated account)
     SMTP_FROM_NAME         display name (default "Daily News for Kids")
     NEWSLETTER_RECIPIENTS  comma- or newline-separated. "addr" or "addr:lang",
-                           where lang is en or zh. Defaults to the first
+                           where lang is a configured language. Defaults to the first
                            language in config.toml.
-                           e.g. "lucas@x.com:en, mum@x.com:zh"
+                           e.g. "lucas@x.com:en, mum@x.com:en:primary"
     SITE_URL               where the site is published, used for the links out
 
 Usage:
     python3 scripts/send_newsletter.py                      # today's edition
     python3 scripts/send_newsletter.py --date 2026-08-17
     python3 scripts/send_newsletter.py --dry-run out.html   # preview, no send
-    python3 scripts/send_newsletter.py --to me@x.com --lang zh
     python3 scripts/send_newsletter.py --force              # resend a sent date
 """
 
@@ -75,20 +74,19 @@ SANS = ("-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',"
         "Arial,'PingFang SC','Microsoft YaHei',sans-serif")
 
 T = {
-    "why": {"en": "Why this matters", "zh": "为什么重要"},
-    "words": {"en": "Words worth knowing", "zh": "值得记住的词"},
-    "talk": {"en": "Talk about it at dinner", "zh": "饭桌上聊聊"},
+    "why": {"en": "Why this matters"},
+    "words": {"en": "Words worth knowing"},
+    "talk": {"en": "Talk about it at dinner"},
     "talk_note": {
         "en": "Try your own answer first. The case for both sides is on the website —",
-        "zh": "先说说你自己怎么想。两方各自的说法在网页上——",
     },
-    "talk_link": {"en": "see both sides", "zh": "看两方的说法"},
-    "background": {"en": "Background reading", "zh": "背景阅读"},
-    "further": {"en": "Go deeper", "zh": "延展阅读"},
-    "watch": {"en": "Watch", "zh": "看视频"},
-    "source": {"en": "Main source", "zh": "主要来源"},
-    "read_online": {"en": "Read this online", "zh": "在网页上读"},
-    "archive": {"en": "Past editions", "zh": "往期"},
+    "talk_link": {"en": "see both sides"},
+    "background": {"en": "Background reading"},
+    "further": {"en": "Go deeper"},
+    "watch": {"en": "Watch"},
+    "source": {"en": "Main source"},
+    "read_online": {"en": "Read this online"},
+    "archive": {"en": "Past editions"},
 }
 
 
@@ -97,9 +95,6 @@ def t(key: str, lang: str) -> str:
 
 
 def footer_line(lang: str) -> str:
-    if lang == "zh":
-        return ("本邮件由你自己的新闻仓库发出。要增减收件人，"
-                "请修改仓库设置里的 NEWSLETTER_RECIPIENTS。")
     return ("Sent from your own news repository. To add or remove a reader, edit "
             "the NEWSLETTER_RECIPIENTS secret in the repository settings.")
 
@@ -511,7 +506,8 @@ def main() -> None:
     ap.add_argument("--date", help="Edition date, YYYY-MM-DD. Defaults to the newest.")
     ap.add_argument("--force", action="store_true", help="Send even if already sent.")
     ap.add_argument("--to", help="Send only to this address, ignoring the list.")
-    ap.add_argument("--lang", choices=["en", "zh"], default=CFG.primary_language,
+    ap.add_argument("--lang", choices=list(appconfig.LANGUAGES),
+                    default=CFG.primary_language,
                     help="Language for --to.")
     ap.add_argument("--band", choices=list(appconfig.AGE_BANDS), default=CFG.band,
                     help="Reading level for --to and --dry-run.")
