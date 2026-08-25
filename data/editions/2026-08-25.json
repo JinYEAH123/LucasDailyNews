@@ -1,0 +1,757 @@
+{
+  "date": "2026-08-25",
+  "window": {
+    "start": "2026-08-24T12:00:00-07:00",
+    "end": "2026-08-25T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-08-25T13:00:34-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Supreme Court hands Trump administration win on mail voting order",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/supreme-court-trump-mail-voting-order-usps-dhs/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Supreme Court hands preliminary win to Trump on mail ballots"
+          },
+          "summary": {
+            "en": "NBC News lays out what the executive order actually changes and how the 6-3 vote splits the justices. Useful for understanding exactly which mail-voting rules are now allowed to take effect."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-hands-preliminary-win-trump-mail-ballots-executive-order-rcna590120"
+        },
+        {
+          "title": {
+            "en": "What the Supreme Court's mail-ballot order does and doesn't do"
+          },
+          "summary": {
+            "en": "CNN's explainer separates the parts of the order now in effect from the parts still being fought in lower courts. Good for readers confused about what changed today versus what's still pending."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/24/politics/trump-mail-ballot-supreme-court"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump is having trouble changing how Americans vote"
+          },
+          "summary": {
+            "en": "The Washington Post's analysis argues the practical effect of the ruling may be voter confusion rather than a clean rule change, since implementation is messy and litigation continues. Worth reading for what happens next, not just what happened today."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/08/25/trump-is-having-trouble-changing-how-americans-vote/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Nine Judges Say Yes to New Mail-Voting Rules — For Now"
+          },
+          "hook": {
+            "en": "America's highest court, called the Supreme Court, just said the government can start using new rules for voting by mail. The rules were made by President Trump. Three of the nine judges disagreed and said the court moved too fast."
+          },
+          "story": {
+            "en": [
+              "Some Americans vote by mailing their ballot instead of going to a polling place. President Trump made a rule that changes how those mail ballots get checked and counted before the next big election in 2026.",
+              "People who disagree with the rule say it steps on a job that belongs to each state, not the president. In the United States, each of the 50 states usually runs its own elections, kind of like how each classroom might have its own rules for lining up.",
+              "The Supreme Court has 9 judges. Six of them said yes, let the new rule start now, while courts keep arguing about whether it is fair. Three said no — they felt the court should have waited and studied the question more carefully first, instead of deciding it so quickly on what is nicknamed the 'shadow docket.'",
+              "A newspaper called the Washington Post looked into it and thinks the biggest effect right away might just be confusion. Voters and local election workers may not be totally sure what the new rules mean yet, since other courts are still fighting over the bigger question."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Voting is how grown-ups choose their leaders, sort of like how your class might vote on what game to play at recess. When the rules for voting change quickly and people are confused, it can make it harder for votes to be counted correctly and fairly — and someday, this will be how you get to have a say too."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Supreme Court"
+              },
+              "def": {
+                "en": "The most powerful group of judges in the United States, with 9 members, who make final decisions about what the country's rules mean."
+              }
+            },
+            {
+              "term": {
+                "en": "mail-in voting"
+              },
+              "def": {
+                "en": "A way of voting where someone fills out their ballot at home and sends it through the mail instead of going to vote in person."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Supreme Court have let the new voting rule start right away, before fully deciding if it's fair?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, start it now"
+                  },
+                  "points": {
+                    "en": [
+                      "If there's a problem with how mail ballots are checked, fixing it sooner could stop mistakes before the next election.",
+                      "Waiting a long time for courts to decide could mean the old rules stay even if they have real problems too.",
+                      "Sometimes decisions need to happen fast so everyone knows what to expect before an election gets close."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until it's fully decided"
+                  },
+                  "points": {
+                    "en": [
+                      "Big decisions that affect how millions of people vote deserve careful study, not a rushed choice.",
+                      "If the rule turns out to be unfair, it will have already changed how an election worked, and that can't be undone.",
+                      "Confusing or unclear rules right before voting can make people less sure their vote will count."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the president be allowed to help set rules for how people vote by mail, or should that be only up to each state?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The president should be able to help"
+                  },
+                  "points": {
+                    "en": [
+                      "Having some rules be the same everywhere could make voting fairer and less confusing across the whole country.",
+                      "National problems, like making sure only eligible people vote, might need a national solution.",
+                      "The government agencies involved, like the mail service, already work the same way in every state."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Only states should decide"
+                  },
+                  "points": {
+                    "en": [
+                      "The country's rulebook, the Constitution, gives states the job of running their own elections.",
+                      "States know their own voters and communities better than the national government does.",
+                      "Letting one leader change voting rules could someday be used to help whoever is in charge stay in power."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Supreme Court Lets Trump's Mail-Voting Rules Take Effect — For Now"
+          },
+          "hook": {
+            "en": "The US Supreme Court has voted 6-3 to allow the Trump administration to start enforcing new limits on mail-in voting before the 2026 midterm elections, even though lower courts are still deciding whether those limits are legal. The order pulls the postal service and a homeland security agency into checking who's allowed to vote and when their mail ballots count — a job that has traditionally belonged to individual states.\n\n"
+          },
+          "story": {
+            "en": [
+              "Here's what actually happened: back at some point before this ruling, President Trump signed an executive order — a direct instruction from the president that doesn't need Congress's approval — telling federal agencies to get involved in mail-in voting. Two agencies got new jobs. The US Postal Service, the government agency that delivers mail nationwide, would help verify that people requesting mail ballots are actually eligible to vote. The Department of Homeland Security, normally focused on things like border security and disaster response, would set new rules on which mail ballots count and when.",
+              "Voting rights groups and several states sued, arguing this breaks a basic rule of how American elections work. The Constitution gives states — not the federal government — the power to run their own elections: setting polling hours, designing ballots, deciding how mail voting works. Critics say Trump's order oversteps that boundary by having federal agencies dictate terms that states are supposed to control themselves.",
+              "While that lawsuit was still working its way through the lower courts, the Trump administration asked the Supreme Court to step in early and let the order take effect anyway, before the case was fully argued. This is called the 'shadow docket' — a fast, emergency process the Court uses for urgent requests, decided quickly and often without the detailed written arguments and oral hearings that normally happen in major cases. Six justices agreed to grant that request. Three dissented, saying the majority moved too fast on something this significant, deciding a huge question about voting access without ever properly hearing the full case.",
+              "This is a genuinely new situation: it's the first time a president's mail-voting rules have reached the Supreme Court on this kind of rushed, emergency basis so close to a national election. But 'the rules can now be enforced' doesn't mean much will instantly change. A Washington Post analysis published the same day the ruling came out argued that the real short-term effect may just be confusion — local election officials and voters unsure exactly what's required, while the actual lawsuit over whether the executive order is constitutional keeps grinding on in lower courts. Nothing is settled; the fight has just moved to a new stage with different rules in the meantime."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Elections decide who makes decisions that affect your school funding, your family's taxes, and eventually your own vote — so a fight over who controls how mail ballots get counted is really a fight over who controls the rules of democracy itself. If federal agencies can insert themselves into state election processes through an emergency court order, that changes the balance of power for every future election, not just this one."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Executive order"
+              },
+              "def": {
+                "en": "A direct instruction from the US president to federal agencies that has the force of law without needing a vote in Congress."
+              }
+            },
+            {
+              "term": {
+                "en": "Shadow docket"
+              },
+              "def": {
+                "en": "A fast-track process the Supreme Court uses to decide urgent requests quickly, often without the full written arguments and hearings used in regular cases."
+              }
+            },
+            {
+              "term": {
+                "en": "Dissent"
+              },
+              "def": {
+                "en": "A formal disagreement written by judges who voted against the majority's decision, explaining why they think the ruling is wrong."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Supreme Court be allowed to make major, lasting decisions through the fast-track 'shadow docket' instead of waiting for a full hearing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, speed is sometimes necessary"
+                  },
+                  "points": {
+                    "en": [
+                      "Some situations, like rules that need to be in place before an election happens, can't wait months or years for a full trial process.",
+                      "The Court can still fully review the case later; the emergency ruling is temporary, not final.",
+                      "Refusing to rule quickly can itself cause harm, by leaving confusing or contested rules in place by default."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, big decisions deserve full process"
+                  },
+                  "points": {
+                    "en": [
+                      "Decisions this consequential deserve complete arguments from both sides and careful deliberation, not a rushed vote.",
+                      "Emergency rulings set real facts on the ground — like enforced voting rules — even if they're technically 'temporary.'",
+                      "Skipping full briefing risks the Court making mistakes it wouldn't make with more time and information."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the federal government be allowed to involve national agencies in verifying voter eligibility, even though states traditionally run their own elections?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, national standards can help"
+                  },
+                  "points": {
+                    "en": [
+                      "A single, consistent process across states could reduce errors and inconsistencies in how eligibility is checked.",
+                      "Federal agencies may have resources or verification tools that individual states lack.",
+                      "National involvement could catch problems that fall through the cracks when each state handles things separately."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this oversteps a constitutional boundary"
+                  },
+                  "points": {
+                    "en": [
+                      "The Constitution deliberately gives election administration to the states, partly to prevent any single federal authority from controlling the vote nationwide.",
+                      "Involving agencies like Homeland Security, which isn't designed for election administration, risks mistakes or overreach.",
+                      "Centralizing this power in the federal government makes it easier for whoever holds the presidency to influence election rules in their own favor."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "US largest mass visa revocation targets 200,000 foreigners",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/25/nx-s1-5944058/us-largest-mass-visa-revocation-200-000-foreigners"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump administration set to revoke visas from 200,000 foreigners"
+          },
+          "summary": {
+            "en": "Bloomberg's independent confirmation of the scale of the plan, with additional detail on which visa categories are affected. Useful as a second, differently-owned source on the same numbers."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-25/trump-administration-set-to-revoke-visas-from-200-000-foreigners"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The US Says It Will Cancel 200,000 Visitor Passes"
+          },
+          "hook": {
+            "en": "The White House says it will cancel up to 200,000 visas — special passes that let people visit or live in the United States for a while. The government says these people came in as tourists or business visitors, but later asked to stay for good by requesting asylum. Officials call this the biggest cancellation of visas in US history."
+          },
+          "story": {
+            "en": [
+              "A visa is like a ticket that lets someone from another country visit the United States. Some visas are for tourists. Some are for people doing business.",
+              "The US government says thousands of people came in on these short visit tickets, but then tried to switch to a different plan: asking to stay in America for good because they say it is not safe to go home. This is called asking for asylum.",
+              "The government says this breaks the rules of the visa they were given, so it wants to cancel around 200,000 of these tickets. People who study fair treatment of immigrants say many of these people followed the rules that were open to them at the time, and canceling their visas now could split up families or take away people's jobs while their cases are still being decided.",
+              "Two news groups, NPR and Bloomberg, have reported this story so far. It is still not clear exactly how the government will cancel each visa, or whether people will get a chance to argue against it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine getting a permission slip to visit a friend's house for a weekend, then being told you can never come back — even if your reason for wanting to stay longer made sense to you. This story is about how countries decide who gets to stay and who has to leave, and about what happens to people caught in the middle of changing rules."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Visa"
+              },
+              "def": {
+                "en": "A visa is an official permission slip that lets someone from another country enter and stay for a certain reason, like visiting or doing business."
+              }
+            },
+            {
+              "term": {
+                "en": "Asylum"
+              },
+              "def": {
+                "en": "Asylum is protection a country gives to someone who says it is too dangerous to go back to their home country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to take away someone's visa if they ask to stay longer because they feel unsafe at home?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "A visa is a promise to follow specific rules, like visiting for two weeks, and breaking that promise should have consequences.",
+                      "If everyone could switch their visa reason once they arrived, the rules would stop meaning anything.",
+                      "Countries need to know who is inside their borders and why, or nothing can be planned fairly for anyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Someone's situation at home can change after they arrive, and people should be allowed to respond to real danger.",
+                      "Punishing people for asking for help could scare away others who truly need protection.",
+                      "Many of these people are already working, going to school, or raising kids in the US, and pulling their visas could hurt innocent family members too."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country be allowed to change the rules for people who are already living there under the old rules?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should"
+                  },
+                  "points": {
+                    "en": [
+                      "Rules sometimes need to change quickly if the government sees a problem, like a rule being used in a way it wasn't meant for.",
+                      "A country's leaders are chosen to make decisions for the whole country, even ones that affect people already there.",
+                      "Waiting too long to fix a rule can mean more people use it in ways it wasn't designed for."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't"
+                  },
+                  "points": {
+                    "en": [
+                      "People make big life choices, like moving countries, based on the rules that exist at the time, and changing them afterward feels like moving the goalposts.",
+                      "Sudden rule changes can catch honest people by surprise, even if they did nothing wrong.",
+                      "If rules can change any time, it becomes very hard for anyone to trust a promise from the government."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US Plans to Cancel 200,000 Visas in What Officials Call the Largest Revocation Ever"
+          },
+          "hook": {
+            "en": "The White House says it is preparing to cancel as many as 200,000 visas belonging to foreigners who are already in the United States or trying to enter it. The target group: people who came in on business or tourist visas and later applied for asylum, a separate legal process for people fleeing danger in their home country. Officials say this switch breaks the terms of the original visa. Immigrant advocates say it punishes people for using a legal option that was open to them."
+          },
+          "story": {
+            "en": [
+              "A visa is permission to enter a country for a specific reason, valid for a specific length of time, granted before you travel. A tourist visa says you're visiting; a business visa says you're here for work meetings. Asylum is different: it's a claim, made from inside the country, that you cannot safely return home because of persecution based on things like your religion, politics, or identity. Both are legal. The question at the center of this story is what happens when someone uses one to get in, then applies for the other.",
+              "The Trump administration's position is that a pattern has emerged: people enter on a visitor visa, meant for a short stay, and then file for asylum once inside, effectively using a faster or easier legal door to get into the country than the asylum process would normally allow on its own. Officials describe this as a loophole, a gap in the rules that lets people achieve an outcome the rules weren't designed to produce, and argue that revoking the original visa in these cases isn't punishing asylum-seekers so much as closing a shortcut around the system meant to screen them.",
+              "NPR, which first reported the plan, says it would apply to visa holders currently in the US and to some people abroad who are still seeking entry. Bloomberg's separate reporting confirms the 200,000 figure and situates it inside a wider set of immigration restrictions the administration has been rolling out. Both outlets are reporting independently of each other, which matters here: when a claim this large rests on more than one newsroom's sourcing, it's harder to dismiss as a single leak or a single point of view.",
+              "Immigrant advocates dispute the framing. Their argument is that applying for asylum after entering the country isn't a loophole at all — it's explicitly how the law allows the process to work, since asylum can only be claimed once someone is on US soil or at its border. Revoking a visa retroactively, they say, could strand people who have since taken jobs, enrolled children in school, or built a pending legal case around the assumption that their status was secure. A canceled visa can also affect a person's ability to work legally or travel while their asylum case is still being decided.",
+              "What isn't yet public is how this would actually happen — whether revocations happen automatically and in bulk, whether people get notice or a chance to respond before losing status, and what appeal process, if any, exists. Because the plan was only just announced, those mechanical details, which determine how disruptive this is in practice, remain unclear even to the two outlets covering it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is a case where the same fact — someone entered on one visa and later applied for asylum — supports two entirely different stories: closing a loophole, or punishing legal behavior. How the government resolves that disagreement will shape immigration policy well beyond these 200,000 people, and it's the kind of dispute where the details of implementation, not just the headline, decide how many lives actually get disrupted."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Visa"
+              },
+              "def": {
+                "en": "Official permission, granted in advance, to enter a country for a specific reason and length of time, such as tourism or business."
+              }
+            },
+            {
+              "term": {
+                "en": "Asylum"
+              },
+              "def": {
+                "en": "A legal claim, made after arriving in a country, that you cannot safely go home because you'd be persecuted there for who you are or what you believe."
+              }
+            },
+            {
+              "term": {
+                "en": "Revoke"
+              },
+              "def": {
+                "en": "To officially cancel something that was previously granted, such as a visa, taking away the permission it gave."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the government be allowed to cancel a visa after granting it, just because the holder later applied for asylum?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can revoke"
+                  },
+                  "points": {
+                    "en": [
+                      "A visa is issued on the assumption of a specific purpose, and using it to enter for a different purpose arguably breaks that agreement.",
+                      "Governments have long claimed the authority to police how their own immigration systems are used, including closing routes seen as being exploited at scale.",
+                      "If the pattern really is people using tourist visas as a faster path into the asylum system, doing nothing rewards gaming the rules over waiting one's turn."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't"
+                  },
+                  "points": {
+                    "en": [
+                      "Applying for asylum after entering the country isn't a trick — it's literally how the law requires the process to work, since claims can only be filed from inside the US or at its border.",
+                      "Punishing people for following an available legal step discourages people with real, dangerous situations from using the correct process at all.",
+                      "Revoking status retroactively, after people have built jobs, families, and pending cases around it, causes harm disproportionate to any rule-bending involved."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does calling this a 'loophole' accurately describe what's happening, or does the label itself decide the argument unfairly?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a fair label"
+                  },
+                  "points": {
+                    "en": [
+                      "If large numbers of people are using visitor visas specifically because it's an easier entry point than applying for asylum from abroad, that is functionally a workaround, whatever the paperwork says.",
+                      "Calling it a loophole doesn't require saying asylum-seekers are acting in bad faith — a rule can be exploited without anyone breaking it.",
+                      "Systems need to be able to name and close gaps between their intent and their effect, or the rules stop meaning much."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a loaded label"
+                  },
+                  "points": {
+                    "en": [
+                      "'Loophole' implies cheating, but using a legal visa to enter and then a legal process to claim asylum is just following the law as written, twice.",
+                      "The word shifts the debate before it starts: once you've called it a loophole, closing it sounds obviously right, which is exactly the point of choosing that word.",
+                      "The same behavior could just as easily be described as 'the asylum system working as designed for people who can travel,' which sounds nothing like abuse."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "New Residential Sales, July 2026",
+        "publisher": "U.S. Census Bureau / HUD",
+        "url": "https://www.census.gov/construction/nrs/pdf/newressales_202607.pdf"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Fewer New Houses Sold in America Last Month"
+          },
+          "hook": {
+            "en": "In July, fewer new houses were sold across the United States than the month before. Government number-checkers say sales dropped by about one-tenth compared to June. That is a big drop for just one month. Nobody is sure yet exactly why it happened."
+          },
+          "story": {
+            "en": [
+              "Imagine a street where builders put up ten new houses every month, and almost all of them get bought. In July, way fewer got bought than usual.",
+              "The government keeps track of this with careful counting, the same way you might count how many cookies get eaten at a party each week. This month's count showed a sharp drop, about one in ten fewer houses sold than the month before.",
+              "Grown-ups who study money are not sure why. Some think it is because loans for buying houses, called mortgages, cost more right now, so families can't afford as much. Others think building materials got pricier. A few think it is just a one-month wobble that will fix itself.",
+              "Building and selling houses gives jobs to lots of people: carpenters, truck drivers, bank workers, even people who sell paint and furniture. When house sales drop, some of those jobs can wobble too."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If someone in your family works in building, selling, or lending money for houses, a slowdown like this could touch their job. It also matters for any family hoping to buy a first home soon, because it can change how easy or hard that is. Even if your family isn't moving anytime soon, this kind of number helps tell whether the whole country's economy is running smoothly or sputtering a bit."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "mortgage"
+              },
+              "def": {
+                "en": "A mortgage is a big loan a bank gives someone to help them buy a house, which they pay back slowly over many years."
+              }
+            },
+            {
+              "term": {
+                "en": "housing market"
+              },
+              "def": {
+                "en": "The housing market is the overall pattern of how many houses are being built, bought, and sold, and at what prices, across a whole country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If fewer new houses get sold, is it fair that builders and construction workers might lose work, even though it wasn't their fault?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "The workers didn't decide mortgage rates or material costs, so they shouldn't bear the cost alone.",
+                      "A family can lose income suddenly through no mistake of their own, which feels unfair.",
+                      "Whole neighborhoods depend on steady building jobs, so a slowdown hurts people far beyond the workers themselves."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's just how it works"
+                  },
+                  "points": {
+                    "en": [
+                      "Jobs tied to buying and selling things always rise and fall with how much people are buying, and everyone in that kind of work knows that going in.",
+                      "If builders kept building houses nobody could afford, that would waste materials and money for everyone.",
+                      "Slow months usually pass, and workers often find other work or wait it out until sales pick up again."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If house prices might drop soon, should a family wait to buy, or buy the home they love right now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Wait for a better price"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting could mean paying less money for the very same kind of house later.",
+                      "Prices sometimes keep falling for a while, so patience can pay off.",
+                      "A family that waits keeps more money saved for other important things, like school or emergencies."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Buy the home you love now"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody truly knows if prices will drop, stay the same, or even rise again soon.",
+                      "A family might lose the exact house they love, with the yard or the school nearby, if they wait too long.",
+                      "Having a stable, happy home right away can matter more to a family than saving some money later."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "New home sales in the US just fell off a cliff — and nobody's sure why yet"
+          },
+          "hook": {
+            "en": "The US government released fresh numbers showing new houses sold in July at a rate more than 10% lower than the month before. That's one of the sharpest one-month drops in years, but the report itself doesn't say why it happened."
+          },
+          "story": {
+            "en": [
+              "Every month, the US Census Bureau and the Department of Housing and Urban Development — two government agencies, one that counts things and one that oversees housing — jointly publish a report on how many newly built single-family homes were sold. For July 2026, they reported a seasonally adjusted annual rate of 607,000 homes. That's a mouthful, but it means something specific: statisticians take the raw monthly number, smooth out the usual seasonal swings (fewer sales in winter, more in spring, for example), and then project what the whole year would look like if that pace continued. It's a way to compare one month fairly against another.",
+              "The headline number is the change: sales fell 10.5% from June to July. A drop that size in a single month is unusual and worth paying attention to, because new-home sales ripple outward. When fewer houses get built and sold, construction crews get fewer jobs, lumber yards and appliance stores sell less, and banks issue fewer mortgages — the loans people take out to buy homes. Economists watch this data precisely because it's an early signal of where the broader economy might be heading, months before slower hiring or spending shows up elsewhere.",
+              "What the report does not do is explain the drop. That's the harder, more interesting question, and right now there's no consensus answer. One theory points to mortgage rates: when the interest rate on a home loan rises, monthly payments rise too, and some buyers who could afford a house a year ago can no longer afford one now. A second theory points to tariffs — taxes the US government has placed on imported goods, including some building materials — which can raise the cost of construction and get passed on to buyers as higher prices. A third possibility is simpler: one month's data can be noisy, and July's drop might partly reverse itself in August without meaning anything structural at all.",
+              "This is a case where the primary source — the actual government report — is solid and not in dispute, but the story around it is still being written. At the time this was published, no economist or news outlet had yet produced a detailed analysis pinning down which explanation, or mix of explanations, fits the July numbers best. That gap matters: a drop caused by temporarily high interest rates might fix itself if rates come down, while a drop caused by tariff-driven building costs could persist as long as those tariffs stay in place."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Housing affects almost everyone eventually — as a place to live, a family's biggest expense, or, for parents, a decision about whether now is the right time to buy. When new-home sales slow sharply, it can also mean fewer construction jobs and tighter lending in the months ahead, which is part of how a slowdown in one sector spreads through an entire economy."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "seasonally adjusted annual rate"
+              },
+              "def": {
+                "en": "A way of reporting monthly data that smooths out normal seasonal patterns and projects what a full year would look like at that month's pace, so different months can be compared fairly."
+              }
+            },
+            {
+              "term": {
+                "en": "mortgage rate"
+              },
+              "def": {
+                "en": "The interest rate charged on a home loan, which determines how much a buyer pays each month and how much house they can afford."
+              }
+            },
+            {
+              "term": {
+                "en": "tariff"
+              },
+              "def": {
+                "en": "A tax a government places on goods imported from other countries, which can raise costs for businesses that use those goods, including builders buying construction materials."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When one month's economic data shows a sharp drop, should people treat it as an early warning sign or wait for more data before reacting?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take it seriously now"
+                  },
+                  "points": {
+                    "en": [
+                      "A 10.5% single-month drop is large by historical standards and ignoring early signals has meant missing real downturns before.",
+                      "Businesses and policymakers who wait for perfect certainty often act too late to prevent the effects from spreading.",
+                      "Even if the number partly reverses later, the human costs of a slowdown — lost jobs, delayed plans — happen in real time, not on a revised statistic."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for a clearer pattern"
+                  },
+                  "points": {
+                    "en": [
+                      "Monthly housing data is famously volatile and one bad month is frequently followed by a rebound that makes the earlier alarm look overblown.",
+                      "Overreacting to noisy data can cause businesses to cut jobs or investment unnecessarily, creating a problem that wasn't really there.",
+                      "Economists themselves haven't agreed on a cause yet, which is a sign that more information is needed before drawing conclusions."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If high mortgage rates are part of what's cooling the housing market, should the Federal Reserve (the US central bank that sets a key interest rate) prioritize cutting rates to help buyers, even if that risks pushing inflation higher elsewhere?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cut rates to support housing"
+                  },
+                  "points": {
+                    "en": [
+                      "Housing affects an enormous number of people directly, and locking a generation out of homeownership has long-lasting effects on families and communities.",
+                      "A cooling housing market drags down construction jobs and related industries, which can slow the whole economy if left unaddressed.",
+                      "Interest rates are a tool the Fed can adjust relatively quickly, unlike tariffs or other structural costs."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep rates higher to control inflation"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting rates to fix one sector risks reigniting broader price increases that hurt everyone, including the same buyers rate cuts are meant to help.",
+                      "The housing slowdown might stem more from tariff-driven construction costs than from rates, in which case a rate cut wouldn't fix the real problem.",
+                      "The Fed's mandate is about the whole economy's stability, not rescuing any single industry, however important that industry feels in the moment."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
