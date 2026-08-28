@@ -577,6 +577,37 @@ def _guard(message, what: str):
     return message
 
 
+def _trim_to_bounds(payload, schema, where: str = "") -> list:
+    """Cut arrays back to the maxItems their schema declares.
+
+    api_schema() strips maxItems before sending, because the structured-output
+    subset rejects it — so the model is never told the ceiling and the local
+    validator is the first thing that ever sees it. On 2026-08-28 research came
+    back with four good background links instead of three and the whole day's
+    edition died on "is too long", after the research had been paid for.
+
+    A cap on how many links to show is a presentation choice, not a fact about
+    the world. Enforce it by trimming, which is what a person would do, rather
+    than by throwing the day away.
+    """
+    cut = []
+    if not isinstance(schema, dict):
+        return cut
+
+    if isinstance(payload, list):
+        limit = schema.get("maxItems")
+        if isinstance(limit, int) and len(payload) > limit:
+            cut.append(f"{where or 'list'}: kept {limit} of {len(payload)}")
+            del payload[limit:]
+        for i, item in enumerate(payload):
+            cut += _trim_to_bounds(item, schema.get("items", {}), f"{where}/{i}")
+    elif isinstance(payload, dict):
+        for key, sub in (schema.get("properties") or {}).items():
+            if key in payload:
+                cut += _trim_to_bounds(payload[key], sub, f"{where}/{key}" if where else key)
+    return cut
+
+
 def _shortfall(payload: dict, schema: dict, fields) -> str | None:
     """What is wrong with this answer, in a sentence — or None if nothing is.
 
@@ -746,27 +777,34 @@ def _without_unreachable(err: Exception, domains: list) -> list | None:
 _BEAT_LINE = re.compile(r"^\s*(BEAT|NOTHING)\s*:\s*([a-z]+)", re.M | re.I)
 
 
-def _beats_missing(brief: str) -> list:
-    """Beats the brief neither shortlisted nor declared empty.
+def _beats_missing(brief: str) -> tuple:
+    """(missing beats, whether the brief used the markers at all).
 
     The top three are chosen by ranking a shortlist, so a beat absent from the
     shortlist did not lose — it never ran. On 2026-08-20 society, science and
-    business were never searched, and a Hong Kong court story took third place
-    against no competition. Asking for coverage in the prompt is what produced
-    that edition, so this reads the answer back and checks.
+    business were never searched and a Hong Kong court story took third place
+    against no competition, which is why the answer is read back rather than
+    trusted.
 
-    A beat with nothing to report is a legitimate outcome; it just has to be
-    stated (NOTHING: science) rather than left silent, because silence is
-    exactly what an unsearched beat looks like.
+    But the check reads a marker the model has to volunteer, and on 2026-08-28
+    it did not: eighteen searches plainly covered every beat, the brief ran to
+    14,733 characters, and because not one BEAT: line appeared this reported
+    "beats covered: none" and spent two top-up rounds and ten more searches
+    re-asking for work already done.
+
+    So the two cases are told apart. No markers anywhere means the format was
+    ignored, which is fixed by asking for the tags — not by searching again.
+    Some markers with beats missing is a real gap, and worth the searches.
     """
     seen = {m.group(2).lower() for m in _BEAT_LINE.finditer(brief)}
-    return [b for b in appconfig.CATEGORIES if b not in seen]
+    tagged = bool(seen & set(appconfig.CATEGORIES))
+    return [b for b in appconfig.CATEGORIES if b not in seen], tagged
 
 
 def research(client, cfg, prompt: str, max_restarts: int = 4,
              max_top_ups: int = 2) -> str:
     messages = [{"role": "user", "content": prompt}]
-    collected, top_ups = [], max_top_ups
+    collected, top_ups, relabels = [], max_top_ups, 1
     # Searching a named list instead of the open web. This is a quality control,
     # not a cost one: a search costs the same either way, and the results still
     # arrive as input tokens.
@@ -780,7 +818,7 @@ def research(client, cfg, prompt: str, max_restarts: int = 4,
             "allowed_domains": allowed,
         }]
 
-    for attempt in range(max_restarts + max_top_ups + 1):
+    for attempt in range(max_restarts + max_top_ups + 2):
         while True:
             try:
                 with client.messages.stream(
@@ -820,12 +858,37 @@ def research(client, cfg, prompt: str, max_restarts: int = 4,
         collected.append(text)
         brief = "\n\n".join(collected)
 
-        gaps = _beats_missing(brief)
-        covered = [b for b in appconfig.CATEGORIES if b not in gaps]
-        print(f"  beats covered: {', '.join(covered) or 'none'}", file=sys.stderr)
-
+        gaps, tagged = _beats_missing(brief)
+        if tagged:
+            covered = [b for b in appconfig.CATEGORIES if b not in gaps]
+            print(f"  beats covered: {', '.join(covered) or 'none'}", file=sys.stderr)
         if not gaps:
             return brief
+
+        if not tagged:
+            # No marker anywhere: a formatting miss, not an unsearched beat.
+            # Searching again would re-buy work already done, which is exactly
+            # what cost ten searches on 2026-08-28. Ask for the labels instead,
+            # and only once — an untagged brief still beats no brief.
+            if not relabels:
+                print("  warning: the brief never used the BEAT: markers, so beat "
+                      "coverage cannot be checked. Ranking on it as it stands.",
+                      file=sys.stderr)
+                return brief
+            relabels -= 1
+            print("  the brief has no BEAT: markers — asking for them without "
+                  "searching again", file=sys.stderr)
+            messages.append({"role": "assistant", "content": message.content})
+            messages.append({"role": "user", "content":
+                "Your shortlist has no BEAT: lines, so I cannot tell which beats "
+                "you covered. Do not search again — everything you need is above. "
+                "Just re-emit the shortlist you already wrote, unchanged in "
+                "substance, with one line before each candidate reading exactly "
+                f"'BEAT: <beat>' using one of: {', '.join(appconfig.CATEGORIES)}. "
+                "For any beat your searches covered but that produced nothing "
+                "worth a place, add a line 'NOTHING: <beat> — why'."})
+            continue
+
         if not top_ups:
             # Not fatal. A paper missing a beat is worse than a paper that says
             # which beat it is missing, and the day's work is already paid for.
@@ -1014,6 +1077,9 @@ def main() -> None:
         print(f"  {len(already)} story/stories from recent editions are off the table",
               file=sys.stderr)
     skeleton = _choose(client, cfg, brief, already, skel_schema)
+    for note in _trim_to_bounds(skeleton, skel_schema):
+        print(f"  trimmed {note} — the API is never told this ceiling, so it is "
+              f"applied here", file=sys.stderr)
     problem = _shortfall(skeleton, skel_schema, ())
     if problem is None:
         for story in skeleton["stories"]:
