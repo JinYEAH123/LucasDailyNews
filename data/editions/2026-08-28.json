@@ -1,0 +1,780 @@
+{
+  "date": "2026-08-28",
+  "window": {
+    "start": "2026-08-27T12:00:00-07:00",
+    "end": "2026-08-28T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-08-28T15:18:22-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Death toll from Nepal-Tibet flood passes 470 as barrier lake threatens",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/28/death-toll-from-nepal-tibet-flood-passes-470-as-barrier-lake-threatens"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nepal-China flood live updates"
+          },
+          "summary": {
+            "en": "A continuously updated live blog tracking the rising toll, now above 579 dead with over 1,900 missing including many foreigners. Useful for the most current numbers as rescue efforts continue."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/28/world/live-news/nepal-china-flood"
+        },
+        {
+          "title": {
+            "en": "Hundreds dead, 1,000+ remain missing in massive Nepal-Tibet flood"
+          },
+          "summary": {
+            "en": "Reports roughly 90 Americans among the missing and details the scale of the search-and-rescue operation across the border region. Adds context on how the disaster is affecting foreign nationals."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/hundreds-dead-1000-remain-missing-massive-nepal-tibet/story?id=136022919"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Mountain's Ice Broke Off and a Wall of Water Swept Through Villages"
+          },
+          "hook": {
+            "en": "On Wednesday, a huge chunk of mountain ice broke away high up near the border between Nepal and Tibet, in China. It crashed down and sent a wall of water, rocks and mud roaring through valleys below, smashing homes, roads and bridges. Days later, rescuers are still searching for hundreds of missing people, and nobody agrees yet on exactly how many were hurt."
+          },
+          "story": {
+            "en": [
+              "High in the Himalaya mountains sit glaciers. A glacier is like a giant, super slow river made of ice instead of water. Sometimes, as glaciers melt a little, lakes form behind natural walls of rock, mud and ice, kind of like a bathtub with a wall of rubble instead of plastic.",
+              "On Wednesday, a big piece of glacier broke off and slammed into one of these lakes. That sent so much water crashing out at once that it turned into a flood. As the water rushed downhill, it grabbed rocks, trees and mud, turning into a huge grey wave that tore through towns in Nepal and Tibet.",
+              "Nobody agrees yet on exactly how many people were hurt. Nepal's government says hundreds of people died and close to a thousand are still missing. China's government, reporting on its side of the border, says far fewer deaths but hundreds missing too. Around 90 Americans are among the many people from different countries still unaccounted for.",
+              "Rescuers now face a new worry. The rubble from the flood has piled up and formed a brand new lake, held back only by loose rock and mud. If that breaks too, it could send another flood roaring down on the same villages, so rescue teams are racing against time."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you live far from any glacier, this shows how a tiny crack of ice, smaller than your school, can grow into a disaster that changes thousands of lives in minutes. It's also a reminder that in the middle of a fast-moving disaster, even grown-ups and governments don't always agree on simple facts like how many people are missing."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacier"
+              },
+              "def": {
+                "en": "A glacier is a giant river of ice that moves very slowly down a mountain over many years."
+              }
+            },
+            {
+              "term": {
+                "en": "Barrier lake"
+              },
+              "def": {
+                "en": "A barrier lake is a lake that forms when rocks, mud and ice pile up like a wall and block water from flowing away."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When the number of missing people keeps changing hour by hour, should news share those numbers right away, even if they might be wrong, or wait until everyone is sure?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share right away"
+                  },
+                  "points": {
+                    "en": [
+                      "Sharing early helps families and rescuers understand how urgent the situation is.",
+                      "Waiting too long could mean people don't get help fast enough.",
+                      "Even a rough number can help other countries decide how much aid to send."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until sure"
+                  },
+                  "points": {
+                    "en": [
+                      "Wrong numbers can scare people or give false hope for no reason.",
+                      "Numbers that keep changing make it hard to know how bad things really are.",
+                      "If reports keep being wrong, people might stop trusting the news altogether."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a disaster happens in another country, should people and governments spend a lot of time and money helping, even if it means less help for problems back home?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, help"
+                  },
+                  "points": {
+                    "en": [
+                      "People suffering in a flood are just as important as people suffering anywhere else.",
+                      "Countries often need help from others when disaster strikes them too, so helping now means help later.",
+                      "Fast help from outside can save lives that local rescuers alone couldn't save."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, focus at home"
+                  },
+                  "points": {
+                    "en": [
+                      "Every country has limited money, and its own problems, like schools and hospitals, need that money too.",
+                      "Help sent from far away often takes a long time to arrive and might come too late anyway.",
+                      "Local rescuers usually know the land and people best, so outside help can sometimes get in the way."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Wall of Water Wrecked Villages on the Nepal-China Border, and No One Agrees on How Many Died"
+          },
+          "hook": {
+            "en": "On Wednesday, a piece of glacier broke off a mountain on the border between Nepal and Tibet, in China, and sent a flood of water, mud and rock crashing through villages, roads and bridges below. Days later, rescuers are still searching, and the death toll keeps changing depending on who you ask: Nepal's government says hundreds are confirmed dead and nearly a thousand missing, while China reports far fewer deaths but hundreds missing on its side of the border. Roughly 90 Americans are among the people still unaccounted for."
+          },
+          "story": {
+            "en": [
+              "High in the Himalayas, melting glaciers often leave behind lakes of meltwater held back only by loose piles of rock and ice, called moraines, or by ice itself. These natural dams are not solid rock; they are essentially rubble, and they can fail suddenly, especially when a chunk of glacier calves off above the lake and crashes into it like a boulder dropped in a bathtub. That is what investigators believe happened here on Wednesday: a piece of mountain ice broke away, slammed into a glacial lake, and sent the lake's entire contents pouring downhill in what scientists call a glacial lake outburst flood, or GLOF. The water picked up rock, mud and debris as it went, turning into a fast-moving wall that flattened villages, roads and bridges along the valley below.",
+              "Because the flood struck a remote, mountainous border zone that is hard to reach even in good conditions, and because it hit two countries at once with very different governments and very different relationships with the press, getting an accurate count of the dead has proven almost impossible. Nepal's prime minister's office said on Friday that 469 people were confirmed dead and 977 more were missing. Other news reports, citing different officials or later updates, have put Nepal's toll anywhere from 547 to 579 dead. On the Chinese side, in Tibet, authorities have reported only three confirmed deaths but 558 people missing. Altogether, more than 1,900 people are believed to still be missing across both countries, including hundreds of foreign nationals — among them roughly 90 Americans, many of whom were likely trekking or working in the region when the flood hit.",
+              "These numbers are not simply a matter of one side telling the truth and another lying. In a disaster like this, 'confirmed dead' usually means a body has actually been found and identified, which is slow, dangerous work in a landscape now covered in mud, boulders and wrecked buildings. 'Missing' is a much larger and murkier category — it can include people who are dead but not yet found, people trapped and still alive, and people who simply have not been able to contact anyone because phone lines and roads are destroyed. Governments also have their own incentives: officials under pressure to look competent may be slow to raise a toll, while chaotic, fast-moving reporting from multiple outlets can produce wildly different snapshots of the same unfolding event depending on the exact hour a number was collected.",
+              "Making the rescue even more dangerous, the flood's own wreckage has created a new hazard. Rock, ice and debris swept downstream have piled up and blocked a river, forming what is called a barrier lake — a new, unstable pool of water held back by nothing more than the rubble the flood itself left behind. If that makeshift dam gives way, it could send a second flood crashing down on villages and rescue teams that are still working through the aftermath of the first one, forcing some crews to work with one eye on the water level behind them.",
+              "Rescue efforts are also complicated simply by geography and politics. Nepal and China do not always share information quickly or completely, and coordinating search teams, medical supplies and evacuations across an international border in the mountains — where roads are few and often now destroyed — is far harder than doing the same thing within one country. With foreign trekkers and workers from multiple nations missing, several governments, including the United States, are now pressing both Kathmandu and Beijing for information about their own citizens, adding a layer of diplomacy to what is already a difficult physical rescue."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Glaciers all over the world are melting faster as the planet warms, and that is quietly filling mountain valleys with unstable lakes like the one that just burst — meaning disasters like this one are expected to happen more often, not less, in the coming decades. It is also a reminder that when a disaster is still unfolding, the numbers you see in headlines are estimates, not facts, and reading several sources with an eye on how they differ is often more honest than trusting whichever number sounds most dramatic."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacial lake outburst flood (GLOF)"
+              },
+              "def": {
+                "en": "A sudden, often violent flood that happens when a lake formed by melting glacier ice bursts through the loose rock or ice holding it back, sending water and debris rushing downhill."
+              }
+            },
+            {
+              "term": {
+                "en": "Barrier lake"
+              },
+              "def": {
+                "en": "A new, often unstable lake that forms when rock, mud and other debris from a landslide or flood pile up and block a river, creating a dam that can collapse and cause a second flood."
+              }
+            },
+            {
+              "term": {
+                "en": "Death toll"
+              },
+              "def": {
+                "en": "The number of people confirmed to have died in a disaster; it is usually one of the first figures reported and one of the last to become accurate, especially while search teams are still working."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "As climate change makes glacial floods like this one more common, should poorer mountain countries put scarce government money into expensive early-warning systems for disasters that might happen, even if it means less money for things people need every day, like schools and hospitals?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fund the warning systems"
+                  },
+                  "points": {
+                    "en": [
+                      "A single flood like this one can kill more people in one day than many years of underfunded hospitals could save, so preventing it is worth the cost.",
+                      "Early-warning systems, once built, protect people for decades and can be far cheaper per life saved than rebuilding entire villages after a disaster.",
+                      "Waiting until after a disaster to invest means paying for both the original neglect and the cleanup, which usually costs far more in the end."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Prioritize everyday needs"
+                  },
+                  "points": {
+                    "en": [
+                      "A country with limited money has to weigh a possible future disaster against certain, immediate suffering from poor healthcare and education right now.",
+                      "Warning systems only help if evacuation routes, shelters and trained responders also exist, so money spent on sensors alone may not actually save lives.",
+                      "Communities and international aid organizations, not just national governments, can and often do fund disaster monitoring, so it need not compete directly with domestic budgets."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a disaster crosses a border between two countries that report very different numbers, like Nepal and China have here, should other countries and aid organizations treat both governments' figures as equally reliable, or should they push harder to verify the numbers independently, even if that strains relations with one of the governments?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Push for independent verification"
+                  },
+                  "points": {
+                    "en": [
+                      "Accurate numbers determine how much aid, how many rescue teams and how much international attention a disaster gets, so getting them wrong costs lives.",
+                      "Governments sometimes have political reasons to under- or over-report casualties, and outside verification protects against that bias regardless of which country is involved.",
+                      "Families searching for missing loved ones, including foreign nationals, deserve the most accurate information available, not whatever number is most convenient for either government."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Respect each government's official figures"
+                  },
+                  "points": {
+                    "en": [
+                      "Demanding independent verification can come across as an accusation of dishonesty, damaging trust and cooperation exactly when both countries need to work together on rescue efforts.",
+                      "Local officials on the ground almost always have better access to real conditions than outside observers trying to verify numbers from a distance.",
+                      "Every country, including wealthy ones, struggles to produce accurate casualty counts in the first days of a disaster, so treating one country's numbers with more suspicion than another's isn't necessarily fair."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Meta reaches $17 billion settlement with states in landmark trial over teen social media addiction",
+        "publisher": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/nation/meta-reaches-17-billion-settlement-with-states-in-landmark-trial-over-teen-social-media-addiction"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Meta settlement over child safety lawsuit"
+          },
+          "summary": {
+            "en": "Explains the origins of the 47-state lawsuit alleging Facebook and Instagram were engineered to be addictive to minors. Provides detail on the child-safety measures Meta must now implement."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit"
+        },
+        {
+          "title": {
+            "en": "How big is Meta's $17 billion settlement, really?"
+          },
+          "summary": {
+            "en": "Breaks down why the total figure differs across reports, separating the states' settlement from Texas's own billion-dollar deal. Useful for understanding the disputed math behind the headline number."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/26/meta-settlement-17-billion-child-safety-how-big/"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Facebook's Owner Agrees to Pay Billions Over Claims It Hooked Teens on Its Apps"
+          },
+          "hook": {
+            "en": "Meta, the company that owns Facebook and Instagram, has agreed to pay a huge amount of money — either $17 billion or $18 billion, depending on how you count it — to end a giant court case. Almost every U.S. state said Meta built its apps on purpose to keep teenagers scrolling for as long as possible, even when it made them feel bad. Meta will pay the money slowly, a little each year for ten years, and must also add new safety tools to protect kids."
+          },
+          "story": {
+            "en": [
+              "Forty-seven U.S. states out of fifty — nearly the whole country — teamed up and took Meta to court. They said Facebook and Instagram were built like a game that never wants you to stop playing, using endless scrolling and constant notifications on purpose to keep teenagers glued to the screen, even when it hurt them.",
+              "This settlement is enormous. If you spent $1,000 every single day, it would take you about 46,000 years to spend $17 billion. States will get roughly $12.7 billion of that, paid out bit by bit, every year for ten years.",
+              "Meta has not admitted it did anything wrong. But it agreed to change how its apps work for young people, adding stronger safety features. Grown-ups call this a 'structural settlement,' meaning it's not a one-time punishment — it's a set of new rules the biggest social media companies must follow for years to come.",
+              "The exact number is confusing. State officials say $17 billion, but Meta's own announcement says $18 billion. Meta also agreed to pay the state of Texas over $1 billion separately for similar claims, and some news reports count that as part of the total while others count it apart. One outlet even reported a smaller number, $16.7 billion."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you don't use Instagram or Facebook, many apps you might use someday are built the same way, to keep you looking at your screen as long as possible. This case could push tech companies everywhere to design apps that are safer for kids, instead of ones built like traps that are hard to put down."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "settlement"
+              },
+              "def": {
+                "en": "An agreement to end a court case, usually where one side pays money or changes what it does, instead of waiting for a judge to decide who's right."
+              }
+            },
+            {
+              "term": {
+                "en": "attorney general"
+              },
+              "def": {
+                "en": "The top lawyer for a U.S. state, whose job is to represent that state's people in court."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to make a company pay billions of dollars over how it designed an app, even though no judge ever ruled it broke the law?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, make them pay"
+                  },
+                  "points": {
+                    "en": [
+                      "The states gathered real evidence that the apps were built to be hard to stop using, and companies shouldn't escape responsibility just because a trial never finished.",
+                      "Paying this much sends a clear message to every tech company that designing apps to hook kids has real consequences.",
+                      "The money can fund things that help teenagers who were affected, like mental health support and better tools for parents."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's too harsh"
+                  },
+                  "points": {
+                    "en": [
+                      "Meta never admitted wrongdoing, and settling a case isn't the same as being proven guilty by a judge.",
+                      "Making things fun and engaging isn't automatically the same as trying to trap people; lots of games and shows are designed to be exciting without meaning harm.",
+                      "Companies might start settling cases just to avoid the cost of a long trial, even when they don't believe they did anything wrong."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that this money goes to state governments instead of directly to the teenagers and families who say they were hurt?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Give it to governments"
+                  },
+                  "points": {
+                    "en": [
+                      "States spent years building this case, so they should get the money to keep protecting kids in the future.",
+                      "Spreading the money across mental-health programs and safety tools helps every teenager in the state, not just the ones who complained.",
+                      "It's hard to know exactly which teenagers were harmed and by how much, so a careful government program may be fairer than dividing money person by person."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Give it to affected families directly"
+                  },
+                  "points": {
+                    "en": [
+                      "The teenagers and families who say they were personally hurt might never see a cent, even though the case was really about them.",
+                      "A government program might spend the money on something unrelated, while a struggling family could use direct help right now.",
+                      "Without money reaching them, some families may feel their story was used to win the case but didn't actually help them."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Meta Agrees to Pay Up to $18 Billion Over Claims It Hooked Teenagers on Social Media"
+          },
+          "hook": {
+            "en": "Meta, the company that owns Facebook and Instagram, has agreed to pay somewhere between $17 billion and $18 billion to end a lawsuit brought by 47 U.S. states. The states argued that Meta deliberately built its apps to be addictive and harmful to teenagers. The deal closes a major trial and requires new safety changes, but Meta has not admitted doing anything wrong."
+          },
+          "story": {
+            "en": [
+              "Forty-seven U.S. states joined together to sue Meta, arguing that Facebook and Instagram were engineered — not just accidentally, but on purpose — to keep teenagers scrolling as long as possible, even when that hurt their mental health. To end the case before it went further in court, Meta has agreed to a settlement, a legal deal where a company pays money and changes its behaviour in exchange for the lawsuit going away. States say they'll collect roughly $12.7 billion of the total, paid out in instalments over ten years rather than as one lump sum, plus new child-safety requirements Meta must build into its platforms.",
+              "The states' argument leaned heavily on features like infinite scroll, autoplay video, and notification systems designed to pull users back in — the same techniques a slot machine uses to keep someone playing. Internal company documents that surfaced during the legal fight reportedly showed researchers inside Meta flagging that Instagram, in particular, could worsen body image problems and anxiety in teen girls. Whether that research proves Meta knowingly caused harm, or just that the company studied a problem every social app faces, is part of what made this a genuine legal fight rather than an open-and-shut case.",
+              "This is being called a structural settlement rather than a simple fine — meaning it doesn't just cost Meta money once and end there. It locks the company into a decade of specific safety commitments, with regular payments states can point to if Meta falls short. That structure matters because a one-time fine, however large, is easy for a company worth over a trillion dollars to absorb and move past; a ten-year commitment with money attached is harder to quietly ignore.",
+              "The exact size of the deal is oddly hard to pin down, and that confusion is itself part of the story. State officials cite $17 billion. Meta's own announcement says $18 billion. At least one outlet reported $16.7 billion. Separately, Meta agreed to pay Texas more than $1 billion over similar but distinct allegations — some reports fold that into the national total, others count it separately, which is enough on its own to shift the headline number by a billion dollars or more.",
+              "Meta has not admitted wrongdoing, a standard feature of settlements: the company avoids a formal legal finding that it broke the law or caused harm, while still agreeing to pay and to change how it operates. Critics see this as companies buying their way out of accountability. Meta and its defenders would argue that admitting fault would expose it to further lawsuits, and that agreeing to real changes matters more than a symbolic statement of guilt.",
+              "The case is being described as a landmark — not because $17 or $18 billion is an unusual sum for a company this size, but because it sets a precedent for treating a platform's basic design, not just individual bad content, as something states can regulate and sue over. If this holds, other tech companies building apps aimed at young people will be watching closely."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or someone you know uses Instagram or Facebook, the features this case is about — endless scroll, notifications, algorithm-picked feeds — are things you interact with every day, often without noticing they were designed to be hard to put down. The safety changes Meta now has to make could shape what your feed looks like and how the app tries to keep your attention for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Attorneys general"
+              },
+              "def": {
+                "en": "The top legal officers of U.S. states, whose job includes suing companies on behalf of their state's residents."
+              }
+            },
+            {
+              "term": {
+                "en": "Settlement"
+              },
+              "def": {
+                "en": "A legal agreement where a company pays money and agrees to changes to end a lawsuit, instead of a judge or jury deciding the case."
+              }
+            },
+            {
+              "term": {
+                "en": "Structural settlement"
+              },
+              "def": {
+                "en": "A settlement that requires ongoing changes to how a company operates over years, not just a single payment."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should companies be allowed to settle huge harm cases without admitting they did anything wrong?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, settling without admitting fault is reasonable"
+                  },
+                  "points": {
+                    "en": [
+                      "An admission of guilt would expose the company to a flood of further lawsuits, making it harder to ever resolve the matter.",
+                      "What actually helps teenagers is the safety changes and money, not a symbolic statement, and settlements deliver those faster than a trial would.",
+                      "Complicated cases like this involve real scientific uncertainty about what causes teen mental health problems, so forcing an admission may claim more certainty than the evidence supports."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, companies should have to admit what they did"
+                  },
+                  "points": {
+                    "en": [
+                      "Without an admission, the company faces no formal finding that it broke the law, which weakens any lesson other companies might take from the case.",
+                      "Paying money without admitting fault lets a wealthy company treat harm to teenagers as a manageable cost of doing business rather than a mistake to correct.",
+                      "Families and teenagers who say they were harmed deserve acknowledgement of what happened to them, not just a cheque."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to hold a social media company legally responsible for teenagers becoming addicted to its app?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the company bears real responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Features like autoplay and infinite scroll were deliberately engineered to maximize time spent on the app, not just to make it enjoyable.",
+                      "Teenagers' brains are still developing self-control, so a company that specifically targets that age group is exploiting a known vulnerability.",
+                      "Internal research reportedly showed the company knew about harms and kept the design largely unchanged anyway."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, using an app is ultimately a personal and parental choice"
+                  },
+                  "points": {
+                    "en": [
+                      "No one is forced to download Instagram or Facebook, and parents can set limits or refuse to let their kids use these apps at all.",
+                      "Every entertainment product, from television to video games, is designed to be engaging — that alone doesn't make it illegal or unethical.",
+                      "Blaming the platform risks letting individuals and families avoid responsibility for managing their own or their children's screen time."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Judge rules Pentagon acted illegally in blacklisting Anthropic",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/28/nx-s1-5947761/judge-pentagon-anthropic-illegal"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Federal judge overturns Pentagon ban on Claude chatbot maker Anthropic"
+          },
+          "summary": {
+            "en": "Details the original dispute between the Pentagon and Anthropic that led to the blacklisting and subsequent lawsuit. Gives fuller context on the AI company's relationship with the Defense Department before the ban."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/08/27/federal-judge-overturns-pentagon-ban-claude-chatbot-maker-anthropic/"
+        },
+        {
+          "title": {
+            "en": "Judge blocks Pentagon blacklist of Anthropic"
+          },
+          "summary": {
+            "en": "Covers reaction from legal experts on the First Amendment implications of the ruling for tech companies dealing with government contracts. Notes the government's expected appeal."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Judge Says Government Broke the Rules by Punishing a Company for Speaking Up"
+          },
+          "hook": {
+            "en": "A judge ruled that the U.S. military broke the law when it punished an AI company for criticizing it. The company, called Anthropic, had said the military was wrong about how it wanted to use AI. The judge said the military cannot punish someone just for speaking their mind."
+          },
+          "story": {
+            "en": [
+              "Anthropic makes a computer program that can chat and answer questions, kind of like a very smart assistant. The Pentagon is the huge building in Washington, D.C. where America's military leaders work and make decisions.",
+              "Anthropic publicly disagreed with how the Pentagon wanted to use AI. After that, the Pentagon put Anthropic on a blacklist, a list of companies it refuses to do business with. That could cost Anthropic a lot of money in lost deals.",
+              "A judge named Rita Lin looked closely at what happened. She said America's rules protect people's right to speak up and disagree, even with the government. Punishing Anthropic for its opinion broke that rule, she decided.",
+              "The government plans to appeal, which means asking a higher court to look at the case again. So this isn't finished yet — it could still change."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This case is about whether powerful parts of the government can punish someone just for disagreeing with them out loud. It matters because the same protection that covers a giant AI company also covers regular people who want to speak up about something they think is wrong."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "First Amendment"
+              },
+              "def": {
+                "en": "A rule in the U.S. Constitution that protects people's right to say what they think, even to criticize the government."
+              }
+            },
+            {
+              "term": {
+                "en": "Blacklist"
+              },
+              "def": {
+                "en": "A list of people or companies that someone refuses to work with or do business with."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a company to lose a deal because it criticized the government?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone should be able to say what they think without losing work or money for it.",
+                      "If companies get punished for speaking up, they might stay quiet even when they see something wrong.",
+                      "The company was only sharing an opinion — it didn't break any law."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If a company works closely with the military, the military should get to choose partners it trusts.",
+                      "Companies can say what they want, but the government can also choose who it works with.",
+                      "Harsh public criticism can make it harder for two sides to trust each other on serious work."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a judge be able to overrule a decision made by the military?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes"
+                  },
+                  "points": {
+                    "en": [
+                      "Even powerful groups like the military must follow the country's rules, including the right to free speech.",
+                      "Judges act as a check, making sure no one — not even the government — breaks the law.",
+                      "If judges couldn't step in, powerful groups could punish people with no one to stop them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No"
+                  },
+                  "points": {
+                    "en": [
+                      "The military deals with safety and secrets that judges might not fully understand.",
+                      "Letting judges overrule military choices could slow down important decisions.",
+                      "The military needs freedom to decide who it trusts without outside interference."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Judge Rules Pentagon Broke the Law by Punishing an AI Company for Speaking Its Mind"
+          },
+          "hook": {
+            "en": "A U.S. federal judge has ruled that the Department of Defense acted illegally when it cut ties with the AI company Anthropic after the company publicly criticized the Pentagon's approach to artificial intelligence. Judge Rita Lin found that the government punished Anthropic for exercising its right to free speech. The Pentagon is expected to appeal, so the fight isn't over."
+          },
+          "story": {
+            "en": [
+              "Anthropic makes Claude, one of the most advanced AI chatbots in the world, and like several tech companies, it does business with the U.S. military. But after Anthropic's leaders spoke out publicly against how the Pentagon planned to use AI systems — warning that certain military applications could be dangerous or poorly overseen — the Department of Defense responded by blacklisting the company. That means it stopped doing business with Anthropic and, according to the lawsuit, discouraged others from doing so too, effectively trying to freeze the company out of a major part of the AI industry.",
+              "Anthropic sued, arguing this was retaliation, not policy. Punishing a company for what it says, rather than for anything it did wrong, raises a First Amendment problem — a part of the U.S. Constitution that protects free speech, including speech the government doesn't like. Companies, like individual citizens, generally cannot be punished by the government simply for criticizing it. On Thursday night, Judge Lin agreed, ruling in a written order that the Pentagon's blacklist violated Anthropic's constitutional rights.",
+              "This matters beyond one company's contracts. The U.S. government is the single biggest customer for cutting-edge technology in the country, and AI firms increasingly depend on defense and intelligence contracts for both money and legitimacy. If agencies could quietly blacklist any company that criticized their plans, it would create a powerful incentive for AI executives to stay silent about safety concerns, ethical objections, or bad policy — even when speaking up might be exactly what the public needs them to do.",
+              "The ruling is being described as a significant check on executive power, meaning the authority held by the President and the agencies that answer to him, including the Pentagon. Courts don't often step in to reverse national-security-related decisions, because judges typically defer to the executive branch on matters of defense and security, trusting that officials have information and expertise the courts don't. This case is notable because the judge decided that free speech protections mattered more than that usual deference.",
+              "The Department of Defense is expected to appeal, which means a higher court will review whether Judge Lin's ruling was correct. Until that process finishes, the decision isn't fully settled — it could be upheld, narrowed, or overturned. But for now, it stands as a rare instance of a court telling the military it cannot use its contracting power as a weapon against a company for speaking freely."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This case is about whether the government can quietly punish people or companies for disagreeing with it — a question that reaches beyond AI into any industry that relies on government money or approval. If the ruling holds, it makes it a little safer for companies, and the people who work at them, to publicly raise concerns without fearing they'll be shut out for it."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "First Amendment"
+              },
+              "def": {
+                "en": "The part of the U.S. Constitution that protects free speech, including speech that criticizes the government."
+              }
+            },
+            {
+              "term": {
+                "en": "Blacklist"
+              },
+              "def": {
+                "en": "A list of people or companies that an organization refuses to work with, often used to punish or pressure them."
+              }
+            },
+            {
+              "term": {
+                "en": "Executive power"
+              },
+              "def": {
+                "en": "The authority held by the President and the government agencies that report to him, such as the Department of Defense."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should companies that do business with the military be free to publicly criticize its plans, even on sensitive national-security matters?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, speech should be protected"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies with inside knowledge may be the first to spot dangerous or poorly thought-out uses of powerful technology, and silencing them removes an important warning system.",
+                      "If criticism can be punished, only agreeable, uncritical companies will get contracts, which narrows the range of ideas and expertise the government has access to.",
+                      "Free speech protections are meant to apply especially when speech is unpopular or inconvenient for those in power, not just when it's easy to allow."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, some limits make sense"
+                  },
+                  "points": {
+                    "en": [
+                      "National security decisions sometimes depend on classified information the public and even company leaders don't have, so public criticism can be based on incomplete understanding.",
+                      "A company that publicly undermines a military partner's strategy could damage trust needed for sensitive, high-stakes cooperation.",
+                      "The government has legitimate reasons to choose partners it believes will work cooperatively rather than campaign against its policies in public."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should courts have the power to overrule executive branch decisions made on national-security grounds?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, courts should be able to check this power"
+                  },
+                  "points": {
+                    "en": [
+                      "Without judicial review, national security could become an excuse for the executive branch to punish critics without any accountability.",
+                      "Constitutional rights, like free speech, are supposed to apply even when the government claims special justification.",
+                      "Courts have historically served as a check on executive overreach, and stepping back entirely from national security matters would leave a serious gap."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, courts should generally defer to the executive here"
+                  },
+                  "points": {
+                    "en": [
+                      "Judges typically lack the specialized knowledge, intelligence access, and strategic context that inform national security decisions.",
+                      "Frequent judicial intervention could slow down or compromise urgent security decisions that need to be made quickly and confidentially.",
+                      "The executive branch is accountable to voters through elections, and judges overriding its choices raises questions about who should really be making these calls."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
