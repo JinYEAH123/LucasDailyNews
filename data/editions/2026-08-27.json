@@ -1,0 +1,802 @@
+{
+  "date": "2026-08-27",
+  "window": {
+    "start": "2026-08-26T12:00:00-07:00",
+    "end": "2026-08-27T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-08-27T18:41:10-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Nepal-Tibet deadly floods",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/27/nx-s1-5946309/nepal-tibet-deadly-floods"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nepal-Tibet floods: What happened, what caused them, and who is missing"
+          },
+          "summary": {
+            "en": "An explainer laying out the sequence of events, the geography of the disaster, and how the missing-persons count is being compiled. Useful for understanding why figures differ so much between reports."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/27/nepal-tibet-floods-what-happened-what-caused-them-and-who-is-missing"
+        },
+        {
+          "title": {
+            "en": "Deadly Nepal flood caused by enormous landslide, glacier tumble"
+          },
+          "summary": {
+            "en": "Reporting on the physical cause of the disaster — a glacier collapse combined with a landslide — which explains why the flooding was so sudden and severe."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/deadly-nepal-flood-caused-enormous-landslide-glacier-tumble/story?id=135984405"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Live updates: Massive flash flood on Nepal-Tibet border, hundreds missing"
+          },
+          "summary": {
+            "en": "Rolling coverage tracking the rescue operation and the evolving death and missing-person tolls as they are updated by officials on both sides of the border."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/live-blog/live-updates-massive-flash-flood-nepal-tibet-border-hundreds-missing-rcna594643"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Piece of Mountain Ice Broke Off and a Flood of Water and Rocks Swept Through Villages"
+          },
+          "hook": {
+            "en": "Way up in the mountains between two countries, Nepal and Tibet, a huge chunk of ice broke off a glacier and crashed down the slope. It smashed into rock and snow and turned into a fast, muddy flood that roared through towns below. Almost 400 people have died, and many more — maybe over a thousand — are still missing, including dozens of tourists from the United States."
+          },
+          "story": {
+            "en": [
+              "High in the mountains, there is a giant block of ice called a glacier. It has sat there for a very long time, frozen solid like a giant ice cube stuck to the mountainside.",
+              "A piece of that glacier broke free. It crashed down, mixing with rock and snow, and slammed into a river valley below. The water, mud and stone rushed downhill so fast that people call it a flash flood — a flood that arrives with almost no warning, like a bathtub emptying in seconds instead of minutes.",
+              "So far, close to 400 people have died. That's more people than would fit in a big school's entire assembly hall. Hundreds more, maybe over a thousand, are still missing — rescuers don't know yet if they are alive, trapped, or gone. Dozens of American tourists who were visiting the area are among those unaccounted for.",
+              "Rescue teams are having a hard time reaching people. The area is remote — far from cities, high in the mountains — and roads and bridges were destroyed by the flood. Nepal and China (which controls Tibet) don't always work closely together, but this time their rescue teams are coordinating across the border to search for survivors. The numbers of dead and missing keep changing hour by hour, because it's simply too dangerous and too remote to count everyone quickly."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This shows how something happening far away, high on a mountain nobody can see from home, can suddenly and violently change the lives of thousands of people in villages below. It also matters because when disasters like this hit, countries that don't usually cooperate closely sometimes have to work together fast to save lives."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacier"
+              },
+              "def": {
+                "en": "A glacier is a giant, slow-moving block of ice that forms over many years on a mountain or in a cold region."
+              }
+            },
+            {
+              "term": {
+                "en": "Flash flood"
+              },
+              "def": {
+                "en": "A flash flood is a flood that happens very suddenly, with almost no warning, often because of heavy rain, melting ice, or a sudden collapse upstream."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should governments spend a lot of money building warning systems for disasters that might only happen once every hundred years?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, build the warning systems"
+                  },
+                  "points": {
+                    "en": [
+                      "Even a disaster that happens rarely can kill hundreds of people at once, so it's worth preparing for.",
+                      "A warning system built now could save lives for a hundred years into the future, not just once.",
+                      "Once it's built, it can often warn people about other dangers too, like storms or landslides."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, spend the money on more common needs"
+                  },
+                  "points": {
+                    "en": [
+                      "The same money could help many more people if spent on things like schools, hospitals, or clean water that are needed every single day.",
+                      "It's hard to guess which rare disaster will happen next, so the warning system might not even be built in the right place.",
+                      "Poorer communities often can't afford both everyday needs and expensive systems for rare events, so they must choose."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When tourists travel to risky, remote places and something goes wrong, should local rescue teams risk their own lives to save them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, rescue everyone equally"
+                  },
+                  "points": {
+                    "en": [
+                      "Every person's life matters the same, whether they live there or are just visiting.",
+                      "Rescue workers choose that job knowing it can be dangerous, and helping people is the whole point of the job.",
+                      "Turning away visitors in danger would be a terrible way to treat anyone, no matter where they're from."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's unfair to expect the same risk for choices tourists made themselves"
+                  },
+                  "points": {
+                    "en": [
+                      "Tourists chose to travel somewhere they knew (or should have known) was risky, while rescuers didn't choose the danger.",
+                      "Every extra rescue attempt in dangerous terrain puts local rescuers' own families at risk of losing them too.",
+                      "Resources used rescuing tourists might mean less help available for local villagers who had no choice about being there."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Mountain of Ice Gave Way, and a Himalayan Valley Vanished Under Water"
+          },
+          "hook": {
+            "en": "A chunk of glacier broke apart on the border between Nepal and Tibet, sending a wall of water and mud crashing down mountain valleys with almost no warning. The death toll is climbing by the hour and differs wildly between reports — some count around 160 confirmed bodies, others near 400 — while hundreds more people, including dozens of American tourists, are still unaccounted for. Rescue teams are struggling to reach the area because the terrain is remote, the roads and bridges are wrecked, and the disaster straddles an international border that rescue crews cannot simply cross at will."
+          },
+          "story": {
+            "en": [
+              "High in the Himalayas, glaciers sit above steep valleys like water balanced on the edge of a shelf. When part of one collapsed on the Nepal–Tibet border, it triggered a landslide and an enormous flash flood — a wall of water, ice, rock and mud that swept down river valleys in minutes rather than hours. Villages, trekking routes and roads in the flood's path had almost no time to react. Investigators are still working out whether the initial cause was the glacier collapsing on its own, a landslide that hit the glacier, or some combination of both, and how large the original event actually was.",
+              "The human cost is severe, but the exact scale of it is genuinely unknown right now, and that is worth sitting with rather than rushing past. One respected outlet has reported roughly 157 bodies recovered; another puts the toll at nearly 400 dead. Estimates of the missing range from several hundred to over a thousand people. This is not because journalists are careless — it is because in the first days after a disaster like this, nobody has a complete picture. Bodies are still being found, bridges that would let rescuers reach isolated villages have been destroyed, and phone and internet networks in the affected valleys are down, so even local officials cannot fully confirm how many people were in the area when the flood hit.",
+              "Among the missing are dozens of American tourists — some reports say up to 90 — who were likely in the region for trekking, since this stretch of the Himalayas is a popular destination for hikers seeking views of the world's tallest mountains. Their nationality has drawn extra international attention, but it also illustrates something true of the disaster generally: a lot of people who were simply passing through, rather than living there permanently, are now impossible to account for quickly.",
+              "Rescue efforts are unusually complicated because the flood crossed an international border. Nepal and China (which governs Tibet) do not normally run joint emergency operations, and coordinating search teams, medical supplies and information across a border in mountainous, damaged terrain takes time that people trapped or injured may not have. Reports suggest the two governments are cooperating on the response, which is itself notable — cross-border disaster relief requires a level of trust and logistics that doesn't exist by default, especially in a region where the two countries have a history of border tension.",
+              "This is being described as one of the deadliest disasters to hit the Himalayan region in years, and it fits into a pattern scientists have been warning about for a while: as global temperatures rise, glaciers in high mountain ranges are melting and destabilising faster, making sudden collapses and the floods they cause more frequent. Whether this specific event was made more likely by long-term climate change, or was simply a natural collapse that could have happened at any point, is a question that will take longer to answer than the search for survivors will."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Wherever glaciers sit above populated valleys — parts of the Himalayas, the Andes, the Alps, Alaska — the same basic risk exists, and it's growing as the planet warms and ice becomes less stable. The story is also a reminder that the numbers you see in the first days of any disaster are estimates, not facts, and treating them as final can distort how people understand what happened."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Flash flood"
+              },
+              "def": {
+                "en": "A flood that develops and hits within minutes to a few hours, giving people in its path very little time to move to safety."
+              }
+            },
+            {
+              "term": {
+                "en": "Glacial lake outburst flood"
+              },
+              "def": {
+                "en": "A sudden, violent flood caused when ice or unstable rock holding back glacier meltwater gives way and releases it all at once."
+              }
+            },
+            {
+              "term": {
+                "en": "Provisional death toll"
+              },
+              "def": {
+                "en": "An early, unconfirmed count of the dead or missing in a disaster, reported before authorities have been able to verify the full picture."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a disaster's death toll is uncertain and changing by the hour, should news outlets report the numbers they currently have, or wait until figures are confirmed?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report now"
+                  },
+                  "points": {
+                    "en": [
+                      "The public and families of the missing need real-time information to understand the scale of what's happening, even if it's imperfect.",
+                      "Waiting for confirmation could delay international aid and rescue resources being sent to where they're needed most.",
+                      "Withholding early numbers doesn't make a disaster smaller — it just makes people less informed while they wait."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmation"
+                  },
+                  "points": {
+                    "en": [
+                      "Wildly differing early numbers can spread confusion and even panic, making an already chaotic situation harder to manage.",
+                      "Unverified figures are easy for governments or media to use to their own advantage, whether to look responsive or to downplay a crisis.",
+                      "Once a big early number circulates, it tends to stick in public memory even after it's corrected, distorting how the event is remembered."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When foreign tourists go missing in a disaster abroad, should their home country prioritise search efforts for its own citizens, or should all missing people be treated equally regardless of nationality?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Treat everyone equally"
+                  },
+                  "points": {
+                    "en": [
+                      "Every missing person's life matters the same amount, regardless of which passport they hold.",
+                      "Local rescue teams know the terrain and communities best, and resources are more effective when coordinated centrally rather than split by nationality.",
+                      "Special treatment for foreigners can create resentment among local families whose missing relatives get less attention or funding."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Prioritise your own citizens"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments have a specific duty of care to their own citizens abroad, backed by embassies, consulates and dedicated emergency resources.",
+                      "Families back home have no other authority to turn to for updates and support besides their own government.",
+                      "A country's specialised search teams may have equipment, funding or expertise that speeds up finding their citizens specifically, without taking resources from the broader effort."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Nvidia announces financial results for second quarter fiscal 2027",
+        "publisher": "SEC / Nvidia (8-K filing)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia Q2 earnings beat expectations"
+          },
+          "summary": {
+            "en": "Breaks down the earnings beat and explains in more detail how the China guidance exclusion is being interpreted by Wall Street analysts."
+          },
+          "publisher": "Yahoo Finance UK",
+          "url": "https://uk.finance.yahoo.com/news/nvidia-q2-earnings-beat-expectations-203000981.html"
+        },
+        {
+          "title": {
+            "en": "Nvidia second-quarter earnings live blog"
+          },
+          "summary": {
+            "en": "Real-time reporting from the earnings call itself, capturing management's comments on demand, China exposure, and data-center supply constraints."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/live-blog/2026-08-26/nvidia-second-quarter-earnings"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nasdaq futures rise on bullish Nvidia sales growth"
+          },
+          "summary": {
+            "en": "Looks at how Nvidia's results rippled through broader stock markets and futures trading, showing the scale of its influence on the wider AI-linked economy."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/nasdaq-futures-rise-on-bullish-nvidia-sales-growth-markets-wrap"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Nvidia's Profits Doubled — So Why Did Its Stock Price Drop?"
+          },
+          "hook": {
+            "en": "Nvidia makes special computer chips that power artificial intelligence, like chatbots and smart assistants. The company just announced it made more money than ever before. But its stock price still dropped a little, because of a US rule that stops Nvidia from selling its best chips to China."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes tiny computer chips that act like super-fast brains inside big computers. Companies use these chips to run artificial intelligence, the kind of technology behind chatbots and video recommendations.",
+              "Nvidia just reported it made $96.2 billion in three months. That's more than double what it made during the same three months last year. If you counted one dollar every single second, day and night, it would take you over 3,000 years to count that much money.",
+              "Even with all that money, Nvidia's stock price fell a little right after the news came out. That's because Nvidia said it expects to make zero dollars selling its most advanced AI chips to China for now. The US government has rules blocking the sale of the best AI chips to China, worried they could be used to build powerful weapons or military technology.",
+              "Some experts think Nvidia is just being extra careful with its guess about the future. Others think this shows the rules between the US and China are seriously hurting Nvidia's business in a country with over a billion people."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips Nvidia makes help power things you might use, like video game graphics, phone assistants, and AI tools that write stories or draw pictures. When a company this important makes decisions about who it can sell to, it can change how fast new AI technology reaches everyone, including you."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AI chip"
+              },
+              "def": {
+                "en": "A special, super-fast computer chip built to run artificial intelligence programs, like chatbots or image generators."
+              }
+            },
+            {
+              "term": {
+                "en": "Export restrictions"
+              },
+              "def": {
+                "en": "Rules a government makes that stop certain products from being sold to another country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US government be allowed to stop Nvidia from selling its best chips to China?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep the restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "The most powerful chips could be used to build dangerous weapons or spy technology.",
+                      "Keeping the best technology at home helps the US stay ahead in important inventions.",
+                      "Protecting national security matters more than one company's profits."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, remove the restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "The rule takes away huge amounts of money from an American company and its workers.",
+                      "Blocking trade can make other countries build their own chips instead, so the rule may backfire.",
+                      "Working together on technology can help solve big problems faster than working apart."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to call Nvidia's results 'disappointing' when the company made more money than ever before?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Investors plan for the future, so what a company expects to earn next matters as much as what it already earned.",
+                      "If a company usually grows even faster, slowing down can be a real warning sign.",
+                      "Judging only by 'more than last year' ignores whether a company is meeting its own promises."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Making double the money from a year ago is an enormous success by almost any measure.",
+                      "Focusing only on tiny stock price wiggles can make people forget the bigger, better picture.",
+                      "Nobody can perfectly predict the future, so punishing a guess about next year feels harsh."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia Made $96 Billion in Three Months — Wall Street Shrugged Anyway"
+          },
+          "hook": {
+            "en": "Nvidia, the company that makes the chips most artificial intelligence systems run on, reported $96.2 billion in revenue for the quarter, more than double what it made a year earlier. Its stock still fell in after-hours trading, because investors were more interested in what Nvidia said about the future than what it had already earned."
+          },
+          "story": {
+            "en": [
+              "On August 26, Nvidia filed a document with the U.S. Securities and Exchange Commission (SEC), the government agency that requires public companies to disclose their financial results so investors can trust the numbers. This particular filing, called an 8-K, is used for reporting major company news quickly rather than waiting for the full quarterly report — in this case, the headline figures from Nvidia's latest three months. The number that jumped out was $96.2 billion in total revenue, up 106% from the same period last year, driven almost entirely by one division: Data Center, which sells the powerful chips that power AI systems, and which alone brought in $89 billion, comfortably beating what Wall Street analysts had predicted.",
+              "By most measures, this was a spectacular quarter. Yet Nvidia's stock dropped about 1.3% once after-hours trading opened, which tells you something important about how financial markets actually work: they don't just react to what happened, they react to what a company says will happen next, known as guidance. Nvidia's guidance for the coming quarter assumed it would sell zero AI chips to Chinese data centers — not a small caveat, since China was once one of Nvidia's largest markets for this exact product.",
+              "That zero isn't Nvidia's choice. The U.S. government has imposed export restrictions that block American companies from selling their most advanced AI chips to Chinese customers, out of concern that China could use them to build military technology or otherwise compete more effectively with the U.S. in AI. Nvidia has already redesigned chips specifically to comply with these rules, and has previously written off inventory and lost sales because of them. Assuming zero China revenue going forward is either extreme caution on Nvidia's part, in case the rules tighten further, or a sober acknowledgment that this market may simply be closed to them for the foreseeable future.",
+              "Why does one company's earnings report get this much attention? Because Nvidia has become what's called a bellwether for the entire AI industry — a single company whose results are treated as a signal for how a much bigger trend is going. Nearly every large AI project, from chatbots to self-driving car systems, depends on the kind of chips Nvidia sells, and companies like Microsoft, Amazon, and Google have collectively committed hundreds of billions of dollars to buying them. If Nvidia's growth slows, some analysts worry it means the massive spending spree on AI infrastructure is cooling off, not just that one company had a soft quarter.",
+              "Analysts are split on how to read the China exclusion, and neither side has a way to prove itself right yet. Some argue Nvidia is simply being conservative, building in a worst-case scenario it doesn't actually expect, the way you might tell your parents you'll be home late just in case traffic is bad. Others argue the exclusion reflects something more structural: that the U.S.-China chip standoff has now permanently carved a large chunk out of Nvidia's potential customer base, and that future quarters will show whether that gap gets filled elsewhere or simply becomes a permanent loss."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family's retirement savings sit in an index fund, there's a decent chance Nvidia is one of the largest holdings in it, since it's become one of the most valuable companies in the world — so its swings genuinely move household finances, not just headlines. The underlying dispute, over whether the U.S. should limit chip sales to China even at real financial cost, is also a preview of the kind of trade-off — economic gain versus national security — that will keep shaping which technology you have access to and which companies get to build it."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "8-K filing"
+              },
+              "def": {
+                "en": "A document U.S. public companies must quickly file with the government to disclose major news, used here to report Nvidia's latest earnings."
+              }
+            },
+            {
+              "term": {
+                "en": "Guidance"
+              },
+              "def": {
+                "en": "A company's own prediction of how it expects to perform in the near future, which investors often react to more strongly than to past results."
+              }
+            },
+            {
+              "term": {
+                "en": "Bellwether"
+              },
+              "def": {
+                "en": "A company or event whose results are watched as an early signal for how a much larger industry or trend is heading."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. government keep restricting advanced AI chip sales to China, even though it costs American companies like Nvidia billions of dollars?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep the restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced AI chips can be used to build military and surveillance technology, so limiting access is a matter of national security, not just trade.",
+                      "If the U.S. doesn't restrict sales now, it may lose the ability to slow China's AI progress at a moment when the technology gap is still closeable.",
+                      "Short-term revenue losses for one company are a small price compared to the long-term risk of helping a strategic rival close the technology gap."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Ease the restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting off the Chinese market doesn't stop China's AI progress — it mainly pushes China to build its own chip industry faster, which could leave the U.S. with less leverage in the long run.",
+                      "American companies lose billions in revenue that could fund even more research and development, potentially widening the gap the restrictions were meant to protect.",
+                      "Global AI development doesn't respect borders neatly, and restricting hardware sales may simply shift where innovation happens rather than who benefits from it."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does Nvidia's stock falling despite record profits mean investors think the AI boom is overhyped, or does it just mean they're being sensible about real risks ahead?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a warning sign about AI hype"
+                  },
+                  "points": {
+                    "en": [
+                      "When a company beats every expectation and its stock still drops, it suggests investors had priced in even more growth than was realistic, a classic sign of a bubble cooling.",
+                      "Nvidia's growth is increasingly dependent on a handful of huge customers spending enormous, possibly unsustainable amounts on AI infrastructure.",
+                      "Markets often ignore obvious risks until suddenly they don't, and a shrinking Chinese market is exactly the kind of risk that can compound over several quarters."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's rational risk-pricing, not doubt about AI"
+                  },
+                  "points": {
+                    "en": [
+                      "A 1.3% dip after a 106% revenue jump is a tiny, routine market reaction, not evidence of panic or disbelief in AI's future.",
+                      "Investors are simply reacting to one specific, known risk — the China exclusion — rather than doubting the AI industry as a whole.",
+                      "Markets are supposed to price in future uncertainty, so a cautious reaction to an unresolved geopolitical issue is exactly how a healthy, rational market should behave."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Immigration arrests hit record pace",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/26/nx-s1-5945127/immigration-arrests-record"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US immigration agents arrested more than 49,500 people in July"
+          },
+          "summary": {
+            "en": "Independent confirmation of the monthly arrest figure with additional context on enforcement tactics and geographic patterns."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/26/us-immigration-agents-arrested-more-than-49500-people-in-july"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Secure the Border"
+          },
+          "summary": {
+            "en": "The administration's own framing of its enforcement record — useful for seeing how officials describe the policy's goals and successes, but not an independent account."
+          },
+          "publisher": "The White House",
+          "url": "https://www.whitehouse.gov/priorities/border-immigration/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "In One Month, Nearly 50,000 People Were Arrested Over Immigration in the US"
+          },
+          "hook": {
+            "en": "In July 2026, U.S. immigration officers arrested more than 49,500 people. News groups say this was the fastest pace of arrests in a single month under the current government's push to remove people living in the country without permission. Groups that help immigrants say the speed means some people aren't getting a fair chance to explain their case before being detained."
+          },
+          "story": {
+            "en": [
+              "Imagine a big sports stadium, packed all the way to the top seats. That's about how many people, 49,500, were arrested by U.S. immigration officers in just one month.",
+              "The government calls this a win. It says arresting more people is part of a plan to make the border and the country's rules stronger. The White House has published numbers celebrating the arrests as proof the plan is working.",
+              "But groups who help immigrants say something is being missed. They worry that when arrests happen this fast, people don't always get enough time with a lawyer, or a fair hearing, before they're locked up or sent away. That matters because behind every number is a person, and often a family.",
+              "Nobody disputes the arrest count itself. What people disagree about is whether the speed is a good thing or a worrying thing."
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might know a classmate, a neighbor, or a friend's family who came to this country from somewhere else. Big changes like this can mean a parent doesn't come home from work one day, or a family has to leave the only home their kids have known. Even if it doesn't touch your family directly, it's happening to tens of thousands of families across the country you live in."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "immigration enforcement"
+              },
+              "def": {
+                "en": "This means the government finding and arresting people who are living in the country without official permission."
+              }
+            },
+            {
+              "term": {
+                "en": "due process"
+              },
+              "def": {
+                "en": "This means everyone gets a fair chance to explain their side before something big happens to them, like being arrested or sent away."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to arrest people quickly, even if it means some don't get enough time to explain their case?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Speed matters"
+                  },
+                  "points": {
+                    "en": [
+                      "If the government moves slowly, people who broke the rules might disappear or hide before anything happens.",
+                      "Rules only work if they're enforced consistently and quickly, not just sometimes.",
+                      "Waiting a long time for each case could mean the problem never gets solved."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Fairness matters more"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone deserves a real chance to tell their story before something as big as losing their home happens.",
+                      "Mistakes can happen fast, and a rushed decision can't easily be undone once someone is sent away.",
+                      "Even people who broke a rule still deserve to be treated as people, not just numbers."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If someone broke the rule of crossing the border without permission but has lived here peacefully for years, should they still be sent away?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "A rule is a rule"
+                  },
+                  "points": {
+                    "en": [
+                      "If some rule-breakers are allowed to stay, it might seem unfair to people who followed the rules to enter the country.",
+                      "Rules need to apply the same way to everyone, no matter how long ago they were broken.",
+                      "Letting time erase a broken rule might encourage more people to break it, hoping to wait it out."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Time and roots should count"
+                  },
+                  "points": {
+                    "en": [
+                      "Someone who has lived here for years might have kids in local schools, a job, and neighbors who depend on them.",
+                      "Punishing someone today for something years ago can hurt innocent family members who did nothing wrong.",
+                      "People can change and build a good life, even if how they arrived wasn't by the rules."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Record 49,500 Arrests in a Single Month Mark a New Phase in US Immigration Enforcement"
+          },
+          "hook": {
+            "en": "In July 2026, US immigration authorities arrested more than 49,500 people inside the country, the highest monthly total reported since the current administration's enforcement push began. Both NPR and Al Jazeera confirm the raw number. What they disagree on, along with advocacy groups and the White House, is what that number actually means."
+          },
+          "story": {
+            "en": [
+              "More than 49,500 people were arrested by US immigration authorities in July 2026. That is not a border count of people caught crossing into the country; it is what's called interior enforcement, meaning arrests made inside the United States, often far from any border, in workplaces, courthouses, and neighbourhoods. NPR and Al Jazeera both report this as the fastest monthly pace under the current administration's enforcement drive, and neither outlet disputes the figure itself.",
+              "The White House's own \"Secure the Border\" materials present these numbers as proof of a working strategy. In that framing, more arrests mean fewer people living in the country without legal status, a stronger deterrent against future unauthorized entry, and a policy delivering on its promises. It is worth being clear that this is the administration describing its own success. It is not an independent evaluation, and no outside audit of the 49,500 figure was found alongside it.",
+              "Advocacy groups tell a more complicated story about what happens to the people behind that number. Their concerns centre on due process, the legal principle that a person has a right to a fair procedure, such as a hearing before a judge, before the government can detain or remove them. When arrests rise this fast, critics argue, procedures get compressed or skipped: people are moved through detention and deportation with less time to contest their case, find a lawyer, or prove they qualify to stay.",
+              "Detention conditions are the other flashpoint. A sharp jump in arrests means more people held in facilities that were not built, staffed, or funded for a sudden surge. Advocacy groups describe overcrowding and strained medical care as predictable results of scaling arrests up faster than the system meant to hold people can expand. None of this appears in the government's own public messaging about the numbers, which focuses on the arrest total as a standalone achievement.",
+              "What makes this month's figure more than a data point is that it signals a structural shift rather than a one-off surge. A single large raid or operation produces a spike that fades. A sustained monthly pace this high suggests enforcement capacity and priorities have changed in a lasting way, with consequences that will play out over months and years for the families, workplaces, and communities connected to the people arrested — including US citizen relatives, employers, and schools."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you're not directly affected, this kind of shift changes daily life for classmates, neighbours, or coworkers in mixed-status families, and it shapes a debate you'll keep hearing about: how a country balances enforcing its own laws against protecting the people caught up in that enforcement. It's also a case study in something worth watching for the rest of your life — how to read a government's own numbers about its own success, and what questions to ask when no one outside that government has checked them."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Interior enforcement"
+              },
+              "def": {
+                "en": "Immigration arrests and removals carried out inside a country's interior, such as at workplaces or homes, rather than at the border itself."
+              }
+            },
+            {
+              "term": {
+                "en": "Due process"
+              },
+              "def": {
+                "en": "The legal right to a fair procedure, like a hearing, before the government can detain or deport someone."
+              }
+            },
+            {
+              "term": {
+                "en": "Detention conditions"
+              },
+              "def": {
+                "en": "The physical and medical circumstances people experience while held in immigration facilities, including crowding and access to care."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is a record pace of immigration arrests a sign the system is working, or a sign something has gone wrong?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It shows the law is being enforced"
+                  },
+                  "points": {
+                    "en": [
+                      "Laws mean little if they're rarely enforced, so consistent action makes them meaningful rather than symbolic.",
+                      "A visible rise in arrests can deter future unauthorized entry, which over time could ease pressure on public services.",
+                      "Enforcing existing rules equally, without exceptions for how long someone has been overlooked, treats everyone under the same law the same way."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It shows enforcement has become the goal rather than justice"
+                  },
+                  "points": {
+                    "en": [
+                      "Chasing speed and volume can push officials to prioritize hitting numbers over carefully checking who they're arresting.",
+                      "Long-settled residents with US families and jobs face the same treatment as recent arrivals, which many see as disproportionate.",
+                      "A sudden spike disrupts workplaces, schools, and communities in ways that reach far beyond the people actually arrested."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When enforcement scales up fast, should due-process protections slow it down, or should action come first and review follow?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Process should not be sacrificed for speed"
+                  },
+                  "points": {
+                    "en": [
+                      "Due process exists precisely to catch mistakes, like detaining someone who actually has legal status or a valid claim.",
+                      "Once someone is deported, the error is almost impossible to reverse, so caution costs less in the long run than moving too fast.",
+                      "Overcrowded, rushed detention systems tend to produce worse conditions and more legal challenges down the line."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Security and deterrence need decisive action"
+                  },
+                  "points": {
+                    "en": [
+                      "Backlogged hearings can take years to resolve, during which enforcement effectively stalls and the law loses credibility.",
+                      "Rapid, visible action is what actually changes behaviour and reduces future illegal crossings and overstays.",
+                      "Individual cases can still be reviewed after arrest, so faster action doesn't have to mean abandoning process altogether."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
