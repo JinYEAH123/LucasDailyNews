@@ -1,0 +1,809 @@
+{
+  "date": "2026-08-29",
+  "window": {
+    "start": "2026-08-28T12:00:00-07:00",
+    "end": "2026-08-29T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-08-29T12:18:27-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Nepal-Tibet border flood live updates: missing count nears 2,500",
+        "publisher": "CNN",
+        "url": "https://edition.cnn.com/2026/08/28/world/live-news/nepal-china-flood"
+      },
+      "background": [],
+      "further": [
+        {
+          "title": {
+            "en": "Nepal, Tibet missing after flash flooding, mud flow from glacier collapse"
+          },
+          "summary": {
+            "en": "CBS News tracks the shifting missing-person tallies, including the disputed count of missing Americans, as search efforts continue in remote terrain. It adds detail on how rescue teams are struggling to reach affected villages."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/nepal-tibet-missing-flash-flooding-mud-flow-glacier-collapse/"
+        },
+        {
+          "title": {
+            "en": "Live updates: Massive flash flood at Nepal-Tibet border leaves hundreds missing"
+          },
+          "summary": {
+            "en": "NBC News runs a rolling account of the rescue operation and the emerging warnings about the second glacial lake. It offers the clearest timeline of how the disaster unfolded hour by hour."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/live-blog/live-updates-massive-flash-flood-nepal-tibet-border-hundreds-missing-rcna594643"
+        },
+        {
+          "title": {
+            "en": "Satellite images show destruction from Nepal-Tibet floods"
+          },
+          "summary": {
+            "en": "Al Jazeera, which is state-funded by Qatar, publishes satellite imagery showing the two glacial lakes and the scale of the mudflow's destruction. The images help explain scientists' warning about the remaining, still-intact lake."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/27/satellite-images-show-destruction-from-nepal-tibet-floods"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Mountain Lake Burst and Sent a Flood Crashing Through Himalayan Villages"
+          },
+          "hook": {
+            "en": "High up in the Himalaya mountains, on the border between Nepal and Tibet, a giant lake made of melted glacier ice suddenly broke open. A huge wall of water, ice, and rock came rushing down the mountainside into villages below. Rescuers are still searching for people, and scientists are worried a second nearby lake could burst too."
+          },
+          "story": {
+            "en": [
+              "Up in the highest mountains on Earth, glaciers slowly melt and the water collects into lakes. Sometimes these lakes are held back only by loose piles of rock and ice, like a wall made of rubble instead of concrete.",
+              "At the end of August 2026, one of these lakes on the Nepal-Tibet border broke through its rocky wall. A flood of water, ice chunks, and boulders roared down through villages, destroying homes and roads in its path.",
+              "News reports do not agree on exactly how many people are missing. Some say more than 1,000 people, while later reports say the number could be close to 2,500 — that's roughly as many people as fit in a big sports stadium's lower section. Rescue teams are still searching, which is why the numbers keep changing.",
+              "Scientists studying satellite photos found a second lake right next to the one that already burst. They say it is still dangerous and could collapse very suddenly, which means rescuers have to work carefully while watching the mountain above them."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This shows how melting ice in far-away mountains can suddenly turn into a disaster for people living below, even though they did nothing to cause the ice to melt. It also shows how hard it is to know exactly what's happening during a disaster — even news reporters get different numbers because things are changing so fast."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacial lake outburst flood"
+              },
+              "def": {
+                "en": "This happens when a lake formed by melting glacier ice bursts through its natural rock or ice wall and sends a sudden flood rushing downhill."
+              }
+            },
+            {
+              "term": {
+                "en": "Unstable mass"
+              },
+              "def": {
+                "en": "Scientists use this phrase to describe something — like a pile of ice and rock — that could shift or collapse at any moment without warning."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If you lived in a mountain village and scientists said a nearby lake might burst someday, but nobody knew exactly when, would you want to move away now or wait and see?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Move now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting could mean the flood arrives before you're ready to escape.",
+                      "Moving early keeps your family completely safe from any surprise collapse.",
+                      "It's easier to plan a calm move than to run during an emergency."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait and see"
+                  },
+                  "points": {
+                    "en": [
+                      "Your home, farm, and whole life are in that village — leaving means losing all of that.",
+                      "Scientists don't know exactly when or if the lake will burst, so you might move for nothing.",
+                      "Staying lets you keep watching for warning signs and only leave if things get worse."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When news reports give very different numbers for how many people are missing, should newspapers wait until they're sure before publishing anything?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Wait until sure"
+                  },
+                  "points": {
+                    "en": [
+                      "Wrong numbers can scare families who might think their loved ones are missing when they're actually safe.",
+                      "Confusing reports make it harder for rescue teams to know how big the problem really is.",
+                      "Getting it right matters more than getting it out fast."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Share what's known now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting for perfect information could mean waiting days while people need help right now.",
+                      "Sharing early numbers can bring rescue teams and supplies faster to the area.",
+                      "Reporters can always update the numbers later as they learn more, which is normal during disasters."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Wall of Water Swept Through Himalayan Villages — and a Second Lake Could Still Burst"
+          },
+          "hook": {
+            "en": "Starting around August 26, a mountain lake high in the Himalayas collapsed, sending a flood of water, ice and boulders crashing down through villages on the Nepal–China border. Scientists studying satellite images have found a second lake at the same site that is still intact but unstable, meaning it could fail too, very suddenly, and add a second flood on top of the damage from the first. Rescue teams are searching the wreckage, but nobody agrees yet on how many people are missing — early reports said over 1,000, then that number jumped toward 2,500 within a day."
+          },
+          "story": {
+            "en": [
+              "High in the Himalayas, glaciers slowly melt and leave behind lakes trapped by walls of loose rock and ice called moraines — natural dams that can look solid for decades and then fail in minutes. That is what happened around August 26 and 27 on the border between Nepal and the Tibet Autonomous Region, the part of China that includes the Tibetan plateau. One of these lakes burst, and the water tore downhill with enough force to carry ice chunks and rock through villages built along the valley below, a disaster scientists call a glacial lake outburst flood, or GLOF for short.",
+              "What makes this event unusually dangerous is what came after. When scientists reviewed satellite pictures of the collapse site, they found not one lake but two. The first is already gone, its water having done the damage. The second is still there, and researchers describe it as an 'unstable mass' — a body of water and debris that could let go at any moment, and if it does, it would fail 'very, very rapidly,' compounding a disaster that rescue teams have not finished responding to yet.",
+              "The human cost is still impossible to pin down with confidence, and that uncertainty is itself part of the story. Reports from Friday, August 28 put the number of missing people at more than 1,000. By Saturday, August 29, CNN's updated count had that figure near 2,500 — not because thousands more people vanished overnight, but because 'missing' in a disaster zone with collapsed roads and cut phone lines is a moving estimate, built from village headcounts, family reports and military patrols that often contradict each other before they settle.",
+              "The same confusion shows up in the count of missing Americans in the region, which one Friday report put at 90 and a Saturday report put at 65. This kind of discrepancy is usually explained by overlapping consular records — lists compiled by embassy staff who track citizens abroad — being updated, merged or corrected as people are found safe or as duplicate names are removed, rather than by any single confirmed number existing yet.",
+              "Search-and-rescue crews are working in a landscape that straddles an international border, which complicates coordination between Nepali and Chinese authorities even as both sides face the same threat: that second lake, still sitting above the valley, still capable of failing without much warning."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Mountain glaciers around the world are melting faster as the planet warms, and that is turning old, stable-looking lakes into hazards that scientists are only beginning to map properly. The confusion over the numbers here is a reminder that in the first days of any disaster, especially one in a remote border region, the picture you get is provisional — true information takes time to arrive, even when lives depend on getting it right."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "glacial lake outburst flood (GLOF)"
+              },
+              "def": {
+                "en": "A sudden flood that happens when a lake formed by melting glacier ice breaks through the loose rock or ice wall holding it back."
+              }
+            },
+            {
+              "term": {
+                "en": "Tibet Autonomous Region"
+              },
+              "def": {
+                "en": "The part of western China that includes most of the Tibetan plateau, governed as a distinct region within China."
+              }
+            },
+            {
+              "term": {
+                "en": "consular count"
+              },
+              "def": {
+                "en": "A tally of a country's citizens abroad, kept by embassy staff, which can change as records are updated, merged, or corrected."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "With a second unstable lake still threatening to burst, should authorities order villages nearby to evacuate now, even though the lake might hold for years?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Evacuate now"
+                  },
+                  "points": {
+                    "en": [
+                      "A GLOF can happen with almost no warning, so waiting for clearer signs could mean waiting until it's too late to escape.",
+                      "The cost of a false alarm — some lost days and disrupted routines — is far smaller than the cost of another mass-casualty flood.",
+                      "Scientists have already called the lake an unstable mass capable of failing very rapidly, which is about as clear a warning as this kind of science can give."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for clearer signs"
+                  },
+                  "points": {
+                    "en": [
+                      "Uprooting entire communities from their homes, farms and livelihoods is a massive disruption that shouldn't be ordered on uncertain predictions.",
+                      "Glacial lakes can remain unstable for years without collapsing, and repeated false evacuations erode trust so that people ignore warnings when a real one comes.",
+                      "Resources for monitoring and emergency response are limited, and they may be better spent on closer, continuous observation than on a full evacuation."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Because melting glaciers are tied to a warming climate, do the wealthy countries that have emitted the most carbon over the past century owe a special responsibility to pay for warning systems and rebuilding in places like this?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, they bear special responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "The countries that industrialized earliest produced the bulk of historical emissions driving glacier melt, while mountain communities in Nepal contributed almost none of it.",
+                      "Wealthy nations have far greater financial and technical capacity to fund early-warning satellite systems and glacier monitoring than the countries most exposed to the risk.",
+                      "International climate agreements already include the principle that those who caused more of the problem should help fund adaptation for those facing its worst effects."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, responsibility is too diffuse to assign"
+                  },
+                  "points": {
+                    "en": [
+                      "Any single flood's link to climate change specifically, rather than to natural glacial cycles, is difficult to prove with confidence.",
+                      "Assigning blame by national carbon history ignores that current generations in wealthy countries didn't make the emissions decisions of a century ago.",
+                      "Every country has its own competing needs for limited disaster and foreign-aid budgets, and there's no clear formula for how much any one nation owes another."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Anthropic gets its first court win over the Pentagon's supply chain risk label",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
+      },
+      "background": [],
+      "further": [
+        {
+          "title": {
+            "en": "Judge rules Trump administration illegally punished AI firm Anthropic"
+          },
+          "summary": {
+            "en": "CBS News lays out the due-process and First Amendment findings in plain terms, explaining what the Pentagon's original designation was meant to do. It also covers the administration's likely response to the ruling."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/judge-rules-trump-administration-illegally-punished-ai-firm-anthropic/"
+        },
+        {
+          "title": {
+            "en": "Anthropic-Pentagon ruling: judge blasts government 'arrogance'"
+          },
+          "summary": {
+            "en": "Fortune highlights the judge's pointed language about the Pentagon's conduct and traces how the 'supply chain risk' label was first applied. It adds context on Anthropic's earlier public friction with the administration."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/28/anthropic-pentagon-ruling-rita-lin-arrogance/"
+        },
+        {
+          "title": {
+            "en": "Anthropic wins ruling against Pentagon's 'supply chain risk' designation"
+          },
+          "summary": {
+            "en": "CNN Business explains how the designation had restricted Anthropic's ability to sell its AI systems to federal agencies before the ruling. It also notes reactions from the AI industry to the decision."
+          },
+          "publisher": "CNN Business",
+          "url": "https://www.cnn.com/2026/08/27/tech/anthropic-pentagon-supply-chain-risk-unlawful-hnk"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Judge Says Government Was Unfair to an AI Company"
+          },
+          "hook": {
+            "en": "A judge ruled that a top U.S. defense official broke the law when he called an AI company 'too risky' to trust. The company, called Anthropic, makes a chatbot named Claude, similar to ChatGPT. Because of the ruling, the government must let its agencies use Anthropic's tools again."
+          },
+          "story": {
+            "en": [
+              "Anthropic is a company that builds an AI chatbot called Claude. You can ask it questions and it writes back answers, kind of like ChatGPT.",
+              "The U.S. Department of Defense, led by Secretary Pete Hegseth, said Anthropic was a 'supply chain risk.' That means the government said its technology was too dangerous to trust. So they banned federal agencies from using Anthropic's tools.",
+              "A judge named Rita Lin looked at what happened. She decided the ban was unfair for two reasons. First, it seemed to punish Anthropic for things it had said, which is against a rule protecting free speech. Second, Anthropic never got a fair chance to explain itself before being punished, which is also against the rules. The judge even said the Pentagon acted with 'arrogance.'",
+              "Now the government has to lift the ban. This is the first time a court has ruled on how the government can treat an AI company it doesn't like, so other companies are watching closely too."
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might use an AI chatbot for homework help someday, and this shows that even powerful government leaders have to follow fair rules when they decide who they can and can't work with. It's a reminder that being called 'dangerous' by someone powerful doesn't make it true, and there are rules to check that."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "supply chain risk"
+              },
+              "def": {
+                "en": "A label the government uses to say a company's products might be unsafe or untrustworthy to buy or use."
+              }
+            },
+            {
+              "term": {
+                "en": "due process"
+              },
+              "def": {
+                "en": "The rule that says before someone is punished, they must be given a fair chance to explain their side first."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the government be allowed to quickly label a company 'too risky' without explaining why first, if it worries about safety?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act fast"
+                  },
+                  "points": {
+                    "en": [
+                      "If there's a real safety threat, waiting to explain could let harm happen first.",
+                      "Governments can always correct mistakes later through courts, like this one did.",
+                      "Some risks are secret or complicated, so full explanations aren't always possible right away."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, explain first"
+                  },
+                  "points": {
+                    "en": [
+                      "Calling a company dangerous can ruin its reputation instantly, even if it turns out to be wrong.",
+                      "Being fair means giving someone a chance to respond before punishing them.",
+                      "If the government can skip explanations, it could unfairly target any company it dislikes."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a company says something that upsets the government, should that ever affect whether the government does business with it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, trust matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments should be able to choose to work with companies they feel good about.",
+                      "If a company's words suggest it can't be trusted, that seems useful information for choosing a business partner.",
+                      "Governments make decisions based on lots of factors, and opinions can be one of them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, speech shouldn't cost you"
+                  },
+                  "points": {
+                    "en": [
+                      "Punishing a company for speaking freely could scare other companies into staying silent.",
+                      "Business decisions should be based on actual performance and safety, not opinions.",
+                      "If criticism can cost you government contracts, it makes it harder for anyone to speak honestly."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Judge Says the Pentagon Illegally Punished an AI Company — and Called It 'Arrogance'"
+          },
+          "hook": {
+            "en": "A federal judge ruled that Defense Secretary Pete Hegseth broke the law when he labeled the AI company Anthropic a 'risk' to national security and banned federal agencies from using its tools. The judge found the label wasn't really about security at all — it was punishment, and the government skipped the legal steps it owed the company before hitting it with that punishment. Anthropic now gets its federal ban lifted, and the ruling could reshape how the government is allowed to treat tech companies it dislikes."
+          },
+          "story": {
+            "en": [
+              "Anthropic makes Claude, one of the AI chatbots that compete with ChatGPT, and it has contracts to sell that technology to U.S. government agencies. Pete Hegseth's Pentagon gave Anthropic a formal label called a 'supply chain risk' designation — a tool the government normally uses when it suspects a company's hardware or software could contain hidden backdoors, foreign spyware, or sabotage. That label is serious: once a company gets it, federal agencies are generally required to stop buying from or using that company's products.",
+              "A federal judge in California, Rita Lin, ruled that this wasn't a genuine security finding. She found that the Pentagon used the designation to retaliate against Anthropic, which the judge said violates the First Amendment — the part of the Constitution that stops the government from punishing people or companies for things they've said or positions they've taken. She also ruled that Anthropic was denied 'due process,' a Fifth Amendment guarantee that the government must give you fair notice and a real chance to respond before it takes major action against you. Anthropic, the judge found, got neither.",
+              "Judge Lin didn't mince words about why this happened, according to Fortune's reporting on the ruling: she described the Pentagon's move as driven by 'arrogance' — the assumption that a national security label is so untouchable that no court would dare examine what was really behind it. Her ruling says otherwise: labels like 'supply chain risk' aren't a blank check. If a court decides the government used one to settle a score rather than address an actual threat, it can strike the label down.",
+              "The practical result, according to Bloomberg, is that the Trump administration now has to lift its ban and let federal agencies use Anthropic's AI tools again. But the bigger consequence is the precedent. This is described as the first ruling of its kind spelling out limits on how the administration can use national-security tools against AI companies it has political or business disagreements with — meaning other companies facing similar designations now have a legal roadmap for fighting back in court.",
+              "The case sits inside a much larger fight in Washington over how closely AI companies should work with the military and other government agencies, and how much power the executive branch should have to punish companies that resist. Anthropic has positioned itself as more cautious than some competitors about how its AI is used, including around military and surveillance applications — a stance that has put it at odds with parts of the administration. This ruling doesn't settle that broader argument, but it does say the government can't use a national-security label as a weapon in it without following the law."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The AI tools you might already use for homework, coding, or just asking questions run on systems built by a small handful of companies, and this case is about how much power the government has to punish one of them for disagreeing with it. If a national security label can be used to blacklist a company just because officials are annoyed with it, that changes what any company — tech or otherwise — is willing to say publicly, and eventually what products and services are even available to you."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Supply chain risk designation"
+              },
+              "def": {
+                "en": "An official government label meant to flag that a company's products might contain hidden security threats, which normally blocks federal agencies from buying from that company."
+              }
+            },
+            {
+              "term": {
+                "en": "Due process"
+              },
+              "def": {
+                "en": "A Fifth Amendment protection requiring the government to give fair notice and a real chance to respond before it takes serious action against a person or company."
+              }
+            },
+            {
+              "term": {
+                "en": "First Amendment retaliation"
+              },
+              "def": {
+                "en": "When the government punishes someone specifically because of something they said or a position they took, which the Constitution's free speech protections forbid."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When the government claims a decision is about national security, should courts be willing to second-guess that judgment, or should they generally defer to the executive branch?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Courts should defer"
+                  },
+                  "points": {
+                    "en": [
+                      "National security judgments often rely on classified information that judges aren't equipped to fully evaluate.",
+                      "Constant court challenges could slow down urgent decisions meant to protect the country from real threats.",
+                      "The executive branch is elected and accountable for security outcomes in a way courts are not."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Courts should scrutinize"
+                  },
+                  "points": {
+                    "en": [
+                      "Without judicial oversight, 'national security' becomes a label any administration can slap on a decision to make it unchallengeable.",
+                      "History shows security justifications have sometimes been used to cover up retaliation, discrimination, or plain error.",
+                      "Courts exist precisely to check the other branches when they overstep constitutional limits, security claims included."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a company that depends on government contracts be expected to avoid public conflict with officials, or is fighting back in court the right response even when it risks the relationship?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Avoid the conflict"
+                  },
+                  "points": {
+                    "en": [
+                      "Government is often a company's biggest customer, and a public legal fight can permanently damage that relationship.",
+                      "Quiet negotiation can sometimes resolve disputes faster and with less collateral damage than a lawsuit.",
+                      "A company focused on business risks distracting itself and its employees with a drawn-out legal battle."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Fight back in court"
+                  },
+                  "points": {
+                    "en": [
+                      "If a company stays quiet every time it's punished unfairly, it teaches the government that retaliation works.",
+                      "Winning in court doesn't just fix one company's problem — it sets a precedent that protects everyone else too.",
+                      "Backing down under pressure can look like admitting wrongdoing even when the company did nothing wrong."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Fed Chair Warsh warns inflation still too high in first Jackson Hole speech",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/08/28/nx-s1-5947903/federal-reserve-inflation-jackson-hole-interest-rates"
+      },
+      "background": [],
+      "further": [
+        {
+          "title": {
+            "en": "Kevin Warsh at Jackson Hole: inflation, Federal Reserve"
+          },
+          "summary": {
+            "en": "CNBC breaks down the market reaction to Warsh's remarks and what investors now expect from the Fed's next meeting. It includes trader commentary on bond yields following the speech."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html"
+        },
+        {
+          "title": {
+            "en": "Fed Chair Warsh speaks at Jackson Hole conference"
+          },
+          "summary": {
+            "en": "The Washington Post situates the speech within Warsh's short tenure as chair and explains how his rhetoric differs from his predecessor's. It also covers reactions from other economists at the symposium."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/08/28/fed-chair-warsh-speaks-jackson-hole-conference/"
+        },
+        {
+          "title": {
+            "en": "Kevin Warsh at Jackson Hole: clarity on inflation, employment mandate"
+          },
+          "summary": {
+            "en": "Fortune digs into how Warsh framed the Fed's dual mandate on inflation and employment during the address. It offers additional quotes on his outlook for the coming months."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/28/kevin-warsh-jackson-hole-clarity-inflation-employment-mandate/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "One Man's Speech Made Money Markets Wobble"
+          },
+          "hook": {
+            "en": "Kevin Warsh is the new boss of America's biggest money bank, called the Federal Reserve. He just gave his first big speech, and he said something people did not expect: prices are still too high, so borrowing money might get more expensive, not cheaper. Investors were surprised, and stock markets jumped around right after he spoke."
+          },
+          "story": {
+            "en": [
+              "Kevin Warsh leads the Federal Reserve. Think of it like the referee for money in the United States. It decides how easy or hard it is to borrow money.",
+              "Every year, important money people meet in a mountain town called Jackson Hole to talk about the economy. This year, Warsh gave his very first speech there as the new leader.",
+              "He said prices for things like food and clothes are still climbing too fast. That's called inflation. Instead of making it cheaper to borrow money, like everyone expected, he hinted it might get even harder.",
+              "That surprised a lot of people. Investors, who buy and sell pieces of companies, reacted right away. Stock prices moved up and down as people tried to guess what happens next."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When borrowing money gets more expensive, things like car loans, house payments, and even store credit cards can cost more too. That can mean your family, or families you know, might spend less on extra things, like eating out or new toys."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "inflation"
+              },
+              "def": {
+                "en": "Inflation means prices for things you buy, like snacks or sneakers, keep going up over time."
+              }
+            },
+            {
+              "term": {
+                "en": "interest rate"
+              },
+              "def": {
+                "en": "An interest rate is the extra money you have to pay back when you borrow money, like a fee for using someone else's cash."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Fed keep making it harder to borrow money to fight high prices, even if it means fewer jobs for a while?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep fighting high prices"
+                  },
+                  "points": {
+                    "en": [
+                      "If prices keep rising fast, everyday things become harder for families to afford.",
+                      "Waiting too long to act could make the problem even bigger later.",
+                      "Warsh has studied the economy for years and may see risks others don't."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Ease up now"
+                  },
+                  "points": {
+                    "en": [
+                      "Making borrowing too expensive can cause people to lose jobs.",
+                      "Businesses might stop growing if loans cost too much.",
+                      "Prices might come down on their own without such strict action."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that one person's speech can shake stock markets around the world so quickly?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "He's an expert whose job is to guide the economy carefully.",
+                      "People need to trust someone to make these big decisions.",
+                      "Markets react fast because everyone is watching closely for good reasons."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's too much power"
+                  },
+                  "points": {
+                    "en": [
+                      "One person's words shouldn't cause so much sudden change everywhere.",
+                      "It might not be fair that so many people's money depends on one speech.",
+                      "Big decisions might be better made by many people together, not one leader."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "New Fed Chief's First Big Speech Says: Don't Expect Cheaper Loans Yet"
+          },
+          "hook": {
+            "en": "Kevin Warsh, the new head of America's central bank, gave his first major speech since taking the job — and it wasn't the message investors wanted. Instead of hinting at lower interest rates, he said inflation is still too high and signalled rates might need to go up, not down. Financial markets, which had been betting on the opposite, reacted immediately."
+          },
+          "story": {
+            "en": [
+              "Every year, the people who run the world's most powerful central bank — America's Federal Reserve — travel to a mountain resort in Jackson Hole, Wyoming, for an economic conference that investors watch like a title fight. It's where the Fed often previews its next move. This year, all eyes were on Kevin Warsh, who recently took over as Fed Chair, because it was his first time speaking there in the top job. What he said mattered less for its content than for what it revealed: this is a man who is not in a hurry to make borrowing cheaper.",
+              "The Federal Reserve's main job is to keep the US economy stable, which mostly means controlling inflation — the rate at which prices for everyday things like groceries, rent, and gas rise over time — while also trying not to choke off jobs and growth. Its main tool is the interest rate: the price of borrowing money. Raise it, and mortgages, car loans, and business credit all get more expensive, which cools spending and, in theory, cools inflation too. Lower it, and borrowing gets cheaper, which tends to boost spending but can let inflation creep back up. Warsh's message was that inflation isn't beaten yet, so the Fed may need to keep rates high, or even raise them further, rather than cut them as many had expected.",
+              "That expectation of a cut wasn't invented from nothing. In the months before this speech, plenty of investors had priced in the idea that the Fed's tightening — a stretch of high interest rates meant to squeeze inflation out of the system — was nearly finished, and that relief was coming. Warsh's speech pulled the rug out from under that assumption. Stock and bond markets moved as traders recalculated what borrowing costs might look like in the coming months, a reminder that a single sentence from a Fed chair can shift the mood of markets holding trillions of dollars.",
+              "The debate underneath the speech is an old one in economics, and it doesn't have a clean answer. If the Fed holds rates high for longer, it risks slowing the economy more than necessary, potentially costing jobs and making loans painfully expensive for ordinary families buying homes or cars. If it cuts too soon, it risks letting inflation flare back up, which erodes the value of everyone's paychecks and savings and could force even harsher rate hikes later. Warsh, in his first big public statement, came down clearly on the side of caution about inflation — a signal to markets, businesses, and other governments about how he intends to lead.",
+              "What makes this moment notable isn't just the policy itself but the clarity of it. New Fed chairs often speak carefully in their early months, hedging their language so they don't box themselves in before they've built a track record. Warsh instead used his debut Jackson Hole address to draw a fairly firm line, which is why outlets covering the economy treated it as the clearest read yet on how he'll run the institution that quietly shapes how expensive it is for almost everyone in America to borrow money."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family ever take out a loan for a car, a house, or even carry a credit card balance, the interest rate the Fed sets ripples down into what that costs you. A Fed chair who leans toward keeping rates high is signalling that borrowing will likely stay expensive for a while longer, even as everyone hopes prices settle down."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The central bank of the United States, responsible for setting policies that affect how expensive it is to borrow money across the whole economy."
+              }
+            },
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The cost of borrowing money, usually shown as a percentage — when it's higher, loans and credit cards cost more; when it's lower, borrowing is cheaper."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "The rate at which the prices of everyday goods and services rise over time, meaning the same amount of money buys less than it used to."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Fed keep interest rates high to fully stamp out inflation, even if it risks slowing the economy and costing jobs?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Prioritize beating inflation"
+                  },
+                  "points": {
+                    "en": [
+                      "History shows that cutting rates too early lets inflation roar back, requiring even harsher and more painful fixes later.",
+                      "People on fixed incomes, savers, and anyone paid a steady wage are hurt every day that inflation stays high.",
+                      "A short period of economic pain now is arguably less damaging than years of unstable, unpredictable prices."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Prioritize growth and jobs"
+                  },
+                  "points": {
+                    "en": [
+                      "High interest rates directly raise the cost of mortgages, car loans, and small business credit for ordinary families.",
+                      "Waiting too long to ease up on rates risks tipping the economy into a recession that could have been avoided.",
+                      "Inflation has already fallen a lot from its peak, so staying overly cautious may be fighting a battle that's largely won."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a central bank leader speak this bluntly about future policy, given how much markets react to every word?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Speak plainly and early"
+                  },
+                  "points": {
+                    "en": [
+                      "Clear, direct communication reduces uncertainty and helps families and businesses plan around borrowing costs.",
+                      "Vague central bank language invites rumor and speculation, which can unsettle markets more than an unwelcome truth.",
+                      "As a new chair, establishing credibility on inflation early can prevent expectations from spiraling out of control."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stay guarded and flexible"
+                  },
+                  "points": {
+                    "en": [
+                      "Bold statements from someone newly in the job can spook markets before he's built a track record of steady judgment.",
+                      "Committing publicly to 'no cuts' now limits room to maneuver if economic data shifts quickly in coming months.",
+                      "Central bankers have traditionally hedged their language precisely because a single firm sentence can move billions of dollars on what is still a guess."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
