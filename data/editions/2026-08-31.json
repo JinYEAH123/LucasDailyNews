@@ -1,0 +1,786 @@
+{
+  "date": "2026-08-31",
+  "window": {
+    "start": "2026-08-30T12:00:00-07:00",
+    "end": "2026-08-31T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-08-31T12:17:11-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "US-Iran strikes resume after attacks on Larak Island",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/08/30/politics/us-iran-strikes-larak-island"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Attacks Flare Between US and Iran"
+          },
+          "summary": {
+            "en": "NPR lays out the sequence of strikes and counter-strikes between the two countries and what officials on each side are saying about their intentions."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/31/g-s1-141175/attacks-flare-us-iran"
+        },
+        {
+          "title": {
+            "en": "Iran Retaliation Hits Jordan, UAE After US Strikes Resume"
+          },
+          "summary": {
+            "en": "A detailed rundown of which bases were hit and how US allies in the region are responding to being drawn into the exchange."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/policy/international/6060457-iran-retaliation-jordan-uae-us-strikes-resume/"
+        },
+        {
+          "title": {
+            "en": "Iran Attacks Jordan and UAE After US Bombs Larak Island: What's the Latest"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatari state-funded broadcaster, offers a regional perspective on the strikes and notes that Trump's claim about Kharg Island remains unconfirmed by other sources."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/31/iran-attacks-jordan-uae-after-us-bombs-larak-island-whats-the-latest"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The US and Iran Fire Missiles at Each Other Again"
+          },
+          "hook": {
+            "en": "The United States and Iran shot missiles at each other's military bases this week, the first time this has happened in about a month. Iran says it was paying America back for a US attack on its rocket launchers. Both sides say the fighting is about control of a narrow strip of ocean where a huge amount of the world's oil travels by ship."
+          },
+          "story": {
+            "en": [
+              "Iran's military, called the Revolutionary Guards, fired missiles at US bases in two countries: Jordan and the United Arab Emirates. Iran says it did this because the US had just bombed Iranian rocket launchers on an island called Larak.",
+              "The US says those rocket launchers were being used to drop sea mines, which are floating bombs that sink ships, into the Strait of Hormuz. This strait is a narrow strip of ocean, and about one out of every five barrels of oil in the whole world sails through it on ships.",
+              "President Trump posted a video online saying US forces had blown up another island, Kharg Island, calling it destroyed 'to smithereens.' But no other news source has been able to confirm this actually happened, so right now nobody outside the government knows for sure if it's true.",
+              "This back-and-forth fighting between the US and Iran has now been going on for about six months, and nobody has found a way to stop it yet."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When countries fight near the Strait of Hormuz, oil ships can get scared away or attacked, and that can make gas and other things made from oil more expensive everywhere, including at home. It's also a reminder that when a leader posts something online, it isn't always confirmed to be true, and it can take other news reporters time to check."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow strip of ocean between Iran and other countries where a huge share of the world's oil travels by ship."
+              }
+            },
+            {
+              "term": {
+                "en": "Revolutionary Guards (IRGC)"
+              },
+              "def": {
+                "en": "A powerful branch of Iran's military that answers directly to Iran's government leaders."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If one country attacks you, is it fair to attack them back?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, striking back is fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone hurts you first, most people agree you have a right to defend yourself.",
+                      "Not responding might make the other side think they can attack again without any consequence.",
+                      "Countries have a duty to protect their own soldiers and land when attacked."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, striking back makes things worse"
+                  },
+                  "points": {
+                    "en": [
+                      "Fighting back often leads to more fighting, not less, like two kids trading pushes until someone gets really hurt.",
+                      "Innocent people who had nothing to do with the first attack can get hurt in the response.",
+                      "Talking or asking outside helpers to step in could solve the problem without more damage."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a leader share big claims online before they're confirmed true?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, share it right away"
+                  },
+                  "points": {
+                    "en": [
+                      "People want to know what's happening as soon as possible, especially during scary events.",
+                      "A leader might have information others don't have yet, and waiting could seem like hiding something.",
+                      "Quick news can reassure worried citizens that their country is responding."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until it's confirmed"
+                  },
+                  "points": {
+                    "en": [
+                      "Sharing something false, even by accident, can confuse people and make a tense situation more dangerous.",
+                      "Once something is posted, it's hard to take back even if it turns out to be wrong.",
+                      "Waiting for facts shows respect for the truth and for people who are trusting the leader's words."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The US and Iran Just Fired Missiles at Each Other Directly — Here's Why That's a Big Deal"
+          },
+          "hook": {
+            "en": "For the first time in about a month, the United States and Iran didn't just trade threats — they fired real missiles at real military targets. Iran's Revolutionary Guards, its most powerful military force, launched strikes at US bases in Jordan and the United Arab Emirates, calling it payback for an American attack on Iranian rocket launchers days earlier. Both sides say the other started it, and the fight is now happening near one of the most important oil routes on Earth."
+          },
+          "story": {
+            "en": [
+              "This isn't a new conflict — the US and Iran have been locked in tension for about six months, with neither side backing down. But most of that time, the two countries have avoided striking each other's forces directly. That changed this week. Iran's Revolutionary Guards, known as the IRGC — a branch of Iran's military that answers to the country's supreme religious leader rather than its elected government, and that the US has long treated as its most dangerous adversary in the region — fired missiles at American military targets in Jordan and the UAE.",
+              "Iran says this was retaliation. The US had struck what it called Iranian rocket launchers, which Washington claimed were being used to fire sea mines — underwater bombs designed to sink or damage ships — into the Strait of Hormuz. That's the narrow stretch of water between Iran and the Arabian Peninsula through which roughly one-fifth of all the oil shipped in the world passes every day. Iranian forces have specifically pointed to a Sunday-night US attack on Larak Island, an island Iran controls near the Strait, as the trigger for their strikes on Jordan.",
+              "So the sequence, as both sides describe it, looks like this: the US struck Iranian rocket positions it said were mining the Strait; Iran struck back at US bases it says were behind that attack. Each side is calling its own strike a response to the other's aggression — which is common in conflicts like this, and part of why they're so hard to end. There is no single moment either side agrees was 'the start.'",
+              "Adding to the confusion, President Trump posted video on social media claiming to show 'Kharg Island being blown to smithereens' — a reference to a major Iranian oil export terminal. But no independent news organization has been able to confirm that the footage shows what he says it shows, or that the strike happened as described. Until outside reporters or satellite images verify it, that claim should be treated as unconfirmed — a reminder that in fast-moving conflicts, even official statements from a country's leader aren't automatically fact.",
+              "What makes this exchange more dangerous than previous rounds is the target: the Strait of Hormuz itself. Any real disruption there doesn't just affect Iran and the US — it affects the price of oil and, through that, the price of nearly everything shipped, manufactured, or driven anywhere in the world. A shipping lane that carries a fifth of global oil is not the kind of thing either side can afford to close for long, which is exactly why some analysts see the strikes as posturing meant to demonstrate strength without triggering a full war — and why others see them as a fuse that's already been lit."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If fighting near the Strait of Hormuz disrupts oil shipments even briefly, prices at the gas pump and the cost of goods that arrive by ship can rise for people everywhere, not just in the Middle East. It's also a reminder that conflicts far from home rarely stay contained — six months of tension between two countries can suddenly turn into direct strikes with almost no warning, and once missiles start flying, both sides find it harder to back down without looking weak."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IRGC (Revolutionary Guards)"
+              },
+              "def": {
+                "en": "A powerful branch of Iran's armed forces that answers to Iran's supreme religious leader rather than to its elected government, and that the US treats as one of its main adversaries in the region."
+              }
+            },
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula through which about a fifth of the world's oil shipments travel, making it one of the most strategically important waterways on Earth."
+              }
+            },
+            {
+              "term": {
+                "en": "Unverified claim"
+              },
+              "def": {
+                "en": "A statement or piece of footage that hasn't yet been confirmed by independent sources, meaning it might be true, exaggerated, or false — and shouldn't be treated as fact until it's checked."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was the US strike on Iran's rocket launchers a justified response to a real threat, or an escalation that made the fighting worse?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It was justified"
+                  },
+                  "points": {
+                    "en": [
+                      "If Iran was actually firing mines into the Strait of Hormuz, that endangered ships and lives immediately, not hypothetically.",
+                      "Waiting to respond to an active military threat can allow it to do more damage before it's stopped.",
+                      "A strong, fast response can deter a country from trying something similar again."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It was an escalation"
+                  },
+                  "points": {
+                    "en": [
+                      "Striking another country's forces directly, rather than using diplomacy or sanctions, made a violent response from Iran predictable.",
+                      "Six months into an unresolved conflict, adding direct strikes raises the risk of a wider war neither side can fully control.",
+                      "There may have been non-military ways to address the mine threat that didn't invite retaliation."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should leaders post unverified claims about military strikes on social media in real time, or wait until facts are confirmed?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Real-time sharing is fine"
+                  },
+                  "points": {
+                    "en": [
+                      "In a fast-moving conflict, the public has a right to know what their government says is happening as it happens.",
+                      "Quickly showing strength can be part of deterring an enemy from escalating further.",
+                      "Waiting for full verification can take days, by which time the information is old news."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmation"
+                  },
+                  "points": {
+                    "en": [
+                      "Unverified claims from a leader can mislead the public and other countries about what actually happened.",
+                      "False or exaggerated claims during a conflict can provoke unnecessary retaliation based on wrong information.",
+                      "When a claim later turns out to be wrong, it damages trust in everything else that leader says."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Nepal Races to Rescue Hydropower Workers as Flood Death Toll Reaches 903",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/8/31/nepal-races-to-rescue-hydropower-workers-as-flood-death-toll-reaches-903"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nepal-Tibet Flood Rescue Effort Widens"
+          },
+          "summary": {
+            "en": "CBC covers the cross-border rescue operation and reports the higher combined toll of over 950 dead and 4,400 missing, illustrating how death counts differ by source."
+          },
+          "publisher": "CBC",
+          "url": "https://www.cbc.ca/news/world/nepal-tibet-flood-rescue-9.7326270"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Mountain Flood Disaster Leaves Nearly 1,000 Dead, Thousands Still Missing"
+          },
+          "hook": {
+            "en": "A giant wall of water, mud, and ice smashed through mountain villages in Nepal and Tibet, a region high in the Himalaya mountains that is controlled by China. More than 950 people have died, and over 4,400 are still missing. Rescue teams are struggling to reach the wrecked villages, and nobody agrees yet on the exact numbers."
+          },
+          "story": {
+            "en": [
+              "A wall of water, mud, and ice crashed down through mountain valleys in Nepal and Tibet, smashing villages, roads, and power stations. It happened so fast that people had almost no time to run.",
+              "More than 950 people have died. That is like every student in three or four big schools disappearing in just a few days. Over 4,400 people are still missing, which is more people than live in a small town.",
+              "Nobody has exact numbers yet. Rescue workers are trying to reach faraway mountain villages, but many roads and bridges are broken or gone. Different news reports give different totals, because things keep changing and it is hard to count people in such remote places.",
+              "Scientists think it started when a mountain lake made of melted glacier ice suddenly burst, like a giant bathtub tipping over. The water rushed downhill, picking up mud and rocks and growing bigger, smashing everything below it, including hydropower stations that use river water to make electricity."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Glaciers are giant blocks of ice sitting on mountains, and as the world gets warmer, more of that ice is melting into lakes that can burst without warning. This disaster shows how a place far away, high in the mountains, can suddenly affect thousands of families and even the electricity that powers nearby cities."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "glacial lake flood"
+              },
+              "def": {
+                "en": "When a lake made of melted mountain ice suddenly bursts and sends a rush of water downhill, like a bathtub tipping over."
+              }
+            },
+            {
+              "term": {
+                "en": "hydropower"
+              },
+              "def": {
+                "en": "Electricity made by fast-moving river water spinning giant wheels called turbines."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a disaster this big happens, should other countries send their own rescue teams to help, or should the affected country handle it alone?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Send outside help"
+                  },
+                  "points": {
+                    "en": [
+                      "More rescuers means more people can be found and saved before it's too late.",
+                      "Some countries have special equipment, like helicopters or search dogs, that local teams may not have.",
+                      "A disaster this huge can be too much for any one country to handle by itself."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let the country handle it alone"
+                  },
+                  "points": {
+                    "en": [
+                      "The country's own teams know the mountains, the language, and the villages best.",
+                      "Foreign teams unfamiliar with the land or rules could accidentally slow things down.",
+                      "The country may want to stay in charge of how help and supplies are shared fairly."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When the numbers of dead and missing keep changing and don't match between reports, should the news share them right away or wait until everyone is sure?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share numbers right away"
+                  },
+                  "points": {
+                    "en": [
+                      "Quick information can help families act fast and get outside help sent sooner.",
+                      "Even a rough number shows the world how serious things are, so aid starts arriving faster.",
+                      "Waiting for a perfect count could take weeks, but people need to know what's happening now."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until everyone is sure"
+                  },
+                  "points": {
+                    "en": [
+                      "Wrong numbers can scare people more than needed, or give false hope."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Flash Floods Tear Through the Himalayas, Leaving Nearly a Thousand Dead and Thousands Still Missing"
+          },
+          "hook": {
+            "en": "A wall of water, ice and rock smashed through mountain valleys spanning Nepal and Tibet, killing more than 950 people and leaving over 4,400 unaccounted for. The disaster hit hardest at hydropower dam sites, where hundreds of construction workers are still missing. Even now, nobody agrees on the exact numbers — different governments, agencies and news outlets are reporting different totals, because rescue teams still can't reach many of the areas that were hit.\n"
+          },
+          "story": {
+            "en": [
+              "High in the Himalayas, water builds up behind natural dams made of ice, rock and debris left over from retreating glaciers. These are called glacial lakes, and normally they just sit there, holding back meltwater. But when one bursts — sometimes because of an earthquake, sometimes because the ice dam simply gives way under pressure — the result is a flash flood unlike almost any other: a sudden, violent surge of water, ice chunks and boulders that can travel for miles down a narrow valley before anyone downstream has time to react.",
+              "That is what appears to have happened across the border region shared by Nepal and Tibet, the Chinese-controlled region that sits on the other side of the mountains. The flood tore through villages and, critically, through hydropower projects — dams and power stations built specifically to make electricity by channelling river water through turbines. These sites are usually built in steep valleys precisely because that's where the water flows fastest, which is efficient for generating power but puts them directly in the path of any flood coming down from higher ground. A private industry association representing power companies says at least 900 workers are missing across 12 damaged hydropower projects alone — meaning the death toll could still climb sharply once rescue teams reach isolated work camps.",
+              "The numbers being reported right now genuinely don't agree with each other, and that mismatch tells its own story about how chaotic the situation still is. Chinese authorities in Tibet have confirmed 16 deaths and 546 people missing on their side of the border. Meanwhile, one outlet has reported Nepal's death toll alone at 903 — a figure that doesn't line up cleanly with the combined cross-border total of over 950 that other reports are using. This isn't necessarily anyone lying or exaggerating. It reflects the reality of disaster reporting in remote, mountainous terrain: phone lines are down, roads are washed out, and rescue workers are still physically walking or flying into villages to find out who survived and who didn't.",
+              "Rescue operations are being slowed by the same geography that made the flood so destructive in the first place. Steep valleys and destroyed roads mean helicopters are often the only way in, and even they are limited by weather and altitude. Every day that passes without contact with an isolated village or work camp means the missing count could shift — up if bodies are found, down if survivors turn up alive but cut off from communication, which happens more often than you'd expect in disasters like this.",
+              "This is being described as one of the deadliest natural disasters of the year worldwide, and it's a disaster that crosses an international border between two countries — Nepal and China — that don't always share information smoothly, which is part of why getting one clean, agreed-upon number has proven so difficult."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Warming global temperatures are causing Himalayan glaciers to melt and retreat faster, which scientists say makes glacial lake outburst floods like this one more frequent and more dangerous — not just in Nepal and Tibet, but in mountain regions worldwide, including places that build hydropower dams to generate clean energy. It's also a reminder that in the first days after a major disaster, the numbers you read in the news are often provisional best guesses, not settled facts, and that gap between confirmed and missing can hide a lot of uncertainty about how bad things really are."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacial lake outburst flood (GLOF)"
+              },
+              "def": {
+                "en": "A sudden, violent flood caused when a lake held back by ice or rock debris near a melting glacier bursts, releasing huge amounts of water, ice and rock downhill all at once."
+              }
+            },
+            {
+              "term": {
+                "en": "Hydropower project"
+              },
+              "def": {
+                "en": "A power station and dam built on a river to generate electricity by using flowing water to spin turbines, usually located in fast-flowing mountain valleys."
+              }
+            },
+            {
+              "term": {
+                "en": "Death toll vs. missing"
+              },
+              "def": {
+                "en": "The 'death toll' counts confirmed deaths, while 'missing' counts people who haven't been found alive or dead — a number that usually shrinks or grows sharply as rescue teams reach cut-off areas."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When disaster death tolls are still uncertain and conflicting, should news outlets report the higher, more alarming estimates right away, or wait until numbers are confirmed?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report early, even if imprecise"
+                  },
+                  "points": {
+                    "en": [
+                      "Early, urgent reporting can pressure governments and aid organisations to send help faster to remote areas.",
+                      "Waiting for perfect confirmation in a disaster like this could mean waiting weeks, by which point rescue windows have closed.",
+                      "People affected and their families deserve to know the scale of the crisis as soon as possible, even with caveats attached."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmed figures"
+                  },
+                  "points": {
+                    "en": [
+                      "Reporting inflated or unconfirmed numbers can cause unnecessary panic and spread misinformation that's hard to correct later.",
+                      "Repeated corrections to death tolls erode public trust in news organisations over time.",
+                      "Resources for verification exist for a reason, and skipping them risks distorting how the world responds to the disaster."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should communities and companies be required to abandon high-risk glacial valleys — even hydropower sites that supply electricity to millions — rather than rebuild after floods like this one?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, relocate away from the risk"
+                  },
+                  "points": {
+                    "en": [
+                      "Climate change is making glacial lake floods more frequent, so the danger to these valleys is only going to grow.",
+                      "No amount of construction can fully protect people from a wall of water and ice moving at flood speed through a narrow valley.",
+                      "Continuing to build and live in these zones guarantees repeat disasters and repeat loss of life."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't force relocation"
+                  },
+                  "points": {
+                    "en": [
+                      "These valleys often provide the only viable land for farming, housing or power generation in mountainous regions, and relocation isn't simple or cheap.",
+                      "The exact timing and location of the next glacial flood is unpredictable, so it's hard to justify uprooting entire communities based on risk alone.",
+                      "Hydropower in these valleys often powers homes and businesses far beyond the immediate area, and abandoning sites has real economic costs for whole regions."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "Nancy Grace Roman Space Telescope Launches Successfully",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/08/30/science/nancy-grace-roman-space-telescope-launch"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "NASA's Nancy Grace Roman Telescope Launches to Space"
+          },
+          "summary": {
+            "en": "Scientific American explains in more depth what dark matter and dark energy are and why Roman's wide-field design makes it uniquely suited to studying them."
+          },
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/nasas-nancy-grace-roman-telescope-launches-to-space/"
+        },
+        {
+          "title": {
+            "en": "NASA Launches Nancy Grace Roman Space Telescope"
+          },
+          "summary": {
+            "en": "CBC's account adds detail on the telescope's namesake and how the mission fits into NASA's broader astrophysics program alongside Hubble and Webb."
+          },
+          "publisher": "CBC",
+          "url": "https://www.cbc.ca/news/world/nasa-launches-nancy-grace-roman-space-telescope-9.7326011"
+        }
+      ],
+      "further": [],
+      "videos": [
+        {
+          "title": "Nancy Grace Roman Space Telescope Prelaunch News Conference",
+          "channel": "NASA",
+          "url": "https://www.youtube.com/watch?v=l5OJk1FuEKg",
+          "summary": {
+            "en": "NASA officials and scientists brief reporters on the telescope's mission and what to expect from the launch, recorded the day before liftoff."
+          }
+        }
+      ],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Telescope the Size of a Bus Just Blasted Off to Hunt for the Universe's Invisible Stuff"
+          },
+          "hook": {
+            "en": "Early this morning, a rocket lifted off from Florida carrying a brand-new space telescope called Roman. It is about the size of a tour bus and cost around $4 billion to build. Its job is to search for two of the biggest mysteries in science: dark matter and dark energy."
+          },
+          "story": {
+            "en": [
+              "At 7:26 in the morning, a huge SpaceX rocket called Falcon Heavy roared off the launch pad. Strapped inside was NASA's newest space telescope, named Roman.",
+              "Roman is about as big as a tour bus and weighs as much as four minivans put together. It cost about $4 billion to build. That is so much money that if you spent one dollar every single second, it would take you about 127 years to spend it all.",
+              "Roman is named after Nancy Grace Roman, the first person to lead science at NASA and someone who helped get the famous Hubble telescope built. Roman's new telescope can scan huge patches of sky much faster than Hubble ever could.",
+              "Its target is dark matter and dark energy, two invisible things scientists think make up almost all of the universe. Imagine the universe is a cake, and everything we can see with our eyes, stars, planets, people, is just the icing on top. Roman is now on a million-mile trip, farther than flying around the entire Earth forty times, to reach the spot in space where it will work for years to come."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Every time you look up at the night sky, you are seeing only a tiny sliver of what is really out there. Roman is trying to answer a question scientists still cannot solve: what is most of the universe actually made of? It also shows that the person who leads a huge space mission does not have to fit any one picture of a scientist, since Roman is named after a woman who broke new ground at NASA decades ago."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "dark matter"
+              },
+              "def": {
+                "en": "An invisible kind of material that scientists believe is spread through space and pulls on things with gravity, even though nobody has ever actually seen it."
+              }
+            },
+            {
+              "term": {
+                "en": "dark energy"
+              },
+              "def": {
+                "en": "A mysterious force that seems to be pushing the entire universe to expand faster and faster, and scientists still do not know what it really is."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is spending $4 billion on a telescope like Roman worth it, even though that same money could help people on Earth right now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Learning about the universe helps us understand where everything, including us, actually came from.",
+                      "Space missions often lead to new inventions that end up helping everyday life, like better cameras and materials.",
+                      "Once it's built, a telescope like Roman keeps sending back new discoveries for many years, so its value keeps growing over time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "That same amount of money could build many schools and hospitals or feed hungry people right now.",
+                      "Dark matter and dark energy are such deep mysteries that scientists might not get clear answers for a very long time.",
+                      "People who need help today cannot wait years for scientists to maybe solve a puzzle in outer space."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should huge space missions be named after one person, like Nancy Grace Roman, instead of a name that just describes what they do?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Name it after a person"
+                  },
+                  "points": {
+                    "en": [
+                      "It celebrates real scientists whose hard work often goes unnoticed, like Nancy Grace Roman's role in building Hubble.",
+                      "It can inspire kids, especially girls, to imagine themselves becoming scientists too.",
+                      "A person's story is easier to remember and feel proud of than a technical, descriptive name."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Give it a descriptive name"
+                  },
+                  "points": {
+                    "en": [
+                      "A name describing the telescope's job, like 'the dark energy telescope,' helps everyone understand its purpose right away.",
+                      "Picking one person to honor out of the many scientists who worked on it might feel unfair to the rest of the team.",
+                      "A descriptive name never needs explaining, even to people who have never heard of the person it might otherwise be named after."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A New Telescope Blasts Off to Hunt for the Universe's Missing 95 Percent"
+          },
+          "hook": {
+            "en": "Early this morning, a NASA space telescope the size of a tour bus rocketed off a Florida launch pad on top of a SpaceX Falcon Heavy rocket. Named the Nancy Grace Roman Space Telescope, it's now on a million-mile trip to a permanent post in space, where it will spend years trying to pin down two of the biggest mysteries in physics: dark matter and dark energy. The mission cost roughly $4 billion, making it one of NASA's largest astronomy investments in years."
+          },
+          "story": {
+            "en": [
+              "At 7:26 a.m. Eastern Time, a rocket carrying an 18,000-pound telescope lifted off the launch pad. That's roughly the weight of two loaded school buses, and about the physical size of one too. The rocket, a Falcon Heavy built by SpaceX, is one of the most powerful launch vehicles flying today, and it needed all of that power to send something this heavy on a journey of about a million miles — roughly four times farther than the Moon.",
+              "The telescope's real job starts once it arrives. Scientists have known for decades that the matter we can actually see — stars, planets, gas, everything that gives off or reflects light — makes up only a small slice of everything in the universe. The rest is split between two things nobody has ever directly observed: dark matter, an invisible substance that seems to hold galaxies together through gravity, and dark energy, a mysterious force that appears to be pushing the universe to expand faster and faster over time. Together, these two unknowns are thought to account for roughly 95 percent of everything that exists, which means most of the universe is, quite literally, a mystery scientists are still trying to name.",
+              "Roman isn't the first telescope built to study space, but it's designed to do something existing telescopes can't do well: cover enormous amounts of sky quickly. The Hubble Space Telescope, still operating after more than three decades, produces incredibly detailed images but of small patches of sky at a time — like photographing a crowd one face at a time. Roman is built with a much wider field of view, letting it photograph patches of sky about 100 times larger than Hubble can in a single shot. That means scientists can map the large-scale structure of the universe — how galaxies and dark matter are distributed across huge volumes of space — in a way that was never practical before.",
+              "The telescope's name honors Nancy Grace Roman, who became NASA's first chief astronomer in the 1960s, back when the idea of putting a telescope in space at all was still a hard sell inside the agency. She was one of the key people who pushed for and helped design what eventually became the Hubble Space Telescope, a project that reshaped modern astronomy. Naming this new mission after her is a nod to the fact that a single mission's usefulness often outlives its own generation of scientists — Hubble launched in 1990 and is still producing discoveries today.",
+              "Getting a mission like this into orbit required years of coordination between NASA, which designed and paid for the science instruments, and SpaceX, which built and flew the rocket. That kind of partnership between a government agency and a private company has become the normal way NASA gets large payloads into space now, a shift from the decades when NASA mostly built and flew its own rockets."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This telescope won't change anything about your daily life directly, but it's a bet that understanding the universe's most basic rules — what it's made of, how it's expanding — is worth years of work and billions of dollars before anyone knows what the answer will be. It's also a reminder that huge questions in science often take huge, slow-moving projects: Roman was in development for over a decade before this morning's launch, and its own results will take years to arrive."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Dark matter"
+              },
+              "def": {
+                "en": "An invisible substance that scientists believe makes up most of the material in the universe, detected only by its gravitational pull on stars and galaxies, never by light."
+              }
+            },
+            {
+              "term": {
+                "en": "Dark energy"
+              },
+              "def": {
+                "en": "An unexplained force that seems to be causing the universe to expand at an ever-increasing speed."
+              }
+            },
+            {
+              "term": {
+                "en": "Falcon Heavy"
+              },
+              "def": {
+                "en": "A powerful, reusable rocket built by SpaceX, used here to launch a heavy scientific spacecraft far beyond Earth's orbit."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is spending about $4 billion on a telescope to study dark matter and dark energy worth it, when that money could address problems here on Earth right now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Basic research into fundamental physics has a long history of producing unexpected technologies, from GPS to medical imaging, that came out of space science decades later.",
+                      "Understanding the fundamental nature of the universe is the kind of long-term knowledge investment that pays off across generations, not within a single budget year.",
+                      "Spread over the many years it takes to build and run a mission like this, $4 billion is a small fraction of what governments spend overall, relative to how much it advances an entire field of science."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the money should go elsewhere"
+                  },
+                  "points": {
+                    "en": [
+                      "$4 billion could fund a significant amount of direct help — hospitals, schools, disaster relief — for people facing urgent problems today.",
+                      "Studying dark matter and dark energy has no guaranteed practical payoff, unlike direct investment in health, housing, or infrastructure.",
+                      "Government science budgets aren't unlimited, so every dollar spent chasing an abstract physics question is a dollar not spent on a more immediate priority."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a private company like SpaceX play such a central role in launching government science missions like this one?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it makes sense"
+                  },
+                  "points": {
+                    "en": [
+                      "Private launch companies have driven down the cost and improved the reliability of getting things into space faster than government-run rocket programs did on their own.",
+                      "Relying on a private launch provider lets NASA put its money and expertise into the science instruments themselves rather than building rockets from scratch.",
+                      "Competition among private companies for launch contracts creates pressure to innovate, which benefits public missions that depend on that progress."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's risky to rely on private companies"
+                  },
+                  "points": {
+                    "en": [
+                      "It makes critical, publicly funded science missions dependent on the priorities and financial health of a company the public doesn't control.",
+                      "If a company changes its plans, raises its prices, or runs into business trouble, government missions with fixed budgets have limited ability to push back.",
+                      "Concentrating more of the national space program in one dominant private company hands significant control over a shared public resource to a single firm."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
