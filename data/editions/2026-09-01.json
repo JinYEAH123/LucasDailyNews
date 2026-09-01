@@ -1,0 +1,802 @@
+{
+  "date": "2026-09-01",
+  "window": {
+    "start": "2026-08-31T12:00:00-07:00",
+    "end": "2026-09-01T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-01T12:23:09-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "US Launches New Round of Iran Strikes as Strait Tensions Grow",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-01/us-launches-new-round-of-iran-strikes-as-strait-tensions-grow"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US Strikes Iran After New Hormuz Strait Shipping Attacks, CENTCOM Says"
+          },
+          "summary": {
+            "en": "This account lays out CENTCOM's own description of why it struck and what preceded it, including the tanker attacks. It's useful for readers who want the US military's stated rationale in more detail."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
+        },
+        {
+          "title": {
+            "en": "Hormuz, CENTCOM, and Trump's Iran Calculus"
+          },
+          "summary": {
+            "en": "Axios explains how the Trump administration's broader approach to Iran shaped the decision to strike now, adding political context missing from the bare wire report.\n"
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/01/hormuz-centcom-strikes-trump-iran"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran: Two Oil Tankers Struck in Strait of Hormuz"
+          },
+          "summary": {
+            "en": "This piece goes deeper on the tanker attacks themselves — vessel names, flag states, and damage — that triggered the US strikes.\n"
+          },
+          "publisher": "UPI",
+          "url": "https://www.upi.com/Top_News/World-News/2026/09/01/iran-two-oil-tankers-struck-strait-of-hormuz/7601788274469/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "US Warplanes Strike Iran After Mystery Attacks on Oil Ships"
+          },
+          "hook": {
+            "en": "On September 1st, the United States military launched missile strikes against military bases inside Iran. This happened just hours after two huge oil ships were hit by mystery weapons in a narrow strip of ocean called the Strait of Hormuz. Nobody has said for certain who fired on the ships. Right after the news, oil prices and stock markets jumped around the world."
+          },
+          "story": {
+            "en": [
+              "The Strait of Hormuz is a narrow gap of ocean between Iran and its neighbors. It's so tight that from one side, you can almost see land on the other. About one-fifth of all the oil the whole world uses each day travels through this one small stretch of water, carried on huge ships called tankers.",
+              "On September 1st, two of those tankers — one flying Saudi Arabia's flag, one flying South Korea's — were struck by unknown weapons while sailing through the strait. Hours later, the US military said it hit bases belonging to Iran's Revolutionary Guard, a powerful branch of Iran's armed forces.",
+              "This wasn't the first clash. Two days earlier, on August 30th, the US and Iran had already fired missiles at each other near an island called Larak. Each new strike seems to lead to another, like two people who keep pushing back a little harder each time.",
+              "Right now, nobody outside the militaries involved knows for certain who attacked the two tankers. Iran has not yet said anything publicly about this newest round of US strikes."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When ships can't safely pass through the Strait of Hormuz, oil becomes harder and more expensive to move around the world. That can mean higher prices for the gas that goes in cars, and for many other things people buy, even for families who live nowhere near Iran or these ships."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow strip of ocean between Iran and its neighboring countries, so tight that a huge share of the world's oil ships must squeeze through it."
+              }
+            },
+            {
+              "term": {
+                "en": "Revolutionary Guard"
+              },
+              "def": {
+                "en": "A powerful part of Iran's military, separate from its regular army, that answers directly to Iran's top leaders."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If you're attacked but don't know for certain who did it, is it fair to strike back right away?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Strike back now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting too long could let the attacker strike again and hurt even more people.",
+                      "Showing strength quickly can stop others from testing you further.",
+                      "Protecting your own people and ships matters more than waiting for perfect proof."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for proof first"
+                  },
+                  "points": {
+                    "en": [
+                      "Striking the wrong target could hurt people who did nothing wrong.",
+                      "Acting too fast can turn a small clash into a much bigger war.",
+                      "Once a strike happens, you can't take it back if you were wrong."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that families far away end up paying more for gas and goods because of a fight over ships they've never seen?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "That's just how a connected world works"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone who uses oil is sharing a risk that always existed with this route.",
+                      "The world's economies are built together, so a shock in one place naturally reaches everywhere else.",
+                      "No single family caused the problem, so there's no one to blame — it's simply how shared systems work."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It isn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Ordinary families never chose this conflict and have no power to stop it.",
+                      "People who've never heard of the countries involved still have to pay more at the pump.",
+                      "The people who caused the fight are not the ones who feel the highest costs — regular families are."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US Strikes Iranian Military Targets After Tankers Hit in Vital Oil Passage"
+          },
+          "hook": {
+            "en": "On September 1, the United States military said it struck sites belonging to Iran's Revolutionary Guard, just hours after two oil tankers were hit by unidentified projectiles in the Strait of Hormuz, a narrow waterway that carries roughly a fifth of the world's oil. It is the second clash between US and Iranian forces in three days. Oil prices and stock markets jumped as investors tried to work out whether this was a one-off flare-up or the start of something bigger. As of now, no one has confirmed who fired on the tankers, and Iran has not publicly responded to the new US strikes."
+          },
+          "story": {
+            "en": [
+              "US Central Command, the part of the US military responsible for operations across the Middle East, announced that it launched strikes at noon Eastern time on September 1 against targets belonging to Iran's Islamic Revolutionary Guard Corps inside Iran. The Guard is not Iran's regular army — it is a separate, more ideologically loyal military and political force that answers directly to Iran's supreme leader and controls significant chunks of the country's economy and security apparatus. The US said the strikes came in response to new attacks on shipping, attributed to forces linked to Iran, in the Strait of Hormuz.",
+              "That timing matters. Only hours before the US strikes, two oil tankers — one flagged to Saudi Arabia, one to South Korea — were hit by unidentified projectiles while passing through the strait, a stretch of water barely 33 kilometres wide at its narrowest point, squeezed between Iran and the Arabian Peninsula. Roughly a fifth of all the oil shipped by sea in the world passes through this single channel, which makes it one of the most economically sensitive stretches of water on the planet. A ship doesn't need to be destroyed to cause chaos here — one damaged tanker, or even the fear of another attack, is enough to make shipping companies reroute or pause, which ripples through oil supply everywhere.",
+              "This isn't the first exchange. Two days earlier, on August 30, US and Iranian forces had already traded missile fire near Larak Island, inside Iranian territorial waters near the same strait. Taken together, the two incidents look less like an isolated accident and more like a pattern — each side responding to the last provocation with something slightly larger, a dynamic sometimes called an escalation ladder, where neither side wants to be the one that backs down first.",
+              "What remains genuinely unclear is who actually fired on the tankers. US officials have attributed the attack to forces linked to Iran, but Iran itself has not claimed responsibility, and independent confirmation is difficult to get in a warzone-adjacent stretch of ocean where multiple armed groups, some aligned with Iran and some not, operate. Iran has also not yet issued a public response to the fresh US strikes on its territory, leaving open the question of whether it will retaliate, negotiate, or downplay the episode.",
+              "Financial markets reacted immediately and sharply. Oil prices spiked, because traders price in the risk that a wider conflict could disrupt supply through Hormuz for weeks or months, not just hours. Stock markets around the world also moved, since higher oil prices raise costs for airlines, shipping firms, and manufacturers everywhere, and investors dislike the uncertainty of a conflict whose next move is hard to predict.",
+              "Where this goes next depends on choices neither government has yet announced publicly. A quiet de-escalation is possible if both sides judge the cost of further fighting too high. So is a harder retaliation from Iran, given that its territory has now been struck twice in less than a week. For now, the story is less about who has won an exchange and more about whether a chokepoint the whole world depends on stays open."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When a fifth of the world's shipped oil moves through one narrow strait, trouble there shows up quickly in prices that have nothing to do with geography — the cost of filling a car, heating a home, or shipping anything by sea can rise within days. It's also a reminder that wars far from home can reach into ordinary budgets faster than almost any other kind of news event."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Islamic Revolutionary Guard Corps (IRGC)"
+              },
+              "def": {
+                "en": "A powerful Iranian military and political force, separate from Iran's regular army, that answers directly to the country's supreme leader."
+              }
+            },
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula through which about a fifth of the world's seaborne oil travels."
+              }
+            },
+            {
+              "term": {
+                "en": "US Central Command (CENTCOM)"
+              },
+              "def": {
+                "en": "The branch of the US military responsible for operations across the Middle East and surrounding region."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When it's not yet clear who attacked, is it right to strike back anyway?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Respond now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting for perfect proof can let attackers act again while investigators are still working.",
+                      "A fast, visible response can deter further attacks on ships and sailors right away.",
+                      "Allies and shipping companies need reassurance in days, not after a lengthy inquiry concludes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for clarity"
+                  },
+                  "points": {
+                    "en": [
+                      "Striking the wrong target or the wrong actor can turn a local incident into a much larger war.",
+                      "Attacks in murky, multi-actor conflict zones can be staged or misattributed by parties who want to provoke exactly this kind of response.",
+                      "Military action can't be undone once taken, while a short delay to confirm facts costs comparatively little."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should powerful countries use their militaries to protect global trade routes like the Strait of Hormuz, or should that be left to diplomacy?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Military protection"
+                  },
+                  "points": {
+                    "en": [
+                      "Naval power can deter attacks that would otherwise damage economies far beyond the region.",
+                      "Chokepoints left unprotected have historically invited piracy and aggression that harm everyone who depends on them.",
+                      "When tankers are actually being hit, diplomacy is too slow to stop the immediate damage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Diplomatic alternative"
+                  },
+                  "points": {
+                    "en": [
+                      "A heavy foreign military presence can itself provoke the very tensions it claims to prevent.",
+                      "Decades of foreign forces in the region have fed long-term resentment that makes conflict more, not less, likely.",
+                      "Shared multinational patrols or shipping agreements could keep the route open without one country acting as the world's police force."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "House Votes to Fund Government Through December, Pushing Fight Past Midterms",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/09/01/nx-s1-5951536/house-government-funding-vote-midterms"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Congress and the Government Shutdown Fight, Explained"
+          },
+          "summary": {
+            "en": "CNN details the political stakes for both parties in delaying the funding fight until after the midterms, filling in context on why this vote mattered beyond the bare numbers.\n"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/01/politics/congress-government-shutdown-midterms"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Congress Sends Funding Bill to Avert US Shutdown to Trump"
+          },
+          "summary": {
+            "en": "Bloomberg covers the bill's next step — heading to the president's desk — and what happens if he doesn't sign it quickly.\n"
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-01/congress-sends-funding-bill-to-avert-us-shutdown-to-trump"
+        },
+        {
+          "title": {
+            "en": "Congress Government Shutdown Vote: What's In and Out of the Bill"
+          },
+          "summary": {
+            "en": "CNBC breaks down which programs got the few exceptions to flat funding, useful for readers wanting more than the headline vote count.\n"
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/01/congress-government-shutdown-vote.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America's Government Gets a 15-Week Reprieve — No Shutdown for Now"
+          },
+          "hook": {
+            "en": "The people who run the United States government almost ran out of money to pay for things like national parks and passport offices. On September 1, lawmakers voted overwhelmingly to give themselves more time — until December 11 — to sort out a bigger disagreement about spending."
+          },
+          "story": {
+            "en": [
+              "Imagine your school runs on a budget your town agrees on every year. If the town council can't agree on a new budget in time, the school might have to close its doors until they do. That is basically what almost happened to the U.S. government.",
+              "The government needs Congress — the group of elected lawmakers who make laws and control money — to approve how much it can spend. The two main political parties, Democrats and Republicans, disagree about how much to spend and on what. They were supposed to agree by September 30, but they hadn't finished the harder parts of the deal.",
+              "So instead of fighting it out right away, the House of Representatives (one half of Congress) voted 370 to 48 — a huge, rare agreement from both parties — to pass a bill that just keeps spending the same as before, for now. It's like agreeing to keep your allowance exactly the same for a few more months while your parents decide on new rules later.",
+              "The bill still needs to go to President Trump to sign before it becomes real law. If he signs it, the government is safe from shutting down until December 11. But the big, harder arguments about money haven't gone away — they've just been pushed to after November's elections."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When the U.S. government 'shuts down,' lots of everyday things stop: museums close, some workers don't get paid on time, and services people rely on freeze up. This deal means none of that will happen for a while — but the tougher fight over money is still coming, just later, after people vote in elections this fall."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Stopgap funding bill"
+              },
+              "def": {
+                "en": "A temporary agreement that keeps the government spending money the same way for a little while, so leaders have more time to make a bigger decision later."
+              }
+            },
+            {
+              "term": {
+                "en": "Government shutdown"
+              },
+              "def": {
+                "en": "When the government temporarily can't spend money because lawmakers didn't agree on a budget in time, so many government workers and services have to pause."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for lawmakers to put off a hard decision until after people have already voted in an election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair to wait"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting avoids a shutdown that would hurt regular people right now, like workers who wouldn't get paid.",
+                      "Big decisions deserve careful thought, not a rushed deal made just to beat a deadline.",
+                      "Voters will soon choose new or returning lawmakers, so it makes sense to decide big spending questions after everyone's voice is heard."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair to wait"
+                  },
+                  "points": {
+                    "en": [
+                      "Voters deserve to know what their lawmakers actually plan to do with spending before they cast their vote, not after.",
+                      "Putting off hard choices can look like lawmakers are avoiding responsibility instead of solving problems.",
+                      "Delaying the fight just moves the stress and uncertainty to December instead of solving anything now."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the government be allowed to shut down at all if leaders can't agree, or should it always be forced to keep running?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Shutdowns should be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "A shutdown is a real consequence that pushes leaders to actually compromise instead of stalling forever.",
+                      "If spending could never stop, lawmakers might never feel pressure to agree on a fair budget.",
+                      "Letting the government run forever without agreement could mean spending money nobody actually approved."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Shutdowns should never happen"
+                  },
+                  "points": {
+                    "en": [
+                      "Ordinary workers and families get hurt by a shutdown even though they had no part in the disagreement.",
+                      "Important services, like safety inspections or benefit payments, shouldn't stop just because politicians are arguing.",
+                      "There are other ways to pressure leaders to compromise that don't punish everyday people."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Congress Agrees to Disagree — Later: A Shutdown Is Averted Until December"
+          },
+          "hook": {
+            "en": "On September 1, the House of Representatives voted 370 to 48 to keep the federal government funded through December 11, sidestepping a shutdown that had been just weeks away. The bill freezes most spending at its current level rather than settling the fights over how much money different parts of government should get. It still needs the Senate and President Trump's signature to take effect, but the lopsided vote makes that step close to a formality."
+          },
+          "story": {
+            "en": [
+              "Every year, Congress is supposed to pass a set of detailed spending bills, called appropriations bills, that fund everything from the military to national parks to food safety inspectors. When lawmakers can't agree on those details in time — which happens often — they pass a stopgap called a continuing resolution, or CR, that simply extends last year's funding levels for a few more weeks or months. That's what happened here: rather than resolve their disagreements, the House voted to keep the money flowing at existing levels through December 11 and argue about the details later.",
+              "The alternative to passing a CR is a government shutdown. If funding legally runs out and no bill replaces it, large parts of the federal government have to stop operating — not because anyone wants that, but because federal agencies aren't allowed to spend money Congress hasn't approved. Hundreds of thousands of federal employees get furloughed without pay, national parks close, and government services from passport processing to small business loans slow or stop. Shutdowns don't fix anything; they just freeze the machinery until politicians reach a deal, which is usually the point — nobody in Congress wants to be blamed for causing one.",
+              "The size of the vote — 370 in favor, only 48 against — is unusual for anything involving Congress lately, and it tells you something about incentives. Both parties are heading into a midterm election this November, when every House seat and a third of the Senate is up for a vote. A shutdown right before an election is politically dangerous for whoever gets blamed for it, so lawmakers from both parties had a shared interest in defusing the immediate crisis, even though they still disagree sharply about the underlying numbers.",
+              "What the bill does not do is settle those disagreements. Republicans and Democrats remain far apart on how much to spend on defense versus domestic programs, and on a long list of policy riders — provisions attached to spending bills that have nothing to do with money but everything to do with leverage. By pushing the deadline to December 11, Congress has simply moved the fight to after the election, when lawmakers can negotiate without worrying quite as much about how a shutdown fight would play with voters in the final weeks of a campaign.",
+              "The bill now goes to President Trump, who is expected to sign it, since a veto would trigger the very shutdown the vote was designed to avoid. Once he does, the immediate crisis is over — but only until December, when Congress will face the same choice it just postponed: strike a real deal on spending, or find another way to delay the reckoning again."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you live in the US, this decision affects whether people you know who work for the federal government — from air traffic controllers to national park rangers to Social Security staff — keep getting paid on schedule through the rest of this year. It also shows a pattern worth watching: Congress increasingly manages its biggest financial disagreements by delaying them rather than resolving them, which means the same standoff is likely to return this winter."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Continuing resolution (CR)"
+              },
+              "def": {
+                "en": "A temporary law that keeps the government funded at existing levels when Congress can't agree on new, detailed spending bills in time."
+              }
+            },
+            {
+              "term": {
+                "en": "Government shutdown"
+              },
+              "def": {
+                "en": "What happens when federal funding legally expires without a replacement, forcing many government agencies to stop operating until Congress acts."
+              }
+            },
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "US elections held halfway through a president's four-year term, when the entire House and part of the Senate are up for a vote."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for Congress to keep delaying big spending fights with short-term bills, or should it be forced to resolve them fully each time?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Delay is reasonable governing"
+                  },
+                  "points": {
+                    "en": [
+                      "A temporary deal avoids immediate harm to millions of people, which matters more than settling every dispute on a rigid timeline.",
+                      "Complex disagreements over billions of dollars often need more time and political room than a hard deadline allows.",
+                      "Passing a CR keeps the government functioning while letting negotiators work out a durable compromise instead of a rushed one."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Delay is avoidance dressed as compromise"
+                  },
+                  "points": {
+                    "en": [
+                      "Repeatedly punting the same fight means it never actually gets resolved, just postponed at a cost of public uncertainty.",
+                      "Short-term funding makes it hard for agencies to plan ahead, since they don't know what their budget will look like in a few months.",
+                      "If lawmakers only act under the threat of a deadline, delaying the deadline just delays the pressure that would force a real decision."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for lawmakers to time spending fights around elections, or does that put politics ahead of governing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Timing around elections is legitimate politics"
+                  },
+                  "points": {
+                    "en": [
+                      "Elected officials are accountable to voters, so it makes sense that major decisions get shaped by what's coming up at the ballot box.",
+                      "Avoiding a shutdown during a campaign protects ordinary people from disruption caused purely by political theater.",
+                      "Every democracy's legislative calendar is inevitably influenced by election timing — that's not corruption, it's how representative government works."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Timing around elections puts politics ahead of governing"
+                  },
+                  "points": {
+                    "en": [
+                      "Scheduling hard choices to land safely after voters have already cast their ballots reduces accountability rather than reflecting it.",
+                      "Using a temporary bill mainly to avoid short-term political fallout treats governing as a scheduling problem instead of a responsibility.",
+                      "If the same unresolved fight was avoidable in September, voters deserve to know where their representatives actually stand before they vote, not after."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "G20 Finance Ministers Meet in North Carolina, Marking Russia's Return",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/09/01/g-s1-141392/g20-summit-north-carolina"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "G20 Finance Meeting: Live Updates"
+          },
+          "summary": {
+            "en": "CNBC's rolling coverage captures moment-to-moment developments from the summit floor, including reactions to Russia's presence and the Iran sanctions push.\n"
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/g20-finance-meeting-live-updates.html"
+        },
+        {
+          "title": {
+            "en": "Why Trump and Bessent Picked Asheville for the G20 Finance Meeting"
+          },
+          "summary": {
+            "en": "Axios explains the backstory behind the unusual host city choice, adding context on the region's recovery that shaped the decision months before the summit happened.\n"
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/08/19/trump-bessent-g20-finance-ministers-asheville"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Money Bosses From 20 Countries Meet — And One Guest Causes an Argument"
+          },
+          "hook": {
+            "en": "On September 1st, the top money officials from 20 of the world's biggest countries met in a small mountain town called Asheville, in the United States. A Russian official showed up in person for the first time since Russia invaded its neighbor Ukraine back in 2022. Some other countries at the meeting were angry that Russia was allowed to be there at all."
+          },
+          "story": {
+            "en": [
+              "Imagine 20 kids from 20 different classrooms getting together once in a while to decide big rules for the whole school — like how much lunch money everyone should have. That's kind of what the G20 is, except it's the finance ministers and bank bosses of the 20 biggest countries in the world, deciding things about money for the whole planet.",
+              "This time they met in Asheville, a town in the mountains of North Carolina that is still fixing itself up after a bad storm. The United States picked Asheville partly to show the world the town is recovering.",
+              "A Russian representative sat at the table in person for the first time since Russia invaded Ukraine three years ago. European countries, who support Ukraine, were upset. They think Russia shouldn't get to act normal at these meetings while the war continues.",
+              "The top American money official, Scott Bessent, used his turn to ask everyone to squeeze Iran's money even harder, using tools called sanctions. This came on a day when tensions between the US and Iran were already running high."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When big countries argue about who gets a seat at money meetings, it can affect things you don't even notice — like how much gas costs for your family's car, or how much a toy shipped from another country costs at the store. These meetings are where countries try to agree on rules, and when they can't agree, prices and trade can get bumpier for everyone."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "G20"
+              },
+              "def": {
+                "en": "A group made up of officials from the 20 largest economies in the world who meet to talk about money and trade."
+              }
+            },
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Rules one country puts on another to block money, trade, or travel, usually as a punishment or pressure tactic."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should Russia be allowed to sit at the table with other countries after invading Ukraine?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let them stay"
+                  },
+                  "points": {
+                    "en": [
+                      "If countries never talk to each other, problems are much harder to ever fix.",
+                      "Kicking a country out completely can make its leaders angrier instead of more careful.",
+                      "The world's money problems, like high prices, affect everyone, so everyone needs to be part of the conversation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they shouldn't be there"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting Russia act normal at meetings might make the invasion seem less serious than it is.",
+                      "It could feel unfair to Ukraine and its friends to see Russia treated like nothing happened.",
+                      "Other countries broke rules and lost invitations before; this could look like there are no real consequences."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should countries use money rules like sanctions to punish other countries, such as Iran?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, use sanctions"
+                  },
+                  "points": {
+                    "en": [
+                      "Sanctions can pressure a government to change its behavior without anyone going to war.",
+                      "They show that actions have consequences, even for powerful countries.",
+                      "Working together with allies makes the pressure stronger than any one country acting alone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, avoid sanctions"
+                  },
+                  "points": {
+                    "en": [
+                      "Sanctions often hurt regular families the most, not just the leaders they're aimed at.",
+                      "They can make everyday things like food and medicine harder to get for people who had nothing to do with the decision.",
+                      "Sometimes sanctions don't actually change what a government decides to do, so they cause pain without solving the problem."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Russia Returns to the World's Top Economic Table — and Not Everyone Is Happy"
+          },
+          "hook": {
+            "en": "On September 1, finance ministers and central bank chiefs from the world's twenty largest economies met in Asheville, North Carolina. For the first time since Russia invaded Ukraine in 2022, a Russian official sat at that table in person — and several European ministers made clear, on the spot, that they were not pleased about it."
+          },
+          "story": {
+            "en": [
+              "The G20 is a club of the world's biggest economies — the United States, China, Germany, Brazil, India, and sixteen others — whose finance ministers and central bank governors meet several times a year to coordinate on things like trade, debt, and financial stability. Since Russia invaded Ukraine in 2022, Western members of the group have mostly frozen Russia out of these gatherings, either skipping meetings Russia attended or leaving the room when Russian officials spoke. This time was different: a Russian representative showed up in person in Asheville, and stayed.",
+              "That single fact became the story. European ministers in attendance protested Russia's presence, a reminder that the war is still shaping who gets treated as a normal member of the international economic system and who doesn't. Nothing was resolved by the protest — Russia remains a G20 member on paper, and there's no formal mechanism to expel a country from the group — but the moment mattered symbolically. Diplomacy runs partly on symbols like this: who sits where, who shakes whose hand, who gets frozen out. A Russian official quietly taking a seat again is a small sign that some countries are drifting back toward treating Russia as a normal participant in global finance, even as the war grinds on.",
+              "The meeting had a second thread entirely. US Treasury Secretary Scott Bessent — the official in charge of America's finances and a key voice on economic sanctions — used his time at the summit to push other G20 members to tighten sanctions on Iran. Sanctions are economic penalties, like blocking a country from using certain banks or selling certain goods abroad, designed to pressure a government without going to war. Bessent's timing wasn't a coincidence: he made the push on a day when US-Iran tensions were already running hot over other issues. He was essentially trying to convert a room full of finance officials, gathered to talk about interest rates and debt, into a coalition against Tehran.",
+              "Even the location carried a story. Asheville was hit hard by flooding from Hurricane Helene less than a year earlier, and hosting the G20 finance meeting there was, according to earlier reporting, partly a deliberate choice tied to the region's recovery — a way of putting an international spotlight, and international money and attention, on a city still rebuilding.",
+              "None of these threads — Russia's return, the Iran sanctions push, the choice of host city — was really about the meeting's official agenda, which is usually dry stuff like global debt levels and bank regulation. But that's often how these summits work: the formal topic is a backdrop, and the real news is in who showed up, who complained, and what side deals got pitched in the hallway."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions like these ripple into ordinary life: sanctions can raise prices on everyday goods that depend on global supply chains, and how countries treat Russia now shapes how long the war in Ukraine — and the economic disruption it's caused everywhere, including energy prices — might continue. Even if you never think about the G20, the arguments happening in that room decide things like how expensive gas is or which countries your country trades freely with."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "G20"
+              },
+              "def": {
+                "en": "A group of nineteen countries plus the European Union, representing most of the world's largest economies, whose leaders and finance officials meet to coordinate on global economic issues."
+              }
+            },
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Economic penalties, like blocking trade or banking access, that one country or group of countries imposes on another to pressure its government without military action."
+              }
+            },
+            {
+              "term": {
+                "en": "Treasury Secretary"
+              },
+              "def": {
+                "en": "The US government official in charge of the country's finances, including tax policy, government debt, and economic sanctions."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should Russia be welcomed back into normal international economic meetings while the war in Ukraine continues?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep the door open"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting a major economy off entirely doesn't stop a war — it mainly hurts ordinary Russians and countries that trade with Russia.",
+                      "Keeping communication channels open, even limited ones, makes it easier to eventually negotiate an end to the conflict.",
+                      "Isolating Russia pushes it closer to China and other non-Western economies, reducing the West's ability to influence its behavior at all."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, isolation should continue"
+                  },
+                  "points": {
+                    "en": [
+                      "Treating Russia as a normal economic partner while it continues an active war sends the message that invasions carry no lasting cost.",
+                      "Solidarity with Ukraine requires consistent pressure, and welcoming Russia back undercuts that pressure right when it matters most.",
+                      "Every symbolic step back toward normalcy makes the next one easier, gradually eroding sanctions that took years to build."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US use meetings like the G20 to pressure allies into adopting its own sanctions strategy against countries like Iran?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, coordinated pressure works better"
+                  },
+                  "points": {
+                    "en": [
+                      "Sanctions are far more effective when many countries apply them together, since a target can otherwise just trade with whoever opts out.",
+                      "The US has intelligence and leverage that can help build a stronger, more unified case against a specific threat.",
+                      "Waiting for every country to independently agree wastes time on urgent security issues."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, sanctions policy should stay national"
+                  },
+                  "points": {
+                    "en": [
+                      "Each country has its own relationship with Iran and its own reasons for its current policy, which shouldn't be overridden by another nation's priorities.",
+                      "Using an economic summit to push a political and military agenda blurs the G20's purpose and can make other members distrust future meetings.",
+                      "Countries that feel pressured rather than persuaded are less likely to enforce sanctions seriously, making the coalition weaker in practice."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
