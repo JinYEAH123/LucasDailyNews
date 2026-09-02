@@ -1,0 +1,769 @@
+{
+  "date": "2026-09-02",
+  "window": {
+    "start": "2026-09-01T12:00:00-07:00",
+    "end": "2026-09-02T12:00:00-07:00",
+    "label": {
+      "en": "News from Tuesday 12:00 PM to Wednesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-02T12:24:08-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "US Strikes Iran After New Hormuz Strait Shipping Attacks",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/01/us-strikes-iran-after-new-hormuz-strait-shipping-attacks-centcom.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US Military Strikes Iran"
+          },
+          "summary": {
+            "en": "CNN's rolling account of the strikes adds detail on the specific IRGC sites targeted and the US military's official justification. It's useful for readers wanting the Pentagon's framing of the operation beyond Trump's own statements."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/01/middleeast/us-military-strikes-iran"
+        },
+        {
+          "title": {
+            "en": "Iran Tankers Hormuz Attacks Oil"
+          },
+          "summary": {
+            "en": "Axios examines how the tanker strikes in the Strait of Hormuz are already affecting oil markets and shipping insurance rates. It fills in the economic stakes behind a purely military story."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "US Warplanes Hit Iran Again After Ships Attacked in a Busy Sea Passage"
+          },
+          "hook": {
+            "en": "On Tuesday and Wednesday, American warplanes struck military sites inside Iran, a country in the Middle East. The US says it did this because Iran tried to place mines in the water and fired missiles at a US base. Two oil ships were also hit in a narrow strip of sea called the Strait of Hormuz. This came after almost a month where both sides had stopped fighting."
+          },
+          "story": {
+            "en": [
+              "American planes hit several places inside Iran this week. They struck radar stations that watch the sky, equipment used to lay mines in the sea, and buildings used for military communication. President Trump called the strikes \"large and powerful.\"",
+              "The US says Iran tried to drop mines into the Strait of Hormuz. This is a narrow stretch of water where about one-fifth of all the oil ships in the world sail through every single day. Two oil tankers were hit there this week, either by mines or by something fired at them.",
+              "Iran also fired missiles at a US base in a country called Jordan. The US strikes were meant to answer both that missile attack and the mine plan. Iran's own TV channels say one US strike hit a wedding, killing several people, including a child. No outside news source has been able to check if that is true, so right now nobody outside Iran's government knows for certain.",
+              "The two countries had paused fighting for almost a month before this new round started. People who study world events worry this back-and-forth could grow into something bigger, and that it could make oil more expensive everywhere."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil doesn't just power cars — it's used to make plastic, medicine, and even the fabric in your clothes. When fighting happens near a place where so much of the world's oil travels, prices for gas and everyday things can go up almost everywhere, including in your town. It's also a reminder that when countries argue, ordinary people — like the wedding guests in Iran — can end up caught in the middle."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "air strike"
+              },
+              "def": {
+                "en": "An air strike is when warplanes drop bombs or fire weapons at a target from the sky."
+              }
+            },
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "The Strait of Hormuz is a narrow strip of sea between Iran and other countries where a huge share of the world's oil ships must pass through to reach the ocean."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a country attacks first, is it fair for another country to strike back hard, the way the US did?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, striking back was fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone attacks you first, it's fair to defend yourself strongly so it doesn't happen again.",
+                      "The mines and missiles could have hurt many innocent people, so a strong reply might stop future attacks.",
+                      "If nobody responds, the attacker might think they can keep attacking without any consequences."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, striking back that hard was not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Answering an attack with a bigger attack often just leads to even more fighting later.",
+                      "Innocent people, like the wedding guests Iran says were hit, can get hurt when strikes happen.",
+                      "There might have been other ways to solve the problem, like talking or using economic pressure instead of bombs."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a claim can't be checked, like the wedding hall story, should people share it anyway?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, share it right away"
+                  },
+                  "points": {
+                    "en": [
+                      "People deserve to hear about possible tragedies quickly, even before every detail is proven.",
+                      "If the claim turns out to be true, waiting to share it means people found out later than they should have.",
+                      "Speaking up early can pressure someone to properly investigate what really happened."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until it's checked"
+                  },
+                  "points": {
+                    "en": [
+                      "Sharing unproven claims can create fear or anger about something that might not even be true.",
+                      "One side in a fight might exaggerate or invent claims to make the other side look bad.",
+                      "If the claim turns out false after spreading widely, people trust the news less afterward, which hurts everyone."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US Strikes Iran Again After Sea Mines and Missiles Break a Month-Long Truce"
+          },
+          "hook": {
+            "en": "Overnight Tuesday into Wednesday, the US military hit military sites inside Iran belonging to the Islamic Revolutionary Guard Corps, a branch of Iran's armed forces separate from its regular army. The strikes followed Iran's attempt to plant sea mines in the Strait of Hormuz, a narrow waterway that carries roughly a fifth of the world's daily oil supply, and an Iranian missile attack on a US base in Jordan. President Trump called the strikes \"large and powerful\" in a social media post, describing them as payback for both incidents."
+          },
+          "story": {
+            "en": [
+              "The exchange ended nearly a month of relative quiet between the two countries. US forces targeted air-defense radar systems, equipment Iran uses to lay sea mines, and communications facilities tied to the Revolutionary Guard, an organization that runs its own navy, missile programs, and intelligence operations separate from Iran's conventional military. The US framed the strikes as a direct response to two things: Iran trying to seed the Strait of Hormuz with mines, and an Iranian missile strike on an American base in Jordan.",
+              "The Strait of Hormuz matters here because of geography, not politics. It is barely 33 kilometers wide at its narrowest point, and nearly every ship carrying oil out of the Persian Gulf has to pass through it. Mining that waterway is not a symbolic gesture — it is a way to threaten the flow of oil to the rest of the world without necessarily sinking a single ship, since the mere presence of mines makes shipping companies reroute or pay far more for insurance. During this latest flare-up, at least two commercial oil tankers were hit by projectiles or mines while passing through the strait, which is the kind of incident that immediately moves global oil prices.",
+              "Alongside the military strikes, the US has been running a separate economic pressure campaign against Iran, led by Treasury Secretary Scott Bessent. This is a strategy of sanctions — legal restrictions that block a country's access to international banking, trade, or specific goods — aimed at limiting the money Iran's government can raise and spend, including on its military programs. Washington is essentially fighting on two fronts at once: bombing military infrastructure while trying to choke off the funding that rebuilds it.",
+              "Iranian state media outlets, Press TV and Fars, reported that one of the US strikes hit a wedding hall, killing several people, including a child. No independent, Western news organization has verified this claim, and it is currently supported only by outlets that operate under the direction of Iran's government. That does not automatically make the claim false — governments do sometimes report real civilian harm caused by an adversary — but it does mean the claim should be read as one side's account until other sources can confirm or deny it.",
+              "Analysts tracking the standoff warn that this pattern of strike, pause, and counter-strike could tip into something larger and harder to contain. A wider conflict in the Gulf region would not stay contained to Iran and the US; it would very likely disrupt oil shipments through Hormuz for weeks or months, and global oil markets react to that kind of uncertainty almost instantly, regardless of how much oil is actually lost."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When shipping through the Strait of Hormuz gets disrupted, oil prices tend to rise within days, and that shows up at the gas pump and in the price of anything that gets shipped by truck or plane — which is most things. A conflict thousands of kilometers away can still reach into a family's monthly budget faster than almost any other kind of news event."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IRGC (Islamic Revolutionary Guard Corps)"
+              },
+              "def": {
+                "en": "A branch of Iran's armed forces, separate from its regular military, that runs its own navy, missile programs, and intelligence operations."
+              }
+            },
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula through which about a fifth of the world's oil shipments travel each day."
+              }
+            },
+            {
+              "term": {
+                "en": "economic pressure campaign (sanctions)"
+              },
+              "def": {
+                "en": "A strategy of blocking a country's access to international banking and trade in order to limit the money its government can raise and spend."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was the US right to respond to Iran's mine-laying and missile attack with fresh strikes inside Iran?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the response was justified"
+                  },
+                  "points": {
+                    "en": [
+                      "A country that fires missiles at a foreign military base and tries to mine an international shipping lane has already escalated the conflict, and failing to respond risks signaling that such attacks carry no cost.",
+                      "Striking specific military infrastructure — radar, mine-laying equipment, communications sites — is a more targeted response than a broader war, aimed at reducing Iran's ability to repeat the attack rather than simply punishing it.",
+                      "Allowing the Strait of Hormuz to remain mined or threatened would put global oil supplies and the safety of commercial sailors at ongoing risk, which affects far more people than the two countries directly involved."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the response risks a wider war"
+                  },
+                  "points": {
+                    "en": [
+                      "Strikes and counter-strikes have a history of escalating rather than resolving — each side sees itself as retaliating for the last attack, and there is no guarantee this cycle stops with America\\u2019s satisfaction rather than Iran\\u2019s next move.",
+                      "A month-long pause was already in place before this exchange, suggesting a path to de-escalation existed and was chosen against in favor of further military action.",
+                      "The disputed civilian casualty claim, even if unverified, points to the real risk that strikes inside a country's territory will kill people who had nothing to do with the mine-laying or the missile attack, and that risk grows the longer the exchange continues."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should news organizations report claims from a government's own state media, like Iran's account of the wedding hall strike, even when they cannot be independently verified?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, report it clearly labeled"
+                  },
+                  "points": {
+                    "en": [
+                      "If civilians really were killed, ignoring the claim entirely means readers never learn about a possible tragedy simply because the messenger is disliked or distrusted.",
+                      "Governments involved in a conflict, even authoritarian ones, sometimes do report real events accurately when it serves their own narrative, so dismissing every claim outright is its own kind of bias.",
+                      "Clearly labeling a claim as unverified and sourced only to state media still gives readers the information while being honest about its limits, rather than deciding for them what they should know."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, leave it out until verified"
+                  },
+                  "points": {
+                    "en": [
+                      "State-controlled media exists specifically to serve its government's messaging, and repeating unverified claims — even with a disclaimer — can still spread propaganda simply by giving it a wider audience.",
+                      "News readers often remember the claim itself far longer than they remember the caveat that it was unverified, so labeling doesn't fully protect against misleading people.",
+                      "Reporting unconfirmed casualty claims from either side of a live conflict risks becoming a tool in the information war itself, rather than sticking to what journalists can actually establish as fact."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Nepal-China Flood Death Toll Rises to 1,114 as Thousands Remain Missing",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/01/world/live-news/nepal-china-flood"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Mountain Lake Burst Its Banks — Now Over 1,100 People Are Confirmed Dead"
+          },
+          "hook": {
+            "en": "A week ago, a giant lake made of melted glacier ice high in the Himalayan mountains suddenly broke open. A wall of water rushed down onto villages in Nepal and China. The number of people known to have died has now climbed past 1,100, and thousands more are still missing."
+          },
+          "story": {
+            "en": [
+              "High up in the mountains of Nepal, ice melts and forms lakes. Sometimes the walls holding these lakes back are just piles of rock and old ice. One of these walls broke. All that water rushed down the mountain at once, like a bathtub tipping over onto a whole valley.",
+              "The flood smashed through villages and destroyed bridges. It also damaged power stations that make electricity from river water. Nepal's disaster agency says at least 1,114 people have died. About 4,500 people are still missing. Around 84,270 people have been affected altogether — that is like every single person in a mid-sized town losing their home, school, or way to get food.",
+              "More than 32,000 of those affected are children. Rescuers have already saved almost 12,000 people, often by helicopter, since roads and bridges are gone. Sixteen people also died just across the border in China.",
+              "Nepal's government and the United Nations have now agreed to spend the next four months raising money and supplies to help families rebuild. Search teams are still looking for people who are missing, so the numbers may keep changing."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine your school, your street, and your family's electricity all disappearing in one afternoon — that is what happened to tens of thousands of families here. It matters everywhere too: as mountain ice keeps melting, these sudden mountain floods are becoming more common, not less."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacial lake outburst"
+              },
+              "def": {
+                "en": "This happens when a lake made of melted glacier ice suddenly breaks through its icy or rocky wall and floods the land below."
+              }
+            },
+            {
+              "term": {
+                "en": "Humanitarian appeal"
+              },
+              "def": {
+                "en": "This is when an organization like the United Nations asks the world for money and supplies to help people after a disaster."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If you don't know anyone in Nepal, should you still try to help after this flood?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, help anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "People suffering from a disaster deserve help no matter where they live or who they know.",
+                      "Lots of small donations from strangers can add up to enough money to rebuild homes.",
+                      "If your own town flooded, you would want people far away to care and help too."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Focus closer to home"
+                  },
+                  "points": {
+                    "en": [
+                      "There are people struggling near you too, and you can see exactly how your help is used.",
+                      "It can be hard to know if money sent far away really reaches the people who need it.",
+                      "Local helpers who already know the villages might be better at deciding what is needed most."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the flooded villages be rebuilt in the same spot, or should people move somewhere safer?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Rebuild in the same place"
+                  },
+                  "points": {
+                    "en": [
+                      "People's homes, farms, and memories belong to that land, and moving means losing all of it.",
+                      "A flood like this might be very rare, so the same spot could stay safe for many years.",
+                      "Moving a whole village is expensive, and there may not be safe empty land nearby to move to."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Move somewhere safer"
+                  },
+                  "points": {
+                    "en": [
+                      "If the same danger could happen again, staying risks more lives in the future.",
+                      "Money spent rebuilding the same buildings could instead pay for a safer new home.",
+                      "Melting glaciers are getting more common as the world warms, so this kind of flood may happen again."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nepal's Flood Death Toll Passes 1,100 as Search for the Missing Continues"
+          },
+          "hook": {
+            "en": "A week ago, a lake high in the Himalayan mountains burst its banks without warning, sending a wall of water, mud and rock crashing down onto towns in Nepal and China. Nepal's disaster agency now says at least 1,114 people are confirmed dead, a sharp rise from the roughly 903 reported just days earlier. Around 4,500 people are still missing, and tens of thousands have lost their homes, roads, or electricity."
+          },
+          "story": {
+            "en": [
+              "The flood struck in late August, tearing through river valleys in Nepal's high mountains before crossing into Tibet, in western China. Whole sections of villages were swept away in minutes. A week on, Nepal's National Disaster Risk Reduction and Management Authority says the confirmed death toll has climbed to 1,114, up from about 903 just days before — a jump that shows how difficult it still is to find and count victims in terrain this remote. At least 16 more deaths have been confirmed on the Chinese side of the border.",
+              "What caused this was not ordinary rainfall. Glaciers — huge, slow-moving rivers of ice — often carve out natural lakes as they melt, held back only by loose piles of rock and ice called moraines, which act like a dam. As the planet warms, glaciers are melting faster, and these lakes grow larger and more unstable. When the natural dam finally gives way, sometimes triggered by an avalanche, an earthquake, or simply the pressure of too much water, the result is a glacial lake outburst flood: a sudden, violent release of water that can travel dozens of miles downstream with almost no warning.",
+              "The scale of the damage is still coming into focus. The United Nations estimates that 84,270 people across 17 municipalities have been affected, including more than 32,000 children. Roughly 4,500 people remain missing across Nepal and China combined, though officials expect that number to change — for better or worse — as rescue teams reach cut-off villages. Hydropower stations, which generate a large share of both countries' electricity, have been damaged on both sides of the border, and mountain communities that depended on a single road or bridge are now completely isolated.",
+              "Around 12,000 people have been pulled to safety so far, and Nepal's government has agreed with the UN's resident coordinator to launch a four-month humanitarian appeal — a formal request for international donors to fund emergency food, shelter, and medical care, followed by longer-term rebuilding. Because search operations are still ongoing in hard-to-reach terrain, the casualty and missing-person figures are being revised daily by Nepalese authorities, and readers should treat the numbers now circulating as still provisional rather than final.",
+              "This is being described as one of the deadliest Himalayan flooding disasters in years, but scientists who study the region have been warning for over a decade that it would not be the last. Thousands of glacial lakes now exist across the Himalayas, many of them growing every year as glaciers retreat, and millions of people live downstream in Nepal, China, India, Bhutan and Pakistan. A disaster that looks local on a map is, in that sense, a preview of a risk shared by an entire mountain range."
+            ]
+          },
+          "why_it_matters": {
+            "en": "It is easy to think of climate change as a slow, distant problem, but this flood shows how it can turn into a sudden, deadly event for people who did almost nothing to cause the warming that made it more likely. The same physics — melting ice, unstable dams of rock — is playing out in mountain ranges across the world, which is why disaster relief now increasingly means paying for damage caused somewhere else."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Glacial lake outburst flood (GLOF)"
+              },
+              "def": {
+                "en": "A sudden, violent flood caused when a lake formed by a melting glacier bursts through the loose rock or ice that was holding it back."
+              }
+            },
+            {
+              "term": {
+                "en": "Moraine"
+              },
+              "def": {
+                "en": "A natural pile of rock, gravel and ice pushed up by a glacier, which can act like a dam holding back a glacial lake."
+              }
+            },
+            {
+              "term": {
+                "en": "Humanitarian appeal"
+              },
+              "def": {
+                "en": "A formal request, usually made by a government together with the United Nations, asking other countries and donors to fund emergency relief and rebuilding after a disaster."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should wealthier countries that have historically produced most greenhouse gas emissions be expected to pay extra toward disaster relief in poorer countries hit by climate-linked disasters like this one?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, richer emitters owe more"
+                  },
+                  "points": {
+                    "en": [
+                      "The nations that industrialised earliest produced the bulk of the emissions now warming glaciers, while Himalayan communities contributed almost nothing to the problem.",
+                      "Wealthy countries have far greater financial capacity to help, and international aid systems already work best when funded predictably rather than through one-off charity appeals.",
+                      "Treating this as shared responsibility rather than charity could push rich nations to invest more seriously in preventing future disasters, not just cleaning up after them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that framing creates problems of its own"
+                  },
+                  "points": {
+                    "en": [
+                      "Assigning blame by nationality is messy, since emissions were produced by companies and individuals over generations, not current taxpayers who had no say in the matter.",
+                      "Turning aid into an obligation rather than a choice risks souring international cooperation and could reduce willingness to help at all.",
+                      "Money alone doesn't fix the underlying risk; local decisions about where to build, how to monitor lakes, and how to plan evacuations matter just as much as who pays."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Given that scientists have warned for years that Himalayan glacial lakes are becoming more dangerous, should governments move entire at-risk villages before a disaster happens, even against residents' wishes?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act before the flood, not after"
+                  },
+                  "points": {
+                    "en": [
+                      "Once a glacial lake bursts, there is often only minutes of warning, which makes waiting for certainty a gamble with people's lives.",
+                      "Rebuilding a destroyed village costs far more, in money and disruption, than relocating people while there is still time to plan it properly.",
+                      "Governments already act on scientific risk assessments in other areas, like building codes near fault lines, so this would not be a new kind of authority.",
+                      "This point intentionally left as a placeholder is not needed — three points suffice."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, forced relocation has its own costs"
+                  },
+                  "points": {
+                    "en": [
+                      "Communities have deep ties to specific land, including farming, grazing rights, and cultural or religious sites, that a resettlement scheme can't simply replace.",
+                      "Risk assessments for exactly which lakes will fail and when are still uncertain, so moving thousands of people could turn out to have been unnecessary.",
+                      "People uprooted from mountain villages often struggle economically in unfamiliar lowland settings, trading one kind of hardship for another."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "China Dissents as Bessent Says 19 Finance Ministers Agree to Address Cheap Exports",
+        "publisher": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/economy/china-dissents-as-bessent-says-19-finance-ministers-agree-to-address-cheap-exports"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Bessent Says China Is the Outlier as G20 Targets Cheap Exports"
+          },
+          "summary": {
+            "en": "CNBC's account adds detail on Bessent's remarks framing the 19-1 split and how it fits into the administration's broader trade strategy toward Beijing. It's a useful companion for readers wanting the US Treasury's perspective in full."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
+        },
+        {
+          "title": {
+            "en": "China and the G20's Trade Rift, Explained"
+          },
+          "summary": {
+            "en": "Axios lays out why the dissent matters structurally for the G20 as an institution and what it signals ahead of Xi Jinping's planned US visit. It adds diplomatic context beyond the finance-ministers' statement itself."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/02/china-g20-bessent-trade"
+        },
+        {
+          "title": {
+            "en": "Inside China's Rejection of the G20's Cheap-Exports Statement"
+          },
+          "summary": {
+            "en": "Fortune's reporting adds detail on how Chinese officials pushed back on being singled out and what it means for global manufacturers watching the dispute. It offers a business-market angle on the same rupture."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/02/china-bessent-g20-trade/"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "19 Countries Agree, 1 Says No: A Big Money Meeting Splits Over China"
+          },
+          "hook": {
+            "en": "Leaders from 20 of the world's biggest economies met this week to talk about money and trade. Nineteen of them signed a joint statement agreeing on a problem. China was the only one who refused to sign."
+          },
+          "story": {
+            "en": [
+              "Twenty countries sent their top money officials to a meeting in Asheville, a town in North Carolina. This group is called the G20, and it includes the world's largest economies, like the United States, China, Japan, and Germany.",
+              "At the meeting, the countries usually try to agree on everything together. This time, 19 of them signed a statement saying some countries make too many cheap products and sell them to everyone else, which they said hurts fair competition. They didn't name China directly, but everyone knew who they meant, because China makes and exports more manufactured goods than almost any other country.",
+              "China said no. China's team didn't agree that its economy works the way the statement described, and refused to sign. This is unusual, because the G20 almost always finds a way to get everyone to agree, even if it takes a lot of talking.",
+              "This disagreement comes right before China's leader, Xi Jinping, is expected to visit the United States. Grown-ups are watching to see if this argument about trade will make that visit more tense."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When countries argue about trade, it can change the price of things you buy, like toys, phones, or bikes, because many of them are made in China. It also shows how the two biggest economies in the world, the US and China, don't always see things the same way, which affects how countries work together on bigger problems too."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "G20"
+              },
+              "def": {
+                "en": "A group of 20 countries with some of the largest economies in the world, who meet to talk about money and trade problems together."
+              }
+            },
+            {
+              "term": {
+                "en": "exports"
+              },
+              "def": {
+                "en": "Goods that one country makes and sells to people in other countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If 19 countries agree on something and 1 disagrees, does that mean the 19 are right?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the majority is usually right"
+                  },
+                  "points": {
+                    "en": [
+                      "When almost everyone agrees, it usually means they've noticed a real pattern.",
+                      "Having many countries agree makes the claim harder to dismiss as one country's opinion.",
+                      "If nearly everyone sees a problem the same way, it's reasonable to trust that view."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, being outnumbered doesn't make you wrong"
+                  },
+                  "points": {
+                    "en": [
+                      "Sometimes many countries share similar interests and see things the same way for reasons that aren't really about truth.",
+                      "One country might understand its own economy better than the others do.",
+                      "History has plenty of examples where the majority agreed on something that later turned out to be unfair or incorrect."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to publicly criticize one country's economy in a group statement instead of talking to them privately?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can be fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Doing it publicly shows other countries that this is a shared, serious concern, not just one country complaining.",
+                      "Public statements can pressure a country to change faster than private talks might.",
+                      "Everyone affected by the trade practices deserves to know what's being discussed and why."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it isn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Calling out one country by implication, in front of everyone, can feel like an ambush rather than a fair conversation.",
+                      "It can make the criticized country defensive instead of open to solving the problem.",
+                      "Private conversations might build trust better than a public statement that puts one country on the spot."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nineteen Countries, One Holdout: China Refuses to Sign G20 Trade Statement"
+          },
+          "hook": {
+            "en": "At a G20 finance meeting in North Carolina this week, 19 of the 20 member countries signed a joint statement criticizing economies that flood the world with cheap exports — language clearly aimed at China. China refused to sign, breaking with the group's usual practice of only issuing statements everyone agrees to. The split happened just weeks before Chinese President Xi Jinping is due to visit the United States."
+          },
+          "story": {
+            "en": [
+              "The G20 is a group of the world's twenty largest economies — the US, China, Japan, Germany, Brazil, and others — whose finance ministers and central bankers meet periodically to coordinate on things like trade, debt, and financial stability. It has no power to force any country to do anything; its influence comes entirely from getting major economies to agree on a shared description of problems and, sometimes, shared solutions. That only works if everyone signs on. This week, at a meeting in Asheville, North Carolina, that broke down.",
+              "US Treasury Secretary Scott Bessent announced that 19 of the group's members had agreed to a joint statement warning about 'non-market based economies pushing out a never-ending stream of cheap exports.' No country was named, but the phrase describes China: a system where the government, not just supply and demand, heavily shapes what gets built, how much, and at what price — often subsidizing factories so they can sell goods abroad more cheaply than market competition alone would allow. American and European officials have argued for years that this floods world markets with underpriced steel, solar panels, electric vehicles, and other goods, making it hard for factories elsewhere to compete.",
+              "China was the one country that would not sign. Its delegation rejected the description of its economy as 'non-market based,' arguing that framing misrepresents how China's economy actually works and unfairly singles it out. A 19-to-1 statement is unusual for the G20, which is built around consensus — normally, if even one major member objects, the group either waters down the language until everyone can accept it or issues no statement at all. Letting the disagreement stand on the record, rather than papering over it, is itself a signal: Bessent chose to present the 19-1 split as proof that most of the world agrees with the American view, rather than negotiate further to bring China in.",
+              "The timing sharpens the stakes. Xi Jinping is expected to visit the United States in the coming weeks, and this very public rupture — happening on American soil, with the US Treasury Secretary framing it as an international consensus against China — will sit in the background of that visit. Trade tension between the two countries has flared repeatedly over the past several years, through tariffs, export controls on technology, and disputes over industries like electric vehicles and semiconductors. A trade dispute aired this openly at a body that usually avoids public disagreement makes those underlying tensions harder to paper over during diplomatic visits.",
+              "Underneath the diplomatic language is a genuine disagreement about cause and blame that economists themselves argue about. One view holds that China's state-supported manufacturing genuinely distorts global trade by producing far more than its own population needs and exporting the surplus at prices that undercut foreign competitors, hurting factory jobs elsewhere. Another view holds that global trade imbalances are more complicated than one country's policies — that they also reflect how much the United States and other wealthy countries consume relative to what they produce, and that pinning the imbalance mainly on China's economic model oversimplifies a problem with many contributors."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've bought an electric car, solar panels, or cheap electronics recently, you've felt the effects of exactly the kind of export competition this dispute is about — and the outcome of this argument could shape prices, factory jobs, and tariffs in your own country for years. It also shows how international cooperation can fracture in public, which matters for anything else the world needs these countries to agree on, from climate policy to financial crises."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "G20"
+              },
+              "def": {
+                "en": "A group of finance ministers and central bankers from the twenty largest economies in the world who meet to try to coordinate on trade and economic issues, though they have no power to force any country to act."
+              }
+            },
+            {
+              "term": {
+                "en": "Non-market economy"
+              },
+              "def": {
+                "en": "A term for an economic system where government decisions, rather than open competition between buyers and sellers, heavily determine what gets produced and at what price."
+              }
+            },
+            {
+              "term": {
+                "en": "Manufacturing overcapacity"
+              },
+              "def": {
+                "en": "A situation where a country's factories produce far more of something than its own market needs, so the surplus gets exported cheaply, which can undercut producers in other countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to blame China's economic model as the main cause of global trade imbalances?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, China's model is the core problem"
+                  },
+                  "points": {
+                    "en": [
+                      "Government subsidies let Chinese factories sell below the true cost of production, which isn't normal market competition.",
+                      "Entire industries in other countries, like solar panel and steel manufacturing, have collapsed under a wave of underpriced Chinese exports.",
+                      "Nineteen very different economies agreeing on this description suggests it reflects a real, widely shared experience, not just an American complaint."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the imbalance has many causes"
+                  },
+                  "points": {
+                    "en": [
+                      "Wealthy countries like the US consume much more than they produce, which itself drives trade imbalances regardless of what China does.",
+                      "Blaming one country's policies ignores that many nations subsidize industries they consider strategically important, including the US and EU.",
+                      "Framing the problem as one country's fault can be a convenient political story that avoids harder questions about domestic economic choices elsewhere."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for the US to publicly frame a 19-1 split as consensus against China rather than keep negotiating for unanimous agreement?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was the honest and useful move"
+                  },
+                  "points": {
+                    "en": [
+                      "Watering down language just to get unanimous agreement can make statements meaningless and hide real disagreement from the public.",
+                      "A clear 19-1 vote shows genuine international concern rather than hiding it behind vague diplomatic language.",
+                      "Sometimes forcing an issue into the open is the only way to create pressure for real change."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it damaged useful diplomacy"
+                  },
+                  "points": {
+                    "en": [
+                      "The G20's entire value depends on consensus; breaking that norm risks turning every future disagreement into a public standoff instead of quiet negotiation.",
+                      "Airing the split just before Xi's visit may have made a diplomatically sensitive moment more confrontational than it needed to be.",
+                      "Framing it as '19 against China' can look like political theater aimed at winning a public relations point rather than solving the underlying trade problem."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
