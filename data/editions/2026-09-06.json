@@ -1,0 +1,802 @@
+{
+  "date": "2026-09-06",
+  "window": {
+    "start": "2026-09-05T12:00:00-07:00",
+    "end": "2026-09-06T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-06T12:24:46-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "US Says It Hit 3 Iranian Oil Tankers, Including One Near Kharg Island",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/09/05/us-says-it-hit-3-iranian-oil-tankers-including-one-near-kharg-island/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Iran Tanker Attacks Escalate Tensions Near Hormuz"
+          },
+          "summary": {
+            "en": "An earlier account of the first 'tanker for tanker' strikes that set the pattern for this weekend's escalation. Useful for understanding why both sides are now targeting oil tankers directly."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran-US Tensions Rise After Tanker Strike Near Kharg Island"
+          },
+          "summary": {
+            "en": "More detail on the disputed Kharg Island strike, including Iran's casualty claims versus the U.S. account. Helps readers weigh the two competing versions of events."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/05/middleeast/iran-us-tanker-kharg-intl"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Ships Get Hit at Sea After Missiles Fly Between the U.S. and Iran"
+          },
+          "hook": {
+            "en": "On Saturday, the U.S. military says it hit three big oil ships that belong to Iran, a country in the Middle East. The U.S. says this happened right after Iran fired missiles at one of its warships and a giant aircraft carrier, but both American ships dodged the missiles and nobody was hurt. Iran says people were hurt when their ship got hit — the U.S. says that isn't true. Nobody outside the two countries has been able to check exactly what happened."
+          },
+          "story": {
+            "en": [
+              "The United States has a military group called CENTCOM that watches over the Middle East. On Saturday, CENTCOM said it hit three Iranian oil tankers — that's a huge ship built just to carry oil across the ocean, longer than three basketball courts put together.",
+              "Two of the tankers, named Downy and Stark 1, were disabled, which means they were knocked out of action but not destroyed. A third tanker, named Kylo, was destroyed completely. All three attacks happened near narrow, busy waterways where lots of oil ships travel every day.",
+              "The U.S. says this all started because Iran's military fired missiles at an American aircraft carrier — a floating airport for fighter jets — and a warship called a destroyer. Both American ships managed to dodge the missiles, and no Americans were hurt. A U.S. admiral in charge of the region warned that if Iran attacks again, America will make it cost Iran even more money.",
+              "Iran's own state-run news said people on the Downy tanker were hurt or killed when it was struck. The U.S. says it warned the crew to get off the ship before hitting it, and says nobody was hurt. Right now, nobody outside the two countries can say for sure which account is true."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil tankers like these carry the oil that gets turned into gasoline for cars, including the car your family might ride in. When countries fight near the paths these ships travel, oil becomes harder to move, and that can make gas cost more everywhere in the world, not just in Iran or America."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "oil tanker"
+              },
+              "def": {
+                "en": "A massive ship built to carry huge amounts of oil across oceans, sometimes longer than three basketball courts."
+              }
+            },
+            {
+              "term": {
+                "en": "aircraft carrier"
+              },
+              "def": {
+                "en": "A giant warship shaped like a floating runway, so fighter jets can take off and land in the middle of the ocean."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If one country fires first, is it fair for the other country to strike back hard, even destroying ships?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, hitting back hard is fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone attacks you, you have a right to defend yourself strongly, not just a little.",
+                      "Hitting back hard might stop the other side from attacking again.",
+                      "The U.S. says it only hit ships, not people, after being attacked first with missiles aimed at its sailors."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, a big response can make things worse"
+                  },
+                  "points": {
+                    "en": [
+                      "Destroying ships can hurt innocent workers on board who didn't choose the fight.",
+                      "Hitting back harder can make the other country want to hit back even harder next time, and the fighting keeps growing.",
+                      "Nobody was actually hurt in the missile attack, so destroying a whole ship might be more punishment than the attack deserved."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When two countries tell different stories about the same event, should people believe the side with the bigger, stronger military?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, trust the stronger side's account"
+                  },
+                  "points": {
+                    "en": [
+                      "Powerful militaries often have better cameras, radar, and evidence to back up their claims.",
+                      "A country that says it warned people before attacking sounds like it was trying to avoid harm.",
+                      "If a country lies about small details, other countries and reporters can often catch it and prove otherwise."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, size and strength don't make a story true"
+                  },
+                  "points": {
+                    "en": [
+                      "Every country, strong or weak, wants to make itself look good and the other side look bad.",
+                      "People who were actually hurt or killed have no way to speak up if their government's story is doubted just because it's smaller.",
+                      "Believing whoever is more powerful means the truth depends on strength, not on facts."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "U.S. Warships Dodge Iranian Missiles — Then America Hits Back at Three Oil Tankers"
+          },
+          "hook": {
+            "en": "On Saturday, the U.S. military said it struck three Iranian oil tankers in the waters near Iran, sinking one and disabling two others. The strikes came right after Iran's Revolutionary Guard fired ballistic missiles at a U.S. aircraft carrier and a destroyer — missiles that the Pentagon says missed. Nobody on the American side was hurt, but Iranian state media claims people died on one of the tankers, a claim the U.S. denies."
+          },
+          "story": {
+            "en": [
+              "On the night of September 5, U.S. Central Command — the military headquarters that oversees American forces across the Middle East, known as CENTCOM — announced it had hit three ships belonging to Iran's oil-tanker fleet. One, the M/T Kylo, was destroyed in the Gulf of Oman. Two others, the M/T Downy near Kharg Island and the M/T Stark 1 near the port of Jask, were disabled but not sunk. All three are ordinary commercial-looking oil tankers, the kind that carry crude oil across the world's shipping lanes every day.",
+              "The U.S. says this happened because Iran fired first. According to the Pentagon, units of Iran's Islamic Revolutionary Guard Corps — the IRGC, a branch of Iran's military that answers directly to the country's clerical leadership rather than its regular armed forces — launched ballistic missiles at a U.S. aircraft carrier and a destroyer operating nearby. Both American ships, the Pentagon says, detected and evaded the missiles, and no U.S. sailors were hurt. If true, it means Iran tried to hit some of the most powerful and expensive warships in the world and failed.",
+              "The U.S. did not simply shrug this off. CENTCOM's commander, Admiral Brad Cooper, said the strikes on the tankers were the response, and he warned that if Iran attacks again, the United States would \"impose an even higher economic cost\" — a phrase that reads like a promise to hit more of Iran's oil trade, the country's single biggest source of income, rather than only its military hardware.",
+              "What happened on the ground is not fully agreed on. Iranian state media says people on board the tanker near Kharg Island were killed in the strike. The U.S. says the crew was warned in advance to abandon ship before it was hit, and disputes that there were any casualties at all. Neither claim has been confirmed by anyone outside the two governments involved, which is a reminder that in a fast-moving military clash like this, the first accounts from either side are often shaped by what that side wants the world to believe.",
+              "This is not a new fight breaking out from nothing. It's the resumption of a wider, quieter conflict at sea between the U.S. and Iran that has been running since late February, with this weekend's clash arriving after roughly a month in which things had gone quiet. The stretch of water at the center of it, the Strait of Hormuz, is one of the narrowest and most important shipping chokepoints on Earth — a large share of the world's oil exports passes through it, which is why traders and governments far from the Gulf are watching closely to see whether this escalates further."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When tankers get destroyed near one of the world's busiest oil routes, it isn't just a story about two countries' navies — it can push up the price of petrol and heating fuel for people thousands of miles away within days. It's also a reminder of how a single missed missile or a single retaliatory strike can turn a quiet standoff into something that escalates fast, with neither side fully controlling what happens next."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CENTCOM"
+              },
+              "def": {
+                "en": "U.S. Central Command, the branch of the American military responsible for U.S. forces operating across the Middle East."
+              }
+            },
+            {
+              "term": {
+                "en": "IRGC"
+              },
+              "def": {
+                "en": "Iran's Islamic Revolutionary Guard Corps, a powerful military force that answers to Iran's top religious and political leadership rather than its regular army."
+              }
+            },
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage near Iran through which a huge share of the world's oil shipments travel, making it one of the most watched chokepoints in global trade."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was the U.S. right to destroy and disable Iranian oil tankers in response to missiles that never actually hit anything?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The response was justified"
+                  },
+                  "points": {
+                    "en": [
+                      "Firing ballistic missiles at a warship is an act of war regardless of whether the missiles land, and letting it go unanswered invites more attempts that might succeed next time.",
+                      "Hitting Iran's tankers targets the regime's oil revenue rather than risking a direct military clash that could kill people on either side.",
+                      "A visible, costly response is what deters future attacks — a country that faces no consequences for a failed strike has little reason not to try again."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The response went too far"
+                  },
+                  "points": {
+                    "en": [
+                      "Destroying and disabling three ships is a much bigger and more damaging action than the missile attack it was answering, especially since no one was hurt on the American side.",
+                      "Striking oil tankers hits Iran's economy and ordinary trade, which risks pulling in oil markets and other countries rather than staying a narrow military exchange.",
+                      "Escalating with force after a failed attack, rather than through diplomacy or warnings, raises the odds of a wider war neither side actually wants."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Admiral Cooper's warning of an 'even higher economic cost' be seen as a stabilizing threat or a dangerous escalation?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a stabilizing threat"
+                  },
+                  "points": {
+                    "en": [
+                      "Making the consequences of another attack clear and public can discourage Iran from trying again, which is exactly what deterrence is meant to do.",
+                      "Threatening economic costs rather than promising more military strikes signals a preference for pressure over further violence.",
+                      "Clarity about what will happen next reduces the chance of miscalculation, since Iran knows in advance what crossing the line will cost."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a dangerous escalation"
+                  },
+                  "points": {
+                    "en": [
+                      "A public threat from a top commander can back both sides into a corner, making it harder for either government to de-escalate without looking weak.",
+                      "\"Even higher economic cost\" is vague enough that it could mean almost anything, including strikes that go well beyond tankers.",
+                      "Threats made in public, rather than through quiet diplomatic channels, tend to provoke a country's leadership rather than persuade it, especially when national pride is at stake."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Witkoff and Kushner Meet Putin With Proposal to End Ukraine War",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/05/europe/witkoff-kushner-moscow-kyiv-proposal-war-intl"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US Envoys Arrive in Moscow With Proposal to End War in Ukraine"
+          },
+          "summary": {
+            "en": "Covers the arrival and stated goals of the U.S. delegation before the talks began, giving context for what was actually on the table in Moscow. Independently reported and owned separately from the CNN account above."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-05/us-envoys-arrive-in-moscow-with-proposal-to-end-war-in-ukraine?srnd=homepage-europe"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Putin Meets Witkoff and Kushner as Trump Pushes Ukraine Peace Plan"
+          },
+          "summary": {
+            "en": "Adds detail on Trump's broader strategy behind sending Witkoff and Kushner together. Independently owned outlet corroborating the basic timeline of events."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/05/putin-witkoff-kushner-trump-ukraine-war"
+        },
+        {
+          "title": {
+            "en": "Russia's Putin Meets US Envoys to Discuss Trump Proposal to End Ukraine War"
+          },
+          "summary": {
+            "en": "A state-funded outlet's account (Al Jazeera is funded by the Qatari government) of the same meeting, useful for seeing how it was framed outside Western media but not a neutral standalone source."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/5/russias-putin-meets-us-envoys-to-discuss-trump-proposal-to-end-ukraine-war"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump's Team Flies to Moscow, Then Kyiv, Hunting for a Way to End the War"
+          },
+          "hook": {
+            "en": "Two of President Trump's top helpers sat down with Russia's leader, Vladimir Putin, for over three hours to talk about ending the war in Ukraine. The very next day, they flew to Ukraine's capital to talk with Ukraine's leader too. Nobody has announced a deal, but a short pause in the fighting was arranged around the visit."
+          },
+          "story": {
+            "en": [
+              "Two men who work closely with President Trump, named Steve Witkoff and Jared Kushner, flew to Moscow, the capital of Russia. There, they met with Vladimir Putin, the president of Russia, for more than three hours. They brought a plan from the United States meant to help stop the war between Russia and Ukraine.",
+              "Nobody has said what is actually written in that plan. We don't know if Russia likes it, hates it, or is still thinking it over. A Russian official said the meeting was 'useful,' but that's just Russia's own opinion of how it went — the U.S. and Ukraine haven't confirmed that.",
+              "The very next day, the two men flew to Kyiv, the capital of Ukraine, to meet with Ukraine's president, Volodymyr Zelensky. This is the biggest visit any American official has made to Kyiv since Trump became president again. A short, three-day pause in the fighting, called a ceasefire, was set up to match the timing of the trip.",
+              "So far, no agreement has been announced. But people who watch the war closely say this is the most serious sign of possible peace talks since the fighting started back in 2022."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This war has forced millions of families out of their homes and changed prices for things like wheat and gas around the world, including in stores where your family shops. When two powerful countries try to talk instead of fight, it matters for anyone hoping the news gets a little less scary."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "envoy"
+              },
+              "def": {
+                "en": "An envoy is a person a leader sends to talk and negotiate with another country instead of going in person."
+              }
+            },
+            {
+              "term": {
+                "en": "ceasefire"
+              },
+              "def": {
+                "en": "A ceasefire is when fighting sides agree to stop shooting for a while, even if they haven't solved their argument yet."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it a good idea for a country to sit down and talk with a leader it strongly disagrees with?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, talking helps"
+                  },
+                  "points": {
+                    "en": [
+                      "You can't end a fight if the two sides never speak to each other.",
+                      "Talking doesn't mean agreeing — it just opens a door that might lead somewhere better.",
+                      "Even small meetings can lead to pauses in fighting that protect real people, like the three-day ceasefire here."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, talking can be risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Sitting down with someone can make them seem more accepted, even if what they did was wrong.",
+                      "A leader might use the meeting to look good at home without actually changing anything.",
+                      "If nothing comes of the talks, the other side might feel like they got a free public relations win for doing nothing."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a ceasefire doesn't lead to a full peace deal, was it still worth doing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, even a short pause matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Every day without fighting is a day nobody new gets hurt.",
+                      "It gives families a small chance to rest, get supplies, or check on loved ones.",
+                      "Short pauses can sometimes build trust that leads to longer ones later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, a short pause can be pointless or even risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Both sides might just use the quiet time to prepare for more fighting later.",
+                      "A ceasefire that doesn't lead anywhere might raise hopes that get crushed.",
+                      "If one side isn't serious about peace, the pause might just be for show."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump's Envoys Meet Putin, Then Zelensky, in Biggest US Push Yet to End the Ukraine War"
+          },
+          "hook": {
+            "en": "Two of President Trump's closest advisers spent more than three hours with Russian President Vladimir Putin in Moscow, then flew to Kyiv the next day to meet Ukraine's President Volodymyr Zelensky. They brought a US proposal meant to end the war that has now dragged on for over three years — but no deal was announced, and nobody outside the room knows exactly what the proposal says."
+          },
+          "story": {
+            "en": [
+              "Steve Witkoff and Jared Kushner are not career diplomats. Witkoff is a real estate investor and longtime friend of Trump's; Kushner is Trump's son-in-law and former White House adviser. Trump has used both men as personal envoys — trusted messengers sent to handle sensitive negotiations directly, rather than going through the usual State Department channels. Sending them to sit across from Putin for three hours, then immediately fly to Kyiv, is the clearest sign yet that Trump wants to personally broker an end to the war in Ukraine, which began when Russia launched a full-scale invasion in February 2022.",
+              "The Kyiv stop matters on its own: it is the highest-level visit by any US officials to Ukraine's capital since Trump began his second term in January 2025. For a war that has killed or wounded hundreds of thousands of soldiers and civilians and driven millions of Ukrainians from their homes, a visit like this is being read as a signal — though signals are not the same as results. No agreement came out of the Moscow meeting. A three-day pause in fighting, called a ceasefire, was arranged to line up with the envoys' trip, but a temporary pause is a long way from a peace deal.",
+              "What did Witkoff and Kushner actually offer Putin? Nobody outside the meeting knows. The US has not released the details of its proposal, and it is unclear whether it involves Ukraine giving up territory, security guarantees for Ukraine, sanctions relief for Russia, or some mix of all three. Without that information, it's impossible to judge whether this was a real breakthrough or a polite conversation that went nowhere.",
+              "The only public description of how the talks went comes from Yuri Ushakov, a senior aide to Putin, who called them 'constructive' and 'highly useful.' Those are the words of the Russian government about its own meeting — neither the US nor Ukraine has confirmed that characterization, and Russia has strong reasons to want the talks to look successful whether or not they were. Governments involved in a negotiation almost always describe their own side favorably; that doesn't make Ushakov's comments false, but it means they shouldn't be taken as an independent account of what happened.",
+              "Zelensky's meeting with the envoys in Kyiv the next day was the other half of the trip, and arguably the more consequential one — any deal that doesn't work for Ukraine isn't really a deal, since Ukraine is the country being invaded. What Zelensky told the envoys, and what they told him about what Putin is willing to accept, has not been made public either. For now, the war continues, and the only certain outcome of this high-profile trip is that talking is happening at a higher level than before."
+            ]
+          },
+          "why_it_matters": {
+            "en": "A war that started thousands of miles away has still pushed up energy and food prices worldwide and pulled in weapons, money, and attention from the US and its allies for over three years. Whether or how it ends will shape how other countries think about invading their neighbors, and whether promises from the US to defend an ally under attack still mean something."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "envoy"
+              },
+              "def": {
+                "en": "A person sent by a government to represent it and negotiate on its behalf, often for a specific, sensitive mission rather than as a permanent diplomat."
+              }
+            },
+            {
+              "term": {
+                "en": "ceasefire"
+              },
+              "def": {
+                "en": "A temporary or permanent agreement to stop fighting, which can be limited to a few days or meant to last indefinitely."
+              }
+            },
+            {
+              "term": {
+                "en": "Kremlin"
+              },
+              "def": {
+                "en": "The building in Moscow that houses the Russian government, used as shorthand for the Russian government itself, much like 'the White House' means the US president's administration."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is a short, arranged ceasefire like this one a real step toward peace, or just a pause that lets both sides regroup before more fighting?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's meaningful progress"
+                  },
+                  "points": {
+                    "en": [
+                      "Every real peace process has to start with small steps, and a ceasefire — even a brief one — proves both sides can agree on something.",
+                      "It gives exhausted soldiers and civilians a break from fighting, which has real value regardless of what comes next.",
+                      "High-level visits and pauses build trust and communication channels that make a bigger deal more possible later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's mostly symbolic"
+                  },
+                  "points": {
+                    "en": [
+                      "A three-day pause changes nothing about the underlying disagreements over territory and security that have kept the war going.",
+                      "Both armies can use a pause to resupply, regroup, and prepare for the next phase of fighting rather than to build toward peace.",
+                      "Announcing a ceasefire around a high-profile visit can be more about optics and public perception than about a genuine shift in strategy."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US push hard for a deal now, even if it means Ukraine keeps less of its land, or keep insisting Russia withdraw fully before any deal is signed?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Push for a deal now"
+                  },
+                  "points": {
+                    "en": [
+                      "The war has already cost enormous numbers of lives, and every extra month of fighting adds to that toll without guaranteeing a better outcome later.",
+                      "Russia controls significant Ukrainian territory already, and refusing to negotiate around that reality could mean years more of war for no change in the map.",
+                      "A flawed peace that stops the killing may be better for ordinary Ukrainians than a war fought indefinitely for a more perfect outcome."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Insist on full withdrawal first"
+                  },
+                  "points": {
+                    "en": [
+                      "Accepting Russia keeps land it seized by force could encourage other countries to think invasion pays off if you just hold on long enough.",
+                      "Ukraine and its people have the right to their internationally recognized borders, and a deal that ignores this rewards the aggressor.",
+                      "A rushed deal now could leave Ukraine weaker and more vulnerable to another invasion in a few years, making the war's sacrifices meaningless."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Indonesia's Main Airport Suspends Flights Due to Anak Krakatoa Eruption",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/6/indonesias-main-airport-suspends-flights-due-to-anak-krakatoa-eruption"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Indonesia Volcano Eruption Disrupts Flights at Major Airport"
+          },
+          "summary": {
+            "en": "An early, parallel account with additional detail on how airlines and passengers were affected as the eruption unfolded. Useful for cross-checking the fast-changing flight-disruption numbers."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/indonesia-volcano-eruption-flights-airport/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Indonesia Cancels Flights as Anak Krakatau Volcano Erupts"
+          },
+          "summary": {
+            "en": "Adds updated figures on cancellations later in the day and reaction from Indonesian aviation officials. Good for readers tracking how the disruption grew over time."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/asia/indonesia-cancels-flights-anak-krakatau-volcano-erupts-rcna596330"
+        },
+        {
+          "title": {
+            "en": "Indonesia's Main Airport Suspends Operations After Volcanic Eruption"
+          },
+          "summary": {
+            "en": "An international wire-style account giving a live-updated view of the airport closures, useful for readers wanting the fullest running total of affected flights."
+          },
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/live-news/20260906-indonesia-s-main-airport-suspends-operations-after-volcanic-eruption"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Volcano's 'Child' Erupts and Grounds Hundreds of Flights in Indonesia"
+          },
+          "hook": {
+            "en": "Early on a Sunday morning, a volcano in Indonesia called Anak Krakatau blew ash high into the sky. Airports nearby had to stop flights so planes wouldn't fly through the dangerous ash. By the afternoon, over 500 flights had been cancelled or delayed, affecting more than 22,000 passengers. No one was hurt."
+          },
+          "story": {
+            "en": [
+              "A volcano named Anak Krakatau erupted before sunrise on a Sunday. It shot a cloud of ash way up into the sky.",
+              "Ash clouds are dangerous for airplanes. Tiny bits of rock and glass in the ash can damage jet engines and even stop them from working.",
+              "Because of this, six airports in Indonesia, including one of the biggest near the capital city of Jakarta, had to stop flights. By the middle of the afternoon, more than 500 flights had been delayed or cancelled, and thousands of travelers had to wait.",
+              "Indonesia is a country made up of thousands of islands, sitting in a part of the world with many volcanoes. Anak Krakatau's name means 'child of Krakatoa' because it grew up out of the ocean where an older, much more famous volcano called Krakatoa had a massive eruption back in 1883."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine planning a trip and finding out at the airport that your flight got cancelled because of a volcano nobody controls. That's what happened to over 22,000 people in one day. It's a reminder that even with all our technology, nature can still shut down something as big and busy as an international airport."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "eruption"
+              },
+              "def": {
+                "en": "When a volcano suddenly releases hot ash, gas, or melted rock called lava."
+              }
+            },
+            {
+              "term": {
+                "en": "ash cloud"
+              },
+              "def": {
+                "en": "A floating cloud of tiny, gritty rock particles thrown into the sky by a volcano, which can be dangerous for airplane engines."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If you had a big trip planned and your flight got cancelled because of the volcano, would that be fair, even though it kept you safe?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Being safe matters more than getting somewhere on time.",
+                      "No one can control when a volcano erupts, so it's not anyone's fault.",
+                      "A delayed trip is much better than a dangerous one."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it feels unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "You didn't do anything wrong, but you still lose your trip or vacation time.",
+                      "It can be really disappointing to miss something you were looking forward to for a long time.",
+                      "Sometimes it feels unfair when things outside your control mess up your plans, even if it's for a good reason."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should people be allowed to keep living near a volcano that could erupt again someday?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let them stay"
+                  },
+                  "points": {
+                    "en": [
+                      "It's their home, and they may have lived there their whole lives, just like you love your own home.",
+                      "Scientists can often warn people before a big eruption happens, giving time to be careful.",
+                      "Not every eruption is dangerous to people who live far enough away."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's too risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Volcanoes can be unpredictable, and a surprise eruption could put lives in danger.",
+                      "It might be safer for everyone if people moved somewhere without volcanoes.",
+                      "Government and rescue teams have to spend a lot of effort watching and protecting people who live in risky areas."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Indonesian Volcano Grounds Hundreds of Flights, No Injuries Reported"
+          },
+          "hook": {
+            "en": "In the early hours of Sunday, a volcanic island in Indonesia called Anak Krakatau erupted, throwing ash high into the sky. Airports across the region, including the main international airport serving the capital, Jakarta, had to shut down completely. By mid-afternoon over 500 flights had been disrupted, affecting nearly 23,000 passengers, and no one was reported hurt."
+          },
+          "story": {
+            "en": [
+              "Anak Krakatau means 'child of Krakatoa' in Indonesian, and the name is not sentimental — the island is literally what grew back after its parent volcano tore itself apart in 1883, in one of the deadliest eruptions in recorded history. That original explosion was heard thousands of kilometres away and triggered tsunamis that killed tens of thousands of people. Decades later, magma pushed up through the collapsed crater left behind, and by the 1930s a new island had broken the surface of the sea. It has been growing, and periodically erupting, ever since.",
+              "This latest eruption sent a plume of volcanic ash rising into the atmosphere above the Sunda Strait, the narrow stretch of water between the islands of Java and Sumatra. Ash sounds harmless — like smoke, or dust — but for a jet engine it is closer to sand mixed with glass. Volcanic ash is made of tiny fragments of pulverised rock and glass, and when it gets sucked into an engine running at extreme temperatures, it can melt, then re-solidify on the turbine blades, choking the engine and causing it to fail. This is not theoretical: in 1982, a British Airways flight lost all four engines after flying through an ash cloud from an Indonesian volcano and only just managed to restart them before landing. Since then, aviation authorities have treated ash clouds as a hard stop, not a hazard to fly around cautiously.",
+              "That is why Soekarno-Hatta International Airport, which handles the traffic for greater Jakarta — a metropolitan area of around 30 million people — was suspended, along with five other airports in the region. Grounding an airport this size is not a small decision. It does not just strand the passengers booked on flights that day; it creates a backlog, because aircraft and crews are usually scheduled for their next several flights in sequence, so a delay in one place ripples outward for a day or more afterward, even after the immediate danger passes.",
+              "The scale of the disruption grew through the day as airlines and airport authorities gathered more data: from roughly 209 affected flights, to 301, to 516 by mid-afternoon, with an estimated 22,800 passengers affected in total. That kind of climbing count is normal in a fast-moving situation — the first numbers reported are always the ones that are easiest to confirm, not the complete picture — and officials said they were monitoring the ash cloud's movement and density before deciding when it would be safe to reopen the airspace.",
+              "As of the close of this reporting window, no casualties or evacuations had been reported, which is a meaningfully different situation from 1883, or even from some of Anak Krakatau's own more violent episodes in recent decades, including a 2018 eruption and collapse that triggered a deadly tsunami. This eruption, so far, looks like a major inconvenience rather than a catastrophe — but it is a reminder that the volcano remains active and unpredictable, sitting in one of the most heavily trafficked flight corridors in Southeast Asia."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Volcanic ash doesn't care about flight schedules or holiday plans, and this eruption shows how a natural event in one specific place can ripple through a transport system that millions of people depend on, sometimes for days after the immediate danger has passed. It's also a reminder that some of the planet's most catastrophic natural events, like the 1883 Krakatoa eruption, don't just end — the same geological forces can keep producing smaller aftershocks, quite literally, for well over a century."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "volcanic ash"
+              },
+              "def": {
+                "en": "Tiny, sharp fragments of pulverised rock and glass thrown into the air by an eruption, dangerous to jet engines because it can melt inside them and clog the machinery."
+              }
+            },
+            {
+              "term": {
+                "en": "Anak Krakatau"
+              },
+              "def": {
+                "en": "A volcanic island in Indonesia that grew out of the crater left by the 1883 Krakatoa eruption; its name means 'child of Krakatoa.'"
+              }
+            },
+            {
+              "term": {
+                "en": "flight movements"
+              },
+              "def": {
+                "en": "A count of individual takeoffs and landings, used by aviation authorities to measure how much air traffic has been disrupted."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a natural hazard like an ash cloud creates uncertainty, should authorities ground flights immediately and sort out the details later, or wait for clearer data before shutting things down?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Ground first, ask questions later"
+                  },
+                  "points": {
+                    "en": [
+                      "Ash-cloud engine failures have actually happened before, so the risk isn't hypothetical.",
+                      "The cost of being wrong in one direction (grounding unnecessarily) is delay and money; the cost of being wrong in the other direction (flying through ash) can be lives.",
+                      "Once an eruption is confirmed, conditions can change faster than data can be gathered, so acting on the worst-case assumption is the safer default."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for clearer information"
+                  },
+                  "points": {
+                    "en": [
+                      "Grounding six airports affects tens of thousands of people immediately, and that harm is certain, not hypothetical.",
+                      "Ash clouds vary enormously in density and path, and treating every eruption as equally dangerous ignores real differences that better monitoring can reveal quickly.",
+                      "Overly cautious shutdowns can erode public trust in future warnings if they turn out, in hindsight, to have been unnecessary."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should people who choose to live near an active, historically dangerous volcano bear the consequences of that choice themselves, or does the wider public have an obligation to help manage the risk (through monitoring, evacuation planning, and disruption like this)?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a shared responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Many people living near Anak Krakatau were born there or have deep economic ties to the land and sea, so 'choosing' to live there isn't a simple decision.",
+                      "Volcanic monitoring protects not just locals but the millions of people flying through the region, so it's already a shared, not purely local, concern.",
+                      "Disasters like the 1883 eruption show that the risks are regional and even global, not confined to whoever lives closest."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's primarily an individual and local matter"
+                  },
+                  "points": {
+                    "en": [
+                      "People who choose to remain in a zone with a well-documented history of deadly eruptions are accepting a known risk.",
+                      "Resources spent on monitoring and disruption elsewhere are resources not spent on other public needs, and there's a legitimate question of how much the wider public should subsidize that choice.",
+                      "Local and national governments, who benefit from the land's economic activity, are the ones best positioned to bear that responsibility, not distant taxpayers or airlines."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
