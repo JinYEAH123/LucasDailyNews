@@ -1,0 +1,790 @@
+{
+  "date": "2026-09-07",
+  "window": {
+    "start": "2026-09-06T12:00:00-07:00",
+    "end": "2026-09-07T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-07T12:22:19-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Far-right AfD wins vote in Germany's Saxony-Anhalt state, exit polls show",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/9/6/far-right-afd-wins-vote-in-germanys-saxony-anhalt-state-exit-polls"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "German AfD Far-Right Party Declares Victory in Saxony-Anhalt"
+          },
+          "summary": {
+            "en": "NPR's account of the vote explains how the AfD more than doubled its previous share and situates the result within Germany's broader election calendar this fall.  It adds detail on reactions from Chancellor Merz's party."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5955677/german-afd-far-right"
+        },
+        {
+          "title": {
+            "en": "Germany's far-right AfD takes huge lead in key vote, early results suggest"
+          },
+          "summary": {
+            "en": "France24's report gives a European perspective on why this state election is being watched closely across the EU. It covers reaction from other European far-right parties who see the result as encouraging."
+          },
+          "publisher": "France24",
+          "url": "https://www.france24.com/en/europe/20260906-germany-s-far-right-afd-takes-huge-lead-in-key-vote-early-results-suggest"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "AfD wins Saxony-Anhalt election"
+          },
+          "summary": {
+            "en": "CBC's coverage looks at what happens next — whether other parties will negotiate with the AfD and what it could mean for the federal government led by Merz."
+          },
+          "publisher": "CBC",
+          "url": "https://www.cbc.ca/news/world/afd-germany-election-saxony-anhalt-9.7334357"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Party With Extreme Ideas Wins Big in a German Election"
+          },
+          "hook": {
+            "en": "In eastern Germany, a state called Saxony-Anhalt held an election last weekend. A party called the AfD, known for very tough anti-immigrant views, won more votes than any other party — over 43 out of every 100 votes. That's more than double what the party of Germany's leader got. Now everyone is watching to see if the AfD can actually run the state, because other parties don't want to team up with them."
+          },
+          "story": {
+            "en": [
+              "Saxony-Anhalt is one of Germany's 16 states, a bit like how the United States has 50 states. Each state holds its own elections to pick local leaders.",
+              "This time, a party called the AfD won by a landslide — 43.8 out of every 100 votes. The party in charge before, called the CDU, only got 17.2 out of every 100. That means AfD got more than double the votes of the party that used to run things.",
+              "This matters because the AfD has extreme nationalist ideas, and some of its language echoes dangerous ideas from Germany's past, before and during World War Two. No far-right party has come this close to leading a German state since that war ended, 80 years ago.",
+              "But winning the most votes isn't the same as winning outright. The AfD didn't get more than half of all votes, so it needs help from other parties to actually run the state government. So far, every other major party has refused to team up with them, so it's still unclear who will actually be in charge."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This election is the first of several happening across Germany this fall, so people are watching closely to see if this result repeats elsewhere. It also connects to something happening across many countries, including your own: when a lot of voters feel unhappy with the usual leaders, they sometimes turn to parties with much more extreme ideas."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "far-right party"
+              },
+              "def": {
+                "en": "A political party with extreme nationalist views, often strongly against immigration, that many people worry echoes dangerous ideas from the past."
+              }
+            },
+            {
+              "term": {
+                "en": "coalition"
+              },
+              "def": {
+                "en": "When two or more political parties agree to team up and run a government together, usually because no single party won enough votes alone."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a party wins the most votes, should other parties still refuse to work with it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, refuse to work with them"
+                  },
+                  "points": {
+                    "en": [
+                      "Some ideas are so extreme that teaming up with them could hurt vulnerable people.",
+                      "Democracy isn't only about counting votes — it also means protecting everyone, including minorities.",
+                      "History shows what can happen when other parties cooperate with extreme movements instead of standing apart from them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, work with them anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "In a democracy, ignoring the party that won the most votes ignores what voters actually chose.",
+                      "Refusing to cooperate can make those voters feel unheard, and even more upset.",
+                      "If people feel their vote doesn't count because everyone excludes the winner, they might trust elections less."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does winning a lot of votes mean everyone who voted agrees with everything the party believes?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it shows real agreement"
+                  },
+                  "points": {
+                    "en": [
+                      "People usually know what a party stands for before they vote for it.",
+                      "Such a huge win — more than double the next party — suggests very widespread support.",
+                      "Elections are exactly how a society shows what it wants, so a big win is a clear signal."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, people vote for many different reasons"
+                  },
+                  "points": {
+                    "en": [
+                      "Some voters might be protesting against other parties rather than fully supporting this one.",
+                      "People often care about just one issue, like jobs, without agreeing with everything else the party says.",
+                      "Problems in daily life, like the economy, can push people to vote a certain way no matter what else the party believes."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Germany's Far-Right AfD Wins State Election in a Landslide"
+          },
+          "hook": {
+            "en": "In the eastern German state of Saxony-Anhalt, the far-right Alternative for Germany party won 43.8 percent of the vote in a state election — more than double what the mainstream conservative party managed. It's the closest a far-right party has come to leading a German state government since the Nazi era ended in 1945. Whether the AfD can actually take power still isn't settled, because every other major party has so far refused to work with it."
+          },
+          "story": {
+            "en": [
+              "Saxony-Anhalt is one of Germany's sixteen states, each of which runs its own regional government somewhat like a US state or a Canadian province, with its own parliament and its own say over things like schools and police. On Sunday, voters there handed the Alternative for Germany, known by its German initials AfD, 43.8 percent of the vote. The Christian Democratic Union, the centre-right party of national Chancellor Friedrich Merz, came in a distant second at 17.2 percent — less than half the AfD's total.",
+              "The AfD is a party that German intelligence agencies in several states have formally classified as right-wing extremist, meaning they've concluded it works against the country's constitutional order — its positions include hardline opposition to immigration and, among some of its regional leaders, language that echoes Nazi-era rhetoric. The party denies it is extremist and says the label is a political attack. What's undisputed is that a party built on those politics has never come this close to leading a German state government in the eight decades since the war.",
+              "Even with 43.8 percent, the AfD fell short of an outright majority — more than half of all seats — so it can't simply form a government on its own. It needs either a coalition partner (another party willing to share power) or enough opposition parties to at least tolerate a minority government rather than vote it down. So far, every other significant party in Germany has maintained what's called a firewall: a standing refusal to govern with the AfD at any level, treating it as beyond the pale of normal coalition politics. That firewall has held for years, but each AfD landslide puts more strain on it, because refusing to negotiate with the party that just won the most votes starts to look, to many voters, like ignoring democracy rather than defending it.",
+              "This is only the first of several state elections happening across Germany this autumn, and it's being read nationally as a signal, not an isolated result. Chancellor Merz's own CDU now has to reckon with the fact that its traditional voter base in parts of the east is drifting decisively toward the AfD, particularly among people frustrated by immigration, economic stagnation, and a sense that mainstream parties all sound the same. Similar anxieties are playing out elsewhere in Europe, where far-right parties have gained ground in France, Italy, and the Netherlands, though Germany's history gives this particular shift extra weight.",
+              "What happens next in Saxony-Anhalt is still being worked out. The exact final seat count and any coalition negotiations were unresolved as this was being reported, meaning it's genuinely unclear whether the AfD ends up excluded from power again, governs in some limited way, or forces a rethink of how the firewall works altogether."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Elections like this test whether a country's mainstream parties can hold together when a large share of voters stops trusting them — a pattern showing up well beyond Germany, in places where establishment politics feels increasingly out of step with what people actually want. How Germany handles a far-right party winning this decisively will likely shape how other countries respond to similar results in their own elections."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AfD (Alternative for Germany)"
+              },
+              "def": {
+                "en": "A far-right German political party known for hardline anti-immigration positions, now leading in parts of eastern Germany."
+              }
+            },
+            {
+              "term": {
+                "en": "Firewall (in politics)"
+              },
+              "def": {
+                "en": "An informal but firm agreement among other parties to refuse to form a government with a particular party, no matter how well it does at the polls."
+              }
+            },
+            {
+              "term": {
+                "en": "Coalition government"
+              },
+              "def": {
+                "en": "A government formed when no single party wins enough seats to rule alone, so two or more parties agree to share power."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a party wins the most votes but every other party refuses to govern with it, is that refusal protecting democracy or denying it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The firewall is necessary"
+                  },
+                  "points": {
+                    "en": [
+                      "Democracy isn't just counting votes — it also depends on protecting the rights of minorities and the constitutional order, which some parties actively work to undermine.",
+                      "Germany's own history shows how a party can win power through elections and then dismantle the democratic system that let it win.",
+                      "Other parties are still free to compete for those same voters next time; refusing to share power isn't the same as banning the party."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The firewall undermines democracy"
+                  },
+                  "points": {
+                    "en": [
+                      "If the party with the most votes is permanently locked out of power regardless of the result, voters may reasonably conclude their votes don't actually count.",
+                      "Excluding a party without banning it can make it look more like a victim of the establishment, which may deepen its support rather than weaken it.",
+                      "Democracies are supposed to resolve disagreements through governing, not through permanent exclusion of whichever side loses the argument."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a mainstream party is losing voters to a far-right rival, should it shift its own positions closer to those voters' concerns, or hold its ground?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Adapt to win voters back"
+                  },
+                  "points": {
+                    "en": [
+                      "Ignoring the concerns driving people toward the far right — on immigration, economic security, or feeling unheard — just cedes those voters permanently.",
+                      "Political parties exist to represent voters, and refusing to adjust when a large share of the electorate is unhappy is its own kind of failure.",
+                      "Other mainstream European parties that engaged with these concerns directly have sometimes slowed far-right growth more than parties that refused to."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold the line on principle"
+                  },
+                  "points": {
+                    "en": [
+                      "Shifting positions to chase far-right voters risks legitimizing the more extreme parts of that platform rather than containing them.",
+                      "Voters can often tell the difference between a party with real convictions and one that's copying its rival's talking points, and may trust the copy less.",
+                      "Chasing every shift in public mood can hollow out a party's identity until it no longer stands for anything distinct at all."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "Amazon plane crash at Miami airport kills 5",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/news/us-news/amazon-plane-crash-miami-rcna596369"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Amazon cargo plane crashes at Miami airport"
+          },
+          "summary": {
+            "en": "NPR's initial report from the scene includes eyewitness accounts and early statements from Miami-Dade officials about the death toll and injuries.  It's a useful record of what was known in the first hours after the crash."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/06/nx-s1-5959749/amazon-cargo-plane-crashes-at-miami-airport"
+        },
+        {
+          "title": {
+            "en": "Amazon cargo plane crashes after veering off runway at Miami airport"
+          },
+          "summary": {
+            "en": "The Washington Post's account details the sequence of events during landing and the emergency response, including firefighting efforts against the resulting blaze."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/nation/2026/09/06/amazon-cargo-plane-crashes-after-veering-off-runway-miami-airport/"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Cargo Plane Crashes Landing in Miami, Five People Die"
+          },
+          "hook": {
+            "en": "On Sunday afternoon, a big cargo plane crashed while landing at Miami's airport. The plane had flown in from Puerto Rico, an island in the Caribbean Sea. It ran off the end of the runway, hit several vehicles, and caught fire. Five people died and five more were hurt."
+          },
+          "story": {
+            "en": [
+              "The plane was not carrying passengers. It was a cargo plane, which means it only carries boxes and packages, not people sitting in seats. This particular plane flew for Amazon, the company many families order things from online.",
+              "When the plane landed, something went wrong. It kept moving past the end of the runway instead of stopping in time. It crashed into cars and other vehicles parked nearby. Thick black smoke rose into the sky, and people could see it from far away.",
+              "Five people lost their lives. Five others were hurt and are being treated. Investigators from safety agencies are now trying to figure out what happened. It could have been a problem with the plane itself, bad weather, or trouble with the runway. Right now, nobody knows for sure.",
+              "Because the crash happened at a busy airport and people died, many different news organizations are covering the story and checking the facts together."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of families order packages online, and many of those boxes travel on cargo planes just like this one. When something goes wrong with a plane, investigators study exactly what happened so airports and airlines can try to stop it from happening again. Airplane safety rules exist because people learn from crashes like this one."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "runway"
+              },
+              "def": {
+                "en": "A long, flat strip at an airport where planes speed up to take off or slow down after landing."
+              }
+            },
+            {
+              "term": {
+                "en": "investigators"
+              },
+              "def": {
+                "en": "People whose job is to carefully study what happened after an accident, like detectives figuring out a mystery."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a crash like this happens, should people feel more worried about flying in general, or is this one unusual event that doesn't change how safe flying normally is?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Feel more worried"
+                  },
+                  "points": {
+                    "en": [
+                      "A crash that kills people is scary, and it's normal to feel less safe after seeing it happen.",
+                      "If one plane can crash, it reminds us that flying always carries some risk, even if it's rare.",
+                      "Paying attention to danger, even after just one event, can make people more careful and alert."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stay confident in flying"
+                  },
+                  "points": {
+                    "en": [
+                      "Millions of flights land safely every year, and one crash doesn't change those odds much.",
+                      "Investigators will find out what went wrong, and that helps make flying even safer afterward.",
+                      "Feeling scared about something so rare could stop people from doing normal, safe things in life."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Cargo planes carry the packages we order online. After a crash like this, should companies slow down and add extra safety checks even before we know the cause, even if it means our packages arrive later?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, safety first"
+                  },
+                  "points": {
+                    "en": [
+                      "When people have died, it makes sense to slow down and double-check everything, just to be careful.",
+                      "Waiting a little longer for a package is a small price to pay if it means being extra safe.",
+                      "Taking action quickly shows that a company takes the safety of its workers and the public seriously."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait for the facts"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody knows yet why the crash happened, so it's hard to know what to even fix.",
+                      "Slowing down deliveries for everyone might not solve anything if the cause turns out to be unrelated to how planes are checked.",
+                      "Rushing to change things without knowing the real cause could create new problems instead of solving the real one."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Amazon Cargo Plane Crashes Into Vehicles at Miami Airport, Killing Five"
+          },
+          "hook": {
+            "en": "An Amazon-branded cargo plane flying in from Puerto Rico ran off the runway while landing at Miami International Airport on Sunday afternoon. It slammed into vehicles parked near the runway and caught fire, sending thick black smoke over the airport. Five people died and five more were hurt. Investigators have not yet said what went wrong."
+          },
+          "story": {
+            "en": [
+              "The plane was arriving from Puerto Rico on a routine cargo run when it failed to stop on the runway during landing, according to Miami-Dade County Mayor Daniella Levine Cava, who confirmed the deaths. Instead of coming to a halt, the aircraft kept going past the end of the runway — something crash investigators call a 'runway overrun' — and crashed into vehicles that were on the ground nearby. The impact set the plane on fire, and video from the scene showed a column of black smoke rising high enough to be seen from across the city.",
+              "Ten people in total were affected: five died, and five were injured seriously enough to need treatment. Because the plane hit ground vehicles rather than crashing in open land, the death toll includes people who were not on board the aircraft at all — they were simply on the ground doing their jobs near the runway when it happened.",
+              "The plane flew as part of Amazon's Air cargo network, which is the delivery giant's system for moving packages by plane between distribution hubs. It's worth understanding how this actually works: Amazon does not fly these planes itself. It brands aircraft with its logo and pays other companies — specialized cargo airlines with their own pilots, mechanics, and safety procedures — to operate the flights and haul the packages. This is a common setup in the freight industry, but it also means that when something goes wrong, it isn't always obvious which company is actually responsible for what happened: the brand on the plane, or the airline that flew it.",
+              "Two U.S. government agencies are now investigating: the Federal Aviation Administration (FAA), which regulates and oversees civilian aviation safety in the country, and the National Transportation Safety Board (NTSB), an independent agency that investigates major crashes to figure out their cause and recommend fixes. As of now, neither has said what caused the overrun. The leading possibilities investigators typically examine in cases like this are mechanical failure — something breaking on the plane, such as brakes or engines — bad weather conditions at the moment of landing, or a problem with the runway or airport equipment itself. Sorting out which of these applies, or whether it was some combination, usually takes investigators months, sometimes longer, because it involves recovering flight data recorders, interviewing witnesses, and reconstructing the plane's final seconds in detail.",
+              "Miami International Airport is one of the busiest cargo hubs in the country, particularly for flights connecting to Latin America and the Caribbean, which is part of why a flight from Puerto Rico was landing there. The airport has reported disruptions to some flight operations following the crash while emergency crews and investigators work at the site."
+            ]
+          },
+          "why_it_matters": {
+            "en": "E-commerce companies like Amazon now move enormous volumes of goods by air every day, largely invisible to the customers waiting for packages, and this crash is a reminder that the safety of that system depends on airlines most people have never heard of. It also raises a real question about accountability: when a plane crashes wearing a famous company's logo, who is actually responsible for making sure it was safe to fly?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Runway overrun"
+              },
+              "def": {
+                "en": "When an aircraft fails to stop within the length of the runway during landing and continues past its end."
+              }
+            },
+            {
+              "term": {
+                "en": "NTSB (National Transportation Safety Board)"
+              },
+              "def": {
+                "en": "An independent U.S. government agency that investigates major transportation accidents, including plane crashes, to determine their cause."
+              }
+            },
+            {
+              "term": {
+                "en": "Amazon Air"
+              },
+              "def": {
+                "en": "Amazon's branded cargo flight network, in which planes carry the company's logo but are actually flown by separate airlines Amazon pays to operate the routes."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a crash involves a plane branded with a famous company's name but flown by a separate contracted airline, should that company bear the same public responsibility as the airline itself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the brand should answer for it"
+                  },
+                  "points": {
+                    "en": [
+                      "The company chose which airline to hire and can demand higher safety standards as a condition of the contract.",
+                      "Customers and the public associate the logo with the company, so it benefits from the arrangement and should share the accountability when it fails.",
+                      "Spreading responsibility across contractors can let everyone involved point fingers elsewhere, which makes it harder to fix underlying problems."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the operating airline is responsible"
+                  },
+                  "points": {
+                    "en": [
+                      "The airline's own pilots, mechanics, and safety systems are what actually determine whether a flight is safe, not the logo painted on the fuselage.",
+                      "Holding a branding partner legally or morally responsible for another company's operational failures could be unfair if it had no role in the actual decisions that caused the crash.",
+                      "Aviation regulation already assigns specific safety responsibilities to licensed operators, and blurring that could weaken clear lines of accountability rather than strengthen them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should investigators and officials share what they know publicly while a crash investigation is still ongoing, or wait until they have a confirmed cause?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share information as it becomes available"
+                  },
+                  "points": {
+                    "en": [
+                      "People affected by the crash, including nearby residents and airport workers, have a right to know quickly whether ongoing risks remain.",
+                      "Early transparency builds public trust in the investigation and reduces suspicion that information is being hidden.",
+                      "Journalists and the public can help surface relevant details, such as witness accounts, that a closed process might miss."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until findings are confirmed"
+                  },
+                  "points": {
+                    "en": [
+                      "Releasing partial or uncertain information can lead to false conclusions spreading before the full picture is known.",
+                      "Premature blame — on weather, a company, or a mechanical part — can cause real harm to people or businesses if it later proves wrong.",
+                      "Investigations of this kind rely on painstaking technical analysis, and rushing conclusions to satisfy public demand for answers can compromise their accuracy."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Trump: Bombardier can't sell in U.S. unless Canadian aerospace giant builds there",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump threatens to bar sale of Canadian Bombardier jets in U.S."
+          },
+          "summary": {
+            "en": "Bloomberg's independent report on the same announcement adds detail on the trade-war context and possible economic fallout for Bombardier's Canadian operations."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/trump-threatens-to-bar-sale-of-canadian-bombardier-jets-in-us"
+        },
+        {
+          "title": {
+            "en": "Trump threatens tariffs, decertification of Canadian planes"
+          },
+          "summary": {
+            "en": "This earlier CBC report from January covers the origin of the dispute, when Trump first threatened a 50% tariff and decertification of Canadian aircraft — useful for understanding how today's demand fits a months-long pattern."
+          },
+          "publisher": "CBC",
+          "url": "https://www.cbc.ca/news/politics/trump-tariffs-decertify-canadian-planes-9.7067498"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump Tells Canada's Biggest Plane Maker: Build Here, or Don't Sell Here"
+          },
+          "hook": {
+            "en": "President Trump says a Canadian company called Bombardier can't sell its airplanes in the United States anymore — unless it builds them there instead of in Canada. This is the newest move in a growing argument between the US and Canada about trade. Just last week, Canada had put new charges on more than 700 different American products, to match charges Trump had already put on Canadian goods."
+          },
+          "story": {
+            "en": [
+              "Bombardier is a company in Canada. It builds airplanes, especially fancy jets that businesses and wealthy people fly in. It's one of the biggest airplane-building employers in the whole country.",
+              "Trump just said something new. He says Bombardier can't sell any more planes in the US, unless it moves its factories there too. That means actually building the planes on American ground, not just shipping them over from Canada.",
+              "This fight has been building for months. Back in January, Trump threatened extra taxes on Canadian-made planes, called tariffs. Canada fought back by adding its own tariffs on over 700 US products. Those tariffs are worth about $20 billion — that's like spending $1 every single second for more than 600 years.",
+              "Nobody yet knows what Bombardier or the Canadian government will do next."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of things you use — toys, clothes, even parts of cars — get built in one country and sold in another. When countries argue like this, it can make things cost more at the store, and it can mean people lose their jobs building things that used to sell easily across the border."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "tariff"
+              },
+              "def": {
+                "en": "An extra tax a country charges on goods that come in from another country, which usually makes those goods cost more."
+              }
+            },
+            {
+              "term": {
+                "en": "manufacturing"
+              },
+              "def": {
+                "en": "The work of building or making things, usually in a factory."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a country be allowed to say 'build it here, or you can't sell it here'?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect your own workers"
+                  },
+                  "points": {
+                    "en": [
+                      "It creates more jobs for workers in that country.",
+                      "It means fewer things have to travel far to reach customers.",
+                      "It gives the country more control over important things, like airplanes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's unfair to other countries"
+                  },
+                  "points": {
+                    "en": [
+                      "It can make things cost more, since it's often cheaper to build where the factories already are.",
+                      "Other countries might strike back and make trouble for that country's own businesses too.",
+                      "It can take away jobs from workers who already build those things somewhere else."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When two countries argue by adding taxes on each other's goods, is it fair to just match what the other side does?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, matching is fair"
+                  },
+                  "points": {
+                    "en": [
+                      "It shows the other country you won't just accept being treated unfairly.",
+                      "It's a way to push back without anyone actually fighting.",
+                      "It can pressure both sides to sit down and work out a deal faster."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it just makes things worse"
+                  },
+                  "points": {
+                    "en": [
+                      "It ends up hurting regular shoppers on both sides, who now pay more.",
+                      "It can spiral, with each side adding more and more taxes back and forth.",
+                      "It punishes workers and companies who had nothing to do with starting the argument."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Tells Bombardier: Build in America or Stop Selling Here"
+          },
+          "hook": {
+            "en": "President Trump said Monday that Bombardier, one of Canada's biggest aerospace companies, can no longer sell its planes in the United States unless it starts building them on American soil. The threat is the latest turn in a trade fight that has seen the US and Canada trade tariff blows for months. Canada had just retaliated days earlier with roughly $20 billion in new tariffs on more than 700 American products."
+          },
+          "story": {
+            "en": [
+              "Bombardier makes business jets and other aircraft, and until this week it could sell them freely across the US border, just as it has for decades. On Monday, President Trump changed that. He said the company would lose access to the American market entirely unless it moved production into the United States — turning a long-simmering dispute into a direct ultimatum aimed at one specific company and the thousands of jobs tied to it.",
+              "This did not come out of nowhere. Back in January 2026, Trump first threatened a 50% tariff on Canadian-made aircraft and floated the idea of decertification — essentially telling US aviation regulators to stop recognizing Bombardier's planes as approved for American skies. A tariff makes a product more expensive by taxing it at the border; decertification is more severe, since it can block a product from the market altogether regardless of price. Monday's statement takes that earlier threat and sharpens it into a concrete demand: build here, or don't sell here.",
+              "Bombardier matters to Canada in a way that's hard to overstate for a company of its size. It's one of the country's largest aerospace employers, with factories and supply chains that support tens of thousands of workers, many in Quebec. Losing the US market — historically one of its biggest — would not just hurt the company's balance sheet; it would ripple through parts suppliers, small manufacturing towns, and the broader case that Canada can compete globally in high-end manufacturing.",
+              "Canada had already thrown its own punch. On August 25, the government in Ottawa announced retaliatory tariffs worth about $20 billion, covering more than 700 different American goods — retaliatory meaning they were designed specifically to hit back at Trump's earlier tariffs on Canadian products, matching them roughly dollar for dollar. It's the kind of move meant to signal that Canada won't simply absorb US pressure quietly, even though the American economy is roughly ten times the size of Canada's.",
+              "What happens next is genuinely unclear. Bombardier hasn't said whether it would consider shifting production to the US — a move that would be enormously expensive and slow, even if the company wanted to do it — and the Canadian government hasn't laid out how, or whether, it will respond to this specific demand. Both CNBC and Bloomberg reported the story independently on the same day, which is worth noting: it means the account isn't resting on a single newsroom's version of events."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Trade fights like this one aren't abstract — they show up as higher prices on store shelves, job losses in specific towns, and slower delivery of things people actually buy, from planes to lumber to food. When two governments trade escalating tariffs, ordinary businesses and workers on both sides of the border end up absorbing costs they had no say in creating."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tax a government charges on goods coming in from another country, usually to make foreign products cost more than similar domestic ones."
+              }
+            },
+            {
+              "term": {
+                "en": "Decertification"
+              },
+              "def": {
+                "en": "When a government regulator withdraws its official approval for a product — like an aircraft — meaning it can no longer legally be sold or flown in that country."
+              }
+            },
+            {
+              "term": {
+                "en": "Retaliatory tariffs"
+              },
+              "def": {
+                "en": "Tariffs one country imposes specifically to strike back after another country has already taxed its exports, aiming to inflict a comparable amount of economic pain."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a country be allowed to demand that a foreign company build its products domestically as a condition of selling there?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it protects jobs and leverage"
+                  },
+                  "points": {
+                    "en": [
+                      "Requiring domestic production keeps manufacturing jobs and skills inside the country rather than exporting them.",
+                      "It reduces a country's dependence on foreign supply chains for things it considers strategically important, like aircraft.",
+                      "A government has the right to set conditions for access to its own market, especially if it's large and valuable."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it distorts trade and invites retaliation"
+                  },
+                  "points": {
+                    "en": [
+                      "It punishes companies for decisions made under the old rules, which is unfair and unpredictable for business planning.",
+                      "Forcing production shifts is hugely expensive and slow, and often just raises prices for consumers in the demanding country too.",
+                      "It invites tit-for-tat retaliation, as Canada's own tariffs already show, which can spiral into a wider trade war that hurts everyone."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a much smaller economy faces pressure from a much bigger one, is matching tariff for tariff the right response?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, matching sends a necessary signal"
+                  },
+                  "points": {
+                    "en": [
+                      "Refusing to retaliate can look like weakness and invite even harsher demands later.",
+                      "Targeted tariffs let a smaller country hit politically sensitive industries in the bigger country, creating real pressure to negotiate.",
+                      "National economic sovereignty matters even when the numbers are lopsided — backing down every time sets a bad precedent."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, escalation hurts the smaller economy more"
+                  },
+                  "points": {
+                    "en": [
+                      "A country ten times your size can absorb a trade war far more easily than you can, so escalation is a losing numbers game.",
+                      "Retaliatory tariffs raise costs for your own consumers and businesses just as much as the original tariffs did.",
+                      "Quiet negotiation or targeted diplomatic pressure might achieve more than a public tariff fight that hardens both sides' positions."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
