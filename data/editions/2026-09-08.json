@@ -1,0 +1,821 @@
+{
+  "date": "2026-09-08",
+  "window": {
+    "start": "2026-09-07T12:00:00-07:00",
+    "end": "2026-09-08T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-08T12:25:49-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump 2026 midterm election live updates: New Hampshire, Congress, Iran",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/live-blog/trump-2026-midterm-election-new-hampshire-congress-iran-live-updates-rcna596406/rcrd119889"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "How the U.S. and Iran Ended Up at War"
+          },
+          "summary": {
+            "en": "An NPR explainer laying out the sequence of strikes and counter-strikes that turned years of tension into direct fighting between Washington and Tehran. Useful for understanding how the conflict reached this point before the latest wedding-strike claim and Trump's changed rhetoric."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/02/g-s1-141500/us-iran-war"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran Live Updates: Tehran Plans New Restricted Zone"
+          },
+          "summary": {
+            "en": "ABC News's rolling coverage tracks Iran's military response measures as the conflict continues, including new security zones inside the country. It adds detail on Iran's side of the escalation beyond the U.S. framing."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tehran-plans-new-restricted-zone/?id=136249116"
+        },
+        {
+          "title": {
+            "en": "Trump Marks 9/11 Anniversary Event Amid Iran Conflict"
+          },
+          "summary": {
+            "en": "CNN's report on Trump's September 8 remarks situates his changed description of the fighting within a politically charged anniversary event. It gives fuller context for the quotes driving today's story."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/08/politics/trump-9-11-event-iran"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Watch: Trump Calls Iran War 'Small Potatoes' and 'Very Intermittent'",
+          "channel": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/watch-trump-calls-iran-war-small-potatoes-and-very-intermittent",
+          "summary": {
+            "en": "Video of Trump downplaying the intensity of the fighting in his own words, useful for hearing the shift in tone directly."
+          }
+        }
+      ],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The US and Iran Are Fighting, and Nobody Agrees on What Happened"
+          },
+          "hook": {
+            "en": "The United States and Iran, a country in the Middle East, are firing weapons at each other. Iran says it attacked American bases because the US bombed a house where a wedding was happening, killing five people. The US has not said whether that is true. President Trump says the US is fighting because Iran was close to building a nuclear weapon."
+          },
+          "story": {
+            "en": [
+              "Iran fired missiles at American military bases in the Middle East. A military base is like a small town where soldiers live and keep their weapons and airplanes.",
+              "Iran says it did this because the US had bombed a house full of wedding guests, killing five people and hurting many more. American officials have not confirmed this happened the way Iranian news reports say it did.",
+              "President Trump used to call the fighting 'a little excursion,' like a small trip. Now he says the US is fighting because Iran wanted a nuclear weapon, a bomb so powerful it could destroy an entire city. He says Iran no longer has a chance of building one.",
+              "Nobody outside the fighting knows for sure how many people have been hurt, what was really bombed, or how close Iran actually was to building that weapon. American officials, Iranian officials, and outside reporters are all telling different versions."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When two countries fight and each one tells a different story, it becomes hard for anyone, even adults, to know what is true. This kind of fighting can also spread to affect ships, oil, and travel that people all over the world depend on, even kids far away from the Middle East."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "nuclear weapon"
+              },
+              "def": {
+                "en": "An extremely powerful bomb that could destroy an entire city at once."
+              }
+            },
+            {
+              "term": {
+                "en": "retaliation"
+              },
+              "def": {
+                "en": "Fighting back against someone because you believe they hurt you first."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If you're not sure exactly what happened, is it fair to fight back hard anyway?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, fight back"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone might have hurt your people, waiting too long to respond could let them do it again.",
+                      "Sometimes you can never be 100% sure of every detail, but you still have to protect your country.",
+                      "Showing you will respond strongly can stop others from attacking you in the first place."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until you're sure"
+                  },
+                  "points": {
+                    "en": [
+                      "If you attack based on wrong information, you could hurt innocent people by mistake.",
+                      "Fighting back before knowing the full story can make a small problem turn into a much bigger war.",
+                      "Once missiles are fired, you can't take them back, so it's better to be certain first."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country be stopped from building a powerful weapon, even if stopping it means a war?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, stop it"
+                  },
+                  "points": {
+                    "en": [
+                      "A weapon that powerful could hurt huge numbers of people if it were ever used.",
+                      "Once a country has such a weapon, it becomes almost impossible to take away.",
+                      "Other countries might feel unsafe and decide they need the same weapon too, making everything more dangerous."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, war isn't worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "A war happening right now definitely hurts and kills people, while the weapon might never actually be used.",
+                      "Countries have disagreed for years about whether the weapon program was even close to finished.",
+                      "Fighting a war to stop a possible future danger can end up causing more damage than it prevents."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The US and Iran Are Now Openly Fighting a War — and Nobody Agrees on the Facts"
+          },
+          "hook": {
+            "en": "Iran fired missiles at American military bases across the Middle East overnight, and the White House says it will not stop until Iran's nuclear program is finished for good. Iran says the attack was payback for a US strike that hit a house during a wedding, killing five people — a claim American officials have not confirmed. President Trump, who spent weeks avoiding the word 'war,' used it plainly this week."
+          },
+          "story": {
+            "en": [
+              "Overnight into September 8, Iran launched missile strikes at several US military bases spread across the Middle East. Tehran's stated reason: it says a US strike hit a home where a wedding was taking place, killing five people and wounding dozens more. That claim comes from Iranian and regional media, and US officials have not confirmed it happened the way Iran describes — they have not denied a strike took place either, but they dispute what it hit and who died. This is the core problem with reporting a war in real time: both governments have strong reasons to describe the same event in whatever way makes them look right and the other side look like the aggressor, and there is no referee standing over them to say which account is true.",
+              "This is not a new conflict — it is an old one that has been sliding toward open war for days. Before the base strikes, there were reported US strikes on Iranian oil tankers moving through the Persian Gulf, plus missile exchanges at sea between the two militaries. Each side describes these episodes as defensive responses to something the other side did first, which is a pattern common to almost every escalating conflict: nobody wants to be seen starting it, so both sides frame their own actions as retaliation.",
+              "What changed this week is the language coming from the top. For weeks, President Trump avoided calling this a war at all, once dismissing it as 'a little excursion' — a phrase that downplayed the fighting as minor and temporary. On September 8, he dropped that framing entirely: 'We're right now fighting because we have a certain nation that wanted a nuclear weapon. They were very close to getting it, and now they have no chance of getting it.' That is a direct, public admission that the United States is at war, and a specific justification for it — stopping Iran from building a nuclear weapon.",
+              "The trouble is that the claim itself is contested. How close Iran actually was to building a working nuclear weapon is disputed among US officials, independent weapons inspectors, and Iranian officials, who have long insisted their nuclear program is for civilian energy, not weapons. Trump's statement asserts this as settled fact. Independent verification — the kind that would come from international nuclear inspectors examining Iranian facilities directly — is not something either government's public statements can substitute for, and it is not clear that kind of access currently exists.",
+              "So what is actually known, plainly: bases were hit, tankers were hit, missiles were exchanged at sea, people have died on the ground in Iran including, reportedly, at a wedding, and the American president has now said openly that this is a war being fought to stop a nuclear weapon. What is not settled: the true casualty numbers, the actual target of the strike Iran blames for the wedding deaths, and how far along Iran's nuclear program really is. Wars are usually understood in hindsight, once documents get released and investigations are done — while they are happening, the public is left choosing which government's account to believe, or believing neither fully."
+            ]
+          },
+          "why_it_matters": {
+            "en": "A war between a nuclear-capable power and a country the US says was close to building its own nuclear weapon is one of the more dangerous kinds of conflict in the world right now, because miscalculation on either side could pull in other countries fast. It also matters closer to home: when governments give conflicting accounts of the same strike, deciding who to believe is a skill you will need for the rest of your life, not just for this war."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "retaliation"
+              },
+              "def": {
+                "en": "Striking back at someone because of something they supposedly did to you first — both sides in this conflict describe their own attacks this way."
+              }
+            },
+            {
+              "term": {
+                "en": "state media"
+              },
+              "def": {
+                "en": "News organizations that are owned, funded, or directed by a government, meaning their reporting on that government's wars tends to favor its official position."
+              }
+            },
+            {
+              "term": {
+                "en": "nuclear program"
+              },
+              "def": {
+                "en": "A country's facilities and research aimed at nuclear technology, which can be built for electricity or, with different equipment and enough enriched material, for weapons — and outsiders often disagree about which one a program is really for."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When the US and Iran give totally different accounts of the same strike, should people lean toward trusting the account from the country with a freer press, or treat both governments' claims with equal doubt?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Trust the freer press more"
+                  },
+                  "points": {
+                    "en": [
+                      "A country with independent journalists and courts has more ways for false claims to be caught and corrected later.",
+                      "Officials in open democracies risk real political consequences — investigations, elections, resignations — for getting caught lying about a war.",
+                      "Comparing track records, authoritarian state media has a longer documented history of fabricating casualty numbers and enemy actions during wartime."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Doubt both equally"
+                  },
+                  "points": {
+                    "en": [
+                      "Democracies have also made major false claims to justify wars, including entire wars launched on evidence that later fell apart.",
+                      "Fog of war — the simple chaos and confusion of combat — makes early claims from any military unreliable, honest or not, regardless of political system.",
+                      "Every government at war has an incentive to control information and look justified, so the type of government in charge doesn't remove that incentive, it just changes the tools used."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it right to fight a war to stop a country from getting a nuclear weapon, even when that war causes real, immediate deaths like the ones at the reported wedding strike?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, stopping it is worth the cost"
+                  },
+                  "points": {
+                    "en": [
+                      "A hostile country with a nuclear weapon creates a permanent, catastrophic risk that vastly outweighs the deaths caused by conventional strikes now.",
+                      "Nuclear deterrence only works until it fails once, and one failure could be far worse than any war fought to prevent it.",
+                      "Letting one country cross the nuclear threshold makes it far harder to stop the next country from doing the same."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the cost is not worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "The deaths from strikes today are certain and immediate, while the danger of a future nuclear weapon is uncertain and speculative.",
+                      "Military strikes on a nuclear program can fail to actually stop it and may instead convince the targeted country to rebuild in secret, faster, and with more resolve.",
+                      "Diplomacy and sanctions are slower but avoid the deaths, destruction, and unpredictable escalation that come with open war."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Canada's Retaliatory Tariffs on U.S. Goods Take Effect",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/business/economy/canada-tariffs-trump-carney-rcna596573"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Canada Set to Hit Back at Trump Tariffs, Risking Wider Trade War"
+          },
+          "summary": {
+            "en": "Bloomberg's report from the day before the tariffs took effect explains why talks broke down and what Ottawa was preparing to do. It gives the negotiating history behind Tuesday's move."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-07/canada-set-to-hit-back-at-trump-tariffs-risking-wider-trade-war"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Canada's Retaliatory Tariffs Could Reshape the U.S. Midterms in Swing States"
+          },
+          "summary": {
+            "en": "Fortune examines how the new tariffs might hit industries concentrated in politically competitive U.S. states. It extends the story into its likely political consequences."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/07/canada-retaliatory-tariffs-swing-states-midterms/"
+        },
+        {
+          "title": {
+            "en": "What Trump's Tariffs on Canada Could Mean for Your Wallet"
+          },
+          "summary": {
+            "en": "CNN's earlier explainer breaks down which everyday goods are affected and by how much, helping readers translate the trade dispute into real prices."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/08/25/business/canada-us-tariffs-american-consumers"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Canada Fires Back With New Taxes on U.S. Goods"
+          },
+          "hook": {
+            "en": "Right after midnight, Canada started charging extra money on things it buys from the United States. This happened after trade talks between the two countries fell apart. It's the newest move in a money fight that has been going on between the two neighbors for a year and a half."
+          },
+          "story": {
+            "en": [
+              "At midnight, Canada put new taxes on American goods coming across the border. These taxes are called tariffs. A tariff makes something cost more when it comes from another country.",
+              "The tariffs cover about $20 billion worth of American stuff. That's like buying 4 million bicycles all at once. Steel, furniture, clothes, and electronics all now cost more when they come from the U.S. into Canada.",
+              "This didn't happen out of nowhere. The U.S. and Canada have been arguing over trade for 18 months. The U.S. even told a Canadian plane company, Bombardier, it had to build more planes on American soil if it wanted to keep selling there.",
+              "People who study money and trade say prices could go up for shoppers in both countries. Some are also watching the timing closely, because it comes right before important elections in the U.S."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When countries add these extra charges, the cost often lands on regular families. That new bike, jacket, or phone your family buys might cost a little more because of this fight. Grown-ups disagree about how much this will hurt, and for how long, but both countries are now paying a price for not agreeing."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "tariff"
+              },
+              "def": {
+                "en": "A tariff is extra money a government adds to the price of something bought from another country."
+              }
+            },
+            {
+              "term": {
+                "en": "trade war"
+              },
+              "def": {
+                "en": "A trade war is when two countries keep adding more and more tariffs on each other, like a back-and-forth argument fought with money instead of words."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it right for Canada to fight back with its own tariffs, or would it be better to just keep talking it out?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fight back"
+                  },
+                  "points": {
+                    "en": [
+                      "If you never push back, the other side might think they can keep doing whatever they want.",
+                      "Fighting back can sometimes force both sides to return to talking seriously.",
+                      "Standing up for your own country's workers and companies feels fair, even if it costs something."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep talking"
+                  },
+                  "points": {
+                    "en": [
+                      "Tariffs make prices go up for everyone, not just the other country.",
+                      "When both sides keep adding tariffs, it can spiral and hurt both countries even more.",
+                      "Calm talking might solve the disagreement without making anyone pay more."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that everyday shoppers pay more money because two governments are arguing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair enough"
+                  },
+                  "points": {
+                    "en": [
+                      "Sometimes short-term costs protect jobs and industries for the future.",
+                      "If the country gets a better deal in the end, everyone benefits later.",
+                      "Sharing the cost shows people are standing together behind their country's decision."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Regular shoppers didn't start the argument, so it seems unfair they have to pay for it.",
+                      "Higher prices hurt families with less money the most, even though they can't change government decisions.",
+                      "If costs rise too much, companies might have to let workers go, hurting people even more."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Canada Hits Back: New Tariffs on U.S. Goods Kick In After Trade Talks Collapse"
+          },
+          "hook": {
+            "en": "Just after midnight on Tuesday, Canada started charging extra taxes on about $20 billion worth of American products entering the country, from steel to sofas to smartphones. The move is retaliation after trade talks between the U.S. and Canada broke down last month, and it deepens a trade war that has now dragged on for a year and a half."
+          },
+          "story": {
+            "en": [
+              "Canada's government, led by Prime Minister Mark Carney, announced that it would charge extra fees — called tariffs — on a wide range of American goods coming into the country. Depending on the product, the tariff ranges from 15% to 50% of its value. That means a piece of American furniture or clothing could suddenly cost noticeably more once it crosses the border into Canada, because importers usually pass that added cost on to shoppers.",
+              "This isn't the opening shot. It's retaliation. The United States has spent the last year and a half squeezing Canadian industries with its own tariffs and demands — most recently pressuring Bombardier, a major Canadian aircraft manufacturer, to build more of its planes on U.S. soil if it wants to keep selling into the American market. Talks meant to settle these disputes fell apart last month, and Canada's new tariffs are the direct consequence: if the U.S. won't back down, Canada will hit back.",
+              "To understand why this matters, picture what a tariff actually does. It's not a tax paid by the country that gets hit — it's a tax collected by the country that imposes it, charged on goods crossing into that country. So when Canada taxes American steel, it's Canadian companies buying that steel who pay more, and they usually raise their own prices to cover it. The same logic runs in reverse for U.S. tariffs on Canadian goods. Both governments are betting that squeezing the other side's exporters will force a better deal — but the squeeze lands on ordinary shoppers and businesses in both countries at the same time.",
+              "The stakes go beyond steel and furniture. Canada and the United States are each other's biggest trading partners, exchanging hundreds of billions of dollars in goods every year — everything from car parts to lumber to electronics passes across that border constantly, often multiple times before a product is finished. An 18-month trade war disrupting that flow doesn't just make individual products pricier; it can slow down factories on both sides that depend on parts arriving on schedule, and it makes businesses in both countries more cautious about investing or hiring.",
+              "There's also a political layer to the timing. The U.S. is heading into midterm elections — votes that decide who controls Congress halfway through a president's term — and price increases on everyday goods tend to be the kind of thing voters notice and blame politicians for, especially in closely contested swing states where a small shift in mood can decide the result. That gives both governments a reason to look tough in public even while economists on both sides warn that a prolonged standoff could end up costing more than either government initially gains."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family buy anything made partly in the U.S. or Canada — clothes, electronics, furniture, cars — this kind of trade fight can nudge prices up gradually, even if you never notice the tariff itself. It's also a reminder that two friendly, closely linked countries can still end up in a costly standoff when neither wants to be the one who backs down first."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "An extra tax a government charges on goods imported from another country, usually paid by the importing business and often passed on to shoppers as a higher price."
+              }
+            },
+            {
+              "term": {
+                "en": "Retaliatory (tariffs)"
+              },
+              "def": {
+                "en": "Tariffs imposed specifically to strike back after another country imposed tariffs or trade restrictions first."
+              }
+            },
+            {
+              "term": {
+                "en": "Trade war"
+              },
+              "def": {
+                "en": "A prolonged dispute between countries where each side keeps raising tariffs or trade barriers against the other, rather than settling their disagreement through negotiation."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a trade dispute is dragging on, is it better for a country to keep retaliating or to back down first to stop the damage?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep retaliating"
+                  },
+                  "points": {
+                    "en": [
+                      "Backing down first signals weakness and invites the other side to keep pushing for more concessions later.",
+                      "Matching tariffs tit-for-tat can pressure the other government's own industries and voters, creating pressure to negotiate seriously.",
+                      "Absorbing one-sided tariffs without response lets a trading partner permanently reshape the relationship in its own favor."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Back down first"
+                  },
+                  "points": {
+                    "en": [
+                      "Prolonging a trade war raises prices for ordinary families in both countries, regardless of who eventually 'wins'.",
+                      "Businesses on both sides delay investment and hiring during uncertainty, which can cause damage that outlasts the dispute itself.",
+                      "A country that de-escalates first can still negotiate a fair deal without needing to prove a point through economic pain."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should governments time tough trade decisions around elections, or should elections be kept out of it entirely?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Timing around elections is fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Elected leaders are supposed to respond to what voters are feeling, including anger over unfair trade practices affecting their jobs.",
+                      "Showing resolve before an election can strengthen a government's negotiating position by proving it has public backing.",
+                      "Trade policy already affects politics constantly; pretending elections don't exist doesn't make decisions more neutral."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Elections should be kept out of it"
+                  },
+                  "points": {
+                    "en": [
+                      "Decisions driven by election timing risk prioritizing short-term political image over the actual long-term economic interest of the country.",
+                      "Using tariffs as a political tool can escalate disputes further than needed, since backing down might look weak right before a vote.",
+                      "Long-lasting economic policy deserves patient negotiation, not urgency manufactured by a campaign calendar."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "New Hampshire Primary: Sununu, Brown, Pappas and Manzur Compete for Senate Nod",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/08/new-hampshire-primary-senate-scott-brown-john-sununu-chris-pappas-karishma-manzur.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "New Hampshire Primary Field Takes Shape for Senate, Governor and House Races"
+          },
+          "summary": {
+            "en": "The Washington Post's preview from the day before the vote lays out the full field of candidates and what each party needs to see happen. It gives context on why this primary matters beyond the single Senate seat."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/09/07/new-hampshire-primary-senate-pappas-manzur-sununu-brown-governor-house-nh01/94bd1446-aab5-11f1-b498-8697f35a6743_story.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "New Hampshire Primaries Test Trump and the Democratic Left"
+          },
+          "summary": {
+            "en": "NBC News looks at what a Sununu win would say about Trump's grip on the GOP and what a strong Manzur showing would say about the Democratic Party's leftward pull. It frames the vote's significance for national politics beyond New Hampshire."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/2026-election/new-hampshire-primaries-test-trump-left-rcna596109"
+        },
+        {
+          "title": {
+            "en": "Live Results: New Hampshire Midterm Primaries"
+          },
+          "summary": {
+            "en": "PBS NewsHour's live results page is where readers can check for the actual winners once New Hampshire finishes counting votes, since no outcome was confirmed inside this report's window."
+          },
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/live-results-new-hampshire-midterm-primaries"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "New Hampshire Votes to Pick Who Runs for a Big Senate Seat"
+          },
+          "hook": {
+            "en": "On Tuesday, people in New Hampshire went to vote. They weren't picking a president or a governor — they were picking which candidates from each political party will run later this year for a seat in the U.S. Senate. Nobody knows the winners yet."
+          },
+          "story": {
+            "en": [
+              "A senator named Jeanne Shaheen is retiring, which means she's leaving her job in the U.S. Senate. The Senate is one of the two groups in Washington, D.C. that write and vote on laws for the whole country. When she leaves, her seat becomes empty, and someone new has to win it.",
+              "Before that can happen, each political party first has to choose its own candidate. This kind of vote is called a primary election. On the Republican side, two candidates who used to be senators, Scott Brown and John Sununu, both wanted the job. President Trump publicly said he wanted Sununu to win. On the Democratic side, Congressman Chris Pappas ran against Karishma Manzur, who calls herself a democratic socialist — someone who believes the government should do more to help people with things like healthcare and jobs.",
+              "Grown-ups who study politics are watching this race closely. They want to see whether Trump's support actually helps a candidate win, and whether voters like Manzur's more left-leaning ideas or prefer someone like Pappas.",
+              "As of now, the votes are still being counted, so we don't know who won either primary. The winners will go on to face each other in the main election later this year."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The Senate helps decide big things like how much money goes to schools, roads, and hospitals across the whole country. Whoever wins this seat will have a say in those decisions for years. Elections like this are also how everyday people, not just leaders, get to choose who makes those choices."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Senate"
+              },
+              "def": {
+                "en": "One of the two parts of the U.S. government that writes and votes on national laws."
+              }
+            },
+            {
+              "term": {
+                "en": "primary election"
+              },
+              "def": {
+                "en": "A vote where a political party picks which one of its own candidates will run in the main election."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a president to publicly say which candidate he wants his own party to pick?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "A president has opinions like anyone else and should be allowed to share them.",
+                      "Voters can still ignore his opinion and choose whoever they want.",
+                      "It gives people more information about who supports which candidate."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "A president has a lot of power and influence, so his opinion might unfairly sway voters.",
+                      "It can make it harder for other good candidates to be heard fairly.",
+                      "Elections are supposed to be decided by voters, not steered by powerful leaders."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it good for a political party when its members have very different ideas, like the ones between Pappas and Manzur?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, differences help"
+                  },
+                  "points": {
+                    "en": [
+                      "Different ideas let voters choose the one that fits their views best.",
+                      "Competition inside a party can push candidates to work harder and explain their plans better.",
+                      "New ideas, even unusual ones, can help solve problems old ideas couldn't."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, differences can hurt"
+                  },
+                  "points": {
+                    "en": [
+                      "If people in the same party disagree too much, they may struggle to work together later.",
+                      "Arguments within a party can confuse voters about what the party actually stands for.",
+                      "It might split votes and make it harder for the party to win the final election."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "New Hampshire Voters Narrow the Field for a Senate Seat That Could Tip the Balance of Power"
+          },
+          "hook": {
+            "en": "On Tuesday, New Hampshire held primary elections to decide which candidates from each party will compete for a U.S. Senate seat this November. The seat is open because Democratic Senator Jeanne Shaheen is retiring after nearly twenty years in office, and both parties see the race as pivotal to who controls the Senate next year. President Trump publicly backed one Republican candidate over another, while Democrats had to choose between a familiar party figure and a self-described democratic socialist. By the time this report was finished, the results of both primaries were still too close to call."
+          },
+          "story": {
+            "en": [
+              "A primary election isn't the main event — it's the qualifying round. Each party lets its own registered voters (and in New Hampshire, independents too) pick which candidate will represent them in the general election in November. Whoever wins each party's primary this week moves on to face the other party's nominee for the actual Senate seat.",
+              "That seat matters more than most. The U.S. Senate is split closely enough between the two parties that a handful of races each election cycle can flip which party runs the chamber — meaning which party decides what bills get a vote, which judges get confirmed, and who chairs powerful committees. New Hampshire is what's called a swing state: it doesn't reliably vote for one party, so both sides think they have a real shot at winning it.",
+              "On the Republican side, two former U.S. senators faced off: Scott Brown, who represented Massachusetts before losing that seat years ago, and John Sununu, who previously represented New Hampshire itself. President Trump threw his support behind Sununu, publicly endorsing him over Brown. An endorsement from a sitting president can matter a lot in a primary — many Republican voters trust his judgment about who can win in November, and his backing can unlock donations and media attention. But it also puts his own credibility on the line: if the candidate he backed loses, commentators will read that as a sign his grip on the party is loosening.",
+              "On the Democratic side, Representative Chris Pappas — a member of the House of Representatives already well known to New Hampshire voters — was challenged by Karishma Manzur, who describes herself as a democratic socialist, a label associated with politicians who want the government to play a much larger role in guaranteeing things like healthcare, housing, and higher wages. This kind of primary challenge, where a further-left candidate takes on an establishment Democrat, has played out in other states too, and each time it happens, it becomes a small referendum on which direction the party's voters actually want it to go: toward the center, where some argue elections are won, or further left, where others argue the party's energy and enthusiasm actually live.",
+              "As of now, neither primary has been called. Whoever does win will spend the next two months making the case that they, not their general-election opponent, deserve to replace Shaheen — in a race that both national parties will pour money and attention into, precisely because so much rides on it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you can't vote yet, decisions made by senators — about the cost of college, minimum wage, climate policy, or healthcare — eventually reach your life directly. This race is also a live example of how the two parties are being pulled from within: one by a president's endorsement, the other by a candidate arguing the party isn't ambitious enough."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Primary election"
+              },
+              "def": {
+                "en": "A vote held within a political party to choose which candidate will represent it in the general election."
+              }
+            },
+            {
+              "term": {
+                "en": "Endorsement"
+              },
+              "def": {
+                "en": "A public statement of support from a well-known figure, meant to influence how voters see a candidate."
+              }
+            },
+            {
+              "term": {
+                "en": "Democratic socialist"
+              },
+              "def": {
+                "en": "Someone who believes the government should take a much bigger role in providing things like healthcare, housing, and higher wages."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a sitting president publicly endorse candidates in his own party's primary elections?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a normal part of leadership"
+                  },
+                  "points": {
+                    "en": [
+                      "A president has a stake in which candidates from his party can actually win in November, so weighing in is reasonable.",
+                      "Voters benefit from knowing which candidate has the backing and trust of the party's most prominent figure.",
+                      "Presidents have endorsed primary candidates for generations; it's an accepted tool of party leadership, not an abuse of office."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it distorts a fair contest"
+                  },
+                  "points": {
+                    "en": [
+                      "An endorsement from someone as powerful as a president can drown out the voices of local voters who know the candidates best.",
+                      "It pressures other officials and donors to fall in line rather than judge candidates on their own merits.",
+                      "If the president's chosen candidate loses anyway, it can look like using the office to punish a rival rather than genuinely serve voters."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does a democratic socialist challenging an established Democrat help or hurt the party's chances in November?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It helps the party"
+                  },
+                  "points": {
+                    "en": [
+                      "A spirited primary challenge forces the eventual nominee to sharpen their arguments and energize voters who might otherwise stay home.",
+                      "It shows the party contains real debate rather than being controlled by a small, unchanging establishment.",
+                      "If the challenger's ideas are popular with younger or working-class voters, adopting some of them could expand the party's coalition."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It hurts the party"
+                  },
+                  "points": {
+                    "en": [
+                      "A bruising primary can drain money and goodwill that would otherwise go toward beating the Republican nominee in the general election.",
+                      "Positions popular within the party's base aren't always popular with the swing voters needed to win a purple state like New Hampshire.",
+                      "If the more moderate candidate barely survives, opponents can use the challenge as proof the party is drifting too far left for the state."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
