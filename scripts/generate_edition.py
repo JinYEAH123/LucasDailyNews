@@ -30,6 +30,7 @@ Requires ANTHROPIC_API_KEY (or an `ant auth login` profile) and `pip install ant
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 import sys
@@ -971,30 +972,69 @@ def _prune_stray_links(stories: list) -> None:
 
 def _choose(client, cfg, brief: str, already: list, schema: dict,
             attempts: int = 2) -> dict:
-    """Pass 2, refusing a story a recent edition already ran.
+    """Pass 2, refusing a story a recent edition already ran and a short count.
 
     Telling the model not to reuse a URL is the same kind of instruction that
     let the padded reading lists through, so the answer is read back. A repeat
     is unambiguous — the same URL, published days apart — and cheap to catch.
+
+    A short count is caught here for the same reason. The schema says the paper
+    runs exactly N stories, but api_schema clamps minItems to 1 and drops
+    maxItems, because the structured-output subset allows nothing else — so the
+    model is told "at least one" and the local validator is the first thing that
+    ever sees the real number. On 2026-09-09 it returned two good stories, the
+    validator demanded three, and the day died on "is too short" after the
+    research had been paid for.
+
+    Too many can be trimmed, which _trim_to_bounds does. Too few cannot be
+    conjured, so the only honest move is to ask again and say what was short.
     """
     spent = {url for url, _ in already}
+    short_note = ""
     for attempt in range(1, attempts + 1):
         skeleton = structured(client, cfg, base_policy(cfg),
-                              skeleton_prompt(brief, already),
+                              skeleton_prompt(brief, already) + short_note,
                               schema, "Skeleton")
-        repeats = [st for st in skeleton.get("stories", [])
-                   if st.get("source", {}).get("url") in spent]
-        if not repeats:
+        stories = skeleton.get("stories", [])
+        repeats = [st for st in stories if st.get("source", {}).get("url") in spent]
+        short = max(0, N - len(stories))
+
+        if not repeats and not short:
             return skeleton
 
         for st in repeats:
             print(f"  {st.get('slug')} ran in a recent edition already: "
                   f"{st['source']['url']}", file=sys.stderr)
+        if short:
+            print(f"  only {len(stories)} of {N} stories came back",
+                  file=sys.stderr)
+
         if attempt == attempts:
-            print(f"  warning: kept {len(repeats)} repeat(s) — the brief may not "
-                  f"hold {N} stories that have not already run.", file=sys.stderr)
+            if repeats:
+                print(f"  warning: kept {len(repeats)} repeat(s) — the brief may "
+                      f"not hold {N} stories that have not already run.",
+                      file=sys.stderr)
+            if short:
+                # Publishing two good stories beats publishing none. The page,
+                # the poster and the email are all built from however many
+                # stories the edition holds, so a short day renders correctly;
+                # it is just short, and the log says so.
+                print(f"  warning: publishing {len(stories)} stories instead of "
+                      f"{N}. The brief did not hold {N} that were both strong "
+                      f"enough and not already run.", file=sys.stderr)
             return skeleton
-        print(f"  choosing again without them ({attempt}/{attempts})", file=sys.stderr)
+
+        if short:
+            kept = ", ".join(st.get("slug", "?") for st in stories)
+            short_note = (
+                f"\n\nYour last answer had only {len(stories)} stories ({kept}). "
+                f"The paper runs exactly {N}. Keep those and add "
+                f"{N - len(stories)} more from the shortlist — the next strongest "
+                f"candidates that are not already listed above and were not "
+                f"already published. Do not pad with a weak story: if the brief "
+                f"genuinely holds nothing else, say so in the facts of the last "
+                f"one rather than inventing a story.")
+        print(f"  choosing again ({attempt}/{attempts})", file=sys.stderr)
         already = already + [(st["source"]["url"], st.get("slug", "")) for st in repeats]
 
 
@@ -1080,7 +1120,13 @@ def main() -> None:
     for note in _trim_to_bounds(skeleton, skel_schema):
         print(f"  trimmed {note} — the API is never told this ceiling, so it is "
               f"applied here", file=sys.stderr)
-    problem = _shortfall(skeleton, skel_schema, ())
+    # How many stories ran is decided above, by _choose, which asks again and
+    # then warns and publishes what it has. Validating it a second time here
+    # would only turn that decision back into a dead run. Everything about the
+    # shape and completeness of each story is still checked.
+    check_schema = copy.deepcopy(skel_schema)
+    check_schema["properties"]["stories"]["minItems"] = 1
+    problem = _shortfall(skeleton, check_schema, ())
     if problem is None:
         for story in skeleton["stories"]:
             problem = _hollow_field(story, ("slug", "facts"))
