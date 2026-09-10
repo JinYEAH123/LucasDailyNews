@@ -1,0 +1,769 @@
+{
+  "date": "2026-09-10",
+  "window": {
+    "start": "2026-09-09T12:00:00-07:00",
+    "end": "2026-09-10T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-10T12:20:50-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Oil prices jump as US-Iran conflict escalates",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/09/economy/oil-price-iran-war"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US Says It Hit Iranian Warships After Missiles Fly"
+          },
+          "summary": {
+            "en": "An earlier NPR report details the initial exchange of fire between U.S. Navy ships and Iranian forces that set off this week's escalation. It gives useful context on how the standoff began before the tanker strikes."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/05/nx-s1-5959159/us-iran-warships-targeted"
+        },
+        {
+          "title": {
+            "en": "Live Updates: Iran War, Strait of Hormuz, Oil and Gas Prices"
+          },
+          "summary": {
+            "en": "CBS News is tracking the fast-moving military and economic fallout hour by hour, including shipping disruptions through the Strait of Hormuz. Useful for readers wanting the latest developments as they happen."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Oil Tops $100 a Barrel, Diesel Hits Record High"
+          },
+          "summary": {
+            "en": "Fortune breaks down how the strikes are pushing gas and diesel prices to multi-year highs and what that could mean for household budgets and shipping costs. It connects the geopolitical event directly to everyday consumer impact."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/09/oil-prices-100-gas-diesel-middle-east/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Ships Get Attacked at Sea, and Gas Gets More Expensive"
+          },
+          "hook": {
+            "en": "American ships and Iranian ships have been shooting at each other near the ocean where a lot of the world's oil travels. The U.S. military says it hit five huge oil-carrying ships linked to Iran's military after Iran tried to attack a U.S. warship. This is the second round of fighting like this in just a few days, and it made the price of gas jump higher."
+          },
+          "story": {
+            "en": [
+              "Iran is a country in the Middle East, far from the United States. It has a part of its military called the Revolutionary Guard, which is separate from Iran's regular army and answers directly to Iran's leaders.",
+              "First, Iran's Revolutionary Guard fired missiles toward two U.S. Navy warships. A warship is a big armed boat built for fighting, not for carrying passengers or cargo. In response, the U.S. military struck three tankers, which are giant ships that carry oil across the ocean, sometimes as much oil as thousands of swimming pools.",
+              "Then Iran tried again, attacking another U.S. warship. This time, the U.S. hit five more tankers linked to Iran's Revolutionary Guard. Iran's government says these attacks broke international rules and called them a war crime, though the United States disagrees and says it was defending itself.",
+              "All this fighting happened near waters that carry a lot of the world's oil. Because ships were getting attacked there, oil became harder and scarier to move, so its price shot up. In the U.S., the price of diesel fuel, which trucks and some cars use, hit its highest point ever: $5.94 for one gallon, which is about the size of four large milk jugs."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When oil and gas cost more, it costs more for trucks to deliver food, for buses to run, and for parents to drive to work or school pickup. Even kids who don't think about gas prices feel it when a family trip costs more or grocery prices creep up. Because this is happening close to an election in the United States, it could also change which leaders people choose to vote for."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "oil tanker"
+              },
+              "def": {
+                "en": "A very large ship built to carry oil across oceans, sometimes enough to fill thousands of swimming pools."
+              }
+            },
+            {
+              "term": {
+                "en": "ballistic missile"
+              },
+              "def": {
+                "en": "A powerful flying weapon that is launched into the air and then comes down fast to hit a target far away."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When one country's ship gets attacked, is it fair for that country to strike back right away, or should it try talking first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Strike back right away"
+                  },
+                  "points": {
+                    "en": [
+                      "It protects your people immediately instead of waiting to see if you get hit again.",
+                      "Hitting back shows the other side you won't be pushed around, which might stop future attacks.",
+                      "If you wait to talk, the enemy might attack again before anyone agrees to anything."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Try talking first"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking might solve the problem without anyone else getting hurt.",
+                      "Striking back can turn a small fight into a much bigger, longer war.",
+                      "Other countries or peacekeepers could help calm things down instead of more fighting."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that when two countries fight far away, families everywhere end up paying more for gas?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair, in a way"
+                  },
+                  "points": {
+                    "en": [
+                      "Oil is shared around the whole world, so trouble in one place naturally affects everyone who uses it.",
+                      "Higher prices are just how the world reacts when something dangerous happens to oil ships.",
+                      "Everyone benefits from oil being available, so everyone shares some of the risk when it's threatened."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Ordinary families didn't start the fight but still have to pay more money because of it.",
+                      "Kids and parents who just need gas to get to school or work had no say in this conflict.",
+                      "Sudden price jumps hurt families with less money much more than families with a lot of money."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US and Iran Trade Strikes at Sea, and Oil Prices Jump Toward $100"
+          },
+          "hook": {
+            "en": "The US military struck five oil tankers tied to Iran's most powerful armed force this week, right after Iran tried to attack a US Navy warship. It was the second round of strikes in just a few days — Iran had fired missiles at two US ships earlier, and the US hit three other tankers in response. Oil prices spiked sharply afterward, and the effects are already reaching gas pumps and, according to analysts, could reach the ballot box."
+          },
+          "story": {
+            "en": [
+              "The US military's Central Command, the branch overseeing American operations across the Middle East, announced it had struck five oil tankers connected to Iran's Revolutionary Guard Corps — a powerful branch of Iran's armed forces, separate from its regular army, that controls much of the country's oil shipping and backs allied militias across the region. The strike came immediately after Iran attempted its own attack on a US Navy warship in the area.",
+              "This was not an isolated incident. Days before, the Revolutionary Guard had launched ballistic missiles — long-range weapons that arc high into the sky before dropping onto a target — toward two American warships. The US answered that attack by striking three Iranian oil tankers. When Iran tried again, the US hit five more.",
+              "Iran's foreign ministry, speaking through state media, called the American strikes 'a clear violation of Paragraph 4 of Article 2 of the United Nations Charter' — the founding UN rule that forbids one country from using force against another's territory or independence — and described them as a war crime. It's worth being clear about where that description comes from: it is Iran's government's own characterization, delivered through media it controls, and Washington disputes it, framing its strikes as self-defense against unprovoked attacks on its ships.",
+              "Oil markets reacted within hours. Brent crude, the international price benchmark that influences fuel costs worldwide, jumped 3.36% to settle at $101.21 a barrel — its first close above $100 since July and its highest price since May. In the US, diesel fuel, which powers trucks, trains, and farm machinery, hit a record $5.94 a gallon.",
+              "Fuel prices don't stay contained to gas stations. They ripple into the cost of shipping, groceries, and anything that travels by truck. Analysts now say this spike could become a real factor in the US midterm elections, the votes held partway through a president's term that decide who controls Congress, since voters historically punish whichever party holds power when gas gets expensive — regardless of what caused it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When tensions escalate between countries thousands of miles away, the cost shows up close to home — in what it costs to fill a car, ship a package, or truck food to a store. This is also a case study in how foreign policy and domestic politics collide: decisions made for military or security reasons can end up shaping elections in ways no one intended."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Revolutionary Guard Corps"
+              },
+              "def": {
+                "en": "A powerful branch of Iran's armed forces, separate from its regular military, that controls oil shipping operations and backs allied armed groups across the Middle East."
+              }
+            },
+            {
+              "term": {
+                "en": "Brent crude"
+              },
+              "def": {
+                "en": "The international benchmark price for oil that many countries use to set the cost of fuel, so when it rises, prices tend to rise worldwide."
+              }
+            },
+            {
+              "term": {
+                "en": "midterm elections"
+              },
+              "def": {
+                "en": "US elections held two years into a president's term that decide which party controls Congress, often influenced by economic conditions like gas prices."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a country strikes back after being attacked, does that make everyone safer, or does it just start a cycle of retaliation?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Striking back deters future attacks"
+                  },
+                  "points": {
+                    "en": [
+                      "If a country doesn't respond to an attack, it signals weakness and invites more attacks.",
+                      "A strong, immediate response can make an aggressor think twice before trying again.",
+                      "Protecting your own forces and interests is a basic right every nation claims."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Retaliation just escalates the conflict"
+                  },
+                  "points": {
+                    "en": [
+                      "Each strike gives the other side a reason to hit back harder, and the cycle rarely ends on its own.",
+                      "Bystanders — sailors, civilians, markets around the world — bear costs neither side intended.",
+                      "History shows tit-for-tat military exchanges often spiral into wars nobody planned to start."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a government's military decisions change if it knows they'll raise fuel prices for its own voters right before an election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Security decisions shouldn't bend to politics"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting election timing influence military choices could mean acting too slowly or too weakly when a real threat appears.",
+                      "Adversaries could exploit a government that hesitates to protect its citizens just to avoid economic pain before a vote.",
+                      "National security decisions require long-term thinking that elections, only two years apart, can distort."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Leaders should weigh the cost to their own people"
+                  },
+                  "points": {
+                    "en": [
+                      "Elected officials are supposed to represent the people who'll actually pay higher prices for gas and groceries.",
+                      "Ignoring the economic fallout of a decision isn't strength — it's failing to consider who bears the consequences.",
+                      "Democracies function on accountability, and voters have every right to judge decisions by their real-world impact on daily life."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Apple Unveils Its First Foldable, the iPhone Duo",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/09/apple-unveils-its-first-foldable-the-iphone-duo/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Apple's Priciest iPhone Duo Hits $3,199, Setting Industry Record"
+          },
+          "summary": {
+            "en": "Bloomberg examines how Apple's top-tier foldable configuration became the most expensive mass-market smartphone ever sold, and what that pricing signals about the premium phone market. It's useful for understanding how this launch compares with past Apple pricing strategy."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-09/apple-s-priciest-iphone-duo-hits-3-199-setting-industry-record"
+        },
+        {
+          "title": {
+            "en": "Apple's Foldable Phone Marks New Fold in Leadership Under CEO John Ternus"
+          },
+          "summary": {
+            "en": "NBC News looks at how the Duo launch doubles as an early signature moment for Apple's new chief executive. It offers context on the leadership transition behind this product decision."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/tech/apple/apple-foldable-phone-new-fold-18-launch-ceo-john-ternus-rcna596652"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Apple's Phone Folds in Half — And Costs More Than Some Cars' Down Payments"
+          },
+          "hook": {
+            "en": "Apple just showed off its first-ever folding phone, called the iPhone Duo. It can bend in half like a book, and the fanciest version costs $3,199 — more money than some people pay for a used car. This is also the first big product from Apple's brand-new boss, John Ternus."
+          },
+          "story": {
+            "en": [
+              "Apple makes iPhones, and for years those phones have all been flat rectangles of glass. Now they've made one that folds shut, just like a wallet or a paperback book, so it's small enough to slip in a pocket but opens up into a bigger screen for watching videos or playing games.",
+              "The cheapest iPhone Duo costs $1,999. That's like buying about 400 pizzas. The top model costs $3,199 — reports say that's the most any company has ever charged for a phone that regular people can buy in stores, not just a few rich collectors.",
+              "This is a big moment for Apple's new CEO, John Ternus. A CEO is the person in charge of running a whole company and deciding what it makes next. Ternus just took over that job, so this folding phone is like his first big test in front of the whole world.",
+              "Other companies, like Samsung, have been making folding phones for years already. So Apple is arriving late to this idea — but Apple often waits and then tries to make its version extra polished. People can start ordering the iPhone Duo on October 16, and it will actually arrive in stores on October 23."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you'll never own one, this phone shows how companies compete by making things bigger, fancier, and sometimes shockingly expensive. It also shows that even huge companies like Apple sometimes copy an idea from a rival — just years later, and with a much higher price tag."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "foldable phone"
+              },
+              "def": {
+                "en": "A phone with a screen that bends in the middle, so it folds shut like a book and opens up into a bigger screen."
+              }
+            },
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "The person in charge of running a company and making big decisions about what it builds and sells."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it okay for a phone to cost as much as $3,199?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "People get to choose how to spend their own money, and nobody is forced to buy it.",
+                      "New, complicated inventions often cost a lot at first, before they get cheaper.",
+                      "If people are willing to pay for it, that's their decision to make, not anyone else's."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's too much"
+                  },
+                  "points": {
+                    "en": [
+                      "That much money could pay for many months of groceries for a family instead.",
+                      "Charging so much makes cool new technology only available to rich people.",
+                      "A phone is still just a phone — it can't do anything a cheaper one truly can't."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for a company to be first with a new idea, or to wait and do it well?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Being first is better"
+                  },
+                  "points": {
+                    "en": [
+                      "Customers who want something new don't want to wait years for it.",
+                      "Being first lets a company shape what everyone expects the product to be like.",
+                      "Waiting too long can make a company look like it's falling behind and losing ideas."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Waiting and doing it well is better"
+                  },
+                  "points": {
+                    "en": [
+                      "A company can watch what went wrong with earlier versions and avoid those mistakes.",
+                      "Rushing to be first can mean releasing something that breaks or doesn't work well.",
+                      "Customers often trust the version that feels the most finished and reliable, even if it's later."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Apple's First Folding iPhone Costs More Than a Used Car Down Payment"
+          },
+          "hook": {
+            "en": "Apple has finally released a foldable phone — years after competitors like Samsung already had theirs on shelves. Called the iPhone Duo, it starts at $1,999 and climbs to $3,199 for the top model, which reports say is the most expensive price ever set for a phone made for the general public. It's also the first big product launched under Apple's new CEO, John Ternus, making this as much a test of his leadership as it is of the phone itself."
+          },
+          "story": {
+            "en": [
+              "Apple unveiled the iPhone Duo at an event called 'Surprise and Shine,' introducing a phone that bends in half like a small book — a design known as a foldable, where a flexible screen lets the device shrink to pocket size and unfold into something closer to a small tablet. The base version, with 256 gigabytes of storage (roughly enough space for tens of thousands of photos or a few hundred movies), costs $1,999. The top-end version costs $3,199. Preorders open October 16, and the phone arrives in stores a week later, on October 23.",
+              "That price tag is the headline detail for a reason. $3,199 is described as a record for a mass-market smartphone — meaning a phone designed and sold for ordinary consumers, not a specialty or limited-run device. Most flagship phones from Apple and its rivals sell somewhere between $800 and $1,300. A foldable at triple that price is a bet that enough people will pay a luxury-car-down-payment sum for a phone that does something genuinely new, rather than just a slightly better version of what they already own.",
+              "The timing matters too. Samsung and other manufacturers have sold folding phones for roughly six years, working through early problems like screens that crease or hinges that wear out. Apple, known for entering categories late but polishing them, has now made its move — long after the folding phone stopped being a novelty gadget and became a normal option in phone shops worldwide.",
+              "This is also the first major product released under John Ternus, who has taken over as Apple's chief executive officer — the person ultimately responsible for the company's decisions and results. New CEOs are watched closely on their first big launch, because it signals what kind of company they intend to run: cautious and incremental, or bold and willing to charge premium prices for premium technology. A phone this expensive, launched this early in his tenure, sends a clear message about the direction he wants to take.",
+              "Whether the bet pays off depends on what happens after October 23. If the iPhone Duo sells well despite the price, it could reshape what customers expect to pay for cutting-edge phones — and put pressure on rivals to push their own prices upward too. If it flops, it becomes an early lesson for Ternus and a sign that even Apple's brand loyalty has limits."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Phone prices affect nearly everyone who owns one, and a $3,199 price tag from a company as influential as Apple can shift what feels 'normal' to charge across the whole industry. It's also a real-time example of how a new leader's first major decision gets scrutinized as a signal of everything that follows."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Foldable phone"
+              },
+              "def": {
+                "en": "A smartphone with a flexible screen that folds in half, shrinking for your pocket and unfolding into a larger display."
+              }
+            },
+            {
+              "term": {
+                "en": "Mass-market"
+              },
+              "def": {
+                "en": "Made and sold for the general public, rather than a small niche of specialist buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "Chief executive officer — the person with final responsibility for a company's biggest decisions and overall direction."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it reasonable for a company to charge over $3,000 for a phone, or does that price put new technology out of reach for most people in a way that's unfair?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The price is reasonable"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies take on real financial risk developing new technology, and high prices on the newest version help fund that research.",
+                      "No one is forced to buy the top model — cheaper phones, including Apple's own older models, still work fine.",
+                      "Letting the market decide the price lets the most enthusiastic buyers fund innovations that eventually become affordable for everyone else."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The price is a problem"
+                  },
+                  "points": {
+                    "en": [
+                      "When a trusted brand normalizes a $3,000+ phone, it can shift expectations and nudge prices upward across the whole industry over time.",
+                      "Pricing new technology this high effectively locks out anyone without significant disposable income, deepening a digital divide.",
+                      "A company as large and profitable as Apple could choose to price innovation more accessibly rather than treating it as a luxury item."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was Apple right to wait years before releasing a foldable phone, rather than rushing to compete early like its rivals did?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Waiting was the smart move"
+                  },
+                  "points": {
+                    "en": [
+                      "Early foldable phones from other brands had real problems — creasing screens, weak hinges — and Apple avoided attaching its name to those failures.",
+                      "Entering late let Apple study what worked and didn't, likely producing a more reliable and polished first product.",
+                      "Apple has a long history of arriving late to categories (like MP3 players and smartwatches) and still succeeding by doing it better, not first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Waiting cost Apple an advantage"
+                  },
+                  "points": {
+                    "en": [
+                      "Rivals have had years to build brand loyalty, refine designs, and win over the customers most excited about foldable phones.",
+                      "Being first often means owning the public's idea of a category, and Apple gave that away to competitors for six years.",
+                      "Customers already comfortable with a rival's foldable design may see little reason to switch now, even to a well-made Apple version."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "New Rule Would Require Some Visa Holders to Leave U.S. Immediately After Losing Job",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/immigration/2026/09/10/new-rule-would-require-some-visa-holders-leave-us-immediately-after-losing-job/"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "US Plans to Take Away the Two-Month Safety Net for Laid-Off Foreign Workers"
+          },
+          "hook": {
+            "en": "Right now, if a skilled worker from another country loses their job in the United States, they get 60 days — almost two months — to find a new job or make a plan before they have to leave. A US government agency just said it wants to erase that rule. If that happens, some workers could have to leave the country almost immediately after being let go."
+          },
+          "story": {
+            "en": [
+              "Imagine your family moved to the United States because your mom or dad got a special work permit called an H-1B visa. It lets skilled workers, like engineers or scientists, take jobs at American companies.",
+              "If that job ever ended, there's a rule right now giving families 60 days to find a new job, switch their paperwork, or pack up and go home. That's called a grace period — like extra time after a deadline, similar to a few extra days to return an overdue library book.",
+              "On Thursday, an agency called USCIS, which handles visas, said it wants to get rid of that grace period. If the change happens, workers could be required to leave right away after losing a job, with no two months to sort things out.",
+              "This could affect many thousands of workers and their families. So far, only one newspaper, The Washington Post, has reported the plan, so it isn't confirmed yet by other news outlets."
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might know a classmate whose parent works in the US on a visa like this. If the rule changes, that family could have to move away suddenly, maybe even in the middle of the school year, with almost no warning. It's a reminder that one decision made far away in an office can flip a family's whole life very fast."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "H-1B visa"
+              },
+              "def": {
+                "en": "A special permission that lets skilled workers from other countries, like engineers or scientists, take a job at a company in the United States."
+              }
+            },
+            {
+              "term": {
+                "en": "grace period"
+              },
+              "def": {
+                "en": "Extra time allowed after a deadline before you must actually finish something, like a few extra days to return a library book without a fine."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair to make someone leave the country right away after losing a job, with no extra time at all?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, immediate departure is fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Rules should be simple and the same for everyone, without special extensions.",
+                      "If your permission to stay is tied to having a job, it makes sense that losing the job ends the permission too.",
+                      "A grace period could be misused by people who don't actually leave or find new sponsorship in time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they should get time"
+                  },
+                  "points": {
+                    "en": [
+                      "Packing up a whole life, selling belongings, and booking flights takes more than a day or two.",
+                      "Kids in these families might be in the middle of a school year, and a sudden move can be hard on them.",
+                      "Losing a job often isn't the worker's fault — companies close or make cuts for their own reasons."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should workers on special visas get protections, like extra time to stay, that citizen workers don't get?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, special protections make sense"
+                  },
+                  "points": {
+                    "en": [
+                      "Their whole ability to stay in the country depends on that one job, unlike a citizen who can simply keep living there.",
+                      "Losing a job for a visa worker can mean losing their home in the country too, not just their paycheck.",
+                      "Keeping skilled workers a little longer to find new jobs can be good for the country's businesses and economy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, everyone should follow the same rule"
+                  },
+                  "points": {
+                    "en": [
+                      "Citizens who lose a job don't get a government-granted grace period to stay employed either.",
+                      "Giving one group extra rules could seem unfair to workers born in the country.",
+                      "Simpler rules that apply to everyone are easier to understand and to enforce."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "U.S. Considers Ending 60-Day Safety Net for Laid-Off Foreign Tech Workers"
+          },
+          "hook": {
+            "en": "The U.S. agency that handles immigration paperwork says it wants to scrap a rule that currently gives skilled foreign workers, including many H-1B visa holders, 60 days to stay in the country after losing a job. Under the proposed change, these workers would have to leave almost immediately instead of having two months to find a new employer willing to sponsor them. The announcement came from U.S. Citizenship and Immigration Services (USCIS) on Thursday, and so far only The Washington Post has reported the details, so the exact scope and timing are still unconfirmed elsewhere."
+          },
+          "story": {
+            "en": [
+              "An H-1B visa lets American companies hire skilled foreign workers — often software engineers, doctors, or scientists — for jobs that require specialized training. The visa is tied to a specific employer, which means if that company lets you go, your legal right to stay in the U.S. is suddenly in question too. Since 2017, a rule has given these workers a 60-day grace period: enough time to line up a new sponsoring employer, switch to a different visa category, or pack up and leave in an orderly way.",
+              "USCIS, the federal agency that processes visas and green cards, announced Thursday that it intends to eliminate that grace period. If the change goes through, a worker who loses their job would be expected to leave the United States almost immediately rather than having two months to sort things out. For someone with a mortgage, a spouse who also works, or kids enrolled in a local school, that is the difference between a manageable transition and an emergency.",
+              "This is not law yet. Federal agencies generally have to publish a formal proposal, take public comments, and then finalize a rule before it takes effect — a process that can take months and sometimes gets challenged in court. But the announcement itself signals where the administration wants to go: making it harder for laid-off visa holders to stay and search for another U.S. job, and easier for the government to require quick departures.",
+              "The people most affected would be a fairly specific group — skilled visa holders, heavily concentrated in the tech industry, along with their spouses and children who often hold dependent visas tied to the main worker's status. Tech layoffs have been frequent over the past two years, so the population who could be caught by a sudden job loss and a tight new deadline is not small.",
+              "It's worth being upfront about the sourcing here: as of this writing, only The Washington Post has reported this story in detail, and no other outlet has independently confirmed the specifics. That doesn't make it untrue, but it means the exact wording of the proposal, its timeline, and any exceptions are worth watching for when other reporting or the official government filing appears."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is about how much room the government gives people to land on their feet when something outside their control — being laid off — happens to intersect with immigration status. If you know someone on a work visa, or if your own family has ever depended on a job to keep a legal status intact, the gap between 60 days and zero days is the gap between a plan and a crisis."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "H-1B visa"
+              },
+              "def": {
+                "en": "A U.S. visa that lets companies temporarily employ foreign workers in skilled jobs, but ties the worker's legal status to that specific employer."
+              }
+            },
+            {
+              "term": {
+                "en": "Grace period"
+              },
+              "def": {
+                "en": "A set amount of extra time — here, 60 days — that a rule allows someone to fix a problem, like finding a new job, before facing a stricter consequence."
+              }
+            },
+            {
+              "term": {
+                "en": "USCIS"
+              },
+              "def": {
+                "en": "U.S. Citizenship and Immigration Services, the federal agency that reviews visa applications and writes many of the detailed rules for how immigration works."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a person's right to stay in a country depend on keeping a specific job?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, tie status to employment"
+                  },
+                  "points": {
+                    "en": [
+                      "Work visas exist to fill specific jobs employers say they can't fill locally, so the visa logically should track that job.",
+                      "Without some link to employment, it becomes harder to tell who is actually here to work versus who has overstayed their original purpose.",
+                      "Governments have limited resources to track immigration status, and tying it to a verifiable employer relationship simplifies enforcement."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, allow more flexibility"
+                  },
+                  "points": {
+                    "en": [
+                      "A layoff is rarely the worker's fault, and punishing them with an immediate deadline treats an economic event as if it were a legal violation.",
+                      "People build lives — homes, schools, marriages — around long-term jobs, and rigid status rules ignore that reality.",
+                      "Skilled workers who are forced to leave the moment they're laid off may simply take their skills to a competitor country instead, which doesn't obviously serve the original employer's interests either."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does protecting these workers' transition time help or hurt American workers competing for the same jobs?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It hurts American workers"
+                  },
+                  "points": {
+                    "en": [
+                      "Every month a foreign worker stays searching for a new sponsor is a month a domestic candidate isn't hired for that role.",
+                      "A shorter grace period pushes companies to prioritize hiring workers who don't require sponsorship at all, which could favor citizens and permanent residents.",
+                      "Removing the grace period matches the stated goal of some immigration policy: reducing the number of foreign workers competing in the labor market at any given time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It doesn't meaningfully affect American workers"
+                  },
+                  "points": {
+                    "en": [
+                      "H-1B workers are typically hired for specific technical roles employers already struggled to fill domestically, so removing them doesn't automatically open jobs to others.",
+                      "Forcing skilled workers out quickly can disrupt ongoing projects and teams, which can cost American colleagues their own jobs or bonuses tied to project completion.",
+                      "Companies that lose experienced staff abruptly may respond by moving whole teams or projects overseas, which removes jobs from the U.S. entirely rather than freeing them up for American hires."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
