@@ -1,0 +1,801 @@
+{
+  "date": "2026-09-11",
+  "window": {
+    "start": "2026-09-10T12:00:00-07:00",
+    "end": "2026-09-11T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-11T12:24:26-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump promised $5,000 checks if Republicans win the midterms. How would that work?",
+        "publisher": "PBS News",
+        "url": "https://www.pbs.org/newshour/politics/trump-promised-5000-checks-if-republicans-win-the-midterms-how-would-that-work"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Donald Trump faces backlash over $5,000 dividend pledge"
+          },
+          "summary": {
+            "en": "Details the political fallout and specific lawmaker objections to tying a cash payment to an election outcome. Useful for the range of bipartisan pushback beyond the main PBS piece."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6081944-trump-dividend-pledge-backlash/"
+        },
+        {
+          "title": {
+            "en": "Trump promises $5,000 payouts if GOP wins midterms: Can the US afford it?"
+          },
+          "summary": {
+            "en": "Walks through the arithmetic behind the trillion-dollar price tag and the tariff-revenue funding claim. Adds an outside, non-US framing of the affordability debate."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/10/trump-promises-5000-payouts-if-gop-wins-midterms-can-the-us-afford-it"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump $1 trillion-plus midterm dividend plan meets bipartisan pushback"
+          },
+          "summary": {
+            "en": "Rounds up reaction from both parties and flags the plan's uncertain legal footing. Good next step for readers who want the political mechanics of how (or whether) this could actually happen."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/10/trump-dividend-midterms-gop.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump Promises $5,000 to Every Adult — But Only If His Party Wins"
+          },
+          "hook": {
+            "en": "At a big Republican party event in Dallas, Texas, President Trump promised that every adult in America would get a $5,000 check. But he said this would only happen if his political party, the Republicans, keeps control of Congress after the November elections. Nobody has explained exactly how this money would be paid for, and it isn't a real law yet — just a promise."
+          },
+          "story": {
+            "en": [
+              "President Trump stood on stage at a Republican convention on September 9th. He told the crowd he would send $5,000 to every adult citizen in the United States. That's like promising a brand-new bicycle, a video game console, and a stack of books to over 250 million people.",
+              "There's a catch, though. Trump said this would only happen if Republicans win enough seats in Congress this November. Congress is the group of elected leaders who make America's laws and decide how money gets spent. Many people think it's strange, and maybe not even legal, for a president to promise money tied to who wins an election.",
+              "Experts think this plan could cost more than $1 trillion. That's a million million dollars. If you counted one dollar every single second without stopping, it would take you over 31,000 years to reach that number. Trump says money from tariffs — extra fees charged on goods coming from other countries — would pay for it. But no official plan, law, or process has been created to actually make this happen.",
+              "This promise came out the same week that prices for everyday things, like groceries and gas, jumped faster than they have in months. That makes some people worry: if the government hands out trillions of dollars, could prices rise even more?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even though you can't vote yet, decisions like this affect prices at the grocery store your family visits, and how much things cost when you're older. When governments make big promises about money, it's worth asking hard questions about whether the plan is real and fair — the same way you'd ask a friend who promises you something big and exciting."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "Elections held partway through a president's term, where Americans choose many of the leaders who make up Congress."
+              }
+            },
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "An extra fee the government charges on goods bought from other countries, which can make those goods cost more."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a leader to promise money to people only if his own political party wins the election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders often make promises about what they'll do if they get support, just like a coach might promise a pizza party if the team wins the season.",
+                      "Voters get to decide for themselves whether they believe the promise and want to vote for it.",
+                      "Every politician tries to convince people to vote for their side — this is just one way of doing it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "A president is supposed to work for everyone, not just reward people who vote for their party.",
+                      "Promising money only if one side wins can feel like bribing people to vote a certain way.",
+                      "It could make people trust elections less if they think money is being used to win votes."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the government spend huge amounts of money to help people right now, even if it isn't sure how to pay for it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, help now"
+                  },
+                  "points": {
+                    "en": [
+                      "Extra money could really help families who are struggling with rising prices today.",
+                      "Sometimes governments need to act fast, and figure out the details of paying for it later.",
+                      "A little extra money for everyone could make a big difference to someone who doesn't have much."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, plan first"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending trillions of dollars without a real plan could make prices go up even more for everyone.",
+                      "Governments that spend money they don't have often end up owing huge debts that take years to pay back.",
+                      "It's risky to promise something this big before knowing exactly where the money will come from."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Promises $5,000 to Every American — If His Party Wins in November"
+          },
+          "hook": {
+            "en": "At a Republican rally in Dallas, President Trump pledged a $5,000 payment to every adult U.S. citizen. He tied the promise directly to the outcome of this November's midterm elections: Republicans keep control of Congress, and the money follows. There is no law, no funding plan, and no legal process yet that would make this happen — it is, for now, only a promise made from a podium."
+          },
+          "story": {
+            "en": [
+              "President Trump stood before a crowd of Republican supporters in Dallas on September 9th and made a striking offer: $5,000, sent to every adult citizen in the country, if his party holds onto power in the upcoming midterm elections — the votes held partway through a president's term that decide who controls Congress, the branch of government that writes and passes laws. He said the money would come from tariff revenue, the money the government collects by taxing imported goods. What he did not say was how, legally or practically, any of this would actually happen.",
+              "That gap matters. Analysts who study government spending estimate the total cost of a $5,000 check to every adult American at well over $1 trillion — a number so large it is hard to picture, but for scale, it is roughly what the entire federal government spends in a year on the military. No bill has been written. No agency has been authorized to send the payments. Tariff revenue, the funding source Trump named, is real money, but nowhere near enough to cover a payment this size, and it already gets spent on other things.",
+              "Coverage from CNBC, Al Jazeera, The Hill, and PBS — outlets with different editorial leanings, which makes their shared skepticism notable — raised a second question that has nothing to do with affordability: is it legal for a sitting president to promise a cash payment explicitly in exchange for his party winning an election? Using government money, or the promise of it, to influence how people vote sits in murky legal territory. Presidents have proposed stimulus payments before, but those were argued for on policy grounds and passed through Congress — not offered as a reward contingent on which party wins.",
+              "The timing sharpens the doubts. The same week Trump made the pledge, the government released new inflation data showing the fastest one-month rise in consumer prices since spring — meaning the cost of everyday goods, from groceries to gas, jumped faster than it had in months. Sending $1 trillion in new payments into an economy already seeing prices climb could push inflation higher still, since more money chasing the same goods tends to raise prices further. It would also add significantly to the federal deficit, the gap between what the government spends and what it collects in taxes, which the country already covers by borrowing.",
+              "None of this means the payment will happen, or that it won't. It is, right now, a campaign promise — a statement of intent with no legislation behind it, made at a political rally rather than announced as policy. Whether it survives contact with Congress, the courts, or basic arithmetic is an open question that will likely shape political debate through the midterms in November."
+            ]
+          },
+          "why_it_matters": {
+            "en": "A promise like this — real money, tied explicitly to how people vote — tests where the line sits between campaigning and governing, and whether that line can hold. Even if the payment never happens, the fight over whether it legally could reveals a lot about the limits, real or assumed, on what a president can offer voters."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "Elections held partway through a president's four-year term that decide who controls Congress, without electing a new president."
+              }
+            },
+            {
+              "term": {
+                "en": "Tariff revenue"
+              },
+              "def": {
+                "en": "Money the government collects by charging a tax on goods imported from other countries."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal deficit"
+              },
+              "def": {
+                "en": "The gap between how much the government spends and how much it collects in taxes, which it covers by borrowing money."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to promise government payments explicitly tied to his party winning an election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "No — it crosses a line"
+                  },
+                  "points": {
+                    "en": [
+                      "Using public money as a reward for a political outcome blurs the difference between governing and buying votes.",
+                      "It pressures voters with a financial incentive rather than letting them decide on policy merits alone.",
+                      "If normalized, future candidates of any party could escalate this into an arms race of election-tied payoffs."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Yes — it's just campaigning"
+                  },
+                  "points": {
+                    "en": [
+                      "Politicians promise policies that depend on winning all the time; this is only unusually direct about it.",
+                      "Voters are capable of judging a promise skeptically and deciding for themselves whether to trust it.",
+                      "Nothing is actually being paid yet — it's a proposal voters can reward or punish at the ballot box, which is how the system is supposed to work."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If the money were available, would a flat $5,000 payment to every adult be a good use of it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — direct cash helps most"
+                  },
+                  "points": {
+                    "en": [
+                      "Giving people money directly lets them decide what they need most, rather than the government guessing for them.",
+                      "It would provide real, immediate relief to lower-income households hit hardest by rising prices.",
+                      "Broad payments are simple to administer compared to complex targeted programs."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — it's the wrong tool"
+                  },
+                  "points": {
+                    "en": [
+                      "Sending money to every adult, including the wealthy, wastes resources that could be targeted at those who need it most.",
+                      "A payment this large risks pushing prices even higher, hurting the same people it's meant to help.",
+                      "The money could do more lasting good funding things like infrastructure or debt reduction rather than one-time checks."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Chinese AI labs secretly used millions of Claude exchanges to train their models, Anthropic says",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/11/chinese-ai-labs-moonshot-deepseek-alibaba-anthropic.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Moonshot Secretly Routed User Requests Through Claude, Anthropic Says"
+          },
+          "summary": {
+            "en": "The original Bloomberg report laying out how Anthropic says Moonshot disguised Claude's answers as its own Kimi chatbot's work. Useful for the mechanics of how the alleged routing was detected."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-10/moonshot-secretly-routed-user-requests-through-claude-anthropic-says"
+        },
+        {
+          "title": {
+            "en": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek"
+          },
+          "summary": {
+            "en": "Breaks down the 151-million-exchange Alibaba figure and explains what 'distillation' means in plain terms. Good for readers who want the technical explanation behind the accusation."
+          },
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Moonshot, DeepSeek secretly routed user requests to Claude, Anthropic claims"
+          },
+          "summary": {
+            "en": "Presents the same allegations through a Chinese-industry lens, though readers should note SCMP is owned by Alibaba, one of the companies accused in the report. Worth reading precisely to see how the accused side's ecosystem frames the story."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/us/diplomacy/article/3367112/moonshot-deepseek-secretly-routed-user-requests-claude-anthropic-claims"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Robot Homework Mystery: Did One AI Copy Another?"
+          },
+          "hook": {
+            "en": "A company called Anthropic makes a chatbot named Claude. Anthropic says two other companies in China secretly used Claude's answers and pretended those answers came from their own chatbots. Anthropic also says a giant company called Alibaba used millions of Claude's answers to help teach its own AI how to talk."
+          },
+          "story": {
+            "en": [
+              "Imagine you build a robot that can answer any question. Now imagine another kid secretly asks your robot the answers, then tells everyone their own robot figured it out. That is basically what Anthropic says happened, accusing two Chinese companies, Moonshot and DeepSeek, of using its chatbot Claude and passing off its answers as their own.",
+              "Anthropic says this happened about 300,000 times in just 10 days. That's like if nearly everyone in a small town asked your robot a question, and a different robot got the credit for every single answer.",
+              "Anthropic also says a much bigger company named Alibaba did something similar, but on a massive scale: using more than 151 million of Claude's answers to help train its own AI, called Qwen. Training an AI by copying another AI's answers instead of teaching it from scratch is called 'distillation' — a bit like copying someone's homework over and over, millions of times, to build your own.",
+              "Here's the tricky part: none of the accused companies have said anything back yet. And so far, the only one telling this story is Anthropic itself — a company that competes against all three accused companies for customers. A newspaper owned by Alibaba wrote its own version of events, which sounds much more sympathetic to the Chinese companies."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is a bit like a playground argument where only one side has told their story so far — and that side has a reason to want the other kids to look bad. It matters beyond the playground too: countries argue over rules meant to stop advanced AI from spreading to rivals, and companies everywhere are fighting over whether it's fair to learn by copying each other's work."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "chatbot"
+              },
+              "def": {
+                "en": "A computer program that talks with you and answers your questions, like a very fast pen pal."
+              }
+            },
+            {
+              "term": {
+                "en": "distillation"
+              },
+              "def": {
+                "en": "When one AI is trained by copying and learning from another AI's answers, instead of learning entirely on its own."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a company to train its AI using another company's chatbot answers without asking first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "If the answers are already out in public, using them is just learning, like reading a library book.",
+                      "Everyone learns partly by looking at how other people solved a problem before.",
+                      "Making AI cheaper and easier to build could help more people use it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fine"
+                  },
+                  "points": {
+                    "en": [
+                      "The other company spent huge amounts of time and money to create those good answers.",
+                      "Presenting someone else's work as your own is a kind of lying about where it came from.",
+                      "If everyone just copies, nobody has a reason to build anything new."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should we believe Anthropic's story even though the accused companies haven't answered yet?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Believe it"
+                  },
+                  "points": {
+                    "en": [
+                      "Anthropic published a detailed report with real numbers, not just a rumor.",
+                      "Companies risk their reputation if they publish false claims that can later be checked.",
+                      "Just because no one has denied it yet doesn't mean it isn't true."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait and see"
+                  },
+                  "points": {
+                    "en": [
+                      "Anthropic is a direct competitor, so it benefits from making its rivals look bad.",
+                      "The accused companies haven't had a fair chance to explain their side yet.",
+                      "A newspaper connected to one of the accused companies already tells a very different version of events."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "An AI Company Says Its Chinese Rivals Copied Its Homework — But It's the Only One Telling the Story"
+          },
+          "hook": {
+            "en": "Anthropic, the American company behind the Claude chatbot, published a report claiming that two Chinese AI firms secretly used Claude to answer roughly 300,000 user questions and passed the results off as their own. Anthropic also accused Alibaba, a much bigger Chinese tech giant, of using 151 million conversations with Claude to help train its own AI model. So far, none of the three accused companies has responded on the record, and every number in the story comes from Anthropic itself — the company that stands to gain the most from making its rivals look dishonest."
+          },
+          "story": {
+            "en": [
+              "Here's the claim in plain terms. Anthropic says two Chinese chatbot makers, Moonshot (which makes an assistant called Kimi) and DeepSeek, were secretly sending user questions to Claude behind the scenes, then serving Claude's answers back to their own users as if their own AI had written them. Over ten days, Anthropic counted about 300,000 requests routed this way. If true, it means people using Kimi or DeepSeek's chatbot may have actually been talking to Claude without knowing it.",
+              "Anthropic made a second, separate accusation against Alibaba, one of China's largest tech companies. It says Alibaba ran what Anthropic called its biggest 'distillation' operation yet — over 151 million exchanges with Claude. Distillation is a real and common technique in AI: a company runs huge numbers of questions through a rival's model, then uses the questions and answers as training material for its own, cheaper model. It's a bit like a student who can't afford private tutoring recording someone else's tutoring sessions and studying from the tapes instead. It isn't automatically illegal, but many AI companies consider it close to stealing the value of their work without paying for it, especially when done at this scale and in secret.",
+              "This story is worth reading carefully, not just accepting. Every single figure — the 300,000 requests, the 151 million exchanges — comes from Anthropic, and Anthropic is a direct commercial competitor to all three companies it's accusing. A report like this can be entirely accurate, or it can be technically true but framed to make a competitor look as bad as possible, or it can be wrong. As of when this was reported, by Bloomberg, TechCrunch and CNBC, none of Moonshot, DeepSeek or Alibaba had given an on-record response to defend or explain themselves.",
+              "There's an extra wrinkle. The South China Morning Post, a major English-language newspaper, published its own account of the story — but the Post is owned by Alibaba, one of the companies named in Anthropic's report. That doesn't make its coverage false, but it means readers should know the owner has a direct stake in how this story is told, the same way you'd read a car review differently if you learned the reviewer's boss made the car.",
+              "Why does any of this matter beyond a spat between AI companies? The United States has export-control rules specifically designed to stop advanced American AI technology from reaching Chinese companies, out of concern that Chinese firms could use it to catch up quickly or for military purposes. If Chinese firms really are secretly funnelling traffic through American models and training on their outputs, that could be a way of getting around those controls without ever touching restricted computer chips or code. It also feeds into a bigger, unresolved argument across the whole AI industry: is training your model on a rival's answers fair competition, similar to how humans learn by reading and imitating others, or is it a kind of theft that undermines the huge cost of building the original model in the first place?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chatbots and AI tools you or your family might use every day are built by companies locked in an intense, expensive race, and stories like this show how murky it can be to know what's actually happening inside that race. It's also a useful lesson in reading the news itself: when the only source for a set of facts is one side of a dispute with money on the line, the honest response is curiosity and caution, not automatic belief or automatic disbelief."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Distillation"
+              },
+              "def": {
+                "en": "A technique where one company trains its AI model using huge numbers of questions and answers taken from a rival's AI, instead of building all the training material from scratch."
+              }
+            },
+            {
+              "term": {
+                "en": "Export controls"
+              },
+              "def": {
+                "en": "Government rules that restrict which technologies, like advanced computer chips or AI systems, can be sold or shared with companies in certain other countries."
+              }
+            },
+            {
+              "term": {
+                "en": "On the record"
+              },
+              "def": {
+                "en": "When someone agrees that their name can be attached to a statement they give to a journalist, as opposed to speaking anonymously or not commenting at all."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a report's only source is a company accusing its own competitors, should the public treat the accusation as probably true until proven otherwise, or as probably biased until proven otherwise?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take it seriously"
+                  },
+                  "points": {
+                    "en": [
+                      "Anthropic is a well-known company that would risk its own reputation badly if it published numbers it couldn't back up.",
+                      "Detailed technical claims like specific request counts are the kind of thing that can be checked and disproven later, which is a real deterrent against lying.",
+                      "Companies with the most detailed insider knowledge of misuse are often the first to notice it, simply because it's happening on their own systems."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stay skeptical"
+                  },
+                  "points": {
+                    "en": [
+                      "A competitor accusing rivals of cheating stands to gain customers, trust, and possibly legal or political advantage regardless of the full truth.",
+                      "No independent outlet has verified the numbers, and the accused companies haven't had a chance to explain their side on the record.",
+                      "Even true facts can be selected and framed to tell a story that's more damaging than the full picture would support."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is training your own AI model on a rival's answers a legitimate way to compete, or is it a form of theft?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair competition"
+                  },
+                  "points": {
+                    "en": [
+                      "Learning by studying someone else's work is exactly how humans and earlier technologies have always improved, from students to software.",
+                      "No one owns facts or general knowledge, and an AI's answers are just information that anyone can read and learn from.",
+                      "Cheaper, competing AI models push the whole industry to be more efficient and make useful tools more affordable for everyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a form of theft"
+                  },
+                  "points": {
+                    "en": [
+                      "Building the original model cost the first company enormous amounts of money, time, and specialised talent that a copier doesn't have to spend.",
+                      "Doing it secretly, by disguising where the answers really came from, is different from openly studying and building on someone else's public work.",
+                      "If distillation becomes normal and unpunished, companies may stop investing in genuinely new research because rivals can copy the results almost for free."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Consumer Price Index Summary - 2026 M08 Results",
+        "publisher": "US Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "September Fed decision is now a coin flip as rate hike odds increase post Warsh"
+          },
+          "summary": {
+            "en": "Explains why markets had already been split on whether the Fed would raise rates in September, before this CPI print came in hot. Gives the monetary-policy stakes behind the inflation number."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/28/-september-fed-decision-now-a-coin-flip-as-rate-hike-odds-increase.html"
+        },
+        {
+          "title": {
+            "en": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced"
+          },
+          "summary": {
+            "en": "Lays out the disagreement among investors and economists over the Fed's likely next move. Useful context for why this CPI reading carries extra weight this month."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Prices Jumped Faster in August — And Gas Was a Big Reason Why"
+          },
+          "hook": {
+            "en": "Every month, the U.S. government checks how much things cost — food, gas, rent, toys — and compares it to before. In August, prices rose faster than they had in a while. More than a third of that jump came from one thing: gasoline."
+          },
+          "story": {
+            "en": [
+              "The U.S. government has a team that checks prices on thousands of everyday things, every single month. In August, they found prices had gone up 0.4% from July. That might sound small, but it's four times faster than July's own rise of just 0.1%.",
+              "Gas was a huge part of the story. More than a third of August's price jump came from gas alone. That means if your family fills up the car, it likely cost more than it did a month before.",
+              "Zoom out further, and prices are now 3.4% higher than they were a year ago. Picture something that cost $100 last September — it would cost about $103.40 now. That's the kind of change happening across lots of things families buy.",
+              "This report landed right in the middle of two big arguments. President Trump has proposed sending every adult a $5,000 payment, and people are asking whether the government can afford that without pushing prices up even more. At the same time, the Federal Reserve — the part of government that can raise or lower interest rates — has to decide soon whether to act, and this report makes that decision even trickier."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When prices rise faster, the same allowance or the same amount of money buys a little less than it used to — for your family, and for everyone else's. Decisions made in Washington about payments and interest rates can end up changing how much things cost at your own grocery store or gas station."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Consumer Price Index (CPI)"
+              },
+              "def": {
+                "en": "A monthly report that tracks how much prices are changing for everyday things people buy, like food and gas."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "A part of the U.S. government that can raise or lower interest rates to try to control how fast prices rise."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If prices are already rising, should the government still send every adult $5,000?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, send the money"
+                  },
+                  "points": {
+                    "en": [
+                      "Many families are already struggling to pay for gas and food right now.",
+                      "A payment could help people catch up on bills immediately.",
+                      "Governments have sent money to help people during hard times before."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, hold off"
+                  },
+                  "points": {
+                    "en": [
+                      "Giving everyone more money without more things to buy could push prices up even further.",
+                      "The extra money might just get eaten up by higher prices anyway.",
+                      "Such a large payment could cost so much that other important things get less funding."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the Federal Reserve raise interest rates to slow down rising prices, even though that makes borrowing money more expensive?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, raise rates"
+                  },
+                  "points": {
+                    "en": [
+                      "Higher rates can cool down spending and slow price rises before they get worse.",
+                      "Waiting too long could make rising prices much harder to fix later.",
+                      "People who save money or live on a fixed income are protected when prices don't rise as fast."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep rates the same"
+                  },
+                  "points": {
+                    "en": [
+                      "Higher rates make it harder for families to afford loans for homes or cars.",
+                      "Businesses might slow down hiring or even cut jobs if borrowing gets too expensive.",
+                      "One month's price jump might just be temporary, not a lasting trend."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Prices Jumped Faster in August — Right as Washington Debates a $5,000 Check and the Fed Weighs Raising Rates"
+          },
+          "hook": {
+            "en": "The US government's official measure of prices, released the morning of September 11, showed costs rising faster in August than they had in July. Gasoline did most of the damage. The timing is awkward: the report landed just as officials are arguing over a proposed $5,000 payment to every adult and whether the Federal Reserve should raise interest rates later this month."
+          },
+          "story": {
+            "en": [
+              "Every month, the Bureau of Labor Statistics — a US government agency whose entire job is counting things like prices and jobs — tracks what a fixed basket of everyday goods and services costs: groceries, rent, gas, haircuts, car repairs. The change in that total cost is called the Consumer Price Index, or CPI, and it's the main way the country measures inflation, meaning how fast money is losing its purchasing power. In August, prices rose 0.4% compared with July. That sounds small, but July's increase had been just 0.1%, so the pace roughly quadrupled in a single month. Compared with a year earlier, prices were up 3.4% overall.",
+              "Gasoline prices were the biggest single driver, accounting for more than a third of the month's total increase. That matters because gas prices swing around for reasons that have nothing to do with the rest of the economy — a refinery outage, a shipping disruption, a war somewhere that pushes oil prices up — so one bad month at the pump doesn't necessarily mean inflation is taking off everywhere else. But it still shows up in the headline number, and the headline number is what politicians and investors react to.",
+              "This particular report landed in the middle of two arguments that were already running hot. The first is about a proposal from President Trump for a one-time $5,000 payment to every adult, sometimes called a 'dividend.' Sending that much money to that many people costs an enormous amount, and one of the standard worries about big cash payments is that they can push prices up further — more money chasing the same amount of stuff tends to mean higher prices, which is part of what happened after the stimulus checks sent out during the pandemic. A hotter-than-expected inflation report makes it harder for supporters of the $5,000 idea to argue it's harmless, and easier for critics to argue the timing is reckless.",
+              "The second argument is inside the Federal Reserve, the US central bank, which meets in September to decide what to do with interest rates — the cost of borrowing money, which the Fed can push up or down to cool or warm the economy. Higher rates make loans, mortgages, and credit cards more expensive, which tends to slow spending and, eventually, slow inflation. Lower rates do the opposite. Going into this report, financial markets reportedly saw the Fed's choice as close to a coin flip between holding rates where they are and raising them. A jump in inflation like this one tends to push the argument toward raising rates, since that's the tool the Fed has for fighting inflation directly — but it also raises the risk of slowing the economy at a moment when other parts of it, like the pace of hiring, may already be shaky.",
+              "It's worth being precise about what's actually confirmed here. The CPI numbers themselves come straight from the Bureau of Labor Statistics's own release, which is about as solid a source as economic reporting gets — it's the primary data, not someone's summary of it. What can't yet be confirmed is how markets and commentators reacted in the hours right after the 8:30 a.m. release; those same-day reactions hadn't been verified in time for this account. So what's certain is the number itself and the two decisions it now presses against. What's still uncertain is exactly how hard that pressure will land."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've noticed a bag of groceries or a tank of gas costing more than it used to, this report is the government putting a number on that feeling. And the decisions it's shaping — whether everyone gets a $5,000 check, and whether borrowing money gets more expensive — will eventually touch things closer to home, like whether your family's mortgage or car loan payment changes, or whether a big one-time payment shows up in a bank account."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Consumer Price Index (CPI)"
+              },
+              "def": {
+                "en": "A monthly measurement of how much the prices of everyday goods and services have changed, used as the main official gauge of inflation."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "The rate at which prices rise over time, meaning each dollar buys a little less than it used to."
+              }
+            },
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The cost of borrowing money, which the Federal Reserve raises or lowers to try to slow down or speed up the economy."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "With inflation picking up, should the government still send out the proposed $5,000 per-adult payment?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Send it"
+                  },
+                  "points": {
+                    "en": [
+                      "Many households are already struggling with higher costs, and direct help addresses that immediately rather than waiting for policy to trickle down.",
+                      "A one-time payment is different from an ongoing spending increase, so its inflationary effect may be smaller and temporary.",
+                      "Delaying relief because of one month's data risks leaving people without support during a period they're already finding expensive."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold off"
+                  },
+                  "points": {
+                    "en": [
+                      "Putting that much extra money into the economy while prices are already accelerating risks making inflation worse, which would hurt the same people the payment is meant to help.",
+                      "The pandemic stimulus checks are widely seen as one contributor to the inflation surge that followed, and repeating that pattern is a recognized risk.",
+                      "Waiting to see whether August's price jump is a temporary gas-driven spike or the start of a longer trend would be a more careful basis for such a large decision."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the Federal Reserve raise interest rates this month in response to the higher inflation reading?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Raise rates"
+                  },
+                  "points": {
+                    "en": [
+                      "Acting quickly on a clear jump in inflation is the Fed's basic job, and delaying can let price increases become harder to reverse later.",
+                      "A credible, decisive response protects the Fed's reputation for actually controlling inflation, which affects how much people trust prices to stabilize.",
+                      "Gas-driven spikes can spread into other prices if businesses and workers start expecting more inflation and adjust their own prices and wage demands accordingly."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold steady"
+                  },
+                  "points": {
+                    "en": [
+                      "One month's data, especially one driven mostly by gasoline, may not represent a real change in the underlying trend worth reacting to.",
+                      "Raising rates makes borrowing more expensive for everyone — mortgages, car loans, business loans — which can slow hiring and growth if the rest of the economy is already fragile.",
+                      "Markets already saw the decision as roughly a coin flip, suggesting reasonable experts disagree, which argues for caution rather than a strong move in either direction."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
