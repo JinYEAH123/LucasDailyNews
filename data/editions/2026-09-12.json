@@ -1,0 +1,801 @@
+{
+  "date": "2026-09-12",
+  "window": {
+    "start": "2026-09-11T12:00:00-07:00",
+    "end": "2026-09-12T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-12T12:25:41-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Pentagon ceremony: Trump edges toward embracing post-9/11 policies he attacked",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/09/11/pentagon-trump-edges-toward-embracing-post-911-policies-he-attacked/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "9/11 Memorial Ceremony in NYC: Vance, Former Presidents, and Mayor Mamdani Attend"
+          },
+          "summary": {
+            "en": "Live coverage of the Ground Zero ceremony shows who attended in New York while Trump spoke at the Pentagon, giving the fuller picture of how the anniversary was marked across two cities.  It's useful for seeing the split in how officials chose to observe the day."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/live-blog/9-11-attacks-memorial-ceremony-nyc-trump-mamdani-live-updates-rcna597049"
+        },
+        {
+          "title": {
+            "en": "Trump Marks 9/11 Anniversary at Pentagon With Iran War Defense"
+          },
+          "summary": {
+            "en": "This piece lays out in more detail how Trump connected the Iran conflict to the legacy of the September 11 attacks in his Pentagon remarks. It gives the specific language he used to draw that link, which is central to the story's political significance."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-11/trump-marks-9-11-anniversary-at-pentagon-with-iran-war-defense"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "9/11 Memorial Events Mark 25 Years Since the Attacks"
+          },
+          "summary": {
+            "en": "A broader roundup of memorial events nationwide on the 25th anniversary, useful for readers wanting the fuller national context beyond the Trump/Pentagon angle.  It captures how the day was observed outside the political controversy."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/11/nx-s1-5961366/9-11-memorial-events"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "25 Years After 9/11, U.S. Leaders Remember the Day in Two Different Places"
+          },
+          "hook": {
+            "en": "Twenty-five years ago, terrorists attacked the United States on September 11, 2001. This year, on the anniversary, President Trump held his ceremony at the Pentagon in Washington, D.C., instead of at Ground Zero in New York City, where the attack actually happened. He used his speech to defend a war happening right now with Iran, calling it part of the same fight against terrorism. His Vice President, JD Vance, went to the New York ceremony instead."
+          },
+          "story": {
+            "en": [
+              "On September 11, 2001, terrorists flew planes into buildings in the United States. One target was the Pentagon, a huge five-sided building near Washington, D.C. where the military works. Another was the World Trade Center towers in New York City. Thousands of people died that day, and every year since, Americans hold ceremonies to remember them.",
+              "This year marked 25 years since the attack. Most presidents before Trump went to New York for the big anniversary ceremony. This time, Trump chose to hold his own ceremony at the Pentagon instead. In his speech, he talked about a war happening right now between the U.S. and Iran, saying it was part of the same long fight against terrorism that started on 9/11.",
+              "People noticed something interesting. In the past, Trump often criticized American wars in other countries, saying the U.S. should not get involved. Now he was defending one. His Vice President, JD Vance, went to the New York ceremony instead, standing alongside the country's living former presidents and New York's mayor, Zohran Mamdani.",
+              "On the very same day, the CIA, the U.S. spy agency, released 71 secret documents from 2001 that had never been shown to the public before. The papers reveal new details about mistakes the CIA made before the attack, missing clues that might have helped stop it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When something terrible happens, how people choose to remember it can tell you a lot about what they believe right now. Just like you might notice when a friend changes their mind about something they once felt strongly about, grown-ups noticed Trump talking differently about war than he used to. Newly released secret documents also remind us that even powerful agencies make mistakes, and being honest about mistakes can help prevent them next time."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "declassified"
+              },
+              "def": {
+                "en": "When a document that used to be secret is officially allowed to be shown to the public."
+              }
+            },
+            {
+              "term": {
+                "en": "CIA"
+              },
+              "def": {
+                "en": "The Central Intelligence Agency, the part of the U.S. government that gathers secret information to help keep the country safe."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it right for the President to hold his ceremony at the Pentagon instead of at Ground Zero in New York, where the attack happened?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pentagon was the right choice"
+                  },
+                  "points": {
+                    "en": [
+                      "The Pentagon was also directly attacked that day, so it deserves its own ceremony too.",
+                      "A president gets to choose how he personally wants to honor the day.",
+                      "Splitting up the ceremonies let more places and more people be remembered at once."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Ground Zero was the right choice"
+                  },
+                  "points": {
+                    "en": [
+                      "Most people who died that day were in New York, so that is where the biggest ceremony has always been.",
+                      "Presidents going to New York together has been a tradition that shows everyone remembering as one country.",
+                      "Some people worried that skipping Ground Zero made the day feel more about the President's message than about the people who were lost."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it okay for a leader to change his mind about something he strongly believed before, like whether the U.S. should fight wars in other countries?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Changing your mind can be okay"
+                  },
+                  "points": {
+                    "en": [
+                      "People learn new things over time, and it's normal to see a situation differently later.",
+                      "A leader's job is to make the best choice for right now, even if that's different from before.",
+                      "Admitting things have changed can be more honest than pretending you never said anything different."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "You should stick to what you said before"
+                  },
+                  "points": {
+                    "en": [
+                      "If you criticize something, people expect you to act the same way when you're the one in charge.",
+                      "Changing your mind without explaining why can make people trust you less.",
+                      "Being consistent shows you actually believe what you say, not just what's convenient at the time."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "On 9/11's 25th Anniversary, Trump Breaks From Ground Zero — And From His Own Playbook on War"
+          },
+          "hook": {
+            "en": "Twenty-five years after the September 11 attacks, President Trump marked the anniversary at the Pentagon instead of the traditional Ground Zero ceremony in New York. In his remarks, he defended the ongoing war with Iran as part of the long fight against terrorism — language that sounds a lot like the foreign interventions he has spent years condemning. Vice President Vance went to Ground Zero instead, standing alongside former presidents and New York's mayor. On the same day, the CIA released dozens of previously secret documents about the intelligence failures that preceded the attacks."
+          },
+          "story": {
+            "en": [
+              "Every year on September 11, American presidents have gone to Ground Zero — the site in lower Manhattan where the World Trade Center towers fell — to mark the deadliest terrorist attack in U.S. history. Nearly 3,000 people died that day in 2001, when hijacked planes struck the towers, the Pentagon, and a field in Pennsylvania. This year, on the 25th anniversary, President Trump chose a different location: a ceremony at the Pentagon, the U.S. military headquarters just outside Washington, D.C., which was itself one of the targets in 2001.",
+              "In his remarks, Trump connected the anniversary to a war the United States is currently fighting with Iran, describing it as part of the same long struggle against terrorism that began with 9/11. That framing caught people's attention because for years, Trump has criticized American wars in the Middle East — including the invasions of Afghanistan and Iraq that followed 9/11 — as costly mistakes that dragged the U.S. into conflicts it should have avoided. Hearing him justify a current war using the same logic he once mocked struck many commentators as a notable shift, even though the White House has not described it that way.",
+              "Meanwhile, Vice President Vance attended the Ground Zero ceremony in New York, standing alongside living former presidents and the city's mayor, Zohran Mamdani. Splitting the two ceremonies between the president and vice president was itself unusual — normally the sitting president attends whichever site becomes the focal point, with the vice president elsewhere or absent. The choice meant that the country's two ceremonies delivered two different messages: one about ongoing war, the other about remembrance and unity.",
+              "On the same day, the CIA — the U.S. agency responsible for gathering foreign intelligence — declassified 71 documents related to the 9/11 attacks, making them public for the first time. Declassifying means removing the official secrecy that had kept these records hidden, often for national security reasons that eventually expire or get reconsidered. These documents add fresh detail to a long-running criticism of the CIA: that it had scattered pieces of information before 2001 suggesting an attack might be coming, but failed to connect them in time to stop it.",
+              "Whether Trump's Pentagon speech amounts to a real change in his views on war, or just words shaped by the pressures of the moment, is genuinely disputed. Presidents often use solemn anniversaries to justify current policies, regardless of what they've said in the past — that's a well-worn pattern in American politics. But it's also true that Trump built much of his political identity on opposing exactly this kind of open-ended military commitment abroad, which is why his critics and even some allies noticed the contrast."
+            ]
+          },
+          "why_it_matters": {
+            "en": "How a government justifies war shapes how long that war lasts and how much support it keeps at home — the language leaders use around anniversaries like this one often previews the policies that follow. This also touches your own future indirectly: decisions about ongoing conflicts affect budgets, alliances, and whether younger people might eventually be asked to serve in them."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Declassified"
+              },
+              "def": {
+                "en": "Declassified means a government document that used to be officially secret has been approved for public release."
+              }
+            },
+            {
+              "term": {
+                "en": "Counterterrorism"
+              },
+              "def": {
+                "en": "Counterterrorism refers to policies and military actions aimed at preventing or responding to terrorist attacks."
+              }
+            },
+            {
+              "term": {
+                "en": "Intervention"
+              },
+              "def": {
+                "en": "A military intervention is when a country sends its armed forces into another country's conflict or territory, often without a formal declaration of war."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it right for a president to use a solemn anniversary like 9/11 to justify a current war?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's appropriate"
+                  },
+                  "points": {
+                    "en": [
+                      "National tragedies are naturally tied to national security decisions, so connecting them is honest, not manipulative.",
+                      "Leaders have a duty to explain ongoing wars to the public, and anniversaries draw the attention needed to do that.",
+                      "If the current conflict truly does relate to the same threat, ignoring that connection would be dishonest."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's inappropriate"
+                  },
+                  "points": {
+                    "en": [
+                      "Using a day of mourning to build support for an unrelated war can feel like exploiting grief for political gain.",
+                      "Ceremonies meant to unite the country risk becoming divisive when tied to controversial current policies.",
+                      "Families of 9/11 victims may feel their loss is being used as a tool rather than honored on its own terms."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does changing your mind on war under new circumstances show flexibility or a lack of principle?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It shows flexibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Circumstances change, and rigidly sticking to old positions regardless of new facts isn't necessarily wise leadership.",
+                      "Every war is different, so opposing one intervention doesn't logically commit a leader to opposing all future ones.",
+                      "Adjusting policy based on updated intelligence or threats is normal governance, not hypocrisy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It shows a lack of principle"
+                  },
+                  "points": {
+                    "en": [
+                      "If the reasoning behind past opposition was sound, it should still apply unless something genuinely new is explained.",
+                      "Voters who supported a leader specifically because of a stated position deserve a clear account of why it changed.",
+                      "Switching positions without acknowledging it can look like using whatever argument is convenient in the moment."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "CDC Measles Death Pushback Stokes Staff Fears About New Leader",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-11/cdc-measles-death-pushback-stokes-staff-fears-about-new-leader"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "As Diseases Loom, CDC's Response to Measles Deaths Stirs Fears About Agency's Reliability"
+          },
+          "summary": {
+            "en": "NPR's same-day, independently reported account (a different owner than Bloomberg) covers the same dispute over the excluded deaths and adds detail on internal CDC staff concerns heading into flu season. It's a useful second account of a story where the underlying fact — the excluded deaths — is itself contested."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/11/nx-s1-5950002/as-diseases-loom-cdcs-response-to-measles-deaths-stirs-fears-about-agencys-reliability"
+        },
+        {
+          "title": {
+            "en": "US Measles Outbreak: Where Cases Stand in 2026"
+          },
+          "summary": {
+            "en": "A running map and case count that gives readers the national scale of the outbreak this story sits inside, useful for context on how unusual 3,134 cases really is."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/measles-outbreak-us-map-2026/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Behind the Scenes: The Effort to Contain Pennsylvania's Measles Outbreak"
+          },
+          "summary": {
+            "en": "A deeper look at how Pennsylvania health workers have been responding on the ground to the outbreak at the center of the death-count dispute. It shows the human effort behind the numbers being contested in Washington."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/health/2026/09/04/behind-the-scenes-effort-contain-pennsylvanias-measles-outbreak/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Measles Deaths Are Missing From the Official Count"
+          },
+          "hook": {
+            "en": "Measles has been spreading across the United States this year faster than it has in more than 30 years. Two people in Pennsylvania died from it, and state health officials say that's true. But for three weeks in a row, the country's top health agency has left those two deaths off its official list."
+          },
+          "story": {
+            "en": [
+              "Measles is a sickness that spreads easily, like a very fast-moving cold. It gives people a fever, a cough, and a rash all over their skin. A vaccine — a small shot — can stop most people from ever catching it.",
+              "This year in the United States, measles has spread more than it has in over 30 years. So far, 3,134 people have gotten sick. That's roughly enough people to fill every seat in a big sports stadium's lower section.",
+              "Two of those sick people, in the state of Pennsylvania, died. Pennsylvania's own health officials confirmed both deaths. But the CDC — the national agency in charge of tracking diseases — has not added those two deaths to its official count. This has now gone on for three weeks.",
+              "People who work at the CDC had hoped its new boss would fix this and make sure the numbers matched what Pennsylvania says. So far, that hasn't happened, and no one has fully explained why the deaths are still missing."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Doctors and parents use these numbers to decide how worried to be and whether more people need the measles vaccine. If the official count doesn't match what's really happening, it's harder for anyone — including your own doctor — to know how serious things are, right as flu season is starting too."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "measles"
+              },
+              "def": {
+                "en": "A contagious sickness that causes fever, cough, and a skin rash, which a vaccine can usually prevent."
+              }
+            },
+            {
+              "term": {
+                "en": "CDC"
+              },
+              "def": {
+                "en": "The Centers for Disease Control and Prevention, the U.S. government agency whose job is to track diseases and keep official counts of things like measles cases and deaths."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a family says someone died from a sickness, should the government always add that right away to its official list, even before double-checking everything?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Add it right away"
+                  },
+                  "points": {
+                    "en": [
+                      "The family and local officials already confirmed it, so waiting just delays the truth.",
+                      "People need accurate numbers now to know how worried to be.",
+                      "Leaving it out, even briefly, can look like hiding bad news."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Check carefully first"
+                  },
+                  "points": {
+                    "en": [
+                      "Official national counts sometimes need extra steps to confirm a death was truly caused by that sickness.",
+                      "Rushing to add numbers without checking could mean having to correct it later, which is also confusing.",
+                      "Different places sometimes count things in different ways, so it takes time to make sure everyone means the same thing."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If you noticed something seemed to be left out or hidden, would it be better to speak up right away or trust that the people in charge have a good reason?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Speak up right away"
+                  },
+                  "points": {
+                    "en": [
+                      "Staying quiet can let a mistake, or something worse, continue for a long time.",
+                      "Asking questions is how problems get noticed and fixed.",
+                      "Even people in charge can be wrong, so it's fair to ask them to explain."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Trust the process"
+                  },
+                  "points": {
+                    "en": [
+                      "People in charge often know things you don't, like rules about how information must be checked.",
+                      "Jumping to conclusions before hearing the full story can create unnecessary worry.",
+                      "Constantly demanding explanations can slow down people who are trying to do careful, important work."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Two Measles Deaths Go Missing From America's Official Count"
+          },
+          "hook": {
+            "en": "Pennsylvania says two people died of measles in the state. The CDC, the federal agency that tracks disease outbreaks, has left both deaths out of its official count for three weeks running. Meanwhile the U.S. is having its worst measles outbreak in more than thirty years, with over 3,100 cases confirmed this year."
+          },
+          "story": {
+            "en": [
+              "Measles is a virus that used to infect millions of American children every year before a vaccine nearly wiped it out in the country by 2000. It has been creeping back for years, spread mainly among unvaccinated communities, but this year's outbreak is the largest since that milestone. Tracking it accurately matters because health officials use the numbers to decide where to send vaccine teams, warn hospitals, and tell parents how worried to be.",
+              "That tracking job belongs to the Centers for Disease Control and Prevention, or CDC, the federal agency responsible for counting disease cases nationwide and publishing the official tally that doctors, reporters, and other governments rely on. Pennsylvania's own health department has confirmed two measles deaths in the state. For three weeks straight, those two deaths have not appeared in the CDC's national count, even though the state has told the agency about them.",
+              "No one in public has given a clear reason why. That absence is the whole story here: it is a fact in dispute, with Pennsylvania saying the deaths happened and are confirmed, and the CDC's leadership not explaining, on the record, why its own published numbers do not match. There are two ways adults read this. One is bureaucratic — health data moves through layers of verification, and mismatches between state and federal counts happen even in ordinary years. The other is political, and this is the reading that has alarmed CDC staff enough to speak to reporters: that the numbers are being managed to avoid making the outbreak look as bad as it is.",
+              "The political reading matters because of who runs the agency now. The CDC's new director, Erica Schwartz, reports to Robert F. Kennedy Jr., the Secretary of Health and Human Services — the cabinet department that oversees the CDC and sets its priorities. Kennedy has a long history of expressing skepticism about vaccines, and some CDC staff had hoped Schwartz would resist any political pressure to soften the outbreak's official numbers. According to reporting by NPR, a public radio news organization, that hope has not been borne out: the deaths remain uncounted, and the reasons remain unstated.",
+              "The timing raises the stakes. Flu season is arriving, which means hospitals are about to get busier handling a second contagious respiratory illness on top of measles. If the public and even doctors cannot trust that the government's own numbers reflect what state officials are reporting, it becomes harder for anyone to judge how serious the outbreak really is, or to plan for it. That is the deeper worry driving current CDC staff and outside health experts: not just two missing deaths, but what an unexplained gap between state and federal data suggests about whether the country's health statistics can be relied on at all."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When you or your family go to a doctor, get vaccinated, or read about a disease outbreak in the news, all of that ultimately rests on federal health agencies reporting numbers accurately and without political interference. If a government can quietly leave real deaths out of an official count with no explanation, it becomes much harder for anyone — parents, doctors, school officials — to know how much to trust what they're told about outbreaks in the future."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CDC (Centers for Disease Control and Prevention)"
+              },
+              "def": {
+                "en": "The U.S. federal agency responsible for tracking disease outbreaks nationwide and publishing official case and death counts."
+              }
+            },
+            {
+              "term": {
+                "en": "Health and Human Services Secretary"
+              },
+              "def": {
+                "en": "The cabinet official who oversees the CDC and other federal health agencies and sets their overall direction."
+              }
+            },
+            {
+              "term": {
+                "en": "outbreak count"
+              },
+              "def": {
+                "en": "The official running total of confirmed cases and deaths from a disease, used by officials and hospitals to judge how serious a situation is."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a state and a federal health agency disagree on death numbers, should the state's count be trusted over the federal one until the disagreement is explained?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Trust the state count"
+                  },
+                  "points": {
+                    "en": [
+                      "States confirm deaths through their own medical examiners and are closer to the actual cases.",
+                      "An unexplained federal omission, with no public reasoning offered, looks worse than an ordinary reporting delay.",
+                      "Waiting for federal confirmation risks underestimating a serious outbreak in real time, when speed matters most."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for federal confirmation"
+                  },
+                  "points": {
+                    "en": [
+                      "National agencies apply consistent verification standards across all fifty states, which prevents one state's error from distorting the national picture.",
+                      "Public health data errors have real consequences, so a careful federal check before adding a death to a national count is a reasonable safeguard, not automatically evidence of a cover-up.",
+                      "Jumping to conclusions about political motives before an explanation is offered risks damaging trust in an agency without adequate proof of wrongdoing."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When the head of a health agency reports to a political appointee with strong personal views on a health topic, does that automatically make the agency's data untrustworthy?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it undermines trust"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders who owe their jobs to someone with a strong personal position on an issue face real pressure to shape data in ways that please that person.",
+                      "Even the appearance of political influence over supposedly neutral health statistics damages public confidence, whether or not actual interference occurred.",
+                      "History includes real cases where political leaders pressured health agencies to soften unwelcome numbers, so the concern is not hypothetical."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the data can still be trusted"
+                  },
+                  "points": {
+                    "en": [
+                      "Career scientists and statisticians throughout the agency, not just the director, are involved in producing these counts, which limits any one person's ability to distort them.",
+                      "Having personal opinions is not the same as acting on them, and directors are also constrained by professional standards, staff pushback, and public scrutiny.",
+                      "Assuming bad faith based on a leader's beliefs alone, without direct evidence of interference, sets a troubling precedent for judging any official's credibility."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Oracle Posts Cloud Sales That Top Estimates on Surging AI Demand",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-10/oracle-posts-cloud-sales-that-top-estimates-on-surging-ai-demand"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Oracle Q1 FY27: Net Income Nearly Doubles on Cloud Strength"
+          },
+          "summary": {
+            "en": "A closer breakdown of Oracle's earnings figures, including the net income jump and what drove it, useful for readers wanting the underlying financial detail behind the headline numbers."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/articles/oracle-q1-fy27-net-income-070928415.html"
+        },
+        {
+          "title": {
+            "en": "Stock Market Today: Oracle Shares Swing After Earnings Beat"
+          },
+          "summary": {
+            "en": "Live market coverage showing how investors reacted in real time to Oracle's results, capturing the tension between enthusiasm for AI demand and worry over capacity spending."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/10/stock-market-today-live-updates.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Computer Company's Giant Business Just Got Even Bigger"
+          },
+          "hook": {
+            "en": "Oracle is a huge American company that owns giant buildings full of powerful computers. It just announced that renting out those computers made more than twice as much money as it did last year, mostly because AI companies need so much computer power. The news made Oracle's stock price jump around all day, as people tried to decide if this was purely good news or something to worry about too."
+          },
+          "story": {
+            "en": [
+              "Oracle doesn't make phones or shoes. It builds huge buildings called data centers, packed with powerful computers, and rents time on them to other companies.",
+              "One of its biggest customers is OpenAI, the company that makes the chatbot called ChatGPT. Training and running AI programs takes enormous amounts of computer power, so companies like OpenAI pay Oracle to use its machines instead of building their own.",
+              "In the last three months, Oracle earned $7.4 billion just from this computer-renting business. If you counted out loud, one number every second, without stopping, it would take you over 230 years to count that high. That's more than double what Oracle earned from this same business last year.",
+              "Oracle's total earnings for the three months reached $19.3 billion, and it kept $4.68 billion in profit after paying its costs. Investors were excited about those numbers, but also nervous, because building all these giant computer buildings costs Oracle a fortune too, and nobody knows for certain the demand will keep growing fast enough to pay for it all."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've ever used a chatbot or asked a computer to draw a picture, it probably ran on machines just like the ones Oracle builds. This story shows how much money and construction is happening behind the scenes to make AI work, and how one company's bet on giant computer buildings can ripple out to jobs, prices, and the wider economy that your family lives in."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "data center"
+              },
+              "def": {
+                "en": "A giant building packed with powerful computers that a company rents out to other businesses, instead of those businesses buying their own machines."
+              }
+            },
+            {
+              "term": {
+                "en": "revenue"
+              },
+              "def": {
+                "en": "All the money a company takes in from selling things, counted before you subtract what it cost to make or provide them."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it smart for Oracle to spend so much money building giant computer centers before anyone knows for sure that demand will keep growing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a smart bet"
+                  },
+                  "points": {
+                    "en": [
+                      "Building the biggest, best computers first could let Oracle win over customers before rival companies catch up.",
+                      "AI use has kept growing fast, so buying and building now might save money compared to waiting and paying more later.",
+                      "Oracle already has real, paying customers like OpenAI, so this isn't a guess made in the dark."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's too risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Building all these data centers costs so much that if AI demand ever slows down, Oracle could lose an enormous amount of money.",
+                      "Nobody actually knows for certain that AI companies will keep growing enough to fill all this new computer space.",
+                      "Spending this much on buildings means less money left over for other things, like paying workers or trying new ideas."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should people feel excited or worried that so much of the economy now depends on companies needing more and more AI computer power?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Feel excited"
+                  },
+                  "points": {
+                    "en": [
+                      "Building more data centers could create new jobs for people who build, run, and maintain them.",
+                      "If AI tools turn out to be genuinely useful, having strong AI companies could bring everyone better tools sooner.",
+                      "Growing companies like Oracle send money flowing through many other businesses too, which can help the wider economy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Feel worried"
+                  },
+                  "points": {
+                    "en": [
+                      "If a big chunk of the economy leans on one technology, a slowdown in AI could hurt many jobs and companies at once.",
+                      "Giant data centers use huge amounts of electricity and water, which can affect the neighborhoods and environment around them.",
+                      "It can be risky when only a few giant companies control something as important as AI computing power."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Oracle's Profits Jumped 60% in Three Months — Because Everyone Wants to Rent Its Computers"
+          },
+          "hook": {
+            "en": "Oracle, the business software giant, released quarterly earnings on September 10 that stunned Wall Street: sales of its cloud computing services jumped 121% compared with a year earlier, and overall profit rose 60%. The numbers beat what analysts had predicted, and investors reacted by sending Oracle's stock swinging wildly in a single day of trading. Behind the swing is a bigger question nobody has answered yet: is this the start of a genuinely new economy, or the leading edge of a very expensive bet that might not pay off."
+          },
+          "story": {
+            "en": [
+              "On September 10, after the stock market closed for the day, Oracle told investors how its business had done over the previous three months. The headline number: sales from its cloud infrastructure division — essentially, the computing power it rents out to other companies over the internet — jumped 121% compared with the same period a year earlier, reaching $7.4 billion. That beat what Wall Street analysts had expected. Total revenue across the whole company grew 30% to $19.3 billion, and the profit left over for shareholders, called net income, hit $4.68 billion — up roughly 60% from a year before.",
+              "To understand why this matters beyond Oracle's own balance sheet, it helps to know what \"cloud infrastructure\" actually means. Training and running artificial intelligence systems requires enormous amounts of computing power — specialised chips, storage, and networking housed in huge warehouses called data centers. Building and running those data centers is expensive, so most companies rent capacity instead of owning it outright, the same way a small business might rent office space rather than buy a building. Oracle has spent years and huge sums constructing that capacity specifically to serve AI companies, including OpenAI, the maker of ChatGPT. This quarter's results are the clearest evidence yet that the bet is generating real paying demand, not just promises.",
+              "That's also why Oracle is being watched so closely by people who don't own a single share of its stock. In financial reporting, a company whose results are seen as an early signal for a much bigger trend is called a bellwether — the name comes from a lead sheep in a flock, wearing a bell so the shepherd can track where the whole group is heading. Oracle has become a bellwether for the AI boom itself: because so much of its growth now depends on selling computing power for AI, its earnings are treated as a rough gauge of how much of the broader economy is genuinely being carried by AI spending, and how much might be hype.",
+              "Yet even with numbers this strong, Oracle's stock swung sharply during Friday's trading rather than simply rising. The reason is a tension that the good results didn't resolve: building data centers at this scale requires spending enormous amounts of money upfront, known as capital expenditure, on land, buildings, chips and electricity contracts, often years before that spending is repaid by customer revenue. Investors have to weigh two possibilities at once — that demand for AI computing keeps climbing fast enough to justify the spending, or that Oracle and its rivals are building more capacity than customers will ultimately want, leaving expensive infrastructure sitting underused.",
+              "Oracle isn't alone in making this bet. Microsoft, Amazon, and Google are pouring similarly vast sums into their own data centers, all competing to be the company that AI firms rent their computing power from. That means Oracle's results this week aren't just a story about one company's quarter — they're a live data point in a much bigger argument happening across the tech industry and the stock market about whether the AI buildout is the foundation of the next phase of economic growth, or a very costly gamble that hasn't been tested by a downturn yet."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Almost every AI tool you or your family might use — chatbots, image generators, voice assistants — runs on computing power rented from companies exactly like Oracle, so this earnings report is really a snapshot of how much money is flowing into the infrastructure behind those tools. It also matters because a growing slice of the stock market, and therefore many people's retirement savings and pension funds, is now tied to whether this AI spending boom keeps paying off or turns out to be overbuilt."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Cloud infrastructure"
+              },
+              "def": {
+                "en": "The data centers and computing power that companies rent out over the internet instead of every customer building and owning their own."
+              }
+            },
+            {
+              "term": {
+                "en": "Bellwether"
+              },
+              "def": {
+                "en": "A company or event whose results are watched as an early signal of where a much bigger trend is heading."
+              }
+            },
+            {
+              "term": {
+                "en": "Capital expenditure"
+              },
+              "def": {
+                "en": "Large upfront spending on physical things like buildings, chips, and equipment, which a company expects to pay off gradually over years."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Do Oracle's numbers show a healthy, sustainable AI boom, or the early signs of a bubble?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's healthy growth"
+                  },
+                  "points": {
+                    "en": [
+                      "Demand for cloud computing is showing up as actual paying revenue that beat analyst estimates, not just hype or predictions.",
+                      "Oracle has real, long-term contracts with AI companies like OpenAI, suggesting the demand isn't a short-lived spike.",
+                      "Multiple giant companies are investing simultaneously, which suggests they're independently seeing strong enough demand to justify it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It looks like a bubble forming"
+                  },
+                  "points": {
+                    "en": [
+                      "The scale of data-center construction is unprecedented, and if AI adoption slows even slightly, huge amounts of built capacity could sit unused.",
+                      "Investors themselves seem uncertain — the stock swung wildly even after strong results, which suggests real doubt about whether the spending will pay off.",
+                      "Past technology booms, like the dot-com era, saw companies overbuild infrastructure ahead of demand, leaving expensive losses once reality caught up."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should we welcome one company profiting so heavily from being at the center of the AI boom?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a good sign"
+                  },
+                  "points": {
+                    "en": [
+                      "Oracle's growth creates jobs and drives investment in electricity, chips, and construction that ripples through the wider economy.",
+                      "Success like this flows into pension funds and retirement accounts that hold Oracle stock, spreading the benefit beyond the company itself.",
+                      "A strong bellwether attracting more investment can accelerate useful AI tools becoming cheaper and more available to everyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, be cautious about it"
+                  },
+                  "points": {
+                    "en": [
+                      "Concentrating so much of the AI infrastructure in a handful of giant companies gives them outsized control over pricing and access to something increasingly essential.",
+                      "The energy and land use required for these data centers has real local costs — on power grids and communities — that don't appear in a profit report.",
+                      "When most of the financial gains flow to shareholders of one company, workers and communities may see far less benefit than the headline growth suggests."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
