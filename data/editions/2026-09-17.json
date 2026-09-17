@@ -1,0 +1,792 @@
+{
+  "date": "2026-09-17",
+  "window": {
+    "start": "2026-09-16T12:00:00-07:00",
+    "end": "2026-09-17T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-17T15:08:43-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Fed Raises Rates to 3.75%-4%, First Hike Since 2023, Amid Trump Pressure",
+        "publisher": "UPI",
+        "url": "https://www.upi.com/Top_News/US/2026/09/16/federal-reserve-interest-rate-decision-september-2026/1031789567001"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Federal Reserve Implementation Note, September 16, 2026"
+          },
+          "summary": {
+            "en": "The Fed's own technical release spells out exactly how the new 3.75%-4% target range will be implemented across its policy tools. It's the primary document behind all the news coverage of the decision."
+          },
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Stock Market Today: Dow, S&P 500, Nasdaq React to Fed Meeting Decision"
+          },
+          "summary": {
+            "en": "A market-by-market breakdown of how stocks, oil and bond yields moved in the hours and day after the Fed's announcement. Useful for readers wanting to see the immediate financial fallout in detail."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-september-16-dow-sp-500-nasdaq-fed-meeting-decision-080356525.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America's Money Referee Just Made Borrowing Cost More"
+          },
+          "hook": {
+            "en": "On September 16, 2026, a group called the Federal Reserve decided that borrowing money in America should cost more, not less. They raised something called the 'interest rate' — the extra money you pay back when you borrow. It's the first time they've raised it since 2023, and it happened even though President Trump had been asking them loudly to do the opposite."
+          },
+          "story": {
+            "en": [
+              "Imagine you borrow $10 from a friend, and they say you have to pay back $10.50. That extra 50 cents is like 'interest' — the cost of borrowing. The Federal Reserve, sometimes just called 'the Fed,' decides how expensive borrowing should be for the whole United States — for houses, cars, credit cards, even businesses.",
+              "On this day, the Fed said borrowing should cost more. They raised their rate to between 3.75% and 4%. President Trump wanted the opposite — he wanted borrowing to get cheaper, so people would spend more money and businesses could grow faster.",
+              "The stock market didn't like the surprise. The Dow Jones, which tracks how big American companies are doing, dropped about 600 points that day — a big, fast drop. Prices bounced back a little the next day when oil and other costs settled down.",
+              "People who agree with the Fed say prices for everyday things have been rising too fast, and making borrowing pricier can slow that down. People who disagree, including the President, say making borrowing more expensive right now could hurt families and businesses who were counting on cheaper loans."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family ever gets a loan for a house or a car, or even uses a credit card, this decision changes how much extra you'd have to pay back. It also shows a real disagreement about who should be in charge of decisions like this — the President, or an independent group of experts."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The extra amount you have to pay back when you borrow money, like a fee for using someone else's cash for a while."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "A group of experts, separate from the President, whose job is to help control how much things cost and how easy it is to borrow money in America."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the President be allowed to tell the Federal Reserve what to do with interest rates?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, he should have a say"
+                  },
+                  "points": {
+                    "en": [
+                      "He was elected by the whole country, so he should have a voice in big money decisions that affect everyone.",
+                      "If people are struggling to pay bills, the President sees that up close and should be able to push for help.",
+                      "The Fed's decisions affect jobs and prices, and the President is the one people blame or thank for the economy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the Fed should stay independent"
+                  },
+                  "points": {
+                    "en": [
+                      "If the President could control interest rates, he might lower them just to look good for elections, even if it hurts the economy later.",
+                      "The Fed is made of experts who study money problems every day, not politicians focused on other things.",
+                      "Keeping the two separate means decisions are based on numbers and research, not on what makes someone popular right now."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for the Fed to make borrowing more expensive at this exact moment?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, raising the rate was right"
+                  },
+                  "points": {
+                    "en": [
+                      "Prices for things like food and gas had been climbing, and raising rates can help slow that down over time.",
+                      "Waiting too long to act can make price problems even worse and harder to fix later.",
+                      "A strong, careful decision now might prevent bigger economic trouble in the future."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it was the wrong moment"
+                  },
+                  "points": {
+                    "en": [
+                      "Families who wanted to buy a home or a car now face higher costs right when they can least afford it.",
+                      "Businesses may borrow less money to grow, which could mean fewer new jobs.",
+                      "The stock market dropped fast, showing that many people worried this move could hurt the economy right now."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The Fed Raises Rates—And Defies the President"
+          },
+          "hook": {
+            "en": "On September 16, 2026, the Federal Reserve raised its key interest rate for the first time since 2023, pushing it up to a range of 3.75% to 4%. President Trump had publicly demanded lower rates, but the Fed's leaders went the other way anyway. Stocks fell sharply within hours, then partly recovered the next day as other financial pressures eased."
+          },
+          "story": {
+            "en": [
+              "The Federal Reserve is the United States' central bank—the institution that sets the cost of borrowing money for the whole country. It doesn't lend directly to you or your parents, but it controls a rate that banks charge each other overnight, and that rate ripples outward into everything from mortgages to car loans to the interest on a credit card bill. When the Fed raises that rate, borrowing gets more expensive everywhere, on purpose.",
+              "Why would anyone want that? The main reason is inflation—when prices for everyday things keep climbing faster than normal. Making borrowing pricier tends to slow down spending, which can cool off price increases, but it also makes it harder for businesses to expand and for families to afford big purchases. It's a blunt tool: it can calm inflation, but it can also choke off growth and cost people jobs if pushed too far. For nearly three years the Fed had been holding rates steady or cutting them, signaling it thought the economy needed cheaper credit, not tighter conditions. This hike reversed that.",
+              "What made this move unusual wasn't just the direction—it was who objected. President Trump had been pushing publicly for the Fed to cut rates, arguing the economy needed relief, not restriction. The Fed raised them anyway. The Federal Reserve was deliberately built by Congress decades ago to operate somewhat independently of whoever sits in the White House, precisely so that interest-rate decisions wouldn't be driven by political timing—like a president wanting cheap loans right before an election. That independence is now being tested openly, with a sitting president publicly pressuring the central bank and the central bank publicly declining to fall in line.",
+              "Markets did not take the news calmly. The Dow Jones Industrial Average, a widely watched measure of major U.S. stocks, dropped roughly 600 points within hours of the announcement—investors worried that pricier borrowing would slow company profits and economic growth. The next day brought a partial rebound, helped along by falling oil prices and easing bond yields (bond yields are roughly the interest rate the government itself pays to borrow money, and when they drop, it usually signals investors expect calmer conditions ahead).",
+              "The disagreement over whether this was the right call runs deeper than one data point. Supporters of the hike point to inflation pressures that haven't fully gone away—prices for groceries, rent, and other essentials still climbing uncomfortably in parts of the economy. Critics, including the administration, argue the economy was already fragile and didn't need another obstacle; higher rates mean more expensive mortgages for anyone buying a home, tougher terms for small businesses trying to expand, and higher minimum payments on existing credit card debt. Both sides are looking at the same economy and drawing different conclusions about what it needs most."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family has a mortgage, a car loan, or credit card debt, this decision just made borrowing more expensive—monthly payments on new loans, and sometimes existing variable-rate debt, tend to rise when the Fed moves like this. It also matters because it's a live test of whether the central bank can make decisions independent of political pressure, which affects how predictable and trustworthy the whole financial system feels to everyone who saves, borrows, or invests money—which is nearly everyone."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The United States' central bank, responsible for setting national interest rate policy and meant to operate somewhat independently from the president and Congress."
+              }
+            },
+            {
+              "term": {
+                "en": "benchmark interest rate"
+              },
+              "def": {
+                "en": "A key rate set by the Fed that influences the cost of borrowing throughout the economy, from mortgages to business loans."
+              }
+            },
+            {
+              "term": {
+                "en": "inflation"
+              },
+              "def": {
+                "en": "A general and sustained rise in prices across the economy, which reduces how much your money can buy over time."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Federal Reserve be able to make decisions the president publicly opposes, or should elected leaders have more control over interest rates?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep the Fed independent"
+                  },
+                  "points": {
+                    "en": [
+                      "Politicians facing elections have an incentive to push for cheap borrowing right before votes, even if it damages the economy long-term.",
+                      "Independent experts making decisions based on data, not political timing, tends to produce more stable, predictable economic conditions.",
+                      "History in other countries shows that when governments directly control money and interest rates, it has sometimes led to runaway inflation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Give elected leaders more say"
+                  },
+                  "points": {
+                    "en": [
+                      "Unelected officials making decisions that affect every family's mortgage and job security isn't fully accountable to the people those decisions affect.",
+                      "A president elected to fix the economy should have real tools to do it, not just influence at a distance.",
+                      "If the Fed's choices consistently clash with what elected leadership and voters want, that's a sign the system is out of step with democratic accountability."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was raising interest rates the right decision given the state of the economy in September 2026?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The hike was necessary"
+                  },
+                  "points": {
+                    "en": [
+                      "Inflation that isn't addressed early tends to get worse and harder to fix later, hurting everyone's purchasing power.",
+                      "Keeping rates too low for too long risks encouraging reckless borrowing and unstable financial bubbles.",
+                      "A credible, tough response to inflation now can prevent a much sharper and more painful correction down the road."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The hike was a mistake"
+                  },
+                  "points": {
+                    "en": [
+                      "Raising borrowing costs risks slowing an already fragile economy and could tip it toward layoffs and recession.",
+                      "Families and small businesses already stretched thin face real, immediate financial strain from higher payments.",
+                      "The market's sharp initial drop suggests investors themselves saw this as a risky, poorly timed move."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump-Xi Summit Looms With Major Questions Unresolved",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/09/17/nx-s1-5971293/trump-xi-summit-china"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Xi's 2026 US Trip: A Diplomacy Series"
+          },
+          "summary": {
+            "en": "An ongoing tracker of the planning and stakes behind Xi Jinping's expected visit to Washington, from a Hong Kong-based outlet with ties to mainland business interests. Worth reading for detail, but best treated as Beijing-adjacent framing rather than a neutral account."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/series/3364401/xis-2026-trip-us"
+        },
+        {
+          "title": {
+            "en": "Trump-Xi Summit: Iran, China Trade and Midterm Elections in the Mix"
+          },
+          "summary": {
+            "en": "An earlier piece explaining why analysts were already tempering expectations for a big breakthrough at the summit weeks before it happened. It lays out the competing priorities — trade, Iran policy, domestic politics — that complicate any deal."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/02/trump-xi-summit-iran-china-trade-elections.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Powerful Leaders Are Planning to Meet — But They Don't Agree on Much"
+          },
+          "hook": {
+            "en": "The leader of the United States, President Trump, and the leader of China, President Xi Jinping, are planning to meet in Washington, D.C. But just days before the meeting, the two countries still disagree about big things like trade, technology, and the island of Taiwan. Nobody knows yet if the meeting will fix anything."
+          },
+          "story": {
+            "en": [
+              "The United States and China are the two biggest, most powerful countries in the world. What they decide affects millions of people, even kids who have never been to either country.",
+              "Right now, the two countries disagree about a few big things. One is money — they argue about extra charges called tariffs that make goods cost more when they cross borders. Another is technology — the U.S. limits what advanced computer parts it will sell to China. A third is Taiwan, a small island that China says belongs to it, but which runs itself and has its own government.",
+              "President Trump and President Xi are supposed to sit down together and talk about all of this. But reporters say the two sides have not agreed on much, even about how the meeting itself will work.",
+              "Some news outlets think it's unlikely the leaders will solve all these problems in one meeting. A Chinese-based newspaper has been writing a lot about Xi's trip too, but remember — it tends to describe things the way China's government sees them, so it's only one side of the story."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even though this meeting is happening far away, it can change prices at the store, what jobs exist near you, and what phones or computers can be built with. When the two biggest countries argue or agree, the ripples reach almost everywhere."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tariff is like a toll booth for goods — an extra fee a country charges on things coming in from another country, which can make those things cost more."
+              }
+            },
+            {
+              "term": {
+                "en": "Summit"
+              },
+              "def": {
+                "en": "A summit is a big meeting between important leaders, usually to talk about serious problems between their countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If two people (or two countries) don't agree on much, is it still worth having a big meeting?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, meet anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking face-to-face can help people understand each other better, even without solving everything.",
+                      "Small steps of agreement are still better than staying silent.",
+                      "Meetings can lower the chance of bigger fights happening later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it might not help"
+                  },
+                  "points": {
+                    "en": [
+                      "If nothing gets solved, the meeting might just look good on TV without changing anything real.",
+                      "Sometimes meetings create false hope that makes people relax when the problem is still there.",
+                      "Time and effort spent on a meeting that fails could have gone toward other solutions."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should one country be allowed to stop selling its inventions, like advanced computer chips, to another country it doesn't fully trust?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's their choice"
+                  },
+                  "points": {
+                    "en": [
+                      "A country can decide who to trade with, just like you choose who to lend your toys to.",
+                      "If the technology could be used to harm others, it makes sense to be careful about who gets it.",
+                      "Keeping some inventions private can protect a country's own workers and ideas."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it could cause more harm"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking trade can hurt regular people who just want to buy affordable phones or computers.",
+                      "It might make the other country angry and cause more arguments instead of fewer.",
+                      "New rules like this can slow down helpful inventions for everyone, not just one side."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump and Xi Are Set to Meet in Washington — But Nobody Knows What They'll Agree On"
+          },
+          "hook": {
+            "en": "President Trump and Chinese President Xi Jinping are due to hold a summit in Washington, one of the most closely watched meetings between the two countries in years. As of mid-September, the big disputes between them — tariffs, Taiwan, and America's restrictions on selling advanced technology to China — are all still unresolved. No deal has been announced, and neither side has said clearly what it's willing to give up."
+          },
+          "story": {
+            "en": [
+              "Two of the most powerful people on the planet are about to sit across a table from each other, and going into it, almost nothing has been settled. President Trump and China's leader, Xi Jinping, are preparing for a summit in Washington — a formal, high-level meeting between heads of state, usually planned months in advance with teams of officials working out details beforehand. Normally, by the time leaders actually meet, their staffs have already agreed on most of what will be announced. This time, reporting suggests the hard questions are still open just days before it happens.",
+              "The list of disagreements is long and each one matters on its own. There's the ongoing trade dispute, where both countries have been charging tariffs — taxes on goods crossing the border — that raise costs for businesses and consumers in both places. There's Taiwan, the self-governing island that China claims as its own territory and that the US has long supported without official recognition, a question so sensitive it has shaped US-China relations for decades. And there are US export controls: rules that block American companies from selling China certain advanced technology, especially the powerful computer chips used to build artificial intelligence systems and modern weapons. Washington says these controls protect national security. Beijing calls them an attempt to hold China back economically.",
+              "Some financial news outlets were already warning weeks ago that a real breakthrough was unlikely, given how far apart the two sides are on all three fronts at once. That's a useful reality check: summits between rival powers don't always produce agreements, and sometimes the point of meeting is just to keep talking rather than to sign something new. A meeting can still matter even without a deal — it can lower the temperature, open channels for future talks, or simply signal that both governments still see value in direct contact instead of only trading public accusations.",
+              "Coverage of the lead-up looks different depending on where it's coming from. The South China Morning Post, a Hong Kong-based outlet that has been closely tracking Xi's planned trip, offers a view shaped by proximity to Beijing's thinking — useful for understanding how China is framing the visit, but not a neutral referee on the disputed points, since it operates in an information environment shaped by the Chinese government. That's not a reason to ignore it; it's a reason to read it alongside other sources rather than as the final word.",
+              "What happens at this summit — or fails to happen — will likely shape trade costs, technology access, and military tension between the world's two largest economies for months or years afterward. Companies that rely on selling to China, buying from China, or using Chinese-made or Chinese-bound components are watching closely, because tariff levels and export rules directly affect what they can build and sell. So is anyone tracking the risk of conflict over Taiwan, since how the two leaders talk about it in private can shift how likely or unlikely a crisis becomes."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions made in this one meeting can ripple into prices at the store, the cost of electronics with chips inside them, and how safe or tense the world feels around Taiwan — even for people who never think about US-China relations day to day. When the two largest economies negotiate, the terms they set often become the terms everyone else has to live with."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tax a government charges on goods coming in from another country, which usually makes those goods more expensive for buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "Export controls"
+              },
+              "def": {
+                "en": "Government rules that block or limit selling certain technology — like advanced computer chips — to another country, usually for security reasons."
+              }
+            },
+            {
+              "term": {
+                "en": "Summit"
+              },
+              "def": {
+                "en": "A formal meeting between the top leaders of different countries, held to negotiate directly on major issues."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When two countries disagree on almost everything important, is it better for their leaders to meet anyway, or to wait until more groundwork has been done?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Meet now"
+                  },
+                  "points": {
+                    "en": [
+                      "Direct conversation between leaders can prevent misunderstandings that lower-level officials might miss or make worse.",
+                      "Waiting for full agreement before meeting can let tensions build for years with no relief valve at all.",
+                      "Even a summit that produces no deal can open channels that make future crises easier to manage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until ready"
+                  },
+                  "points": {
+                    "en": [
+                      "A summit that fails publicly can make both leaders look weak and harden positions rather than soften them.",
+                      "Meeting without groundwork risks locking in bad, rushed compromises just to have something to announce.",
+                      "Careful preparation by officials usually produces more durable agreements than leader-level improvisation."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US keep tightly restricting advanced technology exports to China, even though it also hurts American companies that want to sell there?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced chips can be used to build weapons and surveillance systems, so limiting access is a direct security measure, not just economic competition.",
+                      "Once cutting-edge technology is sold, it can't be taken back, so caution now avoids bigger risks later.",
+                      "Short-term losses for individual companies are a reasonable price for protecting a long-term strategic advantage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, ease them"
+                  },
+                  "points": {
+                    "en": [
+                      "Restrictions push China to build its own technology industry faster, which could erase the advantage they were meant to protect.",
+                      "American companies lose billions in sales to a market they can't easily replace, which can cost jobs at home.",
+                      "Cutting off cooperation entirely makes it harder to negotiate on anything else, including areas where both countries actually want the same outcome."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "Trump Administration Overhauls Key Endangered Species Protection as Lawmakers Push Back",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/16/climate/trump-administration-rule-change-endangered-species-lawmakers"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump Rule Says Habitat Destruction Does Not 'Harm' Endangered Species"
+          },
+          "summary": {
+            "en": "This earlier report from July 2026 explains the original proposal and legal reasoning behind redefining 'harm,' before the rule took effect. It gives the fuller history of the roughly 50-year-old standard being replaced."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/climate-environment/2026/07/10/trump-rule-says-habitat-destruction-does-not-harm-endangered-species/"
+        },
+        {
+          "title": {
+            "en": "Trump Administration Overhauls Key Endangered Species Rule"
+          },
+          "summary": {
+            "en": "A concise explainer of what specifically changed in the rule's language and which agencies are responsible for enforcing it. Useful for readers wanting the regulatory mechanics without the political framing."
+          },
+          "publisher": "phys.org",
+          "url": "https://phys.org/news/2026-09-trump-administration-overhauls-key-endangered.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Lawmakers From Both Parties Push Back on Endangered Species Rule"
+          },
+          "summary": {
+            "en": "Details the specific bipartisan congressional response and proposed legislative countermoves against the new rule. Shows how the political fight is likely to continue beyond the rule's effective date."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/policy/energy-environment/6096057-trump-endangered-species-esa/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America Changes the Rules for Saving Endangered Animals"
+          },
+          "hook": {
+            "en": "Starting September 16, 2026, the United States changed how it decides if something counts as 'hurting' an endangered animal. Destroying an animal's home no longer automatically counts as harm under a law called the Endangered Species Act. This reverses a rule that had stood for about 50 years, since 1975."
+          },
+          "story": {
+            "en": [
+              "For 50 years, a law called the Endangered Species Act protected animals and plants that might disappear forever. Under the old rule, if someone destroyed the place where a protected animal lived, called its habitat, that counted as harming the animal. It counted even if nobody touched the animal itself.",
+              "Now there is a new rule. Destroying a habitat no longer automatically counts as harm. Harm now mostly means directly hurting or killing the animal's body. This makes it easier to get permission to log forests, dig mines, or build near places where endangered animals live.",
+              "Many scientists are worried. They say losing a home is the biggest reason animals disappear forever, even bigger than someone attacking them directly. Politicians from both major U.S. political parties have raised concerns, and groups that protect nature are fighting the new rule in court.",
+              "The government that made the rule says the old version was too broad and confusing for people who own or use land. They say the new rule makes it clearer what counts as harm and removes unnecessary red tape."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Forests, rivers, and fields near where you live could be affected by rules like this one, even if you never see the animals that live there. If a nearby woodland is home to a rare owl or turtle, this rule changes whether that woodland gets protected just for existing. It shows how one word in a law, like 'harm', can change what happens to nature across an entire country."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Endangered species"
+              },
+              "def": {
+                "en": "A kind of animal or plant that could disappear forever if nothing protects it."
+              }
+            },
+            {
+              "term": {
+                "en": "Habitat"
+              },
+              "def": {
+                "en": "The natural place where an animal lives, finds food, and raises its young."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should destroying an animal's home count as hurting it, even if nobody touches the animal itself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, a home matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Animals cannot survive without a safe place to eat, sleep, and raise their babies.",
+                      "Most animals become endangered because their homes disappear, not because someone attacks them directly.",
+                      "Protecting a home is often the only way to save a whole species before it's too late."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, only direct harm should count"
+                  },
+                  "points": {
+                    "en": [
+                      "It's hard to draw a fair line for what counts as an animal's 'habitat' when land has many different owners and uses.",
+                      "Rules that block building across huge areas can stop people from building homes, schools, or roads that people need.",
+                      "A narrower, clearer rule makes it easier for everyone to know exactly what is and isn't allowed."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When protecting animals slows down building things people need, which should come first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Protect the animals first"
+                  },
+                  "points": {
+                    "en": [
+                      "Once a species disappears forever, no rule or amount of money can bring it back.",
+                      "Healthy nature keeps air, water, and food chains working well for people too, not just animals.",
+                      "Waiting a little longer for a project is a small price to pay for saving something forever."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let people build"
+                  },
+                  "points": {
+                    "en": [
+                      "Families need homes, workers need jobs, and towns need roads, and these all have to be built somewhere.",
+                      "Rules that block too much land can make housing and energy more expensive for everyone.",
+                      "People who lose time and money from delays are real too, and their needs matter as well."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Washington Just Changed What Counts as 'Harming' an Endangered Animal"
+          },
+          "hook": {
+            "en": "A new federal rule that took effect on September 16 rewrites what it means to 'harm' an endangered species under U.S. law — and destroying an animal's habitat is no longer automatically included. For fifty years, wrecking the place a species lives counted as harming that species, full stop. Now it might not, and that changes what loggers, miners, and builders can legally do near protected land."
+          },
+          "story": {
+            "en": [
+              "Since 1975, U.S. regulators have treated habitat destruction as a form of 'harm' to endangered animals under the Endangered Species Act — a 1973 law that protects species at risk of disappearing. The logic was simple: if you bulldoze the only forest a rare owl nests in, you have harmed that owl, even if you never touch a single bird. That reading gave federal agencies power to block or restrict logging, mining, drilling, and construction projects whenever they threatened a protected species' habitat, without needing proof that any individual animal was directly injured.",
+              "The rule that took effect this week removes that automatic link. Under the new definition, harm generally has to be more direct and immediate — closer to actually killing or injuring an animal — for federal protection to kick in automatically. Habitat destruction can still sometimes trigger review, but it is no longer treated as harm by default. In practice, that shifts the burden: instead of habitat loss automatically counting against a project, agencies and courts will have to work out, case by case, whether a given loss of land actually counts as harming the species living there.",
+              "The Trump administration says the old rule let regulators reach too far into private and commercial land use, blocking or slowing projects over indirect, hard-to-prove effects rather than clear, direct harm to an animal. Officials argue the new definition draws a cleaner, more predictable line — useful for anyone trying to get a mining permit or a construction project approved without years of legal uncertainty over a plant or bird that might live nearby.",
+              "Critics, including scientists and lawmakers from both parties, say the change guts the law's most important tool. Habitat loss — not hunting, not poaching — is the single biggest reason species go extinct, according to decades of ecological research. Removing it as an automatic trigger, they argue, means the government can watch a species' home get destroyed piece by piece and have no legal footing to stop it, even while insisting it still 'protects' the species on paper.",
+              "The rule was first proposed back in July, giving opponents months to organize before it took effect. Environmental groups have already gone back to court, arguing the new definition contradicts the plain language and intent of the original 1973 law. Because the rule changes how an existing law is interpreted rather than passing a new one, its fate may ultimately be decided by federal judges rather than Congress — even though members of Congress from both parties have publicly criticized it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whatever forest, wetland, or coastline is near where you live is protected partly through rules like this one — the fight isn't abstract, it's about whether a new mine, highway, or housing development can move forward on land that used to be off-limits because something rare lived there. It's also a case study in how much power sits not in the laws Congress passes, but in how agencies choose to interpret the words inside them."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Endangered Species Act"
+              },
+              "def": {
+                "en": "A 1973 U.S. law that protects animals and plants at serious risk of dying out, including the places they live."
+              }
+            },
+            {
+              "term": {
+                "en": "Habitat destruction"
+              },
+              "def": {
+                "en": "Damaging or removing the natural environment a species depends on to survive, such as clearing a forest or draining a wetland."
+              }
+            },
+            {
+              "term": {
+                "en": "Regulatory overreach"
+              },
+              "def": {
+                "en": "A term critics of a rule use to argue that a government agency is claiming more power to control private decisions than the law actually intended."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should protecting a species let the government restrict what people can do with land, even when no animal is directly touched?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect the habitat"
+                  },
+                  "points": {
+                    "en": [
+                      "An animal cannot survive being 'protected' on paper if the only place it lives is destroyed.",
+                      "Land-use decisions are often permanent — once a wetland is drained or a forest is cleared, the habitat rarely comes back.",
+                      "Waiting to act until an animal is directly injured is often too late, because by then the population may already be collapsing."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep protection narrow"
+                  },
+                  "points": {
+                    "en": [
+                      "Land often belongs to or is leased by private owners and companies who have their own legitimate plans and livelihoods at stake.",
+                      "Broad habitat rules can block homes, farms, and infrastructure over effects that are uncertain or hard to prove.",
+                      "Clear, narrow definitions let people know in advance what is and isn't allowed, instead of facing open-ended legal risk."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better to have a law that is easy to predict, or one that is broad enough to catch harms that are indirect but still real?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Favor predictability"
+                  },
+                  "points": {
+                    "en": [
+                      "Businesses, farmers, and local governments can only plan projects responsibly if they know the rules in advance.",
+                      "Vague standards give regulators huge discretion, which can be applied unevenly or unfairly from case to case.",
+                      "Clear rules reduce costly legal battles that drag on for years without resolving anything.",
+                      "(three offered per prior sides; keeping to strongest)"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Favor broad coverage"
+                  },
+                  "points": {
+                    "en": [
+                      "The most serious damage to species often happens indirectly, through habitat loss, not through direct violence to an animal.",
+                      "A rule that only catches direct harm misses the actual leading cause of extinction.",
+                      "Real-world ecosystems are complicated, and rigid definitions can be legally exploited to avoid responsibility for real damage."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
