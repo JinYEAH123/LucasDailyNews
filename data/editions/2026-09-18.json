@@ -1,0 +1,800 @@
+{
+  "date": "2026-09-18",
+  "window": {
+    "start": "2026-09-17T12:00:00-07:00",
+    "end": "2026-09-18T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-18T13:55:28-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump says he's close to a decision on 'annihilating' Iran's regime",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/09/17/trump-axios-interview-iran-war"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump weighs 'annihilate' decision on Iran"
+          },
+          "summary": {
+            "en": "The Hill traces how Trump's language toward Iran's regime has hardened over recent weeks. It gives context on why this specific interview marks an escalation from earlier warnings."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6096198-trump-iran-annihilate-decision/"
+        },
+        {
+          "title": {
+            "en": "Iran war live updates: tanker hit, oil, Houthis"
+          },
+          "summary": {
+            "en": "CBS News tracks the tanker attack in the Strait of Hormuz and its effect on oil markets as the situation develops hour by hour. Useful for the fast-moving military and economic details behind the main story."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-of-hormuz-oil-houthis/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Iran war live: Trump weighs big decision, tanker hit in Hormuz"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatar state-funded outlet, offers a regional Gulf perspective on the tanker strike and Trump's upcoming meeting with six Gulf leaders. Read alongside US sources since Al Jazeera's government backing shapes its framing of US Middle East policy."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/9/18/iran-war-live-trump-weighs-big-decision-on-iran-tanker-hit-in-hormuz?update=4961419"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump Says He's Close to Deciding on Bigger Strikes Against Iran"
+          },
+          "hook": {
+            "en": "President Trump says he is almost ready to decide whether to launch major new military strikes on Iran's government. On the very same day, a huge oil ship was attacked in a narrow, important stretch of water near Iran. Oil prices have stayed high ever since."
+          },
+          "story": {
+            "en": [
+              "Trump told a news outlet he is close to deciding whether to order big U.S. military strikes meant to completely wipe out Iran's current government. He used the word \"annihilating,\" which means destroying something so totally that nothing useful is left.",
+              "On the same day, a tanker — a giant ship that carries oil across the ocean — was attacked in the Strait of Hormuz. This is a narrow strip of water, like a doorway between two seas, that a huge share of the world's oil ships must pass through. Because ships felt unsafe there, oil stayed expensive.",
+              "Before Trump makes his final decision, he is set to meet with leaders from six countries near the Persian Gulf, the same region where the attack happened. They will likely talk about what happens next.",
+              "Back in Washington, the U.S. House of Representatives voted for the third time to try to stop Trump from ordering more strikes on Iran without Congress agreeing first. Lawmakers from both political parties supported this, showing many people in government are worried about one person alone deciding on war."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When oil ships can't travel safely, the price of oil goes up — and that can make gas for cars, buses, and even some foods more expensive for families everywhere, including yours. It's also a story about who gets to decide when a country goes to war, which is one of the biggest and most serious decisions a government can make."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow strip of ocean near Iran that a huge amount of the world's oil ships must pass through, like a doorway between two rooms."
+              }
+            },
+            {
+              "term": {
+                "en": "Congress"
+              },
+              "def": {
+                "en": "The group of elected lawmakers in the United States, split into the House and the Senate, who make laws and are supposed to have a say in decisions about war."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to order military strikes without Congress agreeing first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The president should decide"
+                  },
+                  "points": {
+                    "en": [
+                      "Emergencies can happen fast, and waiting for a big group to agree might be too slow.",
+                      "The president leads the military and was elected by the whole country to make tough calls.",
+                      "The president often has urgent information that can't wait for a long debate."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Congress should decide too"
+                  },
+                  "points": {
+                    "en": [
+                      "War affects everyone, so it makes sense for many elected representatives to agree, not just one person.",
+                      "The rules that set up the U.S. government gave Congress the power to declare war.",
+                      "Sharing big decisions stops any single person from having too much power."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the U.S. get more involved in the conflict with Iran, or stay out of it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Get more involved"
+                  },
+                  "points": {
+                    "en": [
+                      "Stepping in might stop further attacks on ships and protect oil supplies people depend on.",
+                      "Countries in the region are asking for support and might feel safer with U.S. help.",
+                      "Waiting too long could let the problem grow even bigger and harder to fix."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stay out"
+                  },
+                  "points": {
+                    "en": [
+                      "Wars can hurt many ordinary people who had nothing to do with starting the conflict.",
+                      "Getting involved could make the situation more dangerous instead of calmer.",
+                      "Fighting a war costs enormous amounts of money and lives, with no guarantee it will work."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Weighs New Strikes on Iran as Tanker Attack Shakes Oil Markets, Congress Pushes Back"
+          },
+          "hook": {
+            "en": "President Trump has told the news outlet Axios that he is close to deciding whether to launch major new U.S. military strikes aimed at \"annihilating\" Iran's government. In the past day, a tanker was hit in the Strait of Hormuz, the narrow waterway that carries a huge share of the world's oil, and prices have stayed elevated since. Before deciding, Trump is set to meet leaders from six Gulf Arab states. Two days earlier, the House of Representatives voted for the third time to try to limit his power to order strikes without Congress's approval."
+          },
+          "story": {
+            "en": [
+              "The war between the United States, Israel and Iran has dragged on with no clear end point, and Trump now says he is close to a decision on whether to go further than strikes on military and nuclear sites. He has talked about \"annihilating\" Iran's regime, meaning not just damaging its weapons or army but trying to bring down the government itself. That is a much bigger step than the strikes carried out so far, and it is one previous American presidents have generally avoided, because toppling a government by force is unpredictable: nobody can guarantee what, or who, replaces it.",
+              "In the middle of this, a tanker ship was hit in the Strait of Hormuz, a narrow sea passage between Iran and the Arabian Peninsula so important that roughly a fifth of the world's oil shipped by sea passes through it. Because it is so narrow, it is called a chokepoint: a single incident there can spook markets even if the actual disruption to supply is small, because traders start pricing in the risk of more attacks or an outright closure. Oil prices have stayed higher since the attack, which matters well beyond the shipping industry, since oil prices feed into the cost of petrol, flights, heating and almost anything that has to be transported.",
+              "Before making his call, Trump is scheduled to meet leaders from six Gulf Arab states, including Saudi Arabia and the United Arab Emirates. These countries sit right across the water from Iran, host American military bases, and have the most to lose if the war spreads into their own waters or territory. Their input is not just diplomatic courtesy; several of them have spent years trying to lower tensions with Iran after decades of rivalry, and a U.S. campaign to remove Iran's government could blow up that work and drag them into a wider regional war they did not choose.",
+              "Two days before Trump's Axios interview, the House of Representatives voted for the third time on a resolution meant to stop him ordering further strikes on Iran without Congress's approval. That it happened a third time, and with support from both parties, is notable: it shows unease that crosses the usual party lines, at a moment when Congress rarely acts against a sitting president from its own side. Constitutionally, Congress alone has the power to declare war, but presidents for decades have argued that as commander-in-chief they can order military action to protect American interests without a formal declaration, especially when action is framed as defensive rather than a full war. That disagreement over where the line sits, not just this specific war, is what keeps resurfacing every time a president threatens major new strikes.",
+              "Whether Trump will actually go ahead is genuinely unclear. He has made this same threat before without following through, and it isn't known yet how heavily the tanker attack will weigh on his decision compared with what the Gulf states tell him, or what Congress's vote is meant to signal. What is certain is that the decision, whichever way it goes, will be read closely both by Iran's government and by lawmakers watching how far a president can push military action without asking them first."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Higher oil prices from a shipping-lane attack can show up quickly in things you or your family pay for, from petrol to plane tickets to anything shipped by sea. And the fight in Congress over who gets to authorise military action isn't abstract lawmaking — it's about whether one person or an elected body decides when the country goes to a wider war."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula through which a large share of the world's oil shipments pass, making it a frequent flashpoint when tensions with Iran rise."
+              }
+            },
+            {
+              "term": {
+                "en": "War Powers Resolution"
+              },
+              "def": {
+                "en": "A U.S. law meant to limit a president's ability to send the military into extended conflict without Congress's approval, though presidents have long argued it doesn't fully bind them."
+              }
+            },
+            {
+              "term": {
+                "en": "regime change"
+              },
+              "def": {
+                "en": "Using force or other pressure to remove a country's government entirely, rather than just damaging its military capability."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a U.S. president be able to order major new strikes on another country without a vote from Congress first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Presidential authority"
+                  },
+                  "points": {
+                    "en": [
+                      "Wars can require fast decisions, and requiring a lengthy congressional vote could hand adversaries a window to strike first or hide their capabilities.",
+                      "The president is elected nationally and bears direct responsibility as commander-in-chief for protecting American lives and interests abroad.",
+                      "Congress can act afterward through funding decisions or votes if it disagrees, so the president's initial authority isn't unchecked, just faster."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Congressional check"
+                  },
+                  "points": {
+                    "en": [
+                      "The Constitution explicitly gives the power to declare war to Congress, not the president, precisely to prevent one person from committing the country to conflict alone.",
+                      "Wars have enormous, long-lasting costs in lives and money that should require broad political agreement, not a single official's judgment.",
+                      "History shows that wars launched without congressional buy-in are harder to sustain politically and more likely to be abandoned midway, at high cost."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it right for the U.S. to try to remove a hostile foreign government through military force, even one it strongly opposes?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Support"
+                  },
+                  "points": {
+                    "en": [
+                      "A government that sponsors attacks or destabilizes a region may pose an ongoing threat that limited strikes alone can't resolve.",
+                      " Removing a hostile regime can end a source of danger for good rather than managing it indefinitely through repeated smaller conflicts.",
+                      "Allies and neighbors directly threatened by that government may welcome, or even quietly encourage, decisive action to end the threat."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Against"
+                  },
+                  "points": {
+                    "en": [
+                      "Toppling a government by force is unpredictable, and past attempts have often led to chaos, civil war, or a replacement just as hostile.",
+                      "It sets a precedent that any powerful country can decide to overthrow another nation's government, which weakens the international norms that protect all countries, including one's own allies.",
+                      "The people who suffer most from regime-change wars are usually civilians in the target country, not the officials being targeted."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Fed raises rates as inflation persists",
+        "publisher": "Japan Times",
+        "url": "https://www.japantimes.co.jp/business/2026/09/17/economy/fed-raises-rates-inflation/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Federal Reserve monetary policy statement"
+          },
+          "summary": {
+            "en": "The Fed's own statement is the primary record of the decision, the vote count and the reasoning officials gave for raising rates. It is the document every news account of the hike is built on."
+          },
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20260916a1.pdf"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "The Fed was bullied into hiking rates, analysis argues"
+          },
+          "summary": {
+            "en": "CNN's analysis lays out the case that inflation data, not the Fed's own preference, forced this hike, adding a critical perspective on the decision. It is useful for understanding the political and economic pressure Chair Warsh's Fed was under."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/17/economy/fed-bullied-into-hiking-rates-analysis"
+        },
+        {
+          "title": {
+            "en": "Stock market today: Sept 17, 2026"
+          },
+          "summary": {
+            "en": "Yahoo Finance covers how stocks moved in the first full trading session after the rate hike, capturing the immediate market reaction. It shows investors adjusting to the surprise of a hike instead of an expected cut."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-17-134502255.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America's Money Referee Raises the Cost of Borrowing"
+          },
+          "hook": {
+            "en": "A group called the Federal Reserve decides how expensive it is to borrow money in America. This week they raised that cost for the first time in two years. Now buying a house, a car, or even using a credit card will cost more for millions of families."
+          },
+          "story": {
+            "en": [
+              "Imagine you borrow $100 from a friend and promise to pay back $104 later. That extra $4 is called interest. The Federal Reserve sets a rate that affects how much extra everyone in America pays when they borrow money, whether it's a bank lending for a house or a company borrowing to grow.",
+              "This week, all 12 people who vote on this decision agreed together, like a class where every single hand goes up, to raise that rate a little bit. It's now between 3.75% and 4.00%, which doesn't sound huge, but it touches almost everyone's wallet.",
+              "They did this because prices for things like food and energy have been climbing fast, and the Fed's job is to try to slow that down. Raising the rate makes borrowing pricier, which usually means people spend a bit less, which can help cool down fast-rising prices.",
+              "Not everyone agrees this was the right move. Some experts think the economy was already slowing down on its own, and worry this extra squeeze could cause problems, like people losing jobs or businesses struggling to grow."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family ever borrows money for a car, a house, or even puts something on a credit card, this decision could mean paying more each month. It also shows how a handful of people making one decision in Washington can ripple out and touch families all across the country."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The extra amount you have to pay back when you borrow money, usually shown as a percentage."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "When prices for things like food, gas, and toys keep going up over time, so your money buys less than it used to."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair that a small group of people can make a decision that costs millions of families more money, without those families getting a vote?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "The Fed is made up of experts whose whole job is to study money and prices carefully.",
+                      "If everyone voted on interest rates, decisions might get made based on what feels good right now instead of what actually helps later.",
+                      "Doctors make decisions about your health without asking you to vote on it, and this is similar — it takes special training."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "The people most affected, ordinary families, never get a say in a decision that changes their monthly bills.",
+                      "A small group can get it wrong, and everyone else has to live with the consequences.",
+                      "Big decisions that touch everyone's life should involve more voices, not just twelve people in a room."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When prices are rising fast, is it better to act quickly and firmly, or wait and see if things settle down on their own?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Act quickly"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting too long can let rising prices get so out of control that fixing them later becomes much harder and more painful.",
+                      "A firm, fast action can show everyone the problem is being taken seriously, which can help calm things down faster.",
+                      "Small steps taken early can prevent the need for bigger, more painful steps later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait and see"
+                  },
+                  "points": {
+                    "en": [
+                      "Big decisions made in a hurry can accidentally slow down the whole economy more than necessary.",
+                      "Sometimes prices settle down on their own once a temporary problem, like an energy shortage, passes.",
+                      "Acting too fast risks causing job losses or business struggles that wouldn't have happened if everyone had just been patient."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The Fed Raises Interest Rates Again — and Markets Aren't Happy"
+          },
+          "hook": {
+            "en": "The U.S. Federal Reserve, the country's central bank, raised its key interest rate on Wednesday for the first time since 2023, pushing it to a range of 3.75% to 4.00%. Every single one of the twelve officials who vote on the decision backed it — a rare unanimous result. Investors had been betting on rate cuts. They got the opposite."
+          },
+          "story": {
+            "en": [
+              "The Federal Reserve doesn't set the price of a loaf of bread or the rent on an apartment, but it sets something that quietly shapes both: the interest rate banks charge each other to borrow money overnight. That single number, adjusted eight times a year by the Fed's rate-setting committee, ripples outward into what banks charge you for a mortgage, a car loan, or a credit card balance. On Wednesday, under new Fed Chair Kevin Warsh, the committee voted 12-0 to raise that rate by a quarter of a percentage point, to a range of 3.75%-4.00%.",
+              "The Fed's official job is to keep prices stable and keep as many people employed as possible — two goals that don't always pull in the same direction. Raising rates makes borrowing more expensive, which tends to slow down spending and cool off inflation, the rate at which prices for everyday things rise. The Fed said this hike was aimed squarely at inflation, which it argued had been made worse by a sudden jump in energy prices — the kind of shock that pushes up the cost of everything from gasoline to heating a home to running a factory.",
+              "What makes this move notable is the reversal it represents. Just weeks earlier, investors in bond and stock markets had priced in the opposite: they expected the Fed to start cutting rates, on the theory that the economy was cooling enough that borrowing costs should come down, not go up. Instead, the Fed hit the brakes harder. Markets reacted with visible unease in the days that followed — a sign that traders read this not as a routine adjustment but as a signal the Fed sees more inflation risk than they had assumed.",
+              "One widely discussed analysis went further, arguing the Fed had effectively been \"bullied\" into this hike by incoming inflation data rather than acting on a timeline of its own choosing. That's a pointed claim, because the Fed's entire authority rests on the idea that it makes calm, independent judgments about the economy — not that it gets pushed around by the latest report. Fed officials would likely reject the framing, saying that responding to new data is exactly what a central bank is supposed to do. But the fact that the debate is happening at all tells you something about how unsettled the mood around this decision is.",
+              "For ordinary Americans, the practical effect arrives gradually but widely. Banks use the Fed's rate as a baseline for setting the interest they charge on new mortgages, car loans, credit card balances, and business loans. A quarter-point increase might sound small, but multiplied across tens of millions of borrowers, it adds up to real money — extra dollars a month on a mortgage payment, a slightly higher minimum payment on a credit card. Fed officials signaled that this hike might not be the last, which means the direction of borrowing costs, at least for now, is up rather than down."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family have a credit card balance, a car loan, or are planning to buy a home, this decision touches the interest you'll actually pay — and it can keep rising if the Fed hikes again. It's also a reminder that a handful of officials meeting in Washington can shift costs for nearly every household in the country without a single new law being passed."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Federal Reserve (the Fed)"
+              },
+              "def": {
+                "en": "The central bank of the United States, whose job is to keep prices stable and support employment by controlling how expensive it is to borrow money."
+              }
+            },
+            {
+              "term": {
+                "en": "Benchmark interest rate"
+              },
+              "def": {
+                "en": "The key rate the Fed sets for banks borrowing from each other overnight, which then influences the rates banks charge ordinary borrowers on mortgages, loans, and credit cards."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "The rate at which prices for goods and services rise over time, eroding how much your money can buy."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Given the signs of a slowing economy, was raising interest rates the right call, or should the Fed have waited?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It was the right call"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting inflation run unchecked risks it becoming entrenched in people's expectations, which is far harder to reverse later.",
+                      "An energy-price shock can spread into wages and other prices if the central bank doesn't act decisively early.",
+                      "A unanimous 12-0 vote suggests officials with different views on the economy all agreed the inflation risk outweighed the slowdown risk."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It was the wrong call"
+                  },
+                  "points": {
+                    "en": [
+                      "Raising borrowing costs while the economy is already slowing risks tipping it into a deeper downturn or recession."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does it matter if the Fed was effectively forced into this hike by inflation data rather than acting on its own timeline?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it matters"
+                  },
+                  "points": {
+                    "en": [
+                      "A central bank's credibility depends on being seen as steering deliberately, not reacting under pressure from data or markets.",
+                      "If the Fed looks like it's scrambling to catch up, it can spook markets further and make its job of calming the economy harder.",
+                      "Once a central bank is seen as reactive rather than independent, it opens the door to political or public pressure shaping future decisions too."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it doesn't matter"
+                  },
+                  "points": {
+                    "en": [
+                      "Responding quickly to new data is precisely what a central bank is supposed to do — the alternative is ignoring reality to save face.",
+                      "The \"bullied\" framing is one commentator's interpretation, not something the Fed itself has confirmed.",
+                      "A unanimous 12-0 vote suggests genuine agreement among officials, not a committee cornered into a decision it didn't believe in."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "tech",
+      "region": "CN",
+      "source": {
+        "title": "China's AI selloff faces risk from US push for model curbs",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-ai-selloff-faces-risk-from-us-push-for-model-curbs"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia's export ban backfires on Chinese AI ambitions"
+          },
+          "summary": {
+            "en": "This Yahoo Finance piece explains the earlier round of U.S. chip export restrictions that set the stage for the current fight over model access. It gives the history of how U.S.-China AI hardware limits have evolved before this new push on AI models themselves."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-export-ban-backfires-chinese-132055400.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Can AI regulation keep America ahead of China?"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatar state-funded outlet, explores the policy debate over whether restricting China's AI access actually protects U.S. leadership. Worth reading alongside U.S. sources given its state funding shapes how it frames the U.S.-China rivalry."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/9/17/aje-onl-nf_can-ai-regulation-keep-america-ahead-of-china-170926"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China's AI Companies Lose Billions as America Debates Locking Them Out"
+          },
+          "hook": {
+            "en": "Chinese companies that build smart computer programs called AI have lost about $33 billion in value this month. At the same time, an American AI company called Anthropic wants the U.S. government to stop Chinese companies from using America's best AI programs. If that happens, American and Chinese AI would grow further apart than ever."
+          },
+          "story": {
+            "en": [
+              "Companies in China build AI, short for artificial intelligence — computer programs that can chat, write stories, and solve problems almost like a person. Two of these companies are called Z.AI and MiniMax. This month, people who buy and sell tiny pieces of companies, called stock, decided these companies were worth much less. Together, China's AI companies lost about $33 billion — that's enough money to buy tens of millions of laptops.",
+              "At the same time, an American company called Anthropic, which builds some of the smartest AI programs in the world, is asking the U.S. government to do something big. Anthropic wants to stop Chinese companies from using America's most advanced AI programs, called frontier models because they sit at the very edge of what AI can do. Anthropic says this would help America stay ahead of China.",
+              "China disagrees. Chinese officials say blocking them is unfair, and they believe being cut off wouldn't actually slow them down. Instead, they think it would push Chinese scientists to build their own AI chips and programs even faster, so they don't need America's help at all.",
+              "This wouldn't be the first wall built between American and Chinese AI. The U.S. government already stops the chip company Nvidia from selling its most powerful computer chips to China. If Anthropic gets its way, that wall between the two countries' AI would grow even taller — though nobody knows yet if the government will agree."
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might already talk to AI when you ask a smart speaker a question or use it to help with homework. The AI being built right now in America and China could end up running the phones, cars, and even toys you use when you're grown up. Whether these two countries build separate AI worlds, or find ways to work together, will shape how smart — and how different — our machines become."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Frontier AI model"
+              },
+              "def": {
+                "en": "The newest and most powerful kind of AI program, sitting at the very edge of what computers can currently do."
+              }
+            },
+            {
+              "term": {
+                "en": "Stock market value"
+              },
+              "def": {
+                "en": "How much all the tiny pieces of a company, called shares, are worth if you added them all up — like a total price tag for the whole company."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for America to stop China from using its very best AI programs?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If a country builds something amazing, it should get to decide who uses it, just like you choose who borrows your favourite toy.",
+                      "Countries look out for their own people first, the way a family looks out for its own members before helping others.",
+                      "If China used America's very best tools, America might lose an advantage it worked hard to build."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it isn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Great ideas usually end up helping everyone eventually, like inventions from other countries that we all use today.",
+                      "Blocking someone instead of working together can create more fear and rivalry than it solves.",
+                      "Ordinary scientists and citizens in China did nothing wrong, but the block treats them as if they are a threat."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If you were in charge of a country, would you rather share your best ideas with rivals or keep them secret?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share the ideas"
+                  },
+                  "points": {
+                    "en": [
+                      "Sharing builds trust and makes it easier to work together on big problems, like curing diseases.",
+                      "Many great inventions grew faster because scientists everywhere could build on each other's work.",
+                      "Keeping secrets can make other people afraid of you, and afraid people often become rivals instead of friends."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep them secret"
+                  },
+                  "points": {
+                    "en": [
+                      "If you always share your best work, others can catch up and take away the advantage you earned.",
+                      "Keeping something special can reward all the hard work and money spent inventing it in the first place.",
+                      "In any competition, showing your best moves to the other side makes it much harder to win."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China's AI Giants Lose $33 Billion as US Weighs a Total Cutoff"
+          },
+          "hook": {
+            "en": "Chinese AI companies including Z.AI and MiniMax have watched about $33 billion evaporate from their stock market value this month. At the same time, American AI company Anthropic is pushing the US government to block Chinese firms from using top-tier American AI models entirely, arguing it's the only way to keep America ahead."
+          },
+          "story": {
+            "en": [
+              "Investors have been dumping shares in Chinese artificial intelligence companies all month, wiping out roughly $33 billion in combined value from firms like Z.AI and MiniMax. That's not pocket change — it's more than the market value of many well-known public companies, gone in weeks. The selloff reflects growing doubts among investors about how competitive Chinese AI firms can stay if the walls between the US and Chinese tech industries keep going up.",
+              "Those walls are already partly built. For a few years now, the US government has restricted which advanced computer chips American companies like Nvidia can sell to China, specifically the powerful chips needed to train the largest AI systems. The idea was to slow China's ability to build cutting-edge AI by starving it of the best hardware. Now some American AI companies want to go further. Anthropic, which makes the Claude chatbot, is lobbying Washington to cut Chinese companies off from frontier AI models altogether — meaning the most advanced AI systems available, the ones at the very edge of what the technology can currently do.",
+              "The argument for going further is straightforward: whoever builds the most capable AI first gets outsized economic and military advantages, and every point of access Chinese firms have to American AI tools — even indirectly, through partnerships or workarounds — chips away at that lead. Anthropic and others worry that Chinese companies use exposure to leading US models to help train their own, effectively getting a head start paid for by someone else's research.",
+              "The argument against it is that this kind of pressure has backfired before. When the US tightened chip exports, it didn't stop Chinese AI development — it pushed Chinese companies and the government to pour money into building their own chips and software from scratch, a goal officials call self-sufficiency. A Chinese AI lab called DeepSeek surprised the industry last year by producing a highly capable model despite the chip restrictions, which some took as proof that cutting China off makes it more resourceful, not weaker.",
+              "Nobody knows yet which reading is correct, and Washington hasn't decided whether to adopt the stricter rules Anthropic wants. Chinese officials, for their part, are likely to call any new restrictions unfair and use them as further justification for building an AI industry that doesn't depend on American technology at all. Whatever happens, the stock market has already made its own bet: that the space for Chinese AI companies to grow by using American tools is shrinking, and that shrinkage carries a real financial cost."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chatbots, phone assistants, and apps you use are built on this same technology, and where it's allowed to flow shapes what gets built and how fast. If the US and China's AI industries fully separate, it could mean two increasingly different versions of AI develop in parallel — one you'll likely grow up using more of than the other, without ever choosing which."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Frontier AI models"
+              },
+              "def": {
+                "en": "The most advanced AI systems that exist at any given time, sitting at the very edge of what the technology can currently do."
+              }
+            },
+            {
+              "term": {
+                "en": "Export controls"
+              },
+              "def": {
+                "en": "Government rules that stop companies from selling certain technology, like advanced computer chips, to specific countries or buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "Self-sufficiency"
+              },
+              "def": {
+                "en": "A country's effort to build the technology it needs on its own, so it no longer depends on suppliers from other countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US government block Chinese companies from accessing the most advanced American AI models?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, restrict access"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced AI can be used for military and surveillance purposes, so limiting access protects national security, not just business interests.",
+                      "Keeping the technological lead gives the US more time to set global rules and standards before rivals can shape them instead.",
+                      "Allowing free access lets competitors benefit from years of expensive American research without paying any of the cost."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't restrict access"
+                  },
+                  "points": {
+                    "en": [
+                      "Previous restrictions on chips didn't stop Chinese AI progress; they arguably accelerated China's drive to build its own hardware and software.",
+                      "Cutting off access could isolate American companies from a huge global market and reduce the revenue that funds future research.",
+                      "A permanently divided AI world could mean two incompatible technology ecosystems, making cooperation on safety and shared risks harder later."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a problem that AI companies like Anthropic are lobbying the government for restrictions that would also weaken their own competitors?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a legitimate conflict of interest"
+                  },
+                  "points": {
+                    "en": [
+                      "A company that profits from weaker competitors has an obvious financial incentive to frame the issue as national security, regardless of the actual risk.",
+                      "Policy shaped by the industry it regulates tends to serve that industry's interests rather than the public's.",
+                      "If restrictions turn out to be the wrong call, the company pushing for them faces no accountability for the economic fallout."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's normal and acceptable advocacy"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies closest to the technology often understand its risks and capabilities better than anyone else, including government officials.",
+                      "Every industry lobbies for policies that benefit it; that alone doesn't make the underlying argument wrong.",
+                      "Anthropic's incentives don't disprove the security concern — a self-interested party can still be right about a real risk."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
