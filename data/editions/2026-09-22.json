@@ -1,0 +1,801 @@
+{
+  "date": "2026-09-22",
+  "window": {
+    "start": "2026-09-21T12:00:00-07:00",
+    "end": "2026-09-22T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-22T15:05:17-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "China Confirms Xi's First Trip to the US in Nearly Three Years",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-21/china-confirms-xi-s-first-trip-to-the-us-in-nearly-three-years"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Chinese President Xi Jinping Will Pay State Visit to US This Week, Beijing Confirms"
+          },
+          "summary": {
+            "en": "South China Morning Post's account adds Beijing's framing of the trip and how state media there are describing its significance ahead of the trade truce deadline. It is independently owned from Bloomberg, giving a second, non-U.S. vantage point on the same announcement."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368223/chinese-president-xi-jinping-will-pay-state-visit-us-week-beijing-confirms"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "First Lady Melania Trump Releases Details Ahead of President Xi Jinping's Visit to the White House"
+          },
+          "summary": {
+            "en": "This is the primary White House document laying out the official visit details, including the presence of Xi's wife Madame Peng Liyuan, straight from the source rather than a news account of it."
+          },
+          "publisher": "The White House",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/09/first-lady-melania-trump-releases-details-ahead-of-his-excellency-xi-jinping-president-of-the-peoples-republic-of-china-and-madame-peng-liyuans-visit-to-the-white-house/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Powerful Leaders Are Meeting in Washington"
+          },
+          "hook": {
+            "en": "China's leader, Xi Jinping, is coming to Washington, D.C. He will visit in September and meet President Trump there. It's his first trip to the United States in almost three years. Both countries have a big trade deal that is about to run out, so there's a lot to talk about."
+          },
+          "story": {
+            "en": [
+              "Xi Jinping runs China, the country with more people than any other on Earth. He is coming to Washington from September 23 to 25. He will bring his wife, Peng Liyuan. This kind of trip is called a 'state visit' — the fanciest, most formal way one country's leader visits another.",
+              "The timing matters. About a year ago, the United States and China made a trade deal to calm things down between them. That deal is about to expire in November. Trade deals decide things like tariffs — extra money added to the price of goods when they cross from one country into another.",
+              "Leaders will likely talk about other tricky topics too. One is technology: what kind of powerful computer chips and AI tools each country is allowed to sell the other. Another is Taiwan, an island that runs itself but that China says should belong to it.",
+              "Nothing has actually been decided yet. Right now, only the dates and the fact that the visit is happening are confirmed. The real talking starts once Xi Jinping arrives."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of things you use every day — phones, toys, sneakers — travel between the United States and China before they reach a store near you. When these two countries argue, prices on things like that can go up. When they make deals, prices often stay steadier, so this meeting could quietly affect what your next birthday present costs."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "state visit"
+              },
+              "def": {
+                "en": "A state visit is the most formal kind of trip one country's leader makes to another, with big ceremonies and lots of attention."
+              }
+            },
+            {
+              "term": {
+                "en": "tariff"
+              },
+              "def": {
+                "en": "A tariff is extra money a government adds to the price of goods coming in from another country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for two rival countries' leaders to meet face-to-face, or could that be risky?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Meeting helps"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking in person can solve problems that phone calls or letters can't.",
+                      "A visit shows both sides want to avoid a bigger fight.",
+                      "Meeting face-to-face can build trust that makes future decisions easier."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Meeting is risky"
+                  },
+                  "points": {
+                    "en": [
+                      "If the meeting goes badly, it could make tensions worse, not better.",
+                      "Big, public visits can be more about looking good than actually fixing problems.",
+                      "Promises made in front of cameras can be hard to take back later, even if they turn out to be mistakes."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should countries use tariffs to protect their own factories and jobs, or should they let trade flow freely without extra taxes?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Protect with tariffs"
+                  },
+                  "points": {
+                    "en": [
+                      "Tariffs can keep jobs and factories at home instead of losing them to another country.",
+                      "They let a country keep making important things itself, like medicine, instead of depending on others.",
+                      "They can be used to push another country to play fair."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep trade free"
+                  },
+                  "points": {
+                    "en": [
+                      "Without tariffs, everyday things usually cost less for families.",
+                      "Free trade encourages countries to work together instead of competing angrily.",
+                      "Shoppers end up paying for a political argument they didn't start."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Xi Jinping to Visit Washington in September — First Trip to the U.S. in Nearly Three Years"
+          },
+          "hook": {
+            "en": "China's government has confirmed that President Xi Jinping will travel to Washington from September 23 to 25 for a state visit, his first to the United States since 2017. President Trump invited him, and the trip was confirmed jointly by China's Foreign Ministry and a White House statement from First Lady Melania Trump. The timing matters: a one-year truce that paused the worst of the U.S.-China trade war is due to expire in November, so the visit lands right when both countries need to decide whether to keep cooperating or let tensions reignite."
+          },
+          "story": {
+            "en": [
+              "When two world leaders sit down together in person, it is called a state visit — the most formal kind of diplomatic trip, complete with ceremony, honor guards, and a level of attention that a phone call or a meeting between lower-level officials simply doesn't get. That Xi Jinping is making one to Washington, his first in nearly three years, is itself the headline. Leaders don't do this casually; it takes months of planning and signals that both governments think there's something worth showing up for in person.",
+              "What's worth showing up for, in this case, is a trade truce that's about to run out. Last year, the U.S. and China agreed to pause an escalating fight over tariffs — taxes one country places on goods imported from another, which raise prices for businesses and shoppers on both sides. That pause expires in November. Without an extension or a new deal, tariffs on everything from electronics to soybeans could jump again, and so could restrictions on exporting advanced technology, like the computer chips used to build artificial intelligence systems, which the U.S. has been limiting China's access to on national security grounds.",
+              "None of this is settled yet. The two governments have only confirmed that the meeting will happen and when — not what either side wants out of it, let alone what they'll agree to. Longer-running disputes will almost certainly hang over the room even if they're not the official agenda: Taiwan, the self-governing island China claims as its own territory and which the U.S. has armed and supported for decades, remains the sharpest disagreement between the two countries and the one most likely to trigger a real military crisis if mishandled.",
+              "Analysts see the visit as evidence that both leaders currently prefer managing the relationship to letting it fracture. Trump has spent much of his second term threatening steep tariffs and technology bans against China, while also periodically signaling he wants a deal with Xi personally. Xi, meanwhile, faces a slowing Chinese economy that badly needs stable access to American markets and technology. A face-to-face summit doesn't guarantee compromise, but it does mean both sides are choosing negotiation over letting the truce simply lapse into confrontation by default.",
+              "Whether the visit produces anything durable will depend on details nobody outside the two governments knows yet: what each side is willing to give up on tariffs, technology restrictions, and possibly Taiwan, in exchange for what. Summits like this can end in genuine agreements, in vague statements papering over unresolved fights, or in leaders walking away further apart than when they arrived. For now, the only confirmed fact is that the two most powerful people shaping the U.S.-China relationship will be in the same room in September — which is itself more than has happened in years."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If the trade truce collapses in November, prices on everyday goods — electronics, clothing, toys, car parts — could rise again for American families, and Chinese factories that depend on U.S. customers could see business dry up. Decisions made in this one meeting between two leaders will ripple into things as ordinary as how much a new phone costs and as serious as whether tension over Taiwan escalates further."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "state visit"
+              },
+              "def": {
+                "en": "The most formal, ceremonial type of trip one head of state makes to another country, usually reserved for relationships both governments consider especially important."
+              }
+            },
+            {
+              "term": {
+                "en": "trade truce"
+              },
+              "def": {
+                "en": "A temporary agreement to pause an escalating trade fight — in this case, a one-year pause on new U.S.-China tariffs that is set to expire in November."
+              }
+            },
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Government rules that limit or ban selling certain goods, like advanced computer chips, to other countries, usually for national security reasons."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it worth holding a high-profile summit like this even though nobody knows in advance whether it will produce a real agreement?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, hold the summit"
+                  },
+                  "points": {
+                    "en": [
+                      "Face-to-face meetings build personal trust between leaders that phone calls and lower-level talks can't, which makes compromise easier later.",
+                      "Even if no deal is signed, the meeting itself can lower the temperature and reduce the risk of miscalculation on issues like Taiwan.",
+                      "Some of the most important breakthroughs in diplomatic history happened because leaders were willing to meet without a guaranteed outcome first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until there's a deal ready"
+                  },
+                  "points": {
+                    "en": [
+                      "A summit with no pre-agreed outcome risks becoming empty spectacle that raises hopes without changing anything.",
+                      "Once leaders take public positions in a high-profile meeting, backing down afterward can look like weakness, making compromise harder rather than easier.",
+                      "The time and political capital spent preparing for a summit could instead go toward quieter negotiations that produce results before any cameras are involved."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When trade tension with China flares up like this, should the U.S. keep negotiating and extending truces, or push toward permanently separating its economy from China's regardless of short-term cost?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep negotiating"
+                  },
+                  "points": {
+                    "en": [
+                      "Tariffs and export bans raise prices and hurt businesses on both sides, so continued negotiation avoids unnecessary economic pain for ordinary people.",
+                      "The two countries still need to cooperate on shared problems, like managing the risks of advanced AI, which becomes harder if all contact turns hostile.",
+                      "Most long-running international conflicts have historically been resolved through sustained diplomacy, not isolation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Push toward separation"
+                  },
+                  "points": {
+                    "en": [
+                      "Relying on a rival power for critical technology and manufacturing creates a national security risk that no trade deal can fully fix.",
+                      "A firmer stance sends a clearer message on issues like Taiwan than repeated truces that can be seen as buying time rather than solving anything.",
+                      "Short-term economic pain from decoupling may be worth the long-term benefit of reducing dependency on a country the U.S. views as a strategic competitor."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "CNN, MS NOW, Politico Say They've Notified Trump They're Suing Over Denied White House Access",
+        "publisher": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/politics/cnn-ms-now-politico-say-theyve-notified-trump-theyre-suing-over-denied-white-house-access"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "CNN, Politico, MS NOW Plan to Sue Trump Administration Over White House Ban"
+          },
+          "summary": {
+            "en": "NBC News, which is not a party to the lawsuit, lays out the sequence of events and the outlets' legal reasoning in more detail than the announcement itself."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/cnn-politico-ms-now-plan-sue-trump-administration-ban-white-house-cove-rcna598912"
+        },
+        {
+          "title": {
+            "en": "CNN, MS NOW, Politico Sue Trump Admin Over White House Ban"
+          },
+          "summary": {
+            "en": "ABC News offers another outlet-independent account of the filing, useful for readers wanting confirmation from a newsroom with no stake in the case."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/cnn-ms-now-politico-sue-trump-admin-white/story?id=136613147"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "CNN, Politico and MS NOW Sue Over White House Access"
+          },
+          "summary": {
+            "en": "CNN's own account of the case it is party to gives the plaintiffs' detailed legal argument, but should be read knowing CNN has a direct stake in the outcome."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/21/politics/cnn-politico-msnow-sue-white-house-access"
+        }
+      ],
+      "videos": [
+        {
+          "title": "PBS NewsHour full episode, Sept. 21, 2026",
+          "channel": "PBS NewsHour",
+          "url": "https://www.youtube.com/watch?v=VRtLQeekWV0",
+          "summary": {
+            "en": "A full news broadcast covering the lawsuit and other top stories of the day, useful for hearing the story explained aloud."
+          }
+        }
+      ],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "News Reporters Sue After Being Locked Out of the White House"
+          },
+          "hook": {
+            "en": "On Monday, three news companies said White House staff would no longer let their reporters onto the grounds. CNN, Politico, and MS NOW are now suing President Trump's administration, saying this breaks an important American rule protecting reporters. Other big news companies that were not banned are also skipping some White House events, to show they don't think it's fair."
+          },
+          "story": {
+            "en": [
+              "Imagine your school said only some kids could watch an assembly, based on who asked easier questions before. That's a bit like what reporters say happened at the White House. Three news companies were told their reporters could no longer come onto the grounds to do their jobs.",
+              "The three companies — CNN, Politico, and MS NOW — think this breaks a rule from the U.S. Constitution, the country's rulebook for government. The rule is called the First Amendment, and it protects reporters' right to gather news freely. So on Monday, the companies filed a lawsuit, asking a judge to decide who is right.",
+              "Something unusual happened next. Other big news companies that were NOT banned, like CBS, the New York Times, and the Washington Post, chose to skip covering some White House events too. They wanted to show support for the banned companies, even though skipping news is unusual for reporters.",
+              "A judge, chosen by President Trump himself to be a judge, will hold a hearing on Wednesday to start sorting out the case. One thing worth knowing: CNN is one of the companies suing, so when it reports on its own case, it helps to also check what other news companies say."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Reporters' job is to tell people what their government is doing, kind of like a referee everyone trusts at a game, not just one team's fans. If a president can pick and choose which reporters get to watch him work, people might not get the full story. This case will help decide how much control a president has over who gets to ask questions in person."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "First Amendment"
+              },
+              "def": {
+                "en": "A part of the U.S. Constitution that protects people's right to speak freely and reporters' right to gather news."
+              }
+            },
+            {
+              "term": {
+                "en": "Lawsuit"
+              },
+              "def": {
+                "en": "A formal request asking a judge to settle a disagreement between two sides."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to choose which reporters can come inside the White House?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's his house to run"
+                  },
+                  "points": {
+                    "en": [
+                      "The White House is where the president lives and works, so he should have some say over who comes in, like your family decides who visits your house.",
+                      "Every workplace has security rules about who is allowed in certain areas.",
+                      "If some reporters break rules or act unfairly, a leader should be able to respond somehow."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, all reporters deserve equal access"
+                  },
+                  "points": {
+                    "en": [
+                      "The public relies on many different news companies to understand what their government is doing, not only the ones a president likes.",
+                      "If a president can shut out just the reporters who ask hard questions, people might only hear one side of the story.",
+                      "Freedom of the press means treating all journalists by the same rules, not choosing based on how they report."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for other news companies to skip events even though they weren't banned themselves?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, standing together helps"
+                  },
+                  "points": {
+                    "en": [
+                      "When companies that normally compete work together, it shows the issue matters beyond just business rivalry.",
+                      "Skipping events can pressure the White House to change its decision faster than a lawsuit alone.",
+                      "It shows reporters that their colleagues will support them when something feels unfair."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they should keep doing their jobs"
+                  },
+                  "points": {
+                    "en": [
+                      "By skipping events, these reporters also miss covering important news for their own readers and viewers.",
+                      "The public still deserves updates about the president's actions, even during a disagreement.",
+                      "Refusing to attend events doesn't solve the legal question, only the court case can decide that."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Three News Outlets Sue the White House Over Being Banned From Its Grounds"
+          },
+          "hook": {
+            "en": "CNN, Politico and MS NOW (the network formerly known as MSNBC) sued the Trump administration on Monday after being blocked from White House grounds. They say the ban violates their First Amendment right to report freely. The move set off an unusual wave of solidarity: rival networks and newspapers that weren't banned refused to cover certain events too, in protest."
+          },
+          "story": {
+            "en": [
+              "On Monday, three news organizations — CNN, Politico, and MS NOW — filed a lawsuit against the Trump administration after being banned from White House grounds. The lawsuit argues that shutting specific outlets out of the building where the president works and holds events violates the First Amendment, the part of the U.S. Constitution that protects free speech and a free press from government interference.",
+              "What makes this story unusual isn't just the ban — it's what happened next. Instead of treating the exclusion as a problem only for the three banned outlets, other major news organizations that were still allowed inside — CBS, the New York Times, the Washington Post, and the shared White House photo pools that supply images to nearly every outlet — chose to skip certain events themselves, in protest. These organizations normally compete fiercely with each other for scoops and readers. Refusing access together, on principle, is rare.",
+              "The lawsuit is now moving through the courts. A federal judge — someone appointed by Trump himself — has been assigned to hear the case, and a hearing has been scheduled for Wednesday. That's a fast timeline for a lawsuit, and it signals the court sees this as urgent rather than something to let sit for months.",
+              "There's a wrinkle worth noticing: CNN is not just reporting on this case — it's one of the three organizations suing. That means when CNN covers the lawsuit, it's describing a fight it's personally involved in, not standing outside it as a neutral observer. Anyone following the story closely should also check outlets that aren't parties to the case for a fuller picture.",
+              "At the center of all this is a genuinely unresolved legal question: can a president pick and choose which news organizations get access to the White House, based on how they've covered him, without breaking press-freedom protections? The Trump administration hasn't yet laid out its full legal argument for why the ban is allowed. Until it does, both sides are essentially arguing over a question the courts haven't answered before in quite this way."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whoever wins this case will help decide how much control any future president — of either party — has over who gets to ask questions and report on the government from inside its own buildings. If exclusion is allowed here, it could become a tool used against any outlet a future administration doesn't like, which changes what kind of information the public ends up seeing."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "First Amendment"
+              },
+              "def": {
+                "en": "The part of the U.S. Constitution that protects freedoms including speech and the press from government restriction."
+              }
+            },
+            {
+              "term": {
+                "en": "Press pool"
+              },
+              "def": {
+                "en": "A small, shared group of reporters and photographers who cover an event and pass their material to all other news outlets, used when space is too limited for every outlet to attend."
+              }
+            },
+            {
+              "term": {
+                "en": "Plaintiff"
+              },
+              "def": {
+                "en": "The person or organization that starts a lawsuit by formally accusing someone else of wrongdoing in court."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to decide which news outlets can access the White House grounds?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the president should have discretion"
+                  },
+                  "points": {
+                    "en": [
+                      "White House grounds are the president's workplace, not fully open public property, so some control over who enters is normal for any workplace.",
+                      "Every administration has favored friendlier outlets with better access to some degree; this is a difference of degree, not an entirely new kind of behavior.",
+                      "Managing a large, secure, high-profile building sensibly requires some ability to limit who is physically present at events."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, access should be open and viewpoint-neutral"
+                  },
+                  "points": {
+                    "en": [
+                      "Choosing which outlets to exclude based on how critically they've covered the president looks like punishment for unfavorable reporting, not neutral management.",
+                      "Press access to the White House has traditionally been extended to all credentialed outlets regardless of their political leaning or editorial stance.",
+                      "Letting a president exclude critics sets a precedent that could be used by any future administration to silence uncomfortable coverage."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for outlets that weren't banned to boycott events in solidarity?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, solidarity was the right call"
+                  },
+                  "points": {
+                    "en": [
+                      "If the ban goes unchallenged, any outlet could be next, so protecting a competitor's access today protects your own access tomorrow.",
+                      "Journalism depends on shared norms of access that survive changes in government; letting one outlet be picked off weakens that protection for everyone.",
+                      "Not responding could normalize the idea that governments get to sort the press into favored and disfavored groups."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, their job is to keep reporting, not to boycott"
+                  },
+                  "points": {
+                    "en": [
+                      "Skipping events means the public gets less information right now, which works against the very purpose of a free press.",
+                      "News organizations are supposed to be independent competitors, not a coordinated bloc acting together against the government.",
+                      "The boycott can look like the industry protecting its own interests rather than a principled stand, which risks feeding public distrust of the media."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Paramount Reaches Settlement Over Warner Bros. Merger",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/21/paramount-reaches-settlement-over-warner-bros-merger.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Paramount, Attorneys General Settle Lawsuit Over Warner Bros. Discovery Deal"
+          },
+          "summary": {
+            "en": "An independent aggregator's account of the same settlement, useful as a source with no ownership stake in either merging company."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/media-advertising/articles/paramount-attorneys-general-settle-lawsuit-153309562.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Paramount Skydance Antitrust Deal With Warner Bros. Discovery"
+          },
+          "summary": {
+            "en": "CBS News's own coverage adds detail on the antitrust dimension of the settlement, though readers should note CBS is owned by Paramount, the acquirer, giving it a direct interest in how the deal is portrayed."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/paramount-skydance-antitrust-deal-warner-bros-discovery/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two TV and Movie Giants Get the Green Light to Become One"
+          },
+          "hook": {
+            "en": "Paramount Skydance wants to buy Warner Bros. Discovery, another huge entertainment company, for about $81 billion. On Monday, a group of state government lawyers who had been trying to stop the deal agreed to let it go ahead. That was the last big roadblock, so both companies' stock prices jumped right away."
+          },
+          "story": {
+            "en": [
+              "Paramount Skydance owns things like CBS and Paramount Pictures. Warner Bros. Discovery owns things like CNN, HBO, and the Warner Bros. movie studio, which made the Harry Potter and Batman movies. Now these two giant companies are joining together into one even bigger company.",
+              "The price tag for this deal is about $81 billion. That is such a huge number that if you spent $1 million every single day, it would take you over 200 years to spend it all.",
+              "A group of top lawyers from several states, called attorneys general, had sued to try to stop the deal. They worried it might not be fair. On Monday, they reached an agreement with Paramount Skydance instead, which cleared the way for the deal to finally happen.",
+              "One tricky thing: CBS News is owned by Paramount, the company buying Warner Bros. Discovery. That means CBS is not a neutral storyteller here, since its own parent company will make more money if this deal closes."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When two giant companies that own so many TV channels and movie studios become one, there are fewer companies left making the shows and movies you watch. That can change what gets made, who gets hired, and even how much you or your family pay for streaming services."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "merger"
+              },
+              "def": {
+                "en": "A merger is when two separate companies join together to become one single, bigger company."
+              }
+            },
+            {
+              "term": {
+                "en": "attorneys general"
+              },
+              "def": {
+                "en": "Attorneys general are the top lawyers for each state, whose job includes making sure big companies follow the law."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it a good thing when two giant entertainment companies join into one even bigger company?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can be good"
+                  },
+                  "points": {
+                    "en": [
+                      "A bigger company might have more money to make better movies and shows.",
+                      "Combining two companies could save money, which might mean lower prices for watching things.",
+                      "One company can share tools and ideas instead of two companies doing the same work separately."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it can be bad"
+                  },
+                  "points": {
+                    "en": [
+                      "With fewer companies, there is less competition, and competition often makes things better and cheaper.",
+                      "One giant company could end up deciding what shows and movies get made for millions of people.",
+                      "If the company doesn't work well, more people could lose their jobs at once since so much is combined."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should CBS News be allowed to report on a deal that will make its own parent company richer?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "As long as they tell readers about the connection, people can decide for themselves what to trust.",
+                      "The reporters at CBS might still work hard to get the facts right, even if their company benefits.",
+                      "It would be strange to say only outsiders with no connection at all are allowed to report on big business news."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's a problem"
+                  },
+                  "points": {
+                    "en": [
+                      "It's hard to fully trust a company's honesty when it profits from the story turning out a certain way.",
+                      "They might leave out tricky details that make the deal look worse, even without meaning to.",
+                      "Readers deserve news from people who have nothing to gain either way."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Paramount Clears Last Legal Hurdle in $81 Billion Deal to Buy Warner Bros. Discovery"
+          },
+          "hook": {
+            "en": "On Monday, Paramount Skydance settled a lawsuit brought by a group of U.S. state attorneys general who had tried to block its $81 billion purchase of Warner Bros. Discovery. The settlement removes the last major legal obstacle standing in the way of the deal, and both companies' stock prices jumped more than 10% as investors bet the merger will now go through. If it closes, two of the biggest remaining independent media companies in America will become one."
+          },
+          "story": {
+            "en": [
+              "Paramount Skydance wants to buy Warner Bros. Discovery for roughly $81 billion — a sum large enough to rank among the biggest media deals in history. On Monday, the company reached a settlement with a coalition of state attorneys general, the top law enforcement officials in each state, who had sued to stop the merger. With that lawsuit resolved, the deal has cleared what had been considered its final legal obstacle, and shares of both companies jumped sharply on the news as investors concluded the path to closing was now clear.",
+              "To understand why this matters, it helps to know what each company actually owns. Warner Bros. Discovery controls HBO, CNN, the Warner Bros. film studio, and a large slate of cable channels. Paramount Skydance — itself the product of a recent merger between the old Paramount and the Skydance production company — owns CBS, Paramount Pictures, and Nickelodeon. Combining them would put an enormous share of American film, television, and news production under one roof, which is why the deal counts as a structural change to the industry rather than a passing headline.",
+              "That scale is exactly what worried the attorneys general who sued in the first place. Their concern falls under antitrust law, the body of rules meant to stop companies from becoming so large and dominant that they can raise prices, squeeze out competitors, or narrow the range of voices available to the public, without much fear of being undercut by rivals. A merger this size raises real questions: will streaming prices rise once there are fewer major providers competing for subscribers? Will fewer companies making entertainment and news mean a narrower range of perspectives reaching audiences? The settlement suggests those legal concerns have been addressed to the states' satisfaction, though the full terms of what Paramount agreed to were not spelled out in early reporting, so it isn't yet clear exactly what commitments the company made in exchange for the lawsuit going away.",
+              "There's a wrinkle worth naming directly: CBS News is owned by Paramount, the very company trying to close this deal. That doesn't mean its reporting on the merger is false, but it does mean CBS News has a direct financial interest in the story turning out well for its own parent company — which is a conflict any careful reader should keep in mind when reading coverage of this deal from that outlet, or from any outlet with a similar stake in the outcome.",
+              "Supporters of the merger argue that combining forces is less about dominance and more about survival. Traditional media companies are competing against streaming giants like Netflix and tech companies with vastly deeper pockets, and merging, in this telling, lets two mid-sized players pool resources to compete rather than get squeezed out individually. Critics counter that fewer independent companies making the news and entertainment Americans consume is a cost worth worrying about regardless of who wins the streaming wars, and that removing a legal challenge isn't the same as resolving the underlying question of whether this concentration is good for the public."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The shows you stream, the news channels your family watches, and the movies playing at the theater are increasingly made by a shrinking number of companies, and this merger would shrink that number further. Fewer companies controlling more of what gets made can mean higher prices down the line, or it can mean more efficient competition against even bigger tech rivals — reasonable people disagree about which effect wins out, but either way it changes who decides what stories get told."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Attorneys general"
+              },
+              "def": {
+                "en": "The top law enforcement officials elected or appointed in each U.S. state, who can sue companies on behalf of their state's residents."
+              }
+            },
+            {
+              "term": {
+                "en": "Antitrust"
+              },
+              "def": {
+                "en": "Laws designed to stop companies from growing so dominant that they can raise prices or crush competitors without real consequences."
+              }
+            },
+            {
+              "term": {
+                "en": "Merger"
+              },
+              "def": {
+                "en": "When two companies combine into one, often requiring government approval if the combined company would be very large."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should regulators have blocked this merger to keep media ownership from concentrating further, even though the companies say combining makes them stronger competitors against streaming giants?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Block or limit it"
+                  },
+                  "points": {
+                    "en": [
+                      "Fewer independent companies making news and entertainment means fewer distinct viewpoints reaching the public.",
+                      "Media consolidation has historically been followed by price increases once competition narrows.",
+                      "Once a merger like this closes, it is extremely difficult to undo, so caution should weigh heavier than speed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Allow it to proceed"
+                  },
+                  "points": {
+                    "en": [
+                      "Traditional media companies are genuinely outmatched by tech giants with far greater resources, and merging helps them compete rather than dominate.",
+                      "Consumers already have many entertainment options beyond these two companies, including streaming services, YouTube, and independent creators.",
+                      "Blocking mergers on precaution alone can weaken companies until they fail entirely, which reduces competition just as much as a merger would."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Can a news outlet fairly cover a story when its own parent company has a direct financial stake in the outcome, as long as it discloses that stake?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Disclosure is enough"
+                  },
+                  "points": {
+                    "en": [
+                      "Telling readers about the conflict lets them judge the coverage critically rather than being deceived.",
+                      "Professional journalists are trained to separate ownership interests from reporting decisions, and many do so consistently.",
+                      "Refusing to let an outlet cover its own parent company's news would leave major, newsworthy stories uncovered by the very people closest to them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Disclosure isn't enough"
+                  },
+                  "points": {
+                    "en": [
+                      "Financial incentives can shape coverage subtly, through tone and emphasis, in ways that disclosure alone doesn't fix.",
+                      "Most audiences don't register or remember a disclosure statement well enough for it to actually change how they read a story.",
+                      "Independent outlets with no stake in the outcome can report the same story without needing readers to compensate for a built-in bias."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
