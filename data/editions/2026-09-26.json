@@ -1,0 +1,799 @@
+{
+  "date": "2026-09-26",
+  "window": {
+    "start": "2026-09-25T12:00:00-07:00",
+    "end": "2026-09-26T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-26T12:55:20-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Xi Seizes on Trump Detente to Seek Lasting Gains on Trade, Taiwan",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-25/xi-seizes-trump-detente-to-seek-lasting-gains-on-trade-taiwan"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump-Xi summit takeaways"
+          },
+          "summary": {
+            "en": "CNBC's rundown lists the concrete outcomes versus the unresolved issues from the two leaders' 43-hour Washington summit. Useful for readers who want the full scorecard of what was and wasn't agreed."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/25/trump-xi-summit-takeaways.html"
+        },
+        {
+          "title": {
+            "en": "Xi-Trump takeaways: trade deliverables, a Taiwan push and strategic stability"
+          },
+          "summary": {
+            "en": "This Hong Kong outlet, whose coverage tends to reflect Beijing's perspective, details how China is presenting its gains on Taiwan and stability from the summit. Read alongside U.S. accounts for the fuller picture, since it does not stand alone as neutral record."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3368870/trade-deliverables-taiwan-push-and-strategic-stability-key-xi-trump-takeaways-overall"
+        },
+        {
+          "title": {
+            "en": "Analysis: what Xi actually got out of his Washington visit"
+          },
+          "summary": {
+            "en": "CNN's analysis digs into the diplomatic choreography and what each side signaled by extending the truce without a bigger deal. It adds context on why neither leader wanted a rupture right now."
+          },
+          "publisher": "CNN",
+          "url": "https://edition.cnn.com/2026/09/25/world/xi-dc-trump-analysis-intl-hnk"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Powerful Leaders Talked for 43 Hours — and Agreed to Keep Talking"
+          },
+          "hook": {
+            "en": "The leader of China, Xi Jinping, visited the White House to meet with U.S. President Trump. They talked, ate, and exchanged gifts for about 43 hours — that's almost two full days. At the end, they agreed to pause their biggest disagreement for a while longer, but they didn't actually solve it."
+          },
+          "story": {
+            "en": [
+              "China and the United States have been arguing about trade for years. Trade means buying and selling things between countries — like the phone in your house, which might have parts made in China. The two countries have been putting extra charges, called tariffs, on each other's goods.",
+              "Xi Jinping flew to Washington, D.C. to meet President Trump in person — his first visit like this in more than ten years. They spent almost two full days together, talking, eating meals, and even trading gifts and kind words.",
+              "They agreed to keep their current pause on new tariffs going until early 2027, instead of letting prices jump right away. But they did not solve the bigger arguments — about Taiwan, an island China claims as its own, or about special materials called rare earths that are used in phones, cars, and batteries.",
+              "News reports don't agree on who did better. American news says both sides just bought more time without fixing anything. A newspaper based in Hong Kong, which tends to reflect what China's government wants people to think, says Xi Jinping came out ahead, especially on the Taiwan question."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When two of the world's biggest countries argue about trade, it can change how much things cost — including toys, sneakers, and electronics you might get as gifts. A pause in the argument means prices probably won't jump suddenly, but it also means the disagreement is still sitting there, waiting to be solved another day."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "Extra money a government makes companies pay when they bring goods in from another country, which can make things cost more in stores."
+              }
+            },
+            {
+              "term": {
+                "en": "Trade truce"
+              },
+              "def": {
+                "en": "A promise between two countries to pause a disagreement about buying and selling, without actually solving it."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If two leaders talk for almost two days but don't solve the main problem, was the meeting still worth it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking face-to-face can build trust, even without a full deal.",
+                      "Agreeing to pause an argument stops things from getting worse right away.",
+                      "Small steps now can make bigger agreements easier to reach later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it wasn't worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "The real, hard problems are still unsolved after all that time.",
+                      "Photos and gifts don't fix disagreements about tariffs or Taiwan.",
+                      "People affected by the trade argument needed real decisions, not just friendly words."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for two big countries to talk about Taiwan's future without Taiwan being part of the meeting?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Powerful countries often talk directly to keep the whole world stable and safe.",
+                      "Taiwan has its own government that speaks for it in other ways.",
+                      "This is simply how big international meetings between major countries usually work."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Decisions about Taiwan's future should include the people who actually live there.",
+                      "Nobody likes having their life discussed in a room they're not allowed into.",
+                      "Leaving Taiwan out of the conversation makes its voice seem less important than the two bigger countries'."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Xi and Trump Meet for 43 Hours — and Mostly Agree to Keep Talking"
+          },
+          "hook": {
+            "en": "Chinese leader Xi Jinping made his first state visit to the United States in more than ten years, spending roughly 43 hours at the White House with President Trump in late September. The two sides agreed to extend their trade truce — a pause on new tariffs — into early 2027, but they left without a real deal on tariffs, soybeans, or the rare minerals used in phones and missiles. Xi pushed hard on Taiwan and on U.S. limits on selling advanced tech to China; neither side got everything it wanted."
+          },
+          "story": {
+            "en": [
+              "Two of the most powerful men in the world spent nearly two full days together, and the headline result was: nothing blew up. That sounds unimpressive until you remember what the alternative looks like. The U.S. and China have been locked in a trade war for years, each slapping tariffs — taxes on imported goods — on the other's products, which raises prices for ordinary shoppers and squeezes companies on both sides. Instead of letting that fight escalate, the two governments agreed to extend a truce that was set to expire, pushing the deadline to early 2027. That buys both sides time, but it settles nothing.",
+              "What didn't happen matters as much as what did. There was no final agreement on tariffs generally, no deal on China buying American soybeans (a trade that matters enormously to U.S. farmers), and no agreement on critical minerals — the rare earth elements China mostly controls and the world needs for everything from electric car batteries to fighter jets. Those were the three things analysts expected might get resolved. They didn't.",
+              "Xi used the visit to press Trump on two of Beijing's biggest grievances: Taiwan, the self-governing island China claims as its own, and America's export controls, which restrict the sale of advanced computer chips and other technology to Chinese companies. Beijing sees those controls as an attempt to keep China permanently behind in areas like AI and advanced manufacturing. Whether Xi actually got meaningful concessions on either point is exactly where the two sides' stories diverge.",
+              "American outlets covering the summit — Bloomberg, CNBC, CNN — describe the outcome as both leaders essentially buying time rather than resolving anything real, with warm gestures (gift exchanges, friendly remarks, talk of cooperating to manage the risks of artificial intelligence) papering over the fact that the hard disputes are still unresolved. Hong Kong's South China Morning Post, an outlet based in China whose reporting tends to reflect how Beijing wants events understood, told a different story: that Xi made real gains on Taiwan and on what it calls 'strategic stability.' Those two accounts can't both be fully right, and neither should be taken as the whole picture on its own.",
+              "That gap between the two versions is itself a piece of information. When a summit produces a friendly photo but no signed agreement, both governments have an incentive to describe it as a win for their own audience back home — Trump can claim he held the line, Xi can claim he made Washington bend. The truth, most likely, sits closer to the boring middle: two rivals who need each other's markets too much to fight outright, and disagree too deeply to actually make peace, kicking the argument another year down the road."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The prices of phones, cars, and thousands of everyday products depend on whether the U.S. and China are taxing each other's goods or trading freely, so this truce affects family budgets even though no one signed anything dramatic. It also matters because Taiwan produces most of the world's advanced computer chips — the ones inside nearly every phone and laptop — so a serious dispute over the island could disrupt technology supplies everywhere, not just in Asia."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tax a government charges on goods imported from another country, usually making those goods more expensive for buyers at home."
+              }
+            },
+            {
+              "term": {
+                "en": "Critical minerals / rare earths"
+              },
+              "def": {
+                "en": "A group of elements, mostly mined and processed in China, that are essential for making batteries, smartphones, and military equipment."
+              }
+            },
+            {
+              "term": {
+                "en": "Trade truce"
+              },
+              "def": {
+                "en": "A temporary pause in a trade fight, where both sides agree to hold off on new tariffs or restrictions without settling their underlying disagreements."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for two rival powers to keep 'buying time' with truces like this, or does avoiding the hard decisions just make the eventual reckoning worse?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Buying time is smart"
+                  },
+                  "points": {
+                    "en": [
+                      "Every month without a tariff war or a Taiwan crisis is a month businesses and families get to plan around stable prices instead of chaos.",
+                      "Leaders change, economies shift, and technology moves fast — postponing a fight leaves room for circumstances to make a peaceful solution easier later.",
+                      "Rushing into a 'final' deal under pressure often produces worse terms than a patient, repeated series of smaller truces."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Delay makes it worse"
+                  },
+                  "points": {
+                    "en": [
+                      "Unresolved disputes tend to harden rather than soften — each side digs into its position while pretending progress is being made.",
+                      "Businesses and governments can't build long-term plans on a truce that might collapse in 15 months, which itself causes economic damage.",
+                      "If the real disagreement is about power (Taiwan, technology dominance) rather than price, no amount of time makes that easier to split the difference on."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the U.S. and China cooperate on managing AI risks even while they're rivals on almost everything else?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, cooperate anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "Some risks from advanced AI — like accidents or loss of human control over powerful systems — could harm both countries regardless of who 'wins' the tech race, so it's in both sides' interest to manage them together.",
+                      "Historical rivals, including the U.S. and Soviet Union during the Cold War, still managed to cooperate on nuclear safety even while competing everywhere else.",
+                      "Refusing to talk about shared dangers just because you're rivals in other areas leaves everyone less safe for no real gain."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's naive"
+                  },
+                  "points": {
+                    "en": [
+                      "A country that treats AI development as a strategic weapon isn't likely to honestly share safety information with a rival it's simultaneously racing against.",
+                      "Cooperation talk can be used as cover — a way to look responsible internationally while quietly continuing an unrestrained race at home.",
+                      "Trust built on friendly summit gestures is fragile; real safety cooperation needs verification and enforcement, which deeply rival powers rarely allow each other."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "White House blocks CNN from Air Force One travel pool",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/09/25/politics/white-house-blocks-cnn-air-force-one-travel-pool"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "White House blocks CNN from Air Force One trip"
+          },
+          "summary": {
+            "en": "The Washington Post's independent account confirms the exclusion and details the administration's stated rationale. Useful as a second, differently-owned source on the same event."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/09/25/white-house-blocks-cnn-trip-air-force-one/"
+        },
+        {
+          "title": {
+            "en": "CNN left off Air Force One press pool"
+          },
+          "summary": {
+            "en": "NPR's report situates the Air Force One decision within the broader pattern of the administration's disputes with specific news organizations. It offers useful context on how pool assignments normally work."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one"
+        },
+        {
+          "title": {
+            "en": "White House bars CNN from Air Force One for Trump's upcoming trip"
+          },
+          "summary": {
+            "en": "Al Jazeera's account adds an international vantage point on the press-access fight, noting the timing relative to the earlier court order. It underscores how the story is being read outside the U.S. as well."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/26/white-house-bars-cnn-from-air-force-one-for-trumps-upcoming-trip"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The President's Plane Left One News Channel Behind"
+          },
+          "hook": {
+            "en": "President Trump flew to Knoxville, Tennessee, on his special plane, Air Force One. One news channel, CNN, was told it could not come along this time. A different channel, one that usually supports the president, took its seat instead."
+          },
+          "story": {
+            "en": [
+              "Reporters usually travel with the president in a small group called a press pool. They watch what he does and tell everyone else about it.",
+              "This time, the White House said CNN could not be in that group for the Knoxville trip. A channel called Real America's Voice News, which often speaks kindly about the president, took CNN's spot.",
+              "Just days before, the White House had also tried to stop CNN and two other news groups from even walking onto White House property. A judge, whose job is to decide what the rules allow, said that ban had to stop.",
+              "So instead of banning CNN from the whole building, the White House left it off just this one plane trip. Many people are asking if that is really any different."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine if you got to pick which of your friends were allowed to tell your class what happened at recess. You might pick the friend who always makes you look good. That is part of what people are arguing about here — who gets to tell the story of what a president does, and whether leaving out someone who might ask hard questions is fair."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "press pool"
+              },
+              "def": {
+                "en": "A small group of reporters who travel with a leader so they can report back to all the other news channels."
+              }
+            },
+            {
+              "term": {
+                "en": "federal judge"
+              },
+              "def": {
+                "en": "A person whose job is to decide what the rules and laws allow the government to do."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president get to choose which reporters are allowed to travel with him on his plane?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's his trip"
+                  },
+                  "points": {
+                    "en": [
+                      "It is his plane and his event, so he should decide who joins him.",
+                      "He might trust some reporters more than others to report calmly and fairly.",
+                      "There is limited space on the plane, so someone has to be left out anyway."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it should be fair to everyone"
+                  },
+                  "points": {
+                    "en": [
+                      "The president works for everyone, not just the people he likes.",
+                      "If he only picks friendly reporters, the public might not hear the full story.",
+                      "Letting only some voices in makes it easier to hide mistakes."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to swap a tougher news channel for one that is friendlier to you?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone gets to choose who they trust to explain things about them.",
+                      "A channel that disagrees with you a lot might not be fair either.",
+                      "It's normal to want people around you who treat you kindly."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "People deserve to hear different opinions, not just one side.",
+                      "If leaders only pick friendly reporters, it becomes harder to know the truth.",
+                      "A judge already said the earlier ban was wrong, so doing it a different way still feels like breaking that same rule."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "White House Drops CNN From Air Force One Flight, Days After a Judge Ordered Its Access Restored"
+          },
+          "hook": {
+            "en": "On Saturday, the White House removed CNN from the small group of reporters who travel with President Trump aboard Air Force One, replacing it with Real America's Voice News, a conservative outlet. The switch came just days after the administration had banned CNN, along with MS NOW and Politico, from the White House entirely — a decision a federal judge had briefly blocked, ordering their access restored. By targeting this one flight instead of general White House access, the administration appears to have found a way around that court order."
+          },
+          "story": {
+            "en": [
+              "When a president travels, there isn't room on Air Force One for every reporter who wants to be there. So news organizations rotate through something called a press pool — a small group that goes along, takes notes and photos, and then shares everything with every other outlet, print and TV alike. It's been treated for decades as a neutral system: your outlet's turn comes up, you go, you report, everyone else gets the material too. For Saturday's trip to Knoxville, Tennessee, the White House pulled CNN out of that rotation and put in Real America's Voice News, a network that openly supports the president, instead.",
+              "This didn't happen in isolation. Just days earlier, the administration had banned CNN, MS NOW and Politico from White House grounds altogether — meaning their reporters couldn't even walk in to cover briefings or events there. A federal judge stepped in and temporarily reversed that ban, ruling that the outlets' credentials (the official passes that let journalists routinely access the White House) had to be restored while the underlying lawsuit plays out.",
+              "The Air Force One switch looks like a way to keep the pressure on CNN specifically, without technically defying that judge. The court order was about access to White House grounds. Being included in the traveling press pool for a specific presidential trip is a separate arrangement, decided trip by trip. So CNN can walk back into the White House building under the judge's order, but the administration can still leave it off individual flights — which is exactly what happened here.",
+              "This isn't a story resting on one outlet's word. CNN reported it, but so did The Washington Post, NPR, PBS, NBC, Bloomberg, Al Jazeera and The Hill — a wide enough spread of newsrooms, including ones with no stake in defending CNN, that the basic facts aren't seriously in dispute. What's disputed is what it means: whether this is ordinary presidential discretion over who gets a seat on his plane, or a workaround designed to punish outlets a court just told the White House it couldn't punish.",
+              "The lawsuit over general White House access is still ongoing, so this isn't the end of the story — a judge may yet rule on whether pool assignments can be used this way too. For now, it's a live example of how a legal fight over press access can shift shape rather than simply end: block one door, and if a court forces it back open, look for another door nearby."
+            ]
+          },
+          "why_it_matters": {
+            "en": "How reporters get access to the people in power shapes what the public actually learns about decisions made in its name — not just for this president, but as a precedent for how future administrations treat outlets they dislike. If access to cover the government can be handed out or withdrawn based on how favorably an outlet reports, that changes what kind of scrutiny any president, of any party, has to face."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Press pool"
+              },
+              "def": {
+                "en": "A small, rotating group of reporters who travel with the president when there isn't room for every outlet, and who share their notes and footage with everyone else afterward."
+              }
+            },
+            {
+              "term": {
+                "en": "White House press credentials"
+              },
+              "def": {
+                "en": "Official passes that give journalists routine, ongoing access to cover the president and White House events, as opposed to being invited to one specific trip."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal injunction"
+              },
+              "def": {
+                "en": "A judge's order that temporarily pauses a government action while a lawsuit over it is still being decided."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president have the final say over which specific journalists join him on Air Force One?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's his call"
+                  },
+                  "points": {
+                    "en": [
+                      "Air Force One is a government aircraft carrying the president on official business, and space is genuinely limited, so someone has to decide who fills the few seats.",
+                      "Every administration has favored friendlier outlets to some degree; formalizing that as a pool choice isn't new in kind, only in bluntness.",
+                      "Presidents aren't obligated to reward outlets that cover them unfavorably with a front-row seat on their own plane."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it undermines a system built to be neutral"
+                  },
+                  "points": {
+                    "en": [
+                      "The press pool exists precisely so that no single administration can hand-pick friendly coverage of presidential travel; using it that way defeats its purpose.",
+                      "If access depends on how favorable your reporting is, the public loses independent eyes on the president rather than a stream of arranged coverage.",
+                      "Once a court has ruled the administration overstepped on access, using a side-door to achieve the same result looks like defying the ruling's spirit even if not its letter."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is finding a legal way around a judge's order — rather than breaking it outright — a reasonable use of the rules, or a way of defeating the point of the ruling?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It respects the actual ruling"
+                  },
+                  "points": {
+                    "en": [
+                      "The judge's order covered a specific issue — grounds access — and the administration complied with exactly that; nothing here breaks the letter of the law.",
+                      "Governments and companies routinely restructure their actions to fit within legal boundaries after a ruling; that's normal, not a scandal.",
+                      "If the pool-access question deserves its own ruling, the courts remain fully able to address it — nothing here closes off that path."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It defeats the point of the ruling"
+                  },
+                  "points": {
+                    "en": [
+                      "A judge ordered CNN's access restored because the ban was found improper; achieving the same outcome through a different mechanism suggests the underlying goal never changed.",
+                      "Courts can't anticipate and ban every possible workaround in advance, so treating loopholes as fully legitimate lets rulings get hollowed out in practice.",
+                      "The public interest the ruling was meant to protect — a free press covering the president — is undermined either way, regardless of which specific door was used."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Microsoft highlights new Copilot capabilities including coding tools and persistent AI agent",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/09/25/microsoft-copilot-ai-coding-anthropic.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Microsoft unveils Copilot 'super app' targeting business users with AI agents"
+          },
+          "summary": {
+            "en": "Fortune's report breaks down the specific new features Microsoft is bundling into Copilot and how it plans to sell the package to corporate customers. It gives more detail on the competitive strategy against Anthropic than the main source alone."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/"
+        },
+        {
+          "title": {
+            "en": "Stock market today: Sept. 25"
+          },
+          "summary": {
+            "en": "Yahoo Finance's markets roundup confirms the scale of Microsoft's stock move and places it among the day's notable market reactions. Useful for readers who want the numbers behind the announcement."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-25-214549821.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Microsoft Builds an AI Helper That Can Work All by Itself"
+          },
+          "hook": {
+            "en": "Microsoft just rebuilt its AI helper, called Copilot, so it can work on jobs for hours without you checking in every minute. Instead of just answering one question and stopping, it can now write computer code and keep working on tasks like a tiny robot assistant. People who own pieces of Microsoft got excited about the news, and the company's stock price jumped up."
+          },
+          "story": {
+            "en": [
+              "Microsoft has an AI helper called Copilot. Until now, it worked like a friend you ask one question at a time. You ask, it answers, and that's it.",
+              "Now Microsoft has rebuilt Copilot to do much more. It can chat with you, write computer code, and send out little AI helpers called 'agents' that keep working on a task for a long time. Imagine a robot that keeps cleaning your room for hours while you're at school, only stopping to ask you a question if it gets stuck.",
+              "Microsoft is doing this because another company, called Anthropic, makes a similar AI tool. Lots of businesses have started using Anthropic's tool instead of Microsoft's, so Microsoft wants to win them back with something bigger and better.",
+              "After Microsoft showed off the new Copilot, its stock price jumped by about 4 percent. A stock price is like a price tag on a tiny piece of a company. When it goes up, it means people believe the company is about to do well."
+            ]
+          },
+          "why_it_matters": {
+            "en": "AI helpers like Copilot are showing up in more grown-ups' jobs every year, including maybe your parents' workplaces. As these helpers start doing bigger jobs on their own, without a person checking every single step, it changes what work looks like and who is watching to make sure things go right."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AI agent"
+              },
+              "def": {
+                "en": "A computer program that keeps working on a task by itself for a while, only checking in with a person sometimes."
+              }
+            },
+            {
+              "term": {
+                "en": "Stock price"
+              },
+              "def": {
+                "en": "The price people pay to own a tiny piece of a company, which goes up or down depending on how well people think that company will do."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should an AI helper be allowed to keep working on a big task all by itself, without a person checking every step?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let it work alone"
+                  },
+                  "points": {
+                    "en": [
+                      "It saves people time because they don't have to watch every little step.",
+                      "It can work through the night or while people are busy doing other things.",
+                      "If it only needs to check in sometimes, it can finish bigger jobs faster."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, someone should always check"
+                  },
+                  "points": {
+                    "en": [
+                      "If nobody is watching, a mistake could go unnoticed for a long time.",
+                      "Some jobs are too important to trust to a computer program alone.",
+                      "People might stop understanding how the work actually gets done."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a good thing for one giant company to build the main AI tool that lots of businesses use every day?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's good"
+                  },
+                  "points": {
+                    "en": [
+                      "One company can spend a huge amount of money and time making the tool really excellent.",
+                      "It's simpler for businesses if everyone learns to use one main tool instead of many different ones.",
+                      "Competition between big companies like Microsoft and Anthropic can push both to make the tool even better."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's risky"
+                  },
+                  "points": {
+                    "en": [
+                      "If one company controls the tool everyone depends on, they get a lot of power over how people work.",
+                      "If something goes wrong with that one tool, it could cause problems everywhere at once.",
+                      "Smaller companies with new ideas might find it hard to compete with such a giant one."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Microsoft Rebuilds Copilot Into an AI 'Super App' That Works While You're Not Watching"
+          },
+          "hook": {
+            "en": "Microsoft has relaunched its AI assistant Copilot with a major overhaul: instead of just answering questions when you type them in, it can now write software code and run as a 'persistent agent' that keeps working on a task over hours or days without you sitting there prompting it. Investors reacted immediately — Microsoft's stock jumped by roughly 3.6 to 4 percent after the announcement. The redesign is aimed squarely at Anthropic, a rival AI company that has been winning over business customers Microsoft wants to keep."
+          },
+          "story": {
+            "en": [
+              "Until now, most people who have used an AI chatbot like Copilot, ChatGPT, or Claude have used it the same way: you type a question, it types back an answer, and the conversation ends when you close the window. Microsoft's new version of Copilot tries to break that pattern. It bundles chat, coding tools, and what the company calls 'agents' into one product — a so-called super app, meaning one piece of software that does many different jobs instead of several separate ones.",
+              "The agent part is the real shift. An AI agent doesn't just answer a single question; it can be given a goal — say, 'reconcile this spreadsheet every week' or 'monitor these contracts for renewal dates' — and then keep working on it over time, checking back in, adjusting, and reporting progress, closer to how a junior employee might operate than how a search engine does. That is a meaningfully different kind of trust to place in software: instead of reviewing every single output, a company is letting the AI run semi-independently in the background.",
+              "This matters commercially because the fight for AI customers has moved from consumers to businesses. Companies pay far more for AI tools than individuals typically do, and once a business builds its workflows — its daily processes, from expense approvals to customer support — around one company's AI, switching to a rival is expensive and disruptive. Anthropic, maker of the Claude chatbot, has been making real gains here, particularly by positioning its tools as strong at coding and reliable enough for serious enterprise (business) use. Microsoft's redesign is a direct answer to that threat.",
+              "Microsoft is not a startup gambling on a new idea; it is one of the most valuable companies in the world, and it already owns the software many businesses run on, including Windows, Office, and Teams. Wiring an agent-based Copilot into all of that gives Microsoft a distribution advantage no competitor can easily match — it doesn't need to convince companies to install something new, only to start using a feature that's already sitting inside software they already pay for.",
+              "The stock market's reaction — a jump of roughly 3.6 to 4 percent in Microsoft's share price, which for a company of its size translates into tens of billions of dollars in added market value within a single day — shows that investors read this as a credible strategic move, not just a marketing refresh. But a product announcement is not the same as proof the product works well at scale; how reliable these autonomous agents actually are when let loose on real company data, for weeks at a time, is something that will only become clear as businesses actually adopt it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If AI agents that work independently for days become normal in workplaces, it changes what kinds of tasks humans are needed for and how closely those tasks get checked. It's also a preview of a tool many of today's students may end up managing, or being managed by, at their first jobs."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AI agent"
+              },
+              "def": {
+                "en": "An AI system that is given an ongoing goal and can keep working toward it over time, rather than just answering a single question and stopping."
+              }
+            },
+            {
+              "term": {
+                "en": "Enterprise software"
+              },
+              "def": {
+                "en": "Software built and sold specifically for businesses to use in their daily operations, as opposed to apps made for individual consumers."
+              }
+            },
+            {
+              "term": {
+                "en": "Market value (market capitalization)"
+              },
+              "def": {
+                "en": "The total worth of all of a company's shares added together, which rises or falls as investors buy or sell stock based on how they judge the company's future."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should companies let AI agents work independently on tasks for days at a time, rather than requiring a human to review every step?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let them run"
+                  },
+                  "points": {
+                    "en": [
+                      "Reviewing every single AI output defeats the purpose of automation and wastes the time savings it's meant to provide.",
+                      "Humans make unsupervised long-running mistakes too, and the real question is whether AI agents are more or less reliable than a human doing the same job, not whether they're perfect.",
+                      "Businesses can build in checkpoints and audits without needing to supervise every action in real time, capturing most of the benefit with only some of the risk."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep a human closely involved"
+                  },
+                  "points": {
+                    "en": [
+                      "Small errors compound when nobody checks in for days, and by the time a mistake is caught it may have already affected customers, finances, or decisions.",
+                      "AI agents can behave unpredictably in situations their training didn't anticipate, and unsupervised systems have no one positioned to notice until the damage is visible.",
+                      "Handing over ongoing responsibility, rather than single tasks, blurs accountability — when something goes wrong, it becomes unclear whether the fault lies with the company, the AI company, or the software itself."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was the stock market's quick, sizable jump on the day of the announcement a sign of the market correctly recognizing a smart strategic move, or of investors reacting to hype before the product has proven itself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The market got it right"
+                  },
+                  "points": {
+                    "en": [
+                      "Microsoft's existing dominance in business software gives it a real distribution advantage that increases the odds this product succeeds, and investors are pricing that in.",
+                      "Markets constantly price in expectations about the future, not just current results, so reacting to a credible strategic shift is normal and rational.",
+                      "Microsoft has a long track record of successfully embedding new products into tools businesses already use, which is a legitimate reason for confidence."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The market got ahead of itself"
+                  },
+                  "points": {
+                    "en": [
+                      "A product announcement is not evidence the product actually works reliably at scale, and share prices reacting this fast leaves little room for that uncertainty.",
+                      "Stock jumps tied to AI announcements have happened repeatedly across the industry regardless of whether the underlying product later succeeds, suggesting a pattern of hype rather than careful analysis.",
+                      "Billions of dollars in added value appearing within a single day, based on a launch event rather than real-world performance data, is a sign markets sometimes reward announcements more than results."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
