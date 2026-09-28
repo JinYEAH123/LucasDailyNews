@@ -1,0 +1,793 @@
+{
+  "date": "2026-09-28",
+  "window": {
+    "start": "2026-09-27T12:00:00-07:00",
+    "end": "2026-09-28T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-09-28T14:57:00-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump says U.S., Iran slated for indirect talks after he rejects latest proposal",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/09/27/trump-says-us-iran-slated-indirect-talks-despite-his-rejection-offer/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump willing to ease sanctions and unfreeze assets in exchange for Iran nuclear concessions"
+          },
+          "summary": {
+            "en": "Lays out the specific terms Washington is holding out for before any truce, explaining why talks stalled despite Iran's offer."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/28/trump-iran-war-sanctions-blockade-nuclear"
+        },
+        {
+          "title": {
+            "en": "'Better deal': What's behind Trump's rejection of Iran's truce offer?"
+          },
+          "summary": {
+            "en": "A Doha-based outlet's framing of Trump's reasoning — useful for how the region is reading the standoff, though it is state-funded and shouldn't stand alone as the account of events."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/27/better-deal-whats-behind-trumps-rejection-of-irans-truce-offer"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Oil prices spike as Trump rejects Iran truce offer"
+          },
+          "summary": {
+            "en": "Shows the immediate market reaction — a jump of more than 4% in oil futures — as one concrete, measurable consequence of the rejection."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/energy/articles/oil-prices-spike-trump-rejects-034903535.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump Says No to Iran's Peace Offer, and Oil Prices Jump"
+          },
+          "hook": {
+            "en": "Iran offered a seven-day pause in fighting and said it would reopen an important sea passage for ships. President Trump said no. He wants Iran to give up something bigger first: its work on nuclear weapons."
+          },
+          "story": {
+            "en": [
+              "Iran and the United States have been in a tense standoff. Iran offered a deal: stop fighting for seven days and let ships travel again through the Strait of Hormuz, a narrow strip of sea where a huge share of the world's oil is shipped.",
+              "President Trump rejected the offer. He wants Iran to agree to give up its nuclear weapons program before any truce happens. A truce means both sides agree to stop fighting for a while. Reports say Trump told his team he expects fighting to start again after elections in November.",
+              "Iran's foreign minister says his country never actually sent an official rejection through normal government channels, even though Trump said in public that Iran's offer was turned down. So people don't fully agree on what actually happened between the two governments.",
+              "At the same time, police in Britain arrested five people near a British air base that has helped support American strikes on Iran. They are investigating a possible plot connected to the conflict. Oil prices jumped more than 4% right after Trump's rejection, as traders worried that fighting could disrupt oil shipped through that sea passage."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When oil prices jump, it can make gas for cars and trucks more expensive everywhere, even far from Iran. Big disagreements between powerful countries like the US and Iran can also affect whether things stay calm or whether more fighting breaks out, which matters to families living near the conflict and to markets around the world."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow strip of sea between Iran and other countries that many oil ships must pass through to reach the rest of the world."
+              }
+            },
+            {
+              "term": {
+                "en": "truce"
+              },
+              "def": {
+                "en": "An agreement where two sides that are fighting decide to stop for a while."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If someone offers a short pause in a fight but not a full solution, should you take it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take the pause"
+                  },
+                  "points": {
+                    "en": [
+                      "A pause could save lives right away, even if problems aren't fully solved.",
+                      "Talking is easier when nobody is currently fighting.",
+                      "Small steps can sometimes build trust that leads to bigger agreements later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold out for more"
+                  },
+                  "points": {
+                    "en": [
+                      "A short pause might just give the other side time to prepare, not truly end the problem.",
+                      "If the main issue isn't solved, the fighting could simply start again later.",
+                      "Accepting a weak deal might make it harder to get a fair one afterward."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to make plans to fight again later, while still talking about peace now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair to prepare"
+                  },
+                  "points": {
+                    "en": [
+                      "Talks don't always work, so it's sensible to be ready either way.",
+                      "Being prepared can protect people if the other side isn't sincere.",
+                      "Countries have done this throughout history without it meaning they don't want peace."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It undermines trust"
+                  },
+                  "points": {
+                    "en": [
+                      "If one side is already planning to fight, the other side may feel the talks aren't truthful.",
+                      "It can make peace less likely if people believe agreements won't really be kept.",
+                      "It might encourage the other side to also prepare secretly, making things worse."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Rejects Iran's Truce Offer, Says Bombing May Resume After U.S. Midterms"
+          },
+          "hook": {
+            "en": "Iran offered a week-long ceasefire and a reopened shipping route through the Strait of Hormuz in exchange for restarting peace talks. President Trump publicly turned it down, demanding Iran give up parts of its nuclear program first — and according to a Wall Street Journal report, told aides he expects to resume bombing Iran once America's November midterm elections are over. Oil prices jumped more than 4% within hours."
+          },
+          "story": {
+            "en": [
+              "Iran's government put an offer on the table: a seven-day truce, and the reopening of the Strait of Hormuz — a narrow waterway between Iran and the Arabian Peninsula that roughly a fifth of the world's oil shipments pass through every day. In exchange, Iran wanted formal peace talks to restart. Trump said no. His administration is instead insisting that Iran make concessions on its nuclear program before any deal happens at all, meaning talks about a truce and talks about nuclear weapons have been merged into a single, harder demand.",
+              "Mediators working between the two sides — diplomats from other countries trying to broker an agreement — describe the gap as wide, saying the U.S. and Iran remain \"far apart on key issues.\" That's diplomatic language for: neither side is close to something both could sign. It matters because the stakes aren't abstract — the two countries have already exchanged direct military strikes this year, and a failed negotiation track usually means fighting resumes rather than simply pausing.",
+              "That risk got more specific with a Wall Street Journal report, based on unnamed U.S. officials, claiming Trump told his own aides privately that he expects to restart bombing Iran after the midterm elections in November — the votes that will decide control of Congress. Because this reporting rests on anonymous sources relayed through one outlet rather than confirmed independently elsewhere, it should be read as a strong claim about internal thinking, not a confirmed public commitment. Still, if accurate, it suggests military timing is being weighed alongside political timing, which is itself a serious claim about how the decision is being made.",
+              "Adding to the confusion: Iran's foreign minister disputed that any formal rejection was ever communicated through actual diplomatic channels — the official, government-to-government lines used to relay real offers and answers. In other words, Trump said in public that he rejected the offer, but Iran's government says that rejection never arrived through the process that would make it official. That gap between what's said publicly and what's confirmed diplomatically is itself part of the story: two governments can disagree not just about the war, but about what has actually been communicated regarding it.",
+              "Separately, British police arrested five UK nationals near a Royal Air Force base that has supported U.S. strikes on Iran, over an alleged terror plot connected to the wider conflict. The arrests show how a war fought thousands of miles away can still generate security concerns inside countries that are merely assisting one side — bases, supply routes, and personnel become potential targets even far from the front line.",
+              "Markets reacted fast: oil futures — contracts to buy oil at a set future price, watched closely because they reflect what traders expect prices to do — jumped more than 4% once Trump's rejection became public. That's a direct, mechanical response to Hormuz staying closed: less oil moving through a critical route means tighter supply, and tighter supply means higher prices, which shows up at gas pumps and in shipping costs well beyond the Middle East."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The Strait of Hormuz carries a huge share of the world's oil, so tension there can raise fuel prices for families anywhere, not just in the Middle East. And the reported linking of military timing to an election calendar raises a question that outlasts this specific conflict: how should decisions about war be made, and by whose clock?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula that a large share of the world's oil shipments must pass through."
+              }
+            },
+            {
+              "term": {
+                "en": "diplomatic channels"
+              },
+              "def": {
+                "en": "The official, government-to-government lines used to send and confirm real offers between countries, as opposed to public statements or leaks."
+              }
+            },
+            {
+              "term": {
+                "en": "oil futures"
+              },
+              "def": {
+                "en": "Contracts to buy oil at an agreed price on a future date, whose prices rise or fall based on what traders expect will happen to supply and demand."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is the U.S. right to demand nuclear concessions before agreeing to any truce, even if it delays a ceasefire and prolongs the risk of fighting?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Hold firm on nuclear terms first"
+                  },
+                  "points": {
+                    "en": [
+                      "A truce that leaves Iran's nuclear program untouched just resets the clock until the next crisis.",
+                      "Linking the two issues gives the U.S. more leverage than it would have if it agreed to a ceasefire and then had to negotiate the nuclear question separately, with less pressure on Iran.",
+                      "A rushed truce without addressing the underlying nuclear concern could look like strength today and weakness within a year."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Take the truce, negotiate nuclear terms separately"
+                  },
+                  "points": {
+                    "en": [
+                      "A ceasefire stops people dying now, while nuclear talks are inherently slow and uncertain and shouldn't hold that hostage.",
+                      "Combining two hard problems into one deal makes agreement less likely, not more, since either side can block everything by refusing part of it.",
+                      "Rejecting even a temporary truce over Hormuz keeps a route a fifth of global oil shipping depends on unresolved, which has costs for the whole world, not just the two countries negotiating."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it acceptable for political timing, like an election calendar, to factor into decisions about resuming military action?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Political timing is a legitimate factor"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders always operate within political reality, and pretending otherwise doesn't make decisions purer, just less honest about the pressures shaping them.",
+                      "Timing military action around domestic stability, including elections, can reduce the chance of decisions being disrupted by a change in leadership mid-conflict.",
+                      "Every democratic leader factors in public and political support before committing to renewed military action, since sustained conflict needs sustained backing to succeed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "War decisions shouldn't bend to an election calendar"
+                  },
+                  "points": {
+                    "en": [
+                      "Delaying or timing military action around a vote risks treating decisions about life and death as instruments of political strategy rather than responses to actual events on the ground.",
+                      "It can pressure a leader to act (or wait) for reasons that have nothing to do with what's actually happening in the conflict itself.",
+                      "It undermines public trust if citizens suspect that military timing is being shaped by what helps a party win seats, rather than by military or diplomatic necessity."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "CN",
+      "source": {
+        "title": "China and the United States have agreed to cut tariffs imposed on $60 billion worth of goods imported from each other",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/business/consumer/china-us-tariff-cuts-60-billion-trump-xi-rcna600214"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Watch: US, China Release Product List for $30B Tariff Deal"
+          },
+          "summary": {
+            "en": "A short explainer showing what categories of goods made the $30 billion lists on each side, the concrete detail that moved this from framework to implementation."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/videos/2026-09-28/the-china-show-9-28-2026-video"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump's arms-sale offer to China alarms US allies over Taiwan"
+          },
+          "summary": {
+            "en": "Reports on a separate, more contentious idea floated at the same summit — selling U.S. weapons technology to China — and why allies worried about Taiwan's security are pushing back."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/28/trump-us-arms-sale-china-xi-jinping-summit-national-security-threats-taiwan-weapons-package/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The US and China Pick $60 Billion of Goods to Trade Without Extra Taxes"
+          },
+          "hook": {
+            "en": "Last week, the leaders of the United States and China met and agreed to lower some of the extra taxes they charge on goods crossing the border. Now each country has picked an actual list of things worth $30 billion to get this tax break. That is 30 thousand million dollars from each side, about $60 billion total, on stuff that isn't weapons or anything secret."
+          },
+          "story": {
+            "en": [
+              "Countries often charge a tax called a tariff on things bought from other countries. If a toy factory in China sells toys to a store in America, the store might have to pay extra money to the US government just for bringing those toys across the border.",
+              "Last week, the leader of the US, Donald Trump, and the leader of China, Xi Jinping, met and agreed in general to lower some tariffs. That was just a plan. This week, both countries got specific. A US trade official named Jamieson Greer announced the actual list: $30 billion worth of goods from each side, things both governments agree are 'non-sensitive' — ordinary products, not anything dangerous or secretive.",
+              "This matters because a plan and a real list are different things. Anyone can agree to be nicer. Naming exact goods and exact dollar amounts is the part that actually changes what people pay at the store.",
+              "At the same meeting, Trump also floated a very different idea: selling weapons to China. Some US allies, especially countries near Taiwan, got nervous about that idea. They worry it could shift the balance of military power in that part of the world. That part hasn't happened yet — it was just talked about."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've ever gotten a toy, a phone case, or clothes made in China, tariffs are part of why they cost what they do. When a tariff drops, the store sometimes pays less, and sometimes that saving reaches you as a lower price. It's one reason the same sneakers can cost different amounts depending on what two governments decided about taxes."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "tariff"
+              },
+              "def": {
+                "en": "A tariff is an extra tax a government charges on goods coming in from another country, which usually makes those goods cost more."
+              }
+            },
+            {
+              "term": {
+                "en": "ally"
+              },
+              "def": {
+                "en": "An ally is a country that works closely with another country, often helping it and trusting it during disagreements or danger."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for just two huge countries to decide together which goods get a tax break, even though the decision changes prices for people all over the world who didn't get a vote?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Each country only controls taxes on its own border, so it makes sense they decide together.",
+                      "Every country makes deals that affect outsiders sometimes, and that's normal in trade.",
+                      "Lower tariffs between these two countries could make goods cheaper everywhere, which helps other people too."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Millions of shoppers and small businesses in other countries are affected but had no say at all.",
+                      "Two very powerful countries making deals together can squeeze out smaller countries trying to compete.",
+                      "Decisions this big, about money everyone uses, should maybe involve more voices than just two governments."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it a good idea for the US to even suggest selling weapons to China, when it might worry friends who are nervous about Taiwan?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It could be good"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking about weapons sales, even as an idea, might build more trust between two countries that don't fully trust each other.",
+                      "If two powerful countries feel less threatened by each other, there might be less chance of a serious conflict.",
+                      "Just floating an idea isn't the same as doing it, so no harm is done yet."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It could be bad"
+                  },
+                  "points": {
+                    "en": [
+                      "Allies who depend on the US for protection might feel less safe if the US seems to be helping China's military.",
+                      "Even talking about it could change how much other countries trust future US promises to protect them.",
+                      "Once an idea like this is said out loud, it's hard to fully take back, even if it never happens."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US and China Pick Their First $60 Billion in Tariff Cuts — and Allies Eye a Different Deal Nervously"
+          },
+          "hook": {
+            "en": "A week after Presidents Trump and Xi struck a broad deal to ease their trade war, both governments have gotten specific: each side has named a list of goods worth $30 billion that it will exempt from tariffs, adding up to $60 billion in trade that will get cheaper to move across the Pacific. But a separate idea floated at the same summit — letting the U.S. sell weapons to China — has some American allies far more worried than the tariff news has anyone celebrating."
+          },
+          "story": {
+            "en": [
+              "For most of the past few years, the U.S. and China have been taxing each other's goods heavily — tariffs, which are essentially a toll a government charges on imports, making them more expensive for the people buying them. Trump and Xi's summit last week produced a general agreement to bring some of those tariffs down, but a general agreement is just a promise; it doesn't say which products actually get cheaper or by how much. This week's announcement, made through a statement from U.S. Trade Representative Jamieson Greer, is the part that turns the promise into something real: each government has picked out $30 billion worth of goods it considers 'non-sensitive' and proposed cutting tariffs on them.",
+              "The U.S. Trade Representative is the government office that negotiates trade deals and tariff policy on behalf of the United States, so a statement from its head carries real weight — this isn't a rumor or a leak, it's the closest thing to an official record of what was actually agreed. Calling goods 'non-sensitive' means they're judged unlikely to matter for national security or give either country a strategic edge — think consumer products rather than advanced computer chips or military technology. Neither government has publicly disputed the list, though neither has spelled out in detail exactly which products qualify, so the full picture of what's covered is still coming into focus.",
+              "The bigger surprise from the summit wasn't the tariffs — it was a separate idea Trump reportedly raised: selling weapons to China. According to a Fortune report, this has unsettled some U.S. allies in Asia, because arms sales aren't just business transactions. Weapons and military technology shift what's called the balance of power — the rough sense of who could win a conflict if one broke out — and in this region, the most sensitive question is Taiwan, the self-governing island that China claims as its own territory and has not ruled out taking by force.",
+              "The concern from allied officials isn't that China would use American-made weapons against Taiwan tomorrow. It's that any move which strengthens China's military, even modestly, changes the calculation everyone in the region has been making for decades: that the cost of a Chinese invasion of Taiwan would be too high given the current gap in military capability. If that gap narrows, some worry it becomes more thinkable, not less.",
+              "What's notable is how differently these two threads have landed. The tariff list, though it's the more concrete and immediately consequential change, has drawn little public objection from either side. The arms sale proposal, which is still just an idea rather than a signed deal, has generated far more anxiety — a reminder that in U.S.-China relations, money and security are treated as fundamentally different kinds of risk."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've bought anything made partly in China — electronics, clothes, toys — tariffs are part of why prices moved the way they did over the past few years, so a $60 billion tariff cut could show up in store prices eventually. The arms sale story matters differently: it's a reminder that trade deals and military decisions don't stay in separate boxes, and a choice made to smooth over one relationship can unsettle a completely different set of countries watching how power shifts around them."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tax a government charges on goods coming in from another country, usually making those goods more expensive for buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "U.S. Trade Representative (USTR)"
+              },
+              "def": {
+                "en": "The U.S. government office that negotiates trade agreements and tariff policy with other countries."
+              }
+            },
+            {
+              "term": {
+                "en": "Balance of power"
+              },
+              "def": {
+                "en": "The rough sense of which country or side would have the advantage if a conflict happened, based on military and economic strength."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. consider selling weapons to China as part of easing overall tensions between the two countries?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, engagement reduces risk"
+                  },
+                  "points": {
+                    "en": [
+                      "Deeper economic and even military ties can make both countries less likely to want conflict, since they'd have more to lose.",
+                      "Refusing all cooperation with China doesn't stop it from building weapons anyway — it may just build them without any U.S. involvement or insight into what it's doing.",
+                      "A relationship built only on suspicion and restriction can spiral into worse hostility than one where both sides have some incentive to cooperate."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shifts the military balance dangerously"
+                  },
+                  "points": {
+                    "en": [
+                      "Any technology or capability transferred to China's military could be used specifically regarding Taiwan, where the current imbalance is what keeps the peace.",
+                      "U.S. allies in the region have built their own defense planning around America's commitments, and this move could make them question whether the U.S. is a reliable partner.",
+                      "Trade and security are different kinds of risk, and treating a weapons deal like a tariff negotiation blurs a line that exists for good reason."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is releasing a specific $60 billion tariff-cut list before either government has fully defined 'non-sensitive' goods a responsible way to de-escalate, or too vague to trust?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a responsible, workable first step"
+                  },
+                  "points": {
+                    "en": [
+                      "Trade negotiations are always incremental — starting with goods everyone agrees are low-risk builds trust for tackling harder categories later.",
+                      "Announcing real dollar figures and an official USTR statement is a meaningful commitment, not just talk, compared to the vaguer framework agreement from the summit.",
+                      "Businesses on both sides get immediate, usable relief now rather than waiting for a perfect, fully detailed agreement that could take years."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's too vague to count as real progress yet"
+                  },
+                  "points": {
+                    "en": [
+                      "Without a public, detailed list of exactly what counts as 'non-sensitive,' companies and consumers can't be sure what's actually changing or when.",
+                      "Leaving the definition loose gives both governments room to quietly narrow or expand the deal later without public accountability.",
+                      "A headline number like $60 billion sounds decisive but may mask how much of the underlying trade conflict — including the sensitive, high-tech goods — remains completely unresolved."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "SpaceX to Stage First-Ever Starship Flight to Orbit in Key Test",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-28/spacex-to-stage-first-ever-starship-flight-to-orbit-in-key-test"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Starship made it to orbit and safely deployed 26 Starlink V3 satellites"
+          },
+          "summary": {
+            "en": "A live-updated account of the flight from launch through orbital insertion and satellite deployment, with details on the engine failure during ascent."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/28/science/live-news/spacex-starship-flight-14-launch"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "SpaceX's Starship rocket reaches orbit on first orbital launch attempt"
+          },
+          "summary": {
+            "en": "A wire-service account confirming the orbital achievement and situating it against SpaceX's thirteen prior suborbital test flights."
+          },
+          "publisher": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/28/spacex-starship-starlink-launch-reaches-orbit/9971790604345/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Giant Rocket Finally Makes It All the Way Into Space"
+          },
+          "hook": {
+            "en": "A huge rocket called Starship flew all the way around Earth for the first time ever. It dropped off 26 small satellites along the way, doing its main job perfectly. But partway through the flight, one of its engines broke, so the company running it had to end the mission earlier than planned."
+          },
+          "story": {
+            "en": [
+              "Starship is a giant rocket built by SpaceX, a private company. This was its 14th test flight. The first 13 flights never made it all the way around Earth. Some blew up. Some just went partway up and came back down.",
+              "This time was different. Starship carried 26 small satellites called Starlink satellites, which beam internet down to people on the ground. The rocket released every single one into orbit, the path something takes when it circles around a planet, the same way the Moon circles Earth.",
+              "Something still went wrong. One of the rocket's engines failed while it was climbing. SpaceX had to cut the flight short instead of letting it finish its full plan.",
+              "Even so, Starship had already done its most important job. It delivered real, working satellites all the way to orbit for the first time. That matters because SpaceX wants Starship to one day carry astronauts to the Moon and beyond."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Right now, only one company on Earth is building rockets this big that fly to orbit and come back to be used again. If Starship keeps getting better, it could carry the astronauts who walk on the Moon next, as part of NASA's plan to send people back there."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "orbit"
+              },
+              "def": {
+                "en": "The path a satellite or spacecraft takes as it circles around a planet, like the Moon circling Earth."
+              }
+            },
+            {
+              "term": {
+                "en": "satellite"
+              },
+              "def": {
+                "en": "A machine sent into orbit around Earth to do a job, like sending internet signals down to people on the ground."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a private company, rather than a government, be the one running huge space missions like this?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Companies should lead"
+                  },
+                  "points": {
+                    "en": [
+                      "A company can try new things fast without waiting for lots of approval.",
+                      "Competition between companies pushes rockets to improve quicker.",
+                      "A company spends its own money instead of money everyone pays in taxes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Governments should lead"
+                  },
+                  "points": {
+                    "en": [
+                      "Space affects everyone, so decisions about it should be made by people we all vote for.",
+                      "Government space agencies must follow strict safety rules that protect the public.",
+                      "A company's main goal is to earn money, which might not always match what's best for everyone."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was this flight really a success, even though one engine broke and the mission was cut short?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was a success"
+                  },
+                  "points": {
+                    "en": [
+                      "The rocket did its most important job, delivering all 26 satellites safely to orbit.",
+                      "Reaching orbit for the first time is a huge achievement, no matter what else happened.",
+                      "Test flights are meant to find problems, and finding this one will help fix future rockets."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it wasn't a full success"
+                  },
+                  "points": {
+                    "en": [
+                      "An engine breaking during flight is a serious problem that could have been dangerous.",
+                      "The mission had to stop early, so it didn't do everything it was supposed to do.",
+                      "Calling it a full success might hide a problem that needs fixing before people ever fly on it."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "SpaceX's Giant Rocket Finally Makes It to Orbit"
+          },
+          "hook": {
+            "en": "On its 14th test flight, SpaceX's Starship — the largest rocket ever built — reached Earth orbit for the first time. It released all 26 satellites it was carrying before an engine problem forced the company to end the mission early."
+          },
+          "story": {
+            "en": [
+              "Starship is a rocket the height of a 40-storey building, and until this flight, it had never actually made it into orbit. Thirteen earlier test flights either fell short of orbit on purpose (called suborbital flights) or ended when the rocket broke apart, tumbled out of control, or had to be deliberately destroyed mid-flight. This 14th flight changed that: Starship climbed high enough and fast enough to circle the Earth, which is a fundamentally different and harder achievement than just going up and coming back down.",
+              "Reaching orbit matters because it means a rocket has enough speed and control to stay above the atmosphere rather than falling back immediately, the way a ball falls back after being thrown into the air. To get there, Starship needed all of its engines firing correctly for the full ascent. They didn't. One engine failed partway up, and SpaceX's flight controllers decided to cut the mission short rather than risk losing the whole vehicle or its cargo.",
+              "Despite that failure, the rocket's main job got done: it deployed all 26 Starlink V3 satellites it was carrying, part of SpaceX's ever-expanding network of satellites that beam internet access down to Earth. This is the detail engineers are most excited about, because it means Starship isn't just capable of reaching orbit — it can now actually deliver something useful once it's there. A rocket that can get to space but not drop off cargo along the way is a much less useful machine.",
+              "This flight sits inside a much bigger plan. NASA, the U.S. government's space agency, has committed to using a modified version of Starship to land astronauts on the Moon as part of its Artemis program, the successor to the Apollo missions of the 1960s and 70s. For that plan to work, Starship needs to prove it can reliably reach orbit, refuel while in space (a technique never done at this scale before), and eventually carry people safely. Wednesday's flight is one step in a long chain of steps still ahead.",
+              "What makes this different from the space race of the Cold War is who's doing it. Starship isn't a government program built and owned by NASA — it's built, owned, and operated by SpaceX, a private company controlled by Elon Musk. No government space agency anywhere, including NASA itself, is currently attempting anything at this scale of rocket or this pace of repeated test flights. That arrangement is itself part of what people are watching closely: a private company is now the one setting the pace for how humans might return to the Moon."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The satellites Starship just delivered are part of a growing network that already provides internet to remote areas, ships at sea, and disaster zones where regular internet doesn't reach — infrastructure many people already depend on without realizing it. If Starship keeps improving, it could sharply lower the cost of getting things into space, the same way cheaper shipping containers once reshaped global trade, changing what's possible for scientific missions, satellite internet, and eventually crewed trips beyond Earth."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Orbit / suborbital"
+              },
+              "def": {
+                "en": "Reaching orbit means going fast and high enough to circle the Earth continuously, like a ball thrown so hard it keeps missing the ground; a suborbital flight goes up into space briefly but then falls back down."
+              }
+            },
+            {
+              "term": {
+                "en": "Payload"
+              },
+              "def": {
+                "en": "The payload is whatever a rocket is actually carrying to deliver — in this case, 26 Starlink internet satellites."
+              }
+            },
+            {
+              "term": {
+                "en": "Starlink"
+              },
+              "def": {
+                "en": "Starlink is SpaceX's network of thousands of satellites working together to provide internet access to places on Earth that regular internet cables don't reach."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a single private company be trusted to lead something as important as returning humans to the Moon?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, private companies should lead"
+                  },
+                  "points": {
+                    "en": [
+                      "Private companies like SpaceX have moved faster and cheaper than government-run space programs did for decades.",
+                      "Competition and profit motive push companies to solve problems and iterate quickly rather than get stuck in political budget cycles.",
+                      "Governments can still set the rules and requirements while benefiting from private innovation, as NASA is doing with its Artemis contracts."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this concentrates too much power and risk"
+                  },
+                  "points": {
+                    "en": [
+                      "Critical infrastructure like Moon missions and satellite networks probably shouldn't depend on the decisions of one company or one person.",
+                      "Private companies answer to shareholders and owners, not voters, which raises questions about accountability when something goes wrong.",
+                      "If SpaceX becomes irreplaceable for national space goals, the government loses leverage and independence over its own priorities."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it acceptable to keep blowing up expensive rockets as a way of testing, when the eventual goal is carrying human passengers?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, rapid failure-based testing is the right approach"
+                  },
+                  "points": {
+                    "en": [
+                      "Learning from real failures in unmanned test flights is safer and faster than trying to predict every problem on paper first.",
+                      "No human lives are at risk during these early test flights, so failures now prevent worse failures later when astronauts are aboard.",
+                      "This approach has already produced dramatic improvement in just 14 flights, suggesting it's working."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this pace of failure raises real safety concerns"
+                  },
+                  "points": {
+                    "en": [
+                      "A track record of frequent failures, even in testing, could reflect deeper reliability problems that matter enormously once humans are involved.",
+                      "Rushing toward ambitious deadlines like Artemis could pressure engineers to accept risks they wouldn't otherwise take.",
+                      "Government agencies typically follow slower, more cautious review processes for good reason when human safety is eventually at stake."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
