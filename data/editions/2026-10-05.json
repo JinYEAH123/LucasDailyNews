@@ -1,0 +1,737 @@
+{
+  "date": "2026-10-05",
+  "window": {
+    "start": "2026-10-04T12:00:00-07:00",
+    "end": "2026-10-05T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-05T15:35:46-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "science",
+      "region": "GLOBAL",
+      "source": {
+        "title": "2026 Nobel Prize in Physiology or Medicine Awarded to Karl Deisseroth, George Nagel and Peter Hegemann for Work on Optogenetics",
+        "publisher": "Scientific American",
+        "url": "https://www.scientificamerican.com/article/2026-nobel-prize-in-physiology-or-medicine-awarded-to-karl-deisseroth-george-nagel-and-peter-hegemann-for-work-on-optogenetics/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nobel Prize in medicine honours optogenetics pioneers"
+          },
+          "summary": {
+            "en": "CBC's account adds detail on how the Swedish Nobel committee described the award and situates it among past medicine prizes. Useful for readers who want the official citation language rather than a single outlet's framing."
+          },
+          "publisher": "CBC News",
+          "url": "https://www.cbc.ca/news/world/nobel-prize-sweden-medicine-physiology-9.7366536"
+        },
+        {
+          "title": {
+            "en": "Nobel medicine prize honours US and German scientists for optogenetics work"
+          },
+          "summary": {
+            "en": "Al Jazeera's report gives an international vantage point on the award and briefly traces the scientists' separate research paths before they converged on optogenetics. Good for readers wanting a non-US framing of the same facts."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/5/nobel-medicine-prize-honours-us-and-german-scientists-for-optogenetics-work"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Three Scientists Win Nobel Prize for Turning Brain Cells On and Off With Light"
+          },
+          "hook": {
+            "en": "Three scientists just won the world's biggest science prize for figuring out how to control tiny brain cells using beams of light. They borrowed a trick from pond algae to do it. Their work now helps doctors understand diseases like Parkinson's and epilepsy."
+          },
+          "story": {
+            "en": [
+              "Some tiny algae that live in ponds have a special trick. They have proteins in them that react to light, kind of like how your eyes react to light, except these proteins can switch a cell on or off.",
+              "Two scientists named Georg Nagel and Peter Hegemann found these light-sensitive proteins in algae. Another scientist, Karl Deisseroth, figured out how to put these proteins into brain cells of animals being studied in labs.",
+              "Once the proteins were inside, scientists could shine a light on a single brain cell and switch it on, almost like flipping a light switch for one bulb in a huge house full of lights. This let them find out exactly which brain cells cause which actions or feelings, something nobody could do precisely before.",
+              "This method is now used in science labs all over the world. It has helped scientists understand brain diseases better, and some researchers hope it could one day help blind people see again by controlling cells in the eye with light."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Your brain has billions of tiny cells that control everything you do, from wiggling your toes to remembering your best friend's birthday. This discovery gives scientists a way to find out exactly which brain cells do which job, which could someday help treat diseases that affect people you might know. It shows how a strange fact about pond algae turned into a tool that helps human health."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "optogenetics"
+              },
+              "def": {
+                "en": "A lab method where scientists use light to turn specific brain cells on or off."
+              }
+            },
+            {
+              "term": {
+                "en": "neuron"
+              },
+              "def": {
+                "en": "A single brain cell that sends messages to other cells, like a tiny wire carrying signals."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it okay for scientists to experiment on animals' brains to learn things that might help humans?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Studying animal brains has led to real treatments that help sick people live better lives.",
+                      "Scientists follow rules meant to keep the animals from suffering too much.",
+                      "Many diseases can only be understood by watching how a living brain actually works, not just by reading about it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair to the animals"
+                  },
+                  "points": {
+                    "en": [
+                      "The animals never chose to be part of an experiment and can't say no.",
+                      "Putting something into an animal's brain could cause pain or confusion we can't fully know about.",
+                      "Some discoveries might be possible through other methods that don't involve animals at all."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should scientists keep researching a discovery like this even if it takes many years before it helps any actual patients?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep researching"
+                  },
+                  "points": {
+                    "en": [
+                      "Many great medical treatments took decades of patient research before they worked.",
+                      "Understanding how something works is valuable on its own, even before a cure exists.",
+                      "Rushing to create a treatment too fast could make it unsafe for real patients."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, focus on things that help people sooner"
+                  },
+                  "points": {
+                    "en": [
+                      "Money and time spent on far-off research could instead help people who are sick right now.",
+                      "Some discoveries never turn into treatments at all, no matter how long people wait.",
+                      "Patients and families dealing with diseases today need help now, not in thirty years."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nobel Prize Honours the Scientists Who Taught Us to Switch Brain Cells On and Off With Light"
+          },
+          "hook": {
+            "en": "On Monday, the Nobel Prize in Physiology or Medicine went to three scientists — Karl Deisseroth in the US, and Georg Nagel and Peter Hegemann in Germany — for inventing a technique called optogenetics. It lets researchers switch individual brain cells on or off using beams of light, something that sounds like science fiction but is now a routine tool in neuroscience labs worldwide."
+          },
+          "story": {
+            "en": [
+              "Every October, Sweden's Karolinska Institute, a medical university that has decided the Nobel Prize in Physiology or Medicine since it began in 1901, announces who has most changed how we understand the human body. This year's winners earned it for something that started as a curiosity about pond algae and ended up reshaping how scientists study the brain.",
+              "The discovery traces back to proteins found in light-sensitive algae — proteins that physically change shape when hit by light, acting like tiny switches. Nagel and Hegemann identified these proteins and worked out how they functioned. On their own, they were a biological curiosity: useful for explaining how algae swim toward sunlight, not obviously useful for anything else.",
+              "Deisseroth's contribution was turning that curiosity into a tool. He found ways to insert the genetic instructions for these light-sensitive proteins into specific neurons — the cells that carry electrical signals through the brain and nervous system — so that shining a light on them would switch those exact cells on or off, instantly and reversibly. Before this, researchers studying the brain had to rely on blunter methods: removing tissue, using drugs that spread broadly, or inserting electrodes that disturb the area around them. Optogenetics let them isolate single types of neuron and ask, directly, what happens to behaviour when just those cells fire.",
+              "That precision has driven a wave of findings. Researchers have used the technique to trace which brain circuits produce specific behaviours in animals, to better understand what goes wrong in Parkinson's disease (a condition where certain brain cells that control movement gradually stop working) and in epilepsy (where clusters of neurons misfire together, causing seizures). It is also being tested as a possible way to partially restore vision in people with certain forms of blindness, by making remaining retinal cells light-sensitive again.",
+              "None of this year's prize involves scientific controversy — the three scientists' roles in the discovery are well documented and not disputed among researchers. The genuine debate, voiced regularly in science commentary, is about pace: optogenetics has transformed laboratory research in animals, but turning it into an approved treatment doctors can prescribe to patients is a much longer and less certain road, and nobody can say with confidence how many years that will take."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This isn't a treatment you or your family will get next year, but it's the kind of discovery that eventually becomes one — many current medicines started as a strange lab finding decades before anyone could use them in a hospital. It also shows how prizes like the Nobel often reward the tool that made other breakthroughs possible, rather than a single dramatic cure."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Optogenetics"
+              },
+              "def": {
+                "en": "A technique where scientists insert light-sensitive proteins into specific cells so they can turn those cells on or off using light."
+              }
+            },
+            {
+              "term": {
+                "en": "Neuron"
+              },
+              "def": {
+                "en": "A nerve cell that sends electrical signals through the brain and body, forming the basic unit of the nervous system."
+              }
+            },
+            {
+              "term": {
+                "en": "Karolinska Institute"
+              },
+              "def": {
+                "en": "A Swedish medical university whose assembly of professors chooses the winner of the Nobel Prize in Physiology or Medicine each year."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should major science prizes reward foundational lab tools like this one, even before they've cured a single patient, or should they wait until a discovery has clearly helped real people?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Reward it now"
+                  },
+                  "points": {
+                    "en": [
+                      "Tools like optogenetics make hundreds of later discoveries possible, so the credit belongs at the source.",
+                      "The Nobel Prize cannot be given after a scientist has died, so waiting decades for proven treatments risks honouring no one at all.",
+                      "Basic research deserves recognition on its own terms, since demanding instant real-world payoff discourages exactly the curiosity-driven science that leads to breakthroughs."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for proof"
+                  },
+                  "points": {
+                    "en": [
+                      "Many promising lab techniques never make it into an approved treatment, so celebrating them early can overstate what's actually been achieved.",
+                      "Prizes shape what young scientists choose to work on, and rewarding tools over outcomes might push research away from finishing the job of helping patients.",
+                      "The public reasonably expects medicine's top prize to reflect care that's changed someone's life, not just excited lab reports."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is the ability to precisely switch specific brain cells on and off something we should pursue as fast as possible, or something that calls for real caution?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pursue it fully"
+                  },
+                  "points": {
+                    "en": [
+                      "Diseases like Parkinson's and epilepsy cause enormous, ongoing suffering, and slowing down research prolongs that suffering for no clear benefit.",
+                      "The technique so far works mainly in animal studies and tightly controlled lab settings, so fears about misuse in humans are premature.",
+                      "Nearly every powerful medical tool — anesthesia, gene editing, vaccines — triggered similar worry before becoming an accepted, lifesaving part of medicine."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Proceed carefully"
+                  },
+                  "points": {
+                    "en": [
+                      "Directly controlling which brain cells fire touches something more sensitive than other medical tools: the physical basis of thought and behaviour itself.",
+                      "Effects seen in animal experiments don't always transfer safely or predictably to the much more complex human brain.",
+                      "Powerful new ways to intervene in the brain deserve strong ethical oversight built in early, rather than added after the technology is already widespread."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "New Supreme Court term begins with climate change case seeking to hold energy companies liable",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/politics/supreme-court/new-supreme-court-term-begins-climate-change-case-seeking-hold-energy-rcna600247"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Small Mountain Town Asks Big Oil Companies to Pay for Climate Change"
+          },
+          "hook": {
+            "en": "The town of Boulder, Colorado is suing two giant oil companies, ExxonMobil and Suncor Energy. Boulder says the companies's oil and gas caused climate change, and that fixing the damage costs money. The case has gone all the way to the U.S. Supreme Court, the highest court in the country, where nine judges just started arguing about it."
+          },
+          "story": {
+            "en": [
+              "Boulder is a city at the bottom of tall mountains in Colorado. As the world gets hotter, those mountains have less snow, and nearby forests catch fire more easily. Boulder says it has already spent a lot of money dealing with these problems, like fighting fires and fixing roads after floods.",
+              "Boulder wants ExxonMobil and Suncor, two huge oil companies, to help pay those costs. The city says the oil these companies sold for decades is part of why the planet is warming.",
+              "The oil companies say this isn't fair. They argue that climate change is a problem for the whole country to solve with one set of rules, not something a single city can decide in its own courtroom. They warn that if Boulder wins, they could owe billions of dollars — and so could other companies, in dozens of similar lawsuits waiting across the country.",
+              "The Supreme Court isn't deciding if climate change is real this time. They're only deciding something narrower: can a city even bring this kind of lawsuit in a state court? Whatever they decide will affect more than two dozen similar cases waiting for an answer."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If the Supreme Court says yes, cities and towns everywhere could start suing energy companies for climate damage, like floods, fires, and heat waves. If they say no, those lawsuits mostly disappear, and any changes to energy and climate rules would have to come from Congress instead. Either way, it could shape how America deals with a warming planet for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Supreme Court"
+              },
+              "def": {
+                "en": "The highest court in the United States, where nine judges make final decisions on the biggest legal questions."
+              }
+            },
+            {
+              "term": {
+                "en": "Damages"
+              },
+              "def": {
+                "en": "Money a court orders one side to pay another side to make up for harm they caused."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should one city be allowed to sue a company for a problem, like climate change, that affects the whole world?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let them sue"
+                  },
+                  "points": {
+                    "en": [
+                      "If a company's products caused real damage to a town, the town should be able to ask for help paying to fix it.",
+                      "Waiting for the whole country to agree on a solution could take forever, and towns are suffering now.",
+                      "Courts settle disagreements between two sides all the time, even about big complicated problems."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this isn't the right way"
+                  },
+                  "points": {
+                    "en": [
+                      "Climate change is caused by millions of people and companies everywhere, not just two oil companies in one lawsuit.",
+                      "If every city sues separately, companies could face wildly different rulings in every state, which is confusing and unfair.",
+                      "Big problems like this should be solved by laws made for the whole country, not by individual court cases."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to blame today's oil companies for climate change caused by decades of fuel use by everyone, including regular drivers?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, hold them responsible"
+                  },
+                  "points": {
+                    "en": [
+                      "The companies knew their products caused harm and kept selling them anyway for profit.",
+                      "Someone has to pay for the damage, and the companies that made the oil have more money than any single town.",
+                      "Making companies pay could push them to invest in cleaner energy faster."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "People chose to buy and use oil and gas for cars, heating, and electricity — the companies didn't force anyone.",
+                      "Governments allowed and even encouraged oil use for a very long time, so blame isn't only on the companies.",
+                      "Punishing one industry financially doesn't fix a problem that everyone, including regular families, contributed to."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The Supreme Court Just Heard a Case That Could Decide Whether Oil Companies Pay for Climate Damage"
+          },
+          "hook": {
+            "en": "Boulder, Colorado, wants ExxonMobil and Suncor to pay for the costs of climate change the city says their products caused. The Supreme Court isn't deciding if climate change is real — it's deciding something narrower but just as consequential: whether lawsuits like this can even be heard in state court. More than two dozen similar cases across the country are waiting on the answer."
+          },
+          "story": {
+            "en": [
+              "Boulder's lawsuit makes a simple claim: oil companies knew for decades that burning fossil fuels warms the planet, kept selling the product anyway, and the city has had to spend real money dealing with the consequences — wildfire prevention, heat emergency plans, infrastructure built to handle more extreme weather. Boulder wants ExxonMobil and Suncor Energy to help cover those costs, the same way a court might order a company to pay for damage caused by a product it sold while hiding known risks.",
+              "The oil companies' defense isn't that climate change isn't happening. It's that this kind of claim doesn't belong in a state courtroom at all. Their argument is that greenhouse gas emissions cross state and national borders, so regulating them is inherently a job for the federal government and international agreements — not something a single city's lawsuit in Colorado should be able to control by threatening a Texas-based company with a massive bill. If every city and state could sue separately over the same global problem, the companies argue, the result wouldn't be fair or consistent; it would be chaos, with different courts reaching different verdicts about the same emissions.",
+              "This is why the case matters so much beyond Boulder. More than two dozen other cities and counties have filed nearly identical lawsuits, and all of them are on hold, waiting to see what the Supreme Court decides. If the justices let Boulder's case go forward, that likely opens the floodgates: those other lawsuits proceed, and energy companies could face damages verdicts running into the billions of dollars across multiple jurisdictions. If the justices side with the oil companies, it likely closes the door on this entire legal strategy — not just for Boulder, but for nearly every city attempting the same approach.",
+              "It's worth being precise about what's actually being argued in front of the justices, because it isn't what it might look like from the headlines. The Court is not weighing in on whether climate change is real or whether it's caused by human activity — both sides in this case accept the basic science. The dispute is a narrower, more technical legal question: can a damages lawsuit like this be heard in state court, or does it belong exclusively in federal court, or nowhere at all because it's really a matter for Congress and regulatory agencies to decide? Lower courts around the country have disagreed on this exact question, which is part of why the Supreme Court agreed to take the case.",
+              "A ruling isn't expected immediately. The Supreme Court's term runs into next summer, and a decision of this size — one that could reshape how climate liability works across the entire country — will likely take months of deliberation. Until then, Boulder's case and the dozens like it stay frozen in place."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This case will likely determine whether local governments can use lawsuits to make oil companies pay for climate-related costs, or whether that fight has to happen entirely through national laws and elections instead. Whatever the Supreme Court decides will shape who pays for the costs of a warming planet — companies, taxpayers, or some mix of both — for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "oral arguments"
+              },
+              "def": {
+                "en": "The part of a court case where lawyers from each side speak directly to the judges and answer their questions before a ruling is made."
+              }
+            },
+            {
+              "term": {
+                "en": "damages"
+              },
+              "def": {
+                "en": "Money a court orders one party to pay another to cover the cost or harm they caused."
+              }
+            },
+            {
+              "term": {
+                "en": "federal matter"
+              },
+              "def": {
+                "en": "An issue the oil companies argue should be decided by national government and courts, not by individual states or cities acting separately."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should oil companies be financially responsible for climate damage caused by a product they sold legally for decades?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, hold them responsible"
+                  },
+                  "points": {
+                    "en": [
+                      "Internal company documents from decades ago show some oil companies understood the climate risks of their product early and funded efforts to downplay them publicly.",
+                      "Cities and taxpayers are already paying the costs of climate adaptation, while the companies that profited from fossil fuels have not contributed to those specific costs.",
+                      "Courts regularly hold companies liable for harms caused by products they sold legally once it's shown they knew about serious risks and didn't disclose them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this isn't how to assign responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Fossil fuels were legal, regulated, and used by everyone, including the governments now suing — millions of people and institutions benefited from and demanded the product.",
+                      "Climate change results from the combined emissions of billions of people and countless companies worldwide, making it hard to fairly isolate what share of the damage any one company caused.",
+                      "If liability can attach retroactively to legal products once their risks become better understood later, it creates enormous uncertainty for any industry making products whose long-term effects aren't fully known yet."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should questions about who pays for climate change be decided through local lawsuits, or only through national laws passed by Congress?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Lawsuits should be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "Congress has been slow to pass major climate legislation, so lawsuits give affected communities a way to seek accountability without waiting indefinitely for national political action.",
+                      "Local governments are the ones actually paying the bills for climate-related damage, so they have a direct stake and arguably a right to seek compensation through their own courts.",
+                      "The legal system has a long history of letting damages claims proceed even on issues with national scope, like tobacco and opioid litigation, without needing Congress to act first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "This should go through national policy, not courts"
+                  },
+                  "points": {
+                    "en": [
+                      "Climate change is a global, cross-border problem, and letting thousands of individual courts rule differently on the same question creates inconsistency and legal chaos for companies operating nationwide.",
+                      "Major policy decisions with huge economic consequences are supposed to be made by elected lawmakers accountable to voters, not by judges deciding individual lawsuits.",
+                      "If every city can sue separately over the same global emissions, the same conduct could be punished many times over in many different courtrooms, which isn't how a fair legal system is meant to work."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "US jobs report: September payrolls, unemployment and revisions",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/10/02/economy/us-jobs-report-september-final"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America Added Far Fewer Jobs Than Expected Last Month"
+          },
+          "hook": {
+            "en": "In September, the United States added only 29,000 new jobs. Experts had guessed about 90,000 jobs would be added. The share of people without jobs who want one went up too, from 4.1% to 4.2%. This was the last big jobs report before an important election, so people are arguing about what it means."
+          },
+          "story": {
+            "en": [
+              "Imagine your teacher expected 90 new kids to join your school this year, but only 29 showed up. That is roughly what happened with jobs in America last month. Economists guessed about 90,000 new jobs would appear. Only 29,000 did.",
+              "At the same time, the unemployment rate ticked up. That is the share of people who want a job but do not have one. It went from 4.1% to 4.2%, a small but noticeable rise.",
+              "There was more surprising news. Back in July, the government first said a small number of jobs were added. Now, after checking again, they say about 10,000 jobs were actually lost that month. So the job market has been weaker for longer than anyone first thought.",
+              "This matters because a group called the Federal Reserve watches numbers like these closely. They decide how expensive it is to borrow money, like for a car or a house. Weak job numbers might push them to make borrowing cheaper, which could ripple through the whole economy."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If fewer jobs are being created, it can be harder for people, maybe someone in your own family, to find work or get a raise. It can also change how expensive it is to borrow money for things like a car, which affects many families' budgets."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "unemployment rate"
+              },
+              "def": {
+                "en": "The percentage of people who want a job but don't have one."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "A group in the U.S. government that decides how cheap or expensive it is to borrow money."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "The government first said July had some new jobs, but later admitted jobs were actually lost. Should people trust the newest numbers now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, trust them"
+                  },
+                  "points": {
+                    "en": [
+                      "They were honest enough to admit the first count was wrong.",
+                      "Checking and fixing mistakes is how you get closer to the truth.",
+                      "Every big count, like counting all the stars, can have small errors at first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, be careful"
+                  },
+                  "points": {
+                    "en": [
+                      "If they were wrong once, the new numbers could be wrong too.",
+                      "It's hard to make big decisions, like about jobs or money, if numbers keep changing.",
+                      "People might lose trust in reports that flip-flop."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for political parties to use the same jobs numbers to make opposite arguments about who is doing a good job?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Numbers can be looked at in more than one way, so disagreement is normal.",
+                      "Arguing about what the numbers mean helps people understand different views.",
+                      "It's part of how leaders are held responsible for the economy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "Using the same facts to tell two different stories can confuse people.",
+                      "It can turn something important, like whether people have jobs, into just a political fight.",
+                      "People might stop believing any explanation if everyone twists it their own way."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "U.S. Hiring Almost Stalls, and the Last Jobs Report Before the Midterms Lands With a Thud"
+          },
+          "hook": {
+            "en": "The U.S. economy added only 29,000 jobs in September — a fraction of the roughly 90,000 economists expected — and the unemployment rate ticked up to 4.2%. It's the final official jobs report before the midterm elections, and buried in it was an even bigger surprise: July's job gains, first reported as modest growth, have now been revised into an actual loss of about 10,000 jobs."
+          },
+          "story": {
+            "en": [
+              "Every month, the U.S. government's Bureau of Labor Statistics surveys tens of thousands of employers and households to estimate how many jobs the economy added or lost, and what share of people looking for work couldn't find any. September's report showed hiring had nearly ground to a halt: 29,000 new jobs, far below forecasts, while the unemployment rate rose from 4.1% to 4.2%. That's not a dramatic jump — it still means roughly 19 out of 20 people who want jobs have them — but it moved in the wrong direction at the wrong moment.",
+              "More striking than the September number itself was what happened to July's. Statistical agencies don't get every month's estimate right on the first try; they revise earlier figures as more complete data comes in, usually by small amounts. This time the revision wasn't small: July, originally reported as a modest gain, now shows an outright loss of about 10,000 jobs. That changes the story entirely — instead of a labor market that wobbled once in September, it looks like one that's been losing strength for months, and nobody noticed until now because the first estimates were too rosy.",
+              "This report matters well beyond the headline numbers because of what it means for the Federal Reserve, the U.S. central bank that sets interest rates — essentially the cost of borrowing money, for everything from credit cards to business loans to mortgages. When hiring is strong, the Fed often keeps rates higher to prevent the economy from overheating and prices from rising too fast. When hiring weakens and unemployment rises, that combination is historically one of the clearest signals that the Fed should cut rates to make borrowing cheaper and encourage businesses to invest and hire again. This report pushes hard in that direction, and investors are now watching closely for the Fed's next move.",
+              "The timing makes this report unusually politically charged. Because it's the last official jobs data released before the midterm elections, it's the final hard number either party gets to point to before voters decide. The party in power will likely argue the economy remains fundamentally sound and that one weak month, even with a revision, doesn't undo years of job growth. The opposition will argue the revision proves the labor market has been quietly weakening for months while officials claimed otherwise, and that voters deserve to know that before they vote.",
+              "What nobody disputes is the data itself — it comes from the same government survey both parties normally treat as authoritative. What's contested is what it means: whether it's a genuine warning sign of a slowing economy, a one-off blip, or mainly a political football to be read however each side needs it read heading into an election."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you have a parent, older sibling, or neighbor who is job-hunting, this report is the kind of statistic that shapes whether companies are confident enough to hire this winter. It also affects interest rates, which touch everyday things like car loans, credit card costs, and how expensive it is for a family to buy a house."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Bureau of Labor Statistics (BLS)"
+              },
+              "def": {
+                "en": "The U.S. government agency that surveys employers and households each month to measure jobs and unemployment."
+              }
+            },
+            {
+              "term": {
+                "en": "Unemployment rate"
+              },
+              "def": {
+                "en": "The share of people actively looking for work who don't currently have a job."
+              }
+            },
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The cost of borrowing money, set in part by the Federal Reserve, which rises or falls depending on how the economy is doing."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Federal Reserve cut interest rates now because of this weak jobs data, or wait for more evidence first?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cut rates now"
+                  },
+                  "points": {
+                    "en": [
+                      "Weak hiring plus a downward revision to July suggests the labor market has already been cooling for months, not just one bad month.",
+                      "Interest rate changes take time to filter through the economy, so waiting too long to act risks letting a slowdown become a deeper one.",
+                      "Multiple weak data points in a row are harder to dismiss as a statistical fluke than a single surprising number."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for more data"
+                  },
+                  "points": {
+                    "en": [
+                      "A single month's figures, even revised ones, can still be noisy, and next month's report could look very different.",
+                      "Cutting rates too quickly risks reigniting inflation, which the Fed spent years trying to bring down.",
+                      "The Fed has limited tools to use, so it makes sense to hold them in reserve in case conditions get genuinely worse later."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does a weak jobs report like this mostly hurt the party currently in power heading into the midterms, or is the political effect less clear-cut?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It hurts the party in power"
+                  },
+                  "points": {
+                    "en": [
+                      "Economic pain is historically one of the strongest predictors of how people vote, and this is the last official snapshot before the election.",
+                      "A downward revision undermines any message the administration has been giving about a strong economy, making that message look dishonest or out of touch.",
+                      "Rising unemployment, even a small rise, is an easy, concrete number for opponents to repeat in ads and debates."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The political effect isn't that clear"
+                  },
+                  "points": {
+                    "en": [
+                      "Weak jobs data could push the Fed to cut rates, which sometimes boosts markets and gives a short-term economic lift right before people vote.",
+                      "Most voters respond to their own personal situation — their own job, their own grocery bill — far more than to a national statistic they may never see.",
+                      "A labor market that's been weakening for months, as the revision suggests, could be read as a longer-term trend that voters don't pin on any single recent decision."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
