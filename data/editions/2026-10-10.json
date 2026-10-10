@@ -1,0 +1,800 @@
+{
+  "date": "2026-10-10",
+  "window": {
+    "start": "2026-10-09T12:00:00-07:00",
+    "end": "2026-10-10T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-10T13:04:19-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump, Putin and the diesel deal behind high gas prices"
+          },
+          "summary": {
+            "en": "NBC News lays out how the diesel arrangement came together and what it means for U.S. drivers watching prices at the pump. It's a useful companion for understanding the economic motive behind the sanctions reversal."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566"
+        },
+        {
+          "title": {
+            "en": "Putin tells Trump peace talks are 'unlikely'"
+          },
+          "summary": {
+            "en": "Al Jazeera (Qatar state-funded) reports Putin's stated reason for stalling talks: drone attacks on Moscow during Russian elections. Read alongside NPR and NBC, not as a standalone account."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/10/putin-tells-trump-peace-talks-are-unlikely-cites-ukraine-drone-attacks"
+        },
+        {
+          "title": {
+            "en": "US hosts 'productive' trilateral talks to end Russia-Ukraine war"
+          },
+          "summary": {
+            "en": "This Al Jazeera report (Qatar state-funded) covers the diplomatic track that preceded Putin's pessimistic statement, giving context on what the trilateral format involved."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The U.S. Just Made a Fuel Deal With Russia — Even Though Russia Is Still at War"
+          },
+          "hook": {
+            "en": "President Trump has agreed to buy diesel fuel, the kind that powers trucks and buses, from Russia. This is a big change, because for years the U.S. had rules in place to punish Russia for invading its neighbor, Ukraine. The very next day, a Russian attack on a Ukrainian city killed 20 people, including three children."
+          },
+          "story": {
+            "en": [
+              "Russia is a huge country that invaded its smaller neighbor Ukraine almost four years ago, starting a war that is still going on. To pressure Russia to stop, the United States and other countries put 'sanctions' on it — rules that block trading certain things with Russia.",
+              "President Trump just made a deal to break that pattern. He agreed to buy diesel fuel from Russia. The goal is to bring down fuel prices in America before important elections this year. But buying fuel from Russia sends it money, even while the war continues.",
+              "One day after the deal was announced, Russia launched an attack on the Ukrainian city of Zaporizhzhia. Twenty people were killed, including three children. Russia's leader, Vladimir Putin, told Trump that restarting peace talks right now is 'unlikely.' He pointed to Ukrainian drone attacks on Moscow that happened during Russia's own elections last month.",
+              "Ukraine and Kaja Kallas, a top official who speaks for the European Union, see it differently. They warn that easing the rules on Russia doesn't bring peace closer — it just gives Russia more money to keep fighting."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When fuel is cheaper, it can cost less to fill up a car or heat a home — something families everywhere notice. But this story shows that the things leaders do to save people money can also affect wars happening far away, and that one choice can mean very different things depending on whose side you're standing on."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Rules one country makes to stop trading certain things with another country, usually as a punishment or a pressure tactic."
+              }
+            },
+            {
+              "term": {
+                "en": "Peace talks"
+              },
+              "def": {
+                "en": "Meetings where countries that are fighting try to agree on ways to stop the fighting."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it okay for a country to buy things from another country that's still fighting a war, if it helps lower prices back home?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, put your own people first"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders are chosen to look after their own citizens, and high fuel prices hurt real families every day.",
+                      "Every country trades with others for practical reasons, even when they disagree on other things.",
+                      "Refusing to trade doesn't always stop a war — it might just hurt ordinary people on both sides."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the money still helps the war"
+                  },
+                  "points": {
+                    "en": [
+                      "Any money sent to a country at war can be used to buy weapons or pay soldiers.",
+                      "It sends a confusing message to break your own rules right after making them to pressure someone.",
+                      "It could make peace harder, because the country being pressured has less reason to stop fighting."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a country keeps getting attacked, is it fair for it to strike back the same way, even if that makes peace talks harder?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, defending yourself comes first"
+                  },
+                  "points": {
+                    "en": [
+                      "A country under attack has a right to protect itself and hit back at military targets.",
+                      "Staying quiet while being attacked could be seen as giving up or inviting more attacks.",
+                      "Peace talks only work if both sides respect each other, and striking back can show that."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it makes things worse"
+                  },
+                  "points": {
+                    "en": [
+                      "Fighting back can give the other side an excuse to delay peace talks even longer.",
+                      "Each new attack can lead to more deaths, including people who had nothing to do with the war.",
+                      "Sometimes showing restraint, even when it's hard, keeps the door to peace open longer."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Makes a Fuel Deal With Russia — Just as Peace Talks Stall"
+          },
+          "hook": {
+            "en": "President Trump has announced a deal to buy diesel fuel from Russia, undoing years of U.S. pressure meant to punish Moscow for invading Ukraine. The announcement landed the same week Russia struck the Ukrainian city of Zaporizhzhia, killing 20 people, and Vladimir Putin told Trump he wasn't ready to restart peace talks."
+          },
+          "story": {
+            "en": [
+              "For more than three years, the United States has tried to squeeze Russia's economy as punishment for invading Ukraine, mainly through sanctions — laws that block a country, its companies, or its leaders from doing business with the outside world. Oil and fuel sales are Russia's biggest source of income, so cutting off those sales was meant to drain the money funding its war. Trump's new deal does the opposite: it opens the door for the U.S. to buy diesel fuel from Russia again, specifically to bring down fuel prices at home.",
+              "The timing matters. The deal comes just before the U.S. midterm elections, when every seat in the House of Representatives and a third of the Senate is up for a vote. High gas and diesel prices are the kind of thing voters notice immediately — at the pump, on receipts, in the cost of everything trucked to a store — and an incumbent president's party is often judged on exactly that kind of daily discomfort. Easing sanctions to bring fuel prices down is, among other things, a political move.",
+              "The reversal did not happen in a vacuum. One day after Trump's announcement, a Russian strike hit Zaporizhzhia, a city in southern Ukraine, killing 20 people, including three children. Strikes like this have continued through nearly every stage of ceasefire diplomacy over the past year, which is part of why critics see the fuel deal as poorly timed at best — a reward handed to Russia in the same week it killed civilians.",
+              "Putin, for his part, told Trump that restarting three-way peace talks between the U.S., Russia, and Ukraine was 'unlikely' any time soon. His stated reason was Ukrainian drone attacks on Moscow last month, which happened during Russia's parliamentary elections — elections that decide the makeup of Russia's own legislature, though with far less real competition than American elections, since most opposition to Putin is banned or jailed. Ukraine and its allies read Putin's excuse differently: they say Russia simply isn't under enough pressure to negotiate seriously, and now has one less reason to feel pressure at all.",
+              "Kaja Kallas, the European Union's top diplomat on foreign affairs, put that argument directly: easing sanctions now, she warned, doesn't bring peace closer — it funds the war that's delaying peace. Ukraine's government has made similar warnings. The disagreement isn't really about the facts of the deal; it's about what kind of signal it sends, and whether engaging with Russia's economy makes Moscow more likely to compromise, or simply removes one more reason for it to."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Fuel prices shape everyday costs — bus fares, delivery charges, what it costs to fill up a car — and they're exactly the kind of issue that can swing an election, which is part of why this deal was made now. But it's also a live example of a bigger pattern: governments constantly trade off values against immediate costs, and how the U.S. handles Russia will shape how seriously sanctions are taken the next time any country invades its neighbor."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Penalties, like blocking trade or banking access, that one country imposes on another to pressure it into changing its behavior."
+              }
+            },
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "U.S. elections held halfway through a president's term, deciding every seat in the House of Representatives and about a third of the Senate."
+              }
+            },
+            {
+              "term": {
+                "en": "Trilateral talks"
+              },
+              "def": {
+                "en": "Negotiations involving three parties at once — in this case, the United States, Russia, and Ukraine, meeting together rather than in pairs."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. ease sanctions on Russia to lower fuel prices at home, even if it risks helping fund the war in Ukraine?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, prioritize relief at home"
+                  },
+                  "points": {
+                    "en": [
+                      "A government's first duty is to the wellbeing of its own citizens, and high fuel prices hurt millions of ordinary families immediately and directly.",
+                      "Years of strict sanctions haven't stopped the war or forced Russia to the table, so there's a real question about whether the policy was achieving its goal at all.",
+                      "Economic engagement, even partial, can create channels of communication and leverage that pure isolation cannot."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't ease the pressure"
+                  },
+                  "points": {
+                    "en": [
+                      "Russia's oil and fuel revenue goes straight toward paying for the war, so buying from them more directly subsidizes the attacks still happening in Ukraine.",
+                      "Easing sanctions for domestic political reasons risks looking like a country abandons its principles whenever they become inconvenient.",
+                      "It weakens the credibility of sanctions as a tool entirely — if they're dropped under pressure, future adversaries have less reason to fear them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does closer economic engagement with Russia make peace talks more likely, or less?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "More likely"
+                  },
+                  "points": {
+                    "en": [
+                      "Economic ties give both sides something to lose, which can create a practical incentive to avoid further escalation.",
+                      "Shutting a country out completely removes any leverage or communication channel that might eventually be used to push for peace.",
+                      "Historically, some conflicts have cooled through gradual economic re-engagement rather than total isolation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Less likely"
+                  },
+                  "points": {
+                    "en": [
+                      "Removing economic pressure removes exactly the incentive Russia would otherwise have to negotiate seriously.",
+                      "The deal was followed almost immediately by a deadly strike and a Russian statement ruling out talks, suggesting Moscow doesn't feel urgency to compromise.",
+                      "Rewarding a country mid-invasion, even partially, can signal that outside pressure will fade if you simply wait it out."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Nobel Peace Prize 2026 awarded to Navi Pillay",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/09/nobel-peace-prize-navanethem-navi-pillay-winner.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Who is Navi Pillay, winner of the 2026 Nobel Peace Prize?"
+          },
+          "summary": {
+            "en": "Al Jazeera profiles Pillay's path from apartheid-era South Africa to the world's top international courts. It fills in the career history behind the headline award."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/9/who-is-navi-pillay-winner-of-the-2026-nobel-peace-prize"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nobel Peace Prize: Navanethem Pillay's efforts to promote peace"
+          },
+          "summary": {
+            "en": "ABC News expands on the specific human rights cases and legal precedents Pillay is credited with shaping. Good for readers wanting more on her substantive legacy, not just her biography."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/nobel-peace-prize-navanethem-pillay-efforts-promote-peace/story?id=137088187"
+        },
+        {
+          "title": {
+            "en": "UN reaction to the 2026 Nobel Peace Prize"
+          },
+          "summary": {
+            "en": "UN News covers how the United Nations, where Pillay once served as human rights chief, is responding to the award. It extends the story into the institutional reaction beyond the prize announcement."
+          },
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168558"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "An 85-Year-Old Judge Wins the World's Biggest Peace Prize"
+          },
+          "hook": {
+            "en": "In Oslo, a city in Norway, judges announced the winner of the Nobel Peace Prize, one of the most famous awards on Earth. They gave it to Navi Pillay, an 85-year-old woman from South Africa, for a lifetime spent making international law protect people during wars and terrible crimes."
+          },
+          "story": {
+            "en": [
+              "Navi Pillay grew up in South Africa at a time when unfair laws, called apartheid, said people with dark skin could not have the same rights as white people. In 1967, she became the very first woman to open her own law office in Natal, a part of South Africa, even though the rules made that extremely hard for her.",
+              "Later, she became a judge on special international courts. These are courts that decide whether soldiers or countries broke the biggest rules the whole world agreed to follow during wars. She was a judge for a court dealing with a genocide in Rwanda, a country in Africa, and later a judge on the International Criminal Court, a court for the whole world.",
+              "One of her most important rulings helped the world agree that rape used as a weapon during war is a war crime, serious enough for international courts to punish. After that, she led the United Nations' human rights office, speaking up for people treated unfairly in many countries.",
+              "Now, at 85 years old, she has won the Nobel Peace Prize for this long life of work."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This story shows that rules about fairness do not stop at a country's border; courts can step in even when a government will not protect its own people. It also shows that one person who keeps pushing, even when the rules are stacked against them, can change what counts as fair for the entire world."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "war crime"
+              },
+              "def": {
+                "en": "A war crime is one of the worst things a person can do during a war, like hurting people who are not fighting, and it is serious enough for international courts to punish."
+              }
+            },
+            {
+              "term": {
+                "en": "genocide"
+              },
+              "def": {
+                "en": "Genocide means trying to destroy a whole group of people because of who they are, such as their race or religion, and it is considered one of the worst crimes in the world."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for one person to win a huge, famous prize when many people worked together to make the same change happen?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "She was the one who pushed hardest and took the biggest risks, like opening a law office when it was dangerous for her to do so.",
+                      "Prizes need a face to represent the work, and that can encourage other people to try something similar.",
+                      "She gave her whole life to this cause, while others may have only helped for a single case or moment."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not entirely fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Many judges, lawyers, and witnesses who bravely testified helped create the same rulings, but only she gets the medal.",
+                      "Giving all the credit to one famous person can make people forget the team that made the change possible.",
+                      "It might be fairer to give peace prizes to whole groups or movements instead of a single individual."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should judges on international courts, who are not voted for by anyone, get to decide what is right or wrong during a war?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, they should"
+                  },
+                  "points": {
+                    "en": [
+                      "Soldiers and leaders inside a country might protect each other, so a judge from outside can be fairer.",
+                      "International rules mean everyone, even powerful countries, has to keep the same promises about fairness in war.",
+                      "Without international judges, some victims would never get any justice at all."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they shouldn't"
+                  },
+                  "points": {
+                    "en": [
+                      "People in each country should get to decide their own rules by voting, not have outsiders decide for them.",
+                      "Judges from far away might not fully understand what really happened in a local war.",
+                      "Some countries never agreed to let these judges have power over them, so being judged anyway can feel unfair."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "At 85, a South African judge who redefined war crimes wins the Nobel Peace Prize"
+          },
+          "hook": {
+            "en": "Navi Pillay, an 85-year-old South African judge, has been awarded the 2026 Nobel Peace Prize in Oslo, Norway. She spent decades building the legal case that rape used in war and genocide is itself a war crime — a principle that did not clearly exist in international law before judges like her argued it into being."
+          },
+          "story": {
+            "en": [
+              "In 1967, a young Tamil woman named Navi Pillay became the first woman to open her own law practice in Natal, a province of South Africa that was then enforcing apartheid — a legal system that separated and ranked people by race, with white South Africans on top and everyone else, including Black and Indian South Africans, denied basic rights. Opening a law office as a woman of colour in that system was not just unusual; it was an act of defiance against a state built to keep her out of rooms like that one.",
+              "She used that law career to keep climbing into rooms most people never reach. She became a judge on South Africa's High Court after apartheid ended, then a judge on the International Criminal Tribunal for Rwanda — a United Nations court set up after the 1994 genocide in Rwanda, in which roughly 800,000 people, mostly from the Tutsi ethnic group, were killed in about a hundred days. From there she went on to judge at the International Criminal Court, a permanent court in The Hague, Netherlands, that prosecutes individuals for genocide, war crimes, and crimes against humanity when national courts won't or can't. Later she served as the United Nations High Commissioner for Human Rights, the UN's top official for investigating and speaking out about human rights abuses worldwide.",
+              "The Nobel committee's citation points specifically to her role in rulings that recognised rape as a weapon of war and a tool of genocide under international law. Before judges like Pillay pushed this through the courts, mass sexual violence in conflict was often treated by militaries, governments, and even international bodies as a regrettable side effect of war rather than as a deliberate, prosecutable crime — something that happened in war rather than something done as war. Her tribunal's rulings helped establish that when rape is used systematically to terrorise, displace, or destroy a group, it can meet the legal definition of genocide or a war crime, meaning individuals can be charged and imprisoned for ordering or committing it.",
+              "That shift mattered beyond the courtroom. Once a legal definition exists, prosecutors elsewhere can use it, survivors can point to it, and governments negotiating peace deals have to reckon with it. International law moves slowly and unevenly — plenty of perpetrators named in such rulings have never been arrested, and powerful countries routinely ignore courts like the ICC when it suits them — but the legal definitions themselves don't disappear once written. They sit there, available, for the next prosecutor or the next generation of survivors.",
+              "Pillay, now 85, is one of the last living judges from that first generation of international tribunals that tried to answer a hard question after the Cold War ended: can law actually hold people accountable for mass atrocity, or is it only ever a court for the losers of wars? Her career doesn't settle that question, but it is the strongest answer anyone has offered — a woman barred from practising freely under her own country's laws who ended up writing some of the rules the rest of the world now has to argue about."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The idea that sexual violence in war can be formally prosecuted as genocide or a war crime — rather than dismissed as an unfortunate byproduct of conflict — shapes how today's wars, from Ukraine to Sudan, get documented and eventually judged. It's also a reminder that the rules protecting people worldwide, including in places far from any battlefield, were built recently and by name, not handed down from nowhere."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Apartheid"
+              },
+              "def": {
+                "en": "A legal system in South Africa, lasting from 1948 to the early 1990s, that separated people by race and gave white South Africans far greater rights and power than everyone else."
+              }
+            },
+            {
+              "term": {
+                "en": "International Criminal Court (ICC)"
+              },
+              "def": {
+                "en": "A permanent court based in The Hague, Netherlands, that prosecutes individuals — not countries — for genocide, war crimes, and crimes against humanity when their home country won't do it."
+              }
+            },
+            {
+              "term": {
+                "en": "Genocide"
+              },
+              "def": {
+                "en": "The deliberate attempt to destroy a national, ethnic, racial, or religious group, in whole or in part, which international law treats as the most severe crime a person can be charged with."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Nobel Peace Prize honour a lifetime of legal work, or go only to people actively stopping violence happening right now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Honour the legal legacy"
+                  },
+                  "points": {
+                    "en": [
+                      "Laws that outlast any single peace deal protect far more people over time than one ceasefire does.",
+                      "Judges like Pillay rarely get public recognition because courtroom work is slow and invisible compared to dramatic peace talks.",
+                      "Rewarding legal groundwork encourages more people to spend decades building institutions rather than chasing quick, photogenic fixes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Reward active peacemaking"
+                  },
+                  "points": {
+                    "en": [
+                      "A prize meant to encourage peace should go where it can still influence an unfolding crisis, not a finished career.",
+                      "Courts like the ICC have struggled to actually arrest or punish many of the people they charge, so the practical impact is uncertain.",
+                      "Someone negotiating a ceasefire today is preventing deaths this year, which is a more urgent and measurable form of peacemaking."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should international courts be able to prosecute a country's leaders for war crimes even if that country never agreed to the court's authority?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, law should override sovereignty here"
+                  },
+                  "points": {
+                    "en": [
+                      "Genocide and mass rape are crimes against humanity as a whole, not just against one nation, so no government should get to shield itself by simply refusing to join a court.",
+                      "Without outside enforcement, leaders who control their own national courts can guarantee themselves impunity.",
+                      "Survivors of atrocities deserve a legal avenue even when their own government is the one responsible."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, sovereignty has to come first"
+                  },
+                  "points": {
+                    "en": [
+                      "A court with no vote from a country's people or government is ruling over them without consent, which undercuts the basic idea of self-governance.",
+                      "In practice, only weaker countries end up prosecuted, while powerful states that never joined the ICC act with impunity, which makes the system look selective rather than universal.",
+                      "International courts can be, or appear to be, shaped by the political interests of whichever countries fund and run them, undermining trust in their neutrality."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "CN",
+      "source": {
+        "title": "China Allows Provinces to Draw on $82 Billion to Shore Up Growth",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-09/china-allows-provinces-to-draw-on-82-billion-to-shore-up-growth"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "China seen doing 'just enough' targeted fiscal support to defend GDP growth"
+          },
+          "summary": {
+            "en": "SCMP's analysis explains why Beijing appears to be calibrating stimulus narrowly rather than launching a bigger package, giving context on the policy debate behind the bond-quota move."
+          },
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/economy/china-economy/article/3369550/china-seen-doing-just-enough-targeted-fiscal-support-defend-gdp-growth"
+        },
+        {
+          "title": {
+            "en": "China's GDP growth target explained"
+          },
+          "summary": {
+            "en": "CNBC's earlier coverage of China's 'Two Sessions' lays out how and why Beijing sets its annual growth target, useful background for understanding what this stimulus is trying to defend."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/03/05/china-gdp-two-sessions-.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China Unlocks a Giant Pile of Saved-Up Borrowing Money"
+          },
+          "hook": {
+            "en": "China's economy has been growing more slowly than its leaders want. So the government just told local areas across the country: you can now spend money you were allowed to borrow years ago but never used. It adds up to about $82 billion — and it's meant to get builders building and shops selling again."
+          },
+          "story": {
+            "en": [
+              "China's economy sells things to the whole world, like phones, clothes, and toys. Lately, fewer people inside China are buying things, and fewer countries are buying from China too. House building, which used to be a huge part of the economy, has also slowed way down.",
+              "So China's government has a plan. Every year, local governments (like states or provinces) are allowed to borrow a certain amount of money to build things. Some of them never used up their full borrowing allowance in past years. Now the national government is saying: use it. All of it, right away.",
+              "That unused allowance adds up to 550 billion yuan, about $82 billion. If you were handed one dollar every single second, day and night, it would take you more than 2,500 years to count that high. On top of that, another $35 billion will go specifically to big building projects, things like roads, power lines, and internet cables, grouped under a plan called the 'Six Networks.'",
+              "People who study China's economy say this isn't a huge new surprise package. It's more like the government doing just enough to hit its growth target for the year, rather than a massive new effort."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of the things in your house, from sneakers to electronics, are made in factories in China, so how well China's economy is doing can change prices and jobs far beyond its borders. When a government spends money on roads, bridges, and internet lines, it can mean more jobs for construction workers now and better connections for people later. But some worry about what happens when all that borrowed money eventually needs to be paid back."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "stimulus"
+              },
+              "def": {
+                "en": "Stimulus is extra money a government spends or lets people borrow, to wake up an economy that's growing too slowly."
+              }
+            },
+            {
+              "term": {
+                "en": "bond quota"
+              },
+              "def": {
+                "en": "A bond quota is like a borrowing allowance: the top amount of money a government is allowed to borrow by selling special IOUs called bonds."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government let regions borrow and spend extra money just to hit a growth goal, even if it means more debt to pay back later?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, spend now"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending now can keep people employed and businesses open during a slow patch.",
+                      "Building roads, power lines, and internet networks helps the economy for many years afterward.",
+                      "Waiting too long to act can let a small slowdown turn into a much bigger, harder problem."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, be careful"
+                  },
+                  "points": {
+                    "en": [
+                      "Money borrowed now has to be paid back eventually, often by people who didn't get a say in the decision.",
+                      "If the economy doesn't grow enough later, the debt can become a heavy burden on regions.",
+                      "Relying on big spending projects to hit a target number can hide problems instead of truly fixing them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for a government to spend money on big building projects, or to give money directly to regular people to spend as they choose?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Big projects"
+                  },
+                  "points": {
+                    "en": [
+                      "Roads, bridges, and networks last for decades and help everyone who uses them.",
+                      "Construction projects create lots of jobs quickly for workers and companies.",
+                      "Big infrastructure can make a whole country more efficient and connected long after it's built."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Give it to people"
+                  },
+                  "points": {
+                    "en": [
+                      "People know best what they personally need, whether that's food, clothes, or school supplies.",
+                      "Money in people's pockets gets spent right away at local shops, helping small businesses directly.",
+                      "Big projects can take years to finish, while direct help reaches families immediately."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China Frees Up $82 Billion in Old Budgets to Keep Its Economy on Target"
+          },
+          "hook": {
+            "en": "China's Ministry of Finance just told provincial governments they can spend $82 billion in borrowing room that was approved years ago but never used. It's part of a string of moves meant to keep the country's economy growing at the pace Beijing promised, even as a housing slump and weak spending at home drag on growth."
+          },
+          "story": {
+            "en": [
+              "Imagine your local government was given permission years ago to borrow a certain amount of money for roads, bridges, or schools, but never actually used all of it. That unused borrowing power doesn't just disappear — and China's central government has just told its provinces to go ahead and spend it. The total being unlocked is 550 billion yuan, or about $82 billion, a figure roughly the size of Ecuador's entire economy.",
+              "On top of that, Beijing is handing out another 250 billion yuan in fresh borrowing permission specifically for the last three months of the year, aimed at regions that can show they have real projects ready to fund. Much of this money is meant to feed into something China calls the 'Six Networks' — a set of major infrastructure programs covering things like transportation, energy, and water systems, built partly to create jobs and partly to give private companies more reason to invest, since big public projects often need parts, materials, and services from private businesses.",
+              "Why now? China's property market has been stuck in a slump for years — developers over-borrowed, building boomed past what buyers wanted, and now prices and sales are weak, which matters enormously because property and related industries have historically made up a huge chunk of China's economic activity and of ordinary households' savings, since many Chinese families hold most of their wealth in apartments. At the same time, Chinese consumers are holding back on spending rather than loosening their wallets, worried about job security and falling home values. Together, these two problems have made it harder for China to hit the growth rate its leaders set as an official target for the year.",
+              "Analysts quoted in regional financial press describe this move as Beijing doing 'just enough' — not a dramatic rescue package, but a calculated top-up designed to nudge growth numbers toward the target without a bigger, more expensive stimulus that might worry investors about debt levels. It's a bit like a student who's behind on a semester's reading doing just enough extra study to pass the exam, rather than overhauling their entire study habits.",
+              "This isn't a one-off. It's one of several targeted measures China has introduced this year as exports face pressure from trade tensions and tariffs abroad, and domestic demand stays soft. The pattern suggests Chinese policymakers are trying to manage the economy carefully and incrementally, rather than letting it either overheat with a flood of new spending or fall short of expectations by doing nothing."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China is the world's second-largest economy and a major trading partner for countries everywhere, including the US, so slower Chinese growth can mean fewer orders for factories worldwide and cheaper exports flooding other markets. For a teenager, this might feel distant, but it touches things like the price of electronics, the job market in industries tied to global trade, and even how affordable things like phones or cars are down the line."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Bond quota"
+              },
+              "def": {
+                "en": "A limit set by a central government on how much money local or regional governments are allowed to borrow by selling bonds, which are basically IOUs sold to investors."
+              }
+            },
+            {
+              "term": {
+                "en": "Stimulus"
+              },
+              "def": {
+                "en": "Extra government spending or financial support designed to boost economic activity when growth is slowing down."
+              }
+            },
+            {
+              "term": {
+                "en": "GDP growth target"
+              },
+              "def": {
+                "en": "An official goal set by a government for how much its economy — measured by the total value of everything produced, called Gross Domestic Product — should grow in a year."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should governments borrow and spend extra money just to hit a growth target they set for themselves?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, meet the target"
+                  },
+                  "points": {
+                    "en": [
+                      "Missing an announced target can shake confidence among investors, businesses, and citizens who planned around that promise.",
+                      "Targeted spending on infrastructure creates jobs and can have ripple effects through the economy that pay off the borrowing over time.",
+                      "A government that consistently hits its stated goals builds credibility, which makes future economic policy more effective."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, let growth be what it is"
+                  },
+                  "points": {
+                    "en": [
+                      "Forcing growth numbers to match an arbitrary target can mean spending on projects that aren't actually needed, wasting money.",
+                      "Piling up government debt to chase a number creates risks for future generations who have to manage that debt.",
+                      "Artificial growth doesn't fix underlying problems, like the property slump or weak consumer confidence, and can just delay a harder reckoning."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is a small, targeted stimulus smarter than one big, broad stimulus package?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Small and targeted is smarter"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending only where there's a clear, ready project avoids wasting money on plans that aren't actually prepared to use it.",
+                      "Keeping stimulus modest avoids spooking investors who worry that huge spending means huge future debt problems.",
+                      "It allows policymakers to adjust gradually as they see how the economy responds, rather than committing to one big irreversible move."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Bigger stimulus works better"
+                  },
+                  "points": {
+                    "en": [
+                      "Small, incremental measures might not be enough to actually turn around deep problems like a years-long property slump.",
+                      "A bigger package can restore consumer and business confidence faster, since people see decisive action rather than a slow trickle.",
+                      "Dragging out a fix with repeated small measures can mean the economy limps along for years instead of recovering firmly."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
