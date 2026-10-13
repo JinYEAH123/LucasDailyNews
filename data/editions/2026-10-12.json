@@ -1,0 +1,781 @@
+{
+  "date": "2026-10-12",
+  "window": {
+    "start": "2026-10-11T12:00:00-07:00",
+    "end": "2026-10-12T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-12T18:22:26-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "DOJ Launches Antitrust Probe Into TV Networks Over Suspended Pool Coverage",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/12/nx-s1-5998112/doj-launches-antitrust-probe-into-tv-networks-over-suspended-pool-coverage"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "DOJ Investigating Five TV Networks Over White House Pool Coverage"
+          },
+          "summary": {
+            "en": "The Washington Post's independent account of the same investigation, useful because it is not owned by any of the networks under scrutiny."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/10/10/doj-investigating-five-tv-networks-over-white-house-pool-coverage/"
+        },
+        {
+          "title": {
+            "en": "US Opens Antitrust Probe Into TV Networks Halting Trump Coverage"
+          },
+          "summary": {
+            "en": "Al Jazeera's outside-the-US framing shows how the press-freedom dispute looks to international observers."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/11/us-opens-antitrust-probe-into-tv-networks-halting-trump-coverage"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Five TV News Channels Are Being Investigated for Teaming Up Against the White House"
+          },
+          "hook": {
+            "en": "Five big TV news channels — ABC, CBS, CNN, NBC and Fox News — stopped sharing their usual video of the president for a day, to protest other reporters being kicked out of the White House. Now the government says that teamwork might have broken a law, and it has opened an investigation to find out. No one has been charged with anything yet — this is just the start of looking into it."
+          },
+          "story": {
+            "en": [
+              "Every day, a small group of reporters called the 'press pool' follows the president around and shares their notes and video with every other news channel. It saves everyone from needing their own camera crew squeezed into every room.",
+              "Last month, the White House banned more than 70 journalists from its briefing room, including reporters from CNN and two other news outlets. A judge quickly stepped in and ordered their access restored for now, while a bigger decision is still coming.",
+              "In protest, the five big TV networks all agreed together to pause their pool coverage of the White House for a day. The government's Justice Department didn't like that. It has opened something called an antitrust investigation — a kind of law usually used to stop companies from secretly teaming up against customers — but this time aimed at how the news channels covered a story together.",
+              "People who defend reporters say this is a scary new way to pressure the press. The head of a press-freedom group called it an attempt to 'intimidate journalists.' Because CNN is one of the networks being investigated, we're relying here on The Washington Post, Al Jazeera and NPR, not CNN's own reporting, to tell the story fairly."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Reporters are the people whose job is to find out what the government is doing and tell everyone else — like a messenger between leaders and the public. When the government can punish news channels for teaming up to protest, it raises a question about how free those messengers really are to do their jobs."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "antitrust investigation"
+              },
+              "def": {
+                "en": "A government inquiry using laws that normally stop companies from secretly working together instead of competing fairly."
+              }
+            },
+            {
+              "term": {
+                "en": "press pool"
+              },
+              "def": {
+                "en": "A small rotating group of reporters who cover an event and share their notes and video with every other news outlet, so not everyone needs a camera crew in the room."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the government be allowed to investigate news channels for working together, even if they did it to protest something?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, look into it"
+                  },
+                  "points": {
+                    "en": [
+                      "If companies secretly agree to act together instead of deciding separately, that can still be against the rules, no matter who they are.",
+                      "The government has a duty to check when any group of powerful companies acts as one, since that's exactly what these laws are for.",
+                      "Investigating isn't the same as punishing — it's just asking questions, and asking questions should always be allowed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, leave them alone"
+                  },
+                  "points": {
+                    "en": [
+                      "These channels weren't fixing prices or hurting customers — they were protesting unfair treatment of reporters, which is different.",
+                      "Using business laws against news companies could scare any news channel out of ever criticizing the government again.",
+                      "The reporters were protesting something that happened to them first — the banning of over 70 journalists — so looking at their protest alone seems one-sided."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for several TV channels to make a joint decision, like all pausing coverage together, instead of each one deciding on its own?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "When something unfair happens to one of them, standing together can be the only way to be taken seriously.",
+                      "News channels often compete fiercely, so agreeing on something this big shows they all felt strongly about it.",
+                      "It's similar to workers going on strike together — a shared protest can be more powerful than five separate complaints."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Viewers expect each channel to make its own choices, not act as one single voice.",
+                      "If channels can team up to withhold coverage, they could also team up for other reasons people might not like.",
+                      "The public lost access to normal White House coverage for a day because of a decision they had no say in."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "U.S. Justice Department Investigates Five TV Networks Over Joint News Boycott"
+          },
+          "hook": {
+            "en": "The U.S. Justice Department has opened a formal antitrust investigation into ABC, CBS, CNN, NBC and Fox News, accusing them of illegally coordinating when they jointly suspended their shared White House coverage in protest. The protest began after the administration barred reporters from CNN, Politico and MS NOW from the press briefing room. It follows an earlier decision to strip press credentials from more than 70 journalists altogether, a move a federal judge has temporarily blocked while a fuller ruling is expected soon."
+          },
+          "story": {
+            "en": [
+              "For decades, television networks covering the White House have relied on something called a press pool: a small rotating group of reporters and camera crews who get close access to the president, then share their footage and notes with every other outlet, so the Oval Office isn't crowded with fifty separate camera crews every time something happens. It only works because the networks trust each other and cooperate. Last month, after the administration banned reporters from three specific outlets from the briefing room, the major networks did something unusual: they agreed together to suspend the pool entirely, as a protest.",
+              "The Justice Department's response was to open an antitrust investigation — the kind of legal tool normally used to punish companies that secretly agree to fix prices or divide up a market instead of competing with each other, which is illegal because it cheats customers out of the benefits of competition. Applying that same law to news organizations deciding, together, how to cover a political dispute is a significant stretch of what antitrust law has traditionally been used for, and press freedom groups say that's exactly the point: it turns an ordinary business law into a weapon against unified journalism.",
+              "This didn't happen in isolation. The month before, the administration had stripped press credentials — the official passes that let reporters into government buildings and briefings — from more than 70 journalists at once. A federal judge issued a temporary stay, a short-term court order pausing an action while a case is still being argued, requiring that access be restored for now. A more permanent ruling on whether the credential removals were lawful is expected by Tuesday evening.",
+              "Bruce Brown, who leads the Reporters Committee for Freedom of the Press, a nonprofit that provides legal help to journalists, called the antitrust investigation 'another and even more brazen attempt to try to intimidate journalists.' Press freedom advocates broadly agree that using antitrust law this way is aggressive and unusual — there's no obvious precedent for treating a newsroom's editorial protest as the kind of market manipulation the law was built to catch.",
+              "One detail matters for how you should read coverage of this story: CNN is itself one of the five networks under investigation, which means its own reporting on the probe comes with an obvious conflict of interest — it's reporting on a case it's a defendant in. That's why this account draws instead on The Washington Post, Al Jazeera and NPR, none of which are targets of the investigation.",
+              "No criminal charges have been filed, and the Justice Department has not announced any findings — this is an investigation, which is a formal step toward possibly building a case, not proof that any law was actually broken."
+            ]
+          },
+          "why_it_matters": {
+            "en": "How governments treat journalists who report on them shapes what the public ends up knowing — and an administration that can legally punish news outlets for cooperating with each other has gained real leverage over what gets covered and how. Whatever you think of any particular network, the underlying question — can the government use an ordinary business law to discourage coordinated protest by the press — will outlast this specific dispute."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Press pool"
+              },
+              "def": {
+                "en": "A small rotating group of reporters who get close access to an event and then share their notes and footage with every other news outlet, so not every outlet needs its own reporter in the room."
+              }
+            },
+            {
+              "term": {
+                "en": "Antitrust investigation"
+              },
+              "def": {
+                "en": "A government inquiry into whether companies illegally cooperated with each other instead of competing, a law usually used against businesses that secretly fix prices or carve up a market."
+              }
+            },
+            {
+              "term": {
+                "en": "Temporary stay"
+              },
+              "def": {
+                "en": "A short-term court order that pauses an action — like removing someone's press access — while a judge is still deciding whether that action was lawful."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should antitrust law — normally used against businesses that secretly fix prices — be used against news organizations that coordinate a protest?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, coordination is coordination"
+                  },
+                  "points": {
+                    "en": [
+                      "If companies can't secretly agree with each other no matter their reason, networks shouldn't get a special exemption just because they call themselves the press.",
+                      "Treating news outlets as ordinary market participants prevents them from acting as a bloc that could, in other situations, unfairly squeeze out smaller or newer outlets.",
+                      "Letting networks claim a free pass whenever their coordination serves a political cause would make the law nearly impossible to enforce consistently."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this stretches the law to intimidate"
+                  },
+                  "points": {
+                    "en": [
+                      "Antitrust law exists to protect consumers from price-fixing, not to police how journalists choose to respond, together, to being denied access to a public official.",
+                      "Using the threat of a federal investigation against an editorial decision creates a chilling effect, where news organizations become afraid to ever act in solidarity with each other.",
+                      "There's no real consumer harm here — nobody paid more for anything — which is usually the whole point of antitrust law."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for five competing networks to act together and suspend pool coverage in protest?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, solidarity was necessary"
+                  },
+                  "points": {
+                    "en": [
+                      "When three outlets were banned, the remaining networks had genuine common cause: today it's a competitor being barred, tomorrow it could be any of them.",
+                      "A single network refusing to cover the pool alone would have had little effect; acting together was the only way to make the protest meaningful.",
+                      "Defending press access, even through disruptive means, protects something all of them depend on to do their jobs."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it crossed a line journalists should avoid"
+                  },
+                  "points": {
+                    "en": [
+                      "News organizations are supposed to compete to inform the public, not organize collectively to pressure the government, which can look like the press becoming a political actor itself.",
+                      "Suspending coverage as a group denies the public information as leverage, which is a strange tactic for institutions whose whole purpose is providing information.",
+                      "It gives critics of the media an easy argument that the press acts as a coordinated interest group rather than independent outlets, even if that wasn't the intent."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Last Nobel Prize of the Year to Be Announced, for Economics",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/12/nx-s1-5996634/last-nobel-prize-of-the-year-to-be-announced-for-economics"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nobel Prize in Economics 2026 Goes to Hall and Woodford"
+          },
+          "summary": {
+            "en": "Axios lays out the specific mechanism their research describes and why it mattered to policymakers fighting inflation."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/10/12/nobel-prize-economics-2026-hall-woodford"
+        },
+        {
+          "title": {
+            "en": "Nobel Economics Prize Awarded to Robert Hall and Michael Woodford"
+          },
+          "summary": {
+            "en": "Al Jazeera's international account situates the award for readers outside the U.S. academic and policy context."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/12/nobel-economics-prize-awarded-to-robert-hall-and-michael-%E2%81%A0woodford"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nobel Economics Prize 2026 Coverage"
+          },
+          "summary": {
+            "en": "Japan Times coverage offers a non-U.S., non-Nobel-committee perspective on how the laureates' work is viewed internationally."
+          },
+          "publisher": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/10/12/world/nobel-economics-prize/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Americans Win Top Prize for Explaining Why Prices Go Up and Down"
+          },
+          "hook": {
+            "en": "Two professors from the United States, Robert Hall and Michael Woodford, just won one of the world's biggest prizes for figuring out how a country's economy speeds up and slows down. Their ideas help explain why your allowance sometimes buys more snacks than other times. The prize is called the Nobel Memorial Prize in Economic Sciences, and it comes with money the two scientists will share."
+          },
+          "story": {
+            "en": [
+              "Robert Hall teaches at Stanford University and Michael Woodford teaches at Columbia University. Both are in the United States. This week, they won the Nobel Prize in Economics for studying how people decide what to buy and how businesses decide what to charge.",
+              "Their research helped explain something tricky: why an economy sometimes grows too fast, causing prices to rise quickly, and sometimes grows too slowly, causing people to lose their jobs. Think of an economy like a bike you're learning to ride. Go too fast and you might crash. Go too slow and you might tip over. Hall and Woodford studied how to help a country's economy find a steady speed.",
+              "Their ideas became part of a set of theories economists call 'New Keynesian' thinking. For decades, these ideas have guided how central banks, like the U.S. Federal Reserve, decide whether to make borrowing money more expensive or cheaper. That decision affects things like how easy it is for your parents to get a loan for a car or a house.",
+              "The Economics Prize is a little different from the other Nobel Prizes, like the ones for Peace or Science. Alfred Nobel, the man who created the original prizes, didn't actually include Economics in his will. Sweden's central bank created this prize later, in 1968. Even so, most people today treat it with the same respect as the original Nobel Prizes."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When prices rise too fast, the same amount of pocket money buys less candy or fewer toys than before. When too many people lose their jobs, families have less money to spend on fun things, or even on things they need. The ideas these two scientists studied are part of why grown-ups argue about interest rates and prices on the news."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "inflation"
+              },
+              "def": {
+                "en": "Inflation is when prices for things like food and toys rise over time, so the same amount of money buys less than it used to."
+              }
+            },
+            {
+              "term": {
+                "en": "central bank"
+              },
+              "def": {
+                "en": "A central bank is a special bank that controls how much it costs to borrow money in a country, like the Federal Reserve does in the United States."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should experts like economists, rather than elected leaders, make the biggest decisions about a country's money?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Let the experts decide"
+                  },
+                  "points": {
+                    "en": [
+                      "Economists spend years studying patterns in money and jobs that ordinary people might not notice.",
+                      "Experts can think about what helps the country in ten years, not just what makes people happy right before an election.",
+                      "Keeping money decisions separate from politics can stop leaders from making promises just to win votes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let elected leaders decide"
+                  },
+                  "points": {
+                    "en": [
+                      "Decisions about money affect everyone, so the people should have a say through voting for their leaders.",
+                      "Experts often disagree with each other, so trusting them completely doesn't guarantee the right answer.",
+                      "If elected leaders make bad choices, voters can choose someone else next time; unelected experts can't be voted out."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to call this award a 'Nobel Prize' when Alfred Nobel didn't actually create it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to call it a Nobel Prize"
+                  },
+                  "points": {
+                    "en": [
+                      "It's given out by the same group, in the same ceremony, as the original Nobel Prizes.",
+                      "The discoveries it honors are just as important and difficult as those in the original prizes.",
+                      "Most people don't know or care about the difference, so the name doesn't really mislead anyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't be called a Nobel Prize"
+                  },
+                  "points": {
+                    "en": [
+                      "Alfred Nobel listed five specific prizes in his will, and economics was not one of them.",
+                      "Using his name might make people think Nobel himself cared about economics, which may not be true.",
+                      "Giving it the same name makes it harder to tell the original, historic prizes apart from a newer addition."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Two American Economists Win Nobel for Work Behind Every Fed Interest Rate Decision"
+          },
+          "hook": {
+            "en": "On Monday, the Royal Swedish Academy of Sciences awarded this year's Nobel Memorial Prize in Economic Sciences to Robert Hall of Stanford University and Michael Woodford of Columbia University. Their decades of research explain why economies swing between booms and busts, and how central banks can try to limit the damage from both. The ideas they developed now sit quietly behind nearly every interest rate decision made by the U.S. Federal Reserve and similar institutions around the world."
+          },
+          "story": {
+            "en": [
+              "Every economy moves in cycles: periods of growth and hiring, called booms, followed by slowdowns and layoffs, called busts. This pattern, known as the business cycle, isn't caused by any single villain — it emerges from millions of separate decisions by households and companies about what to buy, what to charge, and whether to hire or fire. Left alone, these cycles can swing hard enough to wreck lives: unemployment spikes during a bust, or prices race ahead of wages during a boom, eating into what people can actually afford.",
+              "Hall and Woodford spent their careers studying something deceptively simple: how real households and businesses actually make decisions about prices and spending, rather than how economic textbooks assumed they did. Earlier models often treated prices as adjusting instantly and perfectly to changing conditions, the way water finds its level. Hall and Woodford showed that prices are 'sticky' — a company doesn't change its prices every time costs shift even slightly, because changing prices is itself costly and confusing for customers. That stickiness means the economy doesn't snap back to balance on its own; it needs a nudge.",
+              "That insight became a foundation for what's called New Keynesian economics, a school of thought that borrows from older ideas (that markets sometimes need help) while using rigorous, modern mathematical tools to show exactly how and when that help works best. In plain terms: because prices and wages don't adjust instantly, a central bank — the institution that controls a country's money supply and interest rates, like the Federal Reserve in the U.S. — can smooth out booms and busts by carefully raising or lowering the cost of borrowing money.",
+              "This isn't an abstract academic debate. When the Federal Reserve decided how fast to raise interest rates after inflation surged in 2021 and 2022, or how aggressively to cut them during the 2008 financial crisis, the models guiding those choices trace directly back to work like Hall's and Woodford's. Raise rates too slowly, and prices spiral upward, eroding savings and wages. Raise them too fast, and businesses stop hiring, throwing people out of work. Getting that balance right, according to this research, depends on central banks being predictable and credible — so that households and firms trust it enough to adjust their own behavior in advance.",
+              "The award itself carries its own quiet controversy. Unlike the Nobel Prizes for physics, chemistry, medicine, literature and peace — all specified in Alfred Nobel's 1895 will — the economics prize was created in 1968 by Sweden's central bank, nearly seventy years after Nobel's death, and is formally called the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel. Critics have long argued this makes it a different kind of honor altogether, borrowing prestige from a name rather than being part of Nobel's original vision. In practice, though, it is announced alongside the other Nobels, administered by the same foundation, and treated by the public and by economists themselves as carrying equal weight."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The next time interest rates go up or down, affecting the cost of a car loan, a mortgage, or a parent's credit card, the reasoning behind that decision likely draws on work like this. It's also a reminder that the price of everyday things — and whether people keep their jobs — is shaped as much by economic theory as by politics or luck."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Business cycle"
+              },
+              "def": {
+                "en": "The natural pattern of an economy expanding (a boom) and then contracting (a bust), which affects how many people have jobs and how fast prices rise."
+              }
+            },
+            {
+              "term": {
+                "en": "New Keynesian economics"
+              },
+              "def": {
+                "en": "A school of economic thought showing that because prices and wages adjust slowly rather than instantly, governments and central banks can act to smooth out economic swings."
+              }
+            },
+            {
+              "term": {
+                "en": "Central bank"
+              },
+              "def": {
+                "en": "A country's official institution for managing its money and interest rates, like the U.S. Federal Reserve, usually designed to operate independently of elected politicians."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should decisions about interest rates and the economy be left mainly to unelected experts, or should elected politicians have more direct control?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Leave it to the experts"
+                  },
+                  "points": {
+                    "en": [
+                      "Politicians facing re-election have an incentive to keep interest rates artificially low to boost short-term growth, even if it causes damaging inflation later.",
+                      "Setting interest rates correctly requires years of specialized training in economic models that most voters and politicians don't have time to master.",
+                      "Countries with independent central banks have historically had more stable prices than those where elected officials controlled monetary policy directly."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep it accountable to voters"
+                  },
+                  "points": {
+                    "en": [
+                      "Interest rate decisions affect everyone's mortgage, job prospects, and savings, yet the people making them were never elected and can't be voted out.",
+                      "Expert consensus has been wrong before — plenty of economists missed the warning signs of the 2008 financial crisis despite their models.",
+                      "When major decisions about people's economic lives are made outside democratic debate, it can leave people feeling government no longer answers to them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does the Economics Nobel deserve to be seen as equal in weight to the original Nobel Prizes in physics, chemistry, and medicine?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a real Nobel"
+                  },
+                  "points": {
+                    "en": [
+                      "It is run by the same Nobel Foundation and judged by a rigorous committee process similar to the other prizes.",
+                      "Modern economics uses precise mathematical models and testable predictions, much like the physical sciences the original prizes honor.",
+                      "Research recognized by this prize has genuinely shaped global policy, affecting the real financial lives of billions of people."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's a different kind of prize"
+                  },
+                  "points": {
+                    "en": [
+                      "Alfred Nobel's own will never mentioned economics; the prize was invented by a bank nearly seven decades after his death.",
+                      "Economic theories are regularly revised or discarded after crises expose their weaknesses, unlike well-established laws of physics or chemistry.",
+                      "Economics studies human behavior, which is inherently more contested and less certain than testing the physical laws nature follows."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "A Roadblock Clears for Self-Driving Trucks",
+        "publisher": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/11/techcrunch-mobility-a-roadblock-clears-for-self-driving-trucks/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Congress Wants to Put Driverless 80,000-Pound Trucks on the Road"
+          },
+          "summary": {
+            "en": "Yahoo Finance's reporting on the broader congressional push for driverless trucking rules gives context for why this exemption matters beyond one company.-"
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/congress-wants-put-driverless-80-204220587.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "No Driver, No Problem: Self-Driving Trucks Get a Special Pass"
+          },
+          "hook": {
+            "en": "A U.S. government agency just made a new rule just for trucks that drive themselves. Normally, if a truck breaks down, the driver has to walk out and set up orange warning triangles so other cars see it. But a self-driving truck has no driver to do that job. So officials said two companies, Aurora Innovation and Kodiak AI, can use flashing lights on the truck instead, for the next five years."
+          },
+          "story": {
+            "en": [
+              "Picture a truck as long as four cars parked end to end. If it breaks down on a highway, the driver has always had to hop out and place reflective triangles on the road behind it, so other drivers spot it in time and don't crash.",
+              "But some trucks today don't have a driver at all. They steer themselves using cameras, computers, and sensors, like a very careful robot. If one of these trucks breaks down, there's nobody inside to walk out and set up triangles.",
+              "A government agency in the United States, called FMCSA, just said two companies can skip that triangle rule. Instead, their trucks can use bright flashing lights built onto the front of the truck. This permission lasts for five years.",
+              "People who watch this industry say this was one of the last big rules standing in the way of driverless trucks spreading across American highways."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Trucks carry almost everything you use, from the cereal in your kitchen to the sneakers on your feet. If trucks start driving themselves, it could change how fast things get to stores, who gets jobs driving trucks, and what you see on the highway during your next car trip."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "exemption"
+              },
+              "def": {
+                "en": "An exemption means being allowed to skip a rule that normally applies to everyone else."
+              }
+            },
+            {
+              "term": {
+                "en": "self-driving truck"
+              },
+              "def": {
+                "en": "A self-driving truck steers and brakes by itself using cameras, computers, and sensors, without a person holding the wheel."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should trucks with no driver inside be allowed to drive on highways near regular cars?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, allow them"
+                  },
+                  "points": {
+                    "en": [
+                      "Computers can watch all directions at once and never get sleepy or distracted like tired human drivers can.",
+                      "There aren't enough truck drivers for all the trucking jobs that need doing, so this could help.",
+                      "Companies had to prove their trucks were tested carefully before getting permission."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't allow them"
+                  },
+                  "points": {
+                    "en": [
+                      "If something breaks or goes wrong, there's no person inside to react quickly and keep others safe.",
+                      "Families share the road in their own cars, and a mistake by a driverless truck is scarier with nobody to take control.",
+                      "Truck driving is how many people earn money for their families, and this technology could take those jobs away."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for the government to give this special permission to just two companies instead of every trucking company?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "These two companies did the work and testing to show their system was safe enough to earn the exemption.",
+                      "New rules often start small, with a few companies trying them out before everyone gets the same chance.",
+                      "Rules should be allowed to change as technology changes, even if that means updating them one step at a time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Other trucking companies might feel left out, even if they're working just as hard on similar technology.",
+                      "Giving only two companies this advantage could help them get ahead of their competitors unfairly.",
+                      "Safety rules are supposed to apply equally to everyone, not be handed out as a special favor to a few."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Driverless Trucks Get a Legal Green Light to Skip a 70-Year-Old Safety Rule"
+          },
+          "hook": {
+            "en": "America's truck safety regulator has agreed to let two self-driving truck companies, Aurora Innovation and Kodiak AI, skip a rule that has applied to every truck on US highways for decades: when a truck breaks down, someone has to walk out and place reflective warning triangles on the road behind it. For a truck with no driver, that's impossible — so regulators are letting these companies use flashing beacons mounted on the cab instead. It's a small-sounding fix for a problem that was actually blocking driverless trucking from expanding nationwide."
+          },
+          "story": {
+            "en": [
+              "Picture a semi-truck breaking down on a dark highway shoulder. Federal law has long required the driver to walk out onto the road and place three reflective warning triangles — one close to the truck, two further back — so oncoming traffic sees the hazard in time. It's a rule written for trucks that have drivers. A driverless truck doesn't.",
+              "That gap in the rulebook has been one of the quiet but real obstacles stopping companies from running fully driverless trucks — no human in the cab at all — on public highways at scale. You can build the sensors and the software, but if you can't legally handle a breakdown without a human stepping outside, you can't operate without someone on board, which defeats much of the point.",
+              "The Federal Motor Carrier Safety Administration (FMCSA), the US agency that writes and enforces safety rules for trucks and buses, has now granted Aurora Innovation and Kodiak AI a five-year exemption from the triangle requirement. In its place, their trucks can use beacons — warning lights built into or mounted on the truck itself — that switch on automatically when the truck stops. No one needs to get out.",
+              "This is a narrow, technical-sounding change, but it removes a specific legal roadblock rather than just a symbolic one. Both companies have been testing driverless trucks on selected highway routes, often in Texas, for a while — but mostly with a safety driver on board or under tightly limited conditions. An exemption like this is part of what a company needs before it can argue, to itself and to regulators, that its trucks are ready to run with genuinely nobody aboard.",
+              "It's worth being honest about how solid this particular piece of news is. Only one outlet, TechCrunch, has reported on this specific exemption in detail — no second, independently owned newsroom has yet published its own account of it. The broader pattern, though, is well documented elsewhere: US regulators and lawmakers have been steadily adjusting rules written for human drivers to accommodate trucks that don't have any, and this exemption fits that pattern rather than standing apart from it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Trucking moves most of what you buy — groceries, clothes, furniture — across the country, and the industry has struggled for years to find enough drivers for long, often grueling highway routes. Whether driverless trucks become common on the roads you or your family drive on depends on exactly these kinds of unglamorous regulatory decisions, made one rule at a time, long before any flashy robot-truck headline."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "FMCSA"
+              },
+              "def": {
+                "en": "The Federal Motor Carrier Safety Administration, the US government agency that writes and enforces safety rules for trucks and buses."
+              }
+            },
+            {
+              "term": {
+                "en": "Exemption"
+              },
+              "def": {
+                "en": "Official permission to skip a rule that would normally apply, usually granted for a specific reason and a limited time."
+              }
+            },
+            {
+              "term": {
+                "en": "Driverless trucking"
+              },
+              "def": {
+                "en": "Trucks that drive themselves on public roads using sensors and software, without a human operator on board."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should regulators grant exemptions like this before driverless trucks have years of real-world safety data, or only after?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Approve exemptions early"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies can't gather meaningful real-world data at scale until outdated rules like the triangle requirement stop forcing a human to be on board anyway.",
+                      "A narrow, well-designed exemption — like swapping triangles for automatic beacons — solves a specific problem without lowering the actual safety bar.",
+                      "Waiting for perfect data before allowing any real deployment can freeze progress indefinitely, since the data regulators want only comes from real operation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for more evidence first"
+                  },
+                  "points": {
+                    "en": [
+                      "Highway breakdowns are exactly the kind of rare, high-stakes event where you want extensive testing before removing a long-standing human safeguard.",
+                      "Letting companies influence which rules get relaxed, before independent crash and incident data exists, risks regulators moving at the industry's pace rather than safety's.",
+                      "A five-year exemption is a long commitment to lock in before anyone outside the companies involved can fully verify the beacon system works as well as a human placing triangles."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is replacing human truck drivers with driverless trucks, over time, good for the country?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, on balance"
+                  },
+                  "points": {
+                    "en": [
+                      "Long-haul trucking is physically grueling and dangerous work, and automation can remove drivers from the most exhausting, highest-risk routes.",
+                      "The industry has faced chronic driver shortages for years, and driverless trucks could fill gaps rather than simply displace people who want the job.",
+                      "Fewer human drivers on long overnight routes could mean fewer fatigue-related crashes, which are a major cause of serious highway accidents."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, on balance"
+                  },
+                  "points": {
+                    "en": [
+                      "Trucking is one of the largest sources of stable, decent-paying jobs for workers without a college degree, and automation threatens to shrink that path.",
+                      "Communities and local economies built around trucking routes and truck stops could be hit hard if the human workforce shrinks quickly.",
+                      "Moving fast on automation before the technology and rules are fully proven shifts risk onto other drivers on the same highways, who didn't choose to be part of the experiment."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
