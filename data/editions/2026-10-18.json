@@ -1,0 +1,801 @@
+{
+  "date": "2026-10-18",
+  "window": {
+    "start": "2026-10-17T12:00:00-07:00",
+    "end": "2026-10-18T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-18T13:38:01-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump waives Russia-related sanctions, tariffs before they take effect",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump signs order waiving Graham Act sanctions on Russia"
+          },
+          "summary": {
+            "en": "This report lays out the legal mechanics of the Graham Act waiver and how it differs from a repeal, which matters for how quickly Congress could reverse it. It also details the specific Russian entities and oil buyers that were due to face new penalties."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Politics/trump-signs-order-waiving-graham-act-sanctions-russia/story?id=137341529"
+        },
+        {
+          "title": {
+            "en": "Trump waives sanctions, tariffs on Russian oil after Lindsey Graham's bill"
+          },
+          "summary": {
+            "en": "This piece focuses on Senator Graham's reaction and the awkward position Republican sanctions hawks are now in after the law they championed was waived by their own party's president. It includes direct quotes from lawmakers on both sides."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/trump-waives-sanctions-tariffs-russian-oil-lindsey-graham/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Zelenskyy urges support for new US sanctions on Russia put on hold by Trump"
+          },
+          "summary": {
+            "en": "This covers Zelenskyy's direct appeal to American and European audiences after the waiver, including his warning about Ukraine's exposure heading into winter. It gives the Ukrainian government's on-record response in full, beyond the brief quotes in other coverage."
+          },
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/zelenskyy-urges-support-for-new-u-s-sanctions-on-russia-put-on-hold-by-trump"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "President Trump Hits Pause on New Russia Punishments—For the Second Time"
+          },
+          "hook": {
+            "en": "On Friday night, President Trump signed a special paper called an executive order to stop new punishments on Russia from starting. Those punishments were due to begin just two days later. They would have made it harder for countries and companies to buy Russia's oil and gas. This is the second time in two weeks Trump has paused these planned punishments."
+          },
+          "story": {
+            "en": [
+              "Lawmakers in Congress — the group that writes America's big laws — made a rule to punish countries and companies that buy a lot of oil and gas from Russia. They did this to pressure Russia because of its war against Ukraine. People from both of America's two main political parties agreed on this rule, which is rare.",
+              "But the law also lets the president pause the punishments if he decides it's better for the country. On Friday night, just before midnight, Trump used that power to stop the new punishments from starting.",
+              "Russia's government said it liked the decision. But many lawmakers — again, from both parties — were upset. They said pausing the punishments lets Russia avoid facing consequences for the war.",
+              "Ukraine's president, Volodymyr Zelenskyy, asked people to keep speaking up for the punishments to go ahead. He said that without them, Ukraine is in more danger from Russian attacks as winter gets colder."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This shows how one person's decision can change a plan that many lawmakers agreed on together, almost like a team captain overruling a play the whole team voted for. It also matters because the choice could affect how long the war in Ukraine lasts, and how safe people there are this winter."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "sanctions"
+              },
+              "def": {
+                "en": "Sanctions are punishments, like refusing to trade or do business, that one country uses to pressure another country to change what it's doing."
+              }
+            },
+            {
+              "term": {
+                "en": "executive order"
+              },
+              "def": {
+                "en": "An executive order is a special decision a president can make just by signing one paper, without needing Congress to vote on it first."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to pause punishments that lawmakers already agreed on together?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, presidents need room to act"
+                  },
+                  "points": {
+                    "en": [
+                      "A president might learn new information lawmakers didn't know when they made the rule.",
+                      "Pausing punishments can give leaders a chance to talk things out peacefully first.",
+                      "Laws often give presidents some choice so they can react quickly when situations change."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, agreements should stick"
+                  },
+                  "points": {
+                    "en": [
+                      "Lawmakers from both parties worked hard to agree on this rule, so one person changing it undoes that teamwork.",
+                      "If rules can always be paused, they might stop meaning very much.",
+                      "Other countries may stop trusting America's promises if punishments can be dropped at any time."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is pausing the punishments the right way to try to help end the war in Ukraine?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it could help end the fighting"
+                  },
+                  "points": {
+                    "en": [
+                      "Easing pressure might encourage Russia to talk instead of fighting harder.",
+                      "Keeping communication open could help both sides find a peaceful solution faster.",
+                      "Too much pressure all at once might push leaders to react badly instead of negotiating."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it could make things worse for Ukraine"
+                  },
+                  "points": {
+                    "en": [
+                      "Without the punishments, Russia keeps earning money from oil and gas sales, which can help pay for the war.",
+                      "Ukraine's president says the pause leaves his country more open to attack.",
+                      "Removing the punishment might make Russia think it doesn't need to change its actions at all."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Pauses New Russia Sanctions for the Second Time in Two Weeks"
+          },
+          "hook": {
+            "en": "On Friday night, President Trump signed an order putting a new round of sanctions on Russian oil and gas on hold — just two days before they were due to start. It's the second time in two weeks he's used a built-in escape hatch in a law Congress passed specifically to squeeze Russia over its war in Ukraine. Russia's government called the move welcome and constructive; Ukraine's president urged his supporters to keep pushing publicly for the penalties to go ahead anyway."
+          },
+          "story": {
+            "en": [
+              "Sanctions are penalties — usually bans on trade or banking — that one country uses to pressure another without using force. After Russia invaded Ukraine, Congress passed a law, sometimes called the Graham Act after Senator Lindsey Graham who helped write it, designed to punish any country or company that keeps buying large amounts of Russian oil and gas. The idea is simple: that trade is a major source of money that funds Russia's war effort, so cutting it off should make the war more expensive for Moscow to keep fighting.",
+              "But the law also includes a safety valve called a national-interest waiver, which lets the president pause the sanctions if he decides enforcing them would hurt American interests more than help. Congress built that flexibility in on purpose — lawmakers from both parties agreed a president might sometimes need room to maneuver. The law passed with strong bipartisan support, meaning both Democrats and Republicans backed it, which usually signals a shared, firm position. Trump has now used the waiver twice in two weeks, most recently stopping a batch of sanctions and tariffs that were two days from taking effect.",
+              "The reactions split sharply. A Russian government envoy praised the pause as a constructive step. In Washington, some Democrats and even a number of Republicans criticized it as letting Russia off the hook, arguing that a law passed almost unanimously to pressure Moscow is being quietly sidestepped rather than enforced. Their objection isn't just political; it's about whether an exception Congress wrote for rare cases is instead becoming the normal way the law gets handled.",
+              "Ukrainian President Volodymyr Zelenskyy responded by asking his supporters to keep demanding publicly that the sanctions move forward anyway. His concern is timing: winter is approaching, when Russia has historically intensified attacks on Ukraine's energy grid and cities, and he argues that easing financial pressure on Moscow now leaves Ukraine more exposed exactly when it can least afford that.",
+              "What makes this harder to evaluate is that the White House hasn't said how long the pause will last or what, if anything, Russia needs to do for the sanctions to be reinstated. Without a clear deadline or condition attached, critics say it's difficult to tell whether this is a calculated diplomatic move tied to active negotiations, or simply a repeated use of a legal loophole to avoid a politically awkward confrontation with Russia."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions like this shape how expensive the war stays for Russia to keep fighting, which affects how long it drags on — and wars that go on longer tend to spill into wider instability, from refugee flows to energy prices that reach markets far from the fighting. It's also a real example of the tug-of-war between Congress and the president over who actually controls foreign policy, even when a law was passed with near-unanimous agreement."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Penalties, like trade or banking bans, that one country imposes on another to pressure it without using military force."
+              }
+            },
+            {
+              "term": {
+                "en": "National-interest waiver"
+              },
+              "def": {
+                "en": "A built-in exception in a law that lets the president pause or skip enforcing it if he judges that doing so better serves America's interests."
+              }
+            },
+            {
+              "term": {
+                "en": "Bipartisan"
+              },
+              "def": {
+                "en": "Supported by both major political parties, usually seen as a sign of especially strong or widely shared agreement."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be able to pause sanctions that Congress passed almost unanimously, just by deciding it serves the national interest?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — the president needs flexibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Foreign policy shifts quickly, and a president handling live negotiations needs room to adjust pressure rather than being locked into a decision Congress made months earlier.",
+                      "Congress itself wrote the waiver into the law, which means lawmakers agreed in advance that some situations call for presidential discretion.",
+                      "Sanctions are a tool for an outcome, not the outcome itself; if pausing them helps end the war sooner, that serves the law's real purpose better than rigid enforcement would."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — it defeats the law's purpose"
+                  },
+                  "points": {
+                    "en": [
+                      "Congress passed the sanctions with overwhelming bipartisan support specifically to stop a president from going easy on Russia.",
+                      "Using the waiver twice in two weeks, with no public conditions attached, looks less like careful diplomacy and more like a routine way to avoid the law.",
+                      "If the waiver can be used this freely, the sanctions regime Congress built has no real teeth, no matter how strongly lawmakers voted for it in the first place."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is pausing the sanctions a reasonable price for pursuing negotiations with Russia, or does it mainly reward Moscow for the invasion?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "A reasonable price for negotiation"
+                  },
+                  "points": {
+                    "en": [
+                      "Diplomacy often requires offering the other side something worth negotiating over, and sanctions relief can be a genuine bargaining chip toward a ceasefire.",
+                      "Years of sanctions haven't forced Russia to end the war, so trying a different approach isn't unreasonable.",
+                      "Strict enforcement also raises costs for countries that buy Russian oil, including partners the US needs for other priorities, so pausing avoids wider diplomatic and economic fallout."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Rewards aggression and prolongs the war"
+                  },
+                  "points": {
+                    "en": [
+                      "Pausing sanctions without Russia meeting any public conditions removes pressure while Ukraine is still under attack, not after the fighting stops.",
+                      "It signals to Moscow that sanctions deadlines are negotiable rather than firm, weakening future leverage.",
+                      "Ukrainian civilians face the war's costs directly through the winter, so delaying sanctions shifts risk onto them while Russia's revenue keeps flowing."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "France hit by wave of nationwide protests",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/17/france-wave-of-nationwide-protests"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "France's debt crisis, budget deficit and bond yields fuel protests and riots"
+          },
+          "summary": {
+            "en": "This explains the fiscal backdrop driving the unrest — France's widening deficit, rising bond yields, and the high-stakes budget vote in the National Assembly. It connects the street protests to a financial story most news coverage of the riots leaves out."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/10/17/france-debt-crisis-budget-deficit-bond-yields-spread-protests-riots/"
+        },
+        {
+          "title": {
+            "en": "Cost-of-living protests hit Belgium, Italy, Portugal and France"
+          },
+          "summary": {
+            "en": "This piece shows the French unrest was part of a wider European pattern the same day, with cost-of-living protests erupting in three other countries. It's useful for readers wanting to know whether France was an isolated flashpoint or part of a broader regional trend."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Angry Crowds Fill French Streets Over Rising Prices"
+          },
+          "hook": {
+            "en": "On Saturday, more than half a million people marched through cities in France. In Paris, some protesters set cars on fire and broke into shops. Police sprayed tear gas and water cannons to push the crowds back. It was one of the angriest protest days France has seen in years."
+          },
+          "story": {
+            "en": [
+              "France is a country in Europe. Its government just proposed a new budget — a plan for how the country spends and saves its money. Many French people are upset because food, rent, and electricity cost more than before, but their paychecks have not grown to match.",
+              "On Saturday, more than 550,000 people marched in cities across France, including Paris, Lyon, and Marseille. That is like filling a huge sports stadium five times over. High school students who had been skipping class to protest joined the crowds too.",
+              "In Paris, things turned violent. Some protesters threw objects and set fire to cars. Police fired tear gas — a spray that makes your eyes and throat burn — to break up the crowds.",
+              "France was not alone. The same day, people also protested rising prices in Belgium, Italy, and Portugal. In France, lawmakers are about to vote on the new budget, and many protesters want it changed before that vote happens."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When prices rise faster than people's paychecks, families have to cut back on things they need, like groceries or heating their home. This is happening in countries around the world, and when people feel like no one is listening, some take their anger into the streets to make leaders pay attention."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "cost of living"
+              },
+              "def": {
+                "en": "how much money a person needs just to pay for everyday things like food, rent, and electricity."
+              }
+            },
+            {
+              "term": {
+                "en": "tear gas"
+              },
+              "def": {
+                "en": "a spray police use that makes people's eyes and throat burn, so crowds scatter."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it ever okay for a protest to turn violent?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Sometimes it's understandable"
+                  },
+                  "points": {
+                    "en": [
+                      "Peaceful protests don't always get noticed by leaders.",
+                      "When people have been struggling for a long time, strong action shows how serious things are.",
+                      "Anger builds up when people feel ignored for months or years."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Violence is never okay"
+                  },
+                  "points": {
+                    "en": [
+                      "Burning cars and breaking shop windows hurts regular people, not the government.",
+                      "Violence can make people forget the real reason for the protest.",
+                      "Fixing the damage costs money that could have helped people instead."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the government change its plans because of the protests, or stick to them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Listen to the protesters"
+                  },
+                  "points": {
+                    "en": [
+                      "The protesters are showing what regular people are feeling.",
+                      "If people can't afford to live, the whole country suffers anyway.",
+                      "Ignoring huge protests can make people even angrier over time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Stick to the plan"
+                  },
+                  "points": {
+                    "en": [
+                      "The government may have good reasons, like needing to pay back money it owes.",
+                      "Changing plans every time people protest could make the country unstable.",
+                      "Leaders are chosen to make hard long-term choices, not just popular ones."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "France Erupts: Riots, Burning Cars, and a Budget Vote That Could Decide the Country's Future"
+          },
+          "hook": {
+            "en": "On Saturday, more than half a million people marched across France over the rising cost of everyday life, and in several cities the protests turned violent. Cars were set on fire and shops were looted in Paris, while police fired tear gas and sprayed water cannons to break up crowds in Paris, Lyon, and Marseille. The chaos came just days before French lawmakers vote on a budget meant to fix the country's deep debt problem."
+          },
+          "story": {
+            "en": [
+              "It started as a protest and ended as a riot. On Saturday, October 17th, hundreds of thousands of people filled the streets of France's biggest cities to protest the rising cost of living and to support striking high school students. By nightfall in Paris, some demonstrators had set cars ablaze and smashed their way into shops. Riot police responded with tear gas, a chemical spray that irritates the eyes and throat to break up crowds, and water cannons, vehicles that blast high-pressure water to push people back. Similar clashes broke out in Lyon and Marseille, France's second- and third-largest cities.",
+              "Nobody agrees on exactly how many people showed up. France's Interior Ministry, the government department that oversees police and public order, put the number above 550,000 nationwide. An earlier report from Al Jazeera had estimated just over 500,000. The gap matters less than the trend: this was a sharp escalation from earlier protests that week, which had drawn large crowds but stayed mostly peaceful. Something shifted over a few days, turning frustration into confrontation.",
+              "The anger traces back to money, specifically how little of it stretches as far as it used to. Rent, groceries, and fuel have all climbed in price faster than most people's paychecks, a situation economists call a cost-of-living crisis. That squeeze hits hardest for people already living close to the edge, which is part of why students and working families have been marching together. For many protesters, the frustration isn't abstract economics. It's not being able to afford the same groceries they bought a year ago.",
+              "Timing made this weekend especially tense. The protests landed just before a critical vote in France's National Assembly, the elected body that writes and passes the country's laws, including its budget. The budget on the table is meant to address France's public debt, the total amount of money the government owes after years of spending more than it collects in taxes. Fixing that usually means some mix of higher taxes, lower government spending, or both, and both options tend to make people furious when they're the ones paying the price.",
+              "France wasn't alone. The same day, cost-of-living protests also hit Belgium, Italy, and Portugal, suggesting the economic pressure squeezing French households is being felt well beyond France's borders. But France's protests stood out for their size and their violence, making it the clearest flashpoint in a broader European moment of public anger over who bears the cost of economic trouble."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When governments borrow heavily for years, someone eventually has to pay it back, and the fight over who pays — through higher taxes, cut services, or something else — can boil over into exactly this kind of unrest. The same tension over rising prices and who absorbs the pain shows up in debates about budgets, wages, and spending in countries far from France, including wherever you live."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "cost-of-living crisis"
+              },
+              "def": {
+                "en": "A situation where everyday prices for things like food, rent, and fuel rise faster than people's wages, making life harder to afford."
+              }
+            },
+            {
+              "term": {
+                "en": "National Assembly"
+              },
+              "def": {
+                "en": "France's main lawmaking body, similar to a parliament, where elected representatives debate and vote on laws, including the government's budget."
+              }
+            },
+            {
+              "term": {
+                "en": "public debt"
+              },
+              "def": {
+                "en": "The total amount of money a government owes after spending more than it collects in taxes over time, which it must eventually pay back."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When peaceful protest hasn't worked, is it ever justified for demonstrators to turn to violence, like burning cars or looting shops?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Sometimes justified"
+                  },
+                  "points": {
+                    "en": [
+                      "When governments ignore years of peaceful protest, disruptive action may be the only thing that forces them to pay attention.",
+                      "History shows that some of the most important social changes came after unrest, not despite it, because calm protests are easy for those in power to dismiss.",
+                      "Targeting property rather than people keeps the anger visible without crossing into violence against individuals."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Never justified"
+                  },
+                  "points": {
+                    "en": [
+                      "Violence gives the government an easy excuse to focus on condemning rioters instead of addressing the underlying economic complaints.",
+                      "Innocent shop owners and bystanders bear the cost of property damage, not the officials actually responsible for the policies being protested.",
+                      "Peaceful movements tend to keep public sympathy longer, while riots can turn public opinion against the very cause protesters are fighting for."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a country has run up a lot of debt, should it prioritize paying that debt down even if it means painful cuts or tax hikes right now?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pay it down now"
+                  },
+                  "points": {
+                    "en": [
+                      "Debt left unpaid keeps growing through interest, making the eventual fix even harder on future generations.",
+                      "Lenders and markets can lose confidence in a country that keeps borrowing without a plan, which can make everything more expensive, including everyday loans.",
+                      "Facing short-term pain honestly is fairer than quietly passing an even bigger bill to people who aren't old enough to vote on it yet."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Protect spending now"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting spending or raising taxes during a cost-of-living crisis piles more pressure on people who are already struggling the most.",
+                      "Government spending on things like healthcare and education often pays for itself over time by keeping the economy and workforce strong.",
+                      "Debt taken on to support people through hard times isn't automatically irresponsible, since it can prevent deeper economic damage later."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "'No Kings' coalition pushes early voting in new nationwide day of action",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/17/nx-s1-6004887/no-kings-voting-trump"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "'No Kings' rallies across U.S. urge voters to cast ballots early ahead of midterms"
+          },
+          "summary": {
+            "en": "This gives a fuller geographic picture of where events were held and what organizers said about the strategic shift toward voting rather than marching. It includes voices from local organizers describing how they're adapting the movement for the midterm cycle."
+          },
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/nation/no-kings-rallies-across-u-s-urge-voters-to-cast-ballots-early-ahead-of-midterms"
+        },
+        {
+          "title": {
+            "en": "'No Kings' coalition shifts to action ahead of midterms"
+          },
+          "summary": {
+            "en": "This piece looks at the coalition's internal strategy discussions and funding behind the turnout push, giving context on who organizes 'No Kings' and how it has evolved since its first marches. It's useful for readers wanting to know who is actually behind the events."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/state-watch/6155983-no-kings-coalition-action-protests/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "'No Kings' movement bets on early voting to translate protest into power"
+          },
+          "summary": {
+            "en": "This analysis piece examines whether street-protest energy can actually convert into midterm votes, drawing on political scientists and past movements. It's a good next step for readers wanting to think critically about the effectiveness of the strategy rather than just the turnout numbers."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/17/no-kings-midterm-elections/ad95c2e4-ca52-11f1-aefb-abe4112d087e_story.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Big Group That Marches Against the President Tries Something New: Getting People to Vote"
+          },
+          "hook": {
+            "en": "For almost two years, a group called 'No Kings' has organized huge marches against President Trump. On Saturday, October 17, they tried something different. Instead of just marching, they held gatherings across the country to encourage people to vote early in next year's elections."
+          },
+          "story": {
+            "en": [
+              "Thousands of people showed up at rallies and community events in many cities and towns. The groups that ran these events said they weren't protests this time, they were about voting.",
+              "But here's the thing: it's the same organizers who ran the anti-Trump marches before. And the people showing up were mostly folks who don't like what President Trump is doing. So even though they called it 'nonpartisan' (meaning not picking a political side), it was clearly aimed at getting Trump's opponents to vote.",
+              "Elections called midterms happen next year, in 2026. These are elections for Congress, which is the part of government that makes laws, held halfway between presidential elections. The 'No Kings' group wants people who disagree with the president to actually show up and vote, not just march in the streets.",
+              "Nobody knows yet how many people total showed up, and nobody can tell yet if this new voting push will actually change how many people vote. That part we'll find out later."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine your class is voting on a field trip, but only half the kids who want pizza park actually turn in their vote. The side that shows up and votes wins, even if more kids secretly wanted something else. This group is trying to make sure the people who oppose the president actually show up and vote, because showing up is what decides elections, not just having an opinion."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "midterm elections"
+              },
+              "def": {
+                "en": "Elections for Congress that happen in the middle of a president's four-year term, not when the president is being chosen."
+              }
+            },
+            {
+              "term": {
+                "en": "nonpartisan"
+              },
+              "def": {
+                "en": "Not favoring any one political side or party, at least in name."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it okay for a group to call itself 'nonpartisan' even though almost everyone who joins agrees on one political side?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "The event itself was about voting, which anyone can do no matter their opinion.",
+                      "People naturally join groups that match what they already believe, that doesn't make the event dishonest.",
+                      "Encouraging anyone to vote, even if one side shows up more, still helps democracy overall."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's misleading"
+                  },
+                  "points": {
+                    "en": [
+                      "If everyone involved is against one president, calling it neutral hides what it really is.",
+                      "Words matter, and 'nonpartisan' is supposed to mean no side is being pushed.",
+                      "People might trust the event more than they should if they think it's not political."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is marching in the streets or getting people to vote a better way to make change happen?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Marching is better"
+                  },
+                  "points": {
+                    "en": [
+                      "Big crowds in the streets get noticed by news cameras and leaders right away.",
+                      "Marching shows passion and can bring strangers together instantly around one cause.",
+                      "It can pressure leaders to act quickly, without waiting a whole year for an election."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Voting is better"
+                  },
+                  "points": {
+                    "en": [
+                      "Voting actually changes who has power, marching alone doesn't elect anyone.",
+                      "A vote count is a clear, final result, while a march's impact is hard to measure.",
+                      "More people can vote from home or a mailbox than can travel to a big city march."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The 'No Kings' Protests Traded Signs for Ballots — and Called It Nonpartisan"
+          },
+          "hook": {
+            "en": "On Saturday, the coalition behind nearly two years of big anti-Trump marches tried something different: instead of just protesting, it organized a nationwide push to get people voting early ahead of next year's midterm elections. Thousands turned out for rallies and local gatherings. The organizers called it a nonpartisan voter-turnout effort, even though it was run by the same group behind the anti-Trump marches and was clearly aimed at mobilizing voters who oppose the president."
+          },
+          "story": {
+            "en": [
+              "Saturday's events looked, on the surface, like a lot of other political gatherings: people showing up at parks, churches, and community centers, carrying signs, talking about registering to vote. But the group behind them, known as 'No Kings,' has spent almost two years organizing large protest marches against President Trump and his policies. This time, instead of marching, they focused on something more practical — getting people to cast their ballots early, months before the actual 2026 midterm elections (the elections held partway through a president's four-year term, when all of the House of Representatives and about a third of the Senate are up for a vote).",
+              "The organizers insisted the day was 'nonpartisan,' meaning not tied to one political side. Early voting itself is genuinely neutral — it's simply a system, used in most states, that lets people vote days or weeks before election day instead of only on one specific Tuesday. Encouraging people to use it isn't inherently a Democratic or Republican act. But the coalition running the push is openly opposed to Trump, and the voters most likely to show up at a 'No Kings' event are the ones already inclined to vote against him and his allies in Congress. Calling that neutral is a stretch that depends on how literally you define the word.",
+              "This matters because it signals a strategic pivot. Mass marches are dramatic — they produce striking photos, they dominate news cycles for a day, and they can make a movement feel large and urgent. But marches don't directly translate into election results unless the people marching actually vote, and historically a lot of protest energy doesn't survive the walk home. By shifting toward organized early-voting drives, the coalition is betting that turning marchers into voters — and getting them to vote before anything can go wrong on election day — does more to actually shape who holds power in Washington.",
+              "No one has an official count of how many people showed up nationwide, and it will likely be months before anyone can tell whether the day of action actually moved early-voting numbers in a measurable way. Voter turnout is affected by dozens of factors — the weather, the candidates on the ballot, how close a race looks — and isolating the effect of one day of organizing is difficult even for professional political scientists with access to detailed voting data.",
+              "Still, the attempt itself tells you something about where American politics is heading as the midterms approach. Protest movements that started as reactions to specific decisions or events increasingly see elections, not demonstrations, as the real battlefield — a sign that organizers believe changing who sits in Congress matters more, in the long run, than changing headlines for a day."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Midterm elections decide who controls Congress, which in turn decides whether a president's agenda passes easily or gets blocked — so a shift like this could shape laws that affect taxes, healthcare, and other everyday issues long after this particular news cycle fades. It's also a useful case study in how political language works: calling something 'nonpartisan' doesn't automatically make it so, and learning to spot that gap is a skill worth having no matter which side of an issue you're on."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "U.S. elections held two years into a president's four-year term, when all House seats and about a third of Senate seats are decided."
+              }
+            },
+            {
+              "term": {
+                "en": "Early voting"
+              },
+              "def": {
+                "en": "A system, used in most U.S. states, that lets people cast their ballot days or weeks before the official election day."
+              }
+            },
+            {
+              "term": {
+                "en": "Nonpartisan"
+              },
+              "def": {
+                "en": "Not favoring or tied to any one political party or side, at least in theory."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it honest for the organizers to call this a 'nonpartisan' event?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was fair to call it nonpartisan"
+                  },
+                  "points": {
+                    "en": [
+                      "Encouraging early voting helps the democratic process regardless of who people end up voting for.",
+                      "The event didn't tell people which candidates or parties to support, only that they should vote.",
+                      "Lots of civic organizations hold voter-turnout drives while having known political leanings, and that's an accepted part of American political life."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, calling it nonpartisan was misleading"
+                  },
+                  "points": {
+                    "en": [
+                      "The organizing coalition has spent two years explicitly protesting one president and his policies.",
+                      "The people likely to attend were overwhelmingly those already opposed to Trump, so the practical effect was one-sided even if the message was general.",
+                      "Using neutral-sounding language for a clearly aligned effort can make it harder for the public to evaluate what's actually happening."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is shifting from mass protest marches to organized voting drives a smarter strategy for a political movement?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, voting drives are the smarter move"
+                  },
+                  "points": {
+                    "en": [
+                      "Elections actually change who holds power, while marches mostly generate attention without a guaranteed follow-through.",
+                      "Organizing people to vote early locks in support before anything unexpected can happen closer to election day.",
+                      "It channels energy into something measurable and lasting rather than a single day's headlines."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, marches have advantages a voting drive lacks"
+                  },
+                  "points": {
+                    "en": [
+                      "Mass demonstrations create visible, dramatic pressure that can shift public opinion or force a political response in ways a quiet voter drive can't.",
+                      "Protests can draw in people who aren't yet committed voters, while turnout drives mostly reach people already inclined to vote that way.",
+                      "Without the visibility of large marches, a movement risks fading from public attention between election cycles."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
