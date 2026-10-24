@@ -1,0 +1,822 @@
+{
+  "date": "2026-10-24",
+  "window": {
+    "start": "2026-10-23T12:00:00-07:00",
+    "end": "2026-10-24T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-24T12:29:06-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Cook Political Report: Democrats gain ground in 19 House seats",
+        "publisher": "The Hill",
+        "url": "https://thehill.com/homenews/campaign/6167727-cook-political-report-democrats-19-house-seats"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Democrats may flip between 12 and 22 seats, Cook Political Report estimates"
+          },
+          "summary": {
+            "en": "The Washington Post breaks down the Cook Report's methodology and what a 12-to-22-seat swing would mean for House control. It gives historical context on past wave elections for comparison."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/10/23/democrats-may-flip-between-12-22-seats-cook-political-report-estimates/"
+        },
+        {
+          "title": {
+            "en": "Cook Report moves 18 House races toward Democrats"
+          },
+          "summary": {
+            "en": "This Axios piece from two weeks earlier shows the prior version of the same forecast, letting readers see how quickly the outlook has moved in Democrats' direction. It's useful for tracking the trend rather than a single snapshot."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/10/09/cook-report-18-house-races-move-democrats"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Midterm election live updates"
+          },
+          "summary": {
+            "en": "CNN's live blog from October 23 captures reaction to the forecast shift alongside dueling campaign events. It's a running account for readers who want same-day detail."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/23/politics/live-news/midterm-election-congress"
+        },
+        {
+          "title": {
+            "en": "Midterm election live updates"
+          },
+          "summary": {
+            "en": "The October 24 follow-up live blog covers Obama's Ohio rally for Democrats as the campaign trail heats up. It extends the story a day further into the weekend."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/24/politics/live-news/midterm-election-congress"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Big Scorekeeper Says One Team Is Pulling Ahead in America's Election Race"
+          },
+          "hook": {
+            "en": "In the United States, people are about to vote for 435 seats in a part of government called the House of Representatives. A respected group that predicts elections just said one political party, the Democrats, looks likely to win a lot more seats than expected. That could change who gets to make big decisions in the country for the next two years."
+          },
+          "story": {
+            "en": [
+              "Imagine a classroom where everyone votes for new class monitors every two years. In the United States, something similar happens for a group called the House of Representatives. It has 435 seats, and right now, one party called the Republicans controls more of them.",
+              "A group called the Cook Political Report studies these elections closely. Lots of politicians and reporters trust their predictions. On Friday, they said Democrats could flip somewhere between 12 and 22 seats away from Republicans. If it's a high number, it would be bigger than any swing in nearly 20 years.",
+              "This news came out while top politicians were busy trying to help their teams. President Trump gave a speech in Florida. Former President Obama gave speeches in Ohio to help Democrats. Both were trying to convince people how to vote before Election Day arrives in November.",
+              "Whoever controls the House gets to help decide what new laws get made, and they can also check on what the President is doing. So this isn't just about numbers on a scoreboard. It's about who has more power in the country for the next two years. But nothing is final yet. These are just predictions, and the real answer comes when people actually vote."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if you can't vote yet, decisions made by the House of Representatives can affect things like how much money schools get, what gets taxed, and what new rules exist. Who wins these elections can shape life for families like yours."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "House of Representatives"
+              },
+              "def": {
+                "en": "A group of 435 elected people in the U.S. government who help make laws, with each person representing a different area of the country."
+              }
+            },
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "A U.S. election that happens in between presidential elections, where people vote for Congress members like those in the House."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for former presidents, like Obama, to keep giving speeches to help their political party even after they're no longer in office?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Former leaders still care about their country and want to help guide it.",
+                      "People listen to them because they earned trust and experience while in office.",
+                      "Anyone, including former presidents, has the right to speak and support candidates they believe in."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Former presidents have a louder voice than regular citizens, which can overpower other opinions.",
+                      "It can make elections feel more like a popularity contest between big names instead of about new ideas.",
+                      "It might pressure voters to think about old leaders instead of judging today's candidates on their own merit."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a good thing when predictions, like this one from Cook Political Report, get so much public attention before an election happens?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's good"
+                  },
+                  "points": {
+                    "en": [
+                      "It helps people understand what's happening and feel informed before they vote.",
+                      "It can make campaigns work harder because they see how close or far apart the race might be.",
+                      "Sharing predictions is part of free, open discussion about democracy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not good"
+                  },
+                  "points": {
+                    "en": [
+                      "Some people might decide not to vote if they think the outcome is already obvious.",
+                      "Predictions can sometimes turn out wrong, and people might trust them too much.",
+                      "It can distract from real issues candidates care about, turning the election into a guessing game."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Election Forecasters Say Democrats Could Have a Very Good Night in November"
+          },
+          "hook": {
+            "en": "With less than two weeks until the U.S. midterm elections, a respected nonpartisan group that predicts election results shifted its forecasts for 19 House of Representatives races in Democrats' favor. The group now thinks Democrats could gain anywhere from 12 to 22 seats, a range that at its top end would beat the famous \"wave\" elections of 2006 and 2018. Both parties are scrambling to respond, with former presidents and the current one campaigning hard in swing states this weekend."
+          },
+          "story": {
+            "en": [
+              "Every two years, Americans vote not just for president but for all 435 seats in the House of Representatives, the larger of the two chambers of Congress. These votes, held in the years between presidential elections, are called midterm elections, and they matter because whichever party controls the House gets to decide what bills come up for a vote and can launch investigations into the White House. Right now, Republicans hold a narrow majority, meaning Democrats only need to flip a relatively small number of seats — win districts currently held by Republicans — to take control.",
+              "On Friday, October 23, the Cook Political Report, a forecasting outfit that both parties treat as credible because it doesn't openly favor either side, moved its ratings on 19 separate House races toward the Democrats. That's not a small tweak. The report now estimates Democrats are likely to gain somewhere between 12 and 22 seats. To put that upper number in context: in 2006, when voter anger over the Iraq War helped Democrats take the House, they gained 31 seats. In 2018, reacting to Donald Trump's first term, they gained 41. A 22-seat swing wouldn't quite match those historic \"wave\" years, where one party sweeps up seats across the map, but it would be close, and some individual races in this new round of ratings are shifting as if a wave is already building.",
+              "What makes this notable is that it's not a one-time blip. Two weeks earlier, on October 9, Cook had already moved 18 seats toward Democrats. Normally you'd expect some of that movement to reverse as Election Day approaches and undecided voters make up their minds in unpredictable directions. Instead, the trend accelerated — more seats moved the same direction, not back the other way. That pattern is what political strategists watch most closely, because a steady drift usually reflects something real happening with voters, not just noise in the polling.",
+              "The political fight on the ground matches the numbers. President Trump held a rally in Florida, and former President Obama spent Saturday, October 24, campaigning in Ohio for Democratic candidates — a reminder that both parties see these races as genuinely competitive enough to deploy their biggest names. Midterms are historically rough for whichever party holds the White House, since they often become a referendum on how the sitting president is doing rather than a vote on local issues, and campaigns on both sides are leaning into that dynamic.",
+              "None of this means the outcome is settled. Forecasts like Cook's are built from polling, fundraising numbers, and how individual candidates are performing — all things that can shift again before voters actually cast ballots. Close races can break either way at the last minute, and a forecaster moving a rating doesn't mean the seat is decided; it means the odds have changed. What's clear is that control of the House, and with it the ability to pass or block legislation for the next two years, is genuinely up for grabs, and the people running campaigns on both sides are treating it that way."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whoever controls the House after this election decides what gets voted on in Congress for the next two years — including budgets, new laws, and whether to investigate the president — so this isn't just a number on a forecasting website, it shapes what the U.S. government can actually do. If you're following politics for the first time, this is also a good moment to see how election predictions work: they're informed estimates built from real data, not guarantees, and they can and do change right up until votes are counted."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "midterm elections"
+              },
+              "def": {
+                "en": "U.S. elections held halfway through a president's four-year term, where voters choose all of the House of Representatives and about a third of the Senate, without the president on the ballot."
+              }
+            },
+            {
+              "term": {
+                "en": "flip a seat"
+              },
+              "def": {
+                "en": "When a political seat held by one party is won by the opposing party in the next election."
+              }
+            },
+            {
+              "term": {
+                "en": "wave election"
+              },
+              "def": {
+                "en": "A U.S. election year where one party wins an unusually large number of seats, often driven by widespread dissatisfaction with the party in power."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should news organizations publish detailed election forecasts so close to voting day?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, publish them"
+                  },
+                  "points": {
+                    "en": [
+                      "Voters have a right to the best available information about how competitive their vote actually is.",
+                      "Forecasts are built transparently from public polling and data, so readers can judge the evidence themselves rather than being kept in the dark.",
+                      "Campaigns already have access to this kind of analysis privately, so publishing it publicly just levels the playing field for ordinary citizens."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, hold off"
+                  },
+                  "points": {
+                    "en": [
+                      "Forecasts can discourage people from voting if they think a race is already decided, even though predictions are often wrong.",
+                      "A widely publicized forecast can itself become a story that distracts from the actual issues candidates are campaigning on.",
+                      "Because these numbers can shift again before Election Day, publicizing them so close to the vote risks shaping opinion based on information that may soon be outdated."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does it matter more who controls Congress, or that power stays divided between the parties?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Control matters"
+                  },
+                  "points": {
+                    "en": [
+                      "A party with a clear majority can actually pass laws and follow through on what it promised voters, instead of everything stalling.",
+                      "Divided government often leads to gridlock, where urgent problems go unaddressed because neither side can get enough votes.",
+                      "Voters deserve a government that can be held accountable for results, which is harder when power is split and each side blames the other."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Division is healthy"
+                  },
+                  "points": {
+                    "en": [
+                      "When one party doesn't control everything, it forces compromise and stops any single group from pushing through extreme changes unchecked.",
+                      "A House controlled by the opposing party can investigate and limit a president's power, which is an important check built into the system.",
+                      "Divided government often produces more durable laws, since anything that does pass had to survive scrutiny from both sides."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "US business activity expands as prices surge by most since 2022",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-23/us-business-activity-expands-prices-surge-by-most-since-2022"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Inflation warning sign flashes in new data"
+          },
+          "summary": {
+            "en": "This Axios piece from earlier in October, examining consumer price data, gives independent context on inflation pressure building before the flash PMI confirmed it. It's a different outlet and a different data source, useful as a cross-check."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/10/14/inflation-warning-sign-cpi"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "United States Manufacturing PMI"
+          },
+          "summary": {
+            "en": "This data reference page lets readers see the historical trend of the manufacturing PMI over time, putting October's reading in longer-term perspective. It's a primary data source rather than a news article."
+          },
+          "publisher": "Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/manufacturing-pmi"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "American Businesses Are Still Growing Fast — But Prices Are Climbing Too"
+          },
+          "hook": {
+            "en": "A big survey of American businesses came out on Friday, October 23. It found that companies are still growing quickly — almost as fast as any time in the last few years. But there's a catch: businesses are also raising their prices faster than they have in over four years."
+          },
+          "story": {
+            "en": [
+              "Imagine a thermometer that doesn't measure heat, but measures how busy businesses are. Every month, a company called S&P Global asks thousands of businesses across America simple questions: Are you selling more? Are you hiring more people? Are your costs going up?",
+              "They turn the answers into one number. If the number is above 50, businesses are growing. If it's below 50, they're shrinking. This month's number was 57.6 — way above 50, meaning business is strong. That's actually a tiny bit lower than last month's number, but it's still one of the highest scores in years.",
+              "Here's the twist. Companies said they're charging their customers more money than usual — the fastest price increases in over four years. That's a problem because when prices rise quickly everywhere, it's called inflation, and it makes everyday things cost more for everyone.",
+              "This puts a group called the Federal Reserve in a tricky spot. The Federal Reserve is like the manager of the whole U.S. economy. They've been thinking about making it cheaper to borrow money, which usually helps businesses and families. But if prices are already rising fast, doing that could make inflation even worse."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When businesses raise their prices, it can mean your family pays more for things like groceries, toys, or a trip to a restaurant. The decisions the Federal Reserve makes about money also affect things like how expensive a house or a car loan is for grown-ups you know."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "inflation"
+              },
+              "def": {
+                "en": "Inflation means prices for things people buy are going up faster than usual, so the same amount of money buys less."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The Federal Reserve is a government group in charge of keeping America's money and economy working smoothly, partly by deciding how expensive it is to borrow money."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a business to charge more money just because people are willing to pay it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Businesses have their own costs going up too, like materials and workers' pay.",
+                      "If people keep buying things even at higher prices, that shows the price isn't too high.",
+                      "A business needs to make enough money to stay open and keep paying its workers."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Families who don't have much extra money get hurt the most when prices jump.",
+                      "Some businesses might raise prices more than their costs actually went up, just because they can.",
+                      "Things like food and medicine shouldn't get more expensive just because a business wants bigger profits."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the Federal Reserve make borrowing money more expensive to try to slow down rising prices, even though it might also slow down how fast businesses grow?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, slow things down"
+                  },
+                  "points": {
+                    "en": [
+                      "If prices keep rising quickly, everyday things become harder for families to afford.",
+                      "Acting early might stop a bigger inflation problem from happening later.",
+                      "A little less growth now could mean steadier prices for everyone in the future."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep things as they are"
+                  },
+                  "points": {
+                    "en": [
+                      "Businesses are hiring more people right now, and slowing growth could mean fewer new jobs.",
+                      "The economy is still healthy, so some leaders think there's no need to interfere yet.",
+                      "Making borrowing pricier can make it harder for families to buy homes or cars."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "US Businesses Are Still Booming — But So Are the Prices They Charge"
+          },
+          "hook": {
+            "en": "A major survey released Friday found that American businesses are still growing strongly this October, almost as fast as any month since 2022. But the same survey showed something that worries economists: the prices companies charge are rising at their fastest pace in over four years, which could make it harder for the Federal Reserve to cut interest rates."
+          },
+          "story": {
+            "en": [
+              "Every month, a company called S&P Global surveys thousands of American businesses — factories, shops, service companies — and asks a simple question: is business getting better or worse? The answers get turned into a number called the composite index. Anything above 50 means the economy is growing; anything below means it's shrinking. This October, the number came in at 57.6. That's down slightly from September's 58.4, but it's still the second-highest reading since 2022, meaning businesses are telling surveyors that demand remains strong, they're hiring more people, and new orders keep coming in.",
+              "Here's the catch. Buried inside that same survey is a smaller measure that tracks how fast businesses are raising the prices they charge their customers — for everything from a haircut to a hotel room to a hammer. That measure jumped to its fastest pace in more than four years. In plain terms: companies are busy and confident enough that they feel they can charge more, and customers are still paying it.",
+              "That combination — strong growth plus rising prices — puts the Federal Reserve, the United States' central bank, in an awkward spot. The Fed's main tool for managing the economy is the interest rate it sets, which ripples out to affect the cost of mortgages, car loans, and credit cards across the whole country. When inflation (the general rise in prices over time) is a worry, the Fed usually wants to keep interest rates higher, because expensive borrowing cools down spending and takes pressure off prices. But when growth looks fragile, the Fed wants to cut rates to make borrowing cheaper and keep the economy moving. Right now, this single survey is handing the Fed arguments for both actions at once.",
+              "It's worth being clear about where this information comes from. Bloomberg, a financial news service, did the original reporting on the S&P Global data. A version of the same story also appeared on Yahoo Finance, but it's the identical Bloomberg article running on a different website — not a second newsroom independently checking the numbers. That matters because when only one organisation has actually reported a story, readers should treat it as one account of events, not confirmation from two separate sources.",
+              "None of this tells us yet whether the price pressure in this survey will actually show up in the government's official inflation reports, which come from a different, more thorough measurement process and are what the Fed watches most closely. Economists will be looking closely at those numbers over the coming months to see whether this is the start of a real trend or just a blip in one survey."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If businesses keep raising prices the way this survey suggests, things you or your family buy regularly — food, clothes, services — could get noticeably more expensive. And if the Fed decides to keep interest rates higher to fight that, it gets pricier for families to borrow money for things like a car or a home, even while the job market stays strong."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Composite index"
+              },
+              "def": {
+                "en": "A single number built from survey answers that sums up whether business activity overall is growing or shrinking, with 50 as the dividing line."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "A general, ongoing rise in the prices of goods and services, which means each dollar buys a little less over time."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The central bank of the United States, which sets interest rates to try to keep the economy growing steadily without letting prices rise too fast."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Federal Reserve focus on fighting inflation right now, even if that means not helping growth along?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fight inflation first"
+                  },
+                  "points": {
+                    "en": [
+                      "Rising prices hurt lower-income families most, since they spend a bigger share of their money on basics like food and rent.",
+                      "History shows that letting inflation run for too long before acting can make it much harder and more painful to bring back down later.",
+                      "The survey shows the economy is already growing fast, so it doesn't obviously need an extra push from lower interest rates."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Support growth first"
+                  },
+                  "points": {
+                    "en": [
+                      "A single survey can shift quickly, and overreacting to one warning sign risks tipping a strong economy into a slowdown.",
+                      "Higher interest rates make it more expensive for ordinary families to buy homes or cars and for small businesses to expand.",
+                      "Some of this price pressure might come from temporary supply problems rather than a lasting trend, so cutting rates could still be safe."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is strong business growth good news for ordinary people even when it comes with rising prices?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's good news"
+                  },
+                  "points": {
+                    "en": [
+                      "More hiring and more new orders usually mean more jobs available and, eventually, higher wages.",
+                      "A growing economy brings in more tax revenue that can fund schools, roads, and other public services.",
+                      "Some rise in prices is a completely normal part of a healthy, expanding economy, not a sign of trouble."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not that simple"
+                  },
+                  "points": {
+                    "en": [
+                      "If wages don't rise as fast as prices, workers can end up worse off even while headlines call the economy 'strong.'",
+                      "Inflation hits poorer households hardest, since they can't easily absorb higher costs for essentials.",
+                      "A single growth number can hide very uneven outcomes — some industries and workers may be thriving while others fall behind."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Gunmen open fire inside Greek Orthodox church in Jordan during funeral",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Gunmen attack Greek Orthodox church in Jordan, killing several"
+          },
+          "summary": {
+            "en": "The Washington Post's account lays out what is known about the attack and the setting of the funeral service in Karak. It offers a second independent accounting of the death toll for comparison."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/23/jordan-gunmen-greek-orthodox-church-deaths-karak/9127b3b8-cee1-11f1-ac04-9f58578a68b4_story.html"
+        },
+        {
+          "title": {
+            "en": "Gunmen open fire at church funeral in Jordan, killing 7, wounding 40"
+          },
+          "summary": {
+            "en": "NBC News corroborates the CBS death toll and adds detail on the wounded, who were taken to hospitals across the Karak region. It's useful as a cross-check against the lower government figure."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/middle-east/gunmen-open-fire-church-funeral-jordan-killing-7-wounding-40-rcna605287"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Jordanian government spokesperson: 6 killed, 28 wounded in church attack"
+          },
+          "summary": {
+            "en": "This ABC News wire story carries the lower, official government casualty figure, showing readers why the toll remains disputed. It's the clearest primary-source statement from Jordanian authorities."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/wireStory/jordanian-government-spokesperson-6-killed-28-wounded-church-137507162"
+        },
+        {
+          "title": {
+            "en": "Jordan's King Abdullah orders firm response after deadly church attack"
+          },
+          "summary": {
+            "en": "Al Jazeera, which is funded by the Qatari government, reports the king's vow to respond firmly, giving a sense of the political aftermath. Readers should weigh this alongside independently owned outlets given the funding source."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/24/jordans-king-abdullah-orders-firm-response-after-deadly-church-attack"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Gunmen Attack Funeral at a Church in Jordan"
+          },
+          "hook": {
+            "en": "On Friday, people had gathered inside a church in the country of Jordan to say goodbye to someone who died. While they were mourning, gunmen opened fire on the crowd. Different news organizations are reporting different numbers of people killed, somewhere between 6 and 9, with dozens more hurt. Jordan's king has promised a strong response, but no one has said yet who did this or why."
+          },
+          "story": {
+            "en": [
+              "People were inside a Greek Orthodox church in a Jordanian city called Karak. A Greek Orthodox church is a kind of Christian church. The people inside were at a funeral, which is a gathering where family and friends remember someone who has died.",
+              "While the funeral was happening, gunmen came and started shooting at the people inside. This kind of attack on a funeral, in a church, is extremely rare in Jordan. Jordan is a country that has mostly stayed peaceful even though it sits next to places that have had a lot of violence.",
+              "News organizations don't all agree on exactly how many people died. Some say at least 7 died and about 40 were hurt. One report says 9 died. A spokesperson for Jordan's government says 6 died and 28 were hurt. Nobody knows for certain yet, and nobody has said who the gunmen were or why they did this.",
+              "Jordan's king, King Abdullah, said on Saturday that his country would respond firmly to the attack. That means people expect the police and government to work hard to find whoever is responsible and make sure something like this doesn't happen again."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Funerals and churches are places where people expect to feel safe, like your school or your home. When an attack happens somewhere like that, it makes people everywhere wonder whether the places they gather peacefully are truly safe. It also shows why getting facts right really matters, because even grown-up news reporters don't always agree on exactly what happened right away."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "mourners"
+              },
+              "def": {
+                "en": "Mourners are people who gather together to feel sad and remember someone who has died."
+              }
+            },
+            {
+              "term": {
+                "en": "motive"
+              },
+              "def": {
+                "en": "A motive is the reason someone does something, especially something bad; right now nobody has said what the motive for this attack was."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When news reports don't agree on how many people were hurt, should reporters share their best guess right away, or wait until everyone is sure?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share it now"
+                  },
+                  "points": {
+                    "en": [
+                      "People deserve to know as much as possible, as soon as possible, even if the numbers might change.",
+                      "Waiting for perfect certainty could mean waiting days, and that feels unfair to people who want answers.",
+                      "Sharing different reports side by side, like this one does, still lets people see the full picture."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until sure"
+                  },
+                  "points": {
+                    "en": [
+                      "Getting the number wrong could scare people more than necessary, or not enough.",
+                      "Families of people involved deserve accurate information, not guesses that might be corrected later.",
+                      "Confusing, conflicting numbers can make people trust the news less overall."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should places where people gather to pray or mourn have guards or security, even if it changes how peaceful and open they feel?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, add security"
+                  },
+                  "points": {
+                    "en": [
+                      "Keeping people safe is more important than keeping a place feeling relaxed.",
+                      "Guards might stop an attack like this before it happens.",
+                      "Many important places, like airports, already have security, so this wouldn't be unusual."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep it open"
+                  },
+                  "points": {
+                    "en": [
+                      "Churches and funerals are meant to feel welcoming and peaceful, not guarded.",
+                      "Most funerals and prayers happen safely every single day without any guards at all.",
+                      "Adding guards everywhere could make people feel more afraid, not less."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Gunmen Attack Mourners at a Church Funeral in Jordan"
+          },
+          "hook": {
+            "en": "On Friday, October 23, gunmen opened fire inside a Greek Orthodox church in the Jordanian city of Karak, where a funeral was underway. People died and dozens more were wounded, though news organizations and the Jordanian government have given different counts of exactly how many. As of now, nobody has said who did it or why."
+          },
+          "story": {
+            "en": [
+              "It happened during a funeral — a moment when a community gathers specifically because someone has already died, and expects, reasonably, to be safe doing it. Mourners had packed into a Greek Orthodox church in Karak, a city in southern Jordan, when gunmen started shooting. It is the kind of attack that is rare almost anywhere, and especially rare in Jordan.",
+              "Exactly how many people were killed is still unsettled, and that's worth sitting with rather than smoothing over. CBS News, The Washington Post, and NBC News each reported at least 7 dead and about 40 wounded. CNN, reporting separately, put the death toll at 9. A spokesperson for the Jordanian government, meanwhile, told ABC News that 6 people were killed and 28 wounded. These aren't wild contradictions — in the chaos right after a shooting, hospitals, witnesses, and officials are often counting different things at different times — but it means no single number here should be treated as final yet.",
+              "Jordan matters to this story's size. It's a country with a Muslim majority and a small, long-established Christian minority, and unlike several of its neighbors, it has largely stayed outside the sectarian violence — attacks aimed at people specifically because of their religious or ethnic group — that has repeatedly torn through other parts of the Middle East. That reputation for relative calm is a big part of why an attack like this one, inside a church, during a funeral, is making headlines well beyond Jordan's borders.",
+              "Jordanian authorities have not named a motive or identified any suspects. That silence is its own kind of information: it means every explanation currently circulating is speculation, not confirmed fact, however confidently it might be stated.",
+              "The one official response so far came from King Abdullah, Jordan's monarch, who on Saturday ordered what was described as a firm response to the attack. That description comes from Al Jazeera, a news outlet funded by the government of Qatar — a fact worth keeping in mind, since a state-funded outlet covering a neighboring government's response isn't the same as independent reporting, even when nothing it says is false."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When gunfire reaches a funeral inside a church, it's an attack on the idea that grief and worship are supposed to be off-limits — a line that, once crossed, makes people everywhere wonder what else might not be safe. It's also a reminder that in the first chaotic hours after any violent event, even something as basic as a death toll can be genuinely unsettled, not just inconvenient to report."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Greek Orthodox"
+              },
+              "def": {
+                "en": "A branch of Christianity with its own ancient traditions and leadership, practiced by communities across the Middle East, Greece, and elsewhere."
+              }
+            },
+            {
+              "term": {
+                "en": "Sectarian violence"
+              },
+              "def": {
+                "en": "Violence aimed at people specifically because of their religious or ethnic group, rather than because of anything they personally did."
+              }
+            },
+            {
+              "term": {
+                "en": "State-funded outlet"
+              },
+              "def": {
+                "en": "A news organization financially supported by a government, which can shape what stories it covers and how, even when its reporting is accurate."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should news organizations publish different death tolls from different sources right away, or wait until there's one confirmed number?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report it now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting for a single confirmed number can take days, and people affected deserve information as soon as it exists.",
+                      "Showing the range of counts honestly reflects the real uncertainty, rather than pretending false precision.",
+                      "A free press reporting independently, even imperfectly, is better than relying only on one official source."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for confirmation"
+                  },
+                  "points": {
+                    "en": [
+                      "Publishing conflicting numbers can confuse readers and fuel rumors or panic in the affected community.",
+                      "Early reports in chaotic situations are often wrong, and corrections rarely reach as many people as the original story.",
+                      "A single, careful count from investigators is more respectful to victims' families than competing early estimates."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it reassuring or worrying when a government promises a \"firm response\" to an attack before saying who did it or why?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Reassuring"
+                  },
+                  "points": {
+                    "en": [
+                      "A quick, firm statement shows the government takes the attack seriously and won't let it go unanswered.",
+                      "Promising action can deter copycat attacks while the investigation is still underway.",
+                      "Citizens, especially religious minorities, need to hear that their safety is a priority right away, not after weeks of silence."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Worrying"
+                  },
+                  "points": {
+                    "en": [
+                      "Promising a firm response before knowing who is responsible risks punishing the wrong people or group.",
+                      "Tough language used early can be a way of looking decisive rather than actually being careful.",
+                      "History shows that security crackdowns announced in haste can erode due process and civil liberties long after the headlines fade."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
