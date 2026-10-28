@@ -1,11 +1,15 @@
 {
   "app": "Daily News for Kids",
-  "updated": "2026-10-27T21:21:39+00:00",
+  "updated": "2026-10-28T21:00:51+00:00",
   "bands": [
     "primary",
     "secondary"
   ],
   "editions": [
+    {
+      "date": "2026-10-28",
+      "url": "editions/2026-10-28.html"
+    },
     {
       "date": "2026-10-27",
       "url": "editions/2026-10-27.html"

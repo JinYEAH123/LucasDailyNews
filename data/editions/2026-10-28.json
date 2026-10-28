@@ -1,0 +1,790 @@
+{
+  "date": "2026-10-28",
+  "window": {
+    "start": "2026-10-27T12:00:00-07:00",
+    "end": "2026-10-28T12:00:00-07:00",
+    "label": {
+      "en": "News from Tuesday 12:00 PM to Wednesday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-28T14:00:45-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "CN",
+      "source": {
+        "title": "Xi's Corruption Purges Upend Hunt for China's Next Top Leaders",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-27/xi-s-corruption-purges-upend-hunt-for-china-s-next-top-leaders"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "What to know about China's plenum as Xi seeks stronger party discipline"
+          },
+          "summary": {
+            "en": "NPR explains what the Fifth Plenum is, how it fits into China's political calendar, and why this year's corruption crackdown is drawing extra scrutiny. Useful for readers unfamiliar with how closed-door party meetings shape Chinese governance."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/10/26/g-s1-149918/what-to-know-about-chinas-plenum-as-xi-seeks-stronger-party-discipline"
+        },
+        {
+          "title": {
+            "en": "China: What to Know About the CCP's Fifth Plenum"
+          },
+          "summary": {
+            "en": "Foreign Policy lays out the stakes of the plenum for China's economic planning and political structure, with context on past succession crises. It helps readers see why thinning the leadership bench is historically destabilizing for one-party systems."
+          },
+          "publisher": "Foreign Policy",
+          "url": "https://foreignpolicy.com/2026/10/27/china-ccp-fifth-plenum-xi-jinping-politics-corruption/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Public interest at heart of CPC self-governance"
+          },
+          "summary": {
+            "en": "This is China's state-owned press describing the anti-corruption campaign in its own words, framing it as discipline rather than a succession crisis. It is included only as the party's official framing, not as independent confirmation of events."
+          },
+          "publisher": "China Daily",
+          "url": "https://www.chinadaily.com.cn/a/202610/27/WS6adf7bc6e4b06d4aa0564dff.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China's Leader Has No Clear Successor"
+          },
+          "hook": {
+            "en": "China's top leaders just finished a secret meeting where they planned the country's next five years. But the real news is something nobody announced: nobody knows who will lead China after its current leader, Xi Jinping, is gone."
+          },
+          "story": {
+            "en": [
+              "Every so often, China's Communist Party — the one group that runs the whole country — holds a private meeting. Only top officials attend. No cameras, no public debate.",
+              "This week's meeting approved plans for the next five years, like roads, factories, and technology. But experts who study China noticed something bigger. For years, Xi Jinping has removed dozens of powerful officials and military leaders, accusing them of corruption — using their power unfairly for money or favors.",
+              "Some of the removed officials were once seen as the people most likely to lead China someday. Now there is no obvious next leader. Xi Jinping is 72 years old, and China has never had a clear, public way of choosing who comes next.",
+              "China's government says the removals are about fighting unfair behavior and keeping the country strong. Outside experts think the purges may also be about Xi Jinping removing rivals. Nobody outside the party's inner circle can know for certain which explanation is true, because the party controls almost all the information that comes out."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China has about 1.4 billion people — roughly one out of every six people on Earth — and it is one of the most powerful countries in the world. When the person in charge of a country that big has no clear plan for who comes next, it creates uncertainty that can affect decisions about trade, technology, and even war, things that eventually touch daily life everywhere, including prices and products in your own home."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Communist Party"
+              },
+              "def": {
+                "en": "The single political party that controls China's government — no other party is allowed to compete for power."
+              }
+            },
+            {
+              "term": {
+                "en": "Successor"
+              },
+              "def": {
+                "en": "The person who takes over a leader's job after that leader leaves or steps down."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for a country to choose its next leader early and clearly, or to keep it secret until the moment arrives?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Choose early"
+                  },
+                  "points": {
+                    "en": [
+                      "People feel calmer when they know what happens next, like knowing who's in charge if a teacher is away.",
+                      "A clear plan can stop arguments and power struggles when the leader eventually leaves.",
+                      "Other countries can plan ahead too, which can keep things stable."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep it secret"
+                  },
+                  "points": {
+                    "en": [
+                      "Naming a successor early can make that person a target for rivals who want their spot.",
+                      "Keeping it open lets the best possible leader emerge over time, not just whoever was picked first.",
+                      "A surprise choice can stop other officials from fighting each other for years in advance."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a leader believes they are doing a good job, should they be allowed to stay in charge as long as they want?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Let them stay"
+                  },
+                  "points": {
+                    "en": [
+                      "A long-serving leader knows the country deeply and may make fewer beginner mistakes.",
+                      "Changing leaders often can interrupt big projects that take many years to finish.",
+                      "If people still support the leader, stopping them from continuing seems unfair."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Set a limit"
+                  },
+                  "points": {
+                    "en": [
+                      "No single person should hold that much power for their entire life, even if they're good at the job.",
+                      "Fresh leaders bring new ideas that an old leader might miss or avoid.",
+                      "Having a limit protects the country in case a leader changes for the worse over time."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China's Leader Just Purged His Own Possible Successors — Now No One Knows Who's Next"
+          },
+          "hook": {
+            "en": "China's Communist Party just finished a closed-door meeting that set economic plans for the next five years. But the real headline is something nobody announced out loud: after years of purging senior officials, including people once tipped as future leaders, nobody outside — or maybe even inside — the party's top ranks can say who would take over if something happened to 72-year-old Xi Jinping."
+          },
+          "story": {
+            "en": [
+              "Every five years or so, the Chinese Communist Party holds a 'plenum' — a private meeting of its top few hundred officials — to sign off on the country's economic direction for the next five years. This week's version approved the broad shape of China's next Five-Year Plan, the kind of document that steers everything from how much the government spends on semiconductors to how fast cities grow. That part was expected and, by itself, not especially dramatic.",
+              "The more interesting story is about power, not economics. Over the past decade, Xi Jinping has run a sweeping anti-corruption campaign — officially a crackdown on bribery and abuse of office, which is real and widespread in Chinese politics. But the campaign has also conveniently removed dozens of senior officials and military commanders, including several people who were once seen as plausible future leaders of the party. Whether that's a side effect or the actual point is exactly what people disagree about.",
+              "Here's why that matters beyond Chinese politics: China doesn't have an election that tells you who leads next. Power passes through an opaque internal process — informal alliances, factional loyalty, and the party's own closed decision-making — that outsiders can rarely see clearly even when it's working normally. Historically, Chinese leaders have groomed an obvious next-in-line years in advance, partly so succession doesn't look like a fight. Right now, independent analysts say that pipeline has been effectively wiped out, and no one has emerged to replace it.",
+              "That leaves a 1.4-billion-person country with the world's second-largest economy and a nuclear arsenal in an unusual position: everyone assumes Xi will keep ruling for the foreseeable future, but nobody has a confident answer for what happens if he doesn't. Independent outlets covering Chinese elite politics — working from leaks, official appointments, and patterns in who gets purged — describe the succession pipeline as 'upended.' China's state media, by contrast, frames the same anti-corruption drive simply as the party cleaning house and protecting the public from corrupt officials.",
+              "Both readings can be partly true at once, and there's no way to independently check which motive is doing more work, because the party controls almost all information about its own internal decisions — there's no outside audit, no opposition party, no free press inside China reporting on it. What's left is a structural fact rather than a prediction: an enormous, powerful country currently has no clear answer to 'what happens next,' and that uncertainty is itself news, regardless of which explanation for the purges you find more convincing."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions made in that closed room — about trade, technology, Taiwan, military spending — ripple into prices, supply chains, and global tensions that reach places far from Beijing, including wherever you live. When the second-largest economy on Earth has no visible plan for who leads it next, that uncertainty itself becomes a risk that investors, governments, and ordinary people elsewhere have to factor in."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Plenum"
+              },
+              "def": {
+                "en": "A closed-door meeting of a Communist Party's top officials, held periodically to set major policy direction."
+              }
+            },
+            {
+              "term": {
+                "en": "Five-Year Plan"
+              },
+              "def": {
+                "en": "China's central economic blueprint, renewed every five years, that sets government priorities for spending, industry, and growth."
+              }
+            },
+            {
+              "term": {
+                "en": "Succession"
+              },
+              "def": {
+                "en": "The process — formal or informal — by which power passes from one leader to the next."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Does a country benefit from having no clear, named successor to its leader, or does that always create dangerous instability?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "No named successor is dangerous"
+                  },
+                  "points": {
+                    "en": [
+                      "A sudden death or health crisis with no agreed replacement can trigger a scramble for power that hurts ordinary people and markets.",
+                      "Hidden succession fights tend to happen behind closed doors, which can turn violent or unpredictable precisely because there's no public process to resolve them.",
+                      "Allies and rivals abroad struggle to plan policy, trade, or security decisions when they can't predict who they'll be dealing with in five years."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Avoiding a named successor can be stabilizing"
+                  },
+                  "points": {
+                    "en": [
+                      "A clear heir apparent can become a target for rivals or build an independent power base that threatens the current leader, so avoiding one reduces internal plotting.",
+                      "Keeping succession ambiguous can discourage factions from forming around a future leader years before any transition is needed.",
+                      "Many systems — corporate boards, monarchies, parties — have gone through long periods without naming a clear next leader and managed the eventual transition anyway."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should people outside China be genuinely worried about not knowing who leads the country next, or is that uncertainty mostly beside the point?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the uncertainty itself is a real risk"
+                  },
+                  "points": {
+                    "en": [
+                      "Nuclear-armed states with unclear leadership transitions have historically been harder to predict in moments of crisis.",
+                      "Businesses and governments make long-term bets — factories, trade deals, alliances — that depend on some confidence about who will be in charge.",
+                      "A leadership vacuum can tempt internal factions to act more aggressively abroad to prove their strength at home."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, policy continuity matters more than personality"
+                  },
+                  "points": {
+                    "en": [
+                      "China's bureaucracy, military, and economic institutions run on rules and incentives that persist regardless of who holds the top title.",
+                      "Outside powers have successfully dealt with opaque leadership transitions in China before without major disruption.",
+                      "Focusing on 'who's next' can distract from the actual policies and structures that will shape China's behavior either way."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Fed interest rate decision October 2026: Fed holds rates steady",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/28/fed-interest-rate-decision-october-2026.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Fed leaves interest rates unchanged despite inflation in the US"
+          },
+          "summary": {
+            "en": "Al Jazeera's independent account confirms the Fed's decision and situates it against ongoing U.S. inflation pressure. Note: Al Jazeera is state-funded by Qatar, but this is used here purely for financial reporting unrelated to Qatar."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/28/fed-leaves-interest-rates-unchanged-despite-inflation-in-the-us"
+        },
+        {
+          "title": {
+            "en": "Fed votes in split decision to hold interest rates steady despite sticky inflation"
+          },
+          "summary": {
+            "en": "Yahoo Finance details the internal split among Fed officials over the decision, giving readers a sense of the debate inside the central bank. It adds texture to how divided policymakers are over the inflation-growth tradeoff."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/economy/policy/article/fed-votes-in-split-decision-to-hold-interest-rates-steady-despite-sticky-inflation-180108960.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America's Money Referees Decide: No Change for Now"
+          },
+          "hook": {
+            "en": "A group called the Federal Reserve decides how expensive it is to borrow money in the United States. On October 28, they voted to leave that cost exactly where it was. Not everyone agreed, and the vote happened just one week before a big election."
+          },
+          "story": {
+            "en": [
+              "Imagine a dial that controls how much extra you pay back when you borrow money, like for a house, a car, or a credit card. The Federal Reserve is a group of people in America who control that dial.",
+              "On October 28, they voted on whether to turn the dial down, making borrowing cheaper. They decided to leave it exactly where it was instead.",
+              "Not everyone on the team agreed. Some wanted to turn the dial down to help people and businesses spend more easily. Others wanted to leave it alone, because prices for everyday things are still rising faster than they'd like, and they worried that cheaper borrowing would push prices up even more.",
+              "This happened exactly one week before Americans vote in important elections. Money decisions like this can affect how people feel about their jobs and their wallets, so the timing made people pay extra attention."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When borrowing stays expensive, families who want to buy a house or a car, or businesses that want to grow, have to pay more to do it. That can mean fewer new jobs or slower growth, which can eventually touch almost anyone, even kids whose parents run a shop or are saving up for something big."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "The extra amount you have to pay back when you borrow money, like a fee for using someone else's cash."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "When prices for everyday things, like food or toys, go up over time, so your money buys a little less than before."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Federal Reserve have made borrowing cheaper right away to help people, even though prices are still rising?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cut it now"
+                  },
+                  "points": {
+                    "en": [
+                      "Cheaper borrowing lets families and businesses spend and grow sooner rather than waiting.",
+                      "Waiting too long to help could mean people lose jobs or businesses close in the meantime.",
+                      "Some officials on the team felt the economy needed support right away."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold steady"
+                  },
+                  "points": {
+                    "en": [
+                      "Making borrowing cheaper while prices are already rising could make things cost even more.",
+                      "It's safer to fix one problem, rising prices, before creating a new one.",
+                      "Other officials felt that patience now prevents bigger problems later."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for such a big money decision to happen right before an election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Timing matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Voters might choose differently depending on whether borrowing got cheaper or stayed the same.",
+                      "A decision this close to voting day can feel like it's tangled up with politics, even if it isn't meant to be.",
+                      "People may trust the decision less if they think it was timed on purpose."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Decisions can't wait for elections"
+                  },
+                  "points": {
+                    "en": [
+                      "Money problems don't pause just because people are about to vote.",
+                      "Delaying an important decision could hurt the economy while everyone waits.",
+                      "The team studies numbers, not calendars, so the real question is whether the facts supported their choice."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The Fed Leaves Interest Rates Alone, Right Before the Election"
+          },
+          "hook": {
+            "en": "On October 28, the Federal Reserve — the institution that sets the cost of borrowing money across the entire U.S. economy — decided not to cut its key interest rate, even though some of its own officials wanted to. The vote was split, prices are still rising faster than the Fed wants, and the decision landed exactly one week before midterm elections. That timing means the choice will be read as much as a political signal as an economic one, whether or not the Fed intended it that way."
+          },
+          "story": {
+            "en": [
+              "The Federal Reserve is the United States' central bank. It doesn't print money for the government or run a branch on your street corner — its main job is setting a target for the interest rate that banks charge each other overnight, a number that ripples outward into almost every loan in the country. When that rate goes up, mortgages, car loans, credit card balances and business loans all tend to get more expensive. When it goes down, borrowing gets cheaper and people tend to spend and invest more.",
+              "Right now, the Fed is caught between two problems that pull in opposite directions. Inflation — the rate at which prices for everyday things like groceries, rent and gas are rising — is still running above the level the Fed considers healthy. Cutting interest rates tends to make inflation worse, because cheaper borrowing means more spending, which pushes prices up further. But holding rates where they are, or raising them, slows the whole economy down: fewer people buy homes, fewer businesses expand, and hiring can cool off. On October 28, the Fed chose to hold steady, meaning it prioritized fighting inflation over giving the economy a boost.",
+              "What makes this decision unusual is that it wasn't unanimous. The Fed is run by a committee, and reports describe real disagreement inside the room: some officials wanted to cut rates anyway, betting that supporting growth and jobs mattered more right now, while others insisted that inflation needed to be brought under control first, even at the cost of slower growth. A split vote like this is relatively rare and signals that there's no easy, obviously correct answer — reasonable people looking at the same data reached different conclusions.",
+              "The timing adds another layer. The decision came exactly one week before U.S. midterm elections, the nationwide vote that will decide control of Congress. The Fed is designed to operate independently of elected politicians specifically so that it can make unpopular, long-view decisions — like slowing the economy to fight inflation — without worrying about whether voters will punish whichever party is in power. But a rate decision landing right before an election will inevitably be scrutinized for whether it helps or hurts one side, regardless of the Fed's actual reasoning.",
+              "For ordinary households, the practical effect is simple: nothing changes immediately. Mortgage rates, credit card interest and auto loan costs will stay roughly where they are rather than dropping, which is good news if you're worried about inflation eating into your savings, and less welcome news if you were hoping to buy a house or a car more cheaply soon. The real consequences of this decision will show up gradually, over the coming months, as consumers and businesses keep adjusting their spending and borrowing to a world where money isn't getting any cheaper — at least not yet."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If your family has a credit card, a car loan, a mortgage, or is thinking about taking out a student loan, this decision affects what that borrowing actually costs you in real terms. It's also a window into how a powerful institution tries to stay independent from politics — and whether that's even possible when its timing collides with an election."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The United States' central bank, which sets national interest rates and is designed to operate independently from elected politicians."
+              }
+            },
+            {
+              "term": {
+                "en": "Benchmark interest rate"
+              },
+              "def": {
+                "en": "The key interest rate the Fed controls, which influences the cost of nearly every loan in the country, from mortgages to credit cards."
+              }
+            },
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "The rate at which prices for everyday goods and services rise over time, shrinking how much your money can buy."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it better for the Fed to hold rates steady to fight inflation, or should it have cut rates to support economic growth?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Hold the line on inflation"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting inflation run unchecked erodes savings and wages for everyone, especially people who can't easily raise their own income.",
+                      "Cutting rates now could force even harsher, more painful rate hikes later if inflation gets out of control.",
+                      "A central bank that caves to pressure for growth every time loses its credibility as an inflation fighter, which makes future inflation harder to tame."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Support growth now"
+                  },
+                  "points": {
+                    "en": [
+                      "Holding rates too high for too long can tip the economy into a slowdown that costs people their jobs, which is a heavier price than slightly higher prices.",
+                      "Inflation has already been elevated for a while, and a modest cut might ease pressure on households without meaningfully reigniting price rises.",
+                      "Waiting too long to support growth risks a sharper, more damaging economic downturn that's harder to reverse than it would have been to prevent."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for the public when central bank officials agree unanimously, or is open disagreement among them actually a healthier sign?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Unanimity builds confidence"
+                  },
+                  "points": {
+                    "en": [
+                      "A single, unified decision sends a clear signal to markets and the public, reducing confusion about where the economy is headed.",
+                      "Visible disagreement can spook markets or businesses who want certainty before making big financial decisions.",
+                      "If officials can't agree, it may suggest the decision itself was made without enough confidence in the underlying data."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Open disagreement is healthier"
+                  },
+                  "points": {
+                    "en": [
+                      "A split vote shows that officials are reasoning independently rather than simply following a leader or political pressure.",
+                      "Economic conditions are genuinely uncertain right now, and pretending there's an obvious right answer would be dishonest.",
+                      "Future decisions benefit when today's disagreements are aired and debated rather than suppressed for the sake of appearing united."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "A 'canary in the coal mine': Measles resurgence exposes weaknesses in U.S. public health, experts say",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/27/us-measles-public-health.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Pennsylvania measles outbreak is first in 35 years to top 1,000 cases"
+          },
+          "summary": {
+            "en": "The Washington Post documents how Pennsylvania's outbreak became the state's largest in over three decades, tracing its spread and the public health response. It gives concrete, localized numbers behind the national trend."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/health/2026/10/05/pennsylvania-measles-count-tops-1000-cases-first-time-35-years/"
+        },
+        {
+          "title": {
+            "en": "US surpasses 4,000 measles cases with infections confirmed in 45 states: CDC"
+          },
+          "summary": {
+            "en": "ABC News reports the CDC's latest national tally and geographic spread, showing how far beyond Pennsylvania the outbreak has reached. It's useful for readers who want the full national scope rather than a single state's numbers."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Health/us-surpasses-4000-measles-cases-infections-confirmed-45/story?id=137125273"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Disease Doctors Thought Was Almost Gone Is Back"
+          },
+          "hook": {
+            "en": "Measles, a disease that makes you very sick with a rash and high fever, is spreading across the United States faster than it has in decades. More than 4,000 people have caught it this year, in 45 of the 50 states. Doctors say this is a warning sign that something in America's health system needs fixing."
+          },
+          "story": {
+            "en": [
+              "Imagine a sickness so easy to catch that if one kid in a classroom has it, almost everyone else who isn't protected will catch it too. That's measles. It spreads through coughs and sneezes, and can float in the air of a room for up to two hours after someone sick has left.",
+              "For a long time, measles was rare in America. Most kids got a shot called a vaccine when they were babies, which taught their bodies how to fight it off. But in one state, Pennsylvania, more than 1,000 people have now caught measles this year. That's the most cases in that state in 35 years.",
+              "Doctors say fewer families are getting their kids the measles vaccine than before. Some parents worry about the shot, even though doctors say it is safe. Other families live in places where it's hard to get to a doctor at all, because local health clinics don't have enough money or staff.",
+              "Health experts call this outbreak a 'canary in the coal mine.' Long ago, coal miners brought caged canaries into mines because the birds got sick from bad air before people did, warning miners to get out. Doctors mean that measles coming back is an early warning that gaps in health care could let other diseases spread too."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've ever gotten a shot at the doctor's office that stung for a second, it was probably protecting you from something like this. Measles mostly hurts babies and little kids the most, so when more people skip the vaccine, it becomes less safe for everyone, including kids too young to get the shot yet. This isn't finished happening yet, either. Doctors expect the numbers to keep climbing through the winter, when kids spend more time indoors together at school."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Measles"
+              },
+              "def": {
+                "en": "A disease that spreads very easily through coughs and sneezes and causes a rash, fever, and sometimes serious problems, especially in young children."
+              }
+            },
+            {
+              "term": {
+                "en": "Vaccine"
+              },
+              "def": {
+                "en": "A small shot that teaches your body how to fight off a specific sickness before you ever catch it."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should every kid have to get the measles vaccine before they're allowed to go to school?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should be required"
+                  },
+                  "points": {
+                    "en": [
+                      "If one unvaccinated kid gets measles, it can spread to many others before anyone notices.",
+                      "Some kids can't get vaccinated yet, like babies, and they depend on everyone else being protected.",
+                      "A classroom is a shared space, so one person's choice can affect dozens of other families."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it should be a choice"
+                  },
+                  "points": {
+                    "en": [
+                      "Parents often feel they know what's best for their own child's body and health.",
+                      "Some families have strong personal or religious beliefs about medical choices that deserve respect.",
+                      "Forcing people to do something medical can make them trust doctors even less, not more."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If there's a measles outbreak at a school, should unvaccinated kids have to stay home, even if they aren't sick?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep them home"
+                  },
+                  "points": {
+                    "en": [
+                      "Unvaccinated kids are much more likely to catch measles and then spread it to others.",
+                      "Outbreaks can get much bigger if nothing changes about who comes to school.",
+                      "A short time away from school is a small price to pay to stop more kids getting seriously ill."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, let them stay"
+                  },
+                  "points": {
+                    "en": [
+                      "It doesn't seem fair to punish a kid for a decision their parents made.",
+                      "Missing school means missing learning, friends, and things like sports or clubs.",
+                      "A kid could just as easily get exposed to measles somewhere else, like a store or a park."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Measles Cases Hit a 35-Year High Across the U.S."
+          },
+          "hook": {
+            "en": "More than 4,000 measles cases have been confirmed across 45 U.S. states this year, more than double the number at this point last year. Pennsylvania alone has passed 1,000 cases, the first time any single U.S. state has hit that number in 35 years. Health officials say the disease, once declared eliminated in the U.S., is finding gaps to spread through, and they expect the numbers to keep rising through winter."
+          },
+          "story": {
+            "en": [
+              "Measles is one of the most contagious diseases known. If one infected person walks through a room, up to nine out of ten unvaccinated people nearby will catch it, just from breathing the same air — the virus can linger for up to two hours after the infected person has left. For most of the 21st century, this wasn't a major worry in the United States, because a highly effective vaccine (usually given as part of the combined MMR shot, for measles, mumps, and rubella) kept the virus from gaining a foothold. In 2000, the U.S. officially declared measles \"eliminated,\" meaning it no longer spread continuously within the country. That status is now at risk.",
+              "The current outbreaks are not isolated incidents. The Centers for Disease Control and Prevention (CDC), the federal agency that tracks and responds to disease outbreaks, has confirmed cases spreading in 45 states, with Pennsylvania's outbreak the worst any single state has seen since the mid-1980s. Children are especially vulnerable: measles can cause pneumonia and swelling of the brain, and before the vaccine existed, it killed hundreds of Americans and hospitalized tens of thousands every year.",
+              "The core reason measles can spread like this is a concept called herd immunity — the idea that if enough people in a community are vaccinated, the virus can't find enough new hosts to keep moving, which protects even the people who can't be vaccinated, like babies under one or people with weakened immune systems. Measles needs roughly 95% of a community vaccinated to stay contained; drop below that, even by a little, in a tight-knit school or neighborhood, and outbreaks become likely. Vaccination rates among U.S. kindergarteners have been slipping for several years, driven partly by vaccine hesitancy — reluctance or refusal to vaccinate, often rooted in distrust of government health guidance, religious belief, or misinformation about vaccine safety.",
+              "But hesitancy isn't the only factor experts are pointing to. Public health officials speaking on October 27 called the outbreak a \"canary in the coal mine\" — a warning sign of bigger trouble, borrowed from the old mining practice of carrying caged canaries underground, since the birds would collapse from toxic gas before miners noticed it themselves. Here, the toxic gas is a public health system that has been underfunded for years: local health departments that once ran vaccination clinics and tracked outbreaks closely have lost staff and budget, making it harder to catch and contain cases early, and harder to reach families with accurate information before misinformation does.",
+              "Exactly how much blame belongs to vaccine hesitancy versus a weakened public health system is genuinely disputed among officials, and the honest answer is probably that both feed each other: a stretched health system struggles to build trust, and declining trust makes it harder to get funding and cooperation. What isn't disputed is the trend line. Case counts have more than doubled year over year, and officials are warning parents and schools that the numbers could keep climbing as winter brings people indoors and in closer contact."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Measles outbreaks aren't just a statistic — they can shut down schools, put siblings and classmates at risk, and strain local clinics and hospitals that have to isolate and treat contagious patients. Whether your own school has high vaccination rates, and whether local health departments have the funding to respond fast, now matters in a very direct, physical way for any kid who hasn't had the MMR shot."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Herd immunity"
+              },
+              "def": {
+                "en": "The protection a community gets when enough people are vaccinated that a disease can't find enough new people to infect, which keeps even unvaccinated people safer."
+              }
+            },
+            {
+              "term": {
+                "en": "Vaccine hesitancy"
+              },
+              "def": {
+                "en": "Reluctance or refusal to get vaccinated or vaccinate a child, often because of distrust, religious belief, or incorrect information about safety."
+              }
+            },
+            {
+              "term": {
+                "en": "Canary in the coal mine"
+              },
+              "def": {
+                "en": "A phrase for an early warning sign of a bigger problem, based on miners who used to carry caged canaries underground because the birds would react to dangerous gas before humans could sense it."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should schools be allowed to require the measles vaccine for enrollment, with little or no room for exemptions?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Require it"
+                  },
+                  "points": {
+                    "en": [
+                      "Herd immunity against measles only holds above roughly 95% vaccination, so even a small number of exemptions can let outbreaks take hold in a school.",
+                      "Babies too young to be vaccinated and kids with weak immune systems have no way to protect themselves except by everyone around them being vaccinated.",
+                      "Schools already require several other vaccines before enrollment, so treating measles as optional sends a confusing signal about how serious it actually is."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Allow exemptions"
+                  },
+                  "points": {
+                    "en": [
+                      "Parents should have the final say over medical decisions for their own children, especially on something that feels personal and immediate.",
+                      "Strict mandates can backfire, pushing already distrustful families further away from public health officials instead of building cooperation.",
+                      "Religious and medical exemptions exist for genuine reasons, and broad mandates risk treating every objection as equally unreasonable."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When measles comes back like this, who carries more responsibility — families who choose not to vaccinate, or the public health system that lost people's trust and funding?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Families bear more responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "The vaccine is free or low-cost and widely available in the U.S., so not vaccinating is a choice, not a lack of access.",
+                      "The scientific evidence on MMR vaccine safety has been tested for decades, so hesitancy isn't really about missing information.",
+                      "Choosing not to vaccinate doesn't just risk your own child — it risks every other child they come into contact with, which makes it a shared responsibility, not just a personal one."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The system bears more responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Local health departments have lost funding and staff for years, leaving fewer people available to run clinics or answer parents' questions.",
+                      "Misinformation spreads faster online than public health agencies can respond to it, and trust in those agencies has been slow to rebuild since the COVID-19 pandemic.",
+                      "Outbreaks tend to cluster in communities with poor access to doctors and clinics, suggesting the problem is partly structural, not purely about individual choice."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
