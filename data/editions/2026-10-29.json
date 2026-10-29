@@ -1,0 +1,785 @@
+{
+  "date": "2026-10-29",
+  "window": {
+    "start": "2026-10-28T12:00:00-07:00",
+    "end": "2026-10-29T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-29T13:17:29-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Iran War: Trump, Qatar Mediators Discuss New Proposal to End War",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/live-updates/iran-war-donald-trump-qatar-mediators-new-proposal-end-war/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Pentagon's Top War Planner Ousted by Hegseth Amid Leak Investigation"
+          },
+          "summary": {
+            "en": "CNN's reporting details the circumstances behind Lt. Gen. Brett Sylvia's dismissal, including the alleged leaks about war planning that triggered it. It adds context on turmoil inside the Pentagon's command structure during an active conflict."
+          },
+          "publisher": "CNN",
+          "url": "https://cnn.com/2026/10/29/politics/pentagon-top-planner-sylvia-ousted-hegseth-hnk-ml"
+        },
+        {
+          "title": {
+            "en": "Hegseth Fires Pentagon's Top Military Planner"
+          },
+          "summary": {
+            "en": "A second, independently reported account of the Sylvia firing, useful for cross-checking details against CNN's version. It reinforces that this is confirmed news rather than a single-source claim."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/hegseth-fires-pentagons-top-military-planner/"
+        },
+        {
+          "title": {
+            "en": "Tensions Rise as Tankers Reportedly Struck Near Hormuz"
+          },
+          "summary": {
+            "en": "CNBC lays out the competing claims about the tanker strikes and why the Strait of Hormuz matters so much to global oil markets. It helps separate the unverified Iranian mine claim from the independently confirmed projectile strike."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/us-iran-war-trump-hormuz.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Dangerous Game Grows at Sea: US and Iran Tensions Boil Over in a Key Ocean Passage"
+          },
+          "hook": {
+            "en": "Ships have been hit in a narrow strip of ocean called the Strait of Hormuz, where a huge amount of the world's oil travels every day. Iran's navy says four oil ships were hit by hidden underwater bombs called sea mines, but no one else has confirmed this happened. A different ship was definitely hit by something fired at it, according to a British group that watches ships in that area. At the same time, a top American general was fired, and reports say the US is quietly preparing for more fighting."
+          },
+          "story": {
+            "en": [
+              "Imagine a hallway so narrow that almost every truck carrying your town's fuel has to squeeze through it. That's what the Strait of Hormuz is like for oil ships, except it's water, not a hallway, and it sits between Iran and other countries near the Persian Gulf.",
+              "Iran's navy says four oil tankers were hit by sea mines there. A sea mine is like a hidden bomb that floats or sits underwater, waiting for a ship to bump into it. But here's the tricky part: only Iran's navy is saying this happened. No other country or group has confirmed it, so we don't know for certain if it's true.",
+              "Something else did happen that other people confirmed: a different tanker ship was hit by a projectile, which just means something was fired at it, like a missile or a shell. A British organization that tracks ship safety says this one really happened.",
+              "Meanwhile, the person in charge of the US military, Pete Hegseth, fired a top general named Brett Sylvia. Reports say it's because secret information about the war was leaking out to the public. Other reports say the US has told friendly countries nearby to get ready for a short but serious military fight after America's elections in November. A country called Qatar is trying to help both sides agree to stop fighting instead."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If ships can't safely pass through the Strait of Hormuz, oil becomes harder to move around the world, and that can make gas for cars and trucks more expensive everywhere, including where you live. When countries fight over important shipping paths like this one, it can affect prices on things your family buys without you ever seeing the ships yourself."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow strip of ocean between Iran and nearby countries that a huge share of the world's oil ships must pass through."
+              }
+            },
+            {
+              "term": {
+                "en": "sea mine"
+              },
+              "def": {
+                "en": "A hidden bomb placed in the water that explodes when a ship touches it or comes close."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it fair to fire the general for leaking information about the war, even if people learned the truth because of it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, firing him was fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Military leaders need to trust that secret plans stay secret to keep soldiers safe.",
+                      "If war plans leak, enemies can prepare and more people might get hurt.",
+                      "If you're given a job that requires keeping big secrets, breaking that trust should have consequences."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, firing him was unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "People have a right to know what their country is doing, especially during a war.",
+                      "Secrecy can sometimes be used to hide mistakes, not just to protect safety.",
+                      "Punishing someone for sharing true information might scare others into staying silent even when something is wrong."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to doubt Iran's claim about its ships being hit, just because no one else has confirmed it yet?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to wait for proof"
+                  },
+                  "points": {
+                    "en": [
+                      "When only one side of a conflict reports something, they might exaggerate to get sympathy.",
+                      "Countries at war often tell stories that make themselves look like victims.",
+                      "Waiting for more proof protects everyone from blaming the wrong people."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they deserve to be believed"
+                  },
+                  "points": {
+                    "en": [
+                      "People shouldn't be assumed to be lying just because they're part of a conflict.",
+                      "Iran's navy might be telling the complete truth, and everyone deserves a fair chance to be believed.",
+                      "Automatically doubting one side's story is also a kind of unfairness."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Tanker Attacks and a Pentagon Firing Push the US and Iran Toward a Wider Fight"
+          },
+          "hook": {
+            "en": "This week brought a string of alarming events in and around the Strait of Hormuz, the narrow waterway that a fifth of the world's oil passes through. Iran's navy says four oil tankers were hit by sea mines there, though no one outside Iran has confirmed that. Separately, a British maritime monitoring group confirmed a different tanker was struck by a projectile in the same waters. On top of that, the US fired its top Pentagon war planner, and a new report says Washington may be preparing for military action after November's elections."
+          },
+          "story": {
+            "en": [
+              "Start with what we actually know versus what one side is claiming. Iran's navy announced that four oil tankers were struck by sea mines — explosive devices anchored underwater that detonate when a ship passes over or near them — in the Strait of Hormuz, the narrow channel between Iran and Oman that ships use to move oil out of the Persian Gulf. But this claim comes only from Iran's own military, and no independent organization, satellite imagery analyst, or other government has verified it. That matters: a country at war has every incentive to describe events in ways that support its position, whether the claim is true, exaggerated, or invented.",
+              "A separate incident is on firmer ground. The UK Marine Trade Operations Centre, an organization that tracks ship safety for the shipping industry and is seen as a neutral source, confirmed that a tanker was hit by a projectile — something fired at it, rather than a mine it struck — in the same stretch of water. This is a distinct event from Iran's mine claims, and because it comes from an independent monitor rather than a combatant, it's treated as more reliable.",
+              "Meanwhile in Washington, Defense Secretary Pete Hegseth fired Lt. Gen. Brett Sylvia, the Pentagon's top military planner — the officer responsible for designing the actual strategy and logistics behind US military operations. Reports say the firing was over leaks, meaning classified or sensitive information about the war effort reaching journalists or the public without authorization. Firing a planner this senior, in the middle of an active crisis, is unusual and suggests serious internal tension over how this conflict is being run and who gets to know what.",
+              "Adding another layer, the Wall Street Journal reports that the US has quietly told its allies in the Middle East to prepare for a short, intense military campaign — but only after November's midterm elections, the nationwide vote that will decide control of Congress. If accurate, this suggests political timing is shaping military planning: a major campaign launched before an election could affect how voters see the administration, so the timing may be calculated rather than purely strategic.",
+              "Even as all this escalates, Qatar — a small, wealthy Gulf nation that has positioned itself as a neutral mediator in Middle Eastern conflicts for years — is reportedly pushing a new proposal aimed at ending the fighting. This is the pattern that makes this story hard to read cleanly: military firings, unverified attack claims, leaked war plans, and active diplomacy are all happening at once, each pulling in a different direction."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The Strait of Hormuz carries roughly a fifth of the world's oil, so any serious disruption there tends to show up quickly at gas pumps and in the price of almost everything shipped by sea or made from oil-based materials. A larger US-Iran conflict wouldn't stay contained to the Middle East — it would ripple into energy prices, global trade, and the kind of uncertainty that makes economies slow down, which eventually touches family budgets far from the Gulf."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and Oman that a huge share of the world's oil shipments must pass through, making it one of the most strategically important waterways on Earth."
+              }
+            },
+            {
+              "term": {
+                "en": "sea mine"
+              },
+              "def": {
+                "en": "An explosive device placed underwater that detonates when a ship passes over or near it, making it a weapon that threatens any vessel rather than a specific target."
+              }
+            },
+            {
+              "term": {
+                "en": "leak"
+              },
+              "def": {
+                "en": "The unauthorized release of secret or sensitive government information, often to journalists, which can reveal military plans before officials intend them to be public."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it acceptable for a government to time a major military campaign around a domestic election rather than purely around military conditions?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Timing it this way is reasonable"
+                  },
+                  "points": {
+                    "en": [
+                      "Elections create political instability, and leaders may genuinely believe waiting avoids a chaotic transition of command or policy mid-campaign.",
+                      "Every major decision a government makes exists inside a political context; pretending military timing can be totally separated from politics is unrealistic.",
+                      "Waiting can also allow more time for diplomacy, like Qatar's mediation effort, to possibly resolve things without a campaign at all."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Timing it this way is a problem"
+                  },
+                  "points": {
+                    "en": [
+                      "Using military action as a tool shaped by electoral calendars risks putting political advantage ahead of the lives of soldiers and civilians affected by the decision.",
+                      "It suggests the final decision to fight or not fight could hinge on vote-counting rather than facts on the ground, which undermines public trust in why wars start.",
+                      "If allies and adversaries believe timing is political, it can make diplomacy less credible, since everyone assumes deadlines are driven by elections, not necessity."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should news organizations report a combatant's own unverified claims about an attack, like Iran's mine claim, or hold off until independent confirmation exists?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report it immediately, with caveats"
+                  },
+                  "points": {
+                    "en": [
+                      "The public has a right to know what each side is claiming in real time, especially when it could affect oil prices or safety for sailors in the region.",
+                      "Waiting for perfect verification in a fast-moving conflict can mean readers find out dangerously late, or not at all, about events that affect them.",
+                      "As long as the claim is clearly labeled as one-sided and unverified, readers can weigh it themselves rather than being kept in the dark."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold off until it's independently confirmed"
+                  },
+                  "points": {
+                    "en": [
+                      "A combatant's claims during active conflict are often shaped to build support, justify retaliation, or shift blame, so repeating them risks spreading propaganda even with a disclaimer attached.",
+                      "Headlines and quick reads often strip away careful caveats, so many people will remember 'Iran says tankers hit' as simply 'tankers hit.'",
+                      "Once a claim circulates widely, it can shape public opinion and even policy decisions before it's ever proven true or false, which is hard to undo even with a later correction."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Trump Targeted Lisa Cook. She Just Dissented Against the Fed for the First Time",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/10/28/fed-warsh-interest-rates-cook"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Federal Reserve Holds Rates Steady Amid Internal Dissent"
+          },
+          "summary": {
+            "en": "CNN's live coverage captures the moment-by-moment reaction to the Fed's decision and Warsh's announcement about fewer future meetings. It gives a broader market reaction angle alongside the dissent story."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october"
+        },
+        {
+          "title": {
+            "en": "Lisa Cook Dissents From Fed Decision for First Time Amid Trump Pressure to Remove Her"
+          },
+          "summary": {
+            "en": "This piece focuses specifically on why Cook's vote matters given the ongoing legal and political fight over Trump's attempt to fire her from the Fed board. It explains the stakes of a sitting governor publicly breaking with the chair's policy stance."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/economy/policy/articles/trump-targeted-lisa-cook-dissents-180914658.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Two Bank Leaders Say 'No' to the Rest of the Team"
+          },
+          "hook": {
+            "en": "America's central bank decided this week to keep borrowing costs the same. But two of the twelve people who vote disagreed out loud, wanting costs to go up instead. One of them is someone President Trump has been trying to remove from her job."
+          },
+          "story": {
+            "en": [
+              "The Federal Reserve is like a giant bank for all the banks in America. It decides how expensive it is to borrow money, whether that's for a house, a car, or a credit card bill.",
+              "This week, twelve leaders voted on whether to change that cost. Ten said keep it the same, between 3.75% and 4%. Two said raise it instead.",
+              "One of those two is Governor Lisa Cook. President Trump has been trying to fire her from her job. Voting against the group like this, in public, is called a dissent. It was the first time in four years anyone on this team had dissented this way.",
+              "The bank also said it will meet fewer times each year to make these decisions. Instead of eight meetings a year, it will hold seven next year, then only six the year after that."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When the Fed changes how expensive borrowing is, it changes your family's bills, even the ones you never see, like a car loan or a credit card. This all happened just days before a big election, so people are also watching closely to see whether politics is mixing with the bank's choices."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "America's central bank, which decides how expensive it is to borrow money across the whole country."
+              }
+            },
+            {
+              "term": {
+                "en": "Dissent"
+              },
+              "def": {
+                "en": "When someone votes against what most of the group decided, especially in public."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to fire someone who works at the central bank?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the president should decide"
+                  },
+                  "points": {
+                    "en": [
+                      "The president is elected by everyone, so people should have some say over who runs powerful institutions.",
+                      "If the bank makes mistakes, someone needs to be accountable, and voters can only judge the president, not officials they never elected.",
+                      "Being able to change leadership quickly can help when the economy needs fast new ideas."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the bank should stay independent"
+                  },
+                  "points": {
+                    "en": [
+                      "If leaders could be fired for disagreeing, workers might vote out of fear instead of saying what they truly think.",
+                      "Money decisions take years to work out, so officials need long terms to think long-term, not short political terms.",
+                      "Keeping politics separate from interest rates has historically kept prices steadier for everyone."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it brave or risky to publicly disagree with your team's decision when you might lose your job for it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's brave"
+                  },
+                  "points": {
+                    "en": [
+                      "Speaking honestly, even under pressure, shows courage and honesty.",
+                      "If you believe something is right, staying quiet to protect yourself can let a bad decision happen anyway.",
+                      "Letting people see disagreement helps everyone trust that the decision was really thought through."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Disagreeing loudly in public could cost you your job and your chance to help in the future.",
+                      "It might make the whole team seem divided instead of working well together.",
+                      "If you turn out to be wrong, speaking out so publicly could confuse people who trusted the group's decision."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Fed Governor Trump Wants Fired Just Voted Against Him — On Interest Rates"
+          },
+          "hook": {
+            "en": "The Federal Reserve kept its key interest rate unchanged this week, but the vote wasn't unanimous. Governor Lisa Cook — the same official President Trump has been trying to remove from her job — voted for the Fed to raise rates instead, her first dissent in four years on the board. She wasn't alone: Cleveland Fed President Beth Hammack joined her, making two dissenting votes out of twelve."
+          },
+          "story": {
+            "en": [
+              "The Federal Reserve is the US central bank, and one of its main jobs is setting a 'benchmark interest rate' that ripples out through the whole economy — it influences what banks charge you for a mortgage, a car loan, or a credit card balance. This week the Fed's rate-setting committee voted to hold that rate steady at 3.75%-4%, meaning no change for now. But two of the twelve people who vote on that decision wanted something different: they thought rates should go up, not stay flat.",
+              "One of those two was Lisa Cook, and her vote matters for a reason that has nothing to do with interest rates themselves. Trump has spent months trying to fire Cook from her position on the Fed's board, a move that is currently tied up in legal challenges. The Fed is designed to operate independently of the White House specifically so that presidents can't lean on it to make decisions that help them politically — for instance, keeping rates low before an election to make the economy look stronger than it might otherwise be. By publicly voting against the chair's preferred position, Cook was doing something pointed: showing that even under direct pressure from the person trying to remove her, she'll vote her own judgment, not his.",
+              "A 'dissent' at the Fed is exactly what it sounds like — a vote cast against whatever the majority decides. They're rare, and dissents in favor of higher rates are rarer still, since raising rates tends to be the less popular choice: it makes borrowing more expensive, which can slow down hiring and spending. Cook and Hammack's argument, in effect, was that inflation remains enough of a risk that the Fed should keep leaning against it, even if that's an uncomfortable message to deliver days before a national election.",
+              "Separately, Fed Chair Kevin Warsh announced a structural change: the Fed will cut its number of annual rate-setting meetings from eight down to seven next year, and six the year after that. Fewer meetings means fewer scheduled moments where the Fed can adjust rates in response to new economic data — a shift that could make the Fed slower to react to sudden changes in the economy, for better or worse depending on how you read it.",
+              "All of this lands just before the US midterm elections, which gives it an edge it wouldn't otherwise have. A quiet technical disagreement about where interest rates should sit has become, briefly, a visible test of whether the Fed can keep functioning as an independent institution while a sitting president is actively trying to reshape its membership."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The interest rate the Fed sets eventually shows up in your family's life as the rate on a mortgage, a car loan, a credit card, or a savings account — it's one of the quietest but most powerful levers in the economy. This story is also a real-time example of a bigger question: what happens to an institution that's supposed to be independent when a president tries to influence who sits on it."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Benchmark interest rate"
+              },
+              "def": {
+                "en": "The main interest rate the Federal Reserve controls, which influences the cost of borrowing money across the whole economy, from mortgages to credit cards."
+              }
+            },
+            {
+              "term": {
+                "en": "Dissent"
+              },
+              "def": {
+                "en": "When a Fed official votes against the majority's decision on interest rates, publicly signaling disagreement from inside the institution."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve independence"
+              },
+              "def": {
+                "en": "The idea that the central bank should set policy based on economic evidence, not on pressure from the president or Congress."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be able to remove a Federal Reserve official over disagreements about economic policy?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Presidents should have more control"
+                  },
+                  "points": {
+                    "en": [
+                      "Fed officials make decisions that massively affect ordinary people's lives, yet they're not elected and barely answerable to voters.",
+                      "If the economy performs badly under a Fed official's choices, there should be some democratic mechanism to hold someone accountable.",
+                      "A president who wins an election is expressing the public's priorities, and unelected officials shouldn't be able to permanently override that."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The Fed should stay independent"
+                  },
+                  "points": {
+                    "en": [
+                      "If presidents could remove Fed officials at will, every rate decision could be shaped by whether it helps the president's re-election chances rather than the economy's actual needs.",
+                      "Independence lets the Fed make unpopular but necessary decisions, like raising rates to fight inflation, without fearing political retaliation.",
+                      "Most economists agree that central banks which are shielded from short-term political pressure tend to produce more stable, predictable economies over time."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for the Fed to meet fewer times a year, or to keep meeting often?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Fewer meetings is better"
+                  },
+                  "points": {
+                    "en": [
+                      "Meeting less often forces the Fed to wait for clearer, more meaningful economic data instead of overreacting to short-term noise.",
+                      "Frequent rate changes can create uncertainty for businesses and families trying to plan loans, mortgages, or investments.",
+                      "Fewer, more deliberate decisions may lead to steadier, more carefully reasoned policy overall."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "More meetings is better"
+                  },
+                  "points": {
+                    "en": [
+                      "The economy can shift quickly — a sudden spike in inflation or a banking crisis doesn't wait for a scheduled meeting.",
+                      "Fewer opportunities to adjust rates means the Fed might be forced to make larger, more disruptive changes when it finally does act.",
+                      "Regular meetings let the Fed respond to new information in near real time, which matters more as markets move faster than ever."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "CN",
+      "source": {
+        "title": "China's Communist Party Expels 33 Officials in Post-Mao-Era Record Purge",
+        "publisher": "NBC News (via Reuters)",
+        "url": "https://www.nbcnews.com/world/china/chinas-communist-party-expels-33-officials-post-mao-era-record-purge-rcna606319"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Analysis: What China's Plenum Purge Reveals About Xi's Control"
+          },
+          "summary": {
+            "en": "CNN's analysis unpacks why the scale of these expulsions is historically unusual and what it signals about internal party dynamics under Xi Jinping. It helps readers understand the purge as part of a longer pattern rather than an isolated event."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/28/china/china-plenum-xi-corruption-purge-analysis-hnk-intl"
+        },
+        {
+          "title": {
+            "en": "China Elevates Key Military Official as Expulsions Remove 'Hidden Dangers'"
+          },
+          "summary": {
+            "en": "Nikkei Asia, a Japan-based outlet independent of the US networks, explains the significance of General Zhang Shengmin's surprise elevation to the Politburo. It offers an Asian-press perspective on how the purge is being framed domestically in China."
+          },
+          "publisher": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/politics/china-elevates-key-military-official-as-expulsions-remove-hidden-dangers"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China's Leaders Just Kicked Out 33 Top Officials at Once"
+          },
+          "hook": {
+            "en": "China is run by one powerful group called the Communist Party. This week, that party announced it had thrown out 33 officials, including some of its most senior military leaders. It is the biggest clean-out of leaders in that party since the 1970s."
+          },
+          "story": {
+            "en": [
+              "Imagine if your school suddenly removed 33 teachers and staff members in one announcement, saying they had broken important rules. That is roughly the size of what just happened in China's government.",
+              "The meeting where this was announced is called a 'plenum' — a big gathering of China's top Communist Party leaders. They said the people removed were hiding problems and needed to go. Several of them were generals, which is unusual because the military rarely loses so many leaders at once.",
+              "At the same meeting, a military official named Zhang Shengmin, whose job is catching corruption inside the army, was promoted to one of the most powerful positions in the whole country. The leaders also picked a date for their next huge meeting, in late 2027, where decisions about future leadership will be made.",
+              "China's president, Xi Jinping, has led a years-long campaign against officials he calls corrupt. Some experts who watch China closely say this huge purge shows he is firmly in control. Others say so many removals, especially in the military, could be a sign of serious problems or uncertainty about who comes next."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China is one of the two most powerful countries in the world, and decisions made by its leaders affect trade, technology, and even safety far beyond its borders. When so many people in charge of China's military are removed at once, it can change how other countries think about China's strength and stability — something that can eventually touch prices, jobs, and news you see even if you've never been there."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Communist Party"
+              },
+              "def": {
+                "en": "The one political group that has run China's government for over 70 years, with no other party allowed to compete for power."
+              }
+            },
+            {
+              "term": {
+                "en": "Purge"
+              },
+              "def": {
+                "en": "When a government or organization removes a large number of people from power all at once, usually accusing them of wrongdoing or disloyalty."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for a small group of leaders to decide, by themselves, who gets kicked out of power — without a public trial where everyone can see the evidence?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can be fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Government leaders often have secret information that cannot be shared publicly without causing harm.",
+                      "Quick action can stop dishonest officials from doing more damage while a slow public trial drags on.",
+                      "Every country trusts some decisions to leaders instead of asking the public to vote on each one."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it is not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "People accused of wrongdoing deserve a chance to defend themselves in front of others.",
+                      "Without public proof, it's hard to know if the real reason for removal is honesty or just politics.",
+                      "If no one can question the decision, powerful people could remove rivals for unfair reasons."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it good for one leader to be able to remove this many powerful people at the same time?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can be good"
+                  },
+                  "points": {
+                    "en": [
+                      "A leader who can act decisively might stop corruption before it spreads further."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it can be risky"
+                  },
+                  "points": {
+                    "en": [
+                      "If one person can remove so many others, there may be no one left who can safely disagree with them."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China Just Expelled 33 Officials in Its Biggest Purge in Decades"
+          },
+          "hook": {
+            "en": "China's ruling Communist Party announced it had kicked out 33 officials, the largest purge of its own ranks since the era of Mao Zedong. Many of those removed were senior military generals. At the same meeting, a general who leads the military's anti-corruption unit was promoted into the party's inner circle of power, and leaders set the date for a major leadership meeting in late 2027."
+          },
+          "story": {
+            "en": [
+              "China's Communist Party, which has ruled the country without serious political competition since 1949, holds closed-door meetings every year or two to make major decisions about personnel and policy. This one, called the Fifth Plenum, brought together roughly 200 of the party's most senior officials in Beijing. What came out of it was striking: a formal confirmation that 33 party members had been expelled, the steepest purge of the party's own membership in the post-Mao era, meaning in the roughly five decades since Mao died in 1976.",
+              "A large share of those removed were generals in the People's Liberation Army, China's military. Corruption purges are not new in China — President Xi Jinping has run an anti-corruption campaign since he took power in 2012, and it has swept up well over a million officials at various levels. But a purge this concentrated at senior military ranks, confirmed all at once in an official party announcement, is unusual even by that standard.",
+              "The plenum also delivered a surprising promotion. General Zhang Shengmin, who runs the military's internal discipline and anti-corruption unit, was elevated to the Politburo — the group of roughly 24 officials who sit just below the very top of China's power structure, the small committee that effectively runs the country day to day. Putting the military's top corruption investigator into that room is a signal: the anti-corruption push is not just removing generals from below, it is being institutionalized at the very top.",
+              "The meeting also set the date for the 21st Party Congress, a much larger gathering held roughly every five years that China uses to confirm its top leadership for the next stretch of time. This one is scheduled for late 2027, and it is expected to shape decisions about who stands behind Xi Jinping and who might eventually succeed him — a question that matters enormously in a one-party system with no election to answer it.",
+              "China's state media has described the expulsions as clearing out 'hidden dangers,' a phrase that frames the purge as the system working as intended: finding and removing corrupt officials before they do more damage. Outside analysts, reporting on the same events, read it differently. A purge this large, concentrated this heavily in the military — the institution that controls China's nuclear arsenal and would fight any war over Taiwan — raises real questions about how much turmoil sits beneath the surface of China's leadership, and about who Xi actually trusts as he approaches the succession question the party has now put a date on."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China's military leadership isn't just a domestic matter — it's the same chain of command that would be involved in any conflict over Taiwan, a flashpoint the United States has pledged to respond to. When outside analysts can't tell whether a purge this size means the system is cleaning itself up or quietly coming apart, that uncertainty itself becomes something governments, markets, and militaries around the world have to plan around."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Plenum"
+              },
+              "def": {
+                "en": "A formal meeting of China's Communist Party Central Committee, held every year or two, where major decisions about leadership and policy get made."
+              }
+            },
+            {
+              "term": {
+                "en": "Politburo"
+              },
+              "def": {
+                "en": "A group of roughly two dozen of the most powerful officials in China's Communist Party, sitting just below the very top leadership."
+              }
+            },
+            {
+              "term": {
+                "en": "Purge"
+              },
+              "def": {
+                "en": "The formal removal of officials from a political party or government, often tied to accusations of corruption or disloyalty."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a government removes dozens of its own senior officials all at once, is that a sign the system is working or a sign something has gone badly wrong?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "A sign of strength"
+                  },
+                  "points": {
+                    "en": [
+                      "Rooting out corruption, especially at senior levels, is exactly what an anti-corruption effort is supposed to eventually find.",
+                      "A government willing to publicly expel its own generals is showing it can discipline even powerful insiders rather than protect them.",
+                      "Corruption that goes unpunished for years tends to be far more dangerous than corruption that eventually gets caught and removed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "A sign of instability"
+                  },
+                  "points": {
+                    "en": [
+                      "A purge this large, this concentrated, and this sudden suggests the corruption was deep and went unaddressed for a long time.",
+                      "Removing so many senior military figures at once can leave real gaps in experience and command at a sensitive moment.",
+                      "In a system without independent courts or a free press to verify the charges, the public explanation for a purge can't be fully checked against the truth."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should outsiders take China's official explanation — that this removes 'hidden dangers' — at face value, or treat it mainly as a story the party is telling about itself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Take it seriously"
+                  },
+                  "points": {
+                    "en": [
+                      "Governments everywhere describe their own actions in the best possible light, and that alone doesn't make the description false.",
+                      "China's anti-corruption campaign has run for over a decade with real, verifiable consequences for the officials involved, not just announcements.",
+                      "Dismissing an official explanation purely because it's official risks assuming bad faith without evidence."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Treat it with skepticism"
+                  },
+                  "points": {
+                    "en": [
+                      "A one-party state controls what gets reported, so the official explanation is also the only version most citizens ever hear.",
+                      "Anti-corruption campaigns in authoritarian systems have historically doubled as tools for removing political rivals, not just the corrupt.",
+                      "The timing — right before a plenum that sets up a major leadership transition — fits a pattern of consolidating power ahead of succession decisions as easily as it fits a genuine cleanup."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
