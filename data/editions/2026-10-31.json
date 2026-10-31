@@ -1,0 +1,810 @@
+{
+  "date": "2026-10-31",
+  "window": {
+    "start": "2026-10-30T12:00:00-07:00",
+    "end": "2026-10-31T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM PDT"
+    }
+  },
+  "generated_at": "2026-10-31T14:32:18-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Intel stock has worst day since 1970s, wiping about $12 billion off government's stake",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nasdaq suffers worst month in over a year as AI nerves roil markets"
+          },
+          "summary": {
+            "en": "CNN traces how the AI-spending doubts built over October into the Friday rout, giving fuller context on the month's trend. Useful for readers wanting the slide's full timeline, not just the single worst day."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/30/investing/us-stocks-ai-investment"
+        },
+        {
+          "title": {
+            "en": "Nasdaq sheds more than 700 points as jittery investors pull back from tech stocks"
+          },
+          "summary": {
+            "en": "CBS News lays out the day's trading in plain numbers, including how much the Nasdaq dropped in points as well as percentage. Good for readers who want the raw scale of the move."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/nasdaq-futures-tumble-tech-earnings-ai/"
+        },
+        {
+          "title": {
+            "en": "Nasdaq Nears Correction as Amazon, Alphabet, Intel Disappoint Wall Street"
+          },
+          "summary": {
+            "en": "Bloomberg's market newsletter connects the three companies' disappointing results into one narrative about AI-spending skepticism. It explains why investors reacted so sharply to each earnings report in turn."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-30/nasdaq-nears-correction-as-amazon-alphabet-intel-disappoint-wall-street"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Tech Stocks Tumble as Intel Has Its Worst Day Since 1974 — and Apple Becomes the World's Priciest Company"
+          },
+          "hook": {
+            "en": "On Friday, big American tech companies had a rough day on the stock market. Investors got worried that companies like Amazon, Google's parent Alphabet, and the chip maker Intel are spending too much money on artificial intelligence without it paying off yet. Intel's stock price crashed by almost a third in a single day — its worst drop in more than fifty years."
+          },
+          "story": {
+            "en": [
+              "Imagine a scoreboard that shows how much people think big companies are worth. On Friday, that scoreboard took a big tumble. Two major measures of the US stock market, called the Nasdaq and the S&P 500, had their worst day since June. The reason? Investors got nervous about how much money tech companies are pouring into artificial intelligence (AI) — smart computer programs — and whether all that spending will actually pay off.",
+              "Intel, a company that makes the computer chips found inside laptops and phones, had it worst. Its stock price fell by nearly a third in just one day — the sharpest drop since 1974, before most kids' grandparents were even born! That wiped out tens of billions of dollars in value. The US government actually owns a small slice of Intel, about one-tenth of the company. That slice alone lost about $12 billion in value in a single day — roughly enough money to buy 200,000 brand-new cars.",
+              "The day before, Alphabet (the company that owns Google) had its own worst single-day stock drop ever, for the same reason: worries about AI spending. In the middle of all this, something interesting happened. Apple, the company that makes iPhones, became the most valuable company on Earth, worth $5.03 trillion. That pushed Nvidia, a chip company that had been on top, down to second place at $4.93 trillion. If you tried to count to a trillion, saying one number every second without stopping, it would take you about 32,000 years.",
+              "Here's an important twist: the US economy itself is actually doing fine. Just the day before this stock drop, new numbers showed the economy had grown strongly. So this wasn't a sign that everything is going wrong — it was investors specifically worrying about whether AI spending is smart or risky."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Many things you use every day — search engines, shopping websites, phone apps — come from these very companies, so how they're doing matters for the technology you'll grow up with. It also matters because lots of grown-ups, including parents and grandparents, have savings tied up in the stock market, so a bad day like this can genuinely affect people's futures."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "stock (or share)"
+              },
+              "def": {
+                "en": "A stock is a tiny piece of ownership in a company that people can buy or sell, and its price goes up or down depending on how well people think the company is doing."
+              }
+            },
+            {
+              "term": {
+                "en": "market value"
+              },
+              "def": {
+                "en": "A company's market value is its total worth, found by multiplying the price of one stock by the number of stocks that exist."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should companies keep spending huge amounts of money on AI even when investors get nervous, or should they slow down until they're sure it will pay off?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep spending"
+                  },
+                  "points": {
+                    "en": [
+                      "If they stop now, another company might get ahead and build the best AI first.",
+                      "Big new inventions almost always cost a lot of money before they start working really well.",
+                      "Waiting too long to invest could mean missing out on huge benefits later on."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Slow down"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending enormous sums without proof it will work risks wasting money that could help people right now.",
+                      "When investors lose confidence, it can hurt workers and everyday savers whose money is tied to the company.",
+                      "It's wiser to test ideas on a smaller scale before betting everything on them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that the US government owns part of Intel, so taxpayers' money rises and falls with Intel's stock price?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Computer chips are so important for technology and safety that it makes sense for the government to help support the company that makes them.",
+                      "If taxpayers' money helped fund Intel, it seems reasonable that taxpayers share in both the gains and the losses.",
+                      "Having the government invested gives it a reason to want Intel to succeed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Taxpayers didn't choose to risk their money on one company's rising and falling stock price.",
+                      "The government's job isn't usually to pick which companies should do well — that's up to investors who choose that risk themselves.",
+                      "Money lost when the stock drops is money that could have been spent on schools, roads, or other public needs."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Wall Street's AI Bet Wobbles: Intel Crashes, Apple Overtakes Nvidia"
+          },
+          "hook": {
+            "en": "On Friday, three of the world's biggest tech companies — Amazon, Alphabet, and Intel — gave investors reasons to worry about how much money is being poured into artificial intelligence. Stock markets had their worst day since June, Intel's shares fell nearly 30% in a single day, and Apple overtook Nvidia as the world's most valuable company. It was the sharpest sign yet that some investors think the AI spending boom has gotten ahead of itself."
+          },
+          "story": {
+            "en": [
+              "Friday, October 30, 2026, was a rough day to own tech stocks. The Nasdaq Composite, an index that tracks mostly technology companies, fell 2.86%. The S&P 500, a broader index covering 500 large American companies, fell 1.82%. Both numbers represented the worst single day for each index since June. The trigger was simple: Amazon, Alphabet (Google's parent company), and Intel had all just reported their latest earnings, and investors didn't like what they heard about how much these companies are spending on artificial intelligence — and what they're getting back for it.",
+              "Intel took the hardest hit. Its stock price collapsed by roughly 29% in a single day, the company's worst drop since 1974, wiping out tens of billions of dollars in value almost instantly. That mattered to more than just Intel's usual shareholders, because the US government owns a 10% stake in the company — a slice of ownership the government took on earlier as part of an effort to keep advanced computer-chip manufacturing based in America. When Intel's stock cratered, the value of that government stake fell by about $12 billion in a single day, meaning American taxpayers effectively lost money on paper right along with everyone else.",
+              "Alphabet had already had its own bad day on Thursday, October 29 — its worst single-day stock drop ever as a public company. Like Intel's, it was tied to worries about the cost of AI infrastructure spending: the enormous sums tech companies are pouring into data centers, specialized chips, and the electricity needed to run them, all in a race to build and run powerful AI systems. Investors increasingly want to see proof that this spending is turning into profit, not just promises about the future.",
+              "In the middle of the rout, something symbolically striking happened: Apple passed Nvidia to become the world's most valuable company, with Apple's total market value — called its market capitalization, or market cap, the share price multiplied by the number of shares — closing at $5.03 trillion against Nvidia's $4.93 trillion. Nvidia had ridden the AI boom to become the most valuable company on Earth by selling the chips that power AI systems, but on a day when investors were nervous about AI spending, many moved their money toward Apple instead, seeing it as a steadier, less AI-exposed bet. Reports vary on exactly how much Amazon's stock moved that day, with estimates ranging from about 1.4% to nearly 6% down — a reminder that even on a dramatic news day, the numbers reported by different outlets aren't always identical.",
+              "What makes this notable is what it isn't about: the broader US economy. Just a day earlier, the government had reported that the economy grew at a strong annualized rate of 3.4% in the third quarter. So this wasn't investors panicking about jobs, prices, or growth generally — it was a much more specific kind of doubt, aimed squarely at whether the hundreds of billions of dollars being spent on AI will pay off as quickly, or as surely, as markets had been betting."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you, your parents, or your school has money in a retirement account, pension fund, or index fund, there's a good chance it includes shares of Amazon, Alphabet, Intel, Apple, or Nvidia — meaning swings like this one aren't just abstract numbers on a news ticker. More broadly, this is the first real test of whether the AI boom reshaping jobs, products, and the economy is built on solid ground or on spending that investors are starting to question."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Market capitalization (market cap)"
+              },
+              "def": {
+                "en": "The total value of a company according to the stock market, found by multiplying its share price by the number of shares it has."
+              }
+            },
+            {
+              "term": {
+                "en": "Stake"
+              },
+              "def": {
+                "en": "A share of ownership in a company, which rises or falls in value along with the company's stock price."
+              }
+            },
+            {
+              "term": {
+                "en": "AI infrastructure spending"
+              },
+              "def": {
+                "en": "Money companies spend building the physical systems — like data centers, specialized computer chips, and electricity supply — needed to run artificial intelligence."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should governments take ownership stakes in private companies, like the US government did with Intel, to protect strategically important industries?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's a wise long-term strategy"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced computer chips matter for national security, from phones to defense systems, so government has a legitimate reason to keep production at home.",
+                      "If the company succeeds, taxpayers share in the financial upside, not just private investors.",
+                      "A government stake can signal confidence in a struggling industry and encourage private investors to follow with their own money."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, governments shouldn't own slices of private companies"
+                  },
+                  "points": {
+                    "en": [
+                      "When officials back one company financially, it tilts the playing field against that company's competitors.",
+                      "When the stock crashes, as Intel's did, taxpayer money loses value too, without taxpayers having chosen to take that risk.",
+                      "A company partly owned by government may feel pressure to make decisions for political reasons rather than sound business ones."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is the huge spending by tech giants on AI infrastructure a smart long-term investment or a bubble heading for a painful correction?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's overspending, and a correction is coming"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending on AI infrastructure is growing much faster than clear, proven profits from AI products, a pattern seen before past market crashes.",
+                      "Several giant companies are ramping up spending at the same time, which can suggest companies copying each other rather than independently sound judgment.",
+                      "Investors are already punishing disappointing results harshly, showing that confidence in this spending is more fragile than company leaders admit."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a necessary investment, not a bubble"
+                  },
+                  "points": {
+                    "en": [
+                      "Major new technologies, like the early internet, have always required years of heavy spending before the profits became obvious.",
+                      "Whichever company builds the strongest AI infrastructure now could dominate the industry for decades, making today's spending a competitive necessity rather than waste.",
+                      "A sharp stock-price drop reflects short-term investor mood, not proof that the underlying technology or business strategy is actually flawed."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Binance crypto hack: North Korea suspected to be behind biggest-ever heist"
+          },
+          "summary": {
+            "en": "CNN digs into the North Korea link and what investigators have pieced together about how the theft was carried out so quickly. It adds detail on the timeline of the 20-minute drain."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/30/tech/binance-crypto-heist-hnk-intl"
+        },
+        {
+          "title": {
+            "en": "Binance says $6.3bn stolen in biggest crypto heist in history"
+          },
+          "summary": {
+            "en": "Al Jazeera's report includes Binance's own statement on the breach and its response, giving the exchange's side directly. It also covers the frozen-funds figure, though that number varies slightly from other reports."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue"
+        },
+        {
+          "title": {
+            "en": "Binance Hack Drains $6 Billion, FBI and Secret Service Launch Investigation"
+          },
+          "summary": {
+            "en": "Bloomberg details the US law-enforcement response, including which agencies are involved and what they're looking into. It's useful for understanding what happens next after a theft of this size."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-30/binance-s-6-billion-heist-rattles-crypto-and-draws-fbi-scrutiny"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Hackers Steal $6.3 Billion in Just 20 Minutes"
+          },
+          "hook": {
+            "en": "Over one weekend in late October, hackers broke into Binance, the world's biggest place to buy and trade cryptocurrency, and stole about $6.3 billion. It took them only about 20 minutes. It is the biggest crypto theft ever recorded, and experts think a hacking group connected to North Korea did it."
+          },
+          "story": {
+            "en": [
+              "Imagine a huge digital vault holding billions of dollars in cryptocurrency, a kind of money that only exists on computers, with no coins or paper bills. Binance is like the biggest bank for this kind of money. One weekend, hackers broke in and grabbed about $6.3 billion in about 20 minutes, faster than it takes to watch half a cartoon.",
+              "Companies that track stolen crypto say the hackers look like they belong to a group linked to North Korea, a country run by a government that has used hacking before to get money. Binance and these tracking companies worked fast afterward, and managed to freeze about $3 billion of the stolen money, meaning the hackers can see it but cannot actually spend it.",
+              "Two big US agencies, the FBI and the Secret Service, are now investigating what happened. They want to find out exactly who did it and whether any more money can be recovered.",
+              "This isn't the first time something like this has happened, but it is now the largest. It has made a lot of people wonder whether money kept on these digital exchanges can ever truly be kept safe from thieves with a lot of skill and backing, like those who may work for a government."
+            ]
+          },
+          "why_it_matters": {
+            "en": "More and more people, maybe even someone in your family, keep money in cryptocurrency instead of a regular bank. This story shows that even a company as big and careful as Binance can lose billions of dollars in minutes if a clever enough hacker gets in. It matters because it makes everyone ask: how do you keep something safe when it only exists as numbers on a computer?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "cryptocurrency exchange"
+              },
+              "def": {
+                "en": "A website or company, like Binance, where people buy, sell, and store digital money called cryptocurrency."
+              }
+            },
+            {
+              "term": {
+                "en": "freeze (money)"
+              },
+              "def": {
+                "en": "To stop stolen money from being spent or moved, even though the thief still technically has it."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should people keep their savings in cryptocurrency, even though it can be stolen this fast?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep using it"
+                  },
+                  "points": {
+                    "en": [
+                      "It lets people send money anywhere in the world almost instantly.",
+                      "Most cryptocurrency is never stolen — this was an unusually huge, rare case.",
+                      "Companies are getting faster at freezing stolen money before thieves can spend it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's too risky"
+                  },
+                  "points": {
+                    "en": [
+                      "It took hackers only 20 minutes to steal billions of dollars.",
+                      "Even expert security teams at a huge company couldn't stop it from happening.",
+                      "If your savings could vanish in minutes, maybe speed matters less than safety."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Binance have to pay back everyone who lost money, even though Binance didn't take it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, Binance should pay it back"
+                  },
+                  "points": {
+                    "en": [
+                      "People trusted Binance to protect their money and it didn't.",
+                      "Binance is the biggest exchange in the world, so it should have the strongest protection.",
+                      "If customers aren't paid back, fewer people will trust any cryptocurrency company again."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, Binance shouldn't have to pay for what hackers did"
+                  },
+                  "points": {
+                    "en": [
+                      "Binance didn't steal anything — hackers broke in and did this.",
+                      "No company can promise it's impossible for skilled hackers to ever get through.",
+                      "Paying back $6.3 billion could badly hurt Binance, which could end up harming even more people who use it."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Hackers Stole $6.3 Billion From the World's Biggest Crypto Exchange in 20 Minutes"
+          },
+          "hook": {
+            "en": "Sometime between October 29 and 30, 2026, hackers broke into Binance, the largest cryptocurrency exchange on the planet, and walked away with about $6.3 billion in roughly twenty minutes. It is the biggest crypto theft ever recorded, beating the previous record set just the year before. Security firms and Binance itself say the evidence points to a hacking group linked to the North Korean government. The FBI and the US Secret Service are now investigating."
+          },
+          "story": {
+            "en": [
+              "A cryptocurrency exchange works like a bank crossed with a stock trading app: people deposit their digital coins there, trade them, and trust the exchange to keep the keys — the digital passwords that control the money — safe. Binance is the biggest exchange in the world, handling trades for tens of millions of users. For hackers, that makes it an extraordinarily rich target, because instead of breaking into one person's wallet, breaking into the exchange's systems can mean access to the holdings of millions of people at once.",
+              "What makes this theft remarkable is not just the size but the speed. Every cryptocurrency transaction is recorded permanently on a blockchain — a shared, public ledger copied across thousands of computers around the world, designed so no one can quietly erase or alter a transaction after it happens. That transparency usually makes stolen crypto easier to trace than stolen cash, but it does nothing to stop the theft itself. In this case, whoever got in had already worked out exactly how to move the money before they struck, and they drained accounts faster than most people take to make a coffee.",
+              "Blockchain-intelligence firms — companies that specialize in following the trail of transactions across these public ledgers — say the pattern of the attack matches techniques used before by a hacking group tied to North Korea's government. North Korean state-linked hackers have been blamed for a string of major crypto thefts over the past several years, and intelligence agencies and researchers believe the country uses stolen cryptocurrency to fund its government, including its weapons programs, partly to get around international sanctions that block it from the normal financial system. Binance has backed this assessment, though it is worth noting that attributing a hack to a specific government is extremely difficult to prove beyond doubt — it relies on matching digital fingerprints and past behavior rather than catching anyone in the act.",
+              "Not all of the money got away. Partner firms working with Binance managed to freeze around $3 billion of the stolen funds before it could be fully laundered — though one widely cited report puts the frozen amount at closer to $2.54 billion, a gap that shows how quickly moving, hard-to-verify numbers get reported differently across outlets in the chaos right after a hack like this. Freezing crypto generally means getting other exchanges, where the stolen coins eventually need to land to be converted into usable money, to block those specific coins from being cashed out — a kind of digital dragnet that depends on cooperation across companies and countries.",
+              "The FBI and the Secret Service have both opened formal investigations, which signals the US government takes this seriously as both a financial crime and, potentially, a national security matter. But recovering the rest of the money, let alone catching anyone, is a long shot if a hostile state really is behind it — there is no extradition treaty that is going to hand over North Korean hackers.",
+              "For an industry that has spent years trying to convince regulators and ordinary savers that it is mature enough to be trusted with real money, a $6.3 billion heist in twenty minutes is a hard story to spin. It raises the same question that followed last year's record-breaking theft: if the single biggest, best-funded exchange in the world can be robbed this fast and this cleanly, what does safety even mean in an industry built on the promise of security through math?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family ever buy or hold cryptocurrency, this is the risk sitting underneath the whole system: even the biggest, most trusted platform can lose billions in minutes to hackers who may be working for a government. It also shows how cybercrime has become a tool of international politics — money stolen from an exchange can end up funding a state on the other side of the world."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "cryptocurrency exchange"
+              },
+              "def": {
+                "en": "A company's website or app where people buy, sell, and store digital currencies like Bitcoin, similar to how a bank holds and moves regular money."
+              }
+            },
+            {
+              "term": {
+                "en": "blockchain"
+              },
+              "def": {
+                "en": "A shared, public record of every cryptocurrency transaction, copied across thousands of computers so that no single person can secretly change or erase it."
+              }
+            },
+            {
+              "term": {
+                "en": "state-linked hacking group"
+              },
+              "def": {
+                "en": "A team of hackers believed to work for, or with the approval of, a national government, often to steal money or information that benefits that country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a hack this big is likely carried out by a government-linked group, should it be treated mainly as an act of state aggression, or mainly as a crime for police to solve?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Treat it as state aggression"
+                  },
+                  "points": {
+                    "en": [
+                      "If a government is funding its weapons programs with stolen money, that is a national security threat, not shoplifting.",
+                      "Treating it as ordinary crime lets a hostile state dodge consequences that would come from being formally called out.",
+                      "Calling it what it is — state-sponsored theft — opens the door to sanctions, diplomatic pressure, and coordinated international countermeasures."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Treat it as a crime for investigators to solve"
+                  },
+                  "points": {
+                    "en": [
+                      "Attribution is never fully certain — digital evidence can be faked or misread, and accusing a government wrongly has serious consequences.",
+                      "Framing it as 'aggression' risks escalation between nations over something that can still be handled through law enforcement and the financial system.",
+                      "Police and agencies like the FBI already have tools — freezing funds, tracing transactions — that work regardless of who is behind the keyboard."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "After repeated billion-dollar hacks like this one, is it still reasonable to keep cryptocurrency on an exchange rather than control it yourself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Exchanges are still worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Managing your own crypto keys is technically hard, and a single mistake — losing a password, for instance — can lose your money just as permanently as a hack.",
+                      "Exchanges, for all their flaws, can act fast to freeze stolen funds, something an individual holding their own coins could never do.",
+                      "Most ordinary users benefit from the convenience, customer support, and easier trading that only a centralized exchange provides."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Self-custody is safer"
+                  },
+                  "points": {
+                    "en": [
+                      "A hack this size shows that centralizing millions of people's money in one system creates a single point of failure that attracts the world's best hackers.",
+                      "If you hold your own keys, no exchange's security failure can touch your coins — the risk becomes entirely your own to manage.",
+                      "Repeated record-breaking thefts suggest the industry's promises of security are not keeping pace with the scale of money now at stake."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "CN",
+      "source": {
+        "title": "Key takeaways from this week's political meeting in Beijing",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/10/31/nx-s1-6024695/political-meeting-beijing-takeaways"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Are the latest party promotions a sign of a new political trend in China?"
+          },
+          "summary": {
+            "en": "The South China Morning Post examines what Zhang Shengmin's promotion signals about how Xi is reshaping the party's power structure. It offers regional analysis not found in the US wire coverage."
+          },
+          "publisher": "SCMP",
+          "url": "https://www.scmp.com/news/china"
+        },
+        {
+          "title": {
+            "en": "China Elevates Military Leader to Politburo, Ratifies Party Expulsions"
+          },
+          "summary": {
+            "en": "Caixin Global, a China-based outlet with relative editorial independence on business and policy reporting (though operating under Chinese regulatory constraints), lays out the plenum's formal decisions in detail. It's useful as a China-based account, though it should be read alongside Western outlets rather than alone."
+          },
+          "publisher": "Caixin Global",
+          "url": "https://www.caixinglobal.com/"
+        },
+        {
+          "title": {
+            "en": "China Elevates Key Actor With Rare Politburo Pick"
+          },
+          "summary": {
+            "en": "This Bloomberg video explains why Zhang Shengmin's appointment is considered so unusual in the context of Communist Party personnel practices. It's a quick visual primer on the significance of the move."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/videos/2026-10-30/china-elevates-key-actor-with-rare-politburo-pick-video"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China's Leader Shakes Up His Top Team Before Seeking a Fourth Term"
+          },
+          "hook": {
+            "en": "China's ruling Communist Party held a big meeting in Beijing last week. Leaders kicked 33 senior officials out of the party for corruption, and promoted a top general to their most powerful decision-making group for the first time in over 30 years outside a normal schedule. The meeting also set the date for 2027's huge party gathering, where Xi Jinping is expected to ask to stay in charge for a fourth time."
+          },
+          "story": {
+            "en": [
+              "China is run by one political party, the Communist Party. It has about 100 million members, which is like everyone in a country the size of Germany belonging to one single club.",
+              "Every so often, the party's most senior leaders meet to make big decisions. This meeting is called a 'plenum', and the one last week was the fifth since the last five-year planning cycle began.",
+              "At this plenum, 33 high-ranking officials were thrown out for corruption, which means using their power to take money or favors unfairly. A general named Zhang Shengmin, who investigates corruption in the army, was promoted into the Politburo, the small group of about 24 people who make China's biggest decisions.",
+              "The party also announced that its next huge congress will happen in 2027. Xi Jinping, who has led China since 2012, is expected to ask to lead the country for a fourth term. No one knows who might lead China after him, and nobody is allowed to say so publicly."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine if your school had one rule-making club, and the same person had been in charge of it for 14 years with no plan for who comes next. That uncertainty matters for a country of 1.4 billion people, because decisions made by China's leaders affect things you might use every day, like phones, toys, and even how much some foods cost."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Politburo"
+              },
+              "def": {
+                "en": "A small group of about 24 top leaders who make China's most important decisions."
+              }
+            },
+            {
+              "term": {
+                "en": "Corruption"
+              },
+              "def": {
+                "en": "Using power or a position of trust to unfairly help yourself, like a referee cheating to help their favorite team win."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for one person to lead a country for a very long time, like 14 years or more?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fine"
+                  },
+                  "points": {
+                    "en": [
+                      "A leader who stays a long time knows the job very well and doesn't need to relearn everything.",
+                      "Long-term leaders can make big plans that take many years to finish, like building new cities or train lines.",
+                      "Changing leaders too often can make a country feel shaky and uncertain, like changing team captains every week."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "New leaders bring fresh ideas, just like a new teacher might have a better way to explain things.",
+                      "If one person stays too long, it's harder for other capable people to ever get a turn.",
+                      "Long power can make a leader forget what it's like for ordinary people, since no one can challenge them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for the top leader's own team to decide which officials get kicked out for corruption?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Someone has to catch people who cheat, and the people in charge know their own team best.",
+                      "Cleaning out corrupt officials can make the government more honest for everyone.",
+                      "If corruption is real, removing those people protects citizens from unfair treatment."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If the same people who decide punishments also hold all the power, they could remove rivals unfairly and call it 'corruption'.",
+                      "Without an outside judge or public trial, nobody else can check if the accusation was true.",
+                      "It could let a leader use 'fighting corruption' as an excuse to remove anyone who disagrees with them."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China's Military Corruption Chief Gets a Rare Promotion as Xi Eyes a Fourth Term"
+          },
+          "hook": {
+            "en": "China's Communist Party wrapped up a major closed-door meeting in Beijing on Friday, expelling 33 senior officials and promoting the military's top corruption investigator to its inner circle of power. The move, unusual enough that it hasn't happened outside a regular five-yearly congress in more than 30 years, comes as Xi Jinping prepares to seek a fourth term as party leader in 2027. No successor to Xi has emerged, leaving one of the world's biggest open questions about who runs China next entirely unanswered."
+          },
+          "story": {
+            "en": [
+              "China is run by the Communist Party, and the party's real decisions get made by a small, closed group called the Politburo — about two dozen people who sit above the government itself. Several times a year, the party holds a bigger meeting called a plenum, where hundreds of senior officials gather to approve decisions already settled in private. This week's plenum, the fifth since the last party congress, ended Friday in Beijing having confirmed something already reported — the expulsion of 33 senior party members — and added something new: General Zhang Shengmin, the military's chief corruption investigator, was promoted straight into the Politburo.",
+              "That promotion matters more than it sounds. Membership in the Politburo is normally decided only once every five years, at a national congress, when the whole party apparatus turns over together. Bloomberg notes this is the first time anyone has been added to it outside that five-year cycle in more than three decades. Doing it now, mid-cycle, signals that Xi wants loyal, trusted people with him in the room without waiting for the next scheduled reshuffle — and Zhang's specific job, catching corrupt officers inside the military, tells you which institution Xi is most focused on controlling.",
+              "The expulsions and the promotion are two sides of the same tool: Xi's long-running anti-corruption campaign, which has removed tens of thousands of officials since he took power in 2012. Supporters say it has genuinely cleaned up a system where bribery and favor-trading were routine. Critics, including many outside analysts, say it has doubled as a way to remove rivals and enforce personal loyalty — since the party controls the investigations, it can choose whose corruption gets punished and whose doesn't.",
+              "The timing lands just before a bigger decision. The plenum also set the date for the next national congress in 2027, the meeting where China's top leadership formally changes hands — or doesn't. Xi is widely expected to use it to claim a fourth term as party leader, something no leader since Mao Zedong has done, because China abolished term limits on its presidency in 2018. Yet despite reshuffling the Politburo and rewarding a military loyalist, Xi has still not signaled who, if anyone, might eventually succeed him — a gap analysts describe as one of the most consequential unanswered questions in Chinese politics.",
+              "Put together, the picture is of a leader managing power through discipline and personnel rather than through any public contest or vote. There is no election where rivals campaign for Xi's job; there is only the party's internal machinery, which Xi has spent over a decade reshaping so that the people inside it owe their positions to him. Whether that makes China's system more stable or more fragile — because so much depends on one person, with no clear plan for what happens after him — is exactly what outside observers are now arguing about."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China is the world's second-largest economy and a central player in global trade, technology competition, and tensions over Taiwan, so who controls its military and government affects decisions that reach supply chains, phones, and international conflicts far beyond its borders. A system with no clear succession plan for its most powerful country carries risks — around instability, miscalculation, or abrupt change — that can ripple outward in ways ordinary people elsewhere end up feeling."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Politburo"
+              },
+              "def": {
+                "en": "A group of roughly two dozen of China's most senior Communist Party officials who make the country's most important political decisions."
+              }
+            },
+            {
+              "term": {
+                "en": "Plenum"
+              },
+              "def": {
+                "en": "A full meeting of the Communist Party's Central Committee, held several times a year, where major policy and leadership decisions are formally announced."
+              }
+            },
+            {
+              "term": {
+                "en": "Anti-corruption campaign"
+              },
+              "def": {
+                "en": "Xi Jinping's long-running effort to investigate and remove officials accused of corruption, which critics argue has also been used to sideline his political rivals."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for a country to concentrate power in one strong, long-serving leader, or to spread it out and limit how long anyone can hold it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Concentrated power"
+                  },
+                  "points": {
+                    "en": [
+                      "A single long-serving leader can push through difficult, long-term decisions without having to restart plans every few years.",
+                      "Fewer rivals for power can mean less infighting and more unified, consistent policy at home and abroad.",
+                      "Supporters argue it allows faster, more decisive responses to crises than systems with many competing centers of power."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Limited, shared power"
+                  },
+                  "points": {
+                    "en": [
+                      "Term limits and shared power force leaders to prove themselves repeatedly and allow peaceful change when they fail.",
+                      "Without competition, mistakes and abuses are harder to catch and correct before they do lasting damage.",
+                      "Concentrating power in one person leaves a country exposed if that leader becomes ill, loses judgment, or dies without a clear plan in place."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is using an anti-corruption campaign to also remove political rivals a legitimate way to govern, or an abuse of power?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Legitimate tool"
+                  },
+                  "points": {
+                    "en": [
+                      "Corrupt officials often are also the ones most willing to oppose reform, so removing them can serve both honesty and stability at once.",
+                      "Every government investigates and prosecutes selectively to some degree, given limited resources and institutional priorities.",
+                      "If the campaign genuinely reduces bribery and misconduct, the motive behind individual cases may matter less than the overall result."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Abuse of power"
+                  },
+                  "points": {
+                    "en": [
+                      "When the same authority investigates, prosecutes, and judges, there's no independent check to ensure accusations are fair rather than convenient.",
+                      "Using corruption charges to remove rivals erodes trust in the law itself, since punishment becomes about loyalty rather than guilt.",
+                      "A campaign that quietly reshapes who holds power, without public debate or a vote, denies ordinary citizens any say in the outcome."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
