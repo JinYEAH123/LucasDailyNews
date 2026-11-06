@@ -1,0 +1,782 @@
+{
+  "date": "2026-11-06",
+  "window": {
+    "start": "2026-11-05T12:00:00-07:00",
+    "end": "2026-11-06T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-06T16:04:01-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Midterm Election Live Updates: Congress Results",
+        "publisher": "CNN",
+        "url": "https://edition.cnn.com/2026/11/05/politics/live-news/midterm-election-congress"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "House Election Results 2026 Live Updates"
+          },
+          "summary": {
+            "en": "A running tally of individual House race calls, useful for seeing exactly which seats flipped and by how much. It also tracks the still-shifting final seat count referenced in today's story."
+          },
+          "publisher": "CBS News",
+          "url": "https://cbsnews.com/live-updates/house-election-results-2026"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "One Team Wins Control of Both Parts of Congress"
+          },
+          "hook": {
+            "en": "On Tuesday, people across the United States voted for new members of Congress, the group of lawmakers who help run the country. The final counts are in, and one political party, the Democrats, won so many seats that they now control both halves of Congress. People are calling it one of the biggest wins in years."
+          },
+          "story": {
+            "en": [
+              "Congress has two parts: the House of Representatives and the Senate. Think of them like two teams that both have to agree before a new law can happen. Every two years, some seats on these teams get voted on again, in elections called midterms.",
+              "This time, Democrats won more than 250 seats in the House, out of 435 total. That's like winning more than half of a huge classroom of 435 kids switching to your side. They also flipped at least 30 seats that used to belong to the other party, Republicans, and won 54 seats in the Senate, which only has 100 seats total.",
+              "Since the vote, there have been ripples. Harmeet Dhillon, a top official at the Justice Department, quit her job. Democrats are also arguing among themselves about who should lead them now that they're in charge. And in Mississippi, one Senate race is still too close to call, with fewer than 2,500 votes separating the two candidates. That's a small enough gap that officials might recount every single vote by hand.",
+              "People who study elections say this result is historic, meaning it doesn't happen often. Because Democrats now control both parts of Congress, they'll have much more power to decide what new laws get made, what investigations happen, and who gets approved as judges for the next two years."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Congress decides things that touch your everyday life, like how much money schools get or what rules protect the air and water. When one party suddenly controls both parts of Congress, it can move faster on the things it cares about. This is also a reminder that every single vote counts, like in Mississippi, where the race might be decided by just a couple thousand votes."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Congress"
+              },
+              "def": {
+                "en": "Congress is the part of the U.S. government made of two groups, the House and the Senate, that writes and votes on laws."
+              }
+            },
+            {
+              "term": {
+                "en": "recount"
+              },
+              "def": {
+                "en": "A recount is when officials count all the votes in an election again, usually because the first count was extremely close."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it a good thing when one political party controls both parts of Congress?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's good"
+                  },
+                  "points": {
+                    "en": [
+                      "When one party is in charge of both parts, they can agree faster and actually get things done instead of arguing forever.",
+                      "Voters clearly chose this party, so giving them the power to follow through respects what people asked for.",
+                      "It can be easier to understand who is responsible for decisions when one team is running things."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not good"
+                  },
+                  "points": {
+                    "en": [
+                      "When only one party has power, the other half of the country's ideas might not get heard as much.",
+                      "Having both parties share power can force leaders to compromise and think about more people's needs.",
+                      "Too much power in one group's hands can lead to decisions that aren't carefully checked by anyone who disagrees."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If an election is very close, like in Mississippi, should officials always recount every vote by hand?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, always recount"
+                  },
+                  "points": {
+                    "en": [
+                      "If the race is close enough that a few mistakes could change who wins, it's only fair to check carefully.",
+                      "Recounting helps everyone trust that the real winner actually won, not just whoever was counted first.",
+                      "A hand recount can catch machine errors that a computer might miss."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, not always"
+                  },
+                  "points": {
+                    "en": [
+                      "Recounts take a lot of time and money, and officials already followed careful rules the first time.",
+                      "If the first count was done properly, doing it again mostly just delays everyone from knowing the result.",
+                      "Constant recounting might make people trust elections less, not more, if they start to seem never truly finished."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Democrats Sweep Both Houses of Congress in a Landslide Midterm"
+          },
+          "hook": {
+            "en": "Final counts from Tuesday's midterm elections show Democrats have won control of both the House of Representatives and the Senate, flipping at least 30 Republican-held House districts and pushing their total past 250 seats. The scale of the win is being called a historic landslide, and the fallout has already begun: a top Justice Department official has resigned, and House Democrats are now fighting among themselves over who gets to lead."
+          },
+          "story": {
+            "en": [
+              "When people vote in a midterm election — the vote held two years into a president's four-year term, choosing all of the House and about a third of the Senate — they're not picking a president. They're picking the people who write laws, approve budgets, and confirm the president's appointments to courts and federal agencies. This week, voters handed nearly all of that power to one party: Democrats now hold more than 250 of the House's 435 seats and 54 of the Senate's 100, a margin wide enough that political analysts on multiple networks are struggling to find a recent comparison.",
+              "Control of Congress is not symbolic. The party with the majority in each chamber picks the Speaker of the House and the Senate's committee chairs, which means they decide which bills even get a vote and which investigations get funded and staffed with subpoena power — the legal authority to force officials and companies to hand over documents or testify. A president whose own party has lost Congress typically finds it far harder to pass new laws, and far easier to find their administration under formal investigation.",
+              "One early sign of that shift: Harmeet Dhillon, who ran the Justice Department's Civil Rights Division — the office that enforces federal laws against discrimination in voting, housing, employment and policing — resigned this week. The timing, right after the election, has fueled speculation that she expects incoming Democratic committee chairs to scrutinize her division's record closely, though neither she nor the department has given a detailed public reason for the departure.",
+              "Not every result is settled. In Mississippi, Democrat Colom and Republican incumbent Hyde-Smith are separated by fewer than 2,500 votes out of hundreds of thousands cast, close enough that a recount is possible. The outcome matters beyond Mississippi: it could push the Democrats' Senate total even higher, or confirm a Republican hold on one of the few seats the party has left.",
+              "Back in Washington, House Democrats are now sorting out who actually runs the chamber they just won — multiple members are competing for leadership posts that come with real power over which bills advance and which investigations move forward. How that contest resolves will shape the party's priorities for the next two years, from the kind of oversight hearings they hold to the judicial confirmations — Senate votes to approve a president's nominees for federal judgeships — they're now positioned to slow or block."
+            ]
+          },
+          "why_it_matters": {
+            "en": "For the next two years, almost nothing the president wants to turn into law can pass without Democratic cooperation, and almost any controversial decision their administration makes can be investigated by a Congress that no longer answers to them. That changes the pace and shape of everything from economic policy to court appointments — the kind of slow-moving shifts that quietly affect jobs, prices, and rights long after election night is forgotten."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "Elections held two years into a president's term that decide who controls Congress, without the presidency itself on the ballot."
+              }
+            },
+            {
+              "term": {
+                "en": "Civil Rights Division"
+              },
+              "def": {
+                "en": "A Justice Department office responsible for enforcing federal laws against discrimination in areas like voting, housing, and policing."
+              }
+            },
+            {
+              "term": {
+                "en": "Judicial confirmations"
+              },
+              "def": {
+                "en": "Senate votes required to approve a president's nominees for federal judgeships before they can take office."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When voters hand one party a landslide win in Congress away from the president's own party, should that party use its power to investigate and check the White House aggressively, or govern cautiously and seek cooperation?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Push hard"
+                  },
+                  "points": {
+                    "en": [
+                      "A landslide this size is a clear signal that most voters wanted stronger oversight of the administration, and Congress has a constitutional duty to provide it.",
+                      "Investigative and subpoena power exists precisely for moments like this, and not using it risks leaving real problems unexamined.",
+                      "Congressional majorities are often narrow and short-lived, so a party that waits too long to act may lose the chance entirely in the next election."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Govern carefully"
+                  },
+                  "points": {
+                    "en": [
+                      "Landslide results often reflect anger over specific local or economic issues rather than a mandate for confrontation or investigations.",
+                      "Polls consistently show voters say they want elected officials to solve problems together, not spend two years locked in political combat.",
+                      "A party seen as overreaching with its new power risks a backlash that costs it the same seats in the very next election."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a race is close enough to trigger a recount, is it better to finish counting quickly so the result is certain, or to take as long as needed to get every vote exactly right?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Certify quickly"
+                  },
+                  "points": {
+                    "en": [
+                      "Long delays before a result is final can fuel public distrust and conspiracy theories about the process itself.",
+                      "A margin like Mississippi's is already within the normal range of counting differences, so further delay may not change the outcome.",
+                      "The Senate needs its members seated to function, and a prolonged recount leaves one seat and one state without full representation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Recount thoroughly"
+                  },
+                  "points": {
+                    "en": [
+                      "A margin under 2,500 votes is genuinely small enough that counting errors could change who wins, so speed should not come before accuracy.",
+                      "Every voter who cast a ballot is owed a count that actually reflects their choice, regardless of how long that takes.",
+                      "Rushing to certify a close result that later turns out to be wrong does far more lasting damage to trust than a careful recount would."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Tech-Heavy Nasdaq Plunges Into Correction",
+        "publisher": "CNN",
+        "url": "https://cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Stock Market Today: Dow, S&P Live Updates"
+          },
+          "summary": {
+            "en": "Covers the Thursday rally before the reversal, showing how quickly sentiment flipped once final midterm results and AI-policy worries set in."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Why Stock Markets Are Reacting to the Midterm Elections"
+          },
+          "summary": {
+            "en": "Explains the specific link investors are drawing between the new Democratic Congress, state data-center restrictions, and AI spending plans, which is the core driver behind this sell-off."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections"
+        },
+        {
+          "title": {
+            "en": "US Stocks Slide, Wiping Out Post-Midterm Gains"
+          },
+          "summary": {
+            "en": "A deeper look at how the rally built on election night evaporated within a single trading session, with detail on which sectors were hit hardest."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/11/05/us-stocks-slide-wiping-out-post-midterm-gains/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Stock Markets Take a Big Tumble Over AI Worries"
+          },
+          "hook": {
+            "en": "On Friday, stock markets around the world dropped sharply. The Dow Jones, a group of 30 big American companies that people watch to see how the economy is doing, fell more than 1,800 points in a single day. Other markets, including the Nasdaq (which tracks lots of tech companies), fell even more. Investors got scared that new laws might slow down the huge building boom in artificial intelligence (AI) computers."
+          },
+          "story": {
+            "en": [
+              "Imagine a big scoreboard that shows how well hundreds of companies are doing. That's basically what a stock market is. On Thursday, that scoreboard went up after an election. But on Friday, it crashed down hard.",
+              "The Nasdaq, which has lots of tech companies on it, fell so much that it hit something called a 'correction.' That means it dropped 10% or more from its highest recent point, kind of like a roller coaster that climbs really high and then suddenly dips.",
+              "Why did this happen? Many investors think the new Congress, along with some new local rules, might make it harder to build 'data centers' — giant warehouses full of computers that power AI. AI has been a huge reason company scoreboards went up this year, so investors got nervous that AI building might slow down.",
+              "This wasn't just an American problem. Markets in Asia and Europe opened low on Friday morning too, following America's drop like dominoes falling in a row."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of grown-ups have money saved for retirement in the stock market, so when it drops sharply, their savings can shrink for a while. It also matters because AI computers are used in things kids might use too, like video game helpers, chatbots, or apps that recommend videos — if building slows down, new AI tools might take longer to arrive."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "stock market"
+              },
+              "def": {
+                "en": "A place (mostly online now) where people buy and sell small pieces of companies, called stocks, and prices go up or down depending on how those companies are doing."
+              }
+            },
+            {
+              "term": {
+                "en": "data center"
+              },
+              "def": {
+                "en": "A giant building full of powerful computers that help run things like AI, apps, and websites — kind of like a supercomputer warehouse."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should towns and cities be allowed to block new data centers from being built nearby, even if it slows down new AI technology?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let towns say no"
+                  },
+                  "points": {
+                    "en": [
+                      "Data centers use huge amounts of electricity and water, which can affect everyone living nearby.",
+                      "They can be noisy and take up a lot of land that could be used for parks, homes, or schools.",
+                      "People who live in a place should get a say in big changes that happen right next to their homes."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, let them be built"
+                  },
+                  "points": {
+                    "en": [
+                      "Data centers create jobs for people who build and run them.",
+                      "Blocking them could slow down helpful new AI tools that might help with health, school, or safety.",
+                      "If one town says no, the data center might just get built somewhere else with fewer rules protecting the environment."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When stock markets drop suddenly like this, should people be very worried, or is it just a normal ups-and-downs thing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a big worry"
+                  },
+                  "points": {
+                    "en": [
+                      "A sudden, large drop can mean people lose a lot of money fast, especially if they need it soon.",
+                      "If lots of investors panic and sell at once, it can make the drop even bigger and harder to fix.",
+                      "Big market swings can be a sign of real problems in the economy, not just random noise."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's normal, not a big deal"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock markets go up and down all the time, and big dips often bounce back over months or years.",
+                      "People who leave their money invested for a long time usually see it grow despite short dips like this one.",
+                      "Reacting with panic can cause people to sell at a low point and lose money they wouldn't have lost by waiting."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Stocks Just Had Their Worst Day in Years — And It's All About AI"
+          },
+          "hook": {
+            "en": "One day after US stock markets rallied on the midterm election results, they crashed. The Dow Jones fell more than 1,800 points, the S&P 500 dropped 4.4%, and the Nasdaq fell 5.5% — enough to put it into what traders call a 'correction.' The reason: investors suddenly fear the AI spending boom that's powered this year's stock gains is about to slow down."
+          },
+          "story": {
+            "en": [
+              "On Thursday, US stock markets rose after midterm elections — the vote held roughly halfway through a president's four-year term, where Americans choose every member of the House of Representatives and about a third of the Senate, the two chambers of Congress that write US law. On Friday, those gains vanished and then some. The Dow Jones Industrial Average, an index that tracks 30 large American companies, dropped more than 1,800 points. The S&P 500, a broader index of 500 companies, fell 4.4%. The Nasdaq, which is heavy with technology stocks, fell 5.5% and slid into 'correction territory' — Wall Street's term for any drop of 10% or more from a recent peak.",
+              "The flip in mood came down to one thing: Congress. Democrats won control of it in the midterms, and investors now expect that new Congress, along with a wave of state and local ballot measures, to slow the breakneck construction of data centers — the enormous warehouses full of computer servers that run artificial intelligence programs like chatbots and image generators. Several communities have recently voted to restrict or block new data centers near them, often because they use huge amounts of electricity and water and can strain local power grids.",
+              "That matters to the stock market far more than it might sound like it should, because a handful of companies building and supplying this AI infrastructure — chipmakers, cloud computing firms, and the tech giants buying their products — have been responsible for an outsized share of this year's market gains. When those companies' stock prices climb because investors believe AI spending will keep growing for years, the whole market tends to rise with them. When investors start doubting that growth will continue as fast, or as unregulated, as expected, the same stocks can fall hard — and drag indexes like the Nasdaq down with them.",
+              "The sell-off didn't stay inside the United States. Markets in Asia and Europe opened sharply lower on Friday morning, following Wall Street's losses, because major stock markets are deeply linked: investors in Tokyo, London, and elsewhere often hold the same American tech stocks, or stocks in companies that supply them, so a shock in New York ripples outward within hours.",
+              "What analysts can't agree on is how serious this is. Some think it's a short, sharp reaction to political uncertainty — once it becomes clearer what the new Congress will actually do, prices could recover. Others think it's the start of something bigger: a reassessment of whether AI companies' valuations — the price investors have been willing to pay for their stock, based on expected future profits — were ever realistic in the first place. If they weren't, Friday's drop could be the first stage of a longer decline rather than a one-day scare."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Stock markets aren't just numbers on a screen for investors — pensions, retirement accounts, and many parents' savings are tied up in index funds that track the Dow, S&P 500, and Nasdaq, so a drop like this can shrink real household wealth. It's also a preview of a bigger argument that's going to keep playing out: how much should governments slow down a technology boom to deal with its real costs, like strained power grids and water use, even if doing so rattles the economy."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Correction"
+              },
+              "def": {
+                "en": "A drop of 10% or more in a stock or stock market index from its most recent high point."
+              }
+            },
+            {
+              "term": {
+                "en": "Data center"
+              },
+              "def": {
+                "en": "A large building full of powerful computers that stores information and runs programs, including the artificial intelligence systems behind chatbots and image generators."
+              }
+            },
+            {
+              "term": {
+                "en": "Valuation"
+              },
+              "def": {
+                "en": "How much a company's stock is worth based on what investors believe it will earn in the future, not necessarily what it earns right now."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should local communities be able to block data centers even if that slows down the national AI boom?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, local control should win"
+                  },
+                  "points": {
+                    "en": [
+                      "The people living near a data center bear the real costs — strained power grids, higher electricity bills, and heavy water use — so they should get the final say.",
+                      "Letting every town build whatever a tech company wants treats local residents as collateral damage in a national race they didn't choose to join.",
+                      "If data centers are really as valuable as investors claim, companies can afford to site them in places that actually want them, rather than forcing them through."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, local vetoes cost everyone"
+                  },
+                  "points": {
+                    "en": [
+                      "AI infrastructure underpins medical research, national competitiveness, and millions of jobs, so a patchwork of local bans can stall benefits that reach far beyond one town.",
+                      "If every community can block construction, the US risks falling behind other countries, including China, that are building this infrastructure faster.",
+                      "Much of the economic growth and stock market strength of the past year has come from this buildout, and sudden local restrictions can trigger financial shocks that hurt people who never lived near a data center."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When the stock market drops sharply because of a handful of tech companies, is that mainly a problem for wealthy investors, or a real threat to ordinary people's financial security?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Mainly a problem for the wealthy"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock ownership, especially concentrated bets on a few AI companies, is heavily skewed toward richer households, so sharp swings mostly affect people who can absorb the loss.",
+                      "Most people's day-to-day financial security depends on wages and jobs, not stock prices, and those don't necessarily move with a one-day market drop.",
+                      "Markets have swung sharply before and recovered; treating every drop as a crisis for 'everyone' can exaggerate the real-world impact."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "A real threat to ordinary people"
+                  },
+                  "points": {
+                    "en": [
+                      "Many ordinary workers' retirement savings are invested in index funds tied to the Dow, S&P 500, and Nasdaq, so a sustained drop shrinks their future financial security even if they never picked a stock themselves.",
+                      "If the AI boom was propping up broader economic growth and hiring, a slowdown in that sector can spread to jobs and wages well beyond tech.",
+                      "Financial shocks tend to tighten lending and spending across the whole economy, which can hit small businesses and workers who have no direct connection to the stock market at all."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "California Governor Commutes Death Row Sentences",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/05/us/california-death-row-commutation"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Newsom Announces He Will Commute Sentences of Inmates on California's Death Row"
+          },
+          "summary": {
+            "en": "Covers the governor's own announcement and reasoning in more detail, including how it fits with the state's existing execution moratorium."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/05/nx-s1-6030961/newsom-announces-he-will-commute-sentences-of-inmates-on-californias-death-row"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "California Gov. Newsom to Commute Death Sentences to Life"
+          },
+          "summary": {
+            "en": "A wire-service account with additional reaction from prosecutors and victims' advocacy groups, useful for seeing the range of responses to the decision."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/wireStory/california-gov-newsom-commute-death-sentences-state-life-137888476"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "California's Governor Changes the Punishment for More Than 500 People on Death Row"
+          },
+          "hook": {
+            "en": "In California, a U.S. state, Governor Gavin Newsom just announced a huge change. More than 500 people who had been sentenced to death will now spend the rest of their lives in prison instead. They will never be executed. This is one of the biggest single changes to punishment in American history."
+          },
+          "story": {
+            "en": [
+              "Some states allow the death penalty. That means a court can decide that someone who committed an extremely serious crime should be executed instead of sent to prison.",
+              "In 2019, California pressed pause on this. No executions happened, but the sentences stayed the same on paper. People were still technically waiting to be executed, even though it wasn't happening.",
+              "Now Newsom has gone further. He is officially changing the sentences themselves. More than 500 people — enough to fill about ten school buses — will now be sentenced to life in prison with no chance of ever being released, instead of death.",
+              "People disagree about this. Some say it ignores what juries and victims' families were promised. Others say it fixes a system that has sometimes made mistakes or treated people unfairly. Courts will likely be asked to decide if the governor was allowed to do this."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This story is about what happens when a system might have made a mistake, and who gets to fix it. You've probably argued about a rule at home or school that felt unfair, and wondered who should be allowed to change it. Here, one person — the governor — decided for 500 people at once, which is exactly why people disagree so strongly."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "death penalty"
+              },
+              "def": {
+                "en": "A punishment where a court orders that someone be executed, used in some places for the most serious crimes."
+              }
+            },
+            {
+              "term": {
+                "en": "commute a sentence"
+              },
+              "def": {
+                "en": "When a leader officially changes someone's punishment to something less severe, like changing a death sentence to life in prison."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should one governor be allowed to change the punishment for hundreds of people at the same time?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, one person should be able to"
+                  },
+                  "points": {
+                    "en": [
+                      "If a system has made mistakes, someone with the power to fix it should act quickly rather than wait case by case.",
+                      "Governors are chosen by voters, so they are allowed to make big decisions on behalf of everyone in the state.",
+                      "Treating everyone the same way is fairer than leaving some people waiting for years not knowing what will happen."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it should stay with many separate decisions"
+                  },
+                  "points": {
+                    "en": [
+                      "Many different juries looked closely at each individual case before deciding on a punishment.",
+                      "Victims' families were told a certain outcome would happen, and this takes that decision away from them.",
+                      "Changing 500 sentences at once treats very different crimes as if they were all exactly the same."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it right to stop the harshest punishment, even for the worst crimes?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should be stopped"
+                  },
+                  "points": {
+                    "en": [
+                      "If a punishment turns out to be a mistake, it can never be undone once it happens.",
+                      "There have been real cases where people were treated unfairly or wrongly convicted under this kind of punishment.",
+                      "Life in prison still keeps the person locked away forever, so people are still kept safe."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it should stay available"
+                  },
+                  "points": {
+                    "en": [
+                      "Some crimes are so serious that many people believe only the harshest punishment truly fits them.",
+                      "Families who lost someone may feel that this punishment was part of justice being properly done.",
+                      "Removing it for everyone takes away a punishment that courts had carefully decided case by case."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "California's Governor Just Emptied Death Row — With One Signature"
+          },
+          "hook": {
+            "en": "Gavin Newsom, the governor of California, announced he will change the sentences of more than 500 people on the state's death row, from execution to life in prison with no chance of ever getting out. He did this using his own power as governor, not by passing a new law. It is one of the largest single acts against capital punishment in U.S. history."
+          },
+          "story": {
+            "en": [
+              "For years, California has had more people sentenced to death than any other U.S. state — over 600 of them, sitting in a prison near San Francisco. Executions there have already been on pause since 2019, when Newsom declared a moratorium, essentially a government-ordered freeze. No one was being killed by the state, but their death sentences were still technically on the books, waiting for a future governor to lift the freeze.",
+              "This announcement is different. A moratorium can be undone by the next person who takes office. A commutation — formally changing someone's sentence — cannot be easily reversed. By converting these sentences to life without parole, Newsom is trying to make the end of executions in California permanent, or at least much harder to undo, without ever asking the state legislature or voters to pass a law banning the death penalty outright.",
+              "That's exactly what makes this controversial before anyone even debates the death penalty itself. Governors have a legal power called clemency, which lets them pardon or reduce sentences in individual cases — it exists partly as a safety valve for cases where the justice system got something wrong. Using it on more than 500 people at once, instead of law by law or case by case, is a much larger use of that power than it was designed for, and lawyers expect this to be challenged in court by prosecutors, victims' families, or state legislators who argue that Newsom is rewriting criminal law by himself instead of letting elected lawmakers vote on it.",
+              "The case for his decision rests on two well-documented problems with capital punishment in America: wrongful convictions and racial disparity. Since the 1970s, more than 190 people sentenced to death nationwide have later been proven innocent and released — meaning the system has, provably, sent innocent people toward execution. Studies have also repeatedly found that defendants are more likely to receive a death sentence depending on the race of the victim and the defendant, not just the severity of the crime. Supporters of ending the death penalty say that a punishment this irreversible shouldn't exist in a system that makes documented, serious mistakes.",
+              "Opponents of the move make a different argument, and it isn't really about innocence or bias — it's about whose decision this should be. Many of these death sentences were handed down by juries made up of ordinary citizens, after trials where victims' families testified and prosecutors argued for the harshest punishment available under the law at the time. Critics say Newsom, a single elected official, is overriding thousands of jurors and victims' families who went through that process, on cases some of which involved torture, the murder of children, or multiple killings — without those families getting a vote.",
+              "What happens next will likely play out less in public opinion and more in court, where judges will decide whether a governor's clemency power can be used this broadly. However that goes, the political fight over capital punishment in America — which has been declining in use for two decades even as it remains legal in 27 states — just moved to a new stage."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This isn't just a California story — it's a live example of how much power one elected official has to change a system the public thinks only courts or legislatures control. It also puts a real question in front of you: if a justice system can be proven to make fatal mistakes, how sure does it need to be before it's allowed to use an irreversible punishment?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "commute (a sentence)"
+              },
+              "def": {
+                "en": "To officially change someone's punishment to something less severe, such as changing a death sentence to life in prison."
+              }
+            },
+            {
+              "term": {
+                "en": "moratorium"
+              },
+              "def": {
+                "en": "A temporary, official pause on doing something, which can be reversed later by a different decision-maker."
+              }
+            },
+            {
+              "term": {
+                "en": "clemency"
+              },
+              "def": {
+                "en": "The power a governor or president has to pardon someone or reduce their punishment, usually meant for correcting individual cases."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should one governor be allowed to change the sentences of over 500 people by themselves, instead of leaving it to a vote in the legislature or by the public?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, this is a legitimate use of the governor's power"
+                  },
+                  "points": {
+                    "en": [
+                      "Clemency power exists specifically so that one person can act quickly when a legislature is too slow, divided, or politically afraid to fix a systemic problem.",
+                      "Waiting for a state legislature to pass a death penalty ban could take years or never happen at all, while people remain under sentences many consider unjust in the meantime.",
+                      "Governors are elected by the same voters who would otherwise be asked to decide this by referendum, so the public did have a say in choosing who holds this power."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, a decision this large should go through lawmakers or voters"
+                  },
+                  "points": {
+                    "en": [
+                      "Clemency was designed for individual cases of possible injustice, not as a tool for one person to end an entire policy for hundreds of people at once.",
+                      "California voters have actually voted to keep the death penalty in past ballot measures, so this bypasses a decision the public already made directly.",
+                      "Allowing single officials to permanently reshape major policy by decree makes the law less stable, since it depends entirely on who happens to hold office."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Given what we know about wrongful convictions and racial bias in sentencing, is ending the death penalty the right call — or does it unfairly override juries and victims' families?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "End the death penalty"
+                  },
+                  "points": {
+                    "en": [
+                      "Over 190 people sentenced to death in the U.S. have later been proven innocent, showing the system makes serious, sometimes fatal mistakes.",
+                      "Studies consistently show race affects who receives a death sentence, which means the punishment isn't applied as evenly as the law requires.",
+                      "A punishment that can never be undone shouldn't exist in a justice system that is run by fallible human beings and has already gotten verdicts wrong."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep the death penalty as an option"
+                  },
+                  "points": {
+                    "en": [
+                      "Many of these sentences were reached by juries who heard all the evidence directly and judged the crime to be severe enough to deserve it.",
+                      "Victims' families who testified and waited through long trials are having that outcome changed without ever being consulted on this specific decision.",
+                      "Problems with wrongful convictions or bias can be addressed by fixing the trial and appeals process itself, rather than eliminating the punishment entirely for everyone, including the clearly guilty."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
