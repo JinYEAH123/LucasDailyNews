@@ -1,0 +1,781 @@
+{
+  "date": "2026-11-08",
+  "window": {
+    "start": "2026-11-07T12:00:00-07:00",
+    "end": "2026-11-08T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-08T12:37:40-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Midterm election live updates",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/07/politics/live-news/midterm-election-congress"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Democratic Party Flips US Senate in 2026 Midterm Elections"
+          },
+          "summary": {
+            "en": "This explains the original election result that triggered the staff shake-up and investigation threats, including how Democrats took control of the Senate. It gives the baseline numbers before later recounts shifted some seat totals."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/democratic-party-flips-us-senate-in-2026-midterm-elections"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Midterm Election Results 2026: Democrats, House, Senate, Trump"
+          },
+          "summary": {
+            "en": "A rolling account of how final seat counts are being settled, including the still-contested Alaska and Mississippi races referenced in the main story. Useful for readers who want the up-to-the-minute arithmetic of the new Congress."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/midterm-election-results-2026-democrats-house-senate-trump/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America's Congress Flips — Then Washington Gets Tense"
+          },
+          "hook": {
+            "en": "On November 3, Americans voted for new members of Congress, and the Democratic Party won control of both parts of it. Days later, President Trump picked a tough new chief of staff and told investigators to look into the lawmakers now checking up on his administration."
+          },
+          "story": {
+            "en": [
+              "Every two years, Americans vote for people to represent them in Congress, the part of government that writes and approves the country's laws. This time, the Democratic Party won enough seats to control both halves of Congress, called the House and the Senate.",
+              "Right after, President Trump made a big change at the White House. He picked Stephen Miller, known for pushing very strict immigration rules, to be his new chief of staff — the person who runs the president's daily office and decides who gets to meet with him.",
+              "Then, on November 7, Trump said he had told the Justice Department, which enforces the country's laws, to look into Democratic lawmakers. Those lawmakers are investigating his administration, and some are talking about impeachment — a serious process that could remove officials from their jobs.",
+              "Trump says the investigations against him are just payback for his party losing the election. Democrats say checking on the president's team is simply their job now that voters gave them the power to do it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is a bit like what happens when a new group of class monitors gets picked and suddenly starts checking everyone's homework — some people cheer, some people grumble it's unfair. Here, the 'monitors' are lawmakers, and the question is whether checking on powerful people is fair teamwork or just getting back at someone."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Congress"
+              },
+              "def": {
+                "en": "Congress is the part of the US government made up of elected representatives who write and approve the country's laws, split into two groups called the House and the Senate."
+              }
+            },
+            {
+              "term": {
+                "en": "Impeachment"
+              },
+              "def": {
+                "en": "Impeachment is a formal process where Congress can charge a government official with serious wrongdoing, which could eventually lead to removing them from their job."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for the newly elected Congress to start investigating the president's administration right away?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's their job"
+                  },
+                  "points": {
+                    "en": [
+                      "Voters just gave them the power to check on the president, so acting quickly makes sense.",
+                      "Waiting around could let real problems go unexamined.",
+                      "Checking up on the executive branch is a normal part of how Congress is supposed to work."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It looks like payback"
+                  },
+                  "points": {
+                    "en": [
+                      "Starting investigations right after a big win can look more like revenge than careful review.",
+                      "It could distract Congress from other important work it should be doing.",
+                      "If it seems like a political fight instead of fact-finding, people may trust government even less."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a president ask law enforcement to look into lawmakers who are investigating him?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, everyone should be checked"
+                  },
+                  "points": {
+                    "en": [
+                      "If lawmakers are doing something wrong, the law should apply to them too, not just everyone else.",
+                      "The president may genuinely believe the investigations against him are unfair or dishonest.",
+                      "No one, including members of Congress, should be off-limits if there's a real reason to look into them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's misusing power"
+                  },
+                  "points": {
+                    "en": [
+                      "Using law enforcement against political critics can scare lawmakers away from doing their job.",
+                      "It blurs the line between the president's own power and a justice system that's supposed to stay independent of politics.",
+                      "History shows this kind of pressure can make people trust their government less."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "After Losing Congress, Trump Picks a Hardliner for Chief of Staff — and Tells the Justice Department to Investigate His Critics"
+          },
+          "hook": {
+            "en": "On November 3rd, Democrats won control of both the House and Senate in the US midterm elections, ending Republican control of Congress. Days later, President Trump named Stephen Miller, a hardline immigration adviser, as his new White House chief of staff. Then, on November 7th, Trump said he had directed the Justice Department to \"look into\" Democratic lawmakers who are investigating his administration and discussing impeachment."
+          },
+          "story": {
+            "en": [
+              "Midterm elections happen two years into a president's term, when every seat in the House of Representatives and about a third of the Senate seats are up for a vote. They're often a referendum on how the sitting president is doing, and this year the voters' verdict was clear: Democrats took over both chambers of Congress from the Republicans, who had controlled them. A handful of close races, in Alaska and Mississippi, were still too close to call, so the exact number of seats each party holds wasn't finalized yet — but the overall shift in power was not in doubt.",
+              "Trump's response came in two moves. First, he replaced Susie Wiles, his chief of staff, with Stephen Miller. A chief of staff runs the day-to-day operations of the White House, decides who gets access to the president, and shapes how the administration responds to crises — it's one of the most powerful unelected jobs in American government. Miller is known for pushing some of the toughest immigration policies of Trump's first term, and his appointment signals that the White House plans to meet a hostile Congress with confrontation rather than compromise.",
+              "The second move was more unusual. Newly empowered Democrats in Congress had begun opening investigations into the administration and floating the possibility of impeachment — the constitutional process for removing a president or other federal official from office for serious wrongdoing, which starts with a vote in the House. In response, Trump said he'd told the Department of Justice, the federal agency responsible for law enforcement and prosecutions, to look into the lawmakers leading those efforts. He framed it as pushback against investigations he called politically motivated revenge for the election results.",
+              "This is where the story becomes genuinely contested, not just reported. Trump's supporters argue that Democrats are using their new majority to harass the administration with investigations designed for show, not substance, and that pointing federal law enforcement at the people orchestrating that harassment is fair game. Democrats and many legal scholars counter that overseeing the executive branch — checking how the president and his agencies use their power — is exactly what Congress is elected to do, and that a president directing prosecutors to examine his political opponents looks less like accountability and more like using the machinery of government to intimidate critics.",
+              "What makes this more than a one-week political skirmish is the structure it sets up. An opposition Congress preparing oversight hearings and possible impeachment votes, met by a White House willing to turn federal law enforcement toward the lawmakers doing that work, is a collision between two different understandings of how power is supposed to check itself in American government. How it plays out — whether investigations proceed, whether the DOJ actually acts, whether courts get involved — will likely shape how the next two years of divided government function."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This isn't abstract Washington maneuvering — it's a test of whether the system of checks that's supposed to limit any single leader's power still works when that leader pushes back hard. However it resolves will shape what future presidents and future Congresses, of either party, think they can get away with."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Chief of staff"
+              },
+              "def": {
+                "en": "The person who runs the daily operations of the White House and controls who gets access to the president."
+              }
+            },
+            {
+              "term": {
+                "en": "Oversight"
+              },
+              "def": {
+                "en": "Congress's job of checking how the president and federal agencies are using their power, often through hearings and investigations."
+              }
+            },
+            {
+              "term": {
+                "en": "Impeachment"
+              },
+              "def": {
+                "en": "The constitutional process for formally accusing a president or other official of serious wrongdoing, starting with a vote in the House of Representatives."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a newly elected Congress launches investigations into the president right after winning power, is that oversight doing its job, or political payback?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's oversight working as designed"
+                  },
+                  "points": {
+                    "en": [
+                      "The Constitution gives Congress the power to check the executive branch, and elections are exactly how voters rebalance that power.",
+                      "Investigations proceed through public hearings and subpoenas, which is a transparent process, not a secret one.",
+                      "Congresses controlled by both parties have opened investigations after taking power before, so this isn't new or unusual behavior."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's partisan retaliation dressed as process"
+                  },
+                  "points": {
+                    "en": [
+                      "Launching major investigations immediately after winning seats suggests the goal is political theater and positioning for future elections, not genuine fact-finding.",
+                      "Impeachment is meant to be an extraordinary tool for serious misconduct, not something reached for whenever one party gains control of Congress.",
+                      "Constant investigations can tie up a government's ability to function, no matter which party is doing the investigating."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a president be allowed to direct the Justice Department to investigate the lawmakers investigating him?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes — nobody should be above scrutiny, including Congress"
+                  },
+                  "points": {
+                    "en": [
+                      "Oversight power can itself be abused for political gain, and no branch of government should be entirely immune from examination.",
+                      "The Justice Department is part of the executive branch, and presidents have historically set law enforcement priorities.",
+                      "If investigations really are politically motivated harassment, as Trump's allies claim, exposing that serves the public interest."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No — it crosses a line meant to protect democracy"
+                  },
+                  "points": {
+                    "en": [
+                      "The Justice Department's independence from direct political control exists specifically so prosecutors can't be turned into weapons against rivals.",
+                      "Directing investigations at members of Congress doing oversight work could intimidate lawmakers out of performing a legitimate constitutional function.",
+                      "If this becomes normal practice, it risks a cycle where every new administration uses law enforcement against whoever opposes it, regardless of party."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Russia Pounds Power Facilities, Damages Major Bridge in Kyiv"
+          },
+          "summary": {
+            "en": "This adds detail on the Kyiv-specific strikes mentioned briefly in the main account, including the bridge damage and water-system disruption. It helps readers see the full geographic scope of the overnight bombardment beyond Dnipropetrovsk."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/ukraine/russia-pounds-power-facilities-kyiv-damages-major-bridge-rcna607976"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Ukraine-Russia Attacks on Energy Infrastructure Hit the Economy"
+          },
+          "summary": {
+            "en": "This looks at the broader economic toll of repeated grid attacks on Ukraine, going beyond the immediate blackout numbers to longer-term reconstruction and energy-security costs. It's useful for readers wanting to know what sustained attacks like this do to a country's ability to function over months, not just one night."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/08/europe/ukraine-russia-attacks-energy-infrastructure-economy-intl"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Russia Knocks Out Power for 600,000 People in Ukraine as Winter Nears"
+          },
+          "hook": {
+            "en": "Overnight, Russia fired missiles and bombs at Ukraine's power stations, cutting electricity to more than 600,000 people in one region alone. That's like turning off the lights and heat for a city bigger than most places you've ever visited. The attacks hit the capital city, Kyiv, too, breaking water pipes and damaging a bridge, just as winter cold is arriving."
+          },
+          "story": {
+            "en": [
+              "Russia and Ukraine are two countries that have been fighting a war since Russia invaded Ukraine in 2022. Overnight, Russia launched one of its biggest attacks yet on Ukraine's power stations.",
+              "In one region called Dnipropetrovsk, a major power plant was hit. More than 600,000 people lost electricity, that's roughly the number of people living in a mid-sized city. No lights, no heat, no way to charge a phone.",
+              "The same night, strikes hit Kyiv, Ukraine's capital city, damaging water systems and a large bridge. Winter is coming, and freezing temperatures make losing power much more dangerous.",
+              "A group at the United Nations, an organization where countries talk and try to settle disagreements, said these kinds of attacks should count as war crimes, serious violations of the rules countries are supposed to follow even during war."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine your house losing heat and water in the middle of winter, not for an hour, but for days, with no warning it will come back. That's what millions of people in Ukraine now face. It also matters because world leaders are talking about ending the war, even as the fighting gets worse, showing how hard peace can be to reach."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "infrastructure"
+              },
+              "def": {
+                "en": "The basic systems a place needs to work, like power plants, water pipes, and bridges."
+              }
+            },
+            {
+              "term": {
+                "en": "war crime"
+              },
+              "def": {
+                "en": "A serious act during war, like deliberately harming civilians, that breaks international rules every country is expected to follow."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a power plant also helps run factories that make weapons, is it fair to call it a 'civilian' target when it gets attacked?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's still a civilian target"
+                  },
+                  "points": {
+                    "en": [
+                      "Most of the electricity from that plant goes to homes, hospitals, and schools, not weapons factories.",
+                      "Ordinary families suffer the most when the power goes out, not soldiers.",
+                      "Attacking something almost everyone depends on crosses a line, even if a small part of it helps the military."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a fair military target"
+                  },
+                  "points": {
+                    "en": [
+                      "If any part of a power grid helps make weapons or move soldiers, armies have always targeted infrastructure like that in wartime.",
+                      "Weakening the enemy's ability to fight can end a war faster and save more lives overall.",
+                      "It's nearly impossible to build a power grid that serves only civilians and never touches anything military."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When two sides are fighting, should outsiders like the United Nations get to call one side's actions a 'war crime'?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, someone has to say what's wrong"
+                  },
+                  "points": {
+                    "en": [
+                      "Without outside judges, countries at war would just excuse anything they do to each other.",
+                      "Naming an act a war crime can pressure a country to stop or face consequences later.",
+                      "Calling attacks on civilians a war crime protects the idea that some actions are never acceptable, no matter who is right in the war."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not that simple"
+                  },
+                  "points": {
+                    "en": [
+                      "The United Nations includes countries with their own interests, so its judgments aren't always seen as neutral by everyone involved.",
+                      "Wars are messy, and outsiders judging from far away may miss important details about why an attack happened.",
+                      "Calling something a war crime doesn't stop the fighting, and it can make peace talks harder by making one side look like the only villain."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Russia Hits Ukraine's Power Grid Again as UN Panel Calls It a War Crime"
+          },
+          "hook": {
+            "en": "Overnight strikes knocked out electricity for more than 600,000 people in eastern Ukraine after Russian forces hit a major energy facility there. Separate attacks the same night cut power and water in the capital, Kyiv, and damaged a key bridge. A United Nations panel has now added a formal war-crimes finding over strikes like these, even as reports suggest peace talks are being discussed in the background."
+          },
+          "story": {
+            "en": [
+              "It happened in the dark hours of a single night: missiles and drones struck an energy facility in Ukraine's Dnipropetrovsk region, a part of the country that sits well behind the front lines but still runs on a power grid that Russia has targeted repeatedly. More than 600,000 people lost electricity at once — roughly the population of a mid-sized city plunged into darkness and cold, with heating systems, water pumps, and hospital backup generators all depending on a grid that had just taken a direct hit. In Kyiv, separate strikes the same night disrupted power and water supplies and damaged a major bridge, adding transport disruption to the list of problems.",
+              "This is not a new tactic. Russia has struck Ukraine's energy infrastructure repeatedly since the war began, especially as winter approaches, when the loss of heating and electricity causes the most hardship. What has changed is the legal weight now attached to it. A United Nations panel — a group of independent investigators tasked with documenting violations during the war — has added a formal finding that attacks on civilian infrastructure constitute a war crime, meaning a serious violation of the laws that govern how wars are supposed to be fought, the kind that can in theory lead to prosecution.",
+              "Russia's position is different, and it matters to understand it rather than dismiss it. Russian officials generally describe these strikes as hitting military-linked or 'dual-use' targets — facilities that serve both civilian life and military operations, such as power plants that also supply factories producing weapons or equipment for the armed forces. Under the laws of war, a dual-use facility can sometimes be a legitimate target if the military benefit is significant enough to outweigh the harm to civilians. Ukrainian officials and the UN panel reject that framing here, arguing that the pattern and timing of these strikes — repeatedly targeting the grid as winter sets in — reveals an intent to make civilian life unbearable rather than to achieve any specific battlefield gain.",
+              "The timing adds another layer. These strikes are landing at a moment when there are reports of renewed discussion about peace talks between Russia, Ukraine, and outside mediators. That creates an uncomfortable overlap: a bombing campaign against civilian infrastructure happening in parallel with diplomatic conversations about ending the war. Whether that overlap reflects genuine pressure tactics, a negotiating stance, or simply two tracks of the war proceeding independently of each other is something analysts disagree on, and nobody outside the rooms where those talks are happening can say for certain.",
+              "For the people in Dnipropetrovsk and Kyiv, the immediate reality is simpler: freezing pipes, cold apartments, and the slow, exhausting work of restoring power one substation at a time, done before, likely to be done again."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Wars are increasingly fought not just with soldiers and territory but with infrastructure — the systems of electricity, water, and heat that ordinary life depends on, which means civilians far from any front line can still be the ones who suffer most. How international law treats these strikes, and whether 'war crime' findings like this one ever lead to real consequences, will shape how future wars are fought, not just this one."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Dual-use infrastructure"
+              },
+              "def": {
+                "en": "A facility, like a power plant, that serves both civilian needs and military purposes, which makes it legally and morally contested as a target in war."
+              }
+            },
+            {
+              "term": {
+                "en": "War crime"
+              },
+              "def": {
+                "en": "A serious violation of the internationally agreed rules for how wars must be fought, such as deliberately targeting civilians rather than military forces."
+              }
+            },
+            {
+              "term": {
+                "en": "UN panel"
+              },
+              "def": {
+                "en": "A group of independent investigators appointed by the United Nations to document and assess violations during a conflict, separate from any single country's government."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When an army knocks out an enemy's power grid in winter, is that a legitimate act of war or a war crime against civilians?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It can be legitimate strategy"
+                  },
+                  "points": {
+                    "en": [
+                      "Energy grids often power factories and systems that directly support an enemy's military, making them genuine dual-use targets under the laws of war.",
+                      "Weakening an opponent's infrastructure can shorten a war by increasing pressure to negotiate or surrender, which may ultimately save lives on both sides.",
+                      "Attacking infrastructure rather than people directly has long been treated as a more limited, less brutal form of warfare than targeting civilians face to face."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It is effectively an attack on civilians"
+                  },
+                  "points": {
+                    "en": [
+                      "The burden falls overwhelmingly on ordinary people — no heat, no clean water, no working hospitals — not on soldiers or military capacity.",
+                      "International law requires attackers to distinguish military targets from civilian ones and to weigh the harm proportionally, a standard repeated strikes on civilian winter heating arguably fail.",
+                      "The pattern of hitting the same type of target during the coldest months looks designed to break public morale rather than to achieve any specific military objective, which is what investigators concluded here."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should peace talks go ahead while the attacks that are supposedly being negotiated over are still happening?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep talking regardless"
+                  },
+                  "points": {
+                    "en": [
+                      "Ending the war sooner through any viable diplomatic channel likely saves more lives than refusing to negotiate until conditions are met first.",
+                      "Demanding attacks stop before talks even begin removes any leverage either side has to reach an agreement at all.",
+                      "Wars throughout history have been negotiated to an end while fighting continued right up until a ceasefire was signed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, strikes should stop first"
+                  },
+                  "points": {
+                    "en": [
+                      "Negotiating while one side keeps striking civilian infrastructure risks normalizing that behavior as an acceptable part of diplomacy.",
+                      "It removes the attacker's incentive to stop, since they can keep bombing and still be treated as a legitimate partner at the table.",
+                      "It sets a troubling precedent for future conflicts, suggesting that civilian suffering carries no real diplomatic cost."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "US-China rare earths and agriculture dispute ahead of summit",
+        "publisher": "The Japan Times",
+        "url": "https://www.japantimes.co.jp/business/2026/11/07/economy/us-china-rare-earths-agriculture/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US Urges China to Meet Rare Earths Commitments Ahead of Trump-Xi Meetings"
+          },
+          "summary": {
+            "en": "This gives more detail on which specific commitments Washington says China has fallen behind on, naming the categories of minerals involved. It's a useful companion account from a separate Asia-focused newsroom, helpful for checking the claims in the main story."
+          },
+          "publisher": "Nikkei Asia",
+          "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-urges-china-to-meet-rare-earths-commitments-ahead-of-trump-xi-meetings"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Bessent, Greer Raise Concerns on China Trade Deal Actions"
+          },
+          "summary": {
+            "en": "This covers the US officials directly involved in pressing Beijing, offering their specific concerns in their own words ahead of the truce deadline. It's useful for readers who want the policymakers' side of the story rather than just the outcome."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/bessent-greer-raise-concerns-on-china-trade-deal-actions"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America Tells China: Hurry Up and Keep Your Promise on Special Metals"
+          },
+          "hook": {
+            "en": "About a year ago, the United States and China made a deal. China promised to sell special metals and buy American farm crops. Now America says China is being too slow, and the two countries' leaders are about to meet."
+          },
+          "story": {
+            "en": [
+              "A year ago, America and China were in a big argument about trade. They made a deal to calm things down. China promised to sell America something called rare earths, which are special metals used to build phones, cars, and even fighter jets. China also promised to buy crops, like soybeans, from American farmers.",
+              "Now America says China has not kept its promise. The metals have not been shipped the way America expected. The farm purchases have not happened as planned either. America sent a strong message to a top Chinese official, saying China needs to act now.",
+              "This matters because the calm agreement between the two countries is set to run out soon, on November 10th. If it ends without China following through, the argument could start all over again, maybe even worse.",
+              "Soon, the leaders of both countries, President Trump of America and President Xi of China, are supposed to meet in person. People are watching closely to see whether this disagreement gets fixed before they sit down together, or whether it causes trouble at the meeting."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The metals China promised to sell are inside things you might use every day, like phones, tablets, and electric cars. If countries fight over these metals, it can make things like phones more expensive or harder to build. It also shows how two very powerful countries can disagree even after they've already shaken hands on a deal."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "rare earths"
+              },
+              "def": {
+                "en": "Rare earths are special metals, hard to dig up and process, that are needed to build phones, electric car batteries, and military equipment."
+              }
+            },
+            {
+              "term": {
+                "en": "trade deal"
+              },
+              "def": {
+                "en": "A trade deal is an agreement between countries about what they will buy, sell, or trade with each other, kind of like a big promise list."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If two countries make a deal, should one country be allowed to push hard when it thinks the other is being too slow?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, push hard"
+                  },
+                  "points": {
+                    "en": [
+                      "A promise is a promise, and if nobody pushes, the other side might never follow through.",
+                      "Waiting too long could hurt people who were counting on the deal, like farmers waiting to sell their crops.",
+                      "Showing you're serious can stop future problems because the other side knows you won't just let it slide."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, be patient instead"
+                  },
+                  "points": {
+                    "en": [
+                      "Big deals between huge countries take time to put into action, so slowness isn't always on purpose.",
+                      "Pushing too hard right before an important meeting could make things worse instead of better.",
+                      "If you assume the other side is cheating without full proof, it can turn a small delay into a big fight."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for one country to depend so much on another country for something it really needs, like special metals?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's risky, and that's not fair to depend on"
+                  },
+                  "points": {
+                    "en": [
+                      "If one country controls most of the special metals, it can use that power to pressure others.",
+                      "Important things like phones and clean energy shouldn't depend on just one place in case something goes wrong.",
+                      "Countries that don't have their own supply could be left stuck if a disagreement happens."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's normal, and that's how trade works"
+                  },
+                  "points": {
+                    "en": [
+                      "No country can make everything itself, so depending on others for some things is just how the world works.",
+                      "Trading for what you need, instead of making it yourself, can save time and money for everyone.",
+                      "Working together and relying on each other can actually make countries want to stay friendly instead of fighting."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Washington Tells Beijing: Keep Your Word on Rare Earths, or the Trade Truce Dies"
+          },
+          "hook": {
+            "en": "With a Trump-Xi summit just days away, the United States warned a senior Chinese official that Beijing has to deliver on a year-old trade deal, fast. The sticking points are shipments of rare earths and other critical minerals, plus agreed purchases of American farm goods — and the clock is ticking toward a November 10 deadline when the current truce expires."
+          },
+          "story": {
+            "en": [
+              "Almost exactly a year ago, the US and China struck a deal to cool down their trade war. China agreed to keep exporting rare earths and other critical minerals — materials essential for phones, missiles, wind turbines, and electric car batteries — and to buy a set amount of soybeans, corn, and other crops from American farmers. In exchange, the US eased off some tariffs. It was a truce, not a peace treaty: a pause meant to buy time while both sides figured out what came next.",
+              "Now that pause is close to running out, and American officials say China hasn't held up its end. Figures from the US Treasury and trade policy teams have reportedly pressed a senior Chinese counterpart directly, telling them that the mineral shipments and farm purchases need to actually happen — not just be promised again — before the truce expires on November 10. The timing is pointed: Presidents Trump and Xi are due to meet soon, and nobody wants to walk into that summit with an already-broken deal on the table.",
+              "Rare earths sound obscure, but they're the kind of thing that only becomes obvious when it's missing. They're a group of 17 metallic elements used in tiny, precise amounts inside everyday and high-tech products — the magnets in your phone's speaker, the guidance systems in fighter jets, the motors in electric cars. China controls a huge share of the world's rare earth processing, not necessarily because the raw material only exists there, but because for decades it was willing to do the dirty, cheap work of refining it while other countries weren't. That gives Beijing a lever few other countries have: it can slow exports to apply pressure without ever officially banning anything.",
+              "That's exactly what the US suspects is happening now. The accusation is that China is slow-walking its commitments — moving just enough to avoid blame, but not enough to actually solve the problem — as a way of keeping leverage ahead of the summit. China hasn't laid out, at least not in anything reported so far, its own detailed account of what it believes compliance looks like or why shipments have lagged. That silence leaves a real ambiguity: it could be a deliberate squeeze, or it could be that export licensing, inspections, and bureaucracy inside China are just slow and clunky. Both explanations are plausible, and from the outside it's hard to tell which is true — which is itself a kind of power, because uncertainty makes the other side cautious.",
+              "The agricultural side adds another layer. American farmers, especially soybean growers, were promised a market worth billions of dollars as part of the deal. If China drags its feet on buying crops it already agreed to buy, it's not just a diplomatic headache — it's real money not arriving in real places, in an election-sensitive part of the American economy. So the US has reasons to want this resolved loudly and soon, not quietly over months.",
+              "If the truce lapses without a renewal, tariffs on both sides could snap back up, rattling markets that have priced in a thaw. If it holds, it's a sign that two rival superpowers can make a transactional deal stick even while they distrust each other on almost everything else. Either way, the outcome will shape how much the rest of the world can count on critical minerals flowing freely — or not."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Rare earths are inside the phone in your pocket and the car your family might drive, so when two superpowers fight over who controls them, it eventually shows up in prices and availability for ordinary people. It's also a preview of a bigger pattern: more and more of global politics is going to run through who controls the raw materials for modern technology, not just who has the biggest army."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "rare earths"
+              },
+              "def": {
+                "en": "A group of 17 metallic elements used in small amounts inside electronics, electric vehicles, and military equipment, which are hard to refine and mostly processed in China."
+              }
+            },
+            {
+              "term": {
+                "en": "trade truce"
+              },
+              "def": {
+                "en": "A temporary agreement where two countries pause an escalating trade fight, often by easing tariffs and promising specific actions, without resolving their underlying disagreements."
+              }
+            },
+            {
+              "term": {
+                "en": "leverage"
+              },
+              "def": {
+                "en": "The ability to pressure another party by controlling something they need, without necessarily having to use force or break any formal rule."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When one side appears to be slow-walking a trade deal, is public pressure and a hard deadline the right response, or does it risk blowing up the whole agreement?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Apply pressure"
+                  },
+                  "points": {
+                    "en": [
+                      "A deadline forces a decision instead of letting vague delays drag on indefinitely.",
+                      "Quiet diplomacy alone gives the slower side no real incentive to speed up.",
+                      "Public pressure shows other trading partners that commitments will actually be enforced, not just signed and forgotten."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Back off and negotiate quietly"
+                  },
+                  "points": {
+                    "en": [
+                      "Ultimatums right before a leaders' summit can corner the other side into digging in rather than complying.",
+                      "Bureaucratic delays may be genuine, and treating them as bad faith can turn a fixable problem into a crisis.",
+                      "A truce that collapses under pressure costs both sides more than a few more months of patience would have."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should countries accept depending on a rival power for critical materials as normal economic specialization, or treat that dependency as a danger worth paying extra to avoid?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Dependency is fine"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries have always specialized in what they do best, and rare earth refining is just another example of efficient global trade."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Dependency is dangerous"
+                  },
+                  "points": {
+                    "en": [
+                      "Relying on a rival for a material your defense and technology industries can't function without hands that rival a weapon over your head.",
+                      "Prices and supply chains built on specialization assume good faith, but today's deal shows that assumption can break down fast.",
+                      "Building redundant, domestic supply chains costs more now but avoids a crisis later if relations sour further."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
