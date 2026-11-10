@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-10",
+  "window": {
+    "start": "2026-11-09T12:00:00-07:00",
+    "end": "2026-11-10T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-10T15:23:28-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Nvidia launches investigation into CEO's alleged relationship with Chinese spy",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Why is Nvidia's Jensen Huang at the centre of a US-China spy scandal?"
+          },
+          "summary": {
+            "en": "An explainer on how the alleged relationship between Huang and a woman linked to Chinese intelligence became a national-security question, not just a corporate one. Useful for readers who want the full chain of events before the market reaction."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/why-is-nvidias-jensen-huang-at-the-centre-of-a-us-china-spy-scandal"
+        },
+        {
+          "title": {
+            "en": "Nvidia CEO's affair with alleged spy aided $7.5 billion in China chip shipments, Information reports"
+          },
+          "summary": {
+            "en": "Lays out the specific dollar figures and GPU counts behind the allegations, sourced to The Information's original reporting. Important for understanding exactly what is alleged versus confirmed."
+          },
+          "publisher": "Yahoo Finance/Reuters",
+          "url": "https://ca.finance.yahoo.com/news/nvidia-ceos-affair-alleged-spy-112214852.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nvidia sells off for second day in fallout from Jensen Huang's affair with alleged spy"
+          },
+          "summary": {
+            "en": "Covers the continuing stock slide into a second trading day and the broader chip-sector losses, including Microsoft overtaking Nvidia in market value. Shows how the scandal is now a market story as much as a security one."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Chip Company's Boss Causes a Stock Market Shake-Up"
+          },
+          "hook": {
+            "en": "Jensen Huang runs Nvidia, a company that makes powerful computer chips used in video games and artificial intelligence. He admitted to a secret relationship with a woman that American officials worry may have helped China get chips it wasn't supposed to have. The news made Nvidia's stock price drop sharply, and chip companies all over the world lost value too."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes special chips called GPUs. These chips are like super-fast brains that power video games, phone apps, and artificial intelligence programs that can chat or create pictures.",
+              "Jensen Huang, the boss of Nvidia, admitted he had a secret relationship with a businesswoman named Alice Huang. American intelligence officials believe she may have been working for Chinese government spies, trying to get restricted Nvidia chips sent to China even though rules are supposed to stop that. One news outlet reported that around 240,000 of these chips, worth about $7.5 billion, may have moved to China this way — but so far, only that one source has reported these numbers, so nobody else has confirmed them yet.",
+              "After the story came out, Nvidia's stock price fell hard — first by about 4%, then by another 5-6% the next day. That's the kind of drop that hasn't happened since 2019. Other chip companies dropped too, and together they lost an estimated $4-5 trillion in value over just two days — an amount of money bigger than the yearly earnings of most entire countries.",
+              "Because of the falling stock price, Microsoft briefly became more valuable than Nvidia again. The story has also made people ask harder questions about whether the United States is doing enough to stop restricted chips from reaching China."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips Nvidia makes help power the video games, apps, and AI tools you might use every day. When something shakes a giant chip company like this, it can affect prices, jobs, and even which countries get access to the newest technology."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "A CEO is the top boss of a company who makes its biggest decisions."
+              }
+            },
+            {
+              "term": {
+                "en": "Restricted chips"
+              },
+              "def": {
+                "en": "Restricted chips are powerful computer chips that a government says cannot be sold to certain countries, often for safety or security reasons."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should people stop trusting a company because of claims about its boss's private life, even before anyone knows for sure if they're true?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, trust matters right away"
+                  },
+                  "points": {
+                    "en": [
+                      "If a boss hides something important, it could affect decisions that impact thousands of workers.",
+                      "People who invest their money want to know the company is run honestly.",
+                      "If national security might be involved, people have a right to ask hard questions immediately."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait until it's proven"
+                  },
+                  "points": {
+                    "en": [
+                      "The story so far comes from only one news outlet and hasn't been confirmed by anyone else.",
+                      "Judging someone before all the facts are known could ruin their reputation unfairly.",
+                      "A person's private relationships don't automatically prove they did something wrong at work."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that people's savings can drop in value just from a news report, even before anyone knows if it's true?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's how markets work"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock prices move based on what investors believe might be true, not only confirmed facts.",
+                      "Reacting quickly can protect people's money if the story turns out to be accurate.",
+                      "Markets have always reacted to incomplete news, and most people accept that as normal."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's unfair to react so fast"
+                  },
+                  "points": {
+                    "en": [
+                      "People's real savings can shrink because of a story that might later turn out to be wrong.",
+                      "One report from a single news outlet shouldn't be enough to move trillions of dollars.",
+                      "It unfairly punishes workers and investors who had nothing to do with the situation."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's CEO Admits an Affair — and a National Security Question Follows the Company's Stock Down"
+          },
+          "hook": {
+            "en": "Nvidia's board has launched an independent investigation after CEO Jensen Huang admitted to an affair with a businesswoman that U.S. intelligence officials reportedly believe was recruited by Chinese state security to influence the company's chip-export decisions. A single outlet's reporting — not yet confirmed elsewhere — claims the relationship helped move billions of dollars of restricted chips into China. Nvidia's stock has fallen hard for two straight trading days, and the shockwaves have wiped trillions off chip-related stocks worldwide."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang runs Nvidia, the company that makes the specialized computer chips — called GPUs — that power almost every major artificial intelligence system on earth, from ChatGPT to self-driving cars. Because those chips are so powerful, the U.S. government restricts which ones can be sold to China, worried they could be used to build AI for the Chinese military or to out-compete American technology. Nvidia has spent years navigating these restrictions, officially called export controls, designing slightly weaker chip versions specifically to stay legal for sale to Chinese customers.",
+              "This week, Huang admitted to an affair with a businesswoman named Alice Huang (no relation). According to a report from the tech-news outlet The Information, U.S. intelligence officials believe she was recruited by China's Ministry of State Security — the country's main civilian spy agency, roughly equivalent to a combined CIA and FBI — specifically to get close to Jensen Huang and influence Nvidia's export decisions. The same report claims a network tied to her helped move around $7.5 billion worth of Nvidia chips into China and obtained roughly 240,000 restricted GPUs. It is important to be clear about what is solid here and what isn't: these specific dollar figures and chip counts come from one outlet's sourcing, and no other news organization has independently confirmed them. The affair itself has been admitted; the espionage claim and its scale have not been proven in public.",
+              "Markets reacted as though the claims were true, or at least as though investors couldn't afford to wait and find out. Nvidia's stock dropped about 4% on Monday and another 5-6% on Tuesday — its worst two-day stretch since 2019 by one common measure of how sharply a stock has been sold off. Because Nvidia is so central to the AI industry, the panic spread: a basket of 62 chip-related companies tracked by Yahoo Finance lost an estimated $4-5 trillion in combined value over those two days. Microsoft, which had been trailing Nvidia in total market value, briefly overtook it again to become the world's second most valuable public company.",
+              "Nvidia's board has now opened its own investigation, separate from whatever U.S. intelligence agencies may be doing, to figure out whether the affair actually affected any business decisions — particularly decisions about which chips got approved for sale to China. That distinction matters a great deal. An executive having an affair is a personal and reputational problem for a company. An executive being manipulated by a foreign intelligence service into weakening national export controls is a different order of problem entirely, one that touches on whether the entire system of chip restrictions on China can be trusted to work.",
+              "The story lands at an awkward moment for U.S. policy on China and technology. Washington has spent years tightening and loosening chip export rules, arguing internally about how strict they should be and whether they even work — companies have been caught smuggling restricted chips through other countries before. If it turns out a sitting CEO's personal relationship genuinely compromised enforcement at the top, it would be the most serious failure of that system yet discovered. If it turns out the intelligence claims are exaggerated or wrong, the episode will instead be remembered as a case where unverified reporting nearly erased trillions in market value over two days."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've used an AI chatbot, played a game with realistic graphics, or seen self-driving cars on the news, you've benefited from the kind of chips Nvidia makes — and the rules around who gets to buy them shape which countries lead in AI for years to come. This story is also a reminder that stock markets can react instantly and enormously to claims that haven't been proven, which is worth remembering before trusting any single dramatic headline."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Export controls"
+              },
+              "def": {
+                "en": "Government rules that restrict which products — in this case, advanced computer chips — a company is allowed to sell to certain countries."
+              }
+            },
+            {
+              "term": {
+                "en": "Ministry of State Security"
+              },
+              "def": {
+                "en": "China's main civilian intelligence agency, responsible for both spying abroad and counter-espionage at home."
+              }
+            },
+            {
+              "term": {
+                "en": "Oversold"
+              },
+              "def": {
+                "en": "A term used when a stock's price has fallen so fast and so far that some analysts think it has dropped more than the situation actually justifies."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should Jensen Huang step back from running Nvidia while the investigation is ongoing, even though nothing has been proven?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Step back now"
+                  },
+                  "points": {
+                    "en": [
+                      "The stakes — national security and control over the world's most important AI chips — are too high to wait for a slow investigation to finish.",
+                      "Markets have already lost trillions of dollars in value partly because investors don't trust the company to self-police its own CEO.",
+                      "Stepping back doesn't mean admitting guilt; it protects the company and the investigation from any appearance that Huang could influence its outcome."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let the investigation finish first"
+                  },
+                  "points": {
+                    "en": [
+                      "No wrongdoing by Huang in his role as CEO has actually been proven — only an affair, which is a personal matter, not a crime.",
+                      "Removing a CEO based on unverified reporting from a single outlet sets a dangerous precedent for how companies respond to unproven claims.",
+                      "Huang built Nvidia into the company it is; losing his leadership abruptly could cause more damage to employees and investors than waiting a few more weeks for facts."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does this episode show that U.S. export controls on chips to China are failing, or that they're actually working as intended?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The system is failing"
+                  },
+                  "points": {
+                    "en": [
+                      "If even the CEO's personal life could be exploited to move chips around the rules, the controls clearly weren't built with enough independent oversight.",
+                      "This isn't the first time companies have been accused of getting restricted chips into China through indirect routes, suggesting a pattern rather than one bad actor.",
+                      "Relying on companies to police their own compliance, rather than having strong independent government inspection, leaves an obvious gap for exactly this kind of manipulation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The system is working"
+                  },
+                  "points": {
+                    "en": [
+                      "U.S. intelligence agencies reportedly identified the alleged scheme and flagged it — which is the system catching a problem, not failing to notice one.",
+                      "Nvidia's board responding immediately with an independent investigation, and the market punishing the company hard, shows real consequences exist for any breach.",
+                      "No chips have been proven to have moved illegally yet; the controls may simply be functioning exactly as designed, pressure-testing a suspicious case before it becomes a real breach."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "House Republicans elect Rep. Jim Jordan as their next leader following election losses",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/politics/congress/republicans-reeling-election-choose-leadership-congress-rcna608300"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Jim Jordan wins House GOP minority leader race"
+          },
+          "summary": {
+            "en": "Details the mechanics of the leadership vote and how Jordan overtook Scalise within the conference. Adds context on the vote count and the competing camps inside the GOP."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/10/jim-jordan-house-republicans-leadership-elections-scalise"
+        },
+        {
+          "title": {
+            "en": "Jim Jordan wins battle to lead House Republicans"
+          },
+          "summary": {
+            "en": "Confirms the outcome with additional detail on reactions from House Republicans and what it signals about the party's post-midterm direction. Useful for readers wanting the political dynamics behind the vote."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/the-120/6211341-republicans-elect-jim-jordan-minority-leader/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "House GOP elects Jim Jordan as next leader in major shakeup after midterms"
+          },
+          "summary": {
+            "en": "Looks ahead at what Jordan's leadership style could mean for House Republican strategy in the minority. Helps readers connect the leadership change to what comes next in Congress."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/jim-jordan-house-minority-leader-republicans/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Republicans Pick a New Leader After Losing Control of the House"
+          },
+          "hook": {
+            "en": "The United States has a part of government called the House of Representatives, where elected people make laws. Republicans just lost the vote that decided who runs it. Now, instead of leading the whole House, Republicans had to choose someone to lead just their own team — and they picked a man named Jim Jordan."
+          },
+          "story": {
+            "en": [
+              "Every two years, Americans vote for people to represent them in the House of Representatives. This time, the Republican Party lost enough seats that another party, the Democrats, now runs the House.",
+              "When a team loses control like this, it still needs a leader to speak for it and plan what to do next. Republicans had two choices: Jim Jordan, a strict rule-follower known for tough questioning, and Steve Scalise, who had been one of their top leaders before.",
+              "Jordan won. That means he will lead Republicans in the House for the next two years, even though his party is no longer in charge there.",
+              "Some Republicans wanted a new kind of leader after losing so many seats. Picking Jordan over Scalise shows that many in the party wanted a change in direction, not just the same team continuing as before."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This is a bit like a class losing an election for class president, then the losing kids picking a new captain to speak up for them anyway. Even when a team doesn't get to make the final decisions, having a strong, clear leader still matters for being heard and making a plan to do better next time."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "House of Representatives"
+              },
+              "def": {
+                "en": "One of the two main groups in the U.S. Congress, where elected representatives write and vote on laws."
+              }
+            },
+            {
+              "term": {
+                "en": "minority"
+              },
+              "def": {
+                "en": "The side with fewer seats or fewer votes in a group, meaning they don't get to make the final decisions."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a team loses, is it better to pick a leader who fights harder or one who tries to work with the other side?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Pick a fighter"
+                  },
+                  "points": {
+                    "en": [
+                      "A strong, tough leader can make sure your team's voice is still heard even without power.",
+                      "Fighting hard can show your supporters you haven't given up on your ideas.",
+                      "Sometimes standing firm earns respect, even from people who disagree with you."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Pick a peacemaker"
+                  },
+                  "points": {
+                    "en": [
+                      "Working with the other side can get more things done for everyone.",
+                      "Constant fighting can make people trust government less.",
+                      "A leader who listens might win back supporters who left during the last election."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to blame one leader when a whole team loses an election?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, leaders are responsible"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders make big decisions that shape how people see the whole team.",
+                      "If people are unhappy with a leader's choices, changing leaders feels fair.",
+                      "Teams often expect their captain to take responsibility when things go wrong."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not just one person's fault"
+                  },
+                  "points": {
+                    "en": [
+                      "Elections depend on many things, like the economy or events nobody controls.",
+                      "Blaming one person ignores choices made by the whole team, not just the leader.",
+                      "Sometimes voters are reacting to national feelings, not to any single person's actions."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "House Republicans Pick a New Leader After Losing Control of the Chamber"
+          },
+          "hook": {
+            "en": "After Democrats won enough House seats in last week's midterm elections to take control of the chamber, House Republicans had to decide who would lead them for the next two years — not as the party setting the agenda, but as the opposition. They chose Rep. Jim Jordan of Ohio, a conservative hardliner, over Steve Scalise, the man who had been their second-in-command. It's a sign of how much the party wants to change direction after a rough election night."
+          },
+          "story": {
+            "en": [
+              "Every two years, all 435 seats in the House of Representatives are up for election, along with a third of the Senate and no presidential race — these are called midterm elections because they fall in the middle of a president's four-year term. This year, voters shifted enough seats toward Democrats that Republicans lost their majority, meaning they no longer hold more than half the seats and no longer control which bills get a vote, which committees investigate what, or who becomes Speaker of the House. Some outlets described the scale of the shift as a 'blue tidal wave' — blue being the color associated with the Democratic Party — though how big a wave it really was depends on which races you're counting and how close they were.",
+              "Losing a chamber doesn't just change who's in charge; it also changes who's in charge of the losing side. House Republicans hold their own internal vote, separate from the general election, to pick a leader for their 'conference' — the formal term for all the Republican members of the House acting as a group. That vote just happened, and it wasn't close to unanimous: Jim Jordan beat Steve Scalise, who had been the Majority Leader, the second-highest Republican position, responsible for scheduling floor votes and coordinating strategy while Republicans held power.",
+              "Jordan is a familiar figure to anyone who's followed Congress in recent years. He previously chaired the House Judiciary Committee, the panel that handles issues like federal courts, policing, and constitutional questions, and he built a reputation there as an aggressive questioner and a reliable vote for the most conservative positions in the party. Scalise, by contrast, was part of the leadership team that was actually running the House when it lost its majority — which made him, fairly or not, a stand-in for whatever went wrong.",
+              "That's really what this vote was about. When a party loses an election badly, its members have to decide whether the problem was the message, the messenger, or just bad luck in a tough political environment. Picking Jordan over Scalise is Republicans saying, in effect, that they want sharper opposition and a harder line against the new Democratic majority — not a continuation of whatever strategy was in place when they lost the chamber.",
+              "What Jordan actually does with the job will look different from what a majority leader does. In the minority, House Republicans can't pass laws on their own; their main tools are blocking or slowing down Democratic bills, using committee seats to investigate and ask pointed questions, and building a case for why voters should put them back in charge at the next election, two years from now. How combative or how cooperative Jordan chooses to be will shape daily life in Washington for the next two years, even though his party doesn't hold the gavel."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even when a party loses control of Congress, its choice of leader still shapes which bills get fought over, which investigations get launched, and how gridlocked or workable Washington feels for the next two years. This is also a preview of an argument political parties have after every bad election — do you respond to defeat by changing course, or by getting tougher — and you'll see the same debate play out in other places, including eventually in whatever party you end up supporting."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "Elections held two years into a president's term, when all House seats and some Senate seats are up for a vote but the presidency itself is not."
+              }
+            },
+            {
+              "term": {
+                "en": "Majority / Minority"
+              },
+              "def": {
+                "en": "In Congress, the party with more than half the seats is the majority and controls the schedule and committees; the other party is the minority and mainly has power to slow things down or object."
+              }
+            },
+            {
+              "term": {
+                "en": "House Judiciary Committee"
+              },
+              "def": {
+                "en": "A group of House members who handle laws and investigations related to courts, policing, and constitutional issues, and whose chair is a prominent and powerful role within the majority party."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "After a bad election loss, should a party replace its leaders or stick with them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Replace them"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders are supposed to be accountable for results, and a lost majority is a clear result.",
+                      "New leadership can signal to voters that the party has actually heard the message sent by the election.",
+                      "Keeping the same team in place risks repeating the same strategy that just failed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep them"
+                  },
+                  "points": {
+                    "en": [
+                      "Election losses are often about national conditions outside any one leader's control, like the economy or a president's approval rating.",
+                      "Changing leaders right after a loss can cause chaos and infighting at exactly the moment a party needs to be organized.",
+                      "Experienced leaders know the chamber's rules and relationships, which matters even more in the minority, where every procedural tool counts."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for a party that just lost power to choose a confrontational leader or a conciliatory one?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Confrontational"
+                  },
+                  "points": {
+                    "en": [
+                      "A sharper, more combative leader can energize a party's base and donors after a demoralizing loss.",
+                      "Being the minority is partly about drawing clear contrasts with the majority, which a hardliner does naturally.",
+                      "Voters sometimes reward parties that fight hard even when they lose, over parties that seem to give up easily."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Conciliatory"
+                  },
+                  "points": {
+                    "en": [
+                      "A leader willing to work across the aisle can actually get some of the minority party's priorities into law through compromise.",
+                      "Constant confrontation can make a party look obstructive rather than constructive, which may cost it votes next time.",
+                      "A more moderate leader might appeal to the swing voters whose shift away from the party caused the loss in the first place."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Consumer Price Index Summary - 2026 M10 Results",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Price pressures persisted in October"
+          },
+          "summary": {
+            "en": "Breaks down which categories drove the higher-than-expected core inflation reading. Helps explain the persistent pressures behind the headline number."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/10/cpi-october-inflation-fed"
+        },
+        {
+          "title": {
+            "en": "US inflation rose more than expected last month"
+          },
+          "summary": {
+            "en": "Covers the market and consumer reaction to the CPI release, including which sectors felt the biggest price increases. Adds detail on how the reading compares to prior months."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/10/business/us-inflation-cpi-consumer-prices-october"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "US CPI Report October 2026: Live News on Inflation, Consumer Price Index"
+          },
+          "summary": {
+            "en": "A running account of market reaction and economist commentary on what the report means for the Fed's December decision. Useful for readers who want the ongoing financial-market angle rather than just the data release."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/live-blog/2026-11-10/us-cpi-report-for-october-live-updates"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Prices Crept Up in October — Now Everyone's Watching What the Fed Does Next"
+          },
+          "hook": {
+            "en": "Every month, the U.S. government checks how much things cost — like bread, gas, and rent — and compares it to the month before. In October, prices went up a bit more than experts expected. That tiny difference is a big deal, because it affects a meeting happening soon where officials decide whether borrowing money gets cheaper or stays the same."
+          },
+          "story": {
+            "en": [
+              "Imagine you check the price of your favorite snack every single month. In October, across the whole country, prices on average went up by 0.4%. That might sound small, but it adds up when you're buying lots of things, from milk to sneakers.",
+              "Even more surprising: if you ignore food and gas prices (which jump around a lot), the rest of prices still rose 0.3%. Experts had guessed it would only be 0.2%. That's like predicting a 2-inch growth spurt and getting 3 inches instead — not huge, but noticeable.",
+              "This number matters because a group called the Federal Reserve is about to meet in December to decide something important: whether to make borrowing money cheaper. Many people thought they'd do this no matter what, and even with prices rising a little more than expected, most experts still think they will.",
+              "When this report came out, stock markets — basically giant marketplaces where people buy and sell tiny pieces of companies — dipped slightly. Investors were trying to figure out what the price news meant for what the Fed might do next."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When prices rise, the money in your piggy bank buys a little less than it used to — a $5 toy might cost $5.20 next year. This report also affects things like how much it costs grown-ups to borrow money for a house or a car, and how much certain government payments (like the ones many grandparents get) increase to keep up with rising costs."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Inflation"
+              },
+              "def": {
+                "en": "Inflation is when prices for things go up over time, so the same amount of money buys a little less than it used to."
+              }
+            },
+            {
+              "term": {
+                "en": "Interest rate"
+              },
+              "def": {
+                "en": "An interest rate is like a fee you pay for borrowing money — a higher rate means borrowing costs more, a lower rate means it costs less."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If stopping prices from rising too fast might cause some people to lose their jobs, should the government still try to stop it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, stop rising prices"
+                  },
+                  "points": {
+                    "en": [
+                      "Families who are already struggling get hurt the most when food and rent keep costing more.",
+                      "Money saved up for the future loses its value if prices keep climbing.",
+                      "Rising prices hurt almost everyone, while job losses might affect fewer people at first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, protect jobs first"
+                  },
+                  "points": {
+                    "en": [
+                      "Losing a job can be just as painful for a family as paying a bit more for groceries.",
+                      "A growing economy naturally has some rising prices, and that's not always bad.",
+                      "Trying to stop prices too quickly and too hard can sometimes cause even bigger problems later."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that a small group of experts, instead of everyday voters, gets to decide interest rates that affect everyone's money?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let the experts decide"
+                  },
+                  "points": {
+                    "en": [
+                      "These experts study money and the economy for their whole careers, so they understand patterns most people don't see.",
+                      "Elected leaders sometimes avoid making hard choices if they're worried about losing votes.",
+                      "Keeping these decisions away from day-to-day politics can make them more steady and less rushed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "These decisions change how much everyone pays for homes, cars, and credit cards, yet most people never get a vote on who makes them.",
+                      "Experts can still get things wrong, even with all their training.",
+                      "Letting more people and voices into the conversation might catch mistakes the experts miss."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "U.S. Prices Rose Faster Than Expected in October — Right Before a Big Decision on Interest Rates"
+          },
+          "hook": {
+            "en": "The U.S. government's main measure of inflation came in hotter than economists had predicted for October. Overall prices rose 0.4% for the month, and even the version that strips out food and energy costs rose 0.3% — higher than the 0.2% most forecasters expected. The timing matters: this is the last major inflation reading before the Federal Reserve meets in early December to decide whether to cut interest rates again."
+          },
+          "story": {
+            "en": [
+              "Every month, the U.S. Bureau of Labor Statistics — a government agency that tracks prices, jobs, and wages across the country — publishes the Consumer Price Index, a running tally of what a typical basket of everyday goods and services costs compared to a month earlier. In October, that basket got 0.4% more expensive. Economists also watch a stripped-down version called 'core' inflation, which removes food and energy prices because those two categories swing wildly for reasons that have nothing to do with the underlying economy — a hurricane can spike gas prices for a week, a bad harvest can spike egg prices for a season. Core prices rose 0.3% in October, a notch above the 0.2% that forecasters had penciled in.",
+              "That gap between 0.2% and 0.3% sounds tiny, but it's the kind of thing that moves markets, because it changes what people expect the Federal Reserve to do next. The Federal Reserve — the U.S. central bank, often just called 'the Fed' — sets a key interest rate that influences almost every other interest rate in the economy: what a bank charges you for a mortgage, what your credit card charges on an unpaid balance, what a car loan costs. When the Fed cuts its rate, borrowing gets cheaper, which tends to encourage spending and hiring. When inflation is running hot, the Fed usually hesitates to cut, because cheaper borrowing can push prices up even further.",
+              "That's the tension this report created. Inflation came in hotter than expected, which is normally a reason for the Fed to be cautious. But this is also the last inflation report the Fed will see before its December 8–9 meeting, and according to Bloomberg's coverage of the release, investors still mostly expect the Fed to cut rates anyway — because other parts of the economy, particularly a softening job market, are pulling policymakers in the opposite direction. The Fed doesn't just fight inflation; its official mandate is to balance stable prices against maximum employment, and right now those two goals are pointing in different directions.",
+              "Stock markets reacted almost immediately. The Dow, the S&P 500, and the Nasdaq — three widely watched indexes that track the overall health of U.S. company share prices — all slipped after the report came out. That's a fairly normal response: when inflation surprises to the upside, investors have to recalculate how likely a rate cut still is, and uncertainty about interest rates tends to make stock prices wobble in the short term, even before anyone knows what the Fed will actually decide.",
+              "Beyond Wall Street, this number touches ordinary financial life in ways that are easy to overlook. Inflation readings feed directly into cost-of-living adjustments for Social Security payments, into wage negotiations between unions and employers, and into the interest rates banks offer on savings accounts and charge on loans. A 0.1 percentage point surprise in one month's report won't change anyone's mortgage overnight, but a string of readings like this one is exactly how the Fed decides whether borrowing should get cheaper or stay where it is — a decision that eventually shows up in nearly every household's budget."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you or your family have a mortgage, a car loan, or credit card debt, the Fed's rate decisions eventually show up in what you pay every month. And if a parent or grandparent relies on Social Security, inflation reports like this one directly shape how much that monthly check grows to keep up with rising prices."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Consumer Price Index (CPI)"
+              },
+              "def": {
+                "en": "A monthly measurement of how much the prices of everyday goods and services have changed compared to a month or year earlier."
+              }
+            },
+            {
+              "term": {
+                "en": "Core inflation"
+              },
+              "def": {
+                "en": "Inflation measured after removing food and energy prices, which jump around for reasons unrelated to the broader economy."
+              }
+            },
+            {
+              "term": {
+                "en": "Interest rate cut"
+              },
+              "def": {
+                "en": "A decision by the Federal Reserve to lower the cost of borrowing money, usually meant to encourage spending and hiring when the economy needs support."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the Federal Reserve cut interest rates in December even though inflation just came in higher than expected?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cut anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "The job market is showing signs of weakening, and waiting too long to support it risks a deeper slowdown that's harder to reverse.",
+                      "One month's surprise, driven partly by volatile categories, isn't strong enough evidence to abandon a planned course of action.",
+                      "Interest rate changes take months to fully affect the economy, so the Fed has to act on where things are heading, not just where they are today."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold off"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting rates while inflation is accelerating risks reinforcing the very price increases the Fed is supposed to be controlling.",
+                      "Once people and businesses expect prices to keep rising faster, that expectation itself can become self-fulfilling and much harder to undo.",
+                      "The Fed's credibility depends on being seen as serious about inflation; cutting rates right after a hot reading could look like it's lost its nerve."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Do single monthly inflation reports like this one deserve the intense reaction they get from markets and the media?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, they matter"
+                  },
+                  "points": {
+                    "en": [
+                      "Each report is genuine new information about where the economy is actually heading, not noise to be ignored.",
+                      "Markets exist to process information quickly, and reacting to real data is how prices stay accurate and useful.",
+                      "A string of 'small' surprises in the same direction is exactly how larger economic turning points first become visible."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's overreaction"
+                  },
+                  "points": {
+                    "en": [
+                      "A single month's number is noisy and gets revised later; treating it as decisive encourages short-term panic over sound judgment.",
+                      "Constant market swings on month-to-month data can push companies and policymakers toward short-term thinking instead of long-term planning.",
+                      "The underlying trend over several months tells you far more than any one report, yet markets often react as if each report stands alone."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
