@@ -1,0 +1,769 @@
+{
+  "date": "2026-11-13",
+  "window": {
+    "start": "2026-11-12T12:00:00-07:00",
+    "end": "2026-11-13T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-13T15:35:00-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Nvidia Stock Falls Below $4 Trillion as Huang Exit Fallout Continues",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia Board Weighs Jensen Huang's Future After Affair With Alleged Chinese Spy"
+          },
+          "summary": {
+            "en": "This Washington Post piece, filed just before the resignation, lays out how Nvidia's board reached its decision and what investigators had found about the alleged intelligence link. It gives the fuller backstory behind Friday's market reaction."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nvidia CEO Jensen Huang's Affair With Alleged Chinese Spy: A Timeline"
+          },
+          "summary": {
+            "en": "TechCrunch traces the scandal from first reports to resignation, useful for readers who want the full sequence of events in one place.rather than scattered across days of coverage."
+          },
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The Boss of the World's Biggest Chip Company Suddenly Quit"
+          },
+          "hook": {
+            "en": "Jensen Huang ran Nvidia, a company that makes the computer chips inside most AI systems, like the ones behind chatbots and video game graphics. He resigned on November 12 after news came out about his personal relationships, including one with a woman U.S. officials worry might be connected to Chinese spying. Nvidia's stock price dropped right after, and the company's total value fell below $4 trillion for the first time since July."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes the computer chips that act like brains inside AI programs. These chips help computers recognize pictures, write text, and play games smarter than ever before. Nvidia grew so big and important that its value reached about $4 trillion — more dollars than you could count even if you counted one every second for over 100,000 years.",
+              "Then its boss, Jensen Huang, suddenly resigned. Reports said he had relationships outside his marriage, including one with a woman named Alice Huang who used to work at another tech company. U.S. officials are worried she might have passed information to Chinese intelligence agents — people who secretly gather information for another country's government. China says that is not true.",
+              "Nvidia quickly picked Colette Kress, the company's chief financial officer (the person in charge of its money), to be the temporary new boss. Jensen Huang is now expected to answer questions from Congress, the group of elected lawmakers who help run the country, about what happened and whether any secrets were at risk.",
+              "After all this news, Nvidia's stock price dropped again on Friday, falling just over 2%. That pushed the company's total value below $4 trillion, a line it had stayed above since the summer."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips are inside the AI tools millions of people use every day, from phone assistants to homework helpers. When the leader of a company this important and this connected to other countries suddenly leaves under a cloud of spying concerns, it makes people wonder who they can trust with powerful technology. It also shows how a leader's personal choices can shake an entire company, even one worth trillions of dollars."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "The CEO is the main boss of a company who makes the biggest decisions about how it runs."
+              }
+            },
+            {
+              "term": {
+                "en": "Market value"
+              },
+              "def": {
+                "en": "A company's market value is how much all of its shares, or tiny ownership pieces, are worth added together."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a company force its boss to resign because of their personal relationships, even without proof those relationships harmed the company?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's right to act"
+                  },
+                  "points": {
+                    "en": [
+                      "When a boss runs a company this important, the public needs to trust their judgment completely.",
+                      "Even a possible connection to spying could scare away customers and investors, so acting fast protects everyone who works there.",
+                      "Leaders are allowed less privacy than ordinary people because their choices affect thousands of employees and millions of users."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it goes too far"
+                  },
+                  "points": {
+                    "en": [
+                      "A person's private relationships are their own business unless they are proven to have caused real harm.",
+                      "Punishing someone before any wrongdoing is confirmed is unfair to them and sets a scary example for others.",
+                      "Forcing out a skilled leader over unproven suspicions could hurt the company and its workers just as much as waiting would have."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Jensen Huang have to answer questions from Congress about his personal life, even if no wrongdoing has been proven yet?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, he should testify"
+                  },
+                  "points": {
+                    "en": [
+                      "If there's even a small chance important secrets were shared with another country, the public deserves to know.",
+                      "Congress's job is to protect national security, and ignoring a possible risk would be irresponsible.",
+                      "Testifying lets Huang clear his name publicly if the suspicions turn out to be false."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, he shouldn't have to"
+                  },
+                  "points": {
+                    "en": [
+                      "Personal relationships are not automatically a security matter unless real evidence of spying exists.",
+                      "Forcing someone to publicly discuss private relationships, without proof, could unfairly damage their reputation forever.",
+                      "If there's no solid evidence, this could just be an excuse to pry into someone's private life rather than protect the country."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's CEO Quits Over an Affair — and a China Spy Question Wipes Out Trillions in Value"
+          },
+          "hook": {
+            "en": "Jensen Huang, the man who built Nvidia into the company that makes the chips powering most of the world's artificial intelligence, resigned on November 12th after reports surfaced of two affairs — one with a former tech executive that U.S. officials suspect may have links to Chinese intelligence. Nvidia's board moved fast, naming its chief financial officer as a temporary replacement, but the markets did not wait for answers: shares kept falling, and by Friday the company's total value had dropped back below $4 trillion for the first time since the summer."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang didn't just run Nvidia — he was, for most investors, Nvidia. He co-founded the company, built it from a maker of video-game graphics cards into the single most important supplier of the specialized chips that train and run AI systems like ChatGPT, and became one of the most recognizable executives in tech, famous for his leather jacket and his confident predictions about AI's future. So when he resigned abruptly, it wasn't an ordinary personnel change. It was closer to a company losing its identity overnight.",
+              "The resignation followed reports of two extramarital affairs, one of them with Alice Huang, a former executive at Megaspeed, a company in the AI supply chain. What turned this from a personal scandal into a geopolitical one is that U.S. officials are reportedly looking into whether she has ties to Chinese intelligence services — a suspicion Beijing has flatly denied. Nothing has been proven. But the mere possibility that someone close to the CEO of America's most important chip company might have connections to a foreign intelligence service is the kind of thing that triggers national security reviews, not just gossip columns.",
+              "Nvidia's board tried to project stability, naming Colette Kress, the company's chief financial officer, as interim CEO — a temporary head meant to keep the company running while the board decides on something more permanent. But 'interim' is doing a lot of work in that sentence: nobody yet knows if Kress will get the job permanently, or if the board will go looking for someone else entirely once the dust settles. Huang himself is now expected to testify before Congress, where lawmakers will likely press him not about the affairs themselves but about what he knew, when he knew it, and whether any sensitive information about Nvidia's chip designs or customers was ever at risk.",
+              "Markets don't like uncertainty, and they especially don't like uncertainty layered on top of a national security question involving China — Nvidia's chips are central to the ongoing U.S.-China competition over AI, and Washington has already restricted which Nvidia products can be sold there. On Friday, Nvidia's stock fell another 2.01%, dropping its market capitalization — the total value of all its shares combined — below $4 trillion for the first time since July. To put that in perspective, that's a company worth more than the entire economy of a country like Japan, and the drop alone erased more money than most companies are worth in total.",
+              "What happens next depends on two separate things resolving at once. Congress has to decide how seriously to take the testimony — whether this becomes a real investigation into espionage risk or a brief, awkward hearing that fades from headlines. And Nvidia's board has to decide whether Kress is the long-term answer or just a safe pair of hands while they search elsewhere. Until both of those questions settle, investors are essentially pricing in doubt about a company whose products sit at the center of the global AI race."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips are inside the AI tools millions of people already use every day, from chatbots to the systems companies use to write code and analyze data, so instability at the top of that company can ripple into the pace and cost of AI development everywhere. It's also a reminder that in industries tangled up with national security, a CEO's personal choices can become everyone's business — including Congress's."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "market capitalization"
+              },
+              "def": {
+                "en": "The total value of all of a company's shares added together, used as a rough measure of how much the company is worth."
+              }
+            },
+            {
+              "term": {
+                "en": "interim CEO"
+              },
+              "def": {
+                "en": "A temporary chief executive appointed to run a company while its board decides on a permanent replacement."
+              }
+            },
+            {
+              "term": {
+                "en": "national security review"
+              },
+              "def": {
+                "en": "An official government examination of whether something — a person, a deal, a piece of technology — poses a risk to the country's safety or strategic interests."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a company be forced to remove a CEO over unproven suspicions about someone they were involved with, rather than proven wrongdoing?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the risk alone justifies acting"
+                  },
+                  "points": {
+                    "en": [
+                      "When a company sits at the center of national security, even a credible suspicion of a foreign intelligence link can justify removing someone to prevent future damage.",
+                      "Waiting for proof could mean waiting until after sensitive information has already been compromised.",
+                      "Boards remove CEOs for reputational and strategic risk all the time, even without criminal charges, because investor and government trust matters more than legal certainty."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, suspicion without proof is not enough"
+                  },
+                  "points": {
+                    "en": [
+                      "Removing someone based on an unproven claim punishes them for an accusation, not an action, and sets a precedent where rumor alone can end a career."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Congress have the authority to question a former CEO about a personal relationship just because it might intersect with national security?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, oversight should extend here"
+                  },
+                  "points": {
+                    "en": [
+                      "If a security-sensitive company's leader had a relationship with someone suspected of foreign intelligence ties, lawmakers have a duty to find out what information, if any, was exposed.",
+                      "Congressional hearings are often the only public mechanism for getting answers that a private company's internal investigation might otherwise keep hidden.",
+                      "The stakes — control over the chips powering a technology central to economic and military competition — are high enough to justify unusual scrutiny."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this oversteps into private life"
+                  },
+                  "points": {
+                    "en": [
+                      "Treating a personal relationship as a congressional matter risks turning private life into a tool for political theater rather than genuine security work.",
+                      "Without any proven wrongdoing, a public hearing can permanently damage someone's reputation based on innuendo alone.",
+                      "Security agencies already have the tools to investigate such concerns quietly and professionally; a public hearing adds spectacle without adding safety."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump Heads to China Amid Nvidia Scandal: Will He Get Tougher on Beijing?",
+        "publisher": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/12/trump-heads-to-china-amid-nvidia-scandal-will-he-get-tougher-on-beijing"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump's Asia Trip: APEC, China, the Philippines, ASEAN, the Quad — and Putin"
+          },
+          "summary": {
+            "en": "Foreign Policy maps out the full diplomatic itinerary and stakes of Trump's trip, including how it intersects with broader U.S. alliances in the Indo-Pacific. It's useful context for readers wanting to see beyond the single Xi meeting."
+          },
+          "publisher": "Foreign Policy",
+          "url": "https://foreignpolicy.com/2026/11/13/trump-asia-visit-apec-china-philippines-quad-asean-xi-putin/?tpcc=recirc_trending062921"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Trump Heads to Asia for Big Meetings With China's Leader"
+          },
+          "hook": {
+            "en": "Next week, President Trump is flying across the world for two huge meetings. He will end up face-to-face with China's leader, Xi Jinping, for the third time this year. The trip comes right after a tech billionaire close to Trump got caught up in a spy scandal."
+          },
+          "story": {
+            "en": [
+              "Next week, President Trump will travel far from home. First he goes to Manila, the capital of the Philippines, for a meeting of Asian countries called ASEAN. Then he flies to Shenzhen, a huge city in China, for another big meeting called APEC.",
+              "At APEC, Trump will sit down with Xi Jinping, the leader of China. This will be their third meeting this year, which is a lot for two busy world leaders.",
+              "The timing is strange. A tech billionaire named Jensen Huang, who runs a giant computer-chip company called Nvidia and is one of Trump's close friends, is in trouble. American officials worry that a woman Huang had a close relationship with might secretly be gathering information for China's government.",
+              "Now people are wondering: will this awkward situation make Trump go easier on China, or will it push him to act tougher on trade and technology when he meets Xi?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "The things Trump and Xi decide can change the price of stuff you use every day, like game consoles and phones, since many are built with parts from China. How these two powerful countries treat each other also affects whether the world feels calmer or more tense."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "summit"
+              },
+              "def": {
+                "en": "A summit is a big meeting where leaders of several countries sit down together to talk about shared problems."
+              }
+            },
+            {
+              "term": {
+                "en": "intelligence"
+              },
+              "def": {
+                "en": "In this story, intelligence means secret information that countries try to collect about each other, sometimes using spies."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a leader's close friend is caught in a scandal, should that change how the leader deals with other countries?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should change things"
+                  },
+                  "points": {
+                    "en": [
+                      "If a close friend might have let secrets slip, the leader may need to be extra careful about what he says next.",
+                      "Trusting the wrong people can put a whole country's safety at risk, so pausing to be cautious makes sense.",
+                      "Other countries might try to use the scandal to guess what the leader is really thinking, so caution protects everyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep it separate"
+                  },
+                  "points": {
+                    "en": [
+                      "A leader's job is to represent millions of people, not just one friend's troubles.",
+                      "Mixing up a personal scandal with country-to-country business can distract from solving bigger problems like jobs and trade.",
+                      "If leaders paused every time a friend had trouble, important meetings between countries would never happen on time."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When meeting with a country you compete with, should you try to be extra friendly or extra tough?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Be friendly and work together"
+                  },
+                  "points": {
+                    "en": [
+                      "Being friendly can help solve shared problems, like keeping prices steady for families.",
+                      "Working together builds trust, making it less likely that small disagreements turn into bigger fights.",
+                      "Two powerful countries getting along sets a good example for how the rest of the world handles disagreements."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Be tough and firm"
+                  },
+                  "points": {
+                    "en": [
+                      "Showing you won't back down can stop the other country from pushing too hard in trade deals.",
+                      "Being tough can help protect important technology and secrets from falling into the wrong hands.",
+                      "If you're always friendly, the other side might think you're an easy target."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Heads to Asia to Meet Xi for the Third Time This Year — Under a Cloud"
+          },
+          "hook": {
+            "en": "President Trump leaves next week for two major summits in Asia, ending with a face-to-face meeting with Chinese leader Xi Jinping — their third this year. The trip is his first big trip abroad since Democrats won large victories in the November midterm elections, and it comes while one of his closest allies in the tech industry is under scrutiny for an affair with a woman U.S. officials suspect may be connected to Chinese intelligence."
+          },
+          "story": {
+            "en": [
+              "Trump will travel first to Manila, the capital of the Philippines, for a summit of ASEAN — a group of ten Southeast Asian countries that coordinate on trade and security. From there he heads to Shenzhen, a major Chinese tech hub, for the APEC summit, a yearly gathering of 21 economies around the Pacific Rim that includes the United States, China, Japan, and most of their neighbors. The headline event of the whole trip is a planned sit-down with Xi Jinping — their third meeting this year, which itself is unusual. Leaders of rival superpowers don't typically meet that often; it signals that both sides think there's enough at stake, in trade and technology disputes especially, to keep talking directly rather than through diplomats.",
+              "These summits matter because the U.S. and China are locked in an ongoing economic standoff that touches almost everything: tariffs on goods, limits on advanced technology sales, and competition over who controls the next generation of computer chips and artificial intelligence. Both countries have used trade as a weapon in recent years — China by restricting exports of rare minerals needed for electronics, the U.S. by blocking sales of its most advanced chips to Chinese companies. A meeting between the two leaders is a chance to de-escalate, strike new deals, or just as easily to harden positions further.",
+              "The trip is also landing at an awkward moment because of Jensen Huang, the chief executive of Nvidia, the company that makes most of the world's most advanced AI chips. Huang has been one of Trump's most visible allies in Silicon Valley, publicly praising the administration's tech policies and lobbying hard against restrictions on selling chips to China. He is now under scrutiny after reports that he had an affair with a woman U.S. officials suspect may have ties to Chinese intelligence services — raising uncomfortable questions about whether sensitive information about chip technology or policy could have been exposed. Nothing has been proven, but the scandal puts a spotlight on exactly the kind of technology transfer concerns that make U.S.-China chip talks so tense in the first place.",
+              "Adding to the pressure, this is Trump's first major trip abroad since Democrats scored sweeping wins in off-year elections on November 4, results widely read as a rebuke of his first year back in office. A president heading into a high-stakes foreign trip while facing domestic political weakness, and while a close ally is tangled in an espionage-adjacent scandal, faces a harder balancing act than usual: does he show toughness toward Beijing to reassure critics at home, or does he prioritize smooth, dealmaking diplomacy with Xi regardless of the noise around him?",
+              "One outlet covering this story, Al Jazeera, is funded by the government of Qatar, and its reporting is being read here alongside independently owned news organizations rather than relied on alone — a reminder that even accurate reporting can come from an outlet with its own government ties, which is worth knowing when weighing how a story is framed."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions made in these meetings — on tariffs, chip exports, and tech cooperation — can affect the price of electronics, the pace of AI development, and job markets in industries far beyond Silicon Valley. How seriously allegations against a major tech CEO are treated also shapes how much governments trust private companies with sensitive technology going forward."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "ASEAN"
+              },
+              "def": {
+                "en": "A group of ten Southeast Asian nations that meet regularly to coordinate on trade, security, and regional issues."
+              }
+            },
+            {
+              "term": {
+                "en": "APEC"
+              },
+              "def": {
+                "en": "A yearly summit of 21 economies around the Pacific Ocean, including the U.S. and China, focused on trade and economic cooperation."
+              }
+            },
+            {
+              "term": {
+                "en": "Export controls"
+              },
+              "def": {
+                "en": "Government rules that restrict which products — like advanced computer chips — a country's companies are allowed to sell to certain other countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. government restrict sales of advanced AI chips to China, even when it costs American companies like Nvidia billions in lost business?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, restrict the chips"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced chips can be used to build powerful military and surveillance AI systems, so limiting access protects national security.",
+                      "Once chips are sold, there's no reliable way to guarantee they won't be redirected to military or government use.",
+                      "Keeping the most advanced technology a step ahead of rivals preserves long-term strategic advantage, which matters more than short-term profits."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep selling"
+                  },
+                  "points": {
+                    "en": [
+                      "Restricting sales doesn't stop China's AI progress, it just pushes them to build their own chip industry faster, which weakens U.S. leverage for good.",
+                      "Nvidia and similar companies use profits from global sales to fund the research that keeps American technology ahead in the first place.",
+                      "Export bans invite retaliation, like China's restrictions on rare minerals the U.S. needs, which can hurt American industries just as much."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a president go ahead with high-profile diplomacy with a rival leader while a close ally faces an unresolved espionage-related scandal?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, proceed as planned"
+                  },
+                  "points": {
+                    "en": [
+                      "Diplomacy between major powers needs to continue regardless of domestic controversies, or disputes have no chance to be resolved peacefully.",
+                      "Canceling or delaying a summit over an unproven allegation could look weak and hand the other side leverage.",
+                      "The scandal involves a private businessman, not the government itself, so it shouldn't dictate presidential travel."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the timing is a problem"
+                  },
+                  "points": {
+                    "en": [
+                      "Meeting the rival leader while a close ally is suspected of exposure to that same country's intelligence services sends a confusing, even risky signal.",
+                      "Going ahead without addressing the scandal first could make the administration look like it's prioritizing dealmaking over security concerns.",
+                      "Public trust in the negotiations is weakened if people suspect sensitive information may already have leaked through personal connections."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "SpaceX Will Attempt to Catch Every Piece of Its Giant Starship Rocket for the First Time",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/12/science/spacex-starship-ship-catch-attempt"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "SpaceX's Giant Rocket May Leave NASA in the Dust"
+          },
+          "summary": {
+            "en": "NPR explains how Starship's development timeline compares with NASA's own moon-landing schedule, and why delays on either side matter for the Artemis program. It gives useful context on the US-China lunar competition driving this test."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6018261/spacexs-giant-rocket-may-leave-nasa-in-the-dust"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Live Updates: SpaceX Starship Flight 15 Ship Catch Attempt"
+          },
+          "summary": {
+            "en": "CNN's live blog tracks the launch and recovery attempt as it unfolds, for readers who want the outcome as soon as it's confirmed."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The Biggest Rocket Ever Built Tries to Land Itself — Both Halves, At Once"
+          },
+          "hook": {
+            "en": "On Friday evening, a giant rocket called Starship will try something nobody has ever fully done before. Both of its two big parts — the booster that launches it and the ship that flies to space — will try to come back down in one piece. If it works, rockets could get used again and again, like a bus instead of a firework."
+          },
+          "story": {
+            "en": [
+              "Starship is taller than a 30-story building and is the most powerful rocket ever built. It launches from Texas, made by a company called SpaceX.",
+              "Most rockets are thrown away after one flight, like a paper cup. That makes space travel very expensive. SpaceX wants to catch and reuse both parts of Starship so flying to space costs much less, like reusing a water bottle instead of buying a new one every time.",
+              "This matters because NASA wants to use Starship to land astronauts on the Moon again, as part of a plan called Artemis. China is also racing to build a base near the Moon's south pole, so whoever gets reusable rockets working well first has a big advantage.",
+              "The test launch happens Friday evening, after most news is already written for the day. That means nobody knew yet whether it worked when this page was made — it's a story still happening."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If this works, trips to space could become as normal and cheap as taking a long flight on an airplane, instead of something only a few countries can afford. That could decide who builds the first Moon base, and whether your generation grows up watching rockets launch every week instead of once in a while."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Reusable rocket"
+              },
+              "def": {
+                "en": "A rocket built to fly to space and then come back and be used again, instead of being thrown away after one trip."
+              }
+            },
+            {
+              "term": {
+                "en": "Booster"
+              },
+              "def": {
+                "en": "The huge bottom part of a rocket that provides the first big push to get it off the ground, then usually separates and falls away."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it worth spending huge amounts of money trying to land rockets perfectly, when the money could be spent on things on Earth instead?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Cheaper rockets could help scientists learn things that improve life on Earth, like better weather tracking and GPS.",
+                      "Big risky projects like this often invent new tools and materials that get used in everyday things later.",
+                      "Space exploration inspires kids to get excited about science and engineering, which helps everyone in the long run."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the money should go elsewhere"
+                  },
+                  "points": {
+                    "en": [
+                      "The same money could build schools, hospitals, or help people who don't have enough food or clean water right now.",
+                      "Not everyone gets to benefit from Moon bases or space travel, but everyone benefits from things like clean water.",
+                      "We don't know for certain reusable rockets will succeed, so it's a gamble with a huge amount of money."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a country or company is the first to build a base on the Moon, should they get to decide who else is allowed to use that part of the Moon?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, first means some rights"
+                  },
+                  "points": {
+                    "en": [
+                      "Whoever does all the hard work and spends the money to build something should get some say over how it's used.",
+                      "Without any rules or ownership, people might rush in carelessly and ruin the area for everyone.",
+                      "It's similar to how explorers or builders on Earth often get credit and some control over what they create."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the Moon should belong to everyone"
+                  },
+                  "points": {
+                    "en": [
+                      "The Moon isn't owned by any one country, so no single group should get to claim it just by arriving first.",
+                      "If one country or company controls it, others might get left out even if they also want to explore or learn there.",
+                      "Sharing fairly could prevent arguments or even fights between countries over Moon territory."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "SpaceX Tries to Catch Its Giant Rocket — Both Halves — for the First Time"
+          },
+          "hook": {
+            "en": "On Friday, November 13, SpaceX will launch Starship, the biggest and most powerful rocket ever built, from a test site in Texas. For the first time, the company will try to bring back both the booster and the upper-stage ship intact, rather than letting either burn up or crash into the ocean. If it works, it would be a huge step toward making rockets as reusable as airplanes."
+          },
+          "story": {
+            "en": [
+              "Rockets have always been mostly disposable. You build an enormous machine, burn through most of its parts getting to space, and the bulk of it is destroyed or dumped into the ocean on the way. SpaceX already reuses the booster — the bottom section that provides the initial thrust — on its smaller Falcon 9 rocket, landing it upright after launch. But Starship is a different scale of problem: it is taller than the Statue of Liberty and made of two giant reusable parts, the Super Heavy booster and the Starship upper-stage ship that actually carries cargo or people into orbit. Catching both of them intact, on the same flight, has never been done.",
+              "The reason companies and governments care so much is money. A huge share of what it costs to reach space is the hardware you throw away. If you can land a rocket, inspect it, refuel it, and fly it again within days — the way an airline flies the same plane dozens of times a week — the cost per launch could fall dramatically, the way air travel became radically cheaper once planes stopped being single-use. That is why engineers have nicknamed full reusability the 'holy grail' of rocketry: not a nice bonus, but the thing that could finally make space travel routine rather than rare and extravagant.",
+              "The stakes go beyond SpaceX's balance sheet. NASA's Artemis program — its current plan to send astronauts back to the Moon's surface for the first time since the 1970s — is counting on a giant reusable rocket like Starship, or a rival lander being built by Jeff Bezos's company Blue Origin, to actually get astronauts down to the lunar surface and back. Both the United States and China have said they want to build a permanent base near the Moon's south pole, where ice trapped in permanently shadowed craters could one day be turned into drinking water, breathable oxygen, or rocket fuel. Whoever lands there first and stays effectively gets to write the rules for how that territory is used, which is why this is being treated less like a scientific milestone and more like a race.",
+              "The launch window runs from 5:45 to 7:00 p.m. Eastern time on Friday — early-to-mid afternoon on the US West Coast, where the test range actually sits — which falls right around or after when this page is being written and published. That means nobody yet knows, as you read this, whether the attempt succeeded, partially succeeded, or failed. Test flights of brand-new rocket hardware fail often; several previous Starship test flights have ended in explosions, which SpaceX treats as expected data-gathering rather than disaster, since each attempt teaches engineers something that gets fixed on the next vehicle.",
+              "Recovering the booster typically means catching it with giant mechanical arms on the launch tower, nicknamed 'chopsticks,' as it descends — an operation that looks less like a landing and more like someone catching a falling telephone pole out of the sky. Recovering the upper-stage ship as well, on the same flight, would be new territory entirely. Whatever happened on Friday will shape how quickly NASA can commit to a Moon landing date, and how seriously to take the idea that getting to space might soon cost a small fraction of what it does today."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If reusable rockets become routine, the cost of putting things in space — satellites that provide internet and weather data, telescopes, eventually people — could fall sharply within your lifetime, the way flights and shipping got cheaper once reuse became normal. It also matters because which country controls access to the Moon's south pole could shape rules and resources there for decades, similar to how early claims on valuable land or sea routes shaped later disputes."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Reusability"
+              },
+              "def": {
+                "en": "Designing a rocket so its parts can be recovered, checked, and flown again, instead of being thrown away after one use."
+              }
+            },
+            {
+              "term": {
+                "en": "Booster"
+              },
+              "def": {
+                "en": "The large bottom section of a rocket that provides the powerful initial thrust needed to leave the ground, and is usually the first part to separate."
+              }
+            },
+            {
+              "term": {
+                "en": "Artemis program"
+              },
+              "def": {
+                "en": "NASA's current plan to send astronauts back to the Moon's surface and eventually build a lasting base there."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should critical space missions depend so heavily on private companies like SpaceX, rather than being run directly by governments?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Lean on private companies"
+                  },
+                  "points": {
+                    "en": [
+                      "Private companies like SpaceX have driven costs down and innovated faster than government-run programs often have.",
+                      "Competition between companies pushes each one to improve quickly, rather than relying on a single slow-moving agency.",
+                      "Governments can focus public money on exploration and science while buying transportation as a service, the way airlines buy planes rather than building them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep it public"
+                  },
+                  "points": {
+                    "en": [
+                      "A mission as important as returning to the Moon shouldn't depend on the success or failure of one company's test flights.",
+                      "Private companies answer to shareholders and profit, which may not always align with national or scientific priorities.",
+                      "If a company fails, delays, or changes direction, a national space program can be left stuck without a backup plan."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is the competition between the US and China to reach the Moon's south pole a healthy race or a wasteful one?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Healthy competition"
+                  },
+                  "points": {
+                    "en": [
+                      "Competition between rival nations has historically sped up big achievements, as it did during the first Moon race in the 1960s.",
+                      "Having two countries pursuing the same goal makes it more likely that someone actually succeeds and that the technology keeps improving.",
+                      "Establishing early rules and presence at the south pole could prevent future conflict by settling expectations before resources are scarce."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wasteful rivalry"
+                  },
+                  "points": {
+                    "en": [
+                      "Billions of dollars spent racing to plant a flag could instead address urgent problems here on Earth, like disease or climate change.",
+                      "Treating the Moon as a prize to be claimed first risks turning cooperation into conflict over resources that could instead be shared.",
+                      "Rushing a program for national pride rather than careful planning raises the risk of costly failures or cut corners."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
