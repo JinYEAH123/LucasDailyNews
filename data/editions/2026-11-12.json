@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-12",
+  "window": {
+    "start": "2026-11-11T12:00:00-07:00",
+    "end": "2026-11-12T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-12T17:09:52-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "How Scott Colom defied more than a century of history to win Democrats a Mississippi Senate seat",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/11/politics/scott-colom-mississippi-campaign-democrats"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump, Vance and Congress: 2026 Election Live Updates"
+          },
+          "summary": {
+            "en": "A rolling live account of the broader midterm fallout, showing how the Colom win fit into the week's wider pattern of Democratic state-level gains. Useful for seeing the scale of the sweep beyond Mississippi alone."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-vance-veterans-day-congress-2026-election-live-updates-rcna608667"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Lots of U.S. States Just Got New Bosses"
+          },
+          "hook": {
+            "en": "Across many U.S. states, elections last week handed one political party way more power than before. The Democrats now fully run six more states than they did before, flipped control of twelve state legislatures, and look set to gain six governor's offices. The biggest surprise: a Democrat won a U.S. Senate seat in Mississippi, a state that hadn't picked a Democrat for that job in over 40 years."
+          },
+          "story": {
+            "en": [
+              "Imagine your school picked a different group of students to be in charge of every single decision, from lunch menus to recess rules. That is kind of what just happened in several U.S. states.",
+              "In American states, there are two main jobs that run things: a governor, who is like the state's head boss, and two groups of lawmakers called legislatures, who write the state's rules. When one political party controls all three, they can make big changes without needing to agree with anyone else.",
+              "After last week's elections, the Democratic Party ended up fully in charge in six more states than before. They also took over twelve state legislatures that used to be run by their rivals, the Republicans.",
+              "The most surprising result came from Mississippi, a state that almost always votes Republican. A Democrat named Scott Colom won a seat in the U.S. Senate there, something that hadn't happened in over 40 years. That's longer than most grandparents have been able to vote in that state's Senate races."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When one party controls a whole state, it can shape things that affect kids directly, like how much money schools get and how neighborhoods are drawn on voting maps. These changes don't happen just for one year. Whoever wins now will likely be making decisions for several years."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Trifecta"
+              },
+              "def": {
+                "en": "A trifecta is when one political party controls the governor's office and both parts of a state's lawmaking group at the same time."
+              }
+            },
+            {
+              "term": {
+                "en": "Senate"
+              },
+              "def": {
+                "en": "The Senate is one of the two groups of lawmakers in the U.S. government that creates laws and votes on big national decisions."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for one group to be fully in charge, or for power to be shared between different groups who disagree?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "One group in charge"
+                  },
+                  "points": {
+                    "en": [
+                      "Decisions can get made faster without long arguments.",
+                      "Voters know exactly who to praise or blame for what happens.",
+                      "The group in charge can carry out its full plan instead of only part of it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Power shared between groups"
+                  },
+                  "points": {
+                    "en": [
+                      "Different groups can check each other so no one goes too far.",
+                      "People with different opinions all get a voice in decisions.",
+                      "Laws made with more agreement might last longer and upset fewer people."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a good thing when a place that almost always votes one way suddenly switches to the other side?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, switching is healthy"
+                  },
+                  "points": {
+                    "en": [
+                      "It shows that no single party can take voters for granted.",
+                      "New ideas get a chance when the same party doesn't always win.",
+                      "It proves everyone's vote genuinely has a chance to matter."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it causes problems"
+                  },
+                  "points": {
+                    "en": [
+                      "Big, sudden changes can be confusing for people used to the old way.",
+                      "Leaders might rush to reverse things the previous group built.",
+                      "It can take time for new leaders to learn how to run things well."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Democrats Sweep State Elections, Flip a Deep-Red Senate Seat in Mississippi"
+          },
+          "hook": {
+            "en": "Final vote counts from last week's U.S. midterm elections confirmed a big night for Democrats across the country. The headline result: Scott Colom, a Democrat, defeated longtime Republican Senator Cindy Hyde-Smith in Mississippi — a state that hadn't sent a Democrat to the U.S. Senate in more than four decades."
+          },
+          "story": {
+            "en": [
+              "Mississippi is about as Republican as American states get. It hasn't elected a Democrat to the U.S. Senate since the 1980s. So when Scott Colom beat incumbent Senator Cindy Hyde-Smith last week, political analysts everywhere took notice. An incumbent is someone who already holds the office and is running to keep it — usually an advantage, since voters know their name and record. Losing that advantage in a state this red is rare enough that it became the marquee race of the entire midterm cycle.",
+              "But the Mississippi upset was just one piece of a much larger result. Across the country, Democrats secured what political scientists call a 'trifecta' in six additional states — meaning the party now controls the governor's office plus both chambers of the state legislature (the house and senate that make state laws) all at once. They also flipped control of 12 state legislative chambers from Republican to Democratic, and were on track to flip six governorships. That's a lot of simultaneous change in a single election.",
+              "Why does control of state government matter so much? Because state legislatures and governors — not just Congress or the President — decide things that shape everyday life directly: how school funding gets divided, what the state budget prioritizes, and crucially, how voting districts get drawn. That last one, called redistricting, happens roughly once a decade and determines the boundaries of the districts that elect state and federal representatives. Whoever controls the process can draw lines that make it easier for their own party to win future elections — a practice both parties have used when they've had the chance.",
+              "The Mississippi result is the one getting the most attention precisely because it's the hardest to explain with ordinary political math. A trifecta flipping in a state that was already competitive is unsurprising; a 40-year Senate drought ending is not. Some analysts argue it reflects real demographic and political shifts in the state — a growing, younger, more diverse electorate less tied to old party loyalties. Others caution that one race can turn on local factors that don't predict a trend: a weak opponent, a strong individual candidate, low turnout in the other party's base.",
+              "What's not in dispute is the scale of the broader sweep. Multiple major outlets confirmed the same vote counts and the same tally of flipped chambers and governorships, so there's no argument here about what happened — only about what it means going forward. Does a sweep this size signal a durable national shift in how Americans are voting, or is it the kind of result that looks dramatic right after an election and fades by the next one? That's the question political strategists in both parties are now trying to answer, because the policies that get written in these newly flipped statehouses will be in place for years regardless of the answer."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whoever controls your state government has a direct hand in things that touch your life even if you can't vote yet — how much money your school gets, what gets taught, and how the voting maps that shape future elections get drawn. A sweep this size means those decisions, in a dozen-plus states, are now made by a different party than before, for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Trifecta"
+              },
+              "def": {
+                "en": "When one political party controls a state's governorship and both chambers of its legislature at the same time, giving it a much freer hand to pass its agenda."
+              }
+            },
+            {
+              "term": {
+                "en": "Redistricting"
+              },
+              "def": {
+                "en": "The process, usually done once a decade, of redrawing the boundaries of voting districts — whoever controls it can shape which party has an advantage in future elections."
+              }
+            },
+            {
+              "term": {
+                "en": "Incumbent"
+              },
+              "def": {
+                "en": "A politician who currently holds the office they are running to keep, which usually gives them an advantage because voters already know their name and record."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for democracy when one party wins unified control of a state government, or is that actually a risk worth worrying about?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Unified control works better"
+                  },
+                  "points": {
+                    "en": [
+                      "Without a divided government, officials aren't stuck in constant gridlock and can actually pass the policies they were elected to deliver.",
+                      "Voters know exactly who to credit or blame at the next election, since one party owns every decision.",
+                      "Coordinated action across the governor's office and legislature can move faster on problems like budgets or disasters that need quick responses."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Checks and balances matter more"
+                  },
+                  "points": {
+                    "en": [
+                      "Without an opposing party watching closely, mistakes, overreach, or corruption are less likely to be caught and challenged.",
+                      "A large chunk of voters who supported the losing party end up with essentially no representation in how the state is run.",
+                      "Unified control often lets the winning party redraw voting districts in its own favor, making it harder for voters to ever reverse that control."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does Mississippi electing a Democratic senator show the state is genuinely changing, or is one race not enough to say that?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "This reflects a real shift"
+                  },
+                  "points": {
+                    "en": [
+                      "Mississippi's electorate has been getting younger and more diverse for years, and shifts like that eventually show up at the ballot box.",
+                      "The race happened alongside a much broader national Democratic sweep, suggesting a shared mood rather than a local fluke.",
+                      "Breaking a 40-year losing streak in a single state takes more than random luck — something structural likely moved."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "One race doesn't prove a trend"
+                  },
+                  "points": {
+                    "en": [
+                      "Individual candidates matter enormously; a strong, well-known challenger can win even in a state that hasn't actually changed its politics.",
+                      "Low turnout or a weak campaign by the incumbent can produce a surprising result without reflecting any lasting shift in voters' preferences.",
+                      "Deeply partisan states occasionally produce one-off upsets that don't repeat in the next election cycle, especially in midterms with unusual turnout patterns."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Nvidia CEO Jensen Huang resigns: Live updates",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia CEO Jensen Huang steps down amid alleged spy scandal"
+          },
+          "summary": {
+            "en": "NPR's account of the resignation lays out the sequence from the espionage allegation to the board's reported move to oust Huang. It adds confirmation of Colette Kress's appointment as interim CEO."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6037833/jensen-huang-nvidia-stepped-down"
+        },
+        {
+          "title": {
+            "en": "Jensen Huang resigns as Nvidia CEO after affair with alleged spy"
+          },
+          "summary": {
+            "en": "The Washington Post traces how the board weighed Huang's future once the affair became public, offering more detail on the internal deliberations before his resignation."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Jensen Huang's Nvidia resignation leaves trail of collateral damage"
+          },
+          "summary": {
+            "en": "Axios examines the ripple effects on Nvidia's stock, partners and the broader AI market, useful for readers wanting to see consequences beyond the company itself."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/12/jensen-huang-nvidia-ceo-ai-resignation"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Boss of a Giant Computer-Chip Company Suddenly Quits"
+          },
+          "hook": {
+            "en": "Jensen Huang ran Nvidia, a company that makes special computer chips used in artificial intelligence (AI) all over the world. He quit his job suddenly this week after news spread that he'd been dating a woman U.S. government spy-watchers suspect might have secretly been working for China. Nobody has proven this, and no court has looked at it — but the rumor alone shook the company so hard that billions of dollars of its value vanished in one evening."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes the computer chips that power most of today's AI — the technology behind chatbots, smart speakers, and self-driving cars. Jensen Huang built the company into one of the most valuable in the world, worth more than the entire economies of many countries.",
+              "Then news broke that Huang had been in a relationship with a woman reporters called Alice Huang (no relation to him). U.S. intelligence officials — the government's professional information-gatherers — suspect she may have secretly passed information to China. That's called espionage, or spying. Nobody has proven this in court, and she hasn't been charged with any crime.",
+              "Still, the rumor was serious enough that Nvidia's board of directors — the group of people who oversee the company's biggest decisions — reportedly began planning to remove Huang. Before they could, he stepped down himself. Nvidia's stock value fell more than 9% in a single evening — imagine a $100 toy suddenly being worth only $91, except multiplied by billions of dollars, since Nvidia is one of the biggest companies on Earth.",
+              "Colette Kress, the company's Chief Financial Officer — the person in charge of its money — has taken over as interim (temporary) boss while Nvidia searches for someone permanent."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips power technology you might use every day, from video games to apps that recognize your voice. Because the company is so important to the world economy, even an unproven rumor about its boss can shake stock markets and ripple out to affect jobs everywhere. It also shows how tangled business has become with questions about national security between the United States and China."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "CEO stands for Chief Executive Officer — the person who runs a company and makes its biggest decisions."
+              }
+            },
+            {
+              "term": {
+                "en": "espionage"
+              },
+              "def": {
+                "en": "Espionage means secretly gathering information for another country, which most governments treat as a serious crime."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a company remove its boss because of a serious rumor, even before anyone proves it's true?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Act now"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting years for an investigation could put the whole company and its customers at risk if the rumor turns out to be true.",
+                      "Businesses aren't courts — they can decide for themselves who they trust to lead them, even without legal proof.",
+                      "Protecting thousands of employees' jobs can matter more than protecting one person's reputation while questions remain unanswered."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for proof"
+                  },
+                  "points": {
+                    "en": [
+                      "Nobody should lose everything they built because of an accusation that might turn out to be false.",
+                      "Rushing to judgment can ruin a person's reputation forever, even if they are later cleared completely.",
+                      "Serious decisions deserve serious evidence, not just a rumor reported in the news."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that one person's personal life can cause so much trouble for thousands of other people?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders in powerful positions must accept that their personal choices affect everyone who depends on them.",
+                      "If there's a real risk to a country's safety, that matters more than protecting one person's privacy.",
+                      "People who choose to lead giant companies know their lives will be watched closely."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "Thousands of employees, investors, and families are hurt by something they had no part in and could not control.",
+                      "A person's private relationships shouldn't be used to judge whether they can do their job well.",
+                      "Spreading an unproven rumor can punish many innocent people before any facts are even confirmed."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's CEO Quits After Unproven Spy Claim Rattles Markets"
+          },
+          "hook": {
+            "en": "Jensen Huang, the man who built Nvidia into the most important company in the artificial intelligence boom, resigned this week after reports that a woman he was personally involved with is suspected by U.S. intelligence officials of spying for China. No charges have been filed and nothing has been proven in court. Nvidia's stock still fell more than 9% in after-hours trading once word got out that the board was moving to remove him, and the company's finance chief, Colette Kress, has stepped in as interim CEO."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes the computer chips that power most of today's advanced artificial intelligence systems — the technology behind chatbots, image generators, and the data centers tech giants are racing to build. That makes Jensen Huang, who co-founded and ran the company for over three decades, one of the most closely watched executives in the world. So when the Wall Street Journal reported that Nvidia's board was preparing to push him out, and he resigned shortly after, the shockwaves went well beyond Silicon Valley.",
+              "At the center of the story is a woman identified in earlier reporting as Alice Huang, who U.S. intelligence officials reportedly believe may have been gathering information for the Chinese government. That belief is what's called an intelligence assessment: a judgment intelligence agencies form based on evidence they usually don't make public, rather than a conclusion reached in a courtroom. Nothing has been charged, nothing has been proven, and the woman has not been convicted of anything. It's an allegation — a serious one, but still just an allegation.",
+              "Nvidia's situation is especially sensitive because the U.S. government has spent years restricting which of the company's most powerful chips can be sold to China, worried that they could help the Chinese military or accelerate China's own AI development. Huang has often argued publicly that these export rules go too far and hurt American businesses without actually stopping China's progress. A romantic relationship with someone suspected of spying for the very country these rules target puts Huang's judgment, and Nvidia's trustworthiness in Washington, under a far harsher spotlight than an ordinary executive scandal would.",
+              "News outlets including NPR, the Washington Post, and Axios described a wave of what one called 'collateral damage' — other tech stocks, chip suppliers, and companies that depend heavily on Nvidia's products all wobbled as investors tried to figure out what the story meant for the company's future. That reaction says something important: Nvidia has become what's known as a bellwether stock for the entire AI industry, meaning its price swings are treated as a signal for how investors feel about the technology boom as a whole, not just about one company.",
+              "What remains unresolved is exactly how much of this is really about national security and how much is about optics — how something looks, regardless of whether it's actually been proven. A board removing a wildly successful CEO over an unproven allegation is itself a significant and unusual move, and it raises a hard question that goes beyond Nvidia: how should companies, and the government agencies that scrutinize them, handle situations where the evidence is serious but still secret and unproven?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips sit behind nearly every major AI tool people use now, from search engines to image generators, and its stock is held in countless retirement accounts and index funds, so a sudden leadership crisis there ripples into ordinary portfolios, not just tech headlines. The story also shows how national security concerns about China can now shape who runs some of America's biggest companies, even before any formal proof exists — a pattern worth understanding since it's likely to happen again."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "intelligence assessment"
+              },
+              "def": {
+                "en": "A judgment intelligence agencies reach based on evidence they typically keep secret, which is different from a fact proven in court."
+              }
+            },
+            {
+              "term": {
+                "en": "bellwether stock"
+              },
+              "def": {
+                "en": "A company's share price that investors treat as a signal for how an entire industry or market is doing, not just that one business."
+              }
+            },
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Government rules limiting which products, like advanced computer chips, companies are allowed to sell to certain countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was Nvidia's board right to push Jensen Huang out based on an allegation that has never been proven?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The board was right to act"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders of companies tied to national security can't afford even the appearance of being compromised, since trust itself is the asset at stake.",
+                      "Waiting years for a court case to conclude could let real damage happen in the meantime, if the suspicion turns out to be true.",
+                      "Markets and the government both needed clarity fast, and removing uncertainty quickly can matter more than waiting for perfect proof."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The board moved too fast"
+                  },
+                  "points": {
+                    "en": [
+                      "No court or formal charge has established any wrongdoing by anyone involved, only a secret intelligence suspicion.",
+                      "Punishing someone for who they're personally involved with risks guilt by association, a standard most people wouldn't want applied to themselves.",
+                      "It sets a precedent where leaked, unverifiable claims can be used to remove powerful executives, which rivals or hostile governments could exploit."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should national security concerns give government agencies real influence over who leads major tech companies, even without formal charges?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, oversight is justified"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia's chips are central to military and economic competition with China, so the trustworthiness of its leadership is a legitimate public concern, not just a private business matter.",
+                      "Export control violations or genuine espionage could have consequences far beyond one company's stock price, affecting national security broadly.",
+                      "Governments already scrutinize leadership in other sensitive industries, like defense contracting, so extending similar scrutiny to critical AI chipmakers isn't unprecedented."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this risks overreach"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies, not government agencies, should make personnel decisions, and blending business with politics risks turning markets into tools of political pressure.",
+                      "Intelligence agencies have their own institutional incentives to flag threats, and leaks to the press can be used to manipulate markets or damage rivals without real evidence.",
+                      "Treating a private relationship as grounds for forcing someone out, based on secret and unverifiable claims, could chill people's personal lives and open the door to witch hunts."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "8 dead, at least 17 hurt in New York City building collapse, authorities say",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/newyork/news/brooklyn-building-collapse-bedford-avenue/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "8 dead, including 2 children, after building collapses in Brooklyn, New York"
+          },
+          "summary": {
+            "en": "ABC News confirms the death toll including the two children and gives an early account of the rescue operation, useful for cross-checking the human toll."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/rescue-operations-underway-after-building-collapses-brooklyn-new/story?id=138059620"
+        },
+        {
+          "title": {
+            "en": "Building collapse in Brooklyn kills at least eight, injures over a dozen"
+          },
+          "summary": {
+            "en": "Al Jazeera's international account situates the disaster for readers outside the U.S., independently corroborating the casualty figures from a non-U.S. outlet."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Flatbush, Brooklyn building that collapsed had 98 open violations, city records show"
+          },
+          "summary": {
+            "en": "This follow-up digs into the city's own violation records for the building, the key fact driving questions about preventable failure and city oversight."
+          },
+          "publisher": "CBS New York",
+          "url": "https://www.cbsnews.com/newyork/news/flatbush-brooklyn-building-collapse-violations/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "An Apartment Building Fell Down in Brooklyn, and People Are Asking Why"
+          },
+          "hook": {
+            "en": "An apartment building in a part of New York City called Flatbush suddenly collapsed. At least eight people died, including two children, and more than a dozen others were hurt. City records show the building had 98 safety problems that were never fixed, and now people want to know why."
+          },
+          "story": {
+            "en": [
+              "In Flatbush, a neighborhood in Brooklyn, New York, an apartment building suddenly fell down. People were inside their homes when it happened.",
+              "Rescue workers searched through the broken pieces of the building. At least eight people died, including two children. Somewhere between 17 and 18 more people were hurt. These numbers might still change as workers keep searching.",
+              "City records showed the building had 98 open safety violations. A violation is a problem that inspectors found but that nobody fixed. Ninety-eight is a lot — imagine finding a new crack or broken pipe almost every week for two years, and none of them ever getting repaired.",
+              "Nobody knows for sure yet why the building fell. Investigators are looking at construction work happening nearby, but they haven't said that caused it. Many older buildings in big cities have long lists of unfixed problems, and this disaster has people asking whether cities check on buildings closely enough."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Most of us live in buildings we trust to stay standing — our homes, our schools, maybe an apartment like this one. This story is a reminder that buildings need regular care, and that when problems get written down but never fixed, it can matter a lot later. It also shows how hard it is to balance keeping people safe with not making people leave their homes too quickly."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "violation"
+              },
+              "def": {
+                "en": "A violation is a safety problem an inspector finds and writes down, which is supposed to get fixed."
+              }
+            },
+            {
+              "term": {
+                "en": "investigator"
+              },
+              "def": {
+                "en": "An investigator is someone whose job is to study what happened after an accident, like a detective for buildings instead of crimes."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a building has lots of safety problems, should the city force everyone to leave right away, even before it knows how serious the problems really are?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act fast"
+                  },
+                  "points": {
+                    "en": [
+                      "If people wait too long, something terrible like this collapse can happen.",
+                      "Being asked to leave for a while is much better than being hurt.",
+                      "The city already writes down these problems, so it should act on its own warnings."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's harder than it sounds"
+                  },
+                  "points": {
+                    "en": [
+                      "Forcing families out of their homes is a huge, scary disruption, especially if it turns out not to be needed.",
+                      "Not every violation means a building is about to fall down.",
+                      "Many families might have nowhere else to go, especially at short notice."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should every single safety problem in a building be shared publicly with the people who live there, even small ones?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, tell everyone everything"
+                  },
+                  "points": {
+                    "en": [
+                      "People deserve to know if their home might not be safe.",
+                      "Public pressure might push landlords to fix things faster.",
+                      "Hiding problems, even small ones, can let big dangers build up unnoticed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, some information could do more harm than good"
+                  },
+                  "points": {
+                    "en": [
+                      "Listing every tiny problem might scare people over things that aren't actually dangerous.",
+                      "Some residents might not be able to afford to move even if they're worried.",
+                      "It could make people distrust buildings that are actually safe enough to live in."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Brooklyn Apartment Building Collapsed — It Had 98 Safety Violations on File"
+          },
+          "hook": {
+            "en": "An apartment building in the Flatbush neighborhood of Brooklyn collapsed, killing eight people, including two children, and injuring at least 17 others. City records show the building had 98 open safety violations before it fell. Investigators are looking at nearby construction as one possible cause, but officials have not yet said what actually brought the building down."
+          },
+          "story": {
+            "en": [
+              "The collapse happened without warning in a residential block in Flatbush, a dense neighborhood in Brooklyn, New York, where older apartment buildings sit close together along ordinary streets. Rescue crews worked through rubble searching for survivors and the dead, and the toll — eight killed, at least 17 to 18 injured — could still rise as recovery work continues. Two of the dead were children.",
+              "What has made this story bigger than a single tragic accident is what reporters found afterward: city records showing 98 open violations filed against the building. A violation is an official notice that something in a building fails to meet legal safety or maintenance standards — a cracked foundation, faulty wiring, a blocked fire exit, anything the city's inspectors have flagged. An 'open' violation means it was never fixed and never formally resolved. Ninety-eight is a very large number for one building, and it raises an obvious question: if the city knew about this many problems, why was nobody forced to repair them before people died?",
+              "That question does not yet have an answer, and neither does the deeper one — what actually caused the collapse. Investigators are examining construction work happening nearby, since digging, drilling, or heavy vibration next to an old building can sometimes weaken its foundation or walls, especially if that building was already in poor condition. But no official has confirmed this as the cause, and it may take weeks for engineers to reconstruct exactly what failed and why. It's possible more than one factor combined — years of neglect plus a new, external stress the building could no longer absorb.",
+              "This is not a new argument in New York. The city has long had a system of inspections and violations meant to catch unsafe buildings before they fail, but enforcement depends on follow-through: fines, court orders, or in extreme cases, forcing a building closed until repairs happen. Landlords sometimes treat fines as a cost of doing business rather than a reason to act, especially when repairs are expensive and tenants have few ways to force the issue themselves. Housing advocates have pointed to buildings like this one for years as proof that paperwork alone does not keep people safe.",
+              "For now, the families affected are dealing with displacement, grief, and — for some — the fact that nobody can yet tell them why their home fell down. The broader debate the collapse has reopened is really about a gap: the difference between a government knowing a building is dangerous and a government actually making it safe. That gap is where this story sits, and it is unlikely to close quickly, because fixing it usually means either spending much more money on enforcement or accepting that some buildings get condemned and their tenants displaced before anything goes wrong — a trade-off cities have avoided making clearly for a long time."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Most teenagers don't choose where they live, but almost everyone eventually rents an apartment, and this story is about what happens when the system meant to catch unsafe housing fails quietly for years before failing loudly all at once. It's a reminder that a government notice fixing nothing is not the same as a problem being solved."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Open violation"
+              },
+              "def": {
+                "en": "An official notice that a building has broken a safety or maintenance rule, left unresolved because the problem was never actually fixed."
+              }
+            },
+            {
+              "term": {
+                "en": "Structural collapse"
+              },
+              "def": {
+                "en": "When a building's load-bearing parts — the walls, beams, or foundation holding it up — fail, causing all or part of it to fall down."
+              }
+            },
+            {
+              "term": {
+                "en": "Enforcement"
+              },
+              "def": {
+                "en": "The actual use of fines, legal orders, or forced repairs to make sure safety rules are followed, rather than just writing them down."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a building with dozens of known violations collapses, who should bear more of the blame — the landlord who ignored the warnings, or the city agency that issued them but never forced action?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The landlord bears more blame"
+                  },
+                  "points": {
+                    "en": [
+                      "The landlord controls the building directly and chose not to spend money on repairs despite repeated official warnings.",
+                      "Landlords, not city inspectors, are legally responsible for keeping their properties safe for tenants.",
+                      "Blaming the city risks letting property owners avoid accountability by hiding behind 'the system failed me.'"
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The city bears more blame"
+                  },
+                  "points": {
+                    "en": [
+                      "A violation that is never enforced is functionally meaningless — the city's job is to make compliance happen, not just document its absence.",
+                      "Tenants have far less power than a government to force a landlord to act, so the burden of follow-through falls on the agency with authority.",
+                      "If 98 violations can sit open for years without consequence, that points to a systemic enforcement failure, not just one bad landlord."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should cities be able to force immediate repairs or evacuations once a building's violations reach a severe level, even if that displaces tenants and costs owners heavily?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act fast even if it's disruptive"
+                  },
+                  "points": {
+                    "en": [
+                      "No amount of inconvenience or cost outweighs the risk of a building collapsing on the people living in it.",
+                      "Early forced action gives residents controlled, planned displacement instead of a sudden emergency with no warning.",
+                      "Landlords who ignore dozens of violations have already shown they won't act voluntarily, so the city has to."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that power could do more harm than good"
+                  },
+                  "points": {
+                    "en": [
+                      "Forced evacuations can leave low-income tenants suddenly homeless, which carries its own serious risks and costs.",
+                      "Giving city agencies broad power to condemn buildings quickly creates room for mistakes, bias, or misuse against certain neighborhoods or owners.",
+                      "Many violations are minor or disputed, and treating all severe-sounding violation counts as collapse risk could trigger unnecessary panic and displacement."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
