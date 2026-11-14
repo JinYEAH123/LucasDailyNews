@@ -1,0 +1,802 @@
+{
+  "date": "2026-11-14",
+  "window": {
+    "start": "2026-11-13T12:00:00-07:00",
+    "end": "2026-11-14T12:00:00-07:00",
+    "label": {
+      "en": "News from Friday 12:00 PM to Saturday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-14T14:25:26-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump to meet with Xi, Putin in China next week, White House says",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/business/2026/11/13/trump-xi-putin-summit-china/3558fd80-dfbc-11f1-912c-4fbb80d73f7f_story.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump to meet Xi and Putin in China on Nov. 19"
+          },
+          "summary": {
+            "en": "Confirms the location, timing and the White House's framing of the meeting as centering on nuclear arms reduction and Iran, adding detail on the broader Asia trip around it."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-13/trump-to-meet-with-xi-putin-nov-19-in-china-white-house-says"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump-Xi-Putin trilateral meeting at APEC: what to expect"
+          },
+          "summary": {
+            "en": "Looks ahead to what the unprecedented three-way sit-down might produce, though readers should note this outlet is Qatar state-funded and its framing should be weighed alongside other sources."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Three Powerful Leaders Will Meet Together for the First Time Ever"
+          },
+          "hook": {
+            "en": "On November 19, something that has never happened before will happen. The leaders of the United States, China, and Russia will sit down together at the same table. President Trump, President Xi Jinping, and President Putin will meet in a Chinese city called Shenzhen."
+          },
+          "story": {
+            "en": [
+              "These three leaders run the three countries that own almost all of the world's nuclear weapons. A nuclear weapon is the most powerful bomb ever invented, much stronger than any other weapon humans have made.",
+              "The meeting will happen at a big event called the APEC summit, where many countries' leaders gather to talk. This is the first time Trump, Xi, and Putin have ever all met together at once.",
+              "Trump says he wants to talk about cutting down the number of nuclear weapons each country has. He also plans to bring up the war happening in Iran. But he is not expected to talk about the war in Ukraine during this meeting, even though that war is still going on.",
+              "Nobody has said exactly how the meeting will work. It might be a quick side chat, or it could be a longer, more formal sit-down. No country has released a plan or list of topics yet, so a lot is still unknown."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nuclear weapons are so powerful that just a few of them could hurt huge numbers of people. When the leaders in charge of almost all of these weapons talk to each other, it can make the whole world a little safer, or sometimes show new tensions between them. Even though this is happening far away, decisions these three leaders make can affect how safe everyone on Earth feels."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "nuclear weapon"
+              },
+              "def": {
+                "en": "A nuclear weapon is an extremely powerful bomb, far stronger than any ordinary explosive, that only a few countries in the world have."
+              }
+            },
+            {
+              "term": {
+                "en": "summit"
+              },
+              "def": {
+                "en": "A summit is a meeting where leaders of different countries come together to talk about important problems."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When leaders meet, is it better to talk about easy topics first or jump straight into the hardest problem?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Start easy"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking about smaller things first can build trust before tackling harder topics.",
+                      "If leaders argue right away about the hardest problem, the whole meeting could fall apart.",
+                      "Agreeing on easier things first shows everyone that working together is even possible."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Tackle the hardest problem first"
+                  },
+                  "points": {
+                    "en": [
+                      "A war that is hurting millions of people shouldn't be pushed to the side.",
+                      "Skipping the hardest topic might make it look like the leaders don't care about it.",
+                      "The biggest problems often need the most time, so it makes sense to start on them early."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that only three countries own almost all the nuclear weapons and only they get to decide whether to reduce them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It makes sense this way"
+                  },
+                  "points": {
+                    "en": [
+                      "The countries that built the weapons understand them best and know how to safely reduce them.",
+                      "Since they created the risk, it makes sense that they are the ones responsible for fixing it.",
+                      "Other countries cannot force these three to give up weapons, so only they can choose to do it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It isn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Everyone on Earth could be affected by these weapons, not just the three countries that own them.",
+                      "Countries with no nuclear weapons get no say in decisions that could affect their safety too.",
+                      "Choices this big and this dangerous should probably include more voices, not just three leaders."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump, Xi and Putin to Sit Down Together for the First Time — With Ukraine Off the Table"
+          },
+          "hook": {
+            "en": "On November 19th, the leaders of the United States, China and Russia will meet together for the first time ever, on the edges of a major economic summit in Shenzhen, China. The White House says President Trump wants to talk about cutting down nuclear weapons stockpiles and also plans to raise the situation in Iran. What he reportedly won't discuss, despite sitting across from the man who ordered it, is Russia's ongoing war in Ukraine."
+          },
+          "story": {
+            "en": [
+              "Three men who each control one of the world's largest stockpiles of nuclear weapons have never before sat at the same table. That changes this week. Donald Trump, Xi Jinping and Vladimir Putin will hold what's being called a trilateral meeting — a conversation between exactly three parties, as opposed to the usual one-on-one summits — on the sidelines of APEC, a yearly gathering of 21 Pacific Rim economies that includes the US, China, Japan and most of Southeast Asia. 'Sidelines' is the key word: the big official APEC summit will be happening anyway, and this three-way sit-down is being slotted in around it, near the end of Trump's broader trip through Asia.",
+              "Nobody has released an agenda, and none of the three governments have said whether this will be a brief side conversation in a hallway or a formal session with aides and interpreters around a table. What officials have confirmed is the headline subject: reducing nuclear arsenals, meaning the actual number of nuclear warheads each country keeps ready to use. The US and Russia hold by far the largest stockpiles in the world, built up during the Cold War and only partly reduced since by treaties that have mostly expired or lapsed. China's arsenal is much smaller but growing quickly. Getting all three in the same room to even discuss the subject, let alone agree on anything, has never happened before.",
+              "What's missing from the announced agenda is just as notable as what's in it. Trump is expected to bring up the war in Iran, but officials say he does not plan to discuss Russia's war in Ukraine during the trilateral session — a war now in its fourth year, which has killed or wounded hundreds of thousands of people and which Putin started. Leaving it off the agenda doesn't make it disappear from the room; it just means the one person at the table who could end the war tomorrow won't be pressed to do so in front of the other two. Whether that's a deliberate bit of diplomacy or an awkward dodge is something reasonable people read differently.",
+              "Coverage of the meeting varies depending on who's doing the covering. Regional outlets, including some funded directly by governments in the region, have framed the summit partly around whether Trump will use it to take a tougher public line against Beijing, given separate trade and security tensions between the US and China. That's a plausible angle, but it's worth being clear that it's a framing added by commentators and state-backed media, not something the White House itself has confirmed as the meeting's purpose. State-funded outlets have their own interests in shaping how a story like this gets told, which is a reason to read their framing as one perspective rather than as the official account.",
+              "What makes this moment unusual isn't just the content of the talks — it's the format. Trump has built a reputation for favoring direct, personal dealmaking over the slower, more scripted diplomacy that usually surrounds nuclear policy. Putting Xi and Putin in the same room, informally, on the edge of a trade summit rather than at a dedicated arms-control conference, is itself a kind of experiment in how major-power diplomacy can work. Whether it produces anything concrete — a joint statement, a working group, even just an agreed next meeting — won't be clear until the day itself, since no format or outcome has been locked in publicly by any of the three sides."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The choices these three leaders make about nuclear weapons affect everyone, because a serious miscalculation between nuclear-armed states is one of the few risks that could touch the whole planet at once. It also matters that a war killing people right now can get quietly set aside at a summit meant to look historic — that's a real tension in how diplomacy gets done, not a side issue."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Trilateral meeting"
+              },
+              "def": {
+                "en": "A meeting between exactly three parties, rather than the more common one-on-one summit between two leaders."
+              }
+            },
+            {
+              "term": {
+                "en": "APEC"
+              },
+              "def": {
+                "en": "Asia-Pacific Economic Cooperation, a yearly gathering of 21 economies around the Pacific Ocean, including the US and China, that mostly discusses trade."
+              }
+            },
+            {
+              "term": {
+                "en": "Nuclear arsenal"
+              },
+              "def": {
+                "en": "The total collection of nuclear weapons a country keeps ready for potential use."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it right for Ukraine to be left off the agenda at a meeting between the leaders of the US, Russia and China?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Leaving it off is reasonable"
+                  },
+                  "points": {
+                    "en": [
+                      "A first-ever three-way meeting is fragile enough without adding the single most divisive issue on the table.",
+                      "Separate, focused talks on Ukraine are more likely to produce real progress than raising it in front of a third party.",
+                      "Nuclear arms reduction affects all of humanity directly and arguably deserves to be discussed on its own terms, without being derailed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Leaving it off is wrong"
+                  },
+                  "points": {
+                    "en": [
+                      "A war that has killed hundreds of thousands of people shouldn't be treated as too awkward to mention.",
+                      "Avoiding the subject lets Putin attend a historic summit without facing any public pressure over the war he started.",
+                      "If the meeting is partly about demonstrating seriousness on global stability, skipping an active war undermines that claim."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does bringing three nuclear-armed rivals to the same table for the first time make the world safer?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a positive step"
+                  },
+                  "points": {
+                    "en": [
+                      "Direct conversation between rival nuclear powers reduces the chance of dangerous misunderstandings or accidental escalation.",
+                      "Even an informal meeting can open channels that make future, more serious arms-control talks possible.",
+                      "Treating nuclear reduction as a shared problem, rather than a two-way US-Russia issue, better reflects today's reality now that China's arsenal is growing."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's mostly symbolic, or even risky"
+                  },
+                  "points": {
+                    "en": [
+                      "With no agenda document or joint statement, there's no guarantee the meeting produces anything beyond a photograph.",
+                      "Sitting down together can hand all three leaders a public relations win regardless of what, if anything, actually gets agreed.",
+                      "A historic-looking summit with no binding outcome can create a false impression of progress on an issue that still has none."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "society",
+      "region": "US",
+      "source": {
+        "title": "U.S. loses measles elimination status for first time since 2000",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/measles-elimination-status-united-states/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "CDC has recorded more than 5,000 measles cases this year"
+          },
+          "summary": {
+            "en": "An earlier look at how the 2026 outbreaks built toward this week's case count, giving context for how the numbers climbed before elimination status was lost."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/health/2026/11/07/cdc-has-recorded-more-than-5000-measles-cases-this-year/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Measles cases nationwide top 5,400 as outbreaks spread"
+          },
+          "summary": {
+            "en": "Breaks down where the outbreaks are concentrated and how hospitalizations and deaths have grown, filling in detail on the human toll behind the headline number."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Health/measles-cases-nationwide-top-5400-outbreaks-spread-us/story?id=138108176"
+        },
+        {
+          "title": {
+            "en": "CDC responds to loss of measles elimination status"
+          },
+          "summary": {
+            "en": "Covers the CDC's official reaction and what, if anything, the agency says it will do differently now that the elimination designation is gone."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/policy/healthcare/6213788-cdc-responds-measles-elimination-status/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Measles Is Spreading Again — America Loses a 25-Year Record"
+          },
+          "hook": {
+            "en": "For the first time since the year 2000, the United States is no longer officially free of ongoing measles spread. Health experts say the disease has been spreading nonstop in some communities since 2025 and hasn't stopped. That breaks a record the country had held for 25 years."
+          },
+          "story": {
+            "en": [
+              "Measles is a disease that spreads through coughing and sneezing. It can give you a fever, a cough, and a rash of red spots all over your body. In the year 2000, the United States earned something called 'elimination status.' That means health officials tracked the disease for over a year and found no ongoing spread happening on its own inside the country.",
+              "Now that record is broken. In 2024, the US had its worst year in three decades, with 2,242 measles cases — about enough kids to fill 80 classrooms. But in 2026, that number has more than doubled to 5,412 cases, enough to fill nearly 200 classrooms. About 590 of those people got sick enough to go to the hospital. Health officials have confirmed at least 6 deaths from measles, though news reports tracking state records say the real number may be closer to 10.",
+              "Doctors say the outbreaks are happening mostly in places where fewer children get a shot called the MMR vaccine, which protects against measles, mumps, and rubella. When most kids in a community are vaccinated, the disease has nowhere to spread — this is sometimes called herd protection, because the group protects its weakest members. But where vaccination rates have dropped, the virus finds unprotected kids and keeps moving from one to the next.",
+              "Losing elimination status doesn't mean measles is suddenly everywhere in America. Most towns still have no cases at all. But it does mean the chain of spreading never fully broke, somewhere in the country, for more than a year — something that hadn't happened since before most kids' parents were born."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've had your shots, you're very likely protected from measles yourself. But babies too young for the vaccine, and kids with certain illnesses who can't get it, depend on the people around them being vaccinated to stay safe. When vaccination rates drop in a community, it becomes easier for outbreaks like this one to start and keep going."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "elimination status"
+              },
+              "def": {
+                "en": "A title a country earns when a disease stops spreading on its own inside its borders for more than a year, even if a few sick travelers still bring cases in."
+              }
+            },
+            {
+              "term": {
+                "en": "MMR vaccine"
+              },
+              "def": {
+                "en": "A shot given to children that trains the body to fight off measles, mumps, and rubella before they ever catch the real diseases."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should unvaccinated kids be allowed to go to school with everyone else?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, let them attend"
+                  },
+                  "points": {
+                    "en": [
+                      "Parents should get to decide what goes into their own child's body.",
+                      "Some families have personal, religious, or medical reasons for skipping certain shots.",
+                      "Keeping a child out of school could hurt their learning and their friendships."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep them out during outbreaks"
+                  },
+                  "points": {
+                    "en": [
+                      "Measles spreads so easily that one unvaccinated child can make many others sick.",
+                      "Babies and kids who medically can't get the vaccine yet depend on everyone else being protected.",
+                      "Classrooms are crowded and close together, which is exactly how outbreaks grow fast."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is losing this 'elimination status' title actually a big deal, or is it just a label?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a big deal"
+                  },
+                  "points": {
+                    "en": [
+                      "It shows a real, ongoing pattern of spreading, not just one unlucky outbreak that will fade on its own.",
+                      "Other countries may see it as a sign the US has let its guard down on a disease it used to control well.",
+                      "Losing the title could push doctors, schools, and families to act faster and take the problem seriously."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's just a label"
+                  },
+                  "points": {
+                    "en": [
+                      "Most towns and cities in the US still have few or no measles cases at all.",
+                      "A title changing doesn't make the virus itself any more dangerous than it already was.",
+                      "What really matters is how many kids actually get sick, not what name officials give the situation."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The US Just Lost a Disease-Free Status It Held for 25 Years"
+          },
+          "hook": {
+            "en": "The CDC has confirmed that the United States no longer qualifies as having eliminated measles, a status the country held since 2000. Case counts this year have more than doubled last year's 30-year high, driven by outbreaks that started in 2025 and never stopped spreading. Officials say the core problem is simple: not enough children are getting vaccinated in certain communities."
+          },
+          "story": {
+            "en": [
+              "For 25 years, the United States held something called 'measles elimination status.' That doesn't mean zero measles ever — it means no chain of infection inside the country lasted longer than 12 months. Cases could still arrive from travelers, but public health systems were strong enough, and enough people were vaccinated, to snuff out any spread before it took hold. That streak just broke. The CDC confirmed this week that ongoing outbreaks, some tracing back to 2025, never actually stopped, which under the technical definition means the US no longer qualifies as having eliminated the disease.",
+              "The numbers tell the story of how fast this escalated. In 2024, the US recorded 2,242 measles cases, already the highest total in three decades. In 2026 so far, that number has more than doubled to 5,412, with over 590 people hospitalized. About a third of this year's cases are directly linked to the outbreaks that began last year and simply kept finding new unvaccinated people to infect, town by town, rather than burning out.",
+              "The CDC officially attributes at least six deaths to measles this year. But news organizations tracking state health department reports — including newly confirmed deaths in Wisconsin and Pennsylvania reported just this past Friday — put the real total closer to 10. That gap exists because state and federal reporting systems update on different timelines; a death might be confirmed by a local medical examiner weeks before it shows up in the CDC's official tally. It's a reminder that even official statistics are often provisional, especially during a fast-moving outbreak, and two correct-sounding numbers can disagree simply because they were counted at different moments.",
+              "Public health officials point to one cause above others: declining vaccination rates for MMR, the combined vaccine that protects against measles, mumps, and rubella, given routinely to young children. Measles is extraordinarily contagious — far more so than flu or COVID — so protecting a community requires roughly 95% of people to be immune, whether through vaccination or prior infection. When vaccination rates dip even a little in a specific school, neighborhood, or religious community, that threshold can slip below the level needed to stop transmission, and the virus finds the gap.",
+              "Losing elimination status won't change much for most Americans overnight — hospitals still know how to treat measles, and vaccines still work exactly as well as they did last year. What it signals is structural: a public health achievement built over 25 years through sustained vaccination campaigns has started to erode, and reversing it will take the same kind of sustained effort, community by community, rather than a single policy fix."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Measles is one of the most contagious diseases known, and it mostly hospitalizes and kills young children, so a drop in vaccination rates in even a few communities can bring back a disease most families haven't had to think about in decades. This story is also a window into how public health statistics actually get made — official counts can lag real events by days or weeks, which matters whenever you're trying to judge how serious something is in real time."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Measles elimination status"
+              },
+              "def": {
+                "en": "An official designation meaning no uninterrupted chain of measles transmission has lasted more than 12 months within a country, even if isolated cases still occur."
+              }
+            },
+            {
+              "term": {
+                "en": "MMR vaccine"
+              },
+              "def": {
+                "en": "A single vaccine given to young children that protects against measles, mumps, and rubella together."
+              }
+            },
+            {
+              "term": {
+                "en": "Herd immunity threshold"
+              },
+              "def": {
+                "en": "The percentage of a population that needs to be immune to a disease — through vaccination or past infection — to stop it from spreading; for measles this is unusually high, around 95%."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should states be allowed to require vaccination for public school attendance, with no personal or religious exemptions?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, require it"
+                  },
+                  "points": {
+                    "en": [
+                      "A single unvaccinated child in a classroom can start an outbreak that harms infants and immunocompromised people who can't be vaccinated at all.",
+                      "Herd immunity only works if participation stays near-universal, so exemptions for some effectively put everyone's protection at risk.",
+                      "Public schools are a shared space funded and attended collectively, and the community has a legitimate interest in keeping it safe for all children."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, preserve exemptions"
+                  },
+                  "points": {
+                    "en": [
+                      "Parents have a long-recognized right to make medical decisions for their children, including ones that public health officials disagree with.",
+                      "Removing exemptions can push hesitant families toward homeschooling or private schools, which may reduce oversight and widen educational inequality rather than solve the health problem.",
+                      "Trust in vaccination campaigns tends to erode further when choice feels forced rather than earned through persuasion and transparency."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When officials aren't sure of the exact death toll during an outbreak, should they report the lower, confirmed number or a higher, likely number that includes unverified reports?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Report only confirmed numbers"
+                  },
+                  "points": {
+                    "en": [
+                      "Official statistics should be something the public can trust completely, and premature numbers that later get revised downward can damage that trust.",
+                      "Confirmed figures hold officials accountable to a clear, consistent standard rather than shifting estimates.",
+                      "Panic driven by inflated early numbers can cause its own harms, from overwhelmed hospitals to public distrust of institutions."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Report the fuller, faster estimate"
+                  },
+                  "points": {
+                    "en": [
+                      "During a fast-moving outbreak, underestimating severity can slow the urgent response the situation actually needs.",
+                      "Communities and hospitals making real-time decisions need the most complete picture available, not the most conservative one.",
+                      "Waiting for perfect confirmation can mean the public learns the truth only after the worst of an outbreak has already passed."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Jensen Huang exit sets up US-China showdown over AI chip curbs",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-13/jensen-huang-exit-sets-up-us-china-showdown-over-ai-chip-curbs"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia exit sparks investigation fears tied to Lutnick, AI boom"
+          },
+          "summary": {
+            "en": "Traces how the Commerce Department and the broader AI investment boom are entangled with the fallout from Huang's departure, adding context on the policy stakes."
+          },
+          "publisher": "NPR",
+          "url": "https://npr.org/2026/11/13/nx-s1-6038868/nvidia-jensen-huang-exit-investigation-lutnick-ai-boom"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nvidia's rivals eye opening after Huang resigns"
+          },
+          "summary": {
+            "en": "Looks at how competitors might capitalize on Nvidia's leadership vacuum, extending the story into its likely business consequences."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-resigns-competitors/"
+        },
+        {
+          "title": {
+            "en": "Nvidia's Jensen Huang faces Washington scrutiny"
+          },
+          "summary": {
+            "en": "Details the congressional questions directed at Nvidia following Huang's exit, showing how the political fallout is unfolding on Capitol Hill."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The Boss of America's Biggest Chip Company Just Quit"
+          },
+          "hook": {
+            "en": "Jensen Huang ran Nvidia, a company that makes some of the smartest computer chips in the world. This week he resigned. Government officials say he had a secret relationship with a woman they believe might be working for China's government to gather secrets, though nobody has shown proof of this in public yet."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes tiny computer chips that power video games, phone apps, and the computers behind artificial intelligence, or AI.",
+              "Jensen Huang built Nvidia into one of the most valuable companies on Earth. He was also the loudest voice telling the US government not to block chip sales to China.",
+              "Officials say he had been dating a woman they suspect of spying for China. Nvidia and unnamed officials made this claim, but there is no public evidence proving it true.",
+              "Now that Huang is gone, nobody as powerful is left to argue against new rules that would stop America selling its best chips to China. Lawmakers in Washington are deciding what to do next, and some think China will now work even harder to build its own chips instead of buying American ones."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips this story is about help run things you probably use, like game consoles, phones, and the computer programs that can chat or draw pictures. Decisions made in Washington this week could change which countries get to buy the newest, fastest chips, which affects how quickly new technology reaches everyone, including you."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "computer chip"
+              },
+              "def": {
+                "en": "A tiny piece of material, smaller than a stamp, packed with circuits that let computers think and calculate."
+              }
+            },
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Government rules that limit which products a country is allowed to sell to another country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for someone to lose their job because of a relationship nobody has proven is dangerous?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, better safe than sorry"
+                  },
+                  "points": {
+                    "en": [
+                      "If someone important might share secrets with another country, acting fast can prevent real harm.",
+                      "Leaders in powerful jobs have to accept extra caution because their mistakes can affect millions of people.",
+                      "Waiting for complete proof before acting could mean it's too late to stop damage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, not without proof"
+                  },
+                  "points": {
+                    "en": [
+                      "Punishing someone for an unproven rumor could ruin their reputation unfairly.",
+                      "Anyone could be falsely accused just to push them out of a powerful position.",
+                      "Serious decisions should wait for real evidence, not guesses from unnamed officials."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country refuse to sell its best technology to a rival country?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect your advantage"
+                  },
+                  "points": {
+                    "en": [
+                      "If a rival country gets your best technology, it could use it to build weapons or spy tools.",
+                      "Keeping an edge in technology can keep a country safer and more powerful.",
+                      "Once you share something this advanced, you can't take it back."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep trading freely"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking sales can push the other country to build its own version even faster, so the block doesn't really work.",
+                      "Trading technology often leads to new ideas and inventions that help everyone.",
+                      "Businesses on both sides can lose money and jobs when trade is cut off."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's CEO Resigns Over a Spy Allegation — and Washington's Chip War Loses Its Biggest Critic"
+          },
+          "hook": {
+            "en": "Jensen Huang, the man who built Nvidia into the company that makes the chips powering most of the world's AI, resigned on Thursday. Days earlier he had admitted to a romantic relationship with a woman that unnamed US officials and his own company allege — but have not publicly proven — was working for Chinese intelligence. The resignation lands at the exact moment Washington is deciding whether to tighten the rules on selling advanced chips to China, and Huang had been the loudest voice arguing against doing so."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang didn't just run Nvidia — he was, in large part, the reason it became the most valuable chipmaker on Earth. Under him, Nvidia's processors went from powering video games to powering nearly every major AI system, from chatbots to self-driving cars to the data centers behind them. That made Huang one of the most powerful individual voices in American tech policy, and he used that voice loudly and specifically against export controls — US government rules that restrict which advanced technologies, including Nvidia's most powerful AI chips, American companies are allowed to sell to China. He argued the restrictions mostly just pushed China to build its own chips faster, while costing American companies billions in lost sales.",
+              "The allegation that ended his tenure is murkier than the resignation itself. Huang acknowledged an affair with a woman whom officials — speaking anonymously, not on the record — and Nvidia itself have alleged was an operative for Chinese intelligence, meaning someone working, openly or secretly, to gather information for the Chinese government. No public evidence has been produced to confirm this beyond those statements. It's entirely possible the allegation is true, entirely possible it's exaggerated, and entirely possible officials who wanted Huang gone — for policy reasons having nothing to do with the affair — found this a convenient way to make it happen. All three readings are circulating, and none has been settled.",
+              "What's clearer is the effect. With Huang gone, the chip industry loses its single most effective and well-resourced opponent of tighter export rules. Congress has kept up pressure this week, with lawmakers demanding more detail on what the security risk actually was. Commerce Secretary Howard Lutnick — whose department enforces export controls — and other administration officials are reported to be weighing how far new restrictions should go, now that the executive who fought hardest against them is off the board.",
+              "This sets up a fight with consequences well beyond one company's leadership. If Washington tightens the rules further, it could accelerate something already underway: China's own drive toward semiconductor self-sufficiency, building its own advanced chip factories so it no longer needs American technology at all. Export controls were partly designed to slow China down; a decade of them has also given Chinese companies and the government a very strong reason to stop depending on the US entirely. Whether that trade-off has been worth it is one of the most argued questions in US-China policy.",
+              "Underneath the geopolitics sits an uncomfortable fact: a huge swing in US chip policy may trace back to an allegation that has never been independently verified, built on statements from the very company whose business interests are most affected by what happens next."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chip inside your phone, laptop, or any AI tool you've used was likely designed by Nvidia or a company competing directly with it — so decisions made in this fight shape what gets built, how fast, and how much it costs. It's also a clean example of how national security, corporate interest, and unverified allegations can tangle together in ways that are genuinely hard to untangle, even for the officials involved."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Government rules that limit which products or technologies a country's companies are allowed to sell to another country."
+              }
+            },
+            {
+              "term": {
+                "en": "semiconductor self-sufficiency"
+              },
+              "def": {
+                "en": "A country's effort to design and manufacture its own advanced computer chips so it no longer depends on other nations for them."
+              }
+            },
+            {
+              "term": {
+                "en": "intelligence operative"
+              },
+              "def": {
+                "en": "A person working, secretly or openly, to gather information for a government's spy agency."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a company force out a top executive over an unproven national-security allegation involving their personal life?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act on the risk"
+                  },
+                  "points": {
+                    "en": [
+                      "A company whose products are central to national security can't afford to wait for absolute proof before removing a risk.",
+                      "Even an unproven allegation can make an executive a target for pressure or blackmail, which is itself a security problem.",
+                      "Waiting for certainty while a sitting CEO has a disputed foreign-intelligence connection could be far more damaging than acting early."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this punishes someone without proof"
+                  },
+                  "points": {
+                    "en": [
+                      "Removing someone from their life's work based on anonymous, unverified claims sets a dangerous precedent for how allegations alone can end careers.",
+                      "A romantic relationship is not evidence of wrongdoing, and treating it as proof conflates personal life with professional conduct.",
+                      "If the allegation turns out to be false or exaggerated, the damage to the person and to due process can't be undone."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US keep tightening export controls on AI chips to China, even knowing it may speed up China's push to build its own?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, restrict further"
+                  },
+                  "points": {
+                    "en": [
+                      "Slowing China's access to the most advanced chips buys the US time, even if China eventually builds its own.",
+                      "Letting the most powerful AI hardware flow freely to a strategic rival ignores the military and surveillance uses that technology can be put to.",
+                      "Short-term lost sales for American companies matter less than long-term technological advantage for the country."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, ease up"
+                  },
+                  "points": {
+                    "en": [
+                      "Restrictions have already pushed China to invest heavily in its own chip industry, which may leave the US with less influence in the long run, not more.",
+                      "American chip companies lose billions in revenue that funds the very research and development the US is trying to protect.",
+                      "A world with two separate, incompatible chip ecosystems could end up less stable and harder to manage than one where trade continues."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
