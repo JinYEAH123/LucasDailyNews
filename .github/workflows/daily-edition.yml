@@ -78,8 +78,20 @@ jobs:
             ${{ inputs.force && '--force' || '' }}
 
       # Before render_site, so the edition page can link the finished image.
+      #
+      # Allowed to fail for the same reason the newsletter is, and it took two
+      # days to learn it: on 2026-11-15 and 2026-11-16 the edition generated
+      # cleanly and was paid for, the QR self-check then refused one poster,
+      # and because this step was fatal the job died before the commit below —
+      # throwing away a finished edition twice over a share image.
+      #
+      # The paper is the product; the poster is a convenience. render_site only
+      # links posters that exist, so a missing one degrades to a page without a
+      # share button, which is a much smaller loss than a missing day.
       - name: Build the share images
+        id: poster
         if: steps.due.outputs.go == 'true' || github.event_name == 'workflow_dispatch'
+        continue-on-error: true
         run: |
           python3 scripts/build_poster.py --both \
             ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
@@ -157,8 +169,16 @@ jobs:
           echo "Could not push after 4 attempts" >&2
           exit 1
 
-      - name: Surface a failed send
-        if: steps.send.outcome == 'failure'
+      # Both of the allowed-to-fail steps are reported here, after the edition
+      # is safely committed, so the run still goes red and nothing is silent.
+      - name: Surface a failed step
+        if: steps.send.outcome == 'failure' || steps.poster.outcome == 'failure'
         run: |
-          echo "The edition was built and pushed, but the newsletter did not go out." >&2
+          if [ "${{ steps.poster.outcome }}" = "failure" ]; then
+            echo "The edition was built and pushed, but the share images did not." >&2
+            echo "The page will be missing its share-image link until the next run." >&2
+          fi
+          if [ "${{ steps.send.outcome }}" = "failure" ]; then
+            echo "The edition was built and pushed, but the newsletter did not go out." >&2
+          fi
           exit 1

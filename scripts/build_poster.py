@@ -330,17 +330,42 @@ def verify_qr(png_path: Path, expected: str) -> str:
     if image is None:
         raise SystemExit(f"Could not read back {png_path}")
 
-    detector = cv2.QRCodeDetector()
+    # Every decoder this OpenCV offers, not just one. QRCodeDetector was the
+    # only one used until OpenCV 5.0.0 shipped and it began returning an empty
+    # string for a clean, freshly generated symbol — reproducibly, on an image
+    # QRCodeDetectorAruco reads first time. Two days of editions were thrown
+    # away over a QR that was never broken.
+    #
+    # Which decoder succeeds does not matter; a symbol any of them reads is a
+    # symbol a phone will read. Asking all of them is also what keeps the next
+    # regression in any one of them from stopping the paper.
+    detectors = []
+    for name in ("QRCodeDetector", "QRCodeDetectorAruco"):
+        factory = getattr(cv2, name, None)
+        if factory is None:
+            continue
+        try:
+            detectors.append((name, factory()))
+        except cv2.error:
+            continue
+    if not detectors:
+        return "skipped (this opencv has no QR decoder)"
+
+    used = []
 
     def decode(img) -> str:
-        try:
-            text, _, _ = detector.detectAndDecode(img)
-        except cv2.error:
-            return ""
-        return text
+        for name, detector in detectors:
+            try:
+                text, _, _ = detector.detectAndDecode(img)
+            except (cv2.error, ValueError):
+                continue
+            if text == expected:
+                used.append(name)
+                return text
+        return ""
 
     if decode(image) == expected:
-        return "verified"
+        return f"verified ({used[-1]})" if used else "verified"
 
     # The QR block sits at the foot of the sheet; give the detector that part
     # of the page at full resolution rather than the whole scaled-down column.
@@ -354,7 +379,9 @@ def verify_qr(png_path: Path, expected: str) -> str:
     raise SystemExit(
         f"QR check FAILED for {png_path.name}\n"
         f"  expected: {expected}\n"
-        f"  decoded:  (nothing found, in the full image or a crop)"
+        f"  decoded:  (nothing found, in the full image or a crop)\n"
+        f"  tried:    {', '.join(name for name, _ in detectors)} "
+        f"(opencv {cv2.__version__})"
     )
 
 
