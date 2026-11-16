@@ -1,0 +1,781 @@
+{
+  "date": "2026-11-16",
+  "window": {
+    "start": "2026-11-15T12:00:00-07:00",
+    "end": "2026-11-16T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-16T13:21:27-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump, Xi and Putin, and Nvidia",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump-Xi-Putin summit: Ukraine, nuclear arms, tariffs, Russia, Iran on the table"
+          },
+          "summary": {
+            "en": "CNBC lays out the range of issues officials say could come up at the Shenzhen meeting, from nuclear arms control to tariffs and the Ukraine war. Useful for seeing how wide-ranging and unsettled the expected agenda still is just days before the summit."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+        },
+        {
+          "title": {
+            "en": "China confirms Xi-Trump-Putin summit"
+          },
+          "summary": {
+            "en": "The Japan Times reports Beijing's official confirmation of the trilateral meeting, including venue and timing details from Chinese state channels. It gives the clearest read on how Beijing itself is framing the historic gathering."
+          },
+          "publisher": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/16/asia-pacific/politics/china-confirms-xi-trump-putin-summit/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump-Xi-Putin trilateral meeting at APEC: What to expect"
+          },
+          "summary": {
+            "en": "Al Jazeera previews the diplomatic stakes and possible outcomes of the three-way meeting, including skepticism about how much will actually be resolved. Worth reading for a non-US, non-Chinese framing of what each leader wants out of it."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Three Powerful Leaders Will Sit at One Table for the First Time Ever"
+          },
+          "hook": {
+            "en": "On Monday, China announced something that has never happened before. This Thursday, the leaders of China, Russia, and the United States will meet together in the Chinese city of Shenzhen. No one knows exactly what they will agree on, but just sitting down together is historic."
+          },
+          "story": {
+            "en": [
+              "Imagine the three biggest kids in your whole school, the ones everyone looks up to, finally sitting at the same lunch table. That is basically what is happening this week. China's leader, Xi Jinping, is hosting Russia's leader, Vladimir Putin, and America's leader, Donald Trump, together in a city called Shenzhen.",
+              "This has never happened before. These three countries are some of the most powerful in the world, and they often disagree loudly with each other. But a sitting leader from all three has never appeared at the same table at the same time, until now.",
+              "Officials say they might talk about nuclear weapons, the war in Ukraine, trade between countries, and tensions in the Middle East. But nobody has published an actual plan for the meeting, so what really gets discussed is still a mystery. Some people who study world politics think the three leaders will mostly make polite statements for cameras rather than solve any real problems.",
+              "Trump flew to Asia for this trip right after his political party lost several elections at home, so some reporters are watching to see how that affects his mood and plans at the meeting."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When the leaders of the three most powerful countries sit together, decisions they make, or don't make, can affect wars, prices in stores, and even how safe the world feels from dangerous weapons. You probably won't notice anything different at your dinner table this week, but choices made at that table in Shenzhen could shape news for months."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "summit"
+              },
+              "def": {
+                "en": "A summit is a meeting between the top leaders of different countries, usually to talk about big, important problems."
+              }
+            },
+            {
+              "term": {
+                "en": "nuclear non-proliferation"
+              },
+              "def": {
+                "en": "This is a fancy way of saying 'stopping more countries from getting nuclear weapons,' which are extremely powerful and dangerous bombs."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it a good thing for leaders who disagree a lot to meet anyway, even if they might not solve anything?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, meeting helps"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking face to face can help people understand each other better than shouting from far away.",
+                      "Even if they don't solve everything, meeting might stop small disagreements from turning into bigger ones.",
+                      "Just showing they are willing to sit together can make the world feel a little calmer."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it might not help"
+                  },
+                  "points": {
+                    "en": [
+                      "If nothing real gets decided, the meeting could just be for show, like posing for a photo.",
+                      "Spending time and attention on a meeting that leads nowhere could waste a chance to actually fix problems.",
+                      "Sometimes meetings between rivals make headlines without changing anything that affects regular people's lives."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the public be told exactly what leaders plan to discuss before a big meeting like this happens?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, tell people first"
+                  },
+                  "points": {
+                    "en": [
+                      "People affected by big decisions deserve to know what's being talked about on their behalf.",
+                      "Knowing the plan ahead of time lets experts and citizens prepare questions or concerns.",
+                      "Secret plans can make people trust their leaders less."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, some things need privacy first"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders might speak more honestly and flexibly if they aren't worried about every word becoming public first.",
+                      "Announcing plans too early could box leaders into positions before they've even talked.",
+                      "Some topics, like security or ongoing conflicts, might need quiet discussion before any public statement."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "For the First Time Ever, the Leaders of the US, Russia and China Will Sit at One Table"
+          },
+          "hook": {
+            "en": "China's government confirmed this week that President Xi Jinping will host both Russian President Vladimir Putin and US President Donald Trump in the city of Shenzhen on Thursday. No sitting leader of all three countries has ever appeared together at the same meeting before. Officials say topics may include nuclear weapons, the Middle East, trade, and possibly the war in Ukraine — but no agenda has actually been agreed or published yet."
+          },
+          "story": {
+            "en": [
+              "Three of the most powerful people on Earth are about to sit down together for the first time in history. China has confirmed that President Xi Jinping will host US President Donald Trump and Russian President Vladimir Putin in Shenzhen, a major Chinese tech city near Hong Kong, this Thursday. It sounds like the kind of meeting that should have happened many times before — but it hasn't. The US and Russia have had plenty of one-on-one summits, and the US and China have too, but never all three leaders at once, at the same table.",
+              "That matters because these three countries control the largest nuclear arsenals and the largest economies on the planet, and they are also, in different ways, rivals. The US and China are locked in a trade and technology rivalry. The US and its allies have armed Ukraine against Russia's invasion. China has become Russia's most important economic partner since Western sanctions hit Moscow. Getting the three men in one room, rather than talking past each other through statements and phone calls, is being treated as significant for that reason alone — regardless of what, if anything, gets decided.",
+              "What exactly will be discussed is genuinely unclear, and that's not just journalists being vague — officials on all sides have declined to confirm a fixed agenda. The likely topics being floated include nuclear non-proliferation (efforts to stop more countries building nuclear weapons, and to manage the ones that already exist), tensions in the Middle East, trade disputes, and the ongoing war in Ukraine. But floated is the key word. Some analysts who study these summits expect the meeting to produce broad, symbolic statements — leaders standing together, agreeing in general terms that dialogue is good — rather than any specific deal or treaty.",
+              "There's a political backdrop to Trump's trip worth knowing. He left for Asia the same day this news broke, and American coverage has noted that he and his party are still dealing with the fallout from recent losses in the US midterm elections — the elections held partway through a president's term that typically decide control of Congress. A high-profile overseas summit, especially one this historically unusual, gives a leader a chance to dominate headlines with something other than domestic political trouble, and some commentators have pointed that out as a possible motive, alongside the genuine diplomatic stakes.",
+              "It's also worth sitting with how strange this pairing is on paper. Putin is wanted by the International Criminal Court over the war in Ukraine, a body neither the US nor China fully recognises in this context. Xi leads a one-party state that the US regularly criticises over human rights and Taiwan. Trump has spent years threatening both countries with tariffs and sanctions. None of that history disappears because three men share a table — but the fact that they're doing it anyway, in public, is itself the story."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions made by these three governments shape prices, wars, and the risk of nuclear conflict far beyond their own borders — including things like the cost of goods you buy or whether a war elsewhere spreads. A single meeting rarely fixes any of that, but how leaders who distrust each other choose to talk, or not talk, affects how safe and stable the next few years feel for everyone."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Nuclear non-proliferation"
+              },
+              "def": {
+                "en": "Efforts and agreements aimed at stopping more countries from acquiring nuclear weapons and limiting the ones that already exist."
+              }
+            },
+            {
+              "term": {
+                "en": "Summit"
+              },
+              "def": {
+                "en": "A meeting between top leaders of different countries, usually to discuss major issues between their governments."
+              }
+            },
+            {
+              "term": {
+                "en": "Midterm elections"
+              },
+              "def": {
+                "en": "US elections held halfway through a president's four-year term, which can shift control of Congress without changing the presidency itself."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it good for the leaders of rival, mistrustful powers to meet face-to-face like this, even without a clear agenda?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, direct talks reduce risk"
+                  },
+                  "points": {
+                    "en": [
+                      "Misunderstandings between powerful rivals are more dangerous than disagreements voiced openly in person.",
+                      "Even symbolic meetings build personal familiarity that can help during a real crisis later.",
+                      "History shows that total silence between rival powers tends to make conflict more likely, not less."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it legitimises leaders who shouldn't be rewarded with this stage"
+                  },
+                  "points": {
+                    "en": [
+                      "Putin faces an international arrest warrant, and treating him as an equal partner at the table undercuts that process.",
+                      "A summit without real demands or conditions attached can hand a propaganda win to governments accused of serious abuses.",
+                      "Photographs of leaders smiling together can be used domestically to paper over ongoing wars or repression."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a summit produces no concrete agreement, is it still worth taking seriously, or is it just theatre?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's meaningful even without a deal"
+                  },
+                  "points": {
+                    "en": [
+                      "Diplomacy often works slowly, through repeated contact, long before any paper agreement is signed.",
+                      "Public symbolism can shift public opinion and expectations, which affects what leaders can later get away with.",
+                      "Just confirming the meeting happened changes how other countries plan their own foreign policy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Without results, it's mostly for show"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders can use a dramatic photo opportunity to distract from problems at home, like political setbacks.",
+                      "Vague statements about 'dialogue' cost nothing and can be forgotten the next day.",
+                      "Real disputes — wars, tariffs, weapons — need enforceable agreements, not handshakes, to actually change anything."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Nvidia, Jensen Huang and the Commerce Department",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US moves to limit remote access to advanced AI chips"
+          },
+          "summary": {
+            "en": "Bloomberg details the mechanics of the new interim rule and which countries' data centers are affected, explaining how the loophole worked before this action. It adds the regulatory specifics behind the headline decision."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/us-moves-to-limit-remote-access-to-advanced-ai-chips"
+        },
+        {
+          "title": {
+            "en": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely"
+          },
+          "summary": {
+            "en": "TechCrunch explains the national-security logic behind the rule and industry reaction from data center operators in the named countries. Useful for understanding the business side of compliance ahead."
+          },
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Nvidia CEO Jensen Huang"
+          },
+          "summary": {
+            "en": "CNBC's latest update on where the Huang situation stands, including the board's position on a possible return and Trump's public comments. It adds the clearest timeline of claims and counter-claims around the affair and any security risk."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "America Tightens the Rules on Its Super-Smart Computer Chips"
+          },
+          "hook": {
+            "en": "On Monday, the US government said that giant computer warehouses in five countries now need special permission before they can send out powerful AI chips. The rule is meant to stop Chinese companies from sneaking access to these chips through a side door. It comes right after the boss of Nvidia, the company that makes many of these chips, quit his job over a personal scandal involving a suspected spy."
+          },
+          "story": {
+            "en": [
+              "Some computer chips are much smarter and faster than others. The best ones can run AI, the kind of computer program that can chat, recognize pictures, or help drive a car. Nvidia, an American company, makes many of the best AI chips in the world.",
+              "The US government does not want these super chips ending up in China, because it worries China could use them for things that threaten American safety. But there is a trick. Huge buildings full of powerful computers, called data centers, sit in countries like Singapore, Malaysia, Thailand, Indonesia, and Brazil. The US thinks Chinese companies have been renting computer time in those buildings over the internet, almost like borrowing a neighbor's tool through a window instead of buying your own.",
+              "So this week, the US made a new rule. Anyone running a data center in those five countries now needs a license, which is like a permission slip from the US government, before they can let those chips be used this way. The goal is to close that side door for good.",
+              "This happened right after Nvidia's boss, Jensen Huang, resigned because of claims he had a relationship with someone suspected of spying for China. President Trump said he would welcome Huang back and claimed the relationship caused no safety problems. But Nvidia's board says it has not found proof that secrets were leaked, and Congress is still investigating, so nobody knows for sure yet."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Chips like these power things you might already use without knowing it, like game consoles, translation apps, and smart speakers. When countries fight over who gets the best chips, it changes which gadgets get built, how fast they improve, and who gets to use them first."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "data center"
+              },
+              "def": {
+                "en": "A huge building packed with powerful computers that other people can use over the internet, even from far away."
+              }
+            },
+            {
+              "term": {
+                "en": "loophole"
+              },
+              "def": {
+                "en": "A gap or trick in a rule that lets someone do something the rule was supposed to stop."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US be allowed to tell computer centers in other countries that they need permission before sending out American-made chips?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's their invention"
+                  },
+                  "points": {
+                    "en": [
+                      "If a country invents something powerful, it should get to decide how it spreads around the world.",
+                      "Letting the inventor set rules can stop the technology from being used to hurt people.",
+                      "Companies still get to keep selling and using the chips, just with some extra checking first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair to control other countries"
+                  },
+                  "points": {
+                    "en": [
+                      "Telling another country how to run its own buildings feels like one country bossing around others.",
+                      "It can slow down useful work and hurt businesses and workers in those countries who did nothing wrong.",
+                      "If every powerful country made rules like this, trading anything between nations would get much harder."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a company's own leaders are worried about someone, should the company get to decide alone whether to bring that person back, even if a powerful person like a president says it's fine?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The company should decide"
+                  },
+                  "points": {
+                    "en": [
+                      "The people who work there every day know best whether they can trust that person again.",
+                      "If the company is forced to take someone back, workers might lose faith in who is in charge.",
+                      "It is the company's name and reputation on the line, not the president's."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Listen to outside opinions too"
+                  },
+                  "points": {
+                    "en": [
+                      "A president or official might know things about the investigation that the company does not.",
+                      "Big disagreements like this can cause confusion if everyone involved doesn't talk to each other.",
+                      "Businesses often need to get along with governments, so ignoring their view completely isn't realistic."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The US Just Closed a Chip Loophole — Days After Nvidia's CEO Quit Over a Spy Scandal"
+          },
+          "hook": {
+            "en": "On Monday, the US Commerce Department ordered data centers in five countries to get a government license before sending on advanced American AI chips. The rule is meant to stop Chinese companies from reaching restricted Nvidia chips through a back door. It lands just days after Nvidia's CEO resigned over an alleged affair with a suspected Chinese spy, and the two stories are now tangled together in an argument about what actually counts as a national security risk."
+          },
+          "story": {
+            "en": [
+              "The United States has spent years trying to stop its most advanced AI chips — the kind that power things like ChatGPT and self-driving car systems — from reaching China, which it sees as a rival in the race to build powerful AI. The main tool is export controls: rules that ban American chipmakers like Nvidia from selling their best products directly to Chinese buyers. But rules written for direct sales left a gap. Instead of buying restricted chips outright, companies could reportedly rent computing time on servers sitting in a data center in a third country — Singapore, say, or Indonesia — and run their AI work on American chips without ever owning one or crossing a border with it. Monday's interim rule, which takes effect immediately rather than waiting through the usual months of public comment, orders operators of data centers in Singapore, Malaysia, Thailand, Indonesia and Brazil to get a US government license before exporting those chips onward, closing off that remote-access route.",
+              "The timing is awkward for Nvidia, the company that makes most of the chips in question and whose business depends on both selling as many of them as legally possible and staying on the right side of Washington's rules. Last week, Nvidia's chief executive, Jensen Huang, resigned after it emerged he had allegedly had an affair with a woman suspected of being a Chinese intelligence operative. Huang had been one of the most recognisable figures in tech, the public face of the AI boom, and his sudden exit immediately raised a harder question than the affair itself: did any sensitive information about Nvidia's chips or its dealings with the US government pass through that relationship?",
+              "Nvidia's board says no — it has stated it has found no evidence that any secrets were compromised. President Trump has gone further, saying publicly that he is open to Huang returning to the company and that the affair posed no national security risk at all. But that is Trump's own assessment, not a verified conclusion, and it is being made by the same administration that just tightened export rules because of exactly this kind of worry — chips and sensitive tech reaching Chinese hands through indirect routes. Congress is now running its own inquiry into the matter, which means the question of what, if anything, Huang's relationship exposed is still open. A person familiar with Nvidia's board told the business news channel CNBC that directors are not currently considering bringing him back, regardless of what the president has said.",
+              "So there are two separate decisions happening at once, made by different people for different reasons, that nonetheless point at the same underlying worry: can the US actually control who gets access to its most powerful AI chips once they leave American soil, whether through a server in Jakarta or a relationship inside Nvidia's own leadership? The chip rule treats the risk as structural — a gap in the system that needs fixing regardless of who is involved. The Huang situation treats it as personal — one executive's judgment and loyalty under question. Trump's comments blur the two by waving away the personal risk just as the government is spending real effort closing the structural one.",
+              "None of this changes the basic fact that Nvidia's chips remain the ones everyone wants. Governments, universities and companies around the world depend on them to build AI systems, and that dependence is precisely why both the export rule and the Huang scandal matter beyond one company's boardroom — they are both about who gets to decide where the most valuable technology in the world is allowed to go."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips at the centre of this story already shape things you use every day, from the AI behind search engines and phone assistants to the systems that recommend videos — and who controls access to them is becoming a serious point of tension between the US and China. The Huang story is a reminder that huge technology companies are run by individual people whose private lives can suddenly become matters of government concern, not just gossip."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "interim rule"
+              },
+              "def": {
+                "en": "A government regulation that takes effect right away, skipping the usual months-long process of collecting public feedback first, because the issue is treated as urgent."
+              }
+            },
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Laws that restrict which products — in this case, advanced computer chips — a country's companies are allowed to sell to certain foreign buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "remote access"
+              },
+              "def": {
+                "en": "Using powerful computer hardware over the internet from far away, without ever physically owning or transporting the hardware yourself."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US be allowed to require government permission before chips can be sold on from data centers in friendly countries, just because the technology might eventually reach China?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, close every gap"
+                  },
+                  "points": {
+                    "en": [
+                      "Once a loophole exists, it will be used, and catching violations after the chips are already in use is nearly impossible.",
+                      "Allowing indirect access defeats the entire point of restricting direct sales in the first place.",
+                      "Allied countries can accept extra paperwork as a reasonable price for staying close economic and security partners with the US."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this strains trust"
+                  },
+                  "points": {
+                    "en": [
+                      "Treating partner countries' data centers as suspects damages relationships built over decades for the sake of stopping a minority of bad actors.",
+                      "Broad licensing rules slow down legitimate business for everyone, including companies with no connection to China at all.",
+                      "Technology restrictions this wide push other countries to build their own chip industries faster, undermining the US's long-term advantage anyway."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a company be justified in forcing out a CEO over an alleged affair with a suspected spy, even when there is no proof any information was actually compromised?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the risk itself is enough"
+                  },
+                  "points": {
+                    "en": [
+                      "In a role with access to sensitive technology, even the possibility of compromise can be damaging, regardless of what is eventually proven.",
+                      "Waiting for definitive proof could mean waiting until real harm has already been done.",
+                      "Public and government trust in the company depends on it acting decisively, not on the outcome of a slow investigation."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's punishment without evidence"
+                  },
+                  "points": {
+                    "en": [
+                      "Removing someone from their job over unproven suspicion sets a precedent where accusation alone can end a career.",
+                      "Leadership decisions should rest on demonstrated harm and performance, not on rumour or association.",
+                      "Acting before the facts are established risks being used as a political or competitive weapon against individuals who may be entirely innocent."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "business",
+      "region": "CN",
+      "source": {
+        "title": "China retail sales, industrial output miss forecasts in October",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+      },
+      "background": [],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "China's Shops and Factories Grew Slower Than Expected in October"
+          },
+          "hook": {
+            "en": "New numbers from China show people bought less in stores last month than experts guessed they would. Factories also made things at a slower pace than the month before. Together, these numbers hint that China's giant economy might be cooling down."
+          },
+          "story": {
+            "en": [
+              "China is a country of about 1.4 billion people — that's more than four times the number of people in the United States. Every month, the government counts how much stuff people buy in shops, and how much stuff factories make, called retail sales and industrial output.",
+              "In October, shopping only grew by 0.4% compared to last year. Experts had guessed it would grow twice as much, by 0.8%. Imagine saving up and expecting your allowance to double, but it only grows a tiny bit — that's the kind of gap we're talking about.",
+              "Factories slowed down too. The month before, factory output had grown by 5.5%, the fastest in five months. In October, that growth dropped to 4.8%. It's like a runner who was speeding up each week suddenly running a little slower than before.",
+              "People who study money and economies say this slowdown matters because China sells huge amounts of goods to other countries, including the United States. If people inside China are buying less, China may lean even more on selling things abroad — which makes it more exposed if trade arguments with the US get worse."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China makes an enormous share of the toys, phones, clothes, and gadgets used around the world — including things you might own. When its factories and shops slow down, it can eventually affect prices and jobs far beyond China, including places connected to trade with the US."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "retail sales"
+              },
+              "def": {
+                "en": "The total amount of money people spend buying things in stores, like food, clothes, or toys."
+              }
+            },
+            {
+              "term": {
+                "en": "industrial output"
+              },
+              "def": {
+                "en": "How much stuff factories make, such as cars, phones, or furniture."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If your class's test scores came in a little lower than everyone expected, should that worry people, or is it just an ordinary wobble?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Worth watching closely"
+                  },
+                  "points": {
+                    "en": [
+                      "A small miss can be an early warning sign of a bigger problem forming.",
+                      "If the pattern keeps repeating month after month, ignoring it could mean missing something important.",
+                      "Paying attention early can help people fix small problems before they grow."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not a big deal"
+                  },
+                  "points": {
+                    "en": [
+                      "Numbers go up and down naturally all the time, and one month rarely tells the whole story.",
+                      "Treating every small dip as a crisis can cause people to panic over nothing.",
+                      "It often takes several months of data to see if something is a real trend or just noise."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it better for a country to depend on selling things to other countries, or to try to make and use mostly what it needs itself?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Depending on others is fine"
+                  },
+                  "points": {
+                    "en": [
+                      "Selling to many countries means more customers and more chances to grow.",
+                      "Countries are often better at making different things, so trading lets everyone get better products.",
+                      "Just like friends who share and trade things, depending on others can make everyone stronger together."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Safer to rely on yourself"
+                  },
+                  "points": {
+                    "en": [
+                      "If you depend too much on others buying from you, their problems become your problems too.",
+                      "Arguments or disagreements between countries can suddenly cut off trade you were counting on.",
+                      "Being able to make what you need yourself means fewer surprises when things outside your control change."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "China's Shoppers Have Stopped Spending Like They Used To"
+          },
+          "hook": {
+            "en": "New government figures show Chinese shoppers barely increased their spending in October, growing just 0.4% compared to the same month last year, far below the 0.8% that analysts had predicted. At the same time, factory and mining output grew only 4.8%, a notable drop from September's pace. Economists say the numbers suggest China's economy is slowing in a way that could leave it more vulnerable if trade tensions with the United States worsen."
+          },
+          "story": {
+            "en": [
+              "Imagine a country where, for years, people kept buying more stuff every year almost automatically — more phones, more clothes, more furniture — because incomes were rising and people felt confident about the future. That's roughly how China's economy has worked for the past two decades. The new data suggests that pattern is breaking down. Retail sales, which track how much people spend in stores and online, grew only 0.4% in October compared to a year earlier. Economists who study China had expected double that.",
+              "Factories told a similar story. Industrial output — a measure of how much China's mines, mills, and factories actually produced — grew 4.8% year-over-year in October. That sounds like solid growth until you compare it to September, when the same measure grew 5.5%, itself described as a five-month high. A slowdown from a recent peak doesn't necessarily mean collapse, but it does mean the engine is losing some of its horsepower just as it had seemed to be picking up.",
+              "Why does this matter beyond China's borders? For years, Chinese consumers and factories have been one of the major forces driving global economic growth — buying raw materials from other countries, manufacturing goods the whole world uses, and generally acting as a second major engine for the world economy alongside the United States. If Chinese households pull back on spending, and Chinese factories produce less, that ripples outward: to companies that sell into the Chinese market, to countries that export raw materials to China, and to the global supply chains that run through Chinese ports and factories.",
+              "There's a specific worry analysts raised in connection with these numbers: a weaker domestic economy leaves China more exposed if trade tensions with the US flare up again. The logic is straightforward. If Chinese consumers were spending heavily and the domestic economy were roaring, China could absorb some pain from tariffs or trade restrictions by leaning on internal demand. With domestic demand already fading, there's less of a cushion — making the economy more sensitive to external shocks it doesn't control.",
+              "It's worth being honest about how solid this account is. The interpretation here — that this points to a 'deepening slowdown' and greater vulnerability — comes from one news organization's reporting on the government's official data. A second, independently owned outlet to confirm or challenge that framing wasn't available before this was written, so readers should treat the analysis, though not the raw numbers themselves, as resting on a single source for now. The numbers are undisputed; what they mean is where the real argument begins.",
+              "That argument splits economists into two camps. Some think this is a temporary dip — perhaps tied to a shaky housing market, cautious consumers after years of pandemic disruption, or a seasonal lull — that will correct itself as confidence returns. Others think it reflects something more structural: a fundamental shift in how Chinese households save and spend, tied to deeper issues like property market troubles, an aging population, and years of households saving more out of uncertainty rather than spending freely. Which camp is right will shape how worried the rest of the world should be."
+            ]
+          },
+          "why_it_matters": {
+            "en": "China is the world's second-largest economy and a major trading partner for the US and countless other countries, so a real slowdown there can mean cheaper goods sitting unsold in factories, less demand for raw materials your country might export, and knock-on effects for companies and jobs tied to global supply chains. It's also a reminder that economic numbers aren't just abstract statistics — they reflect millions of individual decisions by shoppers about whether to feel confident enough to spend."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Year-over-year"
+              },
+              "def": {
+                "en": "A way of comparing a number, like sales or output, to the same month or period exactly one year earlier, to see real growth rather than normal seasonal ups and downs."
+              }
+            },
+            {
+              "term": {
+                "en": "Industrial output"
+              },
+              "def": {
+                "en": "The total amount produced by a country's factories, mines, and utilities, used as a key signal of how strong the broader economy is."
+              }
+            },
+            {
+              "term": {
+                "en": "Structural slowdown"
+              },
+              "def": {
+                "en": "A decline in economic activity caused by deep, long-lasting changes — like shifting demographics or habits — rather than a temporary dip that naturally bounces back."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a country's consumers stop spending as much, should its government step in with big spending programs to boost demand, or let the economy adjust on its own?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Step in and stimulate"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting too long risks a self-reinforcing spiral where weak spending causes layoffs, which causes even weaker spending.",
+                      "Governments can target support toward households and small businesses that are struggling, easing the sharpest pain quickly.",
+                      "Other major economies have used stimulus successfully before to prevent slowdowns from becoming prolonged recessions."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Let the market correct itself"
+                  },
+                  "points": {
+                    "en": [
+                      "Government spending sprees often pile up debt that has to be repaid later, sometimes through higher taxes or inflation.",
+                      "Artificially propping up spending can mask real problems, like an overbuilt housing sector, instead of letting them resolve.",
+                      "Markets historically adjust toward balance on their own, and heavy intervention can distort incentives for years afterward."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to say a country's economic health should be judged partly by how exposed it leaves itself to shocks from other countries' trade decisions?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, exposure matters"
+                  },
+                  "points": {
+                    "en": [
+                      "An economy that depends heavily on exports or external demand is genuinely more fragile when political relationships sour.",
+                      "Trade tensions are a real and recurring feature of global politics, so planning around them is just realistic risk management.",
+                      "Countries that diversify their economic strength internally tend to weather international disputes with less domestic pain."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's an unfair standard"
+                  },
+                  "points": {
+                    "en": [
+                      "Nearly every major economy is interconnected with others now, so judging one country's 'exposure' singles it out unfairly.",
+                      "Trade tensions are often created unilaterally by one country's policy choices, not a flaw in the economy being judged.",
+                      "Focusing on vulnerability to shocks can obscure genuine, independent strengths an economy has in other areas."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
