@@ -1,0 +1,801 @@
+{
+  "date": "2026-11-15",
+  "window": {
+    "start": "2026-11-14T12:00:00-07:00",
+    "end": "2026-11-15T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-15T20:04:23-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump administration ground stop live updates",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/15/politics/live-news/trump-administration-ground-stop"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "FAA Orders Nationwide Ground Stop for Departing Flights: Here's Why"
+          },
+          "summary": {
+            "en": "NBC News lays out the original safety rationale the FAA gave for the ground stop, useful context for how the order was first justified before the funding fight took over the story."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
+        },
+        {
+          "title": {
+            "en": "FAA Ground Stop: Canceled Flights, Travelers, What We Know"
+          },
+          "summary": {
+            "en": "CBS News tracks the scale of traveler disruption and cancellations as the stop dragged into the weekend, filling in the human impact behind the numbers."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-ground-stop-canceled-flights-travelers-what-we-know/"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Broken Wire Grounded Thousands of US Flights"
+          },
+          "hook": {
+            "en": "On Friday, something unusual happened at airports across the United States: planes were told to stay on the ground. Not because of a storm, but because of a wire that failed during a repair job. By Sunday, more than 1,500 flights had been cancelled."
+          },
+          "story": {
+            "en": [
+              "It started in one small building in El Dorado, Arkansas. Workers there were upgrading the equipment that air-traffic controllers use to guide planes safely. They were swapping an old copper wire for a newer, faster kind called fiber-optic cable.",
+              "Something went wrong during the swap. The problem spread through the computer systems that help control flights all over the country, like one wobbly domino knocking over a whole line of others.",
+              "To keep everyone safe, officials ordered a 'ground stop,' which means planes everywhere had to wait instead of taking off. Over the weekend, FlightAware, a website that tracks planes, counted at least 1,572 cancelled flights. That's roughly enough empty seats to fill fifteen full jumbo jets.",
+              "The government official in charge of transportation, Sean Duffy, was asked if this was his fault. He said he takes responsibility for the old equipment he inherited, but argued the real problem is years of not enough money being spent to fix aging airport systems. Politicians in Congress who disagree with him want to hear more details this week."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've ever waited at an airport for a delayed flight, you know how frustrating it feels when plans fall apart. This shows that the machines and wires behind the scenes, the ones nobody usually thinks about, can affect thousands of families at once when they break."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "ground stop"
+              },
+              "def": {
+                "en": "An order telling all planes in an area to stay on the ground instead of taking off, usually to keep everyone safe."
+              }
+            },
+            {
+              "term": {
+                "en": "infrastructure"
+              },
+              "def": {
+                "en": "The basic equipment and systems, like wires, roads, or pipes, that everything else depends on to work."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When something old breaks, is it fair to blame the people in charge right now, even if they didn't build it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, blame them now"
+                  },
+                  "points": {
+                    "en": [
+                      "Whoever is in charge today is responsible for fixing problems, no matter who caused them originally.",
+                      "If leaders know something is old and risky, it's their job to act quickly instead of waiting.",
+                      "People affected by the broken system don't care who built it, they just want it fixed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "You can't fix everything broken by past decisions the moment you take a job.",
+                      "Big repairs take time and money that isn't always available right away.",
+                      "It takes away the responsibility from whoever let the problem build up for years before."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country spend a lot of money fixing old equipment before it breaks, even if nothing bad has happened yet?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, fix it early"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting until something breaks can affect thousands of people at once, like this weekend.",
+                      "Fixing things early is often cheaper than dealing with an emergency later.",
+                      "Important systems like air travel should be as safe and reliable as possible."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, wait and see"
+                  },
+                  "points": {
+                    "en": [
+                      "Money spent on things that aren't broken yet could be used for more urgent problems today.",
+                      "Not every old machine fails, so fixing everything in advance might waste resources.",
+                      "It's hard to know exactly which equipment needs fixing most until something actually goes wrong."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "One Broken Wire in Arkansas Grounded Flights Across the Whole Country"
+          },
+          "hook": {
+            "en": "A technical glitch during a routine cable upgrade at a small air-traffic facility in Arkansas set off a chain reaction that forced the Federal Aviation Administration to order a nationwide ground stop on Friday. By Sunday, at least 1,572 flights had been cancelled, and the backlog was still rippling through airports days later. The Transportation Secretary says the real problem is decades of underfunded infrastructure; critics want to know why it hasn't been fixed yet."
+          },
+          "story": {
+            "en": [
+              "It started with something almost mundane: engineers at an air-traffic control facility in El Dorado, Arkansas, were replacing an old copper wire with fiber-optic cable, the glass-thread technology that carries data as pulses of light and is generally faster and more reliable than copper. This kind of upgrade happens constantly across America's aviation system, most of it unnoticed by the public. This time, something went wrong during the switch, and the failure didn't stay contained to Arkansas. It cascaded, meaning the problem at one facility triggered breakdowns elsewhere in the network, the way one fallen domino can topple a whole row.",
+              "The Federal Aviation Administration (FAA), the government agency that manages U.S. airspace and sets safety rules for flying, responded by ordering a 'ground stop' — a blunt tool that tells planes nationwide to stay on the ground rather than risk flying through a system that isn't working properly. It's a safety-first measure, not a punishment, but it has the same effect either way: thousands of people stuck, flights cancelled, connections missed. FlightAware, a flight-tracking service, counted over 1,500 cancellations by Sunday, and the disruption kept bleeding into the following days as airlines worked through the backlog of displaced passengers and rescheduled crews.",
+              "Transportation Secretary Sean Duffy, the Cabinet official who oversees the FAA and the rest of the country's transportation systems, was asked directly by CNN whether he personally bore responsibility for the failure. His answer was carefully worded: 'I take responsibility for what was given to me by prior administrations.' In plainer terms, he's saying he inherited an aging, patched-together air-traffic system, and that the Trump administration has been pushing to fix it but hasn't yet gotten the money from Congress to do so at the scale needed. He renewed his request for tens of billions of dollars to modernize the system's infrastructure, arguing that current funding has only paid for scattered improvements, not the comprehensive overhaul he says is necessary.",
+              "That answer satisfies some people and infuriates others, which is exactly the shape of the dispute now playing out in Washington. Top Democrats on two House committees that oversee aviation have called for federal officials to brief them this week on Duffy's funding request. Their underlying question isn't really about the Arkansas cable at all — it's about accountability. Did this failure happen because of decisions made years or even decades ago, long before the current administration took office? Or has the current administration had enough time and enough warning to have prioritized fixing it, and simply hasn't?",
+              "Neither side disputes that America's air-traffic control equipment is old. Much of it relies on technology installed in the 1980s and 1990s, and modernization has been a stated goal of multiple administrations without ever being fully funded or finished. What's contested is the politics of blame: whether this is a story about chronic, bipartisan underinvestment finally catching up with the system, or a story about a government in office right now failing to treat a known risk with urgency. Both readings can be true at once, which is part of why the argument isn't going away soon."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you've ever been stuck at an airport for hours, you know how one small technical failure can upend thousands of people's plans in a single weekend. This story is also about something bigger than flight delays: the invisible, aging infrastructure that keeps complex systems running, and what happens — and who gets blamed — when it finally breaks."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Ground stop"
+              },
+              "def": {
+                "en": "An FAA order that keeps aircraft on the ground, used when conditions or systems make flying unsafe to manage properly."
+              }
+            },
+            {
+              "term": {
+                "en": "Air-traffic control facility"
+              },
+              "def": {
+                "en": "A site where controllers and equipment track and direct aircraft to keep them safely separated in the sky."
+              }
+            },
+            {
+              "term": {
+                "en": "Fiber-optic cable"
+              },
+              "def": {
+                "en": "A cable that sends data as pulses of light through thin glass threads, generally faster and more reliable than older copper wiring."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair for Secretary Duffy to say he's responsible only for what he 'was given' by prior administrations?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, context matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Air-traffic infrastructure takes years or decades to build and fund, so blaming the people currently in charge for decades-old equipment is unrealistic.",
+                      "Every administration inherits infrastructure choices made long before it took office, and demanding instant fixes ignores how government budgeting actually works.",
+                      "Duffy has publicly asked for large-scale funding, showing he recognizes the problem rather than ignoring it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the buck stops with whoever is in charge now"
+                  },
+                  "points": {
+                    "en": [
+                      "Being in office means owning the system as it currently exists, not just the parts you personally built.",
+                      "If the risk was well known, choosing not to make it an urgent priority is itself a decision this administration made.",
+                      "Pointing at 'prior administrations' can become a permanent excuse that no one in power ever has to answer for."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Congress fast-track the tens of billions of dollars Duffy is requesting, right after this disruption?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act now"
+                  },
+                  "points": {
+                    "en": [
+                      "This weekend showed concretely how fragile the system is, and waiting for another breakdown to approve funding seems reckless.",
+                      "Air travel affects millions of people and businesses, so even a short delay in fixing the infrastructure has large economic costs.",
+                      "Modernization projects take years to execute, so the sooner funding is approved, the sooner the risk actually goes down."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, slow down and scrutinize first"
+                  },
+                  "points": {
+                    "en": [
+                      "Rushing a huge spending request right after a crisis can lead to poor oversight of how the money is actually used.",
+                      "Lawmakers have a responsibility to understand exactly what caused this failure before approving the next large check.",
+                      "Big infrastructure funding requests deserve the same budget and policy debate as any other major government spending, not an emotional fast-track."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Nvidia Sought Taipei's Help Over Employee's Chip Smuggling Case",
+        "publisher": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-15/nvidia-sought-taipei-s-help-over-employee-s-chip-smuggling-case"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia CEO Jensen Huang Resigns"
+          },
+          "summary": {
+            "en": "CBS News covers the original resignation that set off this saga, giving readers the starting point for Sunday's new rift and smuggling revelations."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/"
+        },
+        {
+          "title": {
+            "en": "Nvidia CEO Jensen Huang's Affair With Alleged Chinese Spy: A Timeline"
+          },
+          "summary": {
+            "en": "TechCrunch's timeline traces how the controversy escalated from allegations about Huang's personal conduct into the export-control and smuggling scandal now dividing the administration."
+          },
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "This Week Transcript, 11-15-26: Transportation Secretary, Sean..."
+          },
+          "summary": {
+            "en": "The full ABC News Sunday show transcript contains the on-air exchange where the Bessent-Commerce export-blacklist rift was aired, useful for readers who want the administration officials' own words."
+          },
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Politics/week-transcript-11-15-26-transportation-secretary-sean/story?id=138148566"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Computer-Chip Company Has a Very Bad Week"
+          },
+          "hook": {
+            "en": "Nvidia makes powerful computer chips that help build smart machines like chatbots and robots. Last week, the company had three big problems at once. Its boss quit his job, someone working for the company was accused of secretly sending chips to another country, and two government leaders argued in public about who messed up. By the end of the week, the company's stock price had its worst drop in over a year."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes special computer chips called AI chips. These chips help machines learn and \"think\" fast, the same kind of technology behind talking robots and smart apps on a phone.",
+              "The United States has rules that say some of these chips cannot be sold to certain countries, including China, because they're so powerful. Police in Taiwan, an island near China, say a man named Chang helped sneak 74 server computers full of these chips into China anyway. That's like smuggling 74 suitcases full of valuable tools past a guard who was supposed to stop them. Officials had already caught 56 more servers trying to make the same trip back in May.",
+              "At the same time, two of the U.S. government's top money officials were arguing about who dropped the ball. One blamed the other's department for not adding a company called Megaspeed to America's \"do not sell to\" list, which might have stopped some of this from happening in the first place.",
+              "All of this came right after Nvidia's CEO, Jensen Huang, suddenly quit. Investors got nervous about so much trouble piling up, and Nvidia's stock price fell 13% in a single week, wiping out a huge chunk of the company's value."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips at the center of this story help power things you might already use, like video game graphics, voice assistants, and apps that write stories or draw pictures. When a company that makes these chips runs into trouble, it can slow down how fast new technology reaches your devices. It's also a reminder that powerful inventions sometimes get rules attached to them, because countries worry about who else might use them and for what."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "AI chip"
+              },
+              "def": {
+                "en": "A special computer part that helps machines process information and \"think\" very quickly, used in things like smart assistants and game graphics."
+              }
+            },
+            {
+              "term": {
+                "en": "export blacklist"
+              },
+              "def": {
+                "en": "A government's list of companies or countries that are not allowed to receive certain products, like powerful computer chips."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If one worker at a big company secretly breaks the rules, should the whole company get in trouble too?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the company should be held responsible"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies are supposed to carefully watch what their employees do with valuable products.",
+                      "If companies never face consequences, workers might keep breaking rules and blame it on \"just one bad employee.\"",
+                      "The company benefits financially either way, even if it claims it didn't know."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, only the individual should be blamed"
+                  },
+                  "points": {
+                    "en": [
+                      "A company with thousands of workers cannot watch every single person every minute.",
+                      "Punishing an entire company for one person's secret choices could be unfair to everyone else who did nothing wrong.",
+                      "If the company reported the problem and cooperated with investigators, that shows it wasn't trying to hide anything."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for powerful countries to control which countries are allowed to buy advanced technology like these chips?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to control it"
+                  },
+                  "points": {
+                    "en": [
+                      "Very powerful technology can be used for things that might harm people, so caution makes sense.",
+                      "Countries get to decide what happens with things invented inside their own borders.",
+                      "Rules like this can encourage fair competition instead of letting one country gain every advantage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair to control it"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking trade can hurt ordinary businesses and workers who had nothing to do with any wrongdoing.",
+                      "Technology often spreads anyway, so the rules mainly punish companies that follow them honestly.",
+                      "Every country might want access to helpful inventions, not just powerful ones."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's Brutal Week: Smuggling Accusations, a Washington Blame Game, and a 13% Stock Drop"
+          },
+          "hook": {
+            "en": "Taiwanese prosecutors say an employee helped smuggle dozens of servers packed with Nvidia's most advanced AI chips into China, a country the U.S. government has banned them from reaching. At the same time, two of President Trump's top officials publicly blamed each other for a gap in enforcement that may have let the smuggling happen. Nvidia's stock had its worst week in over a year, and CEO Jensen Huang had already stepped down days before any of this broke."
+          },
+          "story": {
+            "en": [
+              "On Sunday, Bloomberg reported that Nvidia had appealed to Taiwanese officials after island prosecutors accused an employee — identified only as Chang — of being the \"core figure\" in a smuggling network. The accusation: that the network moved 74 servers containing Nvidia's AI chips into China, with authorities separately seizing another 56 servers in May when the group tried to reroute them. These aren't ordinary computer parts. Nvidia makes the chips that train and run the most powerful artificial intelligence systems in the world, and the U.S. government has barred their sale to China on national security grounds, worried they could boost China's military and surveillance capabilities.",
+              "That ban is enforced through something called export controls — rules that make it illegal for American companies to sell certain advanced technology to certain countries or companies without special government permission. Enforcing this kind of rule is harder than it sounds. Chips get sold to one buyer, repackaged, routed through third countries, and relabeled before anyone traces where they actually end up. Taiwan, where many of Nvidia's chips are manufactured before being shipped worldwide, sits right in the middle of that routing problem, which is why Taiwanese prosecutors — not just American ones — are involved here.",
+              "The same weekend, a separate fight spilled into public view inside the Trump administration. Treasury Secretary Scott Bessent said on ABC's \"This Week\" that the Commerce Department had failed to add a company called Megaspeed to the U.S. entity list — commonly called a blacklist — that would have barred American firms from supplying it with restricted chips. Commerce controls that list; Bessent's comments amounted to accusing a fellow Cabinet department of leaving a door open. It's an unusually public airing of a disagreement that normally stays behind closed doors, and it raised an uncomfortable question: if the government's own departments can't agree on who should have been blocked, how is any company supposed to know who is safe to sell to?",
+              "All of this landed on top of an already bad week for Nvidia. Jensen Huang, the company's founder and CEO for more than three decades, had abruptly resigned just days earlier. Investors already uneasy about leadership instability now had to weigh an unresolved smuggling prosecution and a visible crack in the government's own enforcement system. Nvidia's share price fell 13% over the week — its steepest weekly drop since April 2025, erasing a large chunk of market value from one of the most valuable companies on Earth.",
+              "What remains genuinely disputed is where the blame actually sits. Bessent's version points at Commerce for a bureaucratic failure — a company that should have been listed wasn't. But Commerce officials could reasonably argue that identifying every shell company or front operation moving chips through Asia in real time is close to impossible, and that blaming one missed listing ignores how porous the whole system is. Separately, nobody has shown that Nvidia itself knew about or directed the alleged smuggling — the accusation centers on an employee acting within a criminal network, not corporate policy — but critics will ask how a company with Nvidia's resources and stakes in compliance let a scheme reach 130 servers before authorities caught it."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips at the center of this story already shape things you use every day, from the AI behind search engines and chatbots to the systems recommending videos — and whoever controls access to the most powerful versions of that technology has real leverage over how fast AI develops globally. When export rules fail or get fought over inside government, it isn't just a corporate headache; it's a preview of how hard it will be to control any powerful new technology once it becomes profitable enough for people to find ways around the rules."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "export controls"
+              },
+              "def": {
+                "en": "Government rules that make it illegal to sell certain advanced technology to specific countries or companies without special permission."
+              }
+            },
+            {
+              "term": {
+                "en": "entity list"
+              },
+              "def": {
+                "en": "A U.S. government blacklist of companies that American businesses are barred from supplying with restricted technology."
+              }
+            },
+            {
+              "term": {
+                "en": "AI chips"
+              },
+              "def": {
+                "en": "Specialized computer processors, like the ones Nvidia makes, built specifically to power artificial intelligence systems far faster than ordinary chips."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a company's product is smuggled or misused by others, how much responsibility does the company bear?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The company should bear real responsibility"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies profit enormously from these products and have the resources to invest in tracking where they end up.",
+                      "If a company's own employee was central to the smuggling network, that points to weak internal oversight, not just bad luck.",
+                      "Letting companies shrug off blame removes their incentive to actually tighten verification of buyers and resellers."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The company can't be blamed for others breaking the law"
+                  },
+                  "points": {
+                    "en": [
+                      "No company can monitor every reseller, shell company, and reshipment point across a global supply chain in real time.",
+                      "Criminal networks exist specifically to deceive both companies and governments, and succeeding at that deception isn't evidence of corporate wrongdoing.",
+                      "Shifting blame onto companies lets governments avoid admitting their own enforcement systems have gaps."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is banning advanced AI chip sales to China the right approach, or does it do more harm than good?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "The ban is necessary"
+                  },
+                  "points": {
+                    "en": [
+                      "The most powerful AI chips could meaningfully strengthen a rival country's military and surveillance capabilities.",
+                      "Once technology like this proliferates, it becomes far harder to reverse any resulting shift in global power.",
+                      "Allowing sales now in exchange for short-term business gains would be shortsighted given the stakes involved."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The ban backfires"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking sales pushes China to build its own chip industry faster, potentially creating a rival with no U.S. leverage at all.",
+                      "The policy mainly costs American companies revenue and market share while enforcement gaps mean determined buyers get the chips anyway.",
+                      "Money and talent that could go toward innovation instead goes toward smuggling workarounds and compliance bureaucracy that doesn't actually stop the flow."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "US",
+      "source": {
+        "title": "SpaceX Successfully Catches Starship and Makes History",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/14/g-s1-153786/spacex-successfully-catches-starship-and-makes-history"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "SpaceX Starship Flight 15: Ship Catch Live Updates"
+          },
+          "summary": {
+            "en": "CNN's lead-up coverage lays out what was riding on this specific flight and why a successful ship catch — not just a booster catch — mattered so much to engineers."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/13/science/live-news/spacex-starship-flight-15-ship-catch"
+        },
+        {
+          "title": {
+            "en": "SpaceX Launches 15th Starship Flight, Aborts Booster Recovery Maneuver"
+          },
+          "summary": {
+            "en": "NBC News details the mixed results of the test flight, including the aborted booster recovery, giving a fuller picture than the headline success alone."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/science/space/spacex-launches-15th-starship-flight-aborts-booster-recovery-maneuver-rcna609274"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "SpaceX's Starship Captured by Launchpad Arms in Dramatic First"
+          },
+          "summary": {
+            "en": "Al Jazeera's account of the catch itself offers vivid description of the moment for readers who want to picture the mechanical arms closing around the returning ship."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Giant Rocket Falls From the Sky — and Robot Arms Catch It"
+          },
+          "hook": {
+            "en": "On Saturday, a huge SpaceX rocket called Starship blasted into the sky from Texas, then came back down and was caught in mid-air by two giant metal arms. This was the first time the top part of the rocket — the part called the \"ship\" — had ever been caught this way. It is a big deal because NASA is paying SpaceX billions of dollars to use this rocket to carry astronauts to the Moon."
+          },
+          "story": {
+            "en": [
+              "Imagine throwing a pencil straight up into the sky, then catching it before it hits the ground — with two giant metal arms instead of your hands. That is basically what just happened, except the \"pencil\" was a rocket taller than a 20-story building.",
+              "Starship has two parts. The bottom part, called the booster, gives the rocket its first big push off the ground. The top part, called the ship, flies the highest and carries whatever cargo or astronauts are on board. SpaceX had already caught the booster successfully before. This was the first time the ship itself came home and got caught too.",
+              "A few days earlier, SpaceX tried this same trick and had to abort, meaning they called it off partway through because something wasn't right. Catching a giant falling rocket with robot arms is incredibly hard to get right, so Saturday's success was a real improvement.",
+              "NASA cares about all this because it has paid SpaceX a huge amount of money for a Starship that will land astronauts on the Moon, as part of a plan called Artemis. No human has stood on the Moon since 1972 — that's more than 50 years ago, before most kids' grandparents were even born."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When rocket parts can be caught and reused instead of thrown away or crashed into the ocean, trips to space can become cheaper and happen more often — a bit like how a reusable water bottle saves money compared to buying a new plastic one every day. If this keeps working, it brings NASA's plan to put astronauts back on the Moon — maybe even in your lifetime — one step closer."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "booster"
+              },
+              "def": {
+                "en": "The bottom part of the rocket that gives the first big push into the sky before falling away so it can be caught and used again."
+              }
+            },
+            {
+              "term": {
+                "en": "Artemis program"
+              },
+              "def": {
+                "en": "NASA's plan to send astronauts back to walk on the Moon for the first time since 1972."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should countries spend huge amounts of money on space trips like this, or should that money go to things here on Earth instead?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, space is worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Space missions teach us new science that can also help life on Earth, like better materials and medicine.",
+                      "Exploring space inspires people to study hard and invent new things.",
+                      "Learning to live beyond Earth could matter a lot if our planet ever faces big problems."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, Earth needs it more"
+                  },
+                  "points": {
+                    "en": [
+                      "That same money could build schools, hospitals, or homes for people who need them right now.",
+                      "Not everyone on Earth has clean water or enough food, and that feels more urgent than the Moon.",
+                      "Rockets can fail and waste huge sums of money that took a long time to earn."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it a good idea for a company to test risky new moves, like catching a falling rocket, even if it sometimes fails?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, taking risks helps progress"
+                  },
+                  "points": {
+                    "en": [
+                      "You often can't know if something will work until you actually try it.",
+                      "Each failed attempt teaches engineers something they can fix next time.",
+                      "Moving fast with bold tests can get amazing inventions built sooner."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's safer to go slowly"
+                  },
+                  "points": {
+                    "en": [
+                      "Failed tests can be dangerous for the people nearby and cost a lot of money.",
+                      "Rushing risky experiments might lead to bigger accidents later on.",
+                      "Careful, slower testing can still reach the same goal without as much danger."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Rocket the Size of a Skyscraper Just Flew Itself Home — and Got Caught"
+          },
+          "hook": {
+            "en": "On Saturday, SpaceX launched its massive Starship rocket from Texas, flew it to the edge of space, and then brought the top half of it — the part called the 'ship' — back down to the exact spot it launched from, where two giant metal arms on the launch tower caught it in mid-air. It's the first time that particular piece of hardware has ever been caught this way. NASA is watching closely, because a version of this same rocket is supposed to land astronauts on the Moon."
+          },
+          "story": {
+            "en": [
+              "Starship is actually two rockets stacked together. The bottom part, called the booster, does the heavy lifting to get off the ground and then separates and falls back to Earth. The top part, called the ship, keeps flying higher and faster, eventually reaching space, before it too has to come back down. SpaceX has already caught the booster successfully a few times using the arms on its launch tower — nicknamed 'chopsticks' because of how they close around the rocket. Catching the ship as well, for the first time, means both halves of the rocket can now, in principle, be caught rather than crashed or ditched in the ocean.",
+              "That distinction matters because of what SpaceX is actually trying to prove: that a rocket this enormous — taller than a 30-story building — can be flown, caught, inspected, refuelled, and flown again, the way an airplane is, instead of being thrown away after a single use. Almost every rocket in history has been expendable: build it once, burn it once, lose it in the ocean or in pieces. That's an enormous waste of money and materials for something that only works for a few minutes. If SpaceX can make Starship fully and quickly reusable, the cost of putting things — and eventually people — into space could fall dramatically.",
+              "This single flight didn't happen in isolation. A few days earlier, SpaceX attempted a similar flight and had to abort the booster's catch, meaning the booster missed the tower and instead had to be ditched safely in the ocean rather than caught. So this latest success, with a clean catch of the harder-to-catch ship as well, is being read as proof the company fixed whatever went wrong and is making real progress rather than just getting lucky once.",
+              "NASA has a direct financial stake in all of this. The agency has a contract worth billions of dollars for a modified version of Starship to serve as the lander that will carry astronauts down to the Moon's surface as part of Artemis, the program meant to put humans back on the Moon for the first time since the last Apollo mission in 1972. Every delay or failure in Starship's testing pushes that timeline further out, and every success — like this one — makes it look more plausible that the landing could actually happen on schedule.",
+              "Beyond the Moon, Starship is also central to SpaceX founder Elon Musk's stated goal of eventually sending humans to Mars, a trip that would require launching enormous amounts of fuel, equipment, and supplies — something only realistic if rockets this large can be reused over and over rather than built fresh for every launch. Whether that vision is ever realized in practice is a separate question from the engineering achievement itself, but Saturday's catch is the kind of milestone the whole plan depends on."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whether or not you ever think about rockets, this is the technology that will decide if humans go back to the Moon in your lifetime and whether Mars travel ever becomes more than a slogan. It's also a live example of a private company, not a government agency, driving a national space program forward — which changes who controls the decisions and the risks involved."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Reusability"
+              },
+              "def": {
+                "en": "Building a rocket so it can fly, land safely, and fly again multiple times, instead of being destroyed or discarded after one use."
+              }
+            },
+            {
+              "term": {
+                "en": "Artemis program"
+              },
+              "def": {
+                "en": "NASA's current effort to send astronauts back to the Moon, including a planned landing using a Starship-based lander."
+              }
+            },
+            {
+              "term": {
+                "en": "Booster stage"
+              },
+              "def": {
+                "en": "The bottom section of a rocket that provides the initial powerful push off the ground before separating from the upper section."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a national program like Artemis depend so heavily on one private company's rocket?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Lean on private innovation"
+                  },
+                  "points": {
+                    "en": [
+                      "Private companies like SpaceX have shown they can innovate and iterate faster than traditional government-run rocket programs.",
+                      "Competition for contracts can drive down costs compared to NASA building everything itself from scratch.",
+                      "SpaceX has already demonstrated real hardware flying and landing, not just plans on paper."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep public missions less dependent on one company"
+                  },
+                  "points": {
+                    "en": [
+                      "If Starship suffers a major failure or delay, the entire Moon landing timeline is at the mercy of one company's problems.",
+                      "A private company's priorities, like Mars ambitions, may not always line up with NASA's own mission goals.",
+                      "Relying on a single contractor reduces NASA's ability to negotiate costs or switch plans if something goes wrong."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is pushing toward Mars travel a worthwhile goal right now, given how many problems exist on Earth?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth pursuing now"
+                  },
+                  "points": {
+                    "en": [
+                      "Space technology often produces unexpected benefits back on Earth, from materials science to satellite systems people rely on daily.",
+                      "Working toward an ambitious long-term goal can drive innovation faster than smaller incremental projects.",
+                      "Expanding where humans can live is itself valuable, independent of immediate problems elsewhere."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's premature right now"
+                  },
+                  "points": {
+                    "en": [
+                      "Enormous sums of money and engineering talent are being spent on Mars dreams while urgent problems on Earth remain unsolved.",
+                      "Mars habitation is still decades away from being realistic, making it a long-term bet rather than a near-term solution to anything.",
+                      "Resources spent on rockets could instead address immediate needs like climate change, disease, or poverty."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
