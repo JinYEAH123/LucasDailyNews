@@ -1,0 +1,819 @@
+{
+  "date": "2026-11-19",
+  "window": {
+    "start": "2026-11-18T12:00:00-07:00",
+    "end": "2026-11-19T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-19T14:26:01-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump, Xi and Putin meet in Shenzhen, China",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
+      },
+      "background": [],
+      "further": [
+        {
+          "title": {
+            "en": "Trump-Xi-Putin summit ends with no major deal"
+          },
+          "summary": {
+            "en": "Axios lays out what the declaration did and didn't cover, including the absence of any concrete arms-control timetable.  It's a useful quick read on what was decided versus merely gestured at."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/19/trump-xi-putin-summit-no-major-deal"
+        },
+        {
+          "title": {
+            "en": "No breakthroughs from Trump, Xi and Putin's 3-way talks on nuclear risks"
+          },
+          "summary": {
+            "en": "The Associated Press, via PBS, offers a sober wire-service account of the summit's limited concrete outcomes.  It helps separate the historic symbolism of the meeting from its actual substance."
+          },
+          "publisher": "PBS NewsHour (AP)",
+          "url": "https://www.pbs.org/newshour/world/no-breakthroughs-from-trump-xi-and-putins-3-way-talks-on-nuclear-risks"
+        },
+        {
+          "title": {
+            "en": "Xi, Trump, Putin hold landmark three-way meeting"
+          },
+          "summary": {
+            "en": "France 24, a French state-funded broadcaster, gives a live-coverage style account with an international lens on how the summit was received outside the US.  Read it alongside the AP and Axios pieces rather than alone, given its state funding."
+          },
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+        }
+      ],
+      "videos": [
+        {
+          "title": "Trump, Xi and Putin Meet: What Was the Outcome of the Summit?",
+          "channel": "YouTube",
+          "url": "https://www.youtube.com/watch?v=HdKHdb8tm48",
+          "summary": {
+            "en": "A video breakdown of what the three leaders did and didn't agree to in Shenzhen."
+          }
+        }
+      ],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Three of the World's Most Powerful Leaders Meet for the First Time Ever"
+          },
+          "hook": {
+            "en": "On Thursday, the leaders of the United States, China, and Russia sat down together for the first time ever. Donald Trump, Xi Jinping, and Vladimir Putin met in Shenzhen, a big city in southern China. They talked about nuclear weapons and the war in Ukraine. At the end, they signed a short statement saying a nuclear war should never happen, but they did not agree on any real changes."
+          },
+          "story": {
+            "en": [
+              "Three of the most powerful leaders in the world met in one room. That has never happened before. Donald Trump leads the United States. Xi Jinping leads China. Vladimir Putin leads Russia. They met in Shenzhen, a big city in southern China.",
+              "Trump wanted to talk about nuclear weapons. These are super powerful bombs that can destroy whole cities. He also wanted to stop Iran from building its own nuclear weapons. Putin wanted the war in Ukraine to end in a way that helps Russia. Xi mostly wanted to stay out of both fights.",
+              "At the end, the three leaders signed a joint declaration. That is a shared written statement. It said nuclear war must never happen. But it didn't say how many weapons anyone would get rid of. It also didn't set a deadline. And it didn't mention Ukraine or Iran at all.",
+              "News reporters everywhere agree on one thing. Nothing major actually changed. The real news was that these three leaders sat in the same room and talked at all."
+            ]
+          },
+          "why_it_matters": {
+            "en": "These three leaders control huge armies and enough nuclear weapons to change life for everyone on Earth, including you. When they talk instead of ignoring each other, it can lower the chance of a terrible war. But when they don't agree on real changes, big problems like the war in Ukraine keep going."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "summit"
+              },
+              "def": {
+                "en": "A meeting between the top leaders of different countries."
+              }
+            },
+            {
+              "term": {
+                "en": "nuclear weapons"
+              },
+              "def": {
+                "en": "Extremely powerful bombs that could destroy an entire city in one blast."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it still a good thing that the three leaders met, even though they didn't agree on anything specific?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the meeting itself mattered"
+                  },
+                  "points": {
+                    "en": [
+                      "Talking is better than not talking, especially between countries with huge armies.",
+                      "Meeting face to face can build trust that helps avoid future conflicts.",
+                      "Even small promises, like saying nuclear war must never happen, can matter when powerful leaders say them together."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it didn't really achieve anything"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders have said nuclear war must never happen before without changing what they actually do.",
+                      "Without a specific plan or deadline, a statement is just words on paper.",
+                      "A meeting with no real changes might trick people into thinking problems are being solved when they aren't."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Xi Jinping have pushed harder to help solve the Ukraine war and the Iran dispute instead of staying out of them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, he should have gotten more involved"
+                  },
+                  "points": {
+                    "en": [
+                      "China is one of the most powerful countries on Earth and could use that power to pressure both sides.",
+                      "Staying quiet about a war that is killing people might look like not caring enough to help.",
+                      "Getting involved could have led to real progress toward ending the war."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, staying out was the right choice"
+                  },
+                  "points": {
+                    "en": [
+                      "Getting too involved in disputes that aren't his country's own might make things worse, not better.",
+                      "Staying neutral lets China keep good relationships with many different countries at once.",
+                      "Sometimes it's wiser to let the countries directly involved work things out themselves."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump, Xi and Putin Meet for the First Time Ever — and Agree on Almost Nothing"
+          },
+          "hook": {
+            "en": "On Thursday, the leaders of the United States, China and Russia sat down together for the first time in history, in the Chinese city of Shenzhen. Donald Trump wanted to talk about cutting nuclear weapons and stopping Iran from building a bomb; Vladimir Putin wanted an end to the Ukraine war that favored Russia; Xi Jinping mostly wanted to stay out of both fights. They signed a short joint statement about nuclear risk, but it contained no new arms-reduction deal and didn't mention Ukraine or Iran at all."
+          },
+          "story": {
+            "en": [
+              "Three men who run the world's most powerful militaries have never before sat in the same room as sitting heads of state — not during the Cold War, not after it. So the meeting itself, held in the southern Chinese tech hub of Shenzhen, was the headline before anyone said a word. The three leaders arrived with completely different goals. Trump wanted a conversation about reducing nuclear arsenals and keeping Iran from acquiring nuclear weapons. Putin wanted to use the moment to push for a Ukraine settlement that locked in Russian gains. Xi, hosting on his own turf, seemed content to let the other two talk past each other while China avoided being pulled into either dispute.",
+              "What came out of it was a joint declaration — a formal written statement all three governments sign their names to — focused on nuclear risk and energy security. Its one memorable line echoed a phrase used by nuclear powers since the 1980s: that \"a nuclear war cannot be won and must never be fought.\" That sentence sounds significant, but it's also something these countries have said before, including separately. What the declaration did not contain mattered more than what it did: no timetable for actually reducing nuclear weapons, no mention of Ukraine, no mention of Iran. Three leaders walked into a room to talk about exactly those two conflicts, and the paper they walked out with named neither.",
+              "News organizations across the political spectrum — from outlets sympathetic to Trump to those critical of him, and in China and Russia too — converged on the same read: there was no breakthrough. The value, if there was one, was symbolic. Putin got photographed as an equal partner at a table with the American and Chinese presidents, which helps him domestically and pushes back against years of Western efforts to isolate him diplomatically over the invasion of Ukraine. Trump got to say he brought the three biggest military powers to the same table, something no American president had managed. Xi got to host the event on Chinese soil without having to commit China to a position on either war.",
+              "It's worth being precise about why nothing concrete emerged. Nuclear arms reduction normally requires years of technical negotiation between militaries, verification systems, and treaties that survive changes of government — not something settled in an afternoon. Ending the Ukraine war requires Russia and Ukraine to agree on territory, security guarantees and reconstruction, none of which the US or China can simply hand down from outside. And Iran's nuclear program involves a separate set of countries and inspectors entirely. A single summit, however historic its seating chart, was never going to resolve any of these on its own — the question is whether it moves anything forward at all, or just produces a photograph."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nuclear weapons, trade routes, and wars thousands of miles away can feel abstract until you remember that decisions made by three men in a room in Shenzhen shape whether wars end, whether new countries get nuclear weapons, and how safe the world's most dangerous arsenals stay. For a generation that will spend the next fifty years living with whatever nuclear order gets built now, a summit that produces vague language instead of real limits is a missed chance rather than a harmless one."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Summit"
+              },
+              "def": {
+                "en": "A meeting between the top leaders of different countries, usually to discuss major issues directly rather than through lower-level officials."
+              }
+            },
+            {
+              "term": {
+                "en": "Joint declaration"
+              },
+              "def": {
+                "en": "A written statement that two or more governments agree to sign together, showing shared positions even when it doesn't create binding rules."
+              }
+            },
+            {
+              "term": {
+                "en": "Nuclear nonproliferation"
+              },
+              "def": {
+                "en": "The effort to stop more countries from acquiring nuclear weapons, usually through treaties, inspections, and diplomatic pressure."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was this summit a meaningful step forward, or just a photo opportunity dressed up as diplomacy?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It mattered"
+                  },
+                  "points": {
+                    "en": [
+                      "Getting the three most powerful militaries' leaders to sit at one table is rare, and rare things can open doors that didn't exist before.",
+                      "Symbolic trust-building often precedes real agreements — leaders who've met in person are more likely to pick up the phone during a future crisis.",
+                      "Even a vague shared statement about nuclear war sets a floor that makes reckless rhetoric slightly harder to escalate from."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It was just theater"
+                  },
+                  "points": {
+                    "en": [
+                      "A declaration with no timetable, no mention of Ukraine, and no mention of Iran changes nothing on the ground for people living through those conflicts.",
+                      "Each leader used the meeting mainly to serve a domestic audience — Putin to look legitimate, Trump to claim a historic first, Xi to look like a neutral statesman — rather than to solve anything.",
+                      "Real nuclear and war negotiations take years of technical work between militaries; a single afternoon of leaders talking doesn't substitute for that and risks making people think progress happened when it didn't."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US sit down with Russia at this level while the Ukraine war is still going on?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, talk anyway"
+                  },
+                  "points": {
+                    "en": [
+                      "Wars eventually end through negotiation, and keeping communication channels open makes that end more likely to come sooner rather than later.",
+                      "Nuclear risk between major powers exists regardless of the war in Ukraine, and refusing to discuss it doesn't make the danger go away.",
+                      "Isolating a nuclear-armed country entirely can make its leadership more unpredictable, not less, since it removes any incentive to show restraint to an audience that's still listening."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it legitimizes the invasion"
+                  },
+                  "points": {
+                    "en": [
+                      "Giving Putin a seat at a historic first-ever summit rewards him with the prestige and legitimacy that Western countries spent years trying to deny him over the invasion.",
+                      "Negotiating as equals signals to Russia, and to other countries watching, that waging a war of aggression doesn't cost you your place at the table.",
+                      "Any settlement reached partly through US-Russia dealmaking over Ukraine's head risks sidelining Ukraine itself from decisions about its own territory and future."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "CN",
+      "source": {
+        "title": "TSMC, Samsung halt chip shipments to China",
+        "publisher": "Yahoo Finance Canada (citing Financial Times/Reuters)",
+        "url": "https://ca.finance.yahoo.com/news/tsmc-samsung-halt-chip-shipments-161300600.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "US closes loophole that let Chinese companies use top AI chips"
+          },
+          "summary": {
+            "en": "NBC News explains the broader US policy shift requiring licenses, giving context for why TSMC and Samsung are now blocking shipments.  It helps readers understand the rule change behind today's halt, not just the halt itself."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/us-closes-loophole-let-chinese-companies-use-top-ai-chips-rcna609634"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Interim Nvidia CEO says it's no longer sending AI chips to China"
+          },
+          "summary": {
+            "en": "Bloomberg reports Nvidia's own account of halting Hopper shipments, including the $2.4 billion Q3 figure, straight from the company's leadership.  It adds a corporate perspective to the export-control story."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-18/interim-nvidia-ceo-says-it-s-no-longer-sending-ai-chips-to-china"
+        },
+        {
+          "title": {
+            "en": "AI chip restrictions widen between US and China"
+          },
+          "summary": {
+            "en": "UPI's wire report rounds up the wider set of restrictions moving through Washington and Taipei, useful for readers wanting the bigger policy picture beyond just TSMC and Nvidia."
+          },
+          "publisher": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/11/17/AI-chip-restrictions-China-export/5701794902683"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Computer Chip Makers Told to Stop Selling Their Best Chips to China"
+          },
+          "hook": {
+            "en": "Three huge companies that make the tiny chips inside computers and phones have just stopped sending some of their best ones to China. The United States government told them they now need special permission first. One company, Nvidia, even had to stop selling chips it was already allowed to sell last year."
+          },
+          "story": {
+            "en": [
+              "Inside every phone, computer, and game console is a tiny piece called a chip. It's smaller than your thumbnail, but it's like a brain that does all the thinking.",
+              "Two companies, called TSMC and Samsung, make chips for lots of other companies around the world, including ones in China. The US government just said: if a chip is advanced enough, you need our permission before sending it to China.",
+              "A third company, Nvidia, makes chips that are extremely good at powering artificial intelligence, the kind of computer smarts behind things like chatbots. Nvidia had already gotten permission last year to sell one of its chips to China, and sold about $2.4 billion worth of them. If you spent one dollar every single second, it would take you more than 75 years to spend that much money. Now, even those sales have stopped.",
+              "This is part of a bigger plan by the US to make it harder for China to get the newest, most powerful chips."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips inside your tablet, game console, and your parents' phone come from this same industry, so decisions like this can change what gets made and how much it costs. It also shows how the biggest countries in the world sometimes use important inventions, not weapons, to compete with each other."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Computer chip"
+              },
+              "def": {
+                "en": "A tiny piece of material, smaller than a fingernail, that acts like a brain inside phones, computers, and other devices."
+              }
+            },
+            {
+              "term": {
+                "en": "Export license"
+              },
+              "def": {
+                "en": "A special permission a government gives before a company is allowed to sell certain things to another country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a country be allowed to stop its companies from selling their best inventions to another country?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "A country might worry its inventions could be used to build weapons or spy tools.",
+                      "Governments are responsible for keeping their own people and allies safe.",
+                      "Keeping the newest inventions close by can protect jobs and ideas at home."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "Trading and sharing inventions usually helps everyone learn and build better things faster.",
+                      "It can unfairly punish workers and companies who just want to sell their products.",
+                      "It might make other countries angry and lead to them blocking things right back."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for a company to lose a permission it was already given?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, that's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Situations change, so rules may need to change with them, even if it's inconvenient.",
+                      "A government's first job is to protect people now, not to keep an old promise unchanged forever.",
+                      "Companies know that permissions from governments can always be reviewed again."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, that's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "The company made plans and spent money trusting that the permission would stay.",
+                      "Suddenly changing the rules makes it hard for any company to plan ahead.",
+                      "It can feel like being punished for doing exactly what you were told was allowed."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Taiwan, South Korea and Nvidia Pull Back Chip Shipments to China as US Rules Tighten"
+          },
+          "hook": {
+            "en": "This week three of the world's biggest chipmakers — TSMC, Samsung and Nvidia — stopped sending some of their most advanced chips to customers in China. The pause follows new US government rules that require a license before shipping high-end chips abroad. It's the latest step in a years-long campaign by Washington to keep its most powerful computing technology out of Chinese hands."
+          },
+          "story": {
+            "en": [
+              "TSMC, the Taiwanese company that makes chips for Apple, Nvidia and almost every other major tech firm, has told customers that orders from Chinese chip designers must stop unless those customers first get a license from the US government. According to reporting that originated with the Financial Times and was carried onward by Reuters, the cutoff applies to chips made using a manufacturing process of 16 nanometres or smaller — because that detail traces back to a single reporting chain rather than several independent newsrooms, it's worth treating as likely accurate but not yet confirmed from multiple sources. Samsung, South Korea's chip giant, has made similar moves.",
+              "A nanometre is a billionth of a metre — far too small to picture directly, but the number matters because it describes how tiny the components packed onto a chip are. Smaller numbers mean more transistors squeezed into the same space, which means more computing power using less energy. Chips at 16 nanometres or smaller aren't the newest chips on the market, but they're still advanced enough to power serious AI systems, which is exactly why the US wants a say in who gets them.",
+              "Nvidia's situation shows how fast the rules are shifting. Last year, the US government allowed Nvidia to sell a specially modified version of its Hopper chip — a powerful processor built for running AI software in data centers — to Chinese customers. Nvidia sold $2.4 billion worth of these licensed chips in China in just the third quarter of this year. Then, without a new law being passed, Nvidia simply stopped shipping them. A product that was approved for sale became unsendable almost overnight.",
+              "The common thread tying all three companies together is the export license — government permission a company must obtain before shipping certain technology to certain countries. Washington has been widening the list of chips and countries that require this permission, and earlier this month it added more rules demanding approval before top AI chips can go to several other nations too. The effect is that China's access to the chips that train and run advanced AI systems is narrowing, one license requirement at a time.",
+              "Chips this advanced sit at the centre of a genuine power struggle. They're the engine behind AI research, advanced weapons systems, and the data centers that run everything from voice assistants to scientific modelling. The US argues that letting China freely buy the best chips would hand it tools that could be used militarily or to out-compete American firms. China, for its part, calls the restrictions an attempt to contain its growth — and has been pouring money into building its own chip industry so it no longer needs permission from anyone."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The AI tools you might already use — chatbots, image generators, recommendation systems on your phone — all run on chips like these, and the companies racing to build the next generation of AI depend on this same supply chain. Whoever controls access to advanced chips has real influence over how fast AI develops and who gets to build it, which is why this fight between Washington and Beijing is likely to shape prices, available technology, and global tension for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Export license"
+              },
+              "def": {
+                "en": "Official government permission a company must get before it's allowed to sell certain products — in this case, advanced chips — to buyers in another country."
+              }
+            },
+            {
+              "term": {
+                "en": "Nanometre process"
+              },
+              "def": {
+                "en": "A measurement describing how small the components on a computer chip are; smaller numbers generally mean a more powerful and efficient chip."
+              }
+            },
+            {
+              "term": {
+                "en": "AI chip (GPU)"
+              },
+              "def": {
+                "en": "A specialised processor, like Nvidia's Hopper chips, designed to handle the huge calculations needed to train and run artificial intelligence software in data centers."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a government be allowed to stop companies — even ones based in other countries — from selling their own products to a customer, purely on national security grounds?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, security should come first"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced chips can be used to build weapons systems or AI tools with military applications, so governments have a legitimate interest in controlling where they end up.",
+                      "A country that controls key technology has leverage it can use to protect its own citizens and allies, not just its businesses.",
+                      "Waiting until misuse happens is too late — by then the technology has already spread and can't be recalled."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this is overreach"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies in Taiwan or South Korea aren't American, so another government dictating their customer lists sets a troubling precedent for global trade.",
+                      "Restrictions that keep shifting, like Nvidia's Hopper reversal, make it nearly impossible for businesses to plan or invest with confidence.",
+                      "Cutting off legitimate civilian and research uses alongside military ones punishes far more people than it protects."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does cutting China off from advanced chips make the world safer, or does it just push China to build everything itself, with effects that are harder to predict?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It keeps dangerous technology out of reach"
+                  },
+                  "points": {
+                    "en": [
+                      "Every year China lacks the most advanced chips is a year its most powerful AI and weapons systems are delayed.",
+                      "Export controls have worked before in slowing other countries' access to sensitive technology.",
+                      "Even partial restrictions raise the cost and difficulty for China's most advanced programs, buying time for everyone else to adapt."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It backfires and speeds up self-sufficiency"
+                  },
+                  "points": {
+                    "en": [
+                      "Being cut off gives China every incentive to build its own chip industry faster, which could make it independent of Western suppliers entirely within years.",
+                      "Once China no longer needs permission from anyone, the leverage the restrictions currently provide disappears for good.",
+                      "A self-sufficient Chinese chip industry would be far harder to monitor or influence than one still dependent on foreign suppliers."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "society",
+      "region": "GLOBAL",
+      "source": {
+        "title": "World court finds Myanmar committed genocide against Rohingya",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/19/asia/icj-myanmar-genocide-rohingya-ruling-intl-hnk"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "UN's highest court finds Myanmar responsible for genocide"
+          },
+          "summary": {
+            "en": "The Associated Press, via PBS, lays out the court's legal findings and the decade-long path the case took to reach this ruling.  It's useful for understanding how international courts build genocide cases."
+          },
+          "publisher": "PBS NewsHour (AP)",
+          "url": "https://www.pbs.org/newshour/world/uns-highest-court-finds-myanmar-responsible-for-genocide-in-historic-ruling"
+        },
+        {
+          "title": {
+            "en": "UN News coverage of the ICJ genocide ruling"
+          },
+          "summary": {
+            "en": "The UN's own news service gives the official account straight from inside the institution that issued the ruling, including procedural detail other outlets may skip."
+          },
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168836"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "What the ICJ ruling means for the Rohingya"
+          },
+          "summary": {
+            "en": "Al Jazeera, which is funded by the Qatari government, explores what practical difference the ruling might make for Rohingya refugees still living in camps in Bangladesh.  Useful for on-the-ground reaction, best read alongside independently-owned outlets."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "World's Top Court Says Myanmar Hurt the Rohingya People So Badly It Was Genocide"
+          },
+          "hook": {
+            "en": "On Thursday, the United Nations' highest court made a huge decision. It said that the country of Myanmar committed genocide — the worst crime there is — against a group of people called the Rohingya. This is the first time in 80 years that this court has ever said a country did this."
+          },
+          "story": {
+            "en": [
+              "The Rohingya are a group of Muslim people who used to live in Myanmar, a country in Southeast Asia. A few years ago, Myanmar's army attacked them. The court found that soldiers killed at least 10,000 Rohingya people — that's like wiping out everyone in a small town.",
+              "More than 730,000 Rohingya people ran for their lives into the country next door, Bangladesh. That's more people than live in most entire cities you've visited. Many of them are still living in crowded refugee camps today, almost ten years later.",
+              "A small country called Gambia, far away in Africa, decided someone had to speak up for the Rohingya. In 2019, Gambia brought the case to the court, even though it wasn't Gambia's own people who were hurt. It has taken this long — years of waiting — for the judges to finally decide.",
+              "The court has now officially said: this was genocide. But here's the tricky part. This court doesn't have police or soldiers of its own to force Myanmar to do anything. So what happens next is still unclear."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This case says that even when something terrible happens far away, the world can still write down what happened and call it by its true name. Rohingya families who lost everything finally have an official answer: yes, this was genocide, and it was wrong. It also shows that smaller countries like Gambia can stand up for people they've never even met."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "genocide"
+              },
+              "def": {
+                "en": "Genocide means trying to destroy a whole group of people because of who they are, like their religion or where their family comes from."
+              }
+            },
+            {
+              "term": {
+                "en": "refugee"
+              },
+              "def": {
+                "en": "A refugee is someone who has to run away from their home country, usually because it's too dangerous to stay, and go live somewhere else."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a court's decision can't be forced on anyone, is it still worth making?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it still matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Having the truth written down officially can help people who suffered feel heard, even if nothing else changes right away.",
+                      "It creates a record that other countries and future courts can point to and use.",
+                      "It can pressure a country through embarrassment and disapproval from the rest of the world, even without soldiers or police."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it doesn't really matter"
+                  },
+                  "points": {
+                    "en": [
+                      "If nothing happens to the country that did it, the people who were hurt don't actually get their lives back or any real help.",
+                      "Waiting almost ten years for a ruling that changes nothing could feel like more disappointment than comfort.",
+                      "Without real consequences, other countries might think they can do the same thing and get away with it too."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country be allowed to bring a case to court for people who aren't its own citizens, like Gambia did for the Rohingya?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "Sometimes the people being hurt can't speak up for themselves, so someone else needs to do it.",
+                      "It shows that countries can care about fairness everywhere, not just within their own borders.",
+                      "If only the hurt country's own government can bring a case, and that government is the one doing the hurting, no one would ever be able to complain."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "A country that wasn't directly affected might not fully understand the situation the way the people living through it do.",
+                      "It could be used by countries to make political points against rivals rather than really caring about victims.",
+                      "It might be fairer for decisions like this to come from the affected people and their closest neighbours, not countries from far away."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "World's Top Court Rules Myanmar Committed Genocide — After Survivors Waited Nearly a Decade"
+          },
+          "hook": {
+            "en": "On Thursday, the International Court of Justice — the United Nations' highest court — ruled that Myanmar's military committed genocide against the Rohingya, a Muslim minority group. It is the first time in the court's 80-year history that it has found a country guilty of genocide. The case took almost six years to decide, and the events it judges happened even earlier than that."
+          },
+          "story": {
+            "en": [
+              "The Rohingya are a Muslim ethnic group who lived for generations in Myanmar's Rakhine State, but Myanmar's government has long refused to recognise them as citizens, treating them instead as illegal immigrants from Bangladesh even though many families had lived there for over a century. In 2017, Myanmar's military launched a violent crackdown that human rights investigators say killed at least 10,000 Rohingya people and forced more than 730,000 to flee across the border into Bangladesh, where hundreds of thousands still live in sprawling refugee camps — temporary settlements that, for many, have now lasted longer than some readers of this page have been alive.",
+              "In 2019, a small West African country called Gambia — which has no direct connection to Myanmar — brought the case to the ICJ on behalf of a group of Muslim-majority nations, arguing that the killings, rapes, and village burnings amounted to genocide: the attempt to destroy, in whole or in part, a national, ethnic, racial, or religious group. Genocide is considered the gravest crime recognised in international law, and proving it requires showing not just that people were killed, but that they were killed *because of* who they were, with intent to wipe out the group itself.",
+              "This week's ruling found that evidence met that bar. Judges pointed to the military's own internal planning, the scale and coordination of the attacks on Rohingya villages, and the systematic nature of the sexual violence used against Rohingya women as proof that the campaign went beyond ordinary wartime brutality. For survivors who have spent years testifying, giving evidence, and waiting, the judgment is the first time an international court has formally agreed with what they have said happened to them.",
+              "But the ruling comes with a hard limit: the ICJ has no police force, no army, and no way to physically force Myanmar to do anything. It can order a country to stop certain actions or pay compensation, but enforcement depends on other countries choosing to act — through sanctions, diplomatic pressure, or referrals to other courts — or on the country itself deciding to comply. Myanmar has been run since a 2021 military takeover by the same armed forces the ruling blames for the genocide, and that government has previously dismissed similar accusations as politically motivated.",
+              "Rohingya advocacy groups have welcomed the ruling as a long-overdue acknowledgment, even while acknowledging it will not immediately bring anyone home or rebuild a single village. What happens next — whether governments use this ruling to justify new sanctions, whether it strengthens separate criminal cases against individual military commanders, or whether it mostly stays a historical and legal milestone — is still unclear."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This case sets a legal marker that other courts, governments, and future genocide investigations can point to, which matters even to people who will never meet a Rohingya refugee. It also raises an uncomfortable question worth sitting with: what is justice worth if the people found guilty can simply ignore it?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Genocide"
+              },
+              "def": {
+                "en": "The attempt to destroy all or part of a national, ethnic, racial, or religious group, which international law treats as the most serious crime a state or its leaders can commit."
+              }
+            },
+            {
+              "term": {
+                "en": "International Court of Justice (ICJ)"
+              },
+              "def": {
+                "en": "The United Nations' main court for settling legal disputes between countries, separate from any court that prosecutes individual people."
+              }
+            },
+            {
+              "term": {
+                "en": "Refugee camp"
+              },
+              "def": {
+                "en": "A temporary settlement set up to shelter people who have fled violence or disaster in their home country, though in practice many last for years or decades."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a court's ruling cannot be enforced, is it still worth having?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it matters"
+                  },
+                  "points": {
+                    "en": [
+                      "It creates an official legal record that survivors and historians can point to, making future denial harder.",
+                      "It can be used to justify sanctions, asset freezes, or referrals to criminal courts, even without the ICJ's own police power.",
+                      "Establishing the truth is itself a form of justice for survivors who were ignored or disbelieved for years."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, not much without enforcement"
+                  },
+                  "points": {
+                    "en": [
+                      "Survivors wanted accountability and safety, not just a legal document with no teeth.",
+                      "A military government that already ignores its own citizens is unlikely to change course because of a court ruling.",
+                      "Years of legal process can create an illusion that something has been done, reducing pressure for more practical action."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Now that genocide has been legally proven, should other countries take stronger action against Myanmar, such as sanctions or intervention?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, act more firmly now"
+                  },
+                  "points": {
+                    "en": [
+                      "A formal genocide ruling removes any doubt that justified hesitation before, so inaction now is harder to defend.",
+                      "History shows that waiting too long to respond to genocide — as happened in Rwanda and Bosnia — costs lives that could have been saved.",
+                      "Failing to back up the court's ruling with real consequences undermines the credibility of international law itself."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, stay cautious"
+                  },
+                  "points": {
+                    "en": [
+                      "Military intervention in another country's internal conflict can escalate violence and cause more civilian deaths, not fewer.",
+                      "Broad sanctions often hurt ordinary citizens and the economy more than they hurt the military leaders actually responsible.",
+                      "Aggressive outside action could cut off humanitarian aid routes and diplomatic channels that are currently helping refugees survive."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
