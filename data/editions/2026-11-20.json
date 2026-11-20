@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-20",
+  "window": {
+    "start": "2026-11-19T12:00:00-07:00",
+    "end": "2026-11-20T12:00:00-07:00",
+    "label": {
+      "en": "News from Thursday 12:00 PM to Friday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-20T13:01:11-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump, Putin and Xi agreed to work jointly to reduce constraints on their power",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/11/19/trump-putin-xi-agreed-work-jointly-reduce-constraints-power/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Xi, Trump, Putin talks: live updates from the landmark three-way meeting"
+          },
+          "summary": {
+            "en": "France24's rolling coverage captures the moment-by-moment diplomacy inside the summit room, useful for seeing how the nuclear and fuel statements were actually negotiated."
+          },
+          "publisher": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+        },
+        {
+          "title": {
+            "en": "Trump, Putin, Xi pledge to increase global petrol supplies — but how?"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatari state-funded broadcaster, digs into the practical doubts around the fuel pledge, which is useful context but should be read alongside independent outlets given its government ownership."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/trump-putin-xi-pledge-to-increase-global-petrol-supplies-but-how"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump, Xi, Putin trilateral meeting in China"
+          },
+          "summary": {
+            "en": "CNBC's same-day writeup lays out the full text of the joint statements, which is the clearest single reference for exactly what language the three governments signed off on."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Three Big Leaders Meet and Promise: No Nuclear War"
+          },
+          "hook": {
+            "en": "The leaders of the United States, China and Russia met together for the first time ever, in a Chinese city called Shenzhen. On Thursday they all agreed to say something huge out loud: a nuclear war can never be won, so it must never happen. They also made some other promises about oil and about how the world is run."
+          },
+          "story": {
+            "en": [
+              "Imagine the three biggest kids in school, who usually don't even sit at the same lunch table, suddenly sitting down together and shaking hands. That's a bit like what happened in Shenzhen, China. President Trump of the United States, President Xi Jinping of China, and President Putin of Russia had never all met together like this before.",
+              "Together they said a nuclear war 'cannot be won and must never be fought.' A nuclear weapon is a bomb so powerful it could destroy an entire city in one blast. The three countries own almost all of the world's nuclear weapons, so when they say this together, people notice.",
+              "They also promised to make more fuel, like the petrol used in cars and planes, so there's enough for every country. But experts who study oil and fuel said this promise might just be words. Making much more fuel quickly is hard, because the factories that turn oil into fuel can only work so fast.",
+              "The leaders also talked about changing the United Nations, a club of almost every country in the world that tries to stop wars and solve big problems together. Some people are excited that three powerful countries are talking about keeping the peace. Others point out that nobody can force them to actually keep these promises if they change their minds later."
+            ]
+          },
+          "why_it_matters": {
+            "en": "These three countries are so big and powerful that when they agree on something, it changes how safe the whole world feels, even for kids far away from any of them. But a promise is only as strong as whether people keep it, so grown-ups will be watching closely to see if anything actually changes."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Nuclear weapon"
+              },
+              "def": {
+                "en": "A bomb so powerful that just one can destroy an entire city."
+              }
+            },
+            {
+              "term": {
+                "en": "United Nations"
+              },
+              "def": {
+                "en": "A club that almost every country in the world has joined, where they talk and try to solve big problems like war without fighting."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it good when just three powerful countries make big promises for the whole world, even if nobody else got a say?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it helps"
+                  },
+                  "points": {
+                    "en": [
+                      "These three countries own almost all the nuclear weapons, so when they agree, everyone is safer.",
+                      "Big problems sometimes need the most powerful people to act first before anyone else can.",
+                      "A public promise, even an imperfect one, makes it a little harder to quietly go back on your word."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's unfair"
+                  },
+                  "points": {
+                    "en": [
+                      "Every other country has to live with the decision, but they weren't in the room.",
+                      "Three leaders deciding things alone is a bit like three kids deciding the rules for a whole school.",
+                      "If only a few people make the rules, those rules might only protect what those few people want."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If a promise has no way to force anyone to keep it, is it still worth making?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it still matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Saying something out loud, in public, makes it embarrassing to break later.",
+                      "Promises can be a first step, even if the rules to enforce them come afterward.",
+                      "Sometimes just agreeing to talk is progress, after countries that didn't trust each other."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's just words"
+                  },
+                  "points": {
+                    "en": [
+                      "Without any way to check or punish broken promises, leaders can say one thing and do another.",
+                      "Experts already doubt the oil promise can really happen, which makes people doubt the rest too.",
+                      "A promise that costs nothing to break isn't really a promise at all."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump, Xi and Putin Meet for the First Time Ever — and Promise 'No Nuclear War'"
+          },
+          "hook": {
+            "en": "On Thursday, the leaders of the United States, China and Russia released joint statements after their first-ever three-way summit, held in Shenzhen, China. The most striking line: 'a nuclear war cannot be won and must never be fought' — now agreed by all three nuclear superpowers for the first time. They also promised more oil and fuel production for the world, and talked about reforming the United Nations and limiting the power of the International Criminal Court. Experts immediately questioned whether any of it will actually change anything."
+          },
+          "story": {
+            "en": [
+              "Three presidents who rarely agree on anything sat in the same room in Shenzhen, China, and walked out with a shared statement. Donald Trump, Xi Jinping and Vladimir Putin lead the world's three biggest military and economic powers, and two of them — the US and Russia — have spent most of the last three years treating each other as adversaries over the war in Ukraine, while the US and China have been locked in a long-running trade and technology rivalry. That the three sat down together at all was treated as news on its own before anyone even read what they'd agreed to.",
+              "The headline promise was about nuclear weapons: 'a nuclear war cannot be won and must never be fought.' That exact phrase isn't new — American and Soviet leaders said something close to it back in 1985, during the Cold War, the decades-long standoff between the US and the Soviet Union after World War II. What's new is that China has now put its name to it too, meaning all three countries that actually possess large nuclear arsenals have said, on paper, that none of them intends to fight a nuclear war. It sounds obvious. It's also exactly the kind of thing leaders say precisely because the alternative — staying silent on it — looks far more alarming.",
+              "The second big promise was about oil: the three countries said they'd work to 'increase the production and supply of refined petroleum products for the benefit of all nations.' Refined petroleum products means usable fuel — petrol, diesel, jet fuel — rather than crude oil pulled straight from the ground, which has to be processed at refineries before anyone can actually burn it. Here's the catch economists pointed out almost immediately: the world's refineries are already running close to their limits. You can't just announce more fuel into existence; you need the physical plants to make it, and building those takes years, not press conferences. Analysts at Capital Economics and the Middle East Council on Global Affairs said the pledge sounds good but doesn't match what's actually possible to deliver quickly.",
+              "The statements also touched on reforming the United Nations — the organisation founded after World War II so major powers would talk through disputes instead of only fighting over them — and on limiting the reach of the International Criminal Court, a court in The Hague that can prosecute individuals, including heads of state, for war crimes. Both of those institutions were built by the victors of 1945, largely around US and Soviet (and smaller European) interests; China now wants more say in how they work, and all three leaders have reasons to want a weaker ICC, since the court has investigated, charged, or could plausibly investigate figures connected to all three countries.",
+              "That's the part critics zeroed in on hardest. A promise never to fight a nuclear war has no referee and no penalty if it's broken — there's no mechanism forcing any of the three to keep their word, just as there wasn't in 1985. Reducing the ICC's reach removes one of the few international tools that can, at least in theory, hold powerful leaders accountable for war crimes. Supporters of the summit call it a rare moment of three rival powers choosing to talk rather than escalate. Skeptics call it something closer to the world's three most powerful men agreeing, in public, to make each other's lives slightly easier."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Decisions made by these three leaders affect military budgets, fuel prices, and how wars get prosecuted — things that ripple down into your own country's politics and economy even if you never hear their names mentioned again. The gap between a grand joint statement and what actually happens afterward is one of the most useful things to watch for in any news story about world leaders."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "International Criminal Court (ICC)"
+              },
+              "def": {
+                "en": "A court based in the Netherlands that can put individual people, including presidents and generals, on trial for war crimes."
+              }
+            },
+            {
+              "term": {
+                "en": "Refining capacity"
+              },
+              "def": {
+                "en": "How much crude oil a country's refineries can actually turn into usable fuel like petrol or diesel in a given amount of time."
+              }
+            },
+            {
+              "term": {
+                "en": "The Cold War"
+              },
+              "def": {
+                "en": "The decades-long tense standoff between the United States and the Soviet Union after World War II, marked by the fear of nuclear war but no direct fighting between them."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Does a joint statement like this actually matter if no one can enforce it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Public promises shape expectations, and leaders who break them pay a political cost even without a court to punish them.",
+                      "Getting three rival nuclear powers to say the same sentence out loud reduces the chance of a dangerous misunderstanding escalating into something worse.",
+                      "Symbols often come before substance — treaties and real cooperation usually start with leaders agreeing on shared language first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's just words"
+                  },
+                  "points": {
+                    "en": [
+                      "Nothing forces any of the three countries to actually follow through, so the statement costs them nothing to make and nothing to break.",
+                      "Leaders have made similar grand promises before and quietly ignored them when it suited their interests.",
+                      "A statement that isn't attached to any treaty, inspection, or penalty is really just a press release dressed up as policy."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the US, China and Russia be the ones reshaping institutions like the UN and the ICC?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, reform is overdue"
+                  },
+                  "points": {
+                    "en": [
+                      "These institutions were built 80 years ago for a different world, and the countries with the most power today should help update them so they stay relevant.",
+                      "Cooperation among the biggest powers, even imperfect, is more useful for preventing war than each side ignoring the other's institutions entirely.",
+                      "Rules that lack buy-in from major powers tend to be ignored anyway, so including them in reform makes the rules more likely to actually hold."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, this concentrates too much power"
+                  },
+                  "points": {
+                    "en": [
+                      "Letting the most powerful countries rewrite the rules that are supposed to check their own power defeats the purpose of having the rules at all.",
+                      "Weakening the ICC's reach specifically benefits leaders who might otherwise face prosecution — including, potentially, these three.",
+                      "Smaller countries that don't have a seat at this table will have to live with whatever the three decide, without ever being consulted."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Anthropic IPO: live updates",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Anthropic IPO: live news"
+          },
+          "summary": {
+            "en": "CNN's live coverage of debut day adds trading-floor detail and investor reaction as the stock priced and opened, useful for the blow-by-blow of how the record was set."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/19/business/live-news/anthropic-ipo"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "AI stocks selloff: Anthropic's record IPO, Wall Street split on top"
+          },
+          "summary": {
+            "en": "Fortune surveys competing Wall Street views on whether the AI trade has peaked, giving readers the fullest picture of the analyst disagreement referenced in the facts above."
+          },
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/"
+        },
+        {
+          "title": {
+            "en": "Anthropic stock, AI, AMD, Nvidia"
+          },
+          "summary": {
+            "en": "CNBC's Friday follow-up tracks Anthropic's post-IPO slide alongside chipmakers AMD and Nvidia, showing how closely its stock is now tied to the broader AI-hardware story."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Chatbot Company Became Worth More Than Most Countries — Then the Market Wobbled"
+          },
+          "hook": {
+            "en": "On Thursday, a company called Anthropic — which makes a popular AI chatbot named Claude — sold shares of itself to the public for the very first time. It raised more money in that single day than any company ever has before. But on that same day, the wider stock market had one of its worst days in months, and by Friday even Anthropic's own shares had tumbled back down."
+          },
+          "story": {
+            "en": [
+              "Anthropic makes Claude, an AI chatbot that can chat, write, and answer questions, a bit like a very fast, very well-read pen pal. On Thursday, Anthropic did something called an IPO — it sold tiny pieces of itself, called shares, to the public for the first time. People wanted in so badly that the price jumped 17% on its first day, closing at $97.17 a share. Altogether, Anthropic raised $81.3 billion — that's roughly $240 for every single person living in the United States. The whole company is now valued at about $1.76 trillion. If you counted out loud, one dollar every second, non-stop, it would take you about 56,000 years to reach that number.",
+              "Here's the strange part: that same Thursday, the broader stock market had a rough day. The Dow Jones — a number that tracks the combined stock prices of 30 huge companies, like a scoreboard — fell by 1,101 points, dropping below 50,000 for the first time since June. Two other big scoreboards, the S&P 500 and the Nasdaq, each fell about 2%. So while Anthropic was celebrating a record debut, almost everything else on the stock market was sliding downward, mostly because investors are nervous that AI companies in general might be overvalued.",
+              "By Friday, the party was over for Anthropic too. Its own shares fell 12%, drifting back down toward the $83 price it had started at. The excitement of Thursday had mostly evaporated in a single day.",
+              "Now people who study the stock market for a living are arguing about what this means. Some think this dip is the bottom — the worst is over, and AI stocks will climb again. Others think it's just the beginning of a longer slide. Nobody actually knows yet, and that disagreement is itself part of the story."
+            ]
+          },
+          "why_it_matters": {
+            "en": "You might not own any stocks, but plenty of grown-ups' savings and retirement money are tied up in the stock market, including money that could one day help pay for your family's home or your own future. Swings like this — a company becoming worth $1.76 trillion one day and losing a chunk of that the next — show how quickly the value of even a famous, successful company can change based on what people feel and guess, not just on what it actually makes or does."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IPO"
+              },
+              "def": {
+                "en": "An IPO is the very first time a company sells small pieces of itself, called shares, to everyday people and investors instead of keeping ownership private."
+              }
+            },
+            {
+              "term": {
+                "en": "Stock market"
+              },
+              "def": {
+                "en": "The stock market is where people buy and sell shares of companies, and prices go up and down depending on how much buyers and sellers think those companies are worth right now."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it fair that some investors got to buy Anthropic's shares at the original $83 price, while regular people could only buy after the price had already jumped to $97?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "The early investors took a real risk by putting their money in before anyone knew if the company would succeed.",
+                      "Anyone was free to try to buy in early too; nothing stopped a regular person from applying for shares at the start.",
+                      "Rewarding people who take risks early is how the whole system encourages people to support new companies in the first place."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Most ordinary people never even get the chance to buy at the starting price — that opportunity usually goes to big banks and wealthy investors first.",
+                      "By the time everyday people can buy, the 'good deal' price is already gone, so insiders get the safest, cheapest shot at the reward.",
+                      "A system where the people with the most money and connections always get first access isn't really open to everyone equally."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When the stock market suddenly drops and people get worried, is it smarter to sell quickly to avoid losing more, or to hold on and wait for things to recover?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Sell quickly"
+                  },
+                  "points": {
+                    "en": [
+                      "If the market keeps falling, waiting could mean losing even more money than if you'd sold right away.",
+                      "Nobody can be sure prices will ever go back up to where they were, so locking in whatever value is left feels safer.",
+                      "Watching your savings shrink every day can be stressful, and selling stops that feeling immediately."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Hold on and wait"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock markets have dropped sharply many times before and usually climbed back up again over months or years.",
+                      "Selling in a panic turns a temporary drop into a permanent loss, because you miss out if prices bounce back.",
+                      "Nobody — not even expert analysts — can reliably predict the exact bottom, so reacting to short-term fear often backfires."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The Biggest Stock Debut Ever Happened on the Worst Market Day in Months"
+          },
+          "hook": {
+            "en": "On Thursday, the company behind the AI chatbot Claude went public on the Nasdaq stock exchange and had the largest first-day stock sale in history, worth $81.3 billion. On the very same day, the rest of the stock market had one of its worst days in months, as fears grew that AI companies are now worth more than they should be."
+          },
+          "story": {
+            "en": [
+              "Anthropic, the company that makes the Claude chatbot, sold shares to the public for the first time on Thursday. This kind of sale is called an IPO — short for initial public offering — and it's how a private company becomes one that anyone can buy a piece of on the stock market. Anthropic's IPO raised $81.3 billion, the largest amount ever raised this way, beating the rocket company SpaceX's record from this past June. By the time trading closed, Anthropic's shares had jumped 17%, closing at $97.17 and putting the whole company's value at roughly $1.76 trillion — more than the economies of most countries.",
+              "That would normally be the biggest business story of the week on its own. But it landed on a day when the broader stock market was falling apart. The Dow Jones, an index that tracks 30 major American companies, dropped 1,101 points — a fall of 2.19% — closing below 50,000 for the first time since June. The S&P 500, a broader index covering 500 companies, fell 2%, and the Nasdaq, which is heavy with technology stocks, fell 2.2%. So on Thursday, one AI company was celebrating a record-breaking debut while the stock market around it was sinking, driven largely by worry about AI companies in general.",
+              "That contradiction is the strange part of this story. Investors have poured enormous amounts of money into artificial intelligence companies over the past two years, betting that AI will reshape how businesses operate and become hugely profitable. But many of these companies, including Anthropic, are not yet profitable — they're valued on what people believe they might become, not on money they're currently making. When a lot of investors start questioning those bets at once, stock prices across the whole sector can fall together, even for companies that just had a great day.",
+              "That questioning didn't take long to reach Anthropic itself. By Friday, its shares had fallen 12%, drifting back down toward the $83 price it had been sold at the day before — meaning almost all of Thursday's excitement had evaporated within 24 hours. The same worries dragging down the Dow and the Nasdaq were now dragging down the very stock that had just set a record.",
+              "Market analysts are genuinely split on what this means next. Some think the Friday slide is the bottom of a short, sharp correction — a term for a sudden drop in stock prices after a period of rapid gains — and that AI stocks will steady from here. Others think the slide has further to run, because valuations across the sector climbed so high, so fast, that a bigger reset is still coming. Nobody knows which view is right yet, and that uncertainty is exactly why the story isn't over."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you have a pension, a parent with a retirement account, or even just use index funds, you likely own a small slice of these AI companies without realising it — their swings affect ordinary savings, not just Wall Street traders. And the AI tools many people now use daily, like chatbots and image generators, are built by companies whose survival depends on investors staying confident enough to keep funding them."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IPO (initial public offering)"
+              },
+              "def": {
+                "en": "The first time a company sells shares of itself to the public, turning from a private company into one anyone can invest in."
+              }
+            },
+            {
+              "term": {
+                "en": "Valuation"
+              },
+              "def": {
+                "en": "An estimate of how much a whole company is worth, usually based on its share price multiplied by the number of shares that exist."
+              }
+            },
+            {
+              "term": {
+                "en": "Correction"
+              },
+              "def": {
+                "en": "A sudden, sharp drop in stock prices after a period when they had been rising quickly."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is the surge in AI company valuations mostly a bubble that is starting to deflate, or a real long-term shift that just looks shaky in the short term?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's a bubble forming"
+                  },
+                  "points": {
+                    "en": [
+                      "Many AI companies, including Anthropic, are not yet profitable, so their huge valuations rest on guesses about the future rather than current earnings.",
+                      "Previous waves of investor excitement — like the dot-com boom in the late 1990s — also featured record-breaking debuts followed by painful crashes.",
+                      "A single day featuring both a record IPO and a market-wide selloff suggests investors themselves are nervous and uncertain, which is often a warning sign."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's a real, lasting shift"
+                  },
+                  "points": {
+                    "en": [
+                      "AI tools are already being used by millions of people and businesses daily, unlike some past speculative manias that were built on little real use.",
+                      "Short-term price swings, even sharp ones, are normal for any brand-new public company and don't prove the underlying technology is overvalued.",
+                      "Big institutional investors who studied Anthropic's finances closely still chose to put in $81.3 billion, suggesting real confidence, not just hype."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should investors be pouring this much money into AI companies that aren't yet profitable, or is that simply reckless speculation?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It's reasonable investing"
+                  },
+                  "points": {
+                    "en": [
+                      "Many hugely successful companies, including Amazon, operated at a loss for years before becoming profitable, so unprofitability alone doesn't predict failure.",
+                      "Investors are pricing in future potential, and AI's ability to change how work gets done across entire industries is a genuinely new kind of opportunity.",
+                      "Spreading large sums across promising but unproven technology is how breakthroughs historically get funded, from railroads to the internet."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's risky speculation"
+                  },
+                  "points": {
+                    "en": [
+                      "A $1.76 trillion valuation for a company without steady profits asks investors to trust a prediction rather than a track record.",
+                      "When prices are driven mainly by excitement rather than earnings, drops can be sudden and severe, as Friday's 12% fall already showed.",
+                      "Ordinary people's pensions and savings are exposed to these swings through index funds, even if they never chose to bet on AI themselves."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Alibaba warns new US export rules could hit its global AI data center plans",
+        "publisher": "The Washington Post",
+        "url": "https://www.washingtonpost.com/business/2026/11/19/alibaba-ai-chip-china-us-nvidia-huang/af062078-e42f-11f1-a99e-b3e3805c6b8b_story.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump officials issue rule to restrict sales of AI chips to China"
+          },
+          "summary": {
+            "en": "This earlier Washington Post piece lays out the Commerce Department rule itself, giving the regulatory text behind the license numbers now being disclosed."
+          },
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/11/16/trump-officials-issue-rule-restrict-sales-ai-chips-china/"
+        },
+        {
+          "title": {
+            "en": "US signed off on sales of nearly 900,000 AI chips to China in six months"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatari state-funded broadcaster, reports the specific license-volume figure referenced above; useful for the number but best read alongside non-state-funded accounts."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "China, US export controls on chips amid Nvidia Huang scandal"
+          },
+          "summary": {
+            "en": "CBS News traces how the licensing dispute connects to the broader scandal around Nvidia's leadership, helpful for readers wanting the fuller personnel and political backstory."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/china-us-export-controls-chips-nvidia-huang-scandal/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "US Leaders Reveal Secret List of China's AI Computer Chips"
+          },
+          "hook": {
+            "en": "A group of US lawmakers just did something unusual. They made public exactly how many powerful AI computer chips two big companies were allowed to sell to China. Normally, that kind of information stays private between governments and companies."
+          },
+          "story": {
+            "en": [
+              "Two American companies, Nvidia and AMD, make special computer chips that help power artificial intelligence (AI) — the kind of technology behind chatbots, smart assistants, and self-driving cars. Because these chips are so powerful, the US government decides who gets to buy them, especially when it comes to selling them to China.",
+              "This week, a House committee — a group of lawmakers who investigate important issues — led by Representative Brian Mast released detailed numbers showing how many of these chip sales were approved. Almost 900,000 chips were approved to be sold over about six months. Picture every seat in ten huge sports stadiums filled twice over — that's roughly how many chips we're talking about. But nobody is sure yet how many of those approved chips actually made it onto ships and planes to China.",
+              "Alibaba, one of China's biggest tech companies, says the tightening rules could mess up its plans to build more giant computer centers around the world — the huge buildings full of computers that power apps and websites.",
+              "This news comes right after some other big moves: Nvidia's boss stepped down amid arguments about chip sales, the US government made new rules to slow chip sales to China, and two major chip-making companies, TSMC and Samsung, were reportedly told to stop sending their best chips there too."
+            ]
+          },
+          "why_it_matters": {
+            "en": "These tiny chips end up inside the phones, apps, and AI tools you might use every day — so decisions about who can buy them can shape which country builds the smartest, fastest technology first. It's also a reminder that when two powerful countries compete over something important, the rules can change fast and even big companies have to adjust their plans."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "export license"
+              },
+              "def": {
+                "en": "A special permission slip a government gives a company before it's allowed to sell certain products to another country."
+              }
+            },
+            {
+              "term": {
+                "en": "AI chip"
+              },
+              "def": {
+                "en": "A powerful tiny computer part specially built to run artificial intelligence programs, like the ones behind chatbots and smart assistants."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should powerful countries be allowed to stop other countries from buying advanced technology?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to control it"
+                  },
+                  "points": {
+                    "en": [
+                      "A country that invents something risky should get to decide how it's shared, just like you decide who borrows your things.",
+                      "Powerful technology can be used to build weapons or spy tools, so caution makes sense.",
+                      "Keeping some technology close to home can protect jobs and safety for the people who made it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it should be shared more freely"
+                  },
+                  "points": {
+                    "en": [
+                      "New technology can help everyone, like medicine or clean energy, so blocking it can hurt innocent people too.",
+                      "If one country hoards the best tools, it can create unfair gaps between rich and poor nations.",
+                      "Working together often leads to faster, safer progress than keeping secrets and blocking trade."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for lawmakers to make private company chip numbers public?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the public deserved to know"
+                  },
+                  "points": {
+                    "en": [
+                      "Citizens have a right to understand how their government's rules are actually being used.",
+                      "Being open can stop secret deals or mistakes from happening in the dark.",
+                      "If the rules matter this much for the world, people should be able to check if they're working."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it wasn't their information to share"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies trusted the government to keep their sensitive business details private.",
+                      "Releasing numbers suddenly can confuse markets and hurt a company's plans unfairly.",
+                      "Important decisions about sensitive information should be made carefully by many people, not just one committee leader."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Congressman Just Published Nvidia and AMD's Secret China Chip Numbers"
+          },
+          "hook": {
+            "en": "A US House committee led by Republican Brian Mast this week publicly released confidential data on how many licenses the government has approved for Nvidia and AMD to sell advanced AI chips to China. That kind of information is normally kept between the companies and regulators, so releasing it was itself the news. Nobody yet knows how many of those approved licenses actually turned into chips being shipped, and a widely repeated figure of nearly 900,000 approved chips traces back to a single state-funded outlet, which is worth keeping in mind."
+          },
+          "story": {
+            "en": [
+              "Export licenses are the government's permission slips for selling sensitive technology abroad. Nvidia and AMD make the most advanced chips used to train artificial intelligence, and because those chips can also help with things like weapons design and surveillance, the US government requires companies to get approval before selling the best ones to China. Normally, how many of these permission slips get approved, and for how much, stays confidential. This week, Representative Brian Mast used his authority under a law called the Export Control Reform Act to release that data anyway, making him the first official to put real numbers behind a policy that, until now, the public had only heard described in general terms.",
+              "What the data does not settle is whether approval led to delivery. A company can be granted permission to export chips without actually shipping them — plans change, customers back out, further restrictions get added. So while the released figures show what the government allowed, they do not show what actually crossed the Pacific. A separate, widely cited claim — that almost 900,000 AI chips were approved for export over a recent six-month stretch — comes from Al Jazeera, a news outlet funded by the government of Qatar. That does not make the number false, but a single state-funded source reporting a politically sensitive figure is exactly the kind of claim that deserves a second source before anyone treats it as settled fact.",
+              "Chinese companies are already adjusting to a tighter environment, regardless of the exact numbers. Alibaba, one of China's largest tech companies, has warned that stricter US export rules could affect its plans to expand its data centers — the giant warehouses of computers that power AI tools, online shopping, and cloud services — in various countries. That is a concrete business consequence: fewer or weaker chips reaching Chinese firms means slower construction of the infrastructure that modern AI depends on, a bottleneck that is hard to work around in the short term because only a handful of companies worldwide make chips this advanced.",
+              "This disclosure landed in the middle of a fast-moving string of events. Nvidia's chief executive, Jensen Huang, departed amid the controversy over chip licensing. The Commerce Department — the US agency that administers export rules — issued new restrictions tightening AI chip sales to China. And reports emerged that TSMC and Samsung, the two companies that actually manufacture the most advanced chips for Nvidia and AMD, were told to halt shipments of their best products to China altogether. Each of those was reported as a standalone move. What Mast's committee disclosure adds is the first real look at how restrictions that had only been announced in principle are actually being administered in practice — which licenses get approved, how many, and under what terms.",
+              "That distinction matters because export control policy often lives or dies in the gap between the rule on paper and how it is enforced. A strict-sounding rule administered loosely accomplishes little; a modest-sounding rule administered strictly can reshape an entire industry. By forcing license data into public view, the committee has handed outside observers — and rival companies, and foreign governments — a tool to check whether US policy is being carried out as strictly as officials claim, or more loosely than they'd like to admit."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips at the center of this fight are the same kind that power the AI tools increasingly built into phones, search engines, and school software, so decisions about who can buy them shape how fast AI spreads and who controls it. It also shows how a single member of Congress can force a secretive corner of government policy into public view, which affects how much any of us ever get to know about decisions made in our name."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Export license"
+              },
+              "def": {
+                "en": "Official government permission a company must get before selling certain sensitive technology, like advanced computer chips, to another country."
+              }
+            },
+            {
+              "term": {
+                "en": "Export Control Reform Act"
+              },
+              "def": {
+                "en": "A US law that gives Congress and government agencies the power to restrict and review the sale of sensitive technology to other countries."
+              }
+            },
+            {
+              "term": {
+                "en": "Data center"
+              },
+              "def": {
+                "en": "A large facility packed with powerful computers that stores information and runs the software behind things like AI tools, cloud storage, and online shopping."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US keep tightening restrictions on selling its most advanced AI chips to China?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Tighten restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "Advanced AI chips can be used to power military systems and mass surveillance, so limiting their flow to a rival government reduces security risks.",
+                      "If the US stays ahead in access to cutting-edge chips, it keeps leverage over how the technology develops globally, including safety standards.",
+                      "Once an adversary builds deep AI capability, it cannot easily be taken back, so caution now is cheaper than trying to reverse course later."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Ease restrictions"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking sales costs American companies enormous revenue, which funds the research needed to stay ahead in the first place.",
+                      "Export bans often accelerate the target country's push to build its own domestic chip industry, which could erode the advantage the US is trying to protect.",
+                      "Global supply chains are deeply interconnected, and heavy-handed restrictions can damage trust with allied manufacturers like TSMC and Samsung who are caught in the middle."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for a member of Congress to unilaterally release confidential company export data to the public?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Right to release it"
+                  },
+                  "points": {
+                    "en": [
+                      "The public and other lawmakers can't properly debate export policy if the actual numbers behind it stay hidden from everyone but regulators.",
+                      "Companies and agencies sometimes prefer secrecy because it shields them from scrutiny, not because the information is genuinely too sensitive to share.",
+                      "Elected officials are accountable to voters precisely so they can push back when they think government processes are too opaque."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wrong to release it"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies share sensitive business data with regulators on the understanding it stays confidential, and breaking that trust could make firms less cooperative in future.",
+                      "A single committee chair deciding unilaterally to release sensitive data sets a precedent that could be used for political point-scoring rather than genuine oversight.",
+                      "Partial data released without full context can be misread or weaponized, potentially causing market or diplomatic harm disproportionate to any benefit."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
