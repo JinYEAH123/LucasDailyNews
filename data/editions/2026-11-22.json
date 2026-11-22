@@ -1,0 +1,791 @@
+{
+  "date": "2026-11-22",
+  "window": {
+    "start": "2026-11-21T12:00:00-07:00",
+    "end": "2026-11-22T12:00:00-07:00",
+    "label": {
+      "en": "News from Saturday 12:00 PM to Sunday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-22T12:29:26-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "science",
+      "region": "GLOBAL",
+      "source": {
+        "title": "COP31 Summit Collapses in Fossil Fuel Failure",
+        "publisher": "CNN",
+        "url": "https://www.cnn.com/2026/11/22/climate/cop31-summit-collapses-in-fossil-fuel-failure"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "COP31 Climate Talks Close in Disappointment"
+          },
+          "summary": {
+            "en": "NPR's account of the walkout adds detail on how negotiators from island nations described the stakes of failure. It also traces the diplomatic sequence that led to the final collapse over the weekend."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+        },
+        {
+          "title": {
+            "en": "COP31 Negotiations Break Down as Countries Fail to Agree on Climate Deal"
+          },
+          "summary": {
+            "en": "The Washington Post lays out exactly which countries blocked the fossil-fuel language and why, naming the key blocs on each side. Useful for readers who want the diplomatic mechanics behind the single-sentence dispute that sank the summit."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/climate-environment/2026/11/22/cop31-negotiations-break-down-countries-fail-agree-climate-deal/"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "World Leaders Argued for Two Weeks — Then Walked Away With No Deal"
+          },
+          "hook": {
+            "en": "Almost 200 countries met for over two weeks to agree on how to fight climate change. They could not agree on one thing: whether to write the words 'coal, oil, and gas' into their final plan. In the end, countries walked out, and no deal was signed at all."
+          },
+          "story": {
+            "en": [
+              "Every year, nearly 200 countries — almost every country on the map — meet to talk about climate change, the warming of our planet. This year's meeting was called COP31, held in a city named Antalya in Turkey. It lasted more than two weeks, longer than any of these meetings in history.",
+              "The big argument was about words. Countries in the European Union, plus small island nations like Tuvalu and the Maldives, wanted the agreement to clearly name coal, oil, and gas as the main cause of global warming. Island nations care deeply because rising seas could one day cover parts of their homes.",
+              "Other countries, especially ones that make lots of money selling oil and gas, did not want those exact words written down. When the talks could not settle this, the EU and island nations walked out rather than sign a weaker deal.",
+              "No final agreement was reached. This is the first time a meeting like this has broken down completely since 2009 — sixteen years ago, before most kids today were even born."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The weather you grow up with — hotter summers, bigger storms, less snow some winters — is shaped by decisions like this one. When countries can't agree on fighting climate change together, it can take longer to slow down the warming that affects everyone's future, including yours."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "COP"
+              },
+              "def": {
+                "en": "COP stands for 'Conference of the Parties' — it's the yearly meeting where almost every country in the world talks about climate change."
+              }
+            },
+            {
+              "term": {
+                "en": "Fossil fuels"
+              },
+              "def": {
+                "en": "Fossil fuels are coal, oil, and gas — old plant and animal remains burned for energy, which release gases that warm the planet."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should countries refuse to sign a deal unless it says exactly what they believe, even if that means no deal happens at all?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, stand firm"
+                  },
+                  "points": {
+                    "en": [
+                      "If the words are too soft, the deal might not actually fix the real problem.",
+                      "Signing a weak agreement could make people feel like something was solved when it wasn't.",
+                      "Standing firm might push other countries to take the problem more seriously next time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, compromise instead"
+                  },
+                  "points": {
+                    "en": [
+                      "A weaker deal that everyone signs might still help more than no deal at all.",
+                      "Walking away means years go by with no agreed plan, which can be worse for everyone.",
+                      "Sometimes small first steps lead to bigger changes later on."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for countries to protect their own oil and gas businesses, even if it slows down a global climate deal?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Those countries' jobs and economies depend on selling oil and gas right now.",
+                      "Changing too fast could hurt regular workers and families in those countries.",
+                      "Every country has a right to think about its own people's needs first."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not fair"
+                  },
+                  "points": {
+                    "en": [
+                      "Climate change affects everyone, not just the countries selling fossil fuels.",
+                      "Island nations could lose their homes to rising seas through no fault of their own.",
+                      "Protecting one country's profits over the whole planet's safety seems unbalanced."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "The World's Biggest Climate Summit Just Fell Apart"
+          },
+          "hook": {
+            "en": "After more than two weeks of talks in Antalya, Turkey, the United Nations climate summit known as COP31 collapsed on Sunday without a deal. Nearly 200 countries walked away with no new global agreement on fighting climate change — only the second time that has happened since these summits began in the 1990s. The fight that broke it came down to a single question: should the final document say, in plain words, that burning coal, oil and gas is causing global warming?"
+          },
+          "story": {
+            "en": [
+              "Every year, almost every country on Earth sends negotiators to a UN summit called a COP — short for 'Conference of the Parties' — to hash out a shared response to climate change. This year's version, held in the Turkish coastal city of Antalya, ran for more than two weeks, making it the longest COP ever held. It ended the way nobody wanted: with no agreement at all. The last time a COP collapsed this badly was in Copenhagen in 2009, a failure so notorious it is still used as the textbook example of what happens when these talks go wrong.",
+              "The breaking point was wording, which sounds small until you understand what it actually controls. The European Union and a group of small island nations — countries like Fiji and the Maldives, which face losing land to rising seas — refused to accept a final text that did not explicitly name fossil fuels as the cause of global warming. Oil- and gas-producing countries, whose economies depend on selling those fuels, pushed back against including that language at all. When neither side would budge, the EU and the island states walked out rather than sign a watered-down version.",
+              "Why fight so hard over a sentence? Because the wording of a COP agreement becomes a reference point for years afterward — cited in national laws, used as leverage in court cases, quoted by activists and by oil companies alike. A text that avoids saying fossil fuels caused the crisis gives cover to any government that wants to keep expanding coal, oil, and gas production while still claiming to take climate change seriously. A text that names them directly makes that much harder to do without looking like you are ignoring the agreed cause of the problem.",
+              "UN climate summits work by consensus, meaning every single country attending has to agree before anything becomes official — there is no outvoting a reluctant minority. That rule exists to make sure small or poor nations cannot simply be overruled by powerful ones, but it also means a handful of determined holdouts can block a deal entirely, which is effectively what happened here.",
+              "The practical result is that there is no updated international plan for moving the world away from fossil fuels heading into 2027, when the next major summit is expected. Earlier commitments made at previous COPs still technically stand, but the push to strengthen them has stalled for at least another year. For a problem that scientists say is getting worse every year it goes unaddressed, a year lost to a stalemate over language is not a neutral outcome — it is a year without new pressure on the countries and companies producing the most emissions.",
+              "This is only the second time in the history of these summits that talks have broken down this completely, and it raises an uncomfortable question that will follow the process into its next round: if a single bloc can block any deal it dislikes, and that has now happened twice, is consensus-based diplomacy still capable of handling a crisis that does not wait for everyone to agree?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "The arguments in Antalya were about more than wording — they were about whether the world keeps building its energy, jobs, and future industries around coal, oil, and gas, or shifts toward alternatives, and how fast. That decision shapes the climate you will be living in as an adult, the kinds of jobs that exist in energy and manufacturing, and whether promises made by governments today translate into anything binding tomorrow."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "COP"
+              },
+              "def": {
+                "en": "Short for 'Conference of the Parties,' it is the annual UN summit where almost every country negotiates its response to climate change."
+              }
+            },
+            {
+              "term": {
+                "en": "Consensus"
+              },
+              "def": {
+                "en": "The rule that every single country attending a UN climate summit must agree before any text becomes official, meaning one determined holdout can block the whole deal."
+              }
+            },
+            {
+              "term": {
+                "en": "Bloc"
+              },
+              "def": {
+                "en": "A group of countries that negotiate together because they share a common position, such as small island nations facing rising seas."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should UN climate summits require every country to agree before anything becomes official, or should a majority vote be enough?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Keep unanimous consensus"
+                  },
+                  "points": {
+                    "en": [
+                      "It stops powerful countries from simply outvoting and overruling smaller or poorer nations that have less at stake economically.",
+                      "Agreements reached by consensus tend to have broader genuine buy-in, since no country can claim it was forced into something it never accepted.",
+                      "Climate policy depends heavily on voluntary follow-through, and countries are far more likely to actually implement a deal they helped shape than one imposed on them."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Move to majority voting"
+                  },
+                  "points": {
+                    "en": [
+                      "A single bloc has now blocked global progress twice in fifteen years, which suggests the current rule cannot keep pace with how urgent the problem is.",
+                      "Majority voting would stop the weakest possible wording from becoming the default outcome every time one country objects.",
+                      "Other high-stakes international bodies manage to function with voting thresholds short of total unanimity, so the model is not unprecedented."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Was it right for the EU and island nations to walk away rather than sign a weaker deal?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Walking out was the right call"
+                  },
+                  "points": {
+                    "en": [
+                      "Signing a document that avoids naming fossil fuels would have given political cover to countries planning to keep expanding coal, oil, and gas production.",
+                      "Precedent matters: once a weak text is accepted, it becomes the new baseline for every future negotiation.",
+                      "Refusing to compromise on this point sends a signal that may strengthen their negotiating position before the next summit."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "They should have accepted an imperfect deal"
+                  },
+                  "points": {
+                    "en": [
+                      "Walking out meant losing not just the fossil fuel language but every other provision in the text, including funding for countries most affected by climate disasters.",
+                      "A flawed agreement with some progress is still progress, whereas no agreement guarantees zero progress for at least another year.",
+                      "Treating one sentence as non-negotiable risks letting the perfect become the enemy of the achievable in a negotiation already this fragile."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "AI Stocks Sink as Anthropic, Nvidia Lead Market Jitters",
+        "publisher": "NPR",
+        "url": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "China's $1.7 Trillion AI Rout Turns Hot Trade Into Losing Bet"
+          },
+          "summary": {
+            "en": "Bloomberg tallies the scale of the parallel selloff in Chinese AI stocks, showing the rout is not confined to Wall Street. It gives the specific index-level losses behind the single headline figure."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-22/china-s-1-7-trillion-ai-rout-turns-hot-trade-into-losing-bet"
+        },
+        {
+          "title": {
+            "en": "Stock Market Today: Nasdaq Logs Worst Week Since Covid Crash"
+          },
+          "summary": {
+            "en": "Yahoo Finance's live markets coverage walks through the day-by-day mechanics of the week's slide, including how Anthropic's shares moved relative to the broader Nasdaq decline. It is independently owned from the other outlets used here, giving a separate read on the same numbers."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-19-dow-sp-500-nasdaq-anthropic-nvidia-141644188.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Computer-Brain Companies Have a Very Wobbly Week on the Stock Market"
+          },
+          "hook": {
+            "en": "Last week, a group of American tech stocks called the Nasdaq dropped about 10 percent in just five days. That's the worst week for these stocks since March 2020, when the whole world was shutting down because of COVID-19. The drop came right after a company called Anthropic, which builds AI chatbots, sold pieces of itself to the public for the first time ever, in the biggest sale of its kind in history."
+          },
+          "story": {
+            "en": [
+              "Imagine a company is like a giant pizza. An 'IPO' is when the company cuts itself into slices and sells those slices to anyone who wants to own a piece. Anthropic did this last week. People paid so much for their slices that the whole pizza was suddenly worth about $1.8 trillion. That is more money than most countries make in a whole year.",
+              "At first, people got excited and the price of Anthropic's slices jumped up fast. But then investors, the people who buy and sell these slices, started worrying that AI companies might be worth way more on paper than they really are. So lots of people tried to sell their slices at the same time. That pushed prices down hard, not just for Anthropic but for tech stocks everywhere.",
+              "The wobble jumped across the ocean too. Stocks linked to AI companies in China lost a combined $1.7 trillion in value since the end of June. Picture every single toy, book, and video game owned by every kid in a huge country, and then imagine all of that just vanishing in value. That's roughly the size of the number we're talking about.",
+              "Nobody agrees on what this means. Some experts think this is the start of an 'AI bubble' popping, where excitement over AI pushed prices too high and now reality is catching up. Others think it's just a scary but temporary dip, since companies are still spending huge amounts of money building AI computers and data centers for the future."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Lots of grown-ups have money saved up for the future in things called retirement funds, and a chunk of that money is often invested in tech stocks like these. When stock prices fall a lot, it can mean that saved-up money shrinks too, even for people who never bought a single share themselves. It also matters because AI chatbots and tools are becoming part of schools, jobs, and apps you might already use, so how healthy those companies are can shape what gets built next."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "IPO"
+              },
+              "def": {
+                "en": "IPO stands for 'initial public offering' — it's the very first time a company sells small pieces of itself, called shares, so that anyone can own a tiny bit of it."
+              }
+            },
+            {
+              "term": {
+                "en": "bubble"
+              },
+              "def": {
+                "en": "In money talk, a 'bubble' is when the price of something shoots up because of excitement rather than its real value, and people worry it could pop and crash back down, like a soap bubble bursting."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it a good thing that people paid so much money so fast for Anthropic's shares, making it worth $1.8 trillion in days?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's exciting"
+                  },
+                  "points": {
+                    "en": [
+                      "It shows people believe AI technology will keep changing the world in big, useful ways.",
+                      "When a company grows fast, it can hire more people and build more things that help everyone.",
+                      "Betting early on new ideas is how some of the biggest inventions in history got the money to grow."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's worrying"
+                  },
+                  "points": {
+                    "en": [
+                      "A company being worth that much before it has proven it can make steady profit is a big risk.",
+                      "When prices rise only because everyone's excited, they can also fall just as fast when the mood changes.",
+                      "Huge, fast price jumps can make it harder for regular people to tell what something is really worth."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When stock markets suddenly drop like this, should people who don't own any stocks still worry about it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it affects everyone"
+                  },
+                  "points": {
+                    "en": [
+                      "Many people's retirement savings are tied up in the stock market without them actively trading it themselves.",
+                      "Companies that lose a lot of value sometimes cut jobs, which can affect families who never bought a single share.",
+                      "Big market wobbles can be a warning sign about the wider economy, which touches prices and jobs for everyone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's mainly an investor problem"
+                  },
+                  "points": {
+                    "en": [
+                      "Most of the money lost belongs to investors who chose to take that risk, not to ordinary families.",
+                      "Markets go up and down often, and many dips recover before they touch everyday life at all.",
+                      "People who don't own stocks and don't work in those industries may genuinely feel no difference in their daily lives."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Tech Stocks Just Had Their Worst Week Since the Pandemic Crashed Markets"
+          },
+          "hook": {
+            "en": "The Nasdaq, the stock exchange where most big tech and AI companies list their shares, fell about 10% in a single week — its steepest drop since markets panicked at the start of COVID-19 in March 2020. The slide came right after Anthropic, an AI company, pulled off the biggest stock market debut in history, only to watch its share price nearly give back all its gains within days. The shakiness spread to China too, where AI-related stocks have lost a combined $1.7 trillion in value since the summer."
+          },
+          "story": {
+            "en": [
+              "For the past two years, AI companies have been treated by investors almost like a sure thing: pour money in, and the returns will follow, because AI is going to reshape every industry. That belief pushed stock prices for AI-linked companies to levels that assume years of near-perfect growth. This past week, a lot of investors suddenly asked themselves whether that assumption still holds — and started selling.",
+              "The clearest symbol of the mood swing is Anthropic, the company behind the Claude AI chatbot. It had just completed the largest initial public offering (IPO) ever recorded — an IPO is when a private company sells shares to the public for the first time, turning itself into a company anyone can buy stock in. Anthropic raised more than $81 billion this way, and briefly carried a total value of around $1.8 trillion, overtaking SpaceX as the most valuable company to go public. Its stock jumped 17% on day one. But by the end of the week it had slumped more than 8%, landing back close to where it started — a sign that the initial excitement had outrun what buyers were actually willing to pay once they thought it over.",
+              "That wobble didn't stay contained to one company. The Nasdaq, which is the exchange where most major tech and AI firms are listed, dropped roughly 10% over the week — a fall of a size not seen since the early days of the pandemic, when the entire global economy seemed to be shutting down at once. This time there's no virus, no lockdown, no obvious external shock. The drop was investors themselves getting nervous about something they'd built: years of enormous spending on AI infrastructure — the data centres, computer chips, and power supplies needed to run AI systems — on a bet that the profits to match will eventually arrive.",
+              "The nervousness crossed the Pacific. Three major Chinese stock indexes focused on technology have lost a combined $1.7 trillion in value since the end of June, according to data reported by Bloomberg. That is a reminder that this isn't just an American story: investors worldwide had piled into AI-related stocks on both sides of the US-China rivalry, and both sides are now feeling the same chill.",
+              "Where analysts split is on what this actually means. Some think this is the start of the AI bubble finally deflating — a correction where prices fall back toward what the underlying businesses are actually worth, the same way the dot-com boom of the late 1990s eventually gave way to a crash once investors realised many internet companies weren't profitable and might never be. Others argue this is just a sharp, temporary wobble inside a boom that still has years to run, pointing out that the heavy spending on AI infrastructure is real and ongoing, not speculative hype divorced from anything being built. Nobody disagrees that a huge amount of money is riding on AI living up to its promise — the disagreement is about timing and whether the promise is overstated."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you have a pension, a parent with a retirement account, or even just a phone made by a company whose stock is tied up in this, swings like this week's eventually touch ordinary people, not just traders. A genuine AI bubble bursting could mean job losses at tech companies and a chillier climate for the AI tools now showing up in schools, workplaces, and apps you already use."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Nasdaq"
+              },
+              "def": {
+                "en": "A major U.S. stock exchange where most big technology and AI companies sell their shares to investors."
+              }
+            },
+            {
+              "term": {
+                "en": "IPO (initial public offering)"
+              },
+              "def": {
+                "en": "The first time a company sells shares to the public, turning from a private business into one that anyone can buy a piece of on the stock market."
+              }
+            },
+            {
+              "term": {
+                "en": "Valuation"
+              },
+              "def": {
+                "en": "The total worth investors place on a company, calculated by multiplying its share price by the number of shares that exist."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is this week's drop the start of an AI bubble bursting, or just a sharp correction inside a boom that's still fundamentally sound?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "This is a bubble deflating"
+                  },
+                  "points": {
+                    "en": [
+                      "Stock prices for AI companies assumed years of near-perfect growth, and that kind of pricing rarely survives contact with reality.",
+                      "Anthropic's stock giving back nearly all its debut gains within days suggests buyers themselves don't fully believe the hype once they think it through.",
+                      "History offers a close parallel: the dot-com crash also followed years of investors assuming the internet would make almost any related company wildly profitable."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "This is a healthy correction, not a collapse"
+                  },
+                  "points": {
+                    "en": [
+                      "The spending driving AI valuations is going into real infrastructure — chips, data centres, power — not speculative promises with nothing behind them.",
+                      "One bad week after a historic IPO run doesn't prove the underlying technology or business models are flawed.",
+                      "Markets regularly overshoot and correct without it signalling the end of a broader trend; the dot-com era also produced Amazon and Google, which thrived long after the crash."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should companies keep pouring enormous sums into AI infrastructure even though this week shows how fast that bet can look shaky?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, keep spending"
+                  },
+                  "points": {
+                    "en": [
+                      "Falling behind now in AI infrastructure could mean permanently losing ground to competitors, since building data centres and chip supply chains takes years, not months.",
+                      "Stock market swings reflect investor mood day to day, not necessarily whether the technology itself will pay off over a decade.",
+                      "Most transformative technologies — railroads, the internet — went through painful overbuilding phases before the useful parts of that infrastructure proved their worth."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, slow down"
+                  },
+                  "points": {
+                    "en": [
+                      "Spending heavily on a technology before its profits are proven risks wasting resources that could go toward more certain needs.",
+                      "When valuations are this disconnected from current earnings, a correction can wipe out jobs and savings well beyond the companies directly involved.",
+                      "Betting an entire industry's capital on an assumption that may not hold concentrates risk in a way that makes any eventual stumble much more painful."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Princeton Neuroscientist Eva Yi Xie Detained by ICE",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/news/us-news/princeton-neuroscientist-eva-yi-xie-ice-detained-rcna610603"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Princeton Student Detained by ICE at DC Airport Is Being Held in Virginia"
+          },
+          "summary": {
+            "en": "The Washington Post confirms the detention facility and adds comment from Princeton University officials responding to a student's arrest. It also lays out the timeline of her original entry to the U.S. as a teenager."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/dc-md-va/2026/11/20/princeton-student-detained-by-ice-dc-airport-is-being-held-virginia/"
+        },
+        {
+          "title": {
+            "en": "Princeton PhD Student Detained by ICE After Conference"
+          },
+          "summary": {
+            "en": "CBS News' local coverage adds detail from Xie's academic colleagues and the circumstances of her return flight. It corroborates the core facts from an outlet independent of NBC and the Post."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/philadelphia/news/princeton-student-ice/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Princeton PhD Student From China Detained by ICE After Academic Conference"
+          },
+          "summary": {
+            "en": "The South China Morning Post, a Hong Kong outlet owned by Alibaba, covers the case with more emphasis on the China-side reaction and diaspora concern; its framing should be read alongside the U.S. outlets rather than on its own. It adds detail on how the case is being discussed among Chinese students in the U.S."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3375301/princeton-phd-student-china-detained-ice-after-academic-conference"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Student Who Studies Brains Gets Stopped at the Airport"
+          },
+          "hook": {
+            "en": "Eva Yi Xie studies how brains work at Princeton University. She had just given a talk at a science conference and was flying home when immigration officers stopped her at the airport. Now she is locked in a detention centre, even though she has been waiting ten years for the government to decide if she can stay in the US."
+          },
+          "story": {
+            "en": [
+              "Eva Xie came to the United States when she was 14 years old. Her family asked for 'asylum,' which means asking a country for protection because it isn't safe to go home. That was ten years ago, and the government still hasn't given a final answer.",
+              "While she waited, Eva grew up, went to university, and became a PhD student studying neuroscience, which is the science of how brains work. She was flying back from a conference where scientists share new discoveries when officers from ICE, a government agency that enforces immigration rules, stopped her at Reagan Airport near Washington, D.C.",
+              "The government says she was in the country illegally and that stopping her was part of a planned operation. Her lawyer disagrees completely. The lawyer says Eva had official permission to live, study, and work in the US while her asylum case was still being decided.",
+              "Right now, Eva is being held at a detention facility in Virginia, a kind of locked building for people waiting on immigration decisions. People in the US and in Hong Kong and Chinese-language news are both talking about her case, but for different reasons — some see it as part of stricter enforcement on university campuses, others as part of a bigger pattern affecting people from China."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine waiting ten years for someone to answer a very important question about your life — and then getting stopped and locked up before you even get the answer. Eva's case shows how messy and slow some rules can be, and how that slowness can hurt real people who are just trying to study, work, and build a life."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Asylum"
+              },
+              "def": {
+                "en": "Asylum is permission a country can give to someone who says it isn't safe for them to return to their home country."
+              }
+            },
+            {
+              "term": {
+                "en": "ICE"
+              },
+              "def": {
+                "en": "ICE stands for Immigration and Customs Enforcement, a US government agency that checks whether people are allowed to be in the country."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it fair for officers to detain Eva at the airport while her case was still waiting for an answer?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, rules need enforcing"
+                  },
+                  "points": {
+                    "en": [
+                      "Rules about who can stay in a country need to be checked somewhere, and airports are a normal place to do that.",
+                      "Officials say she did not have the right paperwork, and officers were following an official operation.",
+                      "If enforcement only happens after years of waiting, people could use long delays to avoid ever being checked."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it wasn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "She waited ten years through no fault of her own — the slow decision wasn't something she caused.",
+                      "Her lawyer says she had official permission to live, study, and work while her case was still open.",
+                      "Locking her up punishes her before anyone has even decided whether she broke a rule."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should being a university student change how someone is treated by immigration officers?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, students deserve special care"
+                  },
+                  "points": {
+                    "en": [
+                      "Pulling a student out of years of research disrupts work that took a long time to build.",
+                      "Travelling to conferences is a normal part of being a scientist, and punishing that could scare other students away from going.",
+                      "Countries benefit from keeping talented students and researchers, so treating them harshly might push them to leave."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the same rules should apply to everyone"
+                  },
+                  "points": {
+                    "en": [
+                      "Immigration rules are about a person's legal status, not about what job or degree they have.",
+                      "Giving students special treatment could be unfair to other people facing the exact same rules.",
+                      "Clear, consistent rules work better than different treatment depending on who someone is."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Princeton PhD Student Was Detained at the Airport After Flying Home From a Conference — Here's Why Her Case Is Making News"
+          },
+          "hook": {
+            "en": "Eva Yi Xie, a Princeton University neuroscience PhD student who came to the U.S. from China at age 14, was detained by immigration agents the moment she landed back in Washington, D.C., after presenting her research at an academic conference. She has had an asylum application — a request for legal protection because she fears returning to her home country — pending for a decade. The government says she was in the country illegally; her lawyer says she had every right to be there while her case was reviewed."
+          },
+          "story": {
+            "en": [
+              "Eva Yi Xie had just flown back from an academic conference, the kind of trip PhD students take constantly to present their research to other scientists. Instead of heading home, she was stopped at Reagan National Airport in Washington, D.C., by officers from Immigration and Customs Enforcement, usually called ICE — the federal agency that finds and detains people the government believes are in the country without legal permission. She is now being held at the Caroline Detention Facility, an immigration jail in Bowling Green, Virginia.",
+              "Xie's situation turns on a single disputed fact: whether she had the right to be in the U.S. at all. She arrived with her family as a teenager and applied for asylum, a legal process that lets someone stay in the country while the government decides whether they qualify for protection from danger in their home country. Her case has been sitting unresolved for ten years — not an unusual wait, since the U.S. asylum system has a backlog of well over a million cases. Her attorney says that during all that time, an asylum application gave her lawful permission to live, work, and study in the country, including traveling to conferences and coming home again.",
+              "The Department of Homeland Security, which oversees ICE, tells a different story. A spokesperson said Xie was in the U.S. illegally and that she was picked up as part of a 'targeted immigration enforcement operation' — language the government uses for planned actions against specific people, rather than random checks. That phrase matters: it suggests officials already had her name and address before she landed, not that she was swept up by chance. Neither side has published the paperwork that would settle exactly what her legal status was at the moment of arrest.",
+              "The case has become a flashpoint for a larger argument already underway in the United States: how aggressively immigration law should be enforced against people connected to universities, including international students and researchers who form a large share of graduate programs in fields like neuroscience. Some of this debate is about enforcement tactics — arresting someone returning from a work conference, rather than at a routine check-in, reads to critics as deliberately disruptive. Supporters of stricter enforcement counter that a pending application is not the same as a guaranteed right to stay, and that the government is entitled to act once it decides someone's status has lapsed or was never valid.",
+              "The story has also traveled widely in Chinese-language and Hong Kong media, where it's being read alongside other recent cases involving Chinese nationals in the U.S. — a pattern that commentators there link to rising political tension between Washington and Beijing over trade, technology, and security. American outlets have focused more narrowly on what it means for university life, where a growing number of foreign-born researchers now wonder whether leaving the country for work, even briefly, carries a new kind of risk."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If you know anyone studying at a university — a cousin, a family friend, a future version of yourself — this is the system they'd be depending on if they came from another country: one where a decade-long wait for a decision can end with a sudden detention at an airport. It's also a reminder that laws can be read two different ways by the people meant to enforce them and the people meant to follow them, and that the gap between those readings can cost someone their freedom while it gets sorted out."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Asylum"
+              },
+              "def": {
+                "en": "Legal protection a country can grant to someone who shows they would be in danger if sent back to their home country."
+              }
+            },
+            {
+              "term": {
+                "en": "ICE (Immigration and Customs Enforcement)"
+              },
+              "def": {
+                "en": "The U.S. federal agency responsible for finding, arresting, and deporting people believed to be in the country without legal permission."
+              }
+            },
+            {
+              "term": {
+                "en": "Detention facility"
+              },
+              "def": {
+                "en": "A jail-like building where people are held by immigration authorities while their legal status or case is being decided."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should people with a pending asylum application be allowed to stay free while the case is decided, or can the government detain them if it believes their status has become invalid?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Presumption of freedom"
+                  },
+                  "points": {
+                    "en": [
+                      "A pending application means the legal process isn't finished, so punishing someone as if they've already lost is unfair.",
+                      "Detention disrupts work, school, and family life for people who may ultimately be found to have every right to stay.",
+                      "Long government backlogs are the state's failure, not the applicant's, so the applicant shouldn't bear the cost of delay."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Government discretion"
+                  },
+                  "points": {
+                    "en": [
+                      "Immigration status can change over a ten-year wait, and officials need the power to act quickly if they believe it has.",
+                      "Letting every pending case guarantee indefinite freedom could be exploited by people who have no real claim to asylum.",
+                      "Enforcement only works if agencies can act on their own assessment, rather than waiting for every appeal to finish first."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should universities be able to shield their international students and researchers from immigration enforcement while they're on university business, or does that put some people above the law?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Protect academic life"
+                  },
+                  "points": {
+                    "en": [
+                      "Research and conferences are core university work, and arresting someone returning from one disrupts an entire institution's mission, not just one person.",
+                      "Universities depend on international talent, and unpredictable enforcement makes it harder to attract the researchers who drive scientific progress.",
+                      "Treating a campus or academic trip as protected space prevents enforcement actions from becoming a tool of intimidation against a specific community."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Equal enforcement"
+                  },
+                  "points": {
+                    "en": [
+                      "Immigration law applies to everyone regardless of job or school, and carving out exceptions for universities creates an uneven system.",
+                      "If status disputes are real, resolving them matters more than protecting the convenience of any one profession or institution.",
+                      "Special protections for academics could be seen as privileging one group of immigrants over others doing equally important work."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
