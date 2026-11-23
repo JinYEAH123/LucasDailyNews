@@ -1,0 +1,809 @@
+{
+  "date": "2026-11-23",
+  "window": {
+    "start": "2026-11-22T12:00:00-07:00",
+    "end": "2026-11-23T12:00:00-07:00",
+    "label": {
+      "en": "News from Sunday 12:00 PM to Monday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-23T14:16:52-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "US",
+      "source": {
+        "title": "Nvidia reinstates Jensen Huang as CEO",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia reinstates Jensen Huang as CEO"
+          },
+          "summary": {
+            "en": "Yahoo Finance's rundown adds detail on the board's reversal and what directors said about why they changed course. Useful for readers who want the corporate-governance mechanics behind the headline."
+          },
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-reinstates-jensen-huang-ceo-140721418.html"
+        },
+        {
+          "title": {
+            "en": "US stocks rebound"
+          },
+          "summary": {
+            "en": "CNN's markets report quantifies just how big Monday's rally was across the Dow, Nasdaq and Nvidia stock specifically. It helps readers grasp the scale of the one-day swing triggered by the reinstatement news."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl"
+        },
+        {
+          "title": {
+            "en": "US seeks answers on Nvidia's sale of chips to China, Bessent says"
+          },
+          "summary": {
+            "en": "This explains the separate US Treasury inquiry into Nvidia's China chip sales that is running alongside the Huang scandal. Note: SCMP is owned by Alibaba and often reads sympathetically toward Beijing's framing, so treat its angle as one side of the story, not the full picture."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Chip Company Boss Loses Job, Gets It Back Six Days Later — And Stock Markets Go Wild"
+          },
+          "hook": {
+            "en": "Jensen Huang runs Nvidia, a company that makes the tiny computer chips used in video games and artificial intelligence. He had to step down after serious accusations were made about him. Then, just six days later, Nvidia's board of directors brought him right back — and the news made stock markets jump all over the world."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes computer chips — small pieces of electronics that power video games, smartphones, and the artificial intelligence (AI) that runs things like chatbots. Jensen Huang helped start Nvidia more than 30 years ago and has led it ever since. He is one of the most famous bosses in the business world.",
+              "Eleven days before this story, Huang resigned after serious accusations came out, including a claim that he had secretly been in a relationship with someone connected to China's spy agency. China's government says that claim is not true. At the same time, several US government agencies were separately checking whether Nvidia had followed the rules about selling its chips to China.",
+              "Just six days after he left, Nvidia's board of directors — the group of people who make the company's biggest decisions — voted to bring Huang straight back as boss. Every single person on the board agreed, which almost never happens with a decision this big.",
+              "Investors, the people who buy tiny pieces of companies called shares, were thrilled. Nvidia's own share price jumped more than 30% in a single day. Big stock market measures like the Dow Jones and the Nasdaq jumped too, making it one of the best days for American stock markets in years."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips power so much of the technology you might use or see — video game consoles, phones, and the AI tools grown-ups use at work — so what happens to its boss can ripple out and touch jobs and products far beyond Nvidia itself. It's also a reminder that serious accusations against someone can take a long time to fully sort out, even when a big company makes its decision in days."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "The person in charge of running a company day to day; it stands for Chief Executive Officer."
+              }
+            },
+            {
+              "term": {
+                "en": "stock market"
+              },
+              "def": {
+                "en": "A place where people buy and sell small pieces of companies, called shares, and the prices go up or down depending on how much people trust the company will do well."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should Nvidia's board have brought Jensen Huang back so quickly, before the investigations into the accusations were finished?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Bring him back"
+                  },
+                  "points": {
+                    "en": [
+                      "He hasn't been proven to have done anything wrong, so treating him as guilty isn't fair.",
+                      "The company needed steady leadership, and staying uncertain for a long time could hurt everyone who works there.",
+                      "Investigations can keep going even while he's back doing his job."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait longer"
+                  },
+                  "points": {
+                    "en": [
+                      "Accusations this serious, especially ones touching national security, deserve to be sorted out first.",
+                      "Bringing someone back so fast might send the message that money matters more than finding out the truth.",
+                      "It could seem unfair to other workers, who might be expected to wait if they were accused of something serious."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair that news about one company's boss made stock markets jump so much, affecting the savings of millions of people who have never even heard of him?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "It makes sense"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders really do affect how well a company is run, so investors reacting to the news is reasonable.",
+                      "Nvidia's chips are used by so many other companies that its success affects many jobs and products.",
+                      "Stock markets are built to show quickly how much trust people have in a company, and this showed trust coming back."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "It's too much"
+                  },
+                  "points": {
+                    "en": [
+                      "It seems strange that one person's personal troubles can move so much money in a single day.",
+                      "People with no connection to Nvidia still felt the effects on their own savings or retirement money.",
+                      "It shows how shaky the whole financial system can be over news about just one person."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Nvidia's CEO Was Fired, Then Rehired Six Days Later — and Wall Street Erupted"
+          },
+          "hook": {
+            "en": "Nvidia's board of directors reinstated Jensen Huang as president and CEO on Monday, just six days after the company's chair said he would not be coming back. Huang had resigned eleven days earlier over an alleged affair, including a claim — denied by Beijing — that the other person was a Chinese intelligence operative, while the SEC, the Department of Justice, and the FBI were separately investigating the company. The moment his return was announced, stocks across the market jumped, with Nvidia's own share price rising more than 30% in a single day."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang has run Nvidia since 1993, long before most people had heard of it, and he built it into the company that makes the chips powering almost every major artificial intelligence system in the world — the kind of role where losing him doesn't just change an org chart, it changes what investors think the entire AI boom is worth. Eleven days before his reinstatement, he resigned after reports surfaced of an extramarital affair, with one allegation claiming the other person was a suspected Chinese intelligence operative — someone working to gather information on behalf of the Chinese government. China's government has denied this. At the same time, Nvidia was already facing separate scrutiny from the Securities and Exchange Commission (SEC, the US agency that polices publicly traded companies for fraud and disclosure violations), the Department of Justice, and the FBI.",
+              "Six days after Huang resigned, Nvidia's board chair publicly said directors had no intention of bringing him back — about as final a statement as a company can make about a departed CEO. Then, on Monday, the full board unanimously reversed course and reinstated him, effective immediately. That kind of whiplash is rare. Boards usually take weeks or months to even discuss a CEO's return, let alone reverse a public statement that firmly within less than a week, and the fact that it happened unanimously suggests something — pressure from shareholders, fear of losing Huang to a competitor, or a judgment that the allegations wouldn't hold up — shifted hard and fast behind closed doors.",
+              "The market's reaction was its own kind of headline. The Dow Jones Industrial Average, a measure of 30 large US companies' stock prices, jumped more than 1,400 points, about 3%. The Nasdaq Composite, an index weighted heavily toward technology companies, rallied almost 6.5%. Nvidia's own stock rose more than 30% in a single trading day — a move so large for a company of its size that it helped make the day Wall Street's best since April 2025. That reaction tells you how much of the stock market's recent gains are tied to a handful of AI-related companies, and how much investors had been treating Huang personally as essential to Nvidia's value, almost as if the company and the man were the same asset.",
+              "The scandal isn't only personal — it's tangled up with US-China tension over computer chips. Nvidia's most advanced chips are powerful enough that the US government restricts which ones can be sold to China, worried they could be used to build military or surveillance technology that rivals American capabilities. US Treasury Secretary Scott Bessent said the government wants to find out who at Nvidia was responsible for making sure those chip sales to China followed the rules during Huang's prior leadership — meaning the affair allegation and the compliance question, while separate, are now being investigated against the same backdrop of distrust between Washington and Beijing.",
+              "The central fact that nobody disputes is also the one nobody can yet prove: the claim that Huang's affair involved a Chinese intelligence operative remains unverified, and China's government denies it outright. That leaves Nvidia in an unusual position — its CEO is back, its stock has roared back with him, but the investigations that were running alongside his resignation haven't gone away, and the question of what exactly happened, and why the board changed its mind so fast, is still open."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips are inside the AI tools millions of people already use daily, and its stock price has become one of the biggest single drivers of whether retirement funds, index funds, and the broader stock market go up or down. How the US handles the overlap between one company's leadership drama and national-security worries about China will shape what technology gets built where, and who gets to buy it, for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "SEC"
+              },
+              "def": {
+                "en": "The Securities and Exchange Commission is the US government agency that investigates publicly traded companies for fraud and whether they're being honest with investors."
+              }
+            },
+            {
+              "term": {
+                "en": "Nasdaq Composite"
+              },
+              "def": {
+                "en": "A stock market index that tracks thousands of companies but is weighted heavily toward technology firms, so it often swings sharply on tech news."
+              }
+            },
+            {
+              "term": {
+                "en": "compliance"
+              },
+              "def": {
+                "en": "The work a company does to make sure it's following laws and regulations, such as rules about which chips can be sold to which countries."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was Nvidia's board right to reverse itself and reinstate Huang just days after saying it wouldn't?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Reinstating him was the right call"
+                  },
+                  "points": {
+                    "en": [
+                      "The spy allegation against Huang's affair partner remains unproven, and people shouldn't lose their job over an accusation before it's investigated.",
+                      "Nvidia's value is closely tied to Huang's leadership and strategy, so removing him risked serious harm to employees, shareholders, and pension funds invested in the company.",
+                      "Acting on incomplete information under public pressure, rather than waiting for the facts, is itself a kind of unfairness the board was right to correct."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The board moved too fast"
+                  },
+                  "points": {
+                    "en": [
+                      "Given that federal investigators were already looking into the company, restoring its most powerful figure within days looks like it prioritized the stock price over getting the facts straight first.",
+                      "Reversing a firm public statement that quickly suggests the decision was driven by market panic rather than careful judgment.",
+                      "It sets a precedent that if a company's stock falls hard enough, a board will reinstate a leader regardless of unresolved questions about judgment or security risk."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "How tightly should the US government restrict companies like Nvidia from selling advanced chips to China?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Restrict them tightly"
+                  },
+                  "points": {
+                    "en": [
+                      "The most advanced AI chips can be used to build military and surveillance systems, so letting a rival power access them is a direct security risk.",
+                      "Relying on individual companies to police their own compliance, as this case shows, can leave gaps that undermine the whole policy.",
+                      "Protecting a technological lead over a strategic rival matters more than short-term sales revenue."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Don't over-restrict them"
+                  },
+                  "points": {
+                    "en": [
+                      "China is one of the largest markets for advanced chips, and losing those sales weakens the US companies whose profits fund the next generation of research.",
+                      "Heavy restrictions push China to build its own domestic chip industry faster, which could erase the US advantage the restrictions were meant to protect.",
+                      "Broad, blunt export bans can hurt American economic interests more than they meaningfully slow down a determined rival."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Democrats secure historic House majority, largest since 1992",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/democrats-historic-house-majority-since-1992/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Virginia Foxx loses reelection to Chuck Hubbard"
+          },
+          "summary": {
+            "en": "CNN's report on the North Carolina race lays out how the recount unfolded and what each side said as the result tipped the House balance. It gives the local detail behind the national headline."
+          },
+          "publisher": "CNN",
+          "url": "https://edition.cnn.com/2026/11/22/politics/virginia-foxx-loses-reelection-chuck-hubbard"
+        },
+        {
+          "title": {
+            "en": "Hubbard leads Foxx in recount"
+          },
+          "summary": {
+            "en": "The Hill's coverage tracks the recount margins as they narrowed, useful for readers curious how close the race actually was before Hubbard was declared the winner."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/campaign/6235449-hubbard-leads-foxx-recount/"
+        },
+        {
+          "title": {
+            "en": "Chuck Hubbard defeats Virginia Foxx in North Carolina"
+          },
+          "summary": {
+            "en": "The Washington Post's account adds context on Foxx's long tenure in Congress and what her loss means for House Republicans' committee leadership. It rounds out the picture of what changed with this single seat."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/11/22/chuck-hubbard-virginia-foxx-north-carolina/77fc34a4-e6a1-11f1-8db0-6f1e3c389e7c_story.html"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "One Vote Count in North Carolina Gives a Party Its Biggest Win in 30 Years"
+          },
+          "hook": {
+            "en": "On Sunday, officials finished recounting votes in a close election race in North Carolina. A man named Chuck Hubbard was declared the winner, beating a longtime lawmaker named Virginia Foxx. That single result gave the Democratic political party its biggest win in the US House of Representatives in thirty years."
+          },
+          "story": {
+            "en": [
+              "The US House of Representatives is a group of 435 people who help write the country's laws. Think of it like one giant classroom where every state sends some students, and the number of students each state sends depends on how many people live there.",
+              "Right now, two big teams compete for seats in that room: Democrats and Republicans. After Sunday's recount in North Carolina, Democrats reached 258 seats. That's more than half the room, and the most seats they've won in a regular election since before most kids' parents were born.",
+              "This election, Democrats gained 44 seats total. That's even more than the 40 seats they won back in 2018, during Donald Trump's first term as president. Winning that many seats is a big swing.",
+              "There's another first coming too. A Democrat named Hakeem Jeffries is now set to become the leader of the House, called the Speaker. He would be the first Black person ever to hold that job."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The House of Representatives votes on things that touch your everyday life, like how much money schools get or what rules companies have to follow. When one team wins a lot more seats than before, it can change which new laws get a chance to pass. And when someone becomes the first person like them to hold a powerful job, it can change what other kids think is possible for themselves someday."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "House of Representatives"
+              },
+              "def": {
+                "en": "One of the two parts of the US Congress — 435 elected people who help write the country's laws, with each state sending a number based on how many people live there."
+              }
+            },
+            {
+              "term": {
+                "en": "recount"
+              },
+              "def": {
+                "en": "Counting all the votes in an election a second time, usually because the first count was extremely close."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If an election result is super close, should officials always recount every vote, even if it takes weeks?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, always recount"
+                  },
+                  "points": {
+                    "en": [
+                      "A close race means a tiny mistake could change who actually won.",
+                      "Taking the extra time shows everyone that the result is fair and correct.",
+                      "Every single vote belongs to a real person who deserves to be counted right."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, don't always recount"
+                  },
+                  "points": {
+                    "en": [
+                      "Long recounts leave everyone waiting and unsure who their leader is.",
+                      "Recounting is expensive and takes workers away from other jobs.",
+                      "The first careful count is usually already accurate, so doing it again rarely changes anything."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Does it matter that Hakeem Jeffries would be the first Black Speaker of the House, or should people only care about whether he does the job well?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it matters"
+                  },
+                  "points": {
+                    "en": [
+                      "Seeing a 'first' happen can show kids that any job is possible for them someday.",
+                      "It shows that things can change over a long time, even in old, powerful jobs.",
+                      "Many people felt left out of this role before, so a first can feel like real progress."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't matter"
+                  },
+                  "points": {
+                    "en": [
+                      "What really matters is whether he's good at the job, not what he looks like.",
+                      "Focusing on 'firsts' can make people think about identity more than actual decisions.",
+                      "The job should be earned by skill and hard work, the same as for anyone else."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Democrats Win Their Biggest House Majority in Three Decades"
+          },
+          "hook": {
+            "en": "On Sunday, Democrats clinched their 258th seat in the US House of Representatives, the chamber's largest majority for either party won in a general election in 30 years. The winning seat came from North Carolina, where Democrat Chuck Hubbard beat longtime Republican Congresswoman Virginia Foxx after a recount. The result puts Congressman Hakeem Jeffries on track to become the first Black Speaker of the House in US history."
+          },
+          "story": {
+            "en": [
+              "The US House of Representatives is one of the two chambers of Congress, the branch of government that writes and passes federal laws. All 435 seats are up for election every two years, and whichever party wins more than half of them — 218 seats — controls the chamber, deciding which bills even get a vote. On Sunday, Democrats crossed a different threshold: their 258th seat, which makes this the party's biggest House majority won in a general election since the early 1990s.",
+              "The deciding win was close and contested. In North Carolina, Democrat Chuck Hubbard was declared the winner over Republican incumbent Virginia Foxx — meaning she already held the seat — only after a recount, a formal re-counting of the ballots that candidates can request when a race is narrow enough that the original count might not reflect who actually won. Foxx's campaign pushed for the recount before conceding, accepting defeat, once the second count confirmed Hubbard's win.",
+              "This election happened during a midterm, the vote held halfway through a president's four-year term, when every House seat and a third of the Senate's is contested but the presidency itself is not. Midterms are usually rough for whichever party holds the White House, since voters often use them to express frustration with how things are going. Democrats gained 44 seats this cycle — four more than the 40 they flipped in 2018, during Donald Trump's first term, which was already considered a strong showing for the party out of power.",
+              "The scale of this win matters beyond the raw number. It puts Hakeem Jeffries, the Democrat who leads his party in the House, on track to become Speaker of the House when the new Congress begins — the person who runs the chamber's daily business, decides which bills reach a vote, and stands second in the line of succession to the presidency after the vice president. Jeffries would be the first Black Speaker in American history, a milestone that will likely get as much attention as the majority itself once the new Congress is sworn in.",
+              "A majority this size changes what a president can get done. With Democrats controlling the House, bills the Trump administration wants passed will need Democratic votes or compromise to move forward, and the House can also open investigations into the executive branch far more easily than a narrowly divided chamber would allow. Whether that produces gridlock, deal-making, or a wave of oversight hearings is something that will only become clear once the new Congress actually convenes."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Whoever controls the House decides which laws even get a vote — on everything from taxes to healthcare to how much money the government borrows — so this result will shape what actually happens in Washington for the next two years. It also means investigations into the president's administration become much easier to launch, which could dominate the news well beyond this one election."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Midterm election"
+              },
+              "def": {
+                "en": "A nationwide vote held halfway through a president's four-year term, when all House seats and some Senate seats are contested but the presidency is not."
+              }
+            },
+            {
+              "term": {
+                "en": "Recount"
+              },
+              "def": {
+                "en": "A formal re-counting of ballots in a close race, usually requested by a candidate who thinks the original count might be wrong."
+              }
+            },
+            {
+              "term": {
+                "en": "Speaker of the House"
+              },
+              "def": {
+                "en": "The lawmaker who leads the House of Representatives, controlling which bills get voted on and standing second in line to become president if the president and vice president cannot serve."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Does a huge midterm swing like this show voters truly rejecting the president's agenda, or is it just the normal pattern of midterm elections?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "This reflects real rejection"
+                  },
+                  "points": {
+                    "en": [
+                      "Democrats gained more seats than they did in the already-strong 2018 midterms, suggesting deeper dissatisfaction this time.",
+                      "Losing a long-serving incumbent in a race close enough to need a recount shows cracks even in traditionally safe territory.",
+                      "A swing this large, affecting dozens of districts across the country, is hard to explain without a genuine shift in how people feel about the administration's specific actions."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "This is just the usual pattern"
+                  },
+                  "points": {
+                    "en": [
+                      "The president's party almost always loses House seats at the midterms; it happens under governments voters later re-elect, so it may not be a verdict on this one.",
+                      "Midterm turnout looks different from presidential-election turnout, so the result may not represent how the whole country actually feels.",
+                      "A single contested race decided by recount shows how thin the margins can be in individual districts, which complicates reading the whole result as one unified message."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it good for the country when one party holds this dominant a majority in Congress?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, a strong majority is better"
+                  },
+                  "points": {
+                    "en": [
+                      "A clear majority lets a government pass coherent laws instead of being stuck in constant gridlock between two evenly matched sides.",
+                      "Voters can hold one party clearly accountable for what it does with power, rather than both sides blaming each other for inaction.",
+                      "A decisive majority makes it easier to respond quickly during genuine emergencies, when slow negotiation can cost real time."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it raises real concerns"
+                  },
+                  "points": {
+                    "en": [
+                      "Without a strong opposition, there's less built-in scrutiny and fewer forced compromises on major bills.",
+                      "A lopsided majority can embolden a party to pass more extreme or one-sided legislation than it otherwise would.",
+                      "Millions of people who voted the other way end up with far less actual representation in how laws get written."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "UN COP31 climate conference ends with no agreement, fossil fuel debate at a standstill",
+        "publisher": "CBS News",
+        "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "COP31 closes without agreement"
+          },
+          "summary": {
+            "en": "The UN's own news service carries Guterres's full statement and the UN's framing of what went wrong. Read it alongside independent outlets since this is the UN reporting on its own summit."
+          },
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168855"
+        },
+        {
+          "title": {
+            "en": "COP31 climate talks close in disappointment"
+          },
+          "summary": {
+            "en": "NPR's account breaks down which blocs of countries clashed over fossil-fuel language and why overtime negotiations failed to bridge the gap. It adds useful detail on the specific sticking points."
+          },
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
+        },
+        {
+          "title": {
+            "en": "COP31 talks collapse over fossil fuel dispute"
+          },
+          "summary": {
+            "en": "CBC's coverage offers a non-US, non-UN perspective on the collapse and what it means for countries most vulnerable to climate change. It's a useful third viewpoint distinct from the American and UN accounts."
+          },
+          "publisher": "CBC",
+          "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847"
+        }
+      ],
+      "further": [],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Almost 200 Countries Talk for Two Weeks About Climate Change — and Still Can't Agree"
+          },
+          "hook": {
+            "en": "Leaders from nearly 200 countries met for two weeks in Antalya, Turkey, to talk about climate change. On Sunday, the big meeting ended without a deal. The main sticking point: how fast the world should stop burning oil, gas, and coal."
+          },
+          "story": {
+            "en": [
+              "Almost 200 countries sent people to a huge meeting in Antalya, a city in Turkey. For two weeks, they talked about one giant problem: how to stop the Earth from getting hotter. This yearly meeting is called COP31.",
+              "The groups got stuck on one big question. Many countries wanted a clear plan to stop using oil, gas, and coal — fuels that heat up the planet when we burn them for energy. But some countries that sell a lot of oil and gas did not want to promise to stop.",
+              "On Sunday, the meeting ended with no agreement at all. The leader of the United Nations, a man named António Guterres, said he was 'deeply disappointed.' No one announced when or where the next meeting will happen.",
+              "This means the world still has no new plan this year for slowing down climate change. The hardest decisions got put off again."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The hotter the Earth gets, the more extreme weather we see — bigger storms, hotter summers, and more wildfires. When grown-ups at a big meeting can't agree on a plan, the planet keeps heating up a little longer before anyone makes new promises to stop it. The choices made (or not made) at meetings like this will shape how hot your summers are when you're grown up."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "fossil fuels"
+              },
+              "def": {
+                "en": "Oil, gas, and coal are fossil fuels — they are dug up from deep underground, and burning them for energy releases gases that trap heat and warm up the Earth."
+              }
+            },
+            {
+              "term": {
+                "en": "phase out"
+              },
+              "def": {
+                "en": "To phase something out means to stop using it little by little over time, instead of all at once."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "If a big meeting ends with no agreement, was it still worth having?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Still worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries kept talking together instead of ignoring the problem completely.",
+                      "Sometimes smaller agreements happen quietly even when the big headline says 'no deal.'",
+                      "It keeps the problem in the news, so more people stay aware of it."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Not worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Two weeks of travel and talking used time and money that could have gone straight to real solutions.",
+                      "Without an agreement, nothing actually changes for the planet.",
+                      "Promising to meet again doesn't slow down the heating that's happening right now."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should countries that make most of their money selling oil and gas get an equal vote on a plan to stop using oil and gas?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, equal say"
+                  },
+                  "points": {
+                    "en": [
+                      "Every country runs itself, so each one deserves an equal voice in decisions that affect it.",
+                      "These countries would feel the economic pain most, so they should be heard carefully.",
+                      "Forcing a plan on them without their agreement could feel unfair, since they'd lose the most."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, less weight"
+                  },
+                  "points": {
+                    "en": [
+                      "It's hard to trust a decision made by someone who loses money from it, a bit like asking a candy seller whether candy should be banned.",
+                      "The whole planet is affected by climate change, not just the countries that sell fossil fuels.",
+                      "Giving them equal power lets a small group block action that almost everyone else wants."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "World Climate Summit Ends With No Deal, UN Chief Calls It \"Deeply Disappointing\""
+          },
+          "hook": {
+            "en": "The United Nations' COP31 climate summit in Antalya, Turkey, closed on Sunday, November 22, without countries agreeing on a final plan. Negotiators from nearly 200 nations spent two weeks arguing, ran into overtime, and still couldn't settle their biggest disagreement: whether the world should commit to phasing out fossil fuels. No new commitments were made, and no date was even set for the next round of talks."
+          },
+          "story": {
+            "en": [
+              "Every year, almost every country on Earth sends representatives to a UN climate conference called COP — short for \"Conference of the Parties\" — to negotiate what the world will do about rising global temperatures. This year's version, COP31, was held in Antalya, Turkey, and was supposed to produce fresh commitments on cutting the greenhouse gas emissions that cause climate change. Instead, after two full weeks of talks that ran past their scheduled end date, the conference closed with nothing to show for it.",
+              "The sticking point was familiar: a split between countries that wanted binding language committing the world to phasing out fossil fuels — oil, gas, and coal — and countries whose economies depend heavily on producing and selling those same fuels, who refused to accept language that would force them to wind that down. \"Binding\" is the key word here. A country can always say it supports fighting climate change in general terms; the fight is over whether an agreement actually obligates countries to act, with real consequences if they don't, or whether it's just a statement of good intentions. The reporting on this summit does not name exactly which countries blocked the phase-out language, which is itself telling — these negotiations happen partly behind closed doors, and public blame is often avoided even when everyone in the room knows who dug in.",
+              "UN Secretary-General António Guterres, the UN's top official, didn't hide his frustration. He called the outcome \"deeply disappointing\" — unusually blunt language for someone whose job largely involves diplomatic phrasing. His comment matters because the UN climate summit is meant to be the world's main forum for countries to coordinate on climate action together, rather than each country acting alone. When it fails to produce an agreement, there's no backup forum that automatically picks up the slack.",
+              "Perhaps the most telling detail is what didn't happen at the closing session: no new date or location was announced for the next round of talks. Normally, even when a COP summit disappoints, organizers at least confirm when and where the next one will happen, since planning a conference of this size for representatives from 200 countries takes months. Leaving that open suggests the disagreement wasn't just about wording — it may reflect deeper uncertainty about whether continuing in the same format is even worth it right now.",
+              "This isn't the first time a COP summit has ended without a breakthrough, and it won't be the only story anyone tells about global climate politics this year. But a failed COP carries real weight: these talks are one of the few places where oil-producing nations and countries demanding faster climate action are forced to sit across from each other and negotiate specifics, rather than just issuing separate statements. When that process stalls, it stalls the one mechanism built to produce a coordinated global response, not just a collection of individual national promises."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Climate change doesn't stop at a country's borders — a tonne of carbon released in one place warms the planet everywhere, which is exactly why these global negotiations exist in the first place. When the main venue for countries to agree on cutting emissions together fails, the gap between what scientists say needs to happen and what governments actually agree to do gets wider, and that gap doesn't close itself."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "COP (Conference of the Parties)"
+              },
+              "def": {
+                "en": "An annual United Nations meeting where almost every country sends representatives to negotiate action on climate change."
+              }
+            },
+            {
+              "term": {
+                "en": "Phase-out"
+              },
+              "def": {
+                "en": "A gradual, planned end to using something — in this case, fossil fuels like oil, gas, and coal — rather than stopping all at once."
+              }
+            },
+            {
+              "term": {
+                "en": "Binding agreement"
+              },
+              "def": {
+                "en": "A deal that creates real obligations countries must follow, as opposed to a statement of goals they can simply ignore without consequence."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "When a handful of countries block an agreement that almost everyone else wants, should the rest move ahead without them?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, a smaller coalition should act"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting for unanimous agreement among 200 countries has repeatedly produced nothing, while emissions keep rising every year that passes.",
+                      "A smaller group of willing countries can set stronger, faster commitments and prove the approach works, creating pressure on others to join later.",
+                      "Letting a minority with the most to lose from change hold up every other country's progress rewards delay as a strategy."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep pushing for full global agreement"
+                  },
+                  "points": {
+                    "en": [
+                      "Climate change is a genuinely global problem, and a plan that excludes major fossil fuel producers leaves out the countries responsible for a huge share of emissions.",
+                      "Fragmenting into separate coalitions risks competing, incompatible rules that make coordinated climate action harder, not easier, in the long run.",
+                      "The UN process gives smaller and poorer countries a seat at the table they wouldn't have in a deal negotiated by a self-selected group of the willing."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair to expect oil- and gas-producing nations to agree to the same fossil fuel phase-out as everyone else?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, the same standard should apply to all"
+                  },
+                  "points": {
+                    "en": [
+                      "The atmosphere doesn't care where emissions come from, so exempting major producers undermines the entire point of a global agreement.",
+                      "Fossil fuel producing nations have often had decades of profit from these industries already, which they can use to invest in transitioning their economies.",
+                      "Giving producer nations a pass sets a precedent that any country with enough economic leverage can opt out of collective commitments."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, producer nations need different terms"
+                  },
+                  "points": {
+                    "en": [
+                      "Entire economies and millions of jobs in some countries depend directly on fossil fuel production, and a sudden binding phase-out could cause real economic harm.",
+                      "Countries that built their economies around exporting fossil fuels did so within a global market that, until recently, rewarded exactly that, so the shift needs time and support, not just a deadline.",
+                      "Without a transition plan that includes financial or technical help, binding commitments might simply be ignored in practice, which is worse than no binding commitment at all."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
