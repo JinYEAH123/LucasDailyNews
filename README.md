@@ -156,8 +156,10 @@ data/editions/YYYY-MM-DD.json      ← the single source of truth
      └── send_newsletter.py → email over SMTP
 ```
 
-The workflow runs at **six fixed times** and decides for itself whether an
-edition is due.
+The workflow runs at **six fixed times**, spread across the afternoon and
+evening, and decides for itself whether an edition is due. They are stored in
+UTC and chosen to stay after a midday cutoff in either a UTC-7 or a UTC-8 zone,
+so a change in daylight-saving rules costs nothing but a different label.
 That is what lets any zone and any hour work, and it makes daylight saving a
 non-event. It is also self-healing: an edition is due once the cutoff has passed
 and today's is still missing, so a delayed or dropped run is picked up by the

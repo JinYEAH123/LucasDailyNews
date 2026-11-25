@@ -17,9 +17,15 @@ name: Daily edition
 #
 # So ask for six times instead, all of them after a noon cutoff and spread
 # across the afternoon and evening. Whichever few GitHub actually serves, each
-# one is a run that can publish. The times are UTC; at UTC-8 they are 12:10,
-# 14:10, 16:10, 18:10, 20:10 and 22:10 local, and an hour later under daylight
-# saving — all still past noon either way.
+# one is a run that can publish.
+#
+# The times are UTC, and they are chosen to stay after a noon cutoff whatever
+# the zone does. At UTC-7 — which is where America/Vancouver now sits all year,
+# tzdata having relabelled it MST from November 2026 when British Columbia
+# stopped falling back — they are 13:10, 15:10, 17:10, 19:10, 21:10 and 23:10
+# local. An hour earlier if a zone ever returns to UTC-8, which is still past
+# noon. Nothing here reads the offset: the job asks appconfig, which asks the
+# zone database, so a rule change costs nothing but a different label.
 on:
   schedule:
     - cron: '10 20 * * *'
