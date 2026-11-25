@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-24",
+  "window": {
+    "start": "2026-11-23T12:00:00-07:00",
+    "end": "2026-11-24T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-24T19:16:51-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "tech",
+      "region": "US",
+      "source": {
+        "title": "Nvidia board reinstates Jensen Huang after U.S. government input",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/technology/2026/11/23/nvidia-board-reinstates-jensen-huang-after-us-government-input/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia reinstates Jensen Huang as CEO"
+          },
+          "summary": {
+            "en": "NBC News lays out the national-security scandal — the alleged affair with a Chinese intelligence asset — that triggered Huang's original resignation. Useful for readers who missed how this all started."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump administration pressured Nvidia board to reinstate Jensen Huang"
+          },
+          "summary": {
+            "en": "CNN's political reporting digs into exactly how the White House leaned on Nvidia's directors, the piece at the center of why this is being called unprecedented.\n"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/23/politics/trump-administration-jensen-huang-reinstated"
+        },
+        {
+          "title": {
+            "en": "Jensen Huang's return and the national-security scandal"
+          },
+          "summary": {
+            "en": "A Foreign Policy opinion piece argues the reinstatement reflects deeper tensions between U.S. national-security concerns and AI industrial policy — flagged here as an argued analysis, not neutral reporting."
+          },
+          "publisher": "Foreign Policy",
+          "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The Boss Who Got Fired—Then Got His Job Back 11 Days Later"
+          },
+          "hook": {
+            "en": "Jensen Huang runs Nvidia, a company that makes powerful computer chips for artificial intelligence. Eleven days ago, he resigned after a scandal. Then President Trump personally called Nvidia's board and pushed them to bring Huang back—and they did."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang is the boss of Nvidia, a huge American company that builds the computer chips used to power artificial intelligence, like the brains inside smart robots and chatbots. Eleven days ago, he quit his job. People say he stepped down because of a scandal: he was accused of having a relationship with someone connected to Chinese intelligence, the people who gather secret information for a government.",
+              "Then something unusual happened. President Trump called Nvidia's board—the small group of people who make big decisions for the company—and pushed them to bring Huang back. They listened. Huang got his job back just 11 days after losing it.",
+              "When the news came out, Nvidia's stock price jumped by more than 30% in a single day. That means if you owned a piece of the company worth $100 that morning, it was briefly worth $130 by afternoon. But by the end of the day, most of that extra value had disappeared again.",
+              "People who write about business say they have never seen a sitting president personally push a private company to rehire a specific person like this. It raises a big question: how much should a president be allowed to influence decisions inside companies that aren't part of the government?"
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips help power things you might already use, like video games and apps that use AI. When a president gets personally involved in choosing who runs a major company, it changes the rules about where government power ends and business decisions begin—rules that affect how fairly companies are run for everyone, including future workers and customers."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "CEO"
+              },
+              "def": {
+                "en": "The CEO is the person in charge of running a company day to day, like a team captain for a business."
+              }
+            },
+            {
+              "term": {
+                "en": "Board of directors"
+              },
+              "def": {
+                "en": "A board of directors is a small group of people whose job is to make the biggest decisions for a company, including who should be CEO."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to personally pressure a company's board to rehire a specific boss?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, sometimes it's okay"
+                  },
+                  "points": {
+                    "en": [
+                      "If a company is important to the whole country's safety or economy, the president might see risks that others miss.",
+                      "Presidents are elected to look out for the national interest, and company decisions can affect that interest.",
+                      "Sometimes outside pressure helps fix a problem quickly instead of letting a company struggle for months."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it crosses a line"
+                  },
+                  "points": {
+                    "en": [
+                      "Companies are supposed to be run by their owners and boards, not by government leaders.",
+                      "If presidents can push companies to hire or fire people, it could scare companies into always agreeing with whoever is in charge.",
+                      "Today it might seem helpful, but the same power could be used unfairly by a future president."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Jensen Huang have gotten his job back so soon after the scandal?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, bring him back"
+                  },
+                  "points": {
+                    "en": [
+                      "He may be one of the few people skilled enough to keep Nvidia ahead in the global AI chip race.",
+                      "A scandal about his personal life doesn't necessarily mean he did a bad job running the company.",
+                      "Losing an experienced leader suddenly could hurt thousands of employees and everyone who depends on Nvidia's chips."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, trust matters more"
+                  },
+                  "points": {
+                    "en": [
+                      "A national-security scandal is serious, and quickly reversing the resignation might send the message that consequences don't apply to powerful people.",
+                      "Other employees who make mistakes don't usually get their jobs back in just 11 days.",
+                      "If the accusations are true, letting him return so fast could make people trust the company and the government less."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A President Called an American Company's Board. 11 Days Later, Its CEO Was Back."
+          },
+          "hook": {
+            "en": "Jensen Huang quit as CEO of Nvidia, the company whose chips power most of the world's artificial intelligence, after it came out he'd allegedly had an affair with someone described as a Chinese intelligence asset. Eleven days later, Nvidia's board brought him back — after President Trump personally pressured them to do it. Nvidia's stock jumped more than 30% in a single day on the news, then gave back most of that by closing bell."
+          },
+          "story": {
+            "en": [
+              "Jensen Huang didn't resign over a bad quarter or a product flop. He resigned over a national-security scandal: reports that he'd had an affair with a person U.S. officials described as working for Chinese intelligence. Nvidia isn't just any tech company — its chips are the engine behind nearly every major AI system being built right now, from chatbots to military applications, which makes the people running it a matter of interest not just to shareholders but to governments. The board accepted his resignation. That looked, for a few days, like the end of the story.",
+              "It wasn't. President Trump reportedly called members of Nvidia's board directly and pushed them to reverse course and reinstate Huang. This is the detail that makes this story different from an ordinary corporate reshuffle: a sitting president personally intervening in who leads a private, publicly traded company. Presidents lean on companies all the time — tariffs, regulations, public pressure campaigns — but a direct phone call asking a board to rehire a specific executive is something multiple outlets are calling unprecedented.",
+              "It worked. The board reversed its own decision and reinstated Huang as CEO just eleven days after accepting his resignation. Nvidia's stock shot up more than 30% within the trading day — investors clearly saw Huang as close to irreplaceable, especially with the U.S. and China racing to dominate AI chip technology. But by the end of the day, the stock had given back most of that gain, which suggests the market's enthusiasm cooled once people had time to think about what had actually just happened, rather than just who was back in charge.",
+              "The argument for Trump's intervention goes like this: Nvidia's technology is strategically vital, the competition with China for AI supremacy is real and ongoing, and Huang is the one executive who understands both the technology and the industry well enough to keep America ahead. Losing him at this moment, the thinking goes, would be a self-inflicted wound in a race the country can't afford to lose.",
+              "The argument against it is just as direct: the separation between government power and private business exists for a reason, and a president picking up the phone to override a company's own governance process — especially one dealing with an actual espionage allegation — blurs a line that's supposed to stay fixed. Critics point out that if a president can get a CEO un-fired this time, for a scandal this serious, there's no clear reason he couldn't do the same the next time he simply likes or dislikes someone running a major company."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Nvidia's chips sit inside the AI tools, phones, and games that are already part of your daily life, so who runs the company and how they got there isn't abstract. This episode also shows something worth noticing as you grow up: the line between political power and private business isn't fixed by law alone — it depends on what people in power decide they can get away with, and what everyone else decides to accept."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Board of directors"
+              },
+              "def": {
+                "en": "A group of people elected to oversee a company's biggest decisions, including hiring and firing its CEO."
+              }
+            },
+            {
+              "term": {
+                "en": "Intelligence asset"
+              },
+              "def": {
+                "en": "A person who secretly gathers information for a government's spy agency, often without the knowledge of people around them."
+              }
+            },
+            {
+              "term": {
+                "en": "Separation of powers"
+              },
+              "def": {
+                "en": "The principle that government and private institutions, like companies, should operate independently, without one directly controlling the other's decisions."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it right for a sitting president to personally pressure a private company's board to reinstate a fired CEO?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was justified"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia's chips are critical to national security and economic competitiveness, so the government has a real stake in who leads the company.",
+                      "Huang's expertise may be genuinely difficult to replace at a pivotal moment in the AI race with China.",
+                      "Presidents have long used informal pressure to protect strategically important industries; this was just more public than usual."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it was overreach"
+                  },
+                  "points": {
+                    "en": [
+                      "Private companies are supposed to be free from political interference, especially over who leads them.",
+                      "It blurs the line between government authority and business decisions, setting a precedent for future pressure unrelated to genuine security concerns.",
+                      "It undermines the board's own governance role, making it look like directors answer to the president rather than to shareholders."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should Huang have been brought back despite the national-security scandal that forced him out?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, bring him back"
+                  },
+                  "points": {
+                    "en": [
+                      "The allegation was unproven, and removing a highly effective CEO on that basis alone may have been premature.",
+                      "His leadership is seen as central to U.S. competitiveness in AI chips, and losing him could hand real advantage to rivals.",
+                      "The board, with access to more facts than the public, judged the risk manageable and reversed course accordingly."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, the reversal was wrong"
+                  },
+                  "points": {
+                    "en": [
+                      "Even the appearance of compromised judgment at the top of a company handling sensitive technology is a serious security risk, not just a reputational one.",
+                      "Reinstating him so quickly signals that performance and money can outweigh real security concerns, which could encourage similar risks elsewhere.",
+                      "Using presidential pressure to override the scandal's consequences weakens accountability for leaders of strategically important companies."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Iran, Trump and the blockade of the Strait of Hormuz",
+        "publisher": "CNBC",
+        "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Live updates: Iran war, U.S. blockade of the Strait of Hormuz, ship attacks"
+          },
+          "summary": {
+            "en": "CBS News' rolling coverage gives a fuller timeline of the mined tankers and the U.S. military escort response, useful for tracking how the naval conflict has unfolded day by day."
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+        },
+        {
+          "title": {
+            "en": "Iran hits US bases and civilian sites in the Gulf after a lull"
+          },
+          "summary": {
+            "en": "Al Jazeera, a Qatari state-funded outlet, presents how the strikes are being framed regionally — useful for seeing Iran's side of the story, though it should not stand as a neutral account on its own."
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump on Iran talks as midterms, shutdown fight loom"
+          },
+          "summary": {
+            "en": "Bloomberg's reporting ties the war directly to the U.S. government-shutdown standoff and Republican politics, explaining why funding for the conflict has suddenly become a domestic budget fight."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-23/trump-iran-talks-continue-year-end-republican-party-midterms-middle-east-arab"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "Ships Catch Fire in a Narrow Sea Path, and a War Keeps Growing"
+          },
+          "hook": {
+            "en": "Three big oil ships caught fire in a narrow sea passage called the Strait of Hormuz after hitting floating bombs called naval mines. This happened even though American warships were guarding them. Iran has also started attacking American bases and buildings in the area again, after a short pause in the fighting."
+          },
+          "story": {
+            "en": [
+              "Picture a hallway in a building so narrow that almost everyone has to walk through it to get anywhere. The Strait of Hormuz is like that, but for ships. It is a thin strip of sea between Iran and other countries, and a huge amount of the world's oil travels through it every single day.",
+              "This week, three oil tankers hit naval mines there and caught fire. Naval mines are bombs that float in the water and explode when something bumps into them. Iran's military, called the Revolutionary Guard, said this happened. It happened even though United States Navy ships were there to protect the tankers.",
+              "At the same time, Iran started firing at American bases and buildings in the Gulf again, after things had calmed down for a bit. Israel's defense minister also said Iran is secretly building chemical weapons, which are poisons used as weapons. Iran says that is not true, and nobody outside the two countries has proven it either way.",
+              "Back in Washington, the American government added more punishments, called sanctions, on companies that help Iran move money. But some leaders in the U.S. Senate are now asking whether America should keep paying for military action in this fight at all, especially with a money deadline coming up that could shut down parts of the government."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Oil from that narrow sea path ends up as gas for cars, trucks, and planes all over the world, including the ones your family might ride in. When ships catch fire there, oil becomes harder to move, and that can make gas and other things cost more for everyone, even far away from Iran."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "naval mine"
+              },
+              "def": {
+                "en": "A bomb that floats in the water and explodes when a ship bumps into it."
+              }
+            },
+            {
+              "term": {
+                "en": "sanctions"
+              },
+              "def": {
+                "en": "Rules one country makes to stop money or trade from reaching another country or its companies, as a kind of punishment."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. military protect oil ships traveling through a dangerous sea path, even if that puts American sailors at risk?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect the ships"
+                  },
+                  "points": {
+                    "en": [
+                      "If the oil ships stop moving safely, prices can rise for people everywhere, including families far from the fighting.",
+                      "Other countries' ships use that path too, so protecting it helps more than just one nation.",
+                      "If no one guards the route, attacks and mines could become even more common there."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's too risky"
+                  },
+                  "points": {
+                    "en": [
+                      "Sending warships into a war zone means American sailors could get hurt or killed.",
+                      "Guarding the ships hasn't stopped the mines or fires from happening anyway.",
+                      "Getting more involved could pull the U.S. deeper into a war it isn't fully part of."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a country's lawmakers be allowed to stop paying for a war while fighting is still happening?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, they should be able to stop it"
+                  },
+                  "points": {
+                    "en": [
+                      "The people who control the money were elected to decide how it's spent, including on wars.",
+                      "Stopping funding can be a way to push leaders to end a conflict faster.",
+                      "Taxpayers' money shouldn't keep funding a war most of the public never voted on directly."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, they shouldn't stop it mid-fight"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting money suddenly could leave troops or allies without support they're counting on.",
+                      "It might look like the country can't finish what it started, which other nations could notice.",
+                      "Big decisions about an ongoing war probably need more than a budget vote to sort out."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Tankers Burn in a Vital Oil Passage as Washington Argues Over Paying for the War"
+          },
+          "hook": {
+            "en": "Three oil tankers caught fire in the Strait of Hormuz after hitting naval mines, Iran's Revolutionary Guard said, even though U.S. warships were escorting them. Iran has resumed strikes on American assets and on civilian sites in the Gulf after a pause in the fighting. In Washington, Senate Republican leaders are now openly discussing cutting off money for the U.S. military campaign, just as a separate deadline threatens to shut down the government entirely."
+          },
+          "story": {
+            "en": [
+              "The Strait of Hormuz is a narrow stretch of water between Iran and the Arabian Peninsula, barely 33 kilometres wide at its tightest point, through which roughly a fifth of the world's oil passes by ship every day. It is the kind of chokepoint that makes traders nervous just by existing: close it, or even make it dangerous, and oil prices move everywhere, not just in the Middle East. This week three tankers caught fire there after striking naval mines — explosive devices left floating or anchored underwater to destroy ships that pass over them — despite having a U.S. military escort meant to protect exactly this kind of route.",
+              "Iran's Revolutionary Guard, the branch of Iran's armed forces most closely tied to the country's clerical leadership and separate from its regular army, said the mine strikes happened as Iran resumed attacks on American military targets and civilian sites in the Gulf. The attacks follow a lull in a wider conflict that had briefly quieted down. Mines are a particularly unsettling weapon in a shipping lane because they don't announce who placed them or when — a tanker can sail through calm water one day and hit one the next, which is part of why their mere presence can scare off shipping even before another strike happens.",
+              "Israel's defense minister added a new and serious accusation to the mix: that Iran is developing chemical weapons. Iran denies this, and independent reporting has not been able to confirm it either way. That distinction matters. A government accusing a rival of secretly building weapons that kill indiscriminately is a powerful claim to make in wartime, because it can shape public opinion and justify further military action — but it is also, for the same reason, a claim that deserves scrutiny rather than automatic belief, especially when it comes from one side of an active conflict.",
+              "The U.S. Treasury moved on a different front, widening sanctions — financial penalties that block a person, company, or country from using the international banking system — against Iranian currency exchange houses and front companies accused of funneling money to the Iranian government. The idea behind sanctions like these is to choke off the cash that pays for weapons and military operations without firing a shot, though they also tend to squeeze ordinary Iranians who have nothing to do with the regime's decisions.",
+              "Back in Washington, the fighting is now tangled up with a very different kind of deadline. The U.S. government is approaching a point where, without new legislation, large parts of it will shut down because Congress hasn't agreed on a budget. Senate Republican leaders have signaled they might use this moment to cut off funding for continued U.S. military action in the conflict — tying a decision about war halfway around the world to an argument about domestic spending at home. That link turns an abstract foreign policy question into something with a concrete, enforceable lever: no money, no mission, regardless of what happens in the Gulf."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When shipping lanes like Hormuz become dangerous, it doesn't stay a Middle East problem — oil prices can rise at gas pumps and in household bills far from the region within days. And the fight in Washington over funding shows something worth noticing: wars don't end just because fighting stops or starts, they end (or continue) partly because of decisions made in budget negotiations thousands of miles away."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Strait of Hormuz"
+              },
+              "def": {
+                "en": "A narrow sea passage between Iran and the Arabian Peninsula that roughly a fifth of the world's oil ships travel through every day."
+              }
+            },
+            {
+              "term": {
+                "en": "Naval mines"
+              },
+              "def": {
+                "en": "Explosive devices placed in water to destroy ships that pass over or near them, often without warning."
+              }
+            },
+            {
+              "term": {
+                "en": "Sanctions"
+              },
+              "def": {
+                "en": "Financial penalties that cut off a person, company, or country from using international banking and trade systems."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the U.S. Congress cut off funding for the military campaign while fighting is still happening?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Cut the funding"
+                  },
+                  "points": {
+                    "en": [
+                      "Congress, not the military, is supposed to decide whether a war continues, and controlling money is the clearest way to exercise that power.",
+                      "Open-ended military spending during an active conflict can drag a country deeper into a war without a clear plan for how it ends.",
+                      "Tying war funding to a budget deadline forces an honest public debate about costs that might otherwise be avoided."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep the funding flowing"
+                  },
+                  "points": {
+                    "en": [
+                      "Cutting money off mid-conflict can abandon troops, allies, and ongoing operations at the most dangerous possible moment.",
+                      "Using a domestic budget deadline as leverage over a war decision risks making foreign policy hostage to unrelated political fights.",
+                      "Sudden funding cuts can embolden adversaries who see hesitation as an opening rather than restraint."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should officials publicly state serious allegations, like chemical weapons development, before independent verification exists?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Speak now, verify later"
+                  },
+                  "points": {
+                    "en": [
+                      "Waiting for full proof can mean waiting too long to prevent real harm if the allegation turns out to be true.",
+                      "Public warnings can pressure the accused government to allow inspections or open itself to scrutiny it would otherwise avoid.",
+                      "Officials often have intelligence the public doesn't see, and demanding they stay silent ignores that asymmetry."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait for verification"
+                  },
+                  "points": {
+                    "en": [
+                      "Unverified accusations made during active conflict can be used to justify military action that turns out to have been based on false information.",
+                      "Once an accusation spreads, it shapes public opinion and policy even if it's later disproven, because retractions rarely travel as far as the original claim.",
+                      "Governments at war have an obvious incentive to make damaging claims about their enemies, which should raise the bar for proof, not lower it."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "CN",
+      "source": {
+        "title": "China unveils Shenzhou-24 crew including first foreign astronaut",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/world/2026/11/23/china-pakistan-shenzhou-24-space/b1569cea-e7b3-11f1-8db0-6f1e3c389e7c_story.html"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "China's Tiangong station welcomes its first foreign crew member"
+          },
+          "summary": {
+            "en": "Nature's science desk explains how Tiangong has operated as a purely Chinese-crewed station until now, giving context for why adding a foreign astronaut is a milestone."
+          },
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-03829-y"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Pakistani astronaut joins Shenzhou-24 crew heading to China's Tiangong space station"
+          },
+          "summary": {
+            "en": "The South China Morning Post adds detail on the China-Pakistan cooperation behind the mission and what it means for the two countries' space partnership."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/science/article/3375536/pakistani-astronaut-joins-shenzhou-24-crew-heading-chinas-tiangong-space-station"
+        },
+        {
+          "title": {
+            "en": "China unveils space mission crew"
+          },
+          "summary": {
+            "en": "An AP wire report via phys.org offers a concise factual rundown of the crew and mission timeline for readers who want the basics confirmed independently."
+          },
+          "publisher": "phys.org",
+          "url": "https://phys.org/news/2026-11-china-unveils-space-mission-crew.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Pilot From Pakistan Will Fly to China's Space Station"
+          },
+          "hook": {
+            "en": "China picked three astronauts to fly to its space station next. One of them is not Chinese at all — he is an air force pilot from Pakistan named Muhammad Zeeshan Ali. He will be the first astronaut from another country ever to step aboard China's space station. The announcement happened at a news conference in the city of Jiuquan, China, and the rocket was set to launch the very next day."
+          },
+          "story": {
+            "en": [
+              "China has its own space station, called Tiangong. Think of it as a floating science lab the size of a few school buses, circling far above the Earth. Astronauts live and work up there, doing experiments you could never do on the ground.",
+              "For more than 30 years, every astronaut China has ever sent to space has been Chinese. That changes with this mission, called Shenzhou-24. Muhammad Zeeshan Ali, the pilot from Pakistan, will join two Chinese astronauts to make a crew of three.",
+              "China and Pakistan are close friends as countries — they work together often on military and other projects. Sending a Pakistani astronaut up is a way of showing that friendship, and it shows China is building its own version of a space club, inviting the partners it chooses.",
+              "This is different from the International Space Station, where many countries like the United States, Russia, and others all share control together. China's station is run by China alone, and China decides who gets invited aboard."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine your favorite clubhouse — now imagine deciding for the first time ever to invite a friend from outside your family to come play inside it. That is a bit like what China just did with its space station. It shows how space travel isn't only about rockets and science anymore — it's also about which countries become friends and who gets to join in."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "space station"
+              },
+              "def": {
+                "en": "A giant floating lab that circles high above Earth, where astronauts can live and work for weeks or months at a time."
+              }
+            },
+            {
+              "term": {
+                "en": "crew"
+              },
+              "def": {
+                "en": "The small team of people chosen to fly together on a spacecraft and work as a group once they get there."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should countries share their space stations with astronauts from other countries, or keep space missions just for their own people?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Share and work together"
+                  },
+                  "points": {
+                    "en": [
+                      "Flying together can turn countries into closer friends.",
+                      "More people working on the same problem might solve it faster.",
+                      "Everyone gets to feel proud of what the mission discovers, not just one country."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Keep missions to your own country"
+                  },
+                  "points": {
+                    "en": [
+                      "Astronauts who train together for years as neighbors might work better as a team.",
+                      "A country might not want to share everything it has learned with outsiders.",
+                      "Focusing only on your own astronauts could mean faster decisions with less to coordinate."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Is it fair for a country to only invite its close friends to join its space missions, instead of opening the chance to any astronaut in the world?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's fair to choose friends"
+                  },
+                  "points": {
+                    "en": [
+                      "A country built and paid for its own space station, so it should get to decide who visits.",
+                      "Working with close friends means you already trust each other.",
+                      "Picking a partner you know well can make the mission feel safer."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, everyone should get a chance"
+                  },
+                  "points": {
+                    "en": [
+                      "Exploring space is exciting for all of humanity, not just a few countries.",
+                      "Limiting the chance to friends leaves out astronauts who might be just as skilled.",
+                      "Space missions could achieve more by picking the very best person for the job, wherever they're from."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Pakistani Pilot Will Become the First Foreign Astronaut on China's Space Station"
+          },
+          "hook": {
+            "en": "China named the three-person crew for its next spaceflight, Shenzhou-24, at a news conference in the northwestern desert town of Jiuquan on Tuesday. One of them, Pakistani air force pilot Muhammad Zeeshan Ali, will be the first person from outside China to ever board China's space station — a first in more than three decades of Chinese human spaceflight. The crew launches Wednesday, but the announcement itself is the news: China has finally opened its station to a foreign flier."
+          },
+          "story": {
+            "en": [
+              "For years, China's space program has been a solo act. Every astronaut who has flown to the country's orbiting station, called Tiangong (which means 'Heavenly Palace'), has been Chinese. That changes with Shenzhou-24. Alongside two Chinese crew members, Pakistani air force pilot Muhammad Zeeshan Ali will ride into orbit and become the first foreign national ever to set foot on a Chinese crewed spacecraft or station.",
+              "To understand why this matters, it helps to know why China built its own station in the first place. China was never invited to join the International Space Station (ISS), the orbiting laboratory jointly run by the United States, Russia, Europe, Japan, and Canada since the late 1990s. A US law passed in 2011 blocks NASA, America's space agency, from cooperating with China on space projects, over security concerns in Washington. Locked out, China built its own program from scratch — its first astronaut flew in 2003 — and finished assembling Tiangong in 2022. It has kept the station continuously staffed ever since, swapping crews roughly twice a year aboard capsules called Shenzhou, meaning 'Divine Vessel.'",
+              "China has said for years that it eventually wants to open Tiangong to astronauts from other countries, positioning the station as a rival home base for nations that either can't join the ISS or simply want other options. Pakistan was a logical first partner to make good on that promise: the two countries are close diplomatic and military allies, tied together through decades of defense cooperation and China's Belt and Road infrastructure investments across Pakistan. Zeeshan Ali's flight turns a long-standing alliance on the ground into a historic first in orbit.",
+              "The timing carries weight beyond this one mission. The ISS is aging and is expected to be retired around 2030, decommissioned and allowed to burn up over the ocean. As that deadline approaches, countries and private companies are jostling over what replaces it — and whether there will be one shared successor or several competing stations. Tiangong, with its own slate of international partners, is shaping up as one clear alternative, built and controlled entirely by China rather than negotiated jointly among multiple governments the way the ISS was.",
+              "Wednesday's launch itself falls just outside this news cycle, so the story for now is the announcement: a seat on a Chinese spacecraft has gone to someone who isn't Chinese for the first time ever. Whether that becomes the start of a steady stream of international crews, or stays a one-off diplomatic gesture, is the question the next few years of Tiangong missions will answer."
+            ]
+          },
+          "why_it_matters": {
+            "en": "How nations choose to share — or not share — access to space is quietly deciding what kind of world you'll grow up in: one where countries work through a handful of shared institutions, or one splitting into separate blocs with their own rules, allies, and hardware. Space stations might feel distant, but they're really just another place where alliances get built or tested, the same as trade deals or military pacts."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tiangong"
+              },
+              "def": {
+                "en": "China's own space station, built after the US blocked China from joining the International Space Station, continuously staffed by Chinese crews since 2022."
+              }
+            },
+            {
+              "term": {
+                "en": "Shenzhou"
+              },
+              "def": {
+                "en": "The name of the spacecraft China uses to launch astronauts up to Tiangong and bring them back down to Earth."
+              }
+            },
+            {
+              "term": {
+                "en": "International Space Station (ISS)"
+              },
+              "def": {
+                "en": "A space station jointly run by the US, Russia, Europe, Japan, and Canada since the late 1990s, which China was never invited to join."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it better for the world to have one shared space station that rival countries jointly run, or for countries to build their own stations and pick their own partners?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "One shared station"
+                  },
+                  "points": {
+                    "en": [
+                      "Pooling money and expertise lets smaller countries reach space who could never afford to build a station alone.",
+                      "A single shared station forces rival governments to keep cooperating even when relations sour elsewhere, which the ISS has done for US-Russia relations through several crises.",
+                      "Splitting into competing stations duplicates costly research and science instead of combining it into one shared effort."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Separate stations, own partners"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries excluded from one station, as China was from the ISS, aren't locked out of space entirely if they can build their own.",
+                      "Competition between rival stations can push both sides to innovate faster, the way the original US-Soviet space race accelerated progress.",
+                      "Joint ownership means any one country's objection can stall decisions for everyone, while an independently run station can move at its own pace."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should close military allies, like China and Pakistan, extend their partnership into space missions, or does that risk turning space exploration into another front of geopolitical rivalry?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's natural cooperation"
+                  },
+                  "points": {
+                    "en": [
+                      "Countries that already trust each other with sensitive defense cooperation have a head start on the trust a spaceflight partnership requires.",
+                      "Rewarding a long-standing ally with a historic first strengthens an existing relationship rather than opening a new conflict.",
+                      "Space partnerships between allies aren't new — even the ISS joined former Cold War rivals the US and Russia, and cooperation between friends is safer than cooperation forced between enemies."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it risks spreading rivalry into space"
+                  },
+                  "points": {
+                    "en": [
+                      "Tying a defense alliance to a crewed space mission makes the flight look like political signaling dressed up as science.",
+                      "Choosing crews along alliance lines could harden a divided world into separate camps, instead of encouraging cooperation across rival blocs the way the ISS once did.",
+                      "Space works best as a relatively neutral arena; picking partners based on strategic friendship narrows who actually benefits from access to it."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
