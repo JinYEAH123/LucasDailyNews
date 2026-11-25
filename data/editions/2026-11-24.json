@@ -1,0 +1,803 @@
+{
+  "date": "2026-11-24",
+  "window": {
+    "start": "2026-11-23T12:00:00-07:00",
+    "end": "2026-11-24T12:00:00-07:00",
+    "label": {
+      "en": "News from Monday 12:00 PM to Tuesday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-24T19:26:12-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Jensen Huang reinstated as Nvidia CEO, lawmakers plan hearings",
+        "publisher": "The Hill",
+        "url": "https://thehill.com/policy/technology/6236752-jensen-huang-reinstated-nvidia-ceo/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Nvidia's Jensen Huang and the two weeks that rocked U.S. capitalism"
+          },
+          "summary": {
+            "en": "A detailed timeline of Huang's removal and reinstatement, useful for understanding how the boardroom crisis unfolded before this week's blacklist news. Written and published by the Washington Post."
+          },
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/technology/interactive/2026/11/24/nvidias-jensen-huang-two-weeks-that-rocked-us-capitalism/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "US blacklists Megaspeed and Alibaba subsidiary over diversion risks"
+          },
+          "summary": {
+            "en": "A Chinese financial outlet's account of how the blacklist affects Megaspeed and Alibaba's cloud operations, adding a perspective from inside China's business press.-"
+          },
+          "publisher": "Caixin Global",
+          "url": "https://www.caixinglobal.com/2026-11-25/us-blacklists-megaspeed-and-alibaba-subsidiary-over-diversion-risks-102508429.html"
+        },
+        {
+          "title": {
+            "en": "US adds Megaspeed to trade blacklist as Nvidia's Huang returns as CEO"
+          },
+          "summary": {
+            "en": "Coverage from Al Jazeera, a Qatar state-funded broadcaster, offering an international vantage point on the export curbs; read alongside Western outlets rather than alone.0"
+          },
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Computer Chip Mystery: A Company Gets Banned, A Boss Gets Fired, Then Un-Fired"
+          },
+          "hook": {
+            "en": "The United States just banned a Chinese company called Megaspeed from buying American computer chips. The ban happened right after the boss of chip-maker Nvidia got fired, then un-fired just six days later, after the President personally asked for him back. Now, lawmakers want to know what really happened, and why the President seems to have money riding on the answer."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes tiny but powerful computer chips. These chips are so good at fast thinking that they help run artificial intelligence, or AI. The U.S. government worries these chips could end up helping China's military build smarter weapons, so it limits who is allowed to buy them.",
+              "On November 24, the government put a company called Megaspeed on a blacklist. A blacklist here means Megaspeed is now banned from buying advanced American tech. Officials think Megaspeed, which has ties to the giant Chinese company Alibaba, may have been secretly passing Nvidia chips to people in China who weren't supposed to get them.",
+              "This all comes right after something strange happened at Nvidia itself. The company's board fired its CEO, Jensen Huang, the man who runs the whole company. But just six days later, they brought him right back. Nvidia said this happened after hearing from 'senior levels' of the U.S. government, and President Trump told a TV interviewer he personally pushed for Huang's return.",
+              "Here's where it gets tricky: Trump also owns a lot of Nvidia stock, meaning he profits when Nvidia does well. One report says his stake could be worth about $97.5 million — enough to buy roughly 240 average houses. Another report says it's closer to $62 million, still enough for about 150 houses. Lawmakers from both political parties are angry and now plan hearings to ask hard questions about both the chip-smuggling case and whether the President should have gotten involved in a private company's decision."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips inside your tablet, game console, or your parents' computer come from companies like Nvidia, so decisions about who can buy them affect the technology you'll use for years. It also raises a question that shows up in everyday life too: is it fair for someone in charge to make a decision about something they personally profit from, like a referee betting on the game they're reffing?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "blacklist"
+              },
+              "def": {
+                "en": "A blacklist is an official list of people or companies that are banned from doing something, like buying certain technology."
+              }
+            },
+            {
+              "term": {
+                "en": "conflict of interest"
+              },
+              "def": {
+                "en": "A conflict of interest happens when someone making a decision could personally gain or lose money from the choice they make, making it hard to trust they're being fair."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it okay for the President to personally step in and push for Nvidia's CEO to get his job back?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it was okay"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia's chips matter for national security, so the government has a real reason to care who runs the company.",
+                      "Leaders sometimes need to act fast when something important is at stake, and waiting could cause bigger problems.",
+                      "The President said he was acting on behalf of the country's interests, not just his own."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it wasn't okay"
+                  },
+                  "points": {
+                    "en": [
+                      "A private company's board should get to choose its own boss without pressure from outside, even from powerful people.",
+                      "The President owns Nvidia stock, so it looks like he might be helping himself, not just the country.",
+                      "If leaders can reverse business decisions this easily, it could make people trust companies and government less."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should someone be allowed to make big decisions about a company if they also own stock in it and could personally profit?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "Owning stock might mean they understand the company and industry really well, which could help them make smarter choices.",
+                      "As long as everyone knows about the stock ownership, people can judge the decision for themselves.",
+                      "Many leaders have investments in lots of things, and stopping them from ever deciding anything related would be nearly impossible."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't be allowed"
+                  },
+                  "points": {
+                    "en": [
+                      "It's hard to know if someone is acting for the public good or for their own wallet when both are possible.",
+                      "Even if there's no proof of cheating, it can make people lose trust in the decision.",
+                      "Keeping a clear separation between personal money and public power helps everyone feel the rules are fair."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Blacklisted Chip Broker, a Rehired CEO, and a President's Own Stock"
+          },
+          "hook": {
+            "en": "On November 24, the U.S. government cut off a Chinese company called Megaspeed from buying American technology, accusing it of funnelling advanced Nvidia chips to Chinese military and AI programs that are supposed to be off-limits. The move follows a stranger story: Nvidia's board fired its CEO, Jensen Huang, then reinstated him six days later after what the company called 'input from senior levels of the United States government' — input President Trump has confirmed was his own. Now lawmakers from both parties want hearings, and reporters are asking how much money Trump personally stands to gain from Nvidia's stock price."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes the computer chips that power most of the world's advanced artificial intelligence — the kind used in everything from chatbots to military targeting systems. Because those chips are so powerful, the U.S. government restricts which countries and companies can buy them, especially in China, where officials worry the chips could boost Chinese military capabilities. On November 24, the Commerce Department added a China-based company called Megaspeed, which has business ties to the Chinese tech giant Alibaba, to its export-control blacklist — a formal list of companies legally barred from receiving American technology. Investigators believe Megaspeed may have been part of a scheme to divert Nvidia chips meant for approved buyers into the hands of restricted Chinese programs instead.",
+              "That blacklisting didn't happen in isolation. Days earlier, Nvidia's own board had fired CEO Jensen Huang, only to bring him back less than a week later. The company's explanation was unusually blunt: the reversal came after 'input from senior levels of the United States government.' President Trump later told the business network CNBC that he personally pressed Nvidia's board to reinstate Huang. That is an extraordinary thing for a sitting president to say about a private company's internal leadership decision — most presidents don't publicly claim credit for rehiring a CEO.",
+              "What makes this murkier is money. Trump holds a personal financial stake in Nvidia, though reporters disagree on how large it is: CNBC has put the value of his trades at up to $97.5 million, while other reporting sourced to the Washington Post puts it closer to $62 million. Either way, if Trump's intervention helped steady the company and its stock price, he may have personally profited from a decision he pushed for — which is the basic definition of a conflict of interest, a situation where someone's private financial interest could shape a choice they're meant to be making for the public good.",
+              "Lawmakers from both political parties have reacted with anger, which is notable in itself — Republicans and Democrats in Washington agree on very little these days. They're now planning hearings to dig into two connected questions: why Huang was really reinstated, and how the Megaspeed diversion scheme was allowed to operate in the first place. The two threads matter together, because if chips are leaking to restricted Chinese programs, the leadership and oversight of the company that makes those chips becomes a national security question, not just a corporate one.",
+              "Step back, and this is one skirmish in a much bigger fight over who controls the technology behind advanced AI. The United States has spent years trying to keep its most powerful chips out of Chinese military hands, while Chinese companies and middlemen have just as persistently looked for ways around those rules. Megaspeed's blacklisting is a concrete, legally binding move in that fight — it's not a warning or a statement, it's a company losing access to American exports. But the fact that it arrived in the same week as a presidential intervention into Nvidia's leadership, and questions about his own stock holdings, has tangled a national security story together with a story about a president's personal finances."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips at the centre of this fight already shape apps, schoolwork tools, and search engines many teenagers use daily, and who controls them will shape the next decade of technology. It's also a real-time example of a question that shows up in civics class: what happens when a government official's personal financial interests and their public decisions point in the same direction — and who gets to decide if that's a problem?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Export-control blacklist (Entity List)"
+              },
+              "def": {
+                "en": "A U.S. government list of foreign companies that are legally barred from buying American technology, usually because officials see them as a security risk."
+              }
+            },
+            {
+              "term": {
+                "en": "Chip diversion"
+              },
+              "def": {
+                "en": "When technology sold to one approved buyer is secretly rerouted to someone else who was never supposed to be allowed to have it."
+              }
+            },
+            {
+              "term": {
+                "en": "Conflict of interest"
+              },
+              "def": {
+                "en": "A situation where someone's personal financial stake could influence a decision they are supposed to be making for the public good."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it right for President Trump to personally push Nvidia's board to bring back its CEO, given that he owns Nvidia stock?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "He was protecting a vital national asset"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia's chips are central to U.S. security and the economy, so stability in its leadership during a sensitive moment is a legitimate presidential concern.",
+                      "Presidents and officials talk with major companies about decisions that affect the national interest all the time, and influence alone isn't improper.",
+                      "An abrupt CEO firing at a company this important to national AI strategy could have looked destabilizing right when the U.S. needs Nvidia focused and functioning."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "He crossed a line"
+                  },
+                  "points": {
+                    "en": [
+                      "Trump has a direct financial stake in Nvidia, so pushing for a decision that helped the stock price could have personally enriched him.",
+                      "A president pressuring a private company's board to reverse a personnel decision sets a troubling precedent for political interference in corporate governance.",
+                      "When personal profit and claimed public interest point the same way, the public has no way to know which one was actually driving the decision."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Do strict export controls, like blacklisting Megaspeed, actually make the U.S. safer, or do they mostly backfire?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "They work"
+                  },
+                  "points": {
+                    "en": [
+                      "Blocking advanced chips slows China's ability to build cutting-edge military and AI systems, buying the U.S. valuable time.",
+                      "A public blacklisting sends a clear signal to companies worldwide that helping China evade the rules carries real legal and financial costs.",
+                      "Even imperfect enforcement raises the cost and risk of diversion schemes, discouraging at least some actors from trying."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "They backfire"
+                  },
+                  "points": {
+                    "en": [
+                      "Export controls give China a powerful incentive to build its own independent chip industry faster, reducing long-term American leverage.",
+                      "American chip companies lose billions in sales to one of the world's largest markets, weakening the very industry the controls are meant to protect.",
+                      "Determined buyers can route around restrictions through middlemen and shell companies, so the rules mostly catch the careless while barely slowing the determined."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Father, daughter detained by ICE at Seattle airport, traveling to family baptism",
+        "publisher": "NBC News",
+        "url": "https://www.nbcnews.com/news/us-news/father-daughter-detained-ice-seattle-airport-traveling-family-baptism-rcna610824"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Seattle airport ICE arrest sparks outrage"
+          },
+          "summary": {
+            "en": "A Canadian public broadcaster's account of the arrest and the protest it triggered, offering a non-U.S.-owned perspective on the incident.2"
+          },
+          "publisher": "CBC News",
+          "url": "https://www.cbc.ca/news/world/seattle-airport-ice-arrest-9.7432394"
+        },
+        {
+          "title": {
+            "en": "ICE arrest on Alaska Airlines flight in Seattle"
+          },
+          "summary": {
+            "en": "Additional reporting detailing witness accounts and the airline's response to the enforcement action at the gate.4"
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Seattle airport ICE arrests"
+          },
+          "summary": {
+            "en": "An earlier report from the day before, giving the initial, developing account of airport enforcement actions in the Seattle area ahead of this arrest.6"
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/22/us/seattle-airport-ice-arrests"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Dad and His Daughter Were Stopped at the Airport—on Their Way to a Baptism"
+          },
+          "hook": {
+            "en": "On November 23, government agents stopped a father and his daughter at an airport in Seattle, a big city on the west coast of the United States. They were about to get on a plane. Their lawyer says they were flying to a baptism, a special family celebration. Instead, the agents detained them, which means they were stopped and held so they couldn't leave."
+          },
+          "story": {
+            "en": [
+              "The agents work for a group called ICE. Their job is to find people who aren't allowed to live in the United States and send them back to their home countries.",
+              "People nearby saw what happened. Some of them shouted and complained. They said it felt too harsh to arrest someone, especially with a child there, right before a family celebration.",
+              "This wasn't the only airport arrest this month. Earlier, a scientist from Princeton University was also detained at an airport. People are now arguing about whether airports are the right place for these arrests to happen.",
+              "Nobody has shared the names of the father and daughter. ICE says the arrest followed the law. The family's lawyer disagrees about whether it was actually legal."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Imagine getting ready for a special family day, like a birthday or a holiday trip, and instead something scary happens at the airport. This story is about how grown-ups disagree over where and how rules should be enforced, even when kids are involved. It also shows how a single moment, like boarding a plane, can turn into a very public and upsetting event for a family."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "ICE"
+              },
+              "def": {
+                "en": "ICE stands for Immigration and Customs Enforcement, a part of the U.S. government that finds and removes people who aren't allowed to stay in the country."
+              }
+            },
+            {
+              "term": {
+                "en": "detained"
+              },
+              "def": {
+                "en": "To be detained means someone stops you and holds you so you can't leave, usually while they check something or enforce a rule."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Was it fair to arrest a father and daughter who were traveling to a family celebration like a baptism?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, rules should apply every day"
+                  },
+                  "points": {
+                    "en": [
+                      "If agents only acted on 'convenient' days, almost nothing would ever get enforced.",
+                      "Letting people avoid arrest by naming a special occasion could let anyone delay the rules forever.",
+                      "The agents may not have known about the baptism, and the law doesn't usually pause for personal events."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it was needlessly harsh"
+                  },
+                  "points": {
+                    "en": [
+                      "A baptism is a meaningful day that shouldn't be interrupted by an arrest.",
+                      "No child should have to watch a parent get taken away in public.",
+                      "The same goal could have been reached at a quieter time or place, with less fear involved."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should arrests like this happen in busy public places like airports, where children and strangers can see?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, airports are practical places to act"
+                  },
+                  "points": {
+                    "en": [
+                      "Agents often only know where someone will be because of their flight ticket, so the airport may be the one place they can find them.",
+                      "Officers can't choose a 'better' moment; they must act when and where they locate the person.",
+                      "Stopping someone before they board a plane may be the only way to prevent them from leaving the area entirely."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's too public and upsetting"
+                  },
+                  "points": {
+                    "en": [
+                      "Public arrests can frighten children who see them happen.",
+                      "It turns a normal travel day into a traumatic memory for a family.",
+                      "A quieter method, away from crowds, could achieve the same result with much less harm."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Father, His Daughter, and an Airport: ICE Arrests Spark a Fight Over Where Immigration Enforcement Belongs"
+          },
+          "hook": {
+            "en": "On November 23rd, federal immigration agents stopped a father and his daughter at Seattle-Tacoma International Airport just as they were about to board a flight. Their lawyer says they were on their way to a family baptism. Bystanders filmed the arrest and some protested on the spot, and it's now part of a growing argument about whether airports have quietly become a new front line for immigration enforcement."
+          },
+          "story": {
+            "en": [
+              "The scene at Sea-Tac wasn't unusual in its location — airports are full of people going through security checks every day. What made it unusual was who got stopped and why. According to the family's attorney, the father and daughter were traveling for a religious ceremony, not trying to flee or hide from anything. ICE, the federal agency responsible for enforcing immigration law inside the US, hasn't released the same level of detail, and the exact legal grounds for the detention are disputed. ICE says its agents acted on a valid removal order — a legal order from an immigration judge saying someone no longer has the right to stay in the country and must leave. The family's side says the arrest felt less like enforcing a court order and more like an ambush, timed and placed to catch someone off guard in public.",
+              "That gap between the two accounts matters, because it's become a pattern. Earlier this month, a neuroscientist at Princeton University was detained at an airport too, a case that drew attention partly because of her prominent academic position — a reminder that these arrests aren't confined to people hiding in the shadows of society, but are reaching into everyday, visible life. Advocacy groups tracking ICE activity say airport arrests have picked up noticeably in recent weeks, and they argue this represents a real shift: enforcement moving from targeted operations against specific individuals at specific addresses, toward actions that intercept people during ordinary activities — flying to see family, going to work, dropping off kids at school.",
+              "The administration's position is straightforward: if someone has a final removal order, location shouldn't matter, and ICE is simply doing its job wherever it can lawfully do so. Agents don't lose the authority to detain someone just because that person happens to be in an airport rather than at home. From this view, the fact that an arrest looks dramatic on video doesn't make it illegal, and critics are reacting to the optics of enforcement rather than its legality.",
+              "Critics counter that the setting isn't incidental — it's the point. Airports are chosen, they argue, precisely because people are predictable there: they have booked tickets, they show up at specific times, and they're easy to intercept without a warrant for a specific address. Detaining a child in that setting, advocates say, raises the stakes further, since children generally aren't the enforcement target themselves but get swept into the same moment as a parent. The emotional and practical fallout — a kid detained with no warning before a family event — is, in this reading, part of what makes the tactic feel disproportionate even to people who otherwise support strict immigration enforcement.",
+              "What's notable here is that criticism of the airport tactic is not coming from just one political direction. Lawmakers and commentators who usually disagree sharply on immigration policy have both raised concerns about how, not whether, enforcement happens — suggesting the debate has shifted somewhat from the broader fight over immigration law itself to a narrower question about acceptable methods. That distinction is likely to keep surfacing as more of these airport cases become public."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Even if this story feels far from your own life, it touches something close to home: how much predictability and safety you can expect in ordinary moments, like catching a flight, once government enforcement starts happening in public spaces rather than behind closed doors. It also raises a question that outlasts any one administration — where the line sits between a government lawfully enforcing its own rules and a government using surprise and public settings to make that enforcement easier."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "ICE (Immigration and Customs Enforcement)"
+              },
+              "def": {
+                "en": "The federal U.S. agency responsible for finding, detaining, and removing people who are in the country without legal permission to stay."
+              }
+            },
+            {
+              "term": {
+                "en": "Removal order"
+              },
+              "def": {
+                "en": "A legal order issued by an immigration judge stating that a person has no right to remain in the country and must leave."
+              }
+            },
+            {
+              "term": {
+                "en": "Detention"
+              },
+              "def": {
+                "en": "Being held by authorities, often while a legal case or process — like removal from the country — is worked out."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should it matter, legally or morally, where an enforcement arrest happens — for example, at an airport in public versus at a private home?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Location shouldn't change the rules"
+                  },
+                  "points": {
+                    "en": [
+                      "If a removal order is valid, the legal authority to enforce it doesn't depend on the setting.",
+                      "Treating airports as off-limits would let people simply use travel as a loophole to avoid arrest.",
+                      "Focusing on the location of an arrest distracts from the actual legal question of whether the order itself was valid."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Public, predictable settings change the ethics of enforcement"
+                  },
+                  "points": {
+                    "en": [
+                      "Airports let agents exploit predictable schedules rather than conduct a deliberate, targeted search, which feels more like entrapment than enforcement.",
+                      "Arrests in crowded public places risk frightening or endangering bystanders, including children, who have no connection to the case.",
+                      "Choosing high-visibility locations can look like it's meant to intimidate immigrant communities broadly, not just enforce one order."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a child is present during a parent's detention, should enforcement agencies be required to handle the situation differently than they would for an adult alone?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Enforcement procedure shouldn't change because of who's nearby"
+                  },
+                  "points": {
+                    "en": [
+                      "Agents can't control who happens to be traveling with someone named in a removal order.",
+                      "Creating exceptions whenever a child is present could be used strategically to avoid or delay lawful arrests.",
+                      "Consistent rules, applied the same way regardless of bystanders, are fairer and more predictable than rules that bend case by case."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "The presence of a child changes what's reasonable"
+                  },
+                  "points": {
+                    "en": [
+                      "Children aren't the legal target of these orders and shouldn't bear the trauma of a public, forceful arrest.",
+                      "Agencies already use discretion in many situations — choosing quieter timing or methods when there's no urgent safety need — and this seems like an obvious case for the same restraint.",
+                      "A child detained or traumatized in this way faces lasting harm disconnected from whatever is being decided in the adult's immigration case."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "science",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Scientists discover quasar that formed mere 630 million years after Big Bang",
+        "publisher": "ABC News (AP)",
+        "url": "https://abcnews.com/Technology/wireStory/scientists-discover-quasar-formed-mere-630-million-years-138402896"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Quasar discovery tightens constraints on black hole formation"
+          },
+          "summary": {
+            "en": "An independently written account (not reliant on the AP wire) explaining in more technical detail what the finding means for black-hole formation theories.8"
+          },
+          "publisher": "phys.org",
+          "url": "https://phys.org/news/2026-11-quasar-tightens-constraints-black-hole.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Farthest, oldest quasar ever found"
+          },
+          "summary": {
+            "en": "Additional coverage placing the discovery in context among other record-breaking distant objects found in recent years.0"
+          },
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/quasar-farthest-oldest-found/"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Giant Black Hole That Grew Impossibly Fast, Right After the Universe Began"
+          },
+          "hook": {
+            "en": "Astronomers found a huge, hungry black hole that already existed when the universe was only 630 million years old. That's like finding a fully grown oak tree in a forest that was planted last week. Nobody is sure how something so big could grow so fast."
+          },
+          "story": {
+            "en": [
+              "The universe is about 13.8 billion years old. This black hole formed about 13.1 billion years ago, when the universe was still a baby, barely 630 million years old out of its whole life so far.",
+              "Scientists found it using a space telescope called Euclid, which takes pictures of faraway galaxies. The black hole they found is part of something called a quasar. That's a black hole so busy eating gas and dust that it glows brighter than a whole galaxy of stars.",
+              "The strange part is the size. This black hole already weighed billions of times more than our Sun. Normally, scientists think black holes start small and grow slowly, over a very long time, like a snowball rolling downhill. But the universe wasn't old enough yet for that slow method to work.",
+              "Some scientists think maybe this black hole started big from the very beginning, made when a giant cloud of gas collapsed all at once, instead of starting tiny and growing bit by bit. Nobody knows for sure yet, and most news stories about this discovery came from one single report, so other scientists still need to check the find carefully."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This discovery is a clue about how everything, including our own galaxy, came to be. Figuring out puzzles like this is how scientists slowly build a true picture of where we all came from, even when the first answer isn't the final one."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Black hole"
+              },
+              "def": {
+                "en": "A black hole is a place in space where gravity is so strong that nothing, not even light, can escape it."
+              }
+            },
+            {
+              "term": {
+                "en": "Quasar"
+              },
+              "def": {
+                "en": "A quasar is a very bright, glowing region made when a giant black hole pulls in gas and dust so fast that it lights up brighter than an entire galaxy."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it worth spending a lot of money and years of work studying something so far away that it will never affect our daily lives?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Learning how the universe began helps us understand where everything, including us, came from.",
+                      "Space discoveries often lead to new inventions, like the technology used in phones and medicine, that nobody expected.",
+                      "Curiosity itself matters, and some things are worth studying just because they're amazing and mysterious."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "The same money could feed people, build hospitals, or fix problems happening right now on Earth.",
+                      "A discovery like this won't change anyone's daily life, even if it's exciting.",
+                      "There will always be more mysteries in space, so there's no urgent reason to solve this one first."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When scientists don't agree on how something happened, should we go with their best guess for now, or wait until they're completely sure?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Go with the best guess"
+                  },
+                  "points": {
+                    "en": [
+                      "A good guess based on evidence is more useful than no answer at all.",
+                      "Science often starts with a guess, called a theory, and gets better over time as more proof comes in.",
+                      "Waiting for total certainty could mean waiting forever, since some things are very hard to prove completely."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Wait until they're sure"
+                  },
+                  "points": {
+                    "en": [
+                      "Believing a guess too early might mean believing something that turns out to be wrong.",
+                      "Being patient and double-checking is exactly what makes science trustworthy.",
+                      "If everyone jumps to conclusions, mistakes could spread and be hard to correct later."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "A Black Hole That Grew Up Too Fast: Astronomers Find a Giant From the Universe's Early Childhood"
+          },
+          "hook": {
+            "en": "Astronomers have spotted a quasar — a supermassive black hole actively feeding on surrounding gas — that had already formed just 630 million years after the Big Bang, roughly 13.1 billion years ago. That makes it one of the earliest such objects ever seen, and it's forcing scientists to rethink how black holes can grow so large, so fast, so soon after the universe began."
+          },
+          "story": {
+            "en": [
+              "When astronomers look at a distant object in space, they're not seeing it as it is now — they're seeing light that left it a very long time ago. In this case, the light reaching Earth's telescopes started its journey 13.1 billion years ago, when the universe itself was only about 630 million years old. That's like finding a fully grown adult in a photograph taken when the human species itself was still a newborn.",
+              "What they found is called a quasar: a supermassive black hole — one containing the mass of millions or even billions of suns — that is actively pulling in gas and dust from its surroundings. As that material spirals inward, it heats up and glows so fiercely that quasars can outshine every star in their entire galaxy combined. This particular detection came from data that includes observations by the European Space Agency's Euclid space telescope, which is designed to map huge swaths of the sky in detail.",
+              "Here's the puzzle. Black holes are thought to grow gradually — by swallowing nearby gas and merging with other black holes — and that process normally takes a long time. For a black hole to reach a mass of billions of suns within the universe's first few hundred million years is like a toddler bench-pressing a car: the standard timeline for how fast these things can plausibly grow doesn't leave enough room for it to happen. This newly found quasar isn't a one-off; it joins a small but growing list of extremely early, extremely massive black holes that keep showing up earlier than current models predict they should be able to exist.",
+              "One leading idea to explain this is that some black holes don't start small. Instead of beginning as the collapsed remains of a dead star and slowly packing on mass, these black holes might start as unusually massive 'seeds' — formed when an enormous cloud of gas collapses directly in on itself, skipping the star stage entirely and starting the growth process already huge. If true, that would mean the early universe had ways of building giant black holes that current theories don't fully account for.",
+              "It's worth knowing where this story comes from. Much of the news coverage of this discovery traces back to a single wire report from the Associated Press, which was then republished by many outlets with little independent reporting added. A smaller number of outlets, including the science news site phys.org, produced their own separate account, which gives readers at least one alternative source beyond the original research team and the single wire story.",
+              "Scientists don't yet agree on exactly how massive this particular black hole is or which growth mechanism explains it — the 'heavy seed' idea is one strong candidate, but it remains actively debated rather than settled fact. What's not in dispute is that each new early quasar discovered makes the old, simpler picture of gradual black hole growth harder to defend."
+            ]
+          },
+          "why_it_matters": {
+            "en": "This isn't just a story about a distant object — it's a story about scientists discovering that a theory they trusted doesn't fully work, and having to figure out what's missing. That process, of evidence outrunning explanation and forcing a rethink, is how a lot of real science actually happens, in any field."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Quasar"
+              },
+              "def": {
+                "en": "An extremely bright, active supermassive black hole that glows fiercely as it pulls in surrounding gas and dust."
+              }
+            },
+            {
+              "term": {
+                "en": "Supermassive black hole"
+              },
+              "def": {
+                "en": "A black hole containing the mass of millions or billions of suns, typically found at the centre of a galaxy."
+              }
+            },
+            {
+              "term": {
+                "en": "Seed black hole"
+              },
+              "def": {
+                "en": "A theorised early, possibly already-massive black hole that forms the starting point from which a supermassive black hole grows."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it worth spending billions of dollars on telescopes that study events from before Earth existed, with no guaranteed practical payoff?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's worth it"
+                  },
+                  "points": {
+                    "en": [
+                      "Basic research often produces unexpected practical technology later — GPS satellites, for instance, rely on physics first studied out of pure curiosity.",
+                      "Understanding where the universe, and ultimately we, came from has value in itself, even without an immediate application.",
+                      "Ambitious science projects inspire students to go into science and engineering, building skills a country needs regardless of the specific discovery."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, spend it elsewhere"
+                  },
+                  "points": {
+                    "en": [
+                      "Billions of dollars could fund urgent problems happening right now, like disease research, poverty reduction, or clean energy.",
+                      "Money spent satisfying curiosity about the distant past doesn't put food on anyone's table or cure anyone's illness today.",
+                      "Research funding is limited, so every dollar spent on deep-space telescopes is a dollar not spent on something with a clearer, nearer-term benefit."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When new evidence keeps breaking an established scientific theory, should scientists abandon that theory quickly or defend it while making adjustments?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Move quickly to revise it"
+                  },
+                  "points": {
+                    "en": [
+                      "Science is supposed to follow the evidence, and clinging to a theory that keeps getting contradicted slows down real progress.",
+                      "A handful of early massive black holes is already enough outliers to suggest something fundamental is being missed, not just small errors.",
+                      "Letting go of a broken framework sooner opens the door to better explanations instead of forcing new data to fit an old shape."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Defend it and adjust carefully"
+                  },
+                  "points": {
+                    "en": [
+                      "A theory with a long track record of successful predictions shouldn't be thrown out because of a few hard-to-measure exceptions.",
+                      "Measuring the mass and age of something 13 billion light years away is extremely difficult, so the data itself could be wrong or imprecise.",
+                      "Constantly discarding well-tested theories for every surprising result would make science chaotic and unreliable rather than more accurate."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
