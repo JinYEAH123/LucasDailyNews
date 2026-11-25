@@ -1,11 +1,33 @@
 name: Daily edition
 
-# The publish time is a family setting (any zone, any hour), so there is no
-# fixed UTC moment to schedule. The job runs hourly and decides for itself
-# whether this is the hour — which also makes daylight saving a non-event.
+# The publish time is a family setting (any zone, any hour), so the job still
+# decides for itself whether an edition is due — which is what makes daylight
+# saving a non-event. What changed is how often it asks.
+#
+# This used to be '0 * * * *'. GitHub does not honour that. Measured over 224
+# hours in November, the hourly cron fired 3.2 times a day: median gap 8.1
+# hours, worst 12.3. Roughly seven of every eight scheduled runs never happen,
+# and GitHub throttles frequent schedules hardest, so asking for 24 is part of
+# why so few arrive.
+#
+# With three runs a day drawn from 24 evenly spread hours, most land before the
+# noon cutoff and exit as not-due — which is exactly what happened on
+# 2026-11-24, when the day's only run came at 09:22 local and the paper was
+# still missing at dinner.
+#
+# So ask for six times instead, all of them after a noon cutoff and spread
+# across the afternoon and evening. Whichever few GitHub actually serves, each
+# one is a run that can publish. The times are UTC; at UTC-8 they are 12:10,
+# 14:10, 16:10, 18:10, 20:10 and 22:10 local, and an hour later under daylight
+# saving — all still past noon either way.
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '10 20 * * *'
+    - cron: '10 22 * * *'
+    - cron: '10 0 * * *'
+    - cron: '10 2 * * *'
+    - cron: '10 4 * * *'
+    - cron: '10 6 * * *'
   workflow_dispatch:
     inputs:
       date:
