@@ -55,9 +55,11 @@ url = "https://yourname.github.io/your-repo/"
 ```
 
 Set `hour` several hours before you actually want to read the edition. The job
-runs hourly, but GitHub's scheduler is best-effort: it drifts by tens of minutes
-and sometimes skips an hour. A cutoff at the moment you want the paper leaves no
-room for that — noon, for a paper read at dinner, leaves five hours.
+tries several times a day, but GitHub's scheduler is best-effort and much
+weaker than it looks: measured over 224 hours, a cron asking for every hour
+fired 3.2 times a day, with a median gap of 8 hours. A cutoff at the moment you
+want the paper leaves no room for that — noon, for a paper read at dinner,
+leaves the whole afternoon for an attempt to land.
 
 Three ways to write it: open **`docs/setup.html`** in a browser, run
 **`python3 scripts/setup.py`**, or edit **`config.example.toml`** by hand.
@@ -154,7 +156,8 @@ data/editions/YYYY-MM-DD.json      ← the single source of truth
      └── send_newsletter.py → email over SMTP
 ```
 
-The workflow runs **hourly** and decides for itself whether this is your hour.
+The workflow runs at **six fixed times** and decides for itself whether an
+edition is due.
 That is what lets any zone and any hour work, and it makes daylight saving a
 non-event. It is also self-healing: an edition is due once the cutoff has passed
 and today's is still missing, so a delayed or dropped run is picked up by the
@@ -269,7 +272,7 @@ scripts/
   send_newsletter.py      JSON → email over SMTP
   assets/                 stylesheet and toggles, copied into docs/assets
 docs/                     generated; GitHub Pages serves this
-.github/workflows/        the hourly job
+.github/workflows/        the scheduled job
 ```
 
 `docs/` is generated — edit `scripts/assets/` or the JSON and re-render.
