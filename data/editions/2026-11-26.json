@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-26",
+  "window": {
+    "start": "2026-11-25T12:00:00-07:00",
+    "end": "2026-11-26T12:00:00-07:00",
+    "label": {
+      "en": "News from Wednesday 12:00 PM to Thursday 12:00 PM MST"
+    }
+  },
+  "generated_at": "2026-11-26T20:00:09-07:00",
+  "generator": "claude-sonnet-5 (research + skeleton + 2 bands x 3 stories)",
+  "settings": {
+    "stories_per_day": 3,
+    "categories": [
+      "politics",
+      "society",
+      "business",
+      "tech",
+      "science"
+    ],
+    "regions": [
+      "US",
+      "CN",
+      "GLOBAL"
+    ],
+    "bands": [
+      "primary",
+      "secondary"
+    ],
+    "languages": [
+      "en"
+    ],
+    "timezone": "America/Vancouver",
+    "hour": 12
+  },
+  "stories": [
+    {
+      "rank": 1,
+      "category": "business",
+      "region": "GLOBAL",
+      "source": {
+        "title": "Trump Proposes New Tariffs on China, Europe, Other Trade Partners",
+        "publisher": "Washington Post",
+        "url": "https://www.washingtonpost.com/politics/2026/11/25/trump-proposes-new-tariffs-china-europe-other-trade-partners/"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump's Country-Specific Tariffs Target 'Excess Capacity'"
+          },
+          "summary": {
+            "en": "NBC News breaks down which countries and industries are targeted and the administration's stated rationale. Useful for readers who want the policy mechanics rather than the political reaction."
+          },
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/economy/trump-country-specific-tariffs-excess-capacity-rcna611087"
+        },
+        {
+          "title": {
+            "en": "Trump Tariffs on China, 2026"
+          },
+          "summary": {
+            "en": "Axios offers a quick-reference rundown of rates and countries affected, helpful for comparing this round against earlier tariff actions this year."
+          },
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/11/25/trump-tariffs-china"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump's New Tariffs Explained"
+          },
+          "summary": {
+            "en": "CNN examines how this tariff package is designed to survive the legal challenges that sank the administration's earlier emergency-powers tariffs, and what comes next in court."
+          },
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/25/economy/trump-new-tariffs"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The U.S. Wants to Charge More Money on Things Bought From Other Countries"
+          },
+          "hook": {
+            "en": "On Wednesday, the United States government said it wants to add new fees on goods coming from places like China, Japan, Brazil, and more than a dozen other countries. These fees are called tariffs, and they make foreign products cost more. The government says it's doing this because those countries help their factories unfairly. But a top court already said an earlier version of this plan wasn't allowed, so people are watching to see if this new one will work."
+          },
+          "story": {
+            "en": [
+              "Imagine a toy made in China costs $10 at the store. Right now, the store already pays a small fee, called a tariff, to bring that toy into America. The government wants to raise that fee a lot — maybe 20% more, or even 40% if talks with China don't go well.",
+              "It's not only China. The plan also adds new fees on things from Europe, Japan, Brazil, South Korea, Taiwan, and about a dozen other countries.",
+              "The government says this is fair because those countries give their factories special help, called subsidies, which lets them sell things cheaper than American factories can.",
+              "But many experts say this new plan looks a lot like an earlier one. The Supreme Court — the highest court in the country — already said that earlier plan gave the president too much power. Now people are asking if this new version will survive being challenged in court too."
+            ]
+          },
+          "why_it_matters": {
+            "en": "When tariffs go up, stores usually pass that extra cost on to shoppers — so things your family buys, like sneakers, phones, or toys, could get more expensive. Other countries might also add their own tariffs on things America sells them, which could affect jobs here at home too."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tariff is an extra fee a government charges on goods coming from another country, kind of like a toll you pay to cross a bridge."
+              }
+            },
+            {
+              "term": {
+                "en": "Subsidy"
+              },
+              "def": {
+                "en": "A subsidy is money a government gives to help its own companies, sometimes letting them sell things for less."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should governments be allowed to charge extra fees on goods from other countries to protect their own factories?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it protects jobs"
+                  },
+                  "points": {
+                    "en": [
+                      "Making foreign goods pricier might push people to buy things made at home, keeping local factory jobs safe.",
+                      "If other countries help their factories unfairly, tariffs can even out the competition.",
+                      "Protecting important industries, like steel or electronics, could matter a lot if there's ever a shortage or emergency."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it hurts shoppers"
+                  },
+                  "points": {
+                    "en": [
+                      "Tariffs usually make everyday things like clothes, toys, and electronics cost more for families.",
+                      "Other countries can strike back with their own tariffs, which can hurt businesses that sell things abroad.",
+                      "Instead of making companies work harder to compete, tariffs can let them get lazy because shoppers have fewer cheaper choices."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should courts be allowed to stop a president from creating tariffs using emergency powers, even if the president says it's for the country's good?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, courts should set limits"
+                  },
+                  "points": {
+                    "en": [
+                      "If a president can use emergency powers however they like, future leaders might stretch that power even further.",
+                      "Big trade decisions affect millions of people, so they should go through lawmakers who represent everyone, not just one person.",
+                      "Having courts check a president's power helps make sure no single person controls the whole economy alone."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, presidents need to act fast"
+                  },
+                  "points": {
+                    "en": [
+                      "Trade problems can change quickly, and waiting for lawmakers to agree might be too slow to protect jobs.",
+                      "The president is elected by the whole country and can be voted out if people don't like the decisions made.",
+                      "Other countries react fast to trade moves, so the U.S. needs to be able to respond without long delays."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Tries Tariffs Again — This Time Through the Back Door"
+          },
+          "hook": {
+            "en": "On Wednesday the Trump administration proposed a fresh set of tariffs — taxes on imported goods — hitting roughly 14 countries, including China, the European Union, Japan, Brazil, South Korea and Taiwan. Chinese goods could face duties up to 20%, rising to 40% if trade talks break down. The move comes just months after the Supreme Court struck down the administration's previous tariffs for going beyond what a president is legally allowed to do, and this new round is widely seen as an attempt to get to the same destination by a different legal road."
+          },
+          "story": {
+            "en": [
+              "A tariff is a tax a government charges on goods coming in from another country. When the United States puts a 20% tariff on Chinese steel, for example, an American company importing that steel pays 20% extra to the government — a cost that usually gets passed on to whoever buys the steel next, all the way down to the price of a car or a washing machine on a store shelf. Tariffs can protect domestic industries by making foreign goods more expensive and less competitive, which is the administration's stated goal here.",
+              "This time, the legal justification is different from before. The Commerce Department — the federal agency that handles trade and industry — ran an investigation into what the administration calls \"unfair manufacturing practices\": foreign governments subsidizing their own factories and producers, letting them sell goods more cheaply than American competitors can. Subsidies are payments or tax breaks a government gives to its own companies, effectively helping them compete abroad. The administration argues this amounts to cheating, and that tariffs are a fair response.",
+              "The reason this needs a new legal footing at all is that the Supreme Court already rejected the administration's last attempt. Those earlier tariffs were imposed using emergency-powers law — legislation meant to let a president act fast during genuine crises, like a war or a sudden economic shock. The Court ruled that broad, long-running tariffs on dozens of countries didn't fit what the emergency law was written for; the power to set tariffs generally belongs to Congress, not the president acting alone. So the administration is now trying a different legal route: not \"emergency,\" but \"unfair practices\" uncovered by a formal investigation.",
+              "Whether this new approach holds up is genuinely unsettled. Some legal experts think an investigation-based process gives the tariffs a sturdier footing, because it follows procedures Congress has actually written into trade law for exactly this kind of situation. Others think it's the same move in a different costume — a way to reach the same sweeping result the courts already said was too broad, just through a different door. That disagreement will likely play out in court challenges over the coming months.",
+              "Reaction from trading partners and economists has been sharp. Governments in the EU, Japan, South Korea and elsewhere are warning they may respond with retaliatory tariffs of their own — taxes aimed back at American exports, like farm goods or machinery, which would raise costs for American producers trying to sell abroad. Economists point out that tariffs are ultimately paid by importers and, usually, by consumers through higher prices, not by the foreign country directly, which complicates the administration's framing of this as foreign nations footing the bill."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If these tariffs take effect, everyday items — electronics, clothing, cars, appliances — could get more expensive, since much of what's sold in the US and used by families is imported from the countries being targeted. It also matters beyond prices: this is a live argument over how much power a president has to set economic policy without Congress or the courts signing off, which shapes how the US makes major decisions for years to come."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "Tariff"
+              },
+              "def": {
+                "en": "A tax a government charges on goods imported from another country, usually making those goods more expensive for buyers."
+              }
+            },
+            {
+              "term": {
+                "en": "Subsidy"
+              },
+              "def": {
+                "en": "Money or tax breaks a government gives to its own companies to help them produce goods more cheaply or compete better abroad."
+              }
+            },
+            {
+              "term": {
+                "en": "Retaliatory tariffs"
+              },
+              "def": {
+                "en": "Tariffs one country imposes specifically in response to another country's tariffs, often targeting that country's exports."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should the US use tariffs to protect American manufacturing, even if it means higher prices for consumers?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, protect manufacturing"
+                  },
+                  "points": {
+                    "en": [
+                      "Factories and manufacturing jobs provide stable, long-term employment that a service-based economy doesn't always replace.",
+                      "Relying heavily on foreign manufacturing, especially from a single country, creates risks if relations sour or supply chains break down, as seen during recent global disruptions.",
+                      "If foreign governments are genuinely subsidizing their industries to undercut American competitors, matching tariffs can be seen as leveling an already uneven playing field."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, prioritize low prices"
+                  },
+                  "points": {
+                    "en": [
+                      "Higher prices from tariffs hit lower-income families hardest, since essentials take up a bigger share of their budgets.",
+                      "Tariffs often trigger retaliation, hurting American exporters like farmers and manufacturers who sell abroad.",
+                      "Protecting inefficient industries with tariffs can reduce the pressure on companies to innovate or become more competitive on their own."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should a president be allowed broad authority to set tariffs through investigations and executive action, or should this power rest mainly with Congress?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Executive authority is appropriate"
+                  },
+                  "points": {
+                    "en": [
+                      "Trade conditions can shift quickly, and a president can act faster than a divided Congress debating legislation for months.",
+                      "Formal investigations, like the Commerce Department's, provide a documented, procedural basis rather than an arbitrary decision.",
+                      "Many other countries give their leaders similar flexibility in trade policy, and matching that speed can be a strategic advantage."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "Congress should hold this power"
+                  },
+                  "points": {
+                    "en": [
+                      "The Constitution assigns tariff and trade power to Congress specifically because it affects the whole economy and should reflect broad democratic input, not one person's judgment.",
+                      "Letting presidents repeatedly find new legal workarounds after courts reject one approach undermines the idea that any branch of government has real limits.",
+                      "Major economic decisions affecting millions of consumers and businesses deserve the debate and compromise that legislative process is designed to provide."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "category": "tech",
+      "region": "GLOBAL",
+      "source": {
+        "title": "AI Stocks Sell Off Despite Huang's Return as Nvidia CEO",
+        "publisher": "CNN",
+        "url": "https://us.cnn.com/2026/11/25/business/ai-sell-off-despite-huang-nvidia-return"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Tech Stocks Tumble as SoftBank, Advantest, SK Hynix, Samsung Slide"
+          },
+          "summary": {
+            "en": "CNBC details the scale of the Asian semiconductor sell-off that preceded the U.S. market drop, giving the fuller international picture behind the Nvidia headlines.\n"
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/tech-stocks-softbank-group-advantest-sk-hynix-samsung.html"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump Says Huang Pardon 'Always an Option'"
+          },
+          "summary": {
+            "en": "Bloomberg reports the president's direct remarks on a possible pardon, adding detail on timing relative to Huang's congressional appearance."
+          },
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-25/trump-says-huang-pardon-always-an-option-new-york-post-reports"
+        },
+        {
+          "title": {
+            "en": "Trump, Huang and the Politics of a Pardon"
+          },
+          "summary": {
+            "en": "CNBC explores why a sitting president is discussing clemency for a CEO who hasn't been charged with a crime, and what it signals about the administration's relationship with Nvidia."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "The Robot-Brain Company Had a Very Wobbly Week"
+          },
+          "hook": {
+            "en": "The companies that make the computer chips powering AI had a scary day. Their stock prices — basically how much people think they're worth — dropped fast, some by more than one in every ten dollars. At the same time, the President said he might forgive the boss of the biggest chip company for a crime nobody has even accused him of yet."
+          },
+          "story": {
+            "en": [
+              "Nvidia makes the special computer chips that let AI chatbots and robots think fast. For months, people have been paying huge amounts of money for pieces of Nvidia and companies like it, betting that AI will keep growing bigger and bigger.",
+              "Then, suddenly, lots of people got worried at once. A Japanese company called SoftBank, which owns pieces of AI companies, lost as much as 15 cents of every dollar it was worth in just one day. Nvidia lost about 8 cents of every dollar too. It's like if your favorite trading cards were worth $10 each yesterday, and today everyone decided they're only worth $9.15.",
+              "On the very same day, something odd happened. Nvidia's boss, a man named Jensen Huang, was removed from his job for a few days and then put back. People say it happened because of worries he had talked with people connected to China's government in a way that worried U.S. officials. Huang has to answer questions about it in Congress next week.",
+              "President Trump said he'd be willing to pardon Huang — meaning officially forgive him — even though no one has charged Huang with any crime yet. Trump also said the government might buy a piece of Nvidia itself, like becoming a part-owner."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The chips Nvidia makes are inside the AI tools lots of grown-ups use at work, and inside video game consoles and phones too. When companies like this wobble, it can shake retirement savings and jobs that depend on them, even for families who've never bought a single AI chip."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "bubble (in money terms)"
+              },
+              "def": {
+                "en": "When something's price gets pushed way higher than what it's really worth, like a soap bubble that looks huge and shiny right before it pops."
+              }
+            },
+            {
+              "term": {
+                "en": "pardon"
+              },
+              "def": {
+                "en": "An official forgiveness from a leader that cancels a punishment for a crime — even, sometimes, before anyone has proven a crime happened."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should a president be allowed to offer forgiveness for a crime before anyone has even officially accused the person of it?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it can be okay"
+                  },
+                  "points": {
+                    "en": [
+                      "If the investigation might be unfair or take too long, offering help early can protect someone from being treated badly.",
+                      "A leader might know the person isn't a real threat and want to calm things down quickly.",
+                      "People in charge of big companies sometimes get caught up in messy situations that aren't really their fault."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's not okay"
+                  },
+                  "points": {
+                    "en": [
+                      "Forgiving someone before anyone even knows if they did something wrong skips the whole process of finding out the truth.",
+                      "It might look like the leader is protecting a friend instead of treating everyone the same.",
+                      "If rules can be skipped for rich or powerful people, that feels unfair to everyone else who has to follow them."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the government be allowed to become a part-owner of a private company like Nvidia?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it could make sense"
+                  },
+                  "points": {
+                    "en": [
+                      "If the company is really important for the whole country, like for computers everyone depends on, the government might want a say in what happens to it.",
+                      "Owning part of a company means the government could earn money if the company does well, which could help everyone.",
+                      "It might help keep important technology and jobs inside the country instead of losing them elsewhere."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's risky"
+                  },
+                  "points": {
+                    "en": [
+                      "A company run partly by the government might make decisions to please politicians instead of doing what's best for its customers.",
+                      "It gives one company a kind of special backing that other companies don't get, which isn't fair to competitors.",
+                      "If government money is tied up in the company, it might be harder for leaders to make tough, honest decisions about it later."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "AI Stocks Plunge on Bubble Fears — Same Day Trump Offers to Pardon Nvidia's CEO"
+          },
+          "hook": {
+            "en": "Tech and AI-related stocks crashed across global markets, with Japan's SoftBank falling as much as 15% and U.S. chip giant Nvidia sinking around 8.5% at one point during the trading day. On the very same day, President Trump said he'd be willing to pardon Nvidia CEO Jensen Huang if it became necessary — just days before Huang is due to testify to Congress about an alleged contact with Chinese intelligence. No charges have actually been filed against Huang, which makes the pardon offer unusually hard to explain."
+          },
+          "story": {
+            "en": [
+              "For months, money has poured into companies connected to artificial intelligence — the chipmakers that build the processors AI needs, the software firms writing the programs, and the data centers storing it all. Investors bet that AI would reshape nearly every industry, and stock prices climbed accordingly. Then, in a single trading session, a lot of that confidence evaporated. SoftBank, the Japanese investment giant with major stakes in chip and AI companies, fell by as much as 15%. Nvidia, whose chips power most of the world's advanced AI systems, dropped roughly 8.5% intraday — meaning at its lowest point during the day, before partially recovering. Even Anthropic, a major AI company, saw declines before the U.S. markets had properly opened (known as premarket trading).",
+              "The underlying fear driving the sell-off is that AI stocks have become what's called a valuation bubble — a situation where a company's stock price reflects excitement and hope about the future far more than its actual current profits or realistic prospects. Bubbles can keep inflating for a long time, but when enough investors start doubting the story at once, prices can fall fast, because everyone tries to sell before everyone else does. Nobody can say for certain whether this was the moment the AI bubble finally burst or just a rough day that recovers soon — reasonable analysts disagree, and that uncertainty itself is part of what's making markets jumpy.",
+              "Layered on top of the market panic was a stranger, more political story. Jensen Huang, Nvidia's CEO, was briefly forced out of his job and then reinstated days earlier, reportedly connected to an allegation that he had some kind of contact with Chinese intelligence services. Huang is expected to testify before Congress next week about exactly what happened. Into that tense moment stepped President Trump, who told reporters he'd be willing to pardon Huang \"if necessary.\"",
+              "A presidential pardon normally forgives someone for a specific crime they've been convicted of, or are at serious risk of being charged with. The odd part here is that no charges have been announced against Huang at all — so it's genuinely unclear what crime a pardon would even cover. Critics, including some legal commentators, called the offer an unusual and premature intervention by a sitting president into a company currently under investigation, especially given that Huang hasn't been formally accused of anything. The administration hasn't explained the legal reasoning behind the idea, or what specifically prompted it.",
+              "Trump also floated a second idea the same day: that the U.S. government could take an equity stake in Nvidia — meaning the government would become a part-owner of the company, much like a shareholder who buys stock. This would be a significant departure from how the U.S. government typically relates to private companies, and no details were given about how it might work, what it would cost, or what the government would get in return. Combined with the pardon comments, it left Nvidia at the center of two separate controversies on the same day its stock price was already tumbling."
+            ]
+          },
+          "why_it_matters": {
+            "en": "If AI stocks really are in a bubble, the fallout wouldn't stay confined to Wall Street — pension funds, retirement accounts, and index funds that millions of ordinary people hold are often loaded with these same tech stocks. And the unusual political attention on Nvidia's CEO raises a separate question that matters regardless of where you live: how should governments treat powerful companies that sit at the center of both national security and the stock market?"
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "valuation bubble"
+              },
+              "def": {
+                "en": "A situation where a company's stock price is driven mainly by excitement and expectation rather than its actual current profits, making a sudden price crash more likely."
+              }
+            },
+            {
+              "term": {
+                "en": "pardon"
+              },
+              "def": {
+                "en": "An official forgiveness from a government leader that cancels a criminal charge or conviction, usually offered after someone has been accused or convicted of a specific crime."
+              }
+            },
+            {
+              "term": {
+                "en": "equity stake"
+              },
+              "def": {
+                "en": "Partial ownership of a company, usually bought by purchasing its stock, which entitles the owner to a share of its profits and value."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it appropriate for a president to publicly offer a pardon to a company's CEO before he has even been charged with a crime?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it's acceptable"
+                  },
+                  "points": {
+                    "en": [
+                      "Presidents comment on high-profile legal situations all the time, and talking about a pardon isn't the same as actually granting one, so it's political speech rather than legal interference.",
+                      "Nvidia is central to America's competitiveness in AI and national security, so reassuring markets and executives during a moment of uncertainty arguably falls within a president's broader job.",
+                      "Since no charges exist, the offer carries no actual legal weight and changes nothing about how the investigation proceeds."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it's inappropriate"
+                  },
+                  "points": {
+                    "en": [
+                      "The justice system is supposed to run independently of political favor, and offering pardons to well-connected executives undermines that principle even if it has no immediate legal effect.",
+                      "Raising a pardon while an investigation is still active, right before congressional testimony, risks looking like an attempt to influence what a witness is willing to say.",
+                      "It sets a troubling precedent where powerful business leaders come to expect political protection, weakening the idea that the law applies the same way regardless of someone's economic importance."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "Should the U.S. government take an ownership stake in a private company like Nvidia?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, it should"
+                  },
+                  "points": {
+                    "en": [
+                      "Nvidia's chips are strategically vital to national security and AI leadership, so taxpayers arguably deserve a direct stake in that value rather than just regulating from the outside.",
+                      "If government support, contracts, or political backing helps a company succeed, it seems fair for the public to share in the resulting financial upside rather than private shareholders alone.",
+                      "Other major economies already blend state involvement with private tech companies in strategically important sectors, and some argue the U.S. needs to do the same to stay competitive."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it shouldn't"
+                  },
+                  "points": {
+                    "en": [
+                      "Owning a stake in a company the government also regulates creates an obvious conflict of interest, since the same government would be both referee and player.",
+                      "Picking individual companies for direct government investment risks distorting fair competition and rewarding political closeness over merit.",
+                      "It marks a major break from how the U.S. economy has traditionally worked, and it's unclear where this kind of government involvement in private business would stop."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "category": "politics",
+      "region": "US",
+      "source": {
+        "title": "Trump Calls GDP Figures 'Fake' and Demands an Investigation of Commerce Department",
+        "publisher": "PBS NewsHour/AP",
+        "url": "https://www.pbs.org/newshour/politics/trump-calls-gdp-figures-fake-and-demands-an-investigation-of-commerce-department"
+      },
+      "background": [
+        {
+          "title": {
+            "en": "Trump Demands GDP Revision Investigation"
+          },
+          "summary": {
+            "en": "CNBC lays out the specific GDP numbers in dispute and how markets reacted to both the strong growth figure and the president's reaction to it."
+          },
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+        },
+        {
+          "title": {
+            "en": "Trump Targets Commerce Department Over Revised GDP Data"
+          },
+          "summary": {
+            "en": "The Hill adds detail on which officials and processes Trump wants investigated, and how the Commerce Department has responded."
+          },
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/administration/6244608-trump-revised-gdp-data-probe/"
+        }
+      ],
+      "further": [
+        {
+          "title": {
+            "en": "Trump Calls GDP Figures Fake, Demands Probe of His Own Commerce Department"
+          },
+          "summary": {
+            "en": "South China Morning Post frames how the episode is being read internationally, including what it signals to foreign investors about U.S. data credibility."
+          },
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department"
+        }
+      ],
+      "videos": [],
+      "versions": {
+        "primary": {
+          "headline": {
+            "en": "A Good Report Card Made the President Angry"
+          },
+          "hook": {
+            "en": "The U.S. government just announced that the country's economy grew even faster than first thought. Instead of celebrating, President Trump said the new, better number was fake and wants to investigate his own team for publishing it."
+          },
+          "story": {
+            "en": [
+              "Every few months, a group called the Commerce Department measures how much bigger the whole U.S. economy got. This number is called GDP, short for Gross Domestic Product. Think of it like measuring how much taller you grew this year, except it's measuring every business, job, and sale in the entire country.",
+              "First, the Commerce Department said the economy grew by 3.4% over the summer. Then they did more careful counting and said it actually grew by 4.3%, which is even better news than before.",
+              "Updating a number later is completely normal. It happens all the time, kind of like when a teacher re-checks a stack of tests and finds a few kids actually scored higher than first marked.",
+              "But President Trump called the new, improved number fake. He wants to investigate the Commerce Department, even though he is the one who chose the people running it. So far, he has not shown any proof that anyone did the math wrong."
+            ]
+          },
+          "why_it_matters": {
+            "en": "Banks, business owners, and the people who decide how much it costs to borrow money all depend on these numbers being true. If people stop trusting official numbers, it becomes harder for everyone to know what is really happening, a bit like trying to ride a bike without trusting your own eyes."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "GDP"
+              },
+              "def": {
+                "en": "A number that measures how much bigger a country's whole economy grew, by adding up everything people built, sold, and worked on."
+              }
+            },
+            {
+              "term": {
+                "en": "revised estimate"
+              },
+              "def": {
+                "en": "An updated number that replaces an earlier guess once more careful counting has been done."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Is it okay for a boss to say 'I don't believe you' to people on his own team, even without showing proof?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, questioning is fine"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders are allowed to double-check work, even work done by their own team.",
+                      "Asking hard questions can sometimes catch mistakes nobody else has noticed yet.",
+                      "If a leader never questions anything, real problems might stay hidden."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, it isn't fair"
+                  },
+                  "points": {
+                    "en": [
+                      "If you don't trust your own team's work, it seems unfair to blame them without any proof.",
+                      "Calling something fake without evidence can make people feel wrongly accused.",
+                      "It might make workers scared to share true news in the future, even when it's good news."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "If someone says a number is fake but doesn't show any proof, should we still take them seriously?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, hear them out"
+                  },
+                  "points": {
+                    "en": [
+                      "Leaders sometimes know things that ordinary people haven't been told yet.",
+                      "Being open-minded means not dismissing a claim the moment you hear it.",
+                      "If many important people repeat the same worry, it might be worth looking into."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, ask for proof first"
+                  },
+                  "points": {
+                    "en": [
+                      "A claim without any evidence is really just a guess, not a fact.",
+                      "Numbers like GDP come from careful counting, not from someone's feelings.",
+                      "Believing things without proof makes it easy for anyone to be fooled."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "secondary": {
+          "headline": {
+            "en": "Trump Calls His Own Government's Good Economic News 'Fake'"
+          },
+          "hook": {
+            "en": "The U.S. Commerce Department updated its estimate of how fast the economy grew over the summer, raising the number from 3.4% to a stronger 4.3%. That is normally a non-event — a routine statistical correction. But President Trump reacted by accusing the agency, which he appointed, of deliberately publishing false figures to hurt Republicans in the midterm elections, and said he wants to investigate it."
+          },
+          "story": {
+            "en": [
+              "Three times a year, the Commerce Department publishes an estimate of GDP — gross domestic product, the total value of everything the country produced in a given period. The first estimate always comes out fast, using incomplete data, and gets revised as more complete numbers roll in over the following weeks and months. This time, the revision moved growth up, from 3.4% to 4.3% at an annualized rate — meaning if the economy kept growing at that pace for a full year, that's roughly how much bigger it would get.",
+              "Upward revisions like this happen constantly and are built into the agency's publicly announced release schedule; nobody at the Commerce Department decides on a whim to change a number, and economists who track the process could see this one coming. That is what makes President Trump's reaction unusual. He did not dispute a number that made him look bad — this one was good news, showing the economy growing faster than first thought. He called it 'fake' anyway, offered no evidence that anyone had manipulated it, and said he wants to investigate the very department whose job is to produce these statistics.",
+              "It is worth sitting with who is accusing whom here. The Commerce Department is part of the executive branch, meaning its leadership answers to the president. The current secretary was Trump's own pick. So this is not one political party accusing the other of lying — it is a sitting president publicly saying his own administration's official economic data cannot be trusted, with no explanation of what, specifically, he thinks was faked or why.",
+              "That distinction matters because of who relies on these numbers. Investors decide where to put money based partly on GDP figures. Businesses use them to plan hiring and spending. The Federal Reserve, the central bank that sets interest rates for the whole economy, leans on this data to decide whether to raise or lower rates. None of those decisions work well if the people producing the numbers are publicly accused, by their own boss, of cooking them — even if, as in this case, nothing suggests they did.",
+              "Governments throughout history have sometimes falsified economic data to make themselves look better; it is a well-documented tactic in countries where no free press or independent agency can check the claim. What makes this episode notable is closer to the reverse: a leader attacking statistics that happened to be favorable, undermining confidence in the system that produces them for reasons that remain unexplained."
+            ]
+          },
+          "why_it_matters": {
+            "en": "The number itself barely changes anyone's life, but trust in official statistics quietly underpins things that do — mortgage rates, job markets, how much your family's savings or a parent's business might be worth. If people stop believing the government's own numbers, even for no clear reason, it gets harder for everyone to make basic financial decisions with confidence."
+          },
+          "word_bank": [
+            {
+              "term": {
+                "en": "GDP (Gross Domestic Product)"
+              },
+              "def": {
+                "en": "A measure of the total value of everything a country produces in a given period, used as the main scorecard for how fast an economy is growing or shrinking."
+              }
+            },
+            {
+              "term": {
+                "en": "Revision"
+              },
+              "def": {
+                "en": "An update to an earlier economic estimate once more complete data becomes available — a routine, scheduled part of how statistics agencies work, not a sign something went wrong."
+              }
+            },
+            {
+              "term": {
+                "en": "Federal Reserve"
+              },
+              "def": {
+                "en": "The United States' central bank, which sets interest rates for the whole economy and depends on accurate government data, like GDP, to make those decisions."
+              }
+            }
+          ],
+          "talk_about_it": [
+            {
+              "question": {
+                "en": "Should statistics agencies like the Commerce Department be made independent from the president, the way the Federal Reserve already is, to prevent this kind of political interference?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, make them independent"
+                  },
+                  "points": {
+                    "en": [
+                      "Markets, businesses, and the Fed all need confidence that economic data is untouched by politics, regardless of who happens to be president.",
+                      "The Federal Reserve already proves that independence from the president is an accepted solution to exactly this problem.",
+                      "If a president can publicly attack the people who compile these numbers, staff may start second-guessing their own work out of fear of political backlash — a real cost even if no figure is ever actually changed."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, keep it under elected oversight"
+                  },
+                  "points": {
+                    "en": [
+                      "Unlike the Fed, the Commerce Department is a normal part of the executive branch, and executive branch agencies answering to the president is how democratic accountability is supposed to work.",
+                      "Making statistics agencies fully independent would take budget and oversight power away from officials that voters actually elected.",
+                      "If the numbers really were wrong, having the agency accountable to elected leadership gives a clear path to flag and fix it, rather than leaving an unaccountable body answerable to no one."
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "question": {
+                "en": "When a president accuses his own government of lying about data, with no evidence offered, should that still be treated as a claim worth formally investigating?"
+              },
+              "sides": [
+                {
+                  "label": {
+                    "en": "Yes, investigate it"
+                  },
+                  "points": {
+                    "en": [
+                      "The president is about as empowered a person as exists in government, so if he genuinely suspects fraud, that is exactly the kind of claim an investigation exists to check.",
+                      "A proper investigation costs little and would either expose a real problem or clear the agency's name — both useful outcomes.",
+                      "Dismissing every claim outright because a leader has said false things before risks ignoring the one time it happens to be true."
+                    ]
+                  }
+                },
+                {
+                  "label": {
+                    "en": "No, treat it as unfounded"
+                  },
+                  "points": {
+                    "en": [
+                      "There is already a public, pre-announced technical process for GDP revisions that independent economists and journalists can and did verify on their own.",
+                      "Launching an investigation into every unsupported claim lends it legitimacy it has not earned and spreads distrust that isn't warranted.",
+                      "Trusting the long-established, well-understood statistical process is more reasonable than acting on suspicion with no evidence behind it."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
